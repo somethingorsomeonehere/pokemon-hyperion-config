@@ -3874,7 +3874,7 @@ ability {
 ability {
   id: ABILITY_CORRUPTED_MIND
   name: "Corrupted Mind"
-  description: "Psychic-type moves deal Super-effective damage."
+  description: "Psychic moves ignore resists and get 1.4x effect chance."
 }
 ability {
   id: ABILITY_FLAME_COAT
