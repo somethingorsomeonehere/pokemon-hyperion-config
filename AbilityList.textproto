@@ -3966,3 +3966,8 @@ ability {
   name: "Metallic Jaws"
   description: "Metallic + Primal Maw."
 }
+ability {
+  id: ABILITY_CALCULATIVE
+  name: "Calculative"
+  description: "Analytic + Neuroforce."
+}
