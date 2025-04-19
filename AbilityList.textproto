@@ -1169,7 +1169,7 @@ ability {
 ability {
   id: ABILITY_NEUROFORCE
   name: "Neuroforce"
-  description: "Grants an additional 1.25x boost to Super-effective moves."
+  description: "Grants an additional 1.35x boost to Super-effective moves."
 }
 ability {
   id: ABILITY_INTREPID_SWORD
