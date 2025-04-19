@@ -2035,3 +2035,13 @@ item {
   palette: "rusted_shield"
   talk_to_legendary_sage: true
 }
+item {
+  id: ITEM_DUDUDUNITE
+  name: "Dududunite"
+  description: "Enables Dududunsparce to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}

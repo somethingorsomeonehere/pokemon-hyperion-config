@@ -3961,3 +3961,8 @@ ability {
   name: "DNA Scramble"
   description: "Changes forms based on the the move used."
 }
+ability {
+  id: ABILITY_METALLIC_JAWS
+  name: "Metallic Jaws"
+  description: "Metallic + Primal Maw."
+}

@@ -190771,7 +190771,6 @@ species {
 }
 species {
   id: SPECIES_DUDUDUNSPARCE_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   type: TYPE_NORMAL
   type2: TYPE_GROUND
   hp: 145
@@ -190787,6 +190786,10 @@ species {
   innate: ABILITY_LETS_ROLL
   innate: ABILITY_SERENE_GRACE
   percent_female: 50
+  mega {
+    from: SPECIES_DUDUDUNSPARCE
+    item: ITEM_DUDUDUNITE
+  }
   visuals {
     icon {
       path: "dududunsparce/mega/icon"
