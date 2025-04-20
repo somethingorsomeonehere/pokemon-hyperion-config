@@ -1704,7 +1704,7 @@ ability {
 ability {
   id: ABILITY_FATAL_PRECISION
   name: "Fatal Precision"
-  description: "Super-effective moves never miss and get a 1.2x boost."
+  description: "Super-effective moves never miss and always crit."
 }
 ability {
   id: ABILITY_FORT_KNOX
@@ -3970,4 +3970,9 @@ ability {
   id: ABILITY_CALCULATIVE
   name: "Calculative"
   description: "Analytic + Neuroforce."
+}
+ability {
+  id: ABILITY_DEADLY_PRECISION
+  name: "Fatal Precision"
+  description: "Super-effective moves never miss and ignore abilities."
 }
