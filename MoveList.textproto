@@ -15125,7 +15125,7 @@ moves {
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
-  power: 75
+  power: 80
   accuracy: 100
   pp: 15
   effect_chance: 100
