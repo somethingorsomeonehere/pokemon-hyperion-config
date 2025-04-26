@@ -1238,8 +1238,8 @@ moves {
   name: "Absorb"
   short_name: "Absorb"
   tutor: TUTOR_ATTACK
-  description: "Covers the foe with plants that absorb its stat changes."
-  short_description: "Hits the foe with plants that remove its stat changes."
+  description: "Covers the foe with plants that remove stat changes."
+  short_description: "Covers the foe with plants that remove stat changes"
   effect: EFFECT_CLEAR_SMOG
   split: SPECIAL
   type: TYPE_GRASS
@@ -5432,7 +5432,7 @@ moves {
   id: MOVE_AERIAL_ACE
   name: "Aerial Ace"
   short_name: "Aerial Ace"
-  description: "An extremely fast attack. It can\'t be evaded. Keen Edge boost."
+  description: "Always crits and never misses. Keen Edge boost."
   short_description: "An extremely speedy and unavoidable attack."
   split: PHYSICAL
   type: TYPE_FLYING
@@ -9237,7 +9237,7 @@ moves {
   id: MOVE_FLYING_PRESS
   name: "Flying Press"
   short_name: "Flying Press"
-  description: "A wrestling attack that is Fighting-and Flying-type at the same time."
+  description: "A wrestling attack that is Fighting or Flying based on effectiveness."
   short_description: "This attack does Fighting and Flying-type damage."
   split: PHYSICAL
   type: TYPE_FIGHTING
@@ -9565,7 +9565,7 @@ moves {
   name: "Misty Terrain"
   short_name: "MistyTerrain"
   tutor: TUTOR_TERRAIN
-  description: "Weakens Dragon-type moves for 8 turns, and prevents status conditions for all."
+  description: "Boosts Fairy-type moves for 8 turns, and prevents status conditions for all."
   short_description: "Covers the ground with mist for 8 turns. Blocks status."
   effect: EFFECT_MISTY_TERRAIN
   split: STATUS
@@ -11305,8 +11305,8 @@ moves {
   id: MOVE_DYNAMAX_CANNON
   name: "Dynamax Cannon"
   short_name: "DynamxCannon"
-  description: "The user unleashes a strong beam that damages Dynamaxed foes twice as hard."
-  short_description: "Fires a strong beam. Deals 2x damage to Dynamaxed foes."
+  description: "The user unleashes a strong beam that damages Mega foes twice as hard."
+  short_description: "Fires a strong beam. Deals 2x damage to Mega foes."
   split: SPECIAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -11644,7 +11644,7 @@ moves {
   id: MOVE_AURA_WHEEL
   name: "Aura Wheel"
   short_name: "Aura Wheel"
-  description: "Electric-and Dark-type at the same time. Raises Speed."
+  description: "Electric or Dark based on effectiveness. Raises Speed."
   short_description: "Raises Speed to attack. Both Electric-and Dark-type."
   effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
@@ -12579,7 +12579,7 @@ moves {
   id: MOVE_SCORCHED_EARTH
   name: "Scorched Earth"
   short_name: "Scor.Earth"
-  description: "Fire-and Ground-type at the same time. Has 10% burn chance."
+  description: "Fire or Ground based on effectiveness. Has 10% burn chance."
   short_description: "Precisely burns the ground under the foe. May burn."
   effect: EFFECT_BURN_HIT
   split: SPECIAL
@@ -14568,7 +14568,7 @@ moves {
   id: MOVE_FILLET_AWAY
   name: "Fillet Away"
   short_name: "Fillet Away"
-  description: "The user sharply boosts its Sp. Atk, Sp. Def. and Speed by using its HP."
+  description: "The user sharply boosts its Atk, Sp. Atk, and Speed by using its HP."
   short_description: "The user sharply boosts stats using its own HP."
   effect: EFFECT_FILLET_AWAY
   split: STATUS
@@ -15675,8 +15675,8 @@ moves {
   id: MOVE_EARTHSPLITTER
   name: "Earthsplitter"
   short_name: "Earthspltter"
-  description: "Lowers the defense of Grass, Ground, and Rock targets. Hammer-based."
-  short_description: "A might slam lowers the Def of Grass, Ground, and Rock-types."
+  description: "Can lower the defense of targets. Hammer-based."
+  short_description: "A might slam that can lower defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_STEEL
