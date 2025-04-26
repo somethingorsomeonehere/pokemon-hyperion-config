@@ -10600,16 +10600,17 @@ moves {
   id: MOVE_SMART_STRIKE
   name: "Smart Strike"
   short_name: "Smart Strike"
-  description: "Stabs the foe with a sharp horn. Never misses. Mighty Horn boost."
+  description: "Stabs the foe with a sharp horn. Ignores Abilities. Mighty Horn boost."
   short_description: "Hits with an accurate horn that never misses."
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 70
+  power: 80
   pp: 10
   contact: true
   mirror_move_affected: true
   horn: true
+  ignores_ability: true
 }
 moves {
   id: MOVE_PURIFY
