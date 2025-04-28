@@ -959,7 +959,7 @@ item {
 item {
   id: ITEM_KINGAMBITITE_R
   name: "Kingambitite R"
-  description: "Enables Kingambit to Mega Evolve."
+  description: "Enables Kingambit R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
@@ -1218,7 +1218,7 @@ item {
 item {
   id: ITEM_FROSLASSITE_R
   name: "Froslassite R"
-  description: "Enables Flygon R to Mega Evolve."
+  description: "Enables Froslass R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite_R"
