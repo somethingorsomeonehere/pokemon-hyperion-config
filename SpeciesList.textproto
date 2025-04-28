@@ -4357,6 +4357,10 @@ species {
       level: 51
       move: MOVE_RIP_AND_TEAR
     }
+    level {
+      level: 61
+      move: MOVE_BANEFUL_BUNKER
+    }
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
@@ -77763,6 +77767,10 @@ species {
       move: MOVE_DRACO_METEOR
       move: MOVE_MIST_BALL
     }
+    level {
+      level: 81
+      move: MOVE_MYSTIC_DANCE
+    }
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AURA_SPHERE
@@ -77978,6 +77986,10 @@ species {
       level: 51
       move: MOVE_DRACO_METEOR
       move: MOVE_LUSTER_PURGE
+    }
+    level {
+      level: 81
+      move: MOVE_MYSTIC_DANCE
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -90082,16 +90094,20 @@ species {
       move: MOVE_BRICK_BREAK
       move: MOVE_PRESENT
       move: MOVE_INSECT_IMPACT
+      move: MOVE_BATTERING_RAM
     }
     level {
       level: 37
       move: MOVE_METEOR_MASH
       move: MOVE_DYNAMIC_PUNCH
       move: MOVE_THRASH
+      move: MOVE_DOUBLE_EDGE
     }
     level {
       level: 46
       move: MOVE_DETECT
+      move: MOVE_SUBMISSION
+      move: MOVE_OUTRAGE
     }
     level {
       level: 51
@@ -90100,6 +90116,10 @@ species {
     level {
       level: 56
       move: MOVE_HAMMER_ARM
+    }
+    level {
+      level: 61
+      move: MOVE_SKY_UPPERCUT
     }
     level {
       level: 81
