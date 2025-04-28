@@ -122368,6 +122368,10 @@ species {
       move: MOVE_SACRED_SWORD
     }
     level {
+      level: 51
+      move: MOVE_FINAL_GAMBIT
+    }
+    level {
       level: 56
       move: MOVE_EXCALIBUR
       move: MOVE_GUILLOTINE
