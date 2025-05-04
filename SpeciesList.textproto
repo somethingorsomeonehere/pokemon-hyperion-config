@@ -28052,7 +28052,6 @@ species {
   innate: ABILITY_PROTEAN
   percent_female: 12.5
   tier: 4
-  allow_deevolution_to: true
   evo {
     to: SPECIES_JOLTEON
     level: 23
@@ -28171,6 +28170,7 @@ species {
       }
     }
   }
+  allow_deevolution_to: true
 }
 species {
   id: SPECIES_ESPEON
@@ -71750,6 +71750,10 @@ species {
       level: 51
       move: MOVE_GUILLOTINE
       move: MOVE_HEAD_SMASH
+    }
+    level {
+      level: 71
+      move: MOVE_MIGHTY_CLEAVE
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_BUG_BITE
@@ -154928,7 +154932,6 @@ species {
   genderless: true
   tier: 5
   no_flip: true
-  allow_deevolution_to: true
   evo {
     to: SPECIES_NECROZMA_DAWN_WINGS
     level: 60
@@ -155063,6 +155066,7 @@ species {
     palette: "necrozma/normal"
     shiny: "necrozma/shiny"
   }
+  allow_deevolution_to: true
 }
 species {
   id: SPECIES_NECROZMA_DUSK_MANE
