@@ -3973,6 +3973,6 @@ ability {
 }
 ability {
   id: ABILITY_DEADLY_PRECISION
-  name: "Fatal Precision"
+  name: "Deadly Precision"
   description: "Super-effective moves never miss and ignore abilities."
 }

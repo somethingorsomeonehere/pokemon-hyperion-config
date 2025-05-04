@@ -1100,8 +1100,8 @@ moves {
   split: SPECIAL
   type: TYPE_NORMAL
   target: SELECTED
-  power: 160
-  accuracy: 90
+  power: 150
+  accuracy: 100
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
@@ -5294,7 +5294,7 @@ moves {
   id: MOVE_SIGNAL_BEAM
   name: "Signal Beam"
   short_name: "Signal Beam"
-  description: "Hits with a flashing beam. 10% confusion chance Mega Launcher boost"
+  description: "Hits with a flashing beam. 20% confusion chance Mega Launcher boost"
   short_description: "A strange beam attack that may confuse the foe."
   effect: EFFECT_CONFUSE_HIT
   split: SPECIAL
@@ -5303,7 +5303,7 @@ moves {
   power: 85
   accuracy: 100
   pp: 15
-  effect_chance: 10
+  effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
 }
@@ -6625,7 +6625,7 @@ moves {
   name: "Bug Buzz"
   short_name: "Bug Buzz"
   tutor: TUTOR_ATTACK
-  description: "A harsh sound wave from the user. 10% chance to drop foe\'s Sp. Def."
+  description: "A harsh sound wave from the user. 20% chance to drop foe\'s Sp. Def."
   short_description: "A damaging sound wave that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
@@ -6634,7 +6634,7 @@ moves {
   power: 90
   accuracy: 100
   pp: 10
-  effect_chance: 10
+  effect_chance: 20
   mirror_move_affected: true
   sound: true
 }
@@ -6819,7 +6819,7 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   power: 160
-  accuracy: 90
+  accuracy: 100
   pp: 5
   contact: true
   mirror_move_affected: true
@@ -10926,7 +10926,7 @@ moves {
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 100
+  power: 120
   accuracy: 100
   pp: 5
   contact: true
@@ -10943,7 +10943,7 @@ moves {
   split: SPECIAL
   type: TYPE_GHOST
   target: SELECTED
-  power: 100
+  power: 120
   accuracy: 100
   pp: 5
   ignores_ability: true
@@ -15215,7 +15215,7 @@ moves {
   type: TYPE_PSYCHIC
   target: SELECTED
   power: 70
-  accuracy: 90
+  accuracy: 100
   pp: 10
   effect_chance: 100
   contact: true
