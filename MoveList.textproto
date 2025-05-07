@@ -4699,7 +4699,7 @@ moves {
   type: TYPE_NORMAL
   target: USER
   accuracy: 100
-  pp: 20
+  pp: 10
   snatch_affected: true
 }
 moves {
