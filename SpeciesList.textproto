@@ -83615,19 +83615,26 @@ species {
 species {
   id: SPECIES_LUXRAY_REDUX
   randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_LUXRAY
+  dex {
+    name: "Luxzero"
+    national_dex_num: 9999
+    body_color: BODY_COLOR_WHITE
+    egg_group: FIELD
+    egg_group_2: FIELD
+  }
   type: TYPE_ELECTRIC
   type2: TYPE_ICE
-  hp: 90
-  atk: 120
-  def: 79
-  spatk: 75
-  spdef: 79
-  ability: ABILITY_INTIMIDATE
-  ability: ABILITY_ELECTRIC_BURST
-  ability: ABILITY_GUTS
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_BAD_LUCK
+  hp: 75
+  atk: 110
+  def: 74
+  spatk: 90
+  spdef: 74
+  spe: 110
+  ability: ABILITY_HYPER_AGGRESSIVE
+  ability: ABILITY_SHINY_LIGHTNING
+  ability: ABILITY_CRYO_ARCHITECT
+  innate: ABILITY_FATAL_PRECISION
+  innate: ABILITY_FLUFFY
   innate: ABILITY_PREDATOR
   percent_female: 50
   learnset {
