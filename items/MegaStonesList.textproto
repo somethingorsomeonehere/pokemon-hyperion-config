@@ -2045,3 +2045,39 @@ item {
   palette: "audinite"
   adoption_center: true
 }
+item {
+  id: ITEM_TEAL_MASK
+  name: "Teal Mask"
+  description: "Boosts Ogerpon's power and enables mega evolution."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "tera_orb"
+  palette: "tera_orb"
+}
+item {
+  id: ITEM_HEARTHFLAME_MASK
+  name: "Hearthflame Mask"
+  description: "Boosts Ogerpon-H's power and enables mega evolution."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "hearthflame_mask"
+  palette: "hearthflame_mask"
+}
+item {
+  id: ITEM_WELLSPRING_MASK
+  name: "Wellspring Mask"
+  description: "Boosts Ogerpon-W's power and enables mega evolution."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "wellspring_mask"
+  palette: "wellspring_mask"
+}
+item {
+  id: ITEM_CORNERSTONE_MASK
+  name: "Cornerstone Mask"
+  description: "Boosts Ogerpon-C's power and enables mega evolution."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "cornerstone_mask"
+  palette: "cornerstone_mask"
+}

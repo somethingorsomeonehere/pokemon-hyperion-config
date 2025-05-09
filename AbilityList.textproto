@@ -3976,3 +3976,28 @@ ability {
   name: "Deadly Precision"
   description: "Super-effective moves never miss and ignore abilities."
 }
+ability {
+  id: ABILITY_EMBODY_ASPECT
+  name: "Embody Aspect"
+  description: "+1 Speed on Entry."
+}
+ability {
+  id: ABILITY_EMBODY_ASPECT_HEARTHFLAME
+  name: "Embody Aspect"
+  description: "+1 Attack on Entry."
+}
+ability {
+  id: ABILITY_EMBODY_ASPECT_CORNERSTONE
+  name: "Embody Aspect"
+  description: "+1 Defense on Entry."
+}
+ability {
+  id: ABILITY_EMBODY_ASPECT_WELLSPRING
+  name: "Embody Aspect"
+  description: "+1 Spdef on Entry."
+}
+ability {
+  id: ABILITY_ROCKHARD_SHAFT
+  name: "Mountain Will"
+  description: "Boosts Rock-type moves by 1.3x, or 1.8x when below 1/3 HP."
+}

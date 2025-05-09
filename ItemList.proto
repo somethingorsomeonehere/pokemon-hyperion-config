@@ -29,6 +29,7 @@ enum HoldEffect {
   HOLD_EFFECT_MEGA_STONE = 16;
   HOLD_EFFECT_SEEDS = 17;
   HOLD_EFFECT_Z_CRYSTAL = 18;
+  HOLD_EFFECT_MASK = 19;
 }
 
 enum UseType {
