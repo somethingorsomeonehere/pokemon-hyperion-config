@@ -7868,8 +7868,8 @@ moves {
   id: MOVE_MAGIC_ROOM
   name: "Magic Room"
   short_name: "Magic Room"
-  description: "For 5 turns, the effects of held items are negated by a bizarre area."
-  short_description: "Hold items lose their effects for 5 turns."
+  description: "Prevents passive damage and disables mega stones for 5 turns."
+  short_description: "Disables stones and passive DMG for 5 turns."
   effect: EFFECT_MAGIC_ROOM
   split: STATUS
   type: TYPE_PSYCHIC
