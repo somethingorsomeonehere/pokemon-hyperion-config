@@ -148,7 +148,7 @@ message Move {
   int32 priority = 17;
   Argument argument = 18;
 
-  bool contact = 19 [(field_name) = "Makes Contact", (is_flag) = true, (flag_code_value) = "FLAG_MAKES_CONTACT"];
+  bool contact = 19 [(field_name) = "Makes Contact", (is_flag) = true, (flag_code_value) = "contact"];
   Crit crit = 20 [(is_flag) = true];
 
   bool ignores_protect = 21 [(field_name) = "Ignores Protect", (is_flag) = true];
