@@ -514,7 +514,7 @@ ability {
 ability {
   id: ABILITY_LEAF_GUARD
   name: "Leaf Guard"
-  description: "Immune to status conditions if sun is active."
+  description: "Cures own status at the end of every turn in sun."
 }
 ability {
   id: ABILITY_KLUTZ
@@ -564,7 +564,7 @@ ability {
 ability {
   id: ABILITY_SLOW_START
   name: "Slow Start"
-  description: "Halves Attack and Speed during the first 5 turns out."
+  description: "Halves Offenses and Speed during the first 5 turns out."
 }
 ability {
   id: ABILITY_SCRAPPY
@@ -789,7 +789,7 @@ ability {
 ability {
   id: ABILITY_SAP_SIPPER
   name: "Sap Sipper"
-  description: "Boosts highest Atk instead of being hit by Grass-type moves."
+  description: "Redirects Grass moves. Absorbs them, ups highest Atk."
 }
 ability {
   id: ABILITY_PRANKSTER
@@ -874,7 +874,7 @@ ability {
 ability {
   id: ABILITY_REFRIGERATE
   name: "Refrigerate"
-  description: "Normal-type moves become Ice and get a 1.1x boost."
+  description: "Normal-type moves become Ice and Ice gains STAB."
 }
 ability {
   id: ABILITY_SWEET_VEIL
@@ -914,7 +914,7 @@ ability {
 ability {
   id: ABILITY_PIXILATE
   name: "Pixilate"
-  description: "Normal-type moves become Fairy and get a 1.1x boost."
+  description: "Normal-type moves become Fairy and Fairy gains STAB."
 }
 ability {
   id: ABILITY_GOOEY
@@ -924,7 +924,7 @@ ability {
 ability {
   id: ABILITY_AERILATE
   name: "Aerilate"
-  description: "Normal-type moves become Flying and get a 1.1x boost."
+  description: "Normal-type moves become Flying and Flying gains STAB."
 }
 ability {
   id: ABILITY_PARENTAL_BOND
@@ -1034,7 +1034,7 @@ ability {
 ability {
   id: ABILITY_GALVANIZE
   name: "Galvanize"
-  description: "Normal-type moves become Elecric and get a 1.1x boost."
+  description: "Normal-type moves become Elecric and Electric gains STAB."
 }
 ability {
   id: ABILITY_SURGE_SURFER
@@ -1399,7 +1399,7 @@ ability {
 ability {
   id: ABILITY_IMMOLATE
   name: "Immolate"
-  description: "Normal-type moves become Fire and get a 1.1x boost."
+  description: "Normal-type moves become Fire and Fire gains STAB."
 }
 ability {
   id: ABILITY_CRYSTALLIZE
@@ -1504,7 +1504,7 @@ ability {
 ability {
   id: ABILITY_FIGHT_SPIRIT
   name: "Fighting Spirit"
-  description: "Normal-type moves become Fighting and get a 1.1x boost."
+  description: "Normal-type moves become Fighting and Fighting gains STAB."
 }
 ability {
   id: ABILITY_FELINE_PROWESS
@@ -1544,7 +1544,7 @@ ability {
 ability {
   id: ABILITY_TECTONIZE
   name: "Tectonize"
-  description: "Normal-type moves become Ground and get a 1.1x boost."
+  description: "Normal-type moves become Ground and Ground gains STAB."
 }
 ability {
   id: ABILITY_ICE_AGE
@@ -1579,7 +1579,7 @@ ability {
 ability {
   id: ABILITY_HYDRATE
   name: "Hydrate"
-  description: "Normal-type moves become Water and get a 1.1x boost."
+  description: "Normal-type moves become Water and Water gains STAB."
 }
 ability {
   id: ABILITY_METALLIC
@@ -1589,7 +1589,7 @@ ability {
 ability {
   id: ABILITY_PERMAFROST
   name: "Permafrost"
-  description: "Takes 25% less damage from Super-effective moves."
+  description: "Takes 35% less damage from Super-effective moves."
 }
 ability {
   id: ABILITY_PRIMAL_ARMOR
@@ -1629,7 +1629,7 @@ ability {
 ability {
   id: ABILITY_INTOXICATE
   name: "Intoxicate"
-  description: "Normal-type moves become Poison and get a 1.1x boost."
+  description: "Normal-type moves become Poison and Poison gains STAB."
 }
 ability {
   id: ABILITY_IMPENETRABLE
@@ -1899,7 +1899,7 @@ ability {
 ability {
   id: ABILITY_ICE_DEW
   name: "Ice Dew"
-  description: "Boosts highest Atk instead of being hit by Ice-type moves."
+  description: "Redirects Ice moves. Absorbs them, ups highest Atk."
 }
 ability {
   id: ABILITY_SUN_WORSHIP
@@ -1909,7 +1909,7 @@ ability {
 ability {
   id: ABILITY_POLLINATE
   name: "Pollinate"
-  description: "Normal-type moves become Bug and get a 1.1x boost."
+  description: "Normal-type moves become Bug and Bug gains STAB."
 }
 ability {
   id: ABILITY_VOLCANO_RAGE
@@ -1934,7 +1934,7 @@ ability {
 ability {
   id: ABILITY_SPECTRALIZE
   name: "Spectralize"
-  description: "Normal-type moves become Ghost and get a 1.1x boost."
+  description: "Normal-type moves become Ghost and Ghost gains STAB."
 }
 ability {
   id: ABILITY_SPECTRAL_SHROUD
@@ -2024,7 +2024,7 @@ ability {
 ability {
   id: ABILITY_MINERALIZE
   name: "Mineralize"
-  description: "Normal-type moves become Rock and get a 1.1x boost."
+  description: "Normal-type moves become Rock and Rock gains STAB."
 }
 ability {
   id: ABILITY_LOOSE_ROCKS
@@ -2069,7 +2069,7 @@ ability {
 ability {
   id: ABILITY_DRACONIZE
   name: "Draconize"
-  description: "Normal-type moves become Dragon and get a 1.1x boost."
+  description: "Normal-type moves become Dragon and Dragon gains STAB."
 }
 ability {
   id: ABILITY_PRETTY_PRINCESS
@@ -2214,7 +2214,7 @@ ability {
 ability {
   id: ABILITY_FAE_HUNTER
   name: "Fae Hunter"
-  description: "Does 50% more damage to Fairy-types."
+  description: "Deals 1.5x damage to Fairy. Takes 0.5x damage from Fairy."
 }
 ability {
   id: ABILITY_GRAVITY_WELL
@@ -2229,7 +2229,7 @@ ability {
 ability {
   id: ABILITY_LUMBERJACK
   name: "Lumberjack"
-  description: "1.5x damage to Grass types."
+  description: "Deals 1.5x damage to Grass. Takes 0.5x damage from Grass."
 }
 ability {
   id: ABILITY_WELL_BAKED_BODY
@@ -2299,7 +2299,7 @@ ability {
 ability {
   id: ABILITY_EMANATE
   name: "Emanate"
-  description: "Normal-type moves become Psychic and get a 1.1x boost."
+  description: "Normal-type moves become Psychic and Psychic gains STAB."
 }
 ability {
   id: ABILITY_KUNOICHI_BLADE
@@ -2539,7 +2539,7 @@ ability {
 ability {
   id: ABILITY_FERTILIZE
   name: "Fertilize"
-  description: "Normal-type moves become Grass and get a 1.1x boost."
+  description: "Normal-type moves become Grass and Grass gains STAB."
 }
 ability {
   id: ABILITY_PURE_LOVE
@@ -2914,7 +2914,7 @@ ability {
 ability {
   id: ABILITY_PERMAFROST_CLONE
   name: "Thick Skin"
-  description: "Takes 25% less damage from Super-effective moves."
+  description: "Takes 35% less damage from Super-effective moves."
 }
 ability {
   id: ABILITY_GALLANTRY
@@ -3239,7 +3239,7 @@ ability {
 ability {
   id: ABILITY_UNICORN
   name: "Unicorn"
-  description: "Mighty Horn + Dazzling."
+  description: "Mighty Horn + Pixilate."
 }
 ability {
   id: ABILITY_ON_THE_PROWL
@@ -3264,7 +3264,7 @@ ability {
 ability {
   id: ABILITY_SUGAR_RUSH
   name: "Sugar Rush"
-  description: "Gluttony + eats foe's berry when hitting with contact move."
+  description: "Unburden + Ripen"
 }
 ability {
   id: ABILITY_PEACEFUL_REST
@@ -3359,7 +3359,7 @@ ability {
 ability {
   id: ABILITY_BAD_OMEN
   name: "Bad Omen"
-  description: "Foes min roll and may miss. Takes 1/4 damage from crits."
+  description: "Foes min roll. Takes 1/4 damage from crits."
 }
 ability {
   id: ABILITY_MOSH_PIT
@@ -3409,7 +3409,7 @@ ability {
 ability {
   id: ABILITY_ATOMIC_PUNCH
   name: "Atomic Punch"
-  description: "Iron Fist + Steelworker."
+  description: "Iron Fist + 30% Steel type damage."
 }
 ability {
   id: ABILITY_IRON_GIANT
@@ -3909,7 +3909,7 @@ ability {
 ability {
   id: ABILITY_HUNTERS_MARK
   name: "Hunter's Mark"
-  description: "Attacks with 40BP Spirit Shackle when foes try to switch."
+  description: "Ambush + Deadeye."
 }
 ability {
   id: ABILITY_HEMOLYSIS

@@ -14223,13 +14223,13 @@ moves {
   id: MOVE_RAGE_FIST
   name: "Rage Fist"
   short_name: "Rage Fist"
-  description: "+20 base power per time damaged. Max. +60 power. Iron fist boost."
+  description: "+20 base power per time damaged. Max. +120 power. Iron fist boost."
   short_description: "+20 base power per time damaged."
   effect: EFFECT_MISC_HIT
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
-  power: 90
+  power: 80
   accuracy: 100
   pp: 5
   argument {

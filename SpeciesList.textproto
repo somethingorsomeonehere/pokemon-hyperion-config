@@ -5402,12 +5402,12 @@ species {
   spatk: 85
   spdef: 76
   spe: 92
-  ability: ABILITY_BATTLE_ARMOR
-  ability: ABILITY_PARENTAL_BOND
+  ability: ABILITY_QUEENLY_MAJESTY
+  ability: ABILITY_THICK_FAT
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_POISON_POINT
-  innate: ABILITY_THICK_FAT
-  innate: ABILITY_QUEENLY_MAJESTY
+  innate: ABILITY_PARENTAL_BOND
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   learnset {
     level {
@@ -5538,8 +5538,8 @@ species {
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_QUEENS_MOURNING
-  innate: ABILITY_BATTLE_ARMOR
   innate: ABILITY_BLIGHT_SCALE
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   mega {
     from: SPECIES_NIDOQUEEN
@@ -15745,11 +15745,11 @@ species {
   spdef: 65
   spe: 90
   ability: ABILITY_RECKLESS
-  ability: ABILITY_TURBOBLAZE
+  ability: ABILITY_FLASH_FIRE
   ability: ABILITY_STRIKER
-  innate: ABILITY_FLASH_FIRE
-  innate: ABILITY_SPEED_FORCE
   innate: ABILITY_FLAME_BODY
+  innate: ABILITY_RUN_AWAY
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   tier: 3
   evo {
@@ -15866,11 +15866,11 @@ species {
   spdef: 80
   spe: 120
   ability: ABILITY_RECKLESS
-  ability: ABILITY_TURBOBLAZE
+  ability: ABILITY_STRIKER
   ability: ABILITY_DEADLY_PRECISION
-  innate: ABILITY_IMMOLATE
-  innate: ABILITY_SPEED_FORCE
   innate: ABILITY_FLAME_BODY
+  innate: ABILITY_FLASH_FIRE
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   learnset {
     level {
@@ -15989,8 +15989,8 @@ species {
   ability: ABILITY_TURBOBLAZE
   ability: ABILITY_MIGHTY_HORN
   innate: ABILITY_SPEED_BOOST
-  innate: ABILITY_SPEED_FORCE
   innate: ABILITY_ARC_FLASH
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   mega {
     from: SPECIES_RAPIDASH
@@ -27291,18 +27291,18 @@ species {
     trainer_offset: 13
   }
   type: TYPE_WATER
-  type2: TYPE_DRAGON
+  type2: TYPE_FLYING
   hp: 95
   atk: 125
   def: 79
   spatk: 60
   spdef: 100
   spe: 81
-  ability: ABILITY_INTIMIDATE
   ability: ABILITY_MOXIE
   ability: ABILITY_SEA_GUARDIAN
-  innate: ABILITY_AERIALIST
-  innate: ABILITY_AERILATE
+  ability: ABILITY_RAMPAGE
+  innate: ABILITY_INTIMIDATE
+  innate: ABILITY_DRACONIZE
   innate: ABILITY_OVERWHELM
   percent_female: 50
   learnset {
@@ -28813,12 +28813,12 @@ species {
   spatk: 65
   spdef: 65
   spe: 110
-  ability: ABILITY_FLUFFY
+  ability: ABILITY_RECKLESS
   ability: ABILITY_QUICK_FEET
   ability: ABILITY_FLAMING_SOUL
   innate: ABILITY_FLASH_FIRE
   innate: ABILITY_GUTS
-  innate: ABILITY_RIVALRY
+  innate: ABILITY_FLUFFY
   percent_female: 12.5
   learnset {
     level {
@@ -33637,7 +33637,7 @@ species {
   ability: ABILITY_ATOMIC_BURST
   ability: ABILITY_ATOMIC_BURST
   innate: ABILITY_RIPTIDE
-  innate: ABILITY_GALVANIZE
+  innate: ABILITY_PREDATOR
   innate: ABILITY_BERSERKER_RAGE
   percent_female: 50
   mega {
@@ -33942,8 +33942,8 @@ species {
   spdef: 56
   spe: 50
   ability: ABILITY_TINTED_LENS
-  ability: ABILITY_AERILATE
-  ability: ABILITY_EARLY_BIRD
+  ability: ABILITY_SPECTRALIZE
+  ability: ABILITY_INSOMNIA
   innate: ABILITY_FLOCK
   innate: ABILITY_NOCTURNAL
   innate: ABILITY_FRISK
@@ -34116,7 +34116,7 @@ species {
   spdef: 96
   spe: 70
   ability: ABILITY_TINTED_LENS
-  ability: ABILITY_AERILATE
+  ability: ABILITY_SPECTRALIZE
   ability: ABILITY_AIR_BLOWER
   innate: ABILITY_INSOMNIA
   innate: ABILITY_NOCTURNAL
@@ -37242,9 +37242,9 @@ species {
   spdef: 55
   spe: 15
   ability: ABILITY_FAIRY_AURA
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_UNAWARE
   ability: ABILITY_MAGIC_GUARD
-  innate: ABILITY_UNAWARE
+  innate: ABILITY_WONDER_SKIN
   innate: ABILITY_OVERCOAT
   innate: ABILITY_MOON_SPIRIT
   percent_female: 75
@@ -37400,9 +37400,9 @@ species {
   spdef: 65
   spe: 35
   ability: ABILITY_FAIRY_AURA
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_UNAWARE
   ability: ABILITY_MAGIC_GUARD
-  innate: ABILITY_UNAWARE
+  innate: ABILITY_WONDER_SKIN
   innate: ABILITY_OVERCOAT
   innate: ABILITY_MOON_SPIRIT
   percent_female: 75
@@ -45016,7 +45016,7 @@ species {
   spdef: 50
   spe: 95
   ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_INTOXICATE
+  ability: ABILITY_PREDATOR
   ability: ABILITY_SHELL_ARMOR
   innate: ABILITY_GRIP_PINCER
   innate: ABILITY_EXPLOIT_WEAKNESS
@@ -45118,11 +45118,11 @@ species {
   spatk: 70
   spdef: 60
   spe: 105
-  ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_INTOXICATE
-  ability: ABILITY_SHELL_ARMOR
+  ability: ABILITY_PREDATOR
+  ability: ABILITY_FLAME_BODY
+  ability: ABILITY_NEUROTOXIN
   innate: ABILITY_GRIP_PINCER
-  innate: ABILITY_EXPLOIT_WEAKNESS
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_VENOBLAZE_PINCERS
   percent_female: 50
   evo {
@@ -53115,6 +53115,7 @@ species {
       move: MOVE_JAGGED_FANGS
       move: MOVE_LASH_OUT
       move: MOVE_SCARY_FACE
+      move: MOVE_SUPERPOWER
     }
     level {
       level: 51
@@ -53207,12 +53208,12 @@ species {
   spatk: 95
   spdef: 120
   spe: 71
-  ability: ABILITY_ROUGH_SKIN
-  ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_LOOSE_ROCKS
-  innate: ABILITY_STRONG_JAW
+  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_FORT_KNOX
+  ability: ABILITY_SAND_STREAM
   innate: ABILITY_JUGGERNAUT
-  innate: ABILITY_PRIMAL_ARMOR
+  innate: ABILITY_BATTLE_ARMOR
+  innate: ABILITY_POWER_CORE
   percent_female: 50
   mega {
     from: SPECIES_TYRANITAR
@@ -54130,12 +54131,12 @@ species {
   spatk: 45
   spdef: 55
   spe: 70
-  ability: ABILITY_CHLOROPLAST
+  ability: ABILITY_SYMBIOSIS
+  ability: ABILITY_STICKY_HOLD
   ability: ABILITY_UNBURDEN
-  ability: ABILITY_SPEED_FORCE
   innate: ABILITY_OVERGROW
-  innate: ABILITY_STICKY_HOLD
   innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_FRISK
   percent_female: 50
   tier: 3
   evo {
@@ -54270,12 +54271,12 @@ species {
   spatk: 65
   spdef: 65
   spe: 95
-  ability: ABILITY_CHLOROPLAST
   ability: ABILITY_KEEN_EDGE
-  ability: ABILITY_SPEED_FORCE
+  ability: ABILITY_SKILL_LINK
+  ability: ABILITY_UNBURDEN
   innate: ABILITY_OVERGROW
-  innate: ABILITY_SKILL_LINK
-  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_HYPER_CUTTER
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   evo {
     to: SPECIES_SCEPTILE
@@ -54426,12 +54427,12 @@ species {
   spatk: 85
   spdef: 85
   spe: 120
-  ability: ABILITY_CHLOROPLAST
-  ability: ABILITY_PROTEAN
+  ability: ABILITY_KEEN_EDGE
+  ability: ABILITY_UNBURDEN
   ability: ABILITY_SKILL_LINK
   innate: ABILITY_OVERGROW
-  innate: ABILITY_KEEN_EDGE
-  innate: ABILITY_SPEED_FORCE
+  innate: ABILITY_HYPER_CUTTER
+  innate: ABILITY_PROTEAN
   percent_female: 50
   learnset {
     level {
@@ -57833,7 +57834,7 @@ species {
   spe: 80
   ability: ABILITY_CHLOROPHYLL
   ability: ABILITY_MOXIE
-  ability: ABILITY_DEFIANT
+  ability: ABILITY_AERILATE
   innate: ABILITY_OVERGROW
   innate: ABILITY_WIND_RIDER
   innate: ABILITY_NOCTURNAL
@@ -60919,10 +60920,10 @@ species {
   spdef: 33
   spe: 38
   ability: ABILITY_LOUD_BANG
-  ability: ABILITY_COMPETITIVE
+  ability: ABILITY_SCRAPPY
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_SOUNDPROOF
-  innate: ABILITY_SCRAPPY
+  innate: ABILITY_COMPETITIVE
   innate: ABILITY_AMPLIFIER
   percent_female: 50
   tier: 4
@@ -66825,7 +66826,7 @@ species {
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_MAGMA_ARMOR
   innate: ABILITY_SOLID_ROCK
-  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_THICK_FAT
   percent_female: 50
   learnset {
     level {
@@ -66970,10 +66971,10 @@ species {
   spe: 20
   ability: ABILITY_DROUGHT
   ability: ABILITY_VOLCANO_RAGE
-  ability: ABILITY_SAND_GUARD
+  ability: ABILITY_AFTERSHOCK
   innate: ABILITY_MAGMA_ARMOR
   innate: ABILITY_ARTILLERY
-  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_THICK_FAT
   percent_female: 50
   mega {
     from: SPECIES_CAMERUPT
@@ -69737,11 +69738,11 @@ species {
   spatk: 125
   spdef: 115
   spe: 70
-  ability: ABILITY_STURDY
+  ability: ABILITY_SCARE
   ability: ABILITY_SAGE_POWER
   ability: ABILITY_DREAMCATCHER
   innate: ABILITY_LEVITATE
-  innate: ABILITY_NOCTURNAL
+  innate: ABILITY_STURDY
   innate: ABILITY_LUNAR_ECLIPSE
   genderless: true
   tier: 3
@@ -71335,7 +71336,7 @@ species {
   ability: ABILITY_REGENERATOR
   ability: ABILITY_STORM_DRAIN
   innate: ABILITY_FOSSILIZED
-  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_HYDRATE
   innate: ABILITY_SEAWEED
   percent_female: 12.5
   tier: 3
@@ -71481,7 +71482,7 @@ species {
   ability: ABILITY_REGENERATOR
   ability: ABILITY_STORM_DRAIN
   innate: ABILITY_BATTLE_ARMOR
-  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_HYDRATE
   innate: ABILITY_SEAWEED
   percent_female: 12.5
   learnset {
@@ -71643,8 +71644,8 @@ species {
   ability: ABILITY_KEEN_EDGE
   ability: ABILITY_SKILL_LINK
   innate: ABILITY_FOSSILIZED
+  innate: ABILITY_HYDRATE
   innate: ABILITY_BATTLE_ARMOR
-  innate: ABILITY_AMPHIBIOUS
   percent_female: 12.5
   tier: 3
   evo {
@@ -71796,7 +71797,7 @@ species {
   ability: ABILITY_KEEN_EDGE
   ability: ABILITY_IMPENETRABLE
   innate: ABILITY_FOSSILIZED
-  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_HYDRATE
   innate: ABILITY_HYPER_CUTTER
   percent_female: 12.5
   learnset {
@@ -79537,12 +79538,12 @@ species {
   spatk: 45
   spdef: 55
   spe: 31
-  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_GROUNDED
+  ability: ABILITY_WATER_COMPACTION
   ability: ABILITY_STAMINA
-  ability: ABILITY_SHEER_FORCE
   innate: ABILITY_OVERGROW
   innate: ABILITY_SHELL_ARMOR
-  innate: ABILITY_CHLOROPLAST
+  innate: ABILITY_EARTHBOUND
   percent_female: 50
   tier: 3
   evo {
@@ -79675,12 +79676,12 @@ species {
   spatk: 55
   spdef: 65
   spe: 41
-  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_GROUNDED
+  ability: ABILITY_WATER_COMPACTION
   ability: ABILITY_STAMINA
-  ability: ABILITY_SHEER_FORCE
   innate: ABILITY_OVERGROW
   innate: ABILITY_SHELL_ARMOR
-  innate: ABILITY_CHLOROPLAST
+  innate: ABILITY_HARVEST
   percent_female: 50
   evo {
     to: SPECIES_TORTERRA
@@ -80011,11 +80012,11 @@ species {
   spatk: 55
   spdef: 75
   spe: 11
-  ability: ABILITY_SHELL_ARMOR
+  ability: ABILITY_FERTILIZE
   ability: ABILITY_WIND_RIDER
   ability: ABILITY_RECKLESS
   innate: ABILITY_CLOUD_NINE
-  innate: ABILITY_AERILATE
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_IMPENETRABLE
   percent_female: 50
   tier: 3
@@ -80107,11 +80108,11 @@ species {
   spatk: 65
   spdef: 85
   spe: 21
-  ability: ABILITY_SHELL_ARMOR
+  ability: ABILITY_FERTILIZE
   ability: ABILITY_WIND_RIDER
   ability: ABILITY_RECKLESS
   innate: ABILITY_CLOUD_NINE
-  innate: ABILITY_AERILATE
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_IMPENETRABLE
   percent_female: 50
   evo {
@@ -80205,11 +80206,11 @@ species {
   spatk: 65
   spdef: 95
   spe: 37
-  ability: ABILITY_SHELL_ARMOR
+  ability: ABILITY_FERTILIZE
   ability: ABILITY_AIR_BLOWER
   ability: ABILITY_RECKLESS
   innate: ABILITY_CLOUD_NINE
-  innate: ABILITY_AERILATE
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_IMPENETRABLE
   percent_female: 50
   no_flip: true
@@ -80322,8 +80323,8 @@ species {
   ability: ABILITY_GIANT_WINGS
   ability: ABILITY_GIANT_WINGS
   ability: ABILITY_GIANT_WINGS
-  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_THUNDERCALL
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_IMPENETRABLE
   percent_female: 50
   no_flip: true
@@ -82888,11 +82889,11 @@ species {
   spdef: 41
   spe: 25
   ability: ABILITY_TECHNICIAN
-  ability: ABILITY_AMPLIFIER
   ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_AMPLIFIER
   innate: ABILITY_SWARM
-  innate: ABILITY_SOUNDPROOF
   innate: ABILITY_SHED_SKIN
+  innate: ABILITY_SOUNDPROOF
   percent_female: 50
   tier: 1
   evo {
@@ -83059,7 +83060,7 @@ species {
   spatk: 85
   spdef: 51
   spe: 85
-  ability: ABILITY_POLLINATE
+  ability: ABILITY_HYDRATE
   ability: ABILITY_PERFECTIONIST
   ability: ABILITY_DRIZZLE
   innate: ABILITY_MOUNTAINEER
@@ -92622,18 +92623,18 @@ species {
   }
   type: TYPE_POISON
   type2: TYPE_BUG
-  hp: 40
-  atk: 60
-  def: 95
-  spatk: 30
-  spdef: 55
-  spe: 65
-  ability: ABILITY_POISON_TOUCH
+  hp: 60
+  atk: 70
+  def: 100
+  spatk: 45
+  spdef: 60
+  spe: 70
+  ability: ABILITY_GROUNDED
   ability: ABILITY_FATAL_PRECISION
-  ability: ABILITY_LOOTER
-  innate: ABILITY_GROUNDED
+  ability: ABILITY_GRIP_PINCER
+  innate: ABILITY_LOOTER
   innate: ABILITY_SHELL_ARMOR
-  innate: ABILITY_GRIP_PINCER
+  innate: ABILITY_POISON_TOUCH
   percent_female: 50
   tier: 2
   evo {
@@ -101883,7 +101884,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  type2: TYPE_GROUND
   hp: 75
   atk: 95
   def: 79
@@ -107072,9 +107072,9 @@ species {
   spe: 74
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_SAND_SONG
-  ability: ABILITY_LIQUID_VOICE
+  ability: ABILITY_POWER_FISTS
   innate: ABILITY_WATER_ABSORB
-  innate: ABILITY_RESONANCE
+  innate: ABILITY_POISON_TOUCH
   innate: ABILITY_AFTERSHOCK
   percent_female: 50
   learnset {
@@ -109890,9 +109890,9 @@ species {
   ability: ABILITY_SCARE
   ability: ABILITY_MOXIE
   ability: ABILITY_ANGER_POINT
-  innate: ABILITY_METALLIC
+  innate: ABILITY_METALLIC_JAWS
   innate: ABILITY_DUNE_TERROR
-  innate: ABILITY_PRIMAL_MAW
+  innate: ABILITY_JAWS_OF_CARNAGE
   percent_female: 50
   mega {
     from: SPECIES_KROOKODILE
@@ -126152,7 +126152,7 @@ species {
   spdef: 120
   spe: 90
   ability: ABILITY_BEAST_BOOST
-  ability: ABILITY_IMMOLATE
+  ability: ABILITY_DRAGONS_MAW
   ability: ABILITY_DROUGHT
   innate: ABILITY_TURBOBLAZE
   innate: ABILITY_COMBUSTION
@@ -126294,7 +126294,7 @@ species {
   spdef: 100
   spe: 90
   ability: ABILITY_BEAST_BOOST
-  ability: ABILITY_GALVANIZE
+  ability: ABILITY_DRAGONS_MAW
   ability: ABILITY_ELECTRIC_SURGE
   innate: ABILITY_TERAVOLT
   innate: ABILITY_TRANSISTOR
@@ -139690,7 +139690,7 @@ species {
   spe: 28
   ability: ABILITY_STURDY
   ability: ABILITY_ICE_BODY
-  ability: ABILITY_CRYSTALLIZE
+  ability: ABILITY_FORT_KNOX
   innate: ABILITY_PERMAFROST
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_SELF_SUFFICIENT
@@ -139818,7 +139818,7 @@ species {
   spe: 38
   ability: ABILITY_TECHNICIAN
   ability: ABILITY_SELF_SUFFICIENT
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_FORT_KNOX
   innate: ABILITY_PRIMAL_ARMOR
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_STRONG_JAW
@@ -152735,7 +152735,7 @@ species {
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_METALLIC
   innate: ABILITY_SEAWEED
-  innate: ABILITY_STEELWORKER
+  innate: ABILITY_STEELY_SPIRIT
   genderless: true
   tier: 2
   no_flip: true
@@ -163919,7 +163919,7 @@ species {
   ability: ABILITY_PERISH_BODY
   ability: ABILITY_PEACEFUL_REST
   ability: ABILITY_WEAK_ARMOR
-  innate: ABILITY_SPECTRALIZE
+  innate: ABILITY_FERTILIZE
   innate: ABILITY_SHADOW_SHIELD
   innate: ABILITY_STALL
   percent_female: 75
@@ -185251,7 +185251,7 @@ species {
   spdef: 126
   spe: 55
   ability: ABILITY_TINTED_LENS
-  ability: ABILITY_SPECTRALIZE
+  ability: ABILITY_EMANATE
   ability: ABILITY_LOW_VISIBILITY
   innate: ABILITY_MOON_SPIRIT
   innate: ABILITY_WONDER_SKIN
@@ -185866,9 +185866,9 @@ species {
   spatk: 96
   spdef: 103
   spe: 30
-  ability: ABILITY_STEELWORKER
+  ability: ABILITY_STEELY_SPIRIT
   ability: ABILITY_JUGGERNAUT
-  ability: ABILITY_STALL
+  ability: ABILITY_BATTLE_ARMOR
   innate: ABILITY_METALLIC
   innate: ABILITY_OLD_MARINER
   innate: ABILITY_SOUL_EATER
@@ -186780,10 +186780,10 @@ species {
   spatk: 96
   spdef: 96
   spe: 65
-  ability: ABILITY_UNBURDEN
-  ability: ABILITY_SUGAR_RUSH
+  ability: ABILITY_GLADIATOR
+  ability: ABILITY_GOOEY
   ability: ABILITY_PASTEL_VEIL
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SUGAR_RUSH
   innate: ABILITY_SUPER_SLAMMER
   innate: ABILITY_READIED_ACTION
   percent_female: 50
@@ -188170,7 +188170,7 @@ species {
   spe: 108
   ability: ABILITY_LIGHTNING_ROD
   ability: ABILITY_MULTISCALE
-  ability: ABILITY_HYDRATE
+  ability: ABILITY_DRACONIZE
   innate: ABILITY_MIGHTY_HORN
   innate: ABILITY_WATER_VEIL
   innate: ABILITY_SUPREME_OVERLORD
