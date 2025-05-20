@@ -573,8 +573,8 @@ moves {
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
-  power: 120
-  accuracy: 90
+  power: 95
+  accuracy: 95
   pp: 5
   effect_chance: 20
   contact: true
@@ -7092,14 +7092,14 @@ moves {
   short_name: "Rock Climb"
   description: "A charging attack. 20% confusion chance. Field-based."
   short_description: "A charging attack that may confuse the foe."
-  effect: EFFECT_TWO_TURNS_ATTACK
+  effect: EFFECT_SEMI_INVULNERABLE
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
-  power: 100
+  power: 110
   accuracy: 100
   pp: 20
-  effect_chance: 20
+  effect_chance: 30
   argument {
     effect {
       effect: MOVE_EFFECT_CONFUSION
@@ -16677,4 +16677,22 @@ moves {
   every_other_turn: true
   mirror_move_affected: true
   lunar: true
+}
+moves {
+  id: MOVE_FIVE_STAR_FURY
+  name: "Five-Star Fury"
+  short_name: "Star Fury"
+  description: "Hits 2 to 5 times. Has +1 priority. Iron Fist boost."
+  short_description: "Repeatedly punches the foe 2 to 5 times. +1 priority."
+  effect: EFFECT_MULTI_HIT
+  split: PHYSICAL
+  type: TYPE_BUG
+  target: SELECTED
+  power: 16
+  accuracy: 100
+  pp: 10
+  priority: 1
+  contact: true
+  mirror_move_affected: true
+  iron_fist: true
 }

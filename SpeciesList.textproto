@@ -1147,7 +1147,7 @@ species {
   spe: 43
   ability: ABILITY_STAMINA
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_FIREFIGHTER
   innate: ABILITY_TORRENT
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_WATER_VEIL
@@ -1290,7 +1290,7 @@ species {
   spe: 58
   ability: ABILITY_STAMINA
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_FIREFIGHTER
   innate: ABILITY_TORRENT
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_WATER_VEIL
@@ -1435,7 +1435,7 @@ species {
   spe: 78
   ability: ABILITY_STAMINA
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_FIREFIGHTER
   innate: ABILITY_TORRENT
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_MEGA_LAUNCHER
@@ -7890,10 +7890,10 @@ species {
   spatk: 120
   spdef: 70
   spe: 160
-  ability: ABILITY_SHADOW_SHIELD
-  ability: ABILITY_TINTED_LENS
   ability: ABILITY_AMPLIFIER
-  innate: ABILITY_PHANTOM
+  ability: ABILITY_LOW_VISIBILITY
+  ability: ABILITY_TINTED_LENS
+  innate: ABILITY_OMINOUS_SHROUD
   innate: ABILITY_SPECTRAL_SHROUD
   innate: ABILITY_NOSFERATU
   percent_female: 50
@@ -11823,7 +11823,7 @@ species {
   ability: ABILITY_ROCK_HEAD
   ability: ABILITY_INTIMIDATE
   ability: ABILITY_MINERALIZE
-  innate: ABILITY_RECKLESS
+  innate: ABILITY_ELUDE
   innate: ABILITY_PREDATOR
   innate: ABILITY_VIOLENT_RUSH
   percent_female: 25
@@ -14452,12 +14452,12 @@ species {
   spatk: 105
   spdef: 70
   spe: 70
-  ability: ABILITY_OPPORTUNIST
-  ability: ABILITY_AMBUSH
+  ability: ABILITY_RITE_OF_SPRING
+  ability: ABILITY_SUNS_BOUNTY
   ability: ABILITY_ARENA_TRAP
-  innate: ABILITY_BIG_LEAVES
+  innate: ABILITY_AMBUSH
+  innate: ABILITY_OPPORTUNIST
   innate: ABILITY_PREDATOR
-  innate: ABILITY_CORROSION
   percent_female: 50
   learnset {
     level {
@@ -22591,14 +22591,14 @@ species {
   hp: 95
   atk: 125
   def: 85
-  spatk: 105
+  spatk: 75
   spdef: 75
-  spe: 45
-  ability: ABILITY_TWISTED_DIMENSION
+  spe: 75
+  ability: ABILITY_CHLOROPHYLL
   ability: ABILITY_SUPER_SLAMMER
   ability: ABILITY_GLUTTONY
   innate: ABILITY_LONG_REACH
-  innate: ABILITY_BIG_LEAVES
+  innate: ABILITY_SUNS_BOUNTY
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
   heads: 3
@@ -27661,7 +27661,7 @@ species {
   ability: ABILITY_MYSTIC_POWER
   innate: ABILITY_AERIALIST
   innate: ABILITY_PRISM_SCALES
-  innate: ABILITY_DRACONIZE
+  innate: ABILITY_DRAKE_OF_RAGE
   percent_female: 50
   mega {
     from: SPECIES_GYARADOS
@@ -32387,8 +32387,8 @@ species {
   ability: ABILITY_TRIAGE
   ability: ABILITY_GRASSY_SURGE
   innate: ABILITY_OVERGROW
-  innate: ABILITY_BIG_LEAVES
-  innate: ABILITY_PASTEL_VEIL
+  innate: ABILITY_SUNS_BOUNTY
+  innate: ABILITY_AROMA_VEIL
   percent_female: 50
   learnset {
     level {
@@ -33594,8 +33594,8 @@ species {
   ability: ABILITY_PRIMAL_MAW
   ability: ABILITY_PRIMAL_MAW
   innate: ABILITY_RIPTIDE
-  innate: ABILITY_DRY_SKIN
-  innate: ABILITY_PREDATOR
+  innate: ABILITY_GROWING_TOOTH
+  innate: ABILITY_WONDER_SCALE
   percent_female: 50
   mega {
     from: SPECIES_FERALIGATR
@@ -34388,12 +34388,12 @@ species {
   spatk: 55
   spdef: 110
   spe: 105
-  ability: ABILITY_AERILATE
-  ability: ABILITY_POLLINATE
+  ability: ABILITY_JUSTIFIED
+  ability: ABILITY_MIXED_MARTIAL_ARTS
   ability: ABILITY_AERODYNAMICS
   innate: ABILITY_RAGING_BOXER
   innate: ABILITY_IRON_FIST
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_AERILATE
   percent_female: 50
   learnset {
     level {
@@ -34426,6 +34426,7 @@ species {
       level: 46
       move: MOVE_CLOSE_COMBAT
       move: MOVE_COMET_PUNCH
+      move: MOVE_FIVE_STAR_FURY
     }
     level {
       level: 51
@@ -45241,10 +45242,10 @@ species {
   spatk: 40
   spdef: 40
   spe: 50
-  ability: ABILITY_INTIMIDATE
+  ability: ABILITY_RATTLED
   ability: ABILITY_QUICK_FEET
-  ability: ABILITY_OPPORTUNIST
-  innate: ABILITY_PIXILATE
+  ability: ABILITY_DEVIATE
+  innate: ABILITY_INTIMIDATE
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_GUTS
   percent_female: 75
@@ -45383,10 +45384,10 @@ species {
   spatk: 60
   spdef: 60
   spe: 75
-  ability: ABILITY_INTIMIDATE
+  ability: ABILITY_RATTLED
   ability: ABILITY_QUICK_FEET
-  ability: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_PIXILATE
+  ability: ABILITY_DEVIATE
+  innate: ABILITY_INTIMIDATE
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_GUTS
   percent_female: 75
@@ -57663,7 +57664,7 @@ species {
   ability: ABILITY_MOXIE
   ability: ABILITY_DEFIANT
   innate: ABILITY_OVERGROW
-  innate: ABILITY_CHLOROPHYLL
+  innate: ABILITY_GRASS_FLUTE
   innate: ABILITY_NOCTURNAL
   percent_female: 50
   evo {
@@ -60353,7 +60354,7 @@ species {
   spatk: 85
   spdef: 105
   spe: 110
-  ability: ABILITY_RUDE_AWAKENING
+  ability: ABILITY_UNSEEN_FIST
   ability: ABILITY_KNOW_YOUR_PLACE
   ability: ABILITY_CONTEMPT
   innate: ABILITY_APE_SHIFT
@@ -60788,7 +60789,7 @@ species {
   spe: 160
   ability: ABILITY_AERODYNAMICS
   ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_AERILATE
+  ability: ABILITY_BLUR
   innate: ABILITY_COMPOUND_EYES
   innate: ABILITY_INFILTRATOR
   innate: ABILITY_SPEED_BOOST
@@ -64684,10 +64685,10 @@ species {
   spatk: 135
   spdef: 80
   spe: 155
-  ability: ABILITY_INTIMIDATE
-  ability: ABILITY_INTIMIDATE
-  ability: ABILITY_INTIMIDATE
-  innate: ABILITY_VOLT_RUSH
+  ability: ABILITY_GENERATOR
+  ability: ABILITY_VOLT_RUSH
+  ability: ABILITY_BLUR
+  innate: ABILITY_INTIMIDATE
   innate: ABILITY_GROUND_SHOCK
   innate: ABILITY_OVERCHARGE
   percent_female: 50
@@ -68280,7 +68281,7 @@ species {
   ability: ABILITY_SAND_FORCE
   ability: ABILITY_ARENA_TRAP
   innate: ABILITY_DRAGONFLY
-  innate: ABILITY_TINTED_LENS
+  innate: ABILITY_SEPIA_LENS
   innate: ABILITY_DESERT_SPIRIT
   percent_female: 50
   mega {
@@ -73453,19 +73454,19 @@ species {
     trainer_offset: 7
   }
   type: TYPE_GRASS
-  type2: TYPE_DRAGON
+  type2: TYPE_FLYING
   hp: 99
   atk: 88
   def: 93
   spatk: 92
   spdef: 97
   spe: 51
-  ability: ABILITY_RIPEN
+  ability: ABILITY_HARVEST
   ability: ABILITY_AIR_BLOWER
-  ability: ABILITY_UNBURDEN
+  ability: ABILITY_SYMBIOSIS
   innate: ABILITY_AERIALIST
-  innate: ABILITY_GIANT_WINGS
-  innate: ABILITY_BIG_LEAVES
+  innate: ABILITY_IMMUNITY
+  innate: ABILITY_DRACONIZE
   percent_female: 50
   tier: 2
   evo {
@@ -74431,12 +74432,12 @@ species {
   spatk: 110
   spdef: 70
   spe: 110
-  ability: ABILITY_SOUL_EATER
-  ability: ABILITY_SNOW_CLOAK
-  ability: ABILITY_HAUNTED_SPIRIT
-  innate: ABILITY_WHITEOUT
+  ability: ABILITY_CHILLING_PRESENCE
+  ability: ABILITY_FROSTBIND
+  ability: ABILITY_AURORA_BOREALIS
   innate: ABILITY_CRYOMANCY
-  innate: ABILITY_SLUSH_RUSH
+  innate: ABILITY_BAD_LUCK
+  innate: ABILITY_GLACIAL_GHOST
   percent_female: 100
   learnset {
     level {
@@ -74623,11 +74624,11 @@ species {
   spdef: 120
   spe: 120
   ability: ABILITY_SOUL_EATER
-  ability: ABILITY_SNOW_CLOAK
-  ability: ABILITY_HAUNTED_SPIRIT
-  innate: ABILITY_WHITEOUT
+  ability: ABILITY_CRYOMANCY
+  ability: ABILITY_BAD_LUCK
   innate: ABILITY_YUKI_ONNA
-  innate: ABILITY_SLUSH_RUSH
+  innate: ABILITY_WHITEOUT
+  innate: ABILITY_GLACIAL_GHOST
   percent_female: 100
   mega {
     from: SPECIES_FROSLASS
@@ -79103,12 +79104,12 @@ species {
   spatk: 150
   spdef: 50
   spe: 150
-  ability: ABILITY_AURORA_BOREALIS
-  ability: ABILITY_METALLIC
+  ability: ABILITY_TINTED_LENS
+  ability: ABILITY_DEADLY_PRECISION
   ability: ABILITY_INVERSE_ROOM
-  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_MYSTIC_POWER
   innate: ABILITY_CLEAR_BODY
-  innate: ABILITY_DNA_SCRAMBLE
+  innate: ABILITY_NEUROFORCE
   genderless: true
   learnset {
     level {
@@ -79278,12 +79279,12 @@ species {
   spatk: 180
   spdef: 20
   spe: 150
-  ability: ABILITY_PRESSURE
-  ability: ABILITY_LEVITATE
-  ability: ABILITY_SPEED_BOOST
-  innate: ABILITY_INNER_FOCUS
-  innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_DNA_SCRAMBLE
+  ability: ABILITY_RETRIEVER
+  ability: ABILITY_LOOTER
+  ability: ABILITY_REGENERATOR
+  innate: ABILITY_BERSERK_DNA
+  innate: ABILITY_MOLD_BREAKER
+  innate: ABILITY_INFILTRATOR
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
@@ -79361,12 +79362,12 @@ species {
   spatk: 70
   spdef: 160
   spe: 90
-  ability: ABILITY_STURDY
-  ability: ABILITY_LEVITATE
-  ability: ABILITY_FORT_KNOX
-  innate: ABILITY_INNER_FOCUS
+  ability: ABILITY_AURORA_BOREALIS
+  ability: ABILITY_NATURAL_RECOVERY
+  ability: ABILITY_SELF_REPAIR
+  innate: ABILITY_FORT_KNOX
   innate: ABILITY_STAMINA
-  innate: ABILITY_DNA_SCRAMBLE
+  innate: ABILITY_FORTITUDE
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
@@ -79444,12 +79445,12 @@ species {
   spatk: 95
   spdef: 90
   spe: 180
-  ability: ABILITY_PRESSURE
-  ability: ABILITY_INNER_FOCUS
-  ability: ABILITY_SPEED_BOOST
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_DNA_SCRAMBLE
+  ability: ABILITY_BLUR
+  ability: ABILITY_ELUDE
+  ability: ABILITY_MAXIMUM_ACCELERATION
+  innate: ABILITY_REGENERATOR
+  innate: ABILITY_EMERGENCY_EXIT
+  innate: ABILITY_EJECT_PACK_ABILITY
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
@@ -79825,10 +79826,10 @@ species {
   spe: 57
   ability: ABILITY_ROUGH_SKIN
   ability: ABILITY_STAMINA
-  ability: ABILITY_LOOSE_ROCKS
+  ability: ABILITY_RITE_OF_SPRING
   innate: ABILITY_OVERGROW
   innate: ABILITY_IMPENETRABLE
-  innate: ABILITY_BIG_LEAVES
+  innate: ABILITY_CHLOROPLAST
   percent_female: 50
   no_flip: true
   learnset {
@@ -82445,7 +82446,7 @@ species {
   ability: ABILITY_BIG_PECKS
   ability: ABILITY_SUBDUE
   innate: ABILITY_INTIMIDATE
-  innate: ABILITY_OWN_TEMPO
+  innate: ABILITY_BLUR
   innate: ABILITY_VIOLENT_RUSH
   percent_female: 50
   learnset {
@@ -95303,10 +95304,10 @@ species {
   spe: 95
   ability: ABILITY_GRASS_PELT
   ability: ABILITY_SWEEPING_EDGE
-  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_RITE_OF_SPRING
   innate: ABILITY_KEEN_EDGE
-  innate: ABILITY_BIG_LEAVES
-  innate: ABILITY_AVENGER
+  innate: ABILITY_DEEP_CUTS
+  innate: ABILITY_JUSTIFIED
   percent_female: 12.5
   learnset {
     level {
@@ -97516,7 +97517,7 @@ species {
   spatk: 150
   spdef: 100
   spe: 90
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_TEMPORAL_RUPTURE
   ability: ABILITY_STAMINA
   ability: ABILITY_LEAD_COAT
   innate: ABILITY_PRIMAL_ARMOR
@@ -97642,7 +97643,7 @@ species {
   spatk: 170
   spdef: 140
   spe: 110
-  ability: ABILITY_DOOMBRINGER
+  ability: ABILITY_TEMPORAL_RUPTURE
   ability: ABILITY_MEGA_LAUNCHER
   ability: ABILITY_LEAD_COAT
   innate: ABILITY_PRIMAL_ARMOR
@@ -107099,12 +107100,14 @@ species {
       move: MOVE_SCALD
       move: MOVE_SLUDGE_WAVE
       move: MOVE_WAVE_CRASH
+      move: MOVE_TORRENT_FIST
     }
     level {
       level: 37
       move: MOVE_MUDDY_WATER
       move: MOVE_SEISMIC_FIST
       move: MOVE_SOIL_DRAIN
+      move: MOVE_JET_PUNCH
     }
     level {
       level: 46
@@ -113152,10 +113155,10 @@ species {
   spdef: 127
   spe: 60
   ability: ABILITY_PERMANENCE
-  ability: ABILITY_STEELY_SPIRIT
-  ability: ABILITY_IRON_BARBS
-  innate: ABILITY_SCRAPYARD
-  innate: ABILITY_SCAVENGER
+  ability: ABILITY_MALODOR
+  ability: ABILITY_FORT_KNOX
+  innate: ABILITY_WATCH_YOUR_STEP
+  innate: ABILITY_STEELWORKER
   innate: ABILITY_TRASH_HEAP
   percent_female: 50
   no_flip: true
@@ -142091,7 +142094,7 @@ species {
   ability: ABILITY_HUNTERS_MARK
   ability: ABILITY_HUNTERS_MARK
   innate: ABILITY_FOREST_RAGE
-  innate: ABILITY_SNIPER
+  innate: ABILITY_SUPER_SNIPER
   innate: ABILITY_ARCHER
   percent_female: 50
   mega {
@@ -168179,12 +168182,12 @@ species {
   spatk: 53
   spdef: 50
   spe: 82
-  ability: ABILITY_ANGER_POINT
-  ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_PRECISE_FIST
+  ability: ABILITY_DEVIATE
+  ability: ABILITY_HYDRATE
+  ability: ABILITY_INTOXICATE
   innate: ABILITY_UNSEEN_FIST
-  innate: ABILITY_FIGHT_SPIRIT
-  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_VIOLENT_RUSH
+  innate: ABILITY_ANGER_POINT
   percent_female: 12.5
   bp_cost: 250
   evo {
@@ -178762,7 +178765,7 @@ species {
   spe: 70
   ability: ABILITY_MOLD_BREAKER
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_HYDRATE
+  ability: ABILITY_DEVIATE
   innate: ABILITY_KEEN_EDGE
   innate: ABILITY_TORRENT
   innate: ABILITY_HYPER_CUTTER
@@ -186261,11 +186264,11 @@ species {
   spatk: 125
   spdef: 125
   spe: 90
-  ability: ABILITY_BEAUTIFUL_MUSIC
-  ability: ABILITY_DANCER
+  ability: ABILITY_SNOW_SONG
+  ability: ABILITY_REVERBATE
   ability: ABILITY_PSYCHIC_SURGE
   innate: ABILITY_RESONANCE
-  innate: ABILITY_SNOW_SONG
+  innate: ABILITY_BEAUTIFUL_MUSIC
   innate: ABILITY_AMPLIFIER
   percent_female: 100
   learnset {
@@ -187141,11 +187144,11 @@ species {
   spdef: 92
   spe: 76
   ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_HIGHER_RANK
+  ability: ABILITY_LOW_VISIBILITY
   ability: ABILITY_GRASSY_SURGE
-  innate: ABILITY_RAW_WOOD
+  innate: ABILITY_LUMBERJACK
   innate: ABILITY_VENGEFUL_SPIRIT
-  innate: ABILITY_MONSTER_MASH
+  innate: ABILITY_WOODLAND_CURSE
   percent_female: 50
   learnset {
     level {
