@@ -101898,6 +101898,14 @@ species {
   innate: ABILITY_TINTED_LENS
   innate: ABILITY_FIELD_EXPLORER
   percent_female: 50
+  evo {
+    to: SPECIES_PATRAT
+    level: 14
+  }
+  evo {
+    to: SPECIES_SEERKAT
+    level: 28
+  }
   learnset {
     level {
       level: 1
@@ -191624,5 +191632,176 @@ species {
     }
     palette: "dududunsparce/mega/normal"
     shiny: "dududunsparce/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_SEERKAT
+  dex {
+    name: "Seerkat"
+    category: "Lookout"
+    description: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents. Keen eyesight lets them see in the dark."
+    national_dex_num: 1066
+    body_color: BODY_COLOR_BROWN
+    egg_group: FIELD
+    height: 11
+    weight: 270
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  type2: TYPE_GROUND
+  hp: 100
+  atk: 120
+  def: 79
+  spatk: 90
+  spdef: 79
+  spe: 67
+  ability: ABILITY_STAKEOUT
+  ability: ABILITY_ANTICIPATION
+  ability: ABILITY_PRETENTIOUS
+  innate: ABILITY_HOVER
+  innate: ABILITY_STRATEGIC_PAUSE
+  innate: ABILITY_OVERRULE
+  percent_female: 50
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_HYPER_FANG
+      move: MOVE_HYPNOSIS
+      move: MOVE_LEER
+      move: MOVE_STUFF_CHEEKS
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_QUICK_ATTACK
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_THUNDER_FANG
+      move: MOVE_CRUNCH
+    }
+    level {
+      level: 24
+      move: MOVE_BULLET_SEED
+      move: MOVE_IRON_TAIL
+      move: MOVE_REVERSAL
+      move: MOVE_SUPER_FANG
+      move: MOVE_READY_OR_NOT
+      move: MOVE_KINETIC_BARRAGE
+      move: MOVE_SHARPEN
+      move: MOVE_MEDITATE
+      move: MOVE_BIG_BLAST
+      move: MOVE_PITFALL
+      move: MOVE_WRING_OUT
+    }
+    level {
+      level: 37
+      move: MOVE_FLING
+      move: MOVE_METEOR_MASH
+      move: MOVE_NATURAL_GIFT
+      move: MOVE_RECYCLE
+      move: MOVE_TAIL_SLAP
+      move: MOVE_VITAL_THROW
+      move: MOVE_DETECT
+      move: MOVE_MIND_READER
+      move: MOVE_FREEZING_GLARE
+      move: MOVE_TRANSMUTE
+    }
+    level {
+      level: 46
+      move: MOVE_ASSURANCE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FLAIL
+      move: MOVE_WAKE_UP_SLAP
+      move: MOVE_SWIFT
+    }
+    level {
+      level: 51
+      move: MOVE_LAST_RESORT
+      move: MOVE_STARBURST
+      move: MOVE_TRUMP_CARD
+      move: MOVE_TAIL_GLOW
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_PSYCHOKINETIC_SLAM
+    }
+    level {
+      level: 56
+      move: MOVE_BATON_PASS
+      move: MOVE_LUSTER_PURGE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_BITE
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_CIRCLE_THROW
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_COPYCAT
+    tutor: MOVE_COUNTER
+    tutor: MOVE_COVET
+    tutor: MOVE_CUT
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLASH
+    tutor: MOVE_FOCUS_PUNCH
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_U_TURN
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHO_CUT
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_TAUNT
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_MIND_BREAK
+  }
+  visuals {
+    icon {
+      path: "seerkat/icon"
+      palette: 2
+    }
+    front {
+      path: "seerkat/front"
+      anim: ANIM_V_STRETCH
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "seerkat/back"
+      coords {
+        size: 120
+        y_offset: 2
+      }
+    }
+    palette: "seerkat/normal"
+    shiny: "seerkat/shiny"
   }
 }
