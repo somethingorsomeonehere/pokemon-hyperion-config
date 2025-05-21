@@ -2051,8 +2051,8 @@ item {
   description: "Boosts Ogerpon's power and enables mega evolution."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
-  image: "tera_orb"
-  palette: "tera_orb"
+  image: "teal_mask"
+  palette: "teal_mask"
 }
 item {
   id: ITEM_HEARTHFLAME_MASK
@@ -2080,4 +2080,134 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "cornerstone_mask"
   palette: "cornerstone_mask"
+}
+item {
+  id: ITEM_TINKATITE_R
+  name: "Tinkatite R"
+  description: "Enables Tinkaton R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_LUXRAYNITE_R
+  name: "Luxraynite R"
+  description: "Enables Luxray R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "luxraynite_r"
+  palette: "luxraynite_r"
+  adoption_center: true
+}
+item {
+  id: ITEM_SCIZORITE_R
+  name: "Scizorite R"
+  description: "Enables Scizor R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_KLEAVITE_R
+  name: "Kleavite R"
+  description: "Enables Kleavor R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_SCYTHERITE_R
+  name: "Scytherite R"
+  description: "Enables Scyther R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_KINGLERITE_R
+  name: "Kinglerite"
+  description: "Enables Kingler to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_KILOZUNITE
+  name: "Kilozunite"
+  description: "Enables Kilozuna to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GARDEVOIRITE_R
+  name: "Gardevoirite R"
+  description: "Enables Gardevoir R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GALLADITE_R
+  name: "Galladite R"
+  description: "Enables Gallade to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_CLODSITE
+  name: "Clodsite"
+  description: "Enables Clodsire to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GOTHITITE
+  name: "Gothitite"
+  description: "Enables Gothitelle to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_SNORLAXITE_R
+  name: "Snorlaxite R"
+  description: "Enables Snorlax R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+  adoption_center: true
+}
+item {
+  id: ITEM_AGGRONITE_R
+  name: "Aggronite R"
+  description: "Enables Aggron R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  talk_to_nurse_joy: true
 }

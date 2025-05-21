@@ -8433,6 +8433,7 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   pp: 15
+  priority: 1
   ignores_protect: true
   snatch_affected: true
 }
@@ -16077,14 +16078,16 @@ moves {
 moves {
   id: MOVE_SPECTRAL_FLAME
   name: "Spectral Flame"
-  short_name: "SpectrlFlame"
+  short_name: "SpecterFlame"
   description: "Burns the target, including Fire types. Suppresses abilities in fog."
-  short_description: "Emites a flame that moves as if alive and inflicts burn."
+  short_description: "Emits a flame that moves as if alive and inflicts burn."
   effect: EFFECT_PLACEHOLDER
-  split: PHYSICAL
-  type: TYPE_NORMAL
+  split: STATUS
+  type: TYPE_GHOST
   target: SELECTED
-  ignores_protect: true
+  accuracy: 85
+  pp: 10
+  effect_chance: 100
 }
 moves {
   id: MOVE_TREPIDATION
@@ -16688,11 +16691,75 @@ moves {
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
-  power: 16
+  power: 15
   accuracy: 100
   pp: 10
   priority: 1
   contact: true
   mirror_move_affected: true
   iron_fist: true
+}
+moves {
+  id: MOVE_TSUNAMI_HAMMER
+  name: "Tsunami Hammer"
+  short_name: "WaveHammer"
+  description: "Super effective vs Poison. Can\'t be used twice in a row. Hammer-based."
+  short_description: "Super effective vs Water. Can\'t be used twice in a row."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  split: PHYSICAL
+  type: TYPE_WATER
+  target: SELECTED
+  power: 125
+  accuracy: 100
+  pp: 5
+  contact: true
+  argument {
+    type: TYPE_POISON
+  }
+  every_other_turn: true
+  mirror_move_affected: true
+  hammer: true
+}
+moves {
+  id: MOVE_SEPTIC_SWITCH
+  name: "Septic Switch (N)"
+  short_name: "Sep Switch"
+  description: "Supresses the targets abilities then switches out."
+  short_description: "Supress abilities then switch."
+  split: STATUS
+  type: TYPE_POISON
+  target: SELECTED
+  accuracy: 100
+  pp: 5
+  mirror_move_affected: true
+}
+moves {
+  id: MOVE_WATERLOG
+  name: "Waterlog"
+  short_name: "Waterlog (N)"
+  description: "Makes the target move last. 20% drench chance, 50% in rain."
+  short_description: "Target moves last and may be drenched."
+  split: STATUS
+  type: TYPE_WATER
+  target: SELECTED
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+}
+moves {
+  id: MOVE_INCITE
+  name: "Incite"
+  short_name: "Incite (P)"
+  description: "Adds dark type and enraged status to the target."
+  short_description: "Adds dark type and enrages foe."
+  effect: EFFECT_THIRD_TYPE
+  split: STATUS
+  type: TYPE_DARK
+  target: SELECTED
+  accuracy: 100
+  pp: 10
+  argument {
+    type: TYPE_DARK
+  }
+  mirror_move_affected: true
 }

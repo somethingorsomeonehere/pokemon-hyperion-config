@@ -4171,3 +4171,113 @@ ability {
   name: "Harukaze (N)"
   description: "setting Grassy Terrain sets Tailwind an vise-versa."
 }
+ability {
+  id: ABILITY_TOXIC_SURGE
+  name: "Toxic Surge (N)"
+  description: "sets Toxic Terrain on entry."
+}
+ability {
+  id: ABILITY_ATLANTIC_RULER
+  name: "Atlantic Ruler"
+  description: "Aquatic Dweller + Swift Swim."
+}
+ability {
+  id: ABILITY_BIOFILM
+  name: "Biofilm (N)"
+  description: "50% spdef boost under Toxic Terrain."
+}
+ability {
+  id: ABILITY_CHOKEHOLD
+  name: "Chokehold (N)"
+  description: "Binding moves lower speed and paralyze."
+}
+ability {
+  id: ABILITY_GUARDIAN_COAT
+  name: "Guardian Coat"
+  description: "Blocks weather dmg and powders. Takes -20% physical damage."
+}
+ability {
+  id: ABILITY_NEUTRALIZING_FOG
+  name: "Neutralizing Fog"
+  description: "Uses Defog on entry."
+}
+ability {
+  id: ABILITY_POISON_QUILLS
+  name: "Poison Quills (P)"
+  description: "Rough Skin + Poison Point."
+}
+ability {
+  id: ABILITY_DRACONIC_MIGHT
+  name: "Draconic Might"
+  description: "Draconize + Half Drake."
+}
+ability {
+  id: ABILITY_FESTIVITIES
+  name: "Festivities (N)"
+  description: "Sound moves become dance moves and vise versa."
+}
+ability {
+  id: ABILITY_FEY_FLIGHT
+  name: "Fey Flight"
+  description: "Adds Fairy-type and levitates."
+}
+ability {
+  id: ABILITY_BEST_OFFENSE
+  name: "Best Offense"
+  description: "Mystic blades + use 20% of spdef during moves."
+}
+ability {
+  id: ABILITY_IMPALER
+  name: "Impaler"
+  description: "Mighty Horn + 30% Bleed chance on horn moves."
+}
+ability {
+  id: ABILITY_MAGUS_BLADES
+  name: "Magus Blades"
+  description: "Dual Wield + Best Offense."
+}
+ability {
+  id: ABILITY_LIGHTNING_BORN
+  name: "Lightning Born"
+  description: "Adds Electric-type on entry."
+}
+ability {
+  id: ABILITY_SUPERHEAVY
+  name: "Superheavy (N)"
+  description: "Steadfast + blocks phasing moves."
+}
+ability {
+  id: ABILITY_WORLD_SERPENT
+  name: "World Serpent"
+  description: "Long Reach + Grip Pincer."
+}
+ability {
+  id: ABILITY_LUCKY_WINGS
+  name: "Lucky Wings"
+  description: "Serene Grace + Giant Wings."
+}
+ability {
+  id: ABILITY_KOMODO
+  name: "Komodo"
+  description: "Adds Dragon-type + moves have 30% Bad Poison chance."
+}
+ability {
+  id: ABILITY_ENVENOM
+  name: "Envenom"
+  description: "Moves have a 30% chance to poison the target."
+}
+ability {
+  id: ABILITY_PURPLE_HAZE
+  name: "Purple Haze"
+  description: "Every attack triggers a 20BP Poison Gas."
+}
+ability {
+  id: ABILITY_GNASHING_CANNON
+  name: "Gnashing Cannon"
+  description: "Mega Launcher + Mind Crunch."
+}
+ability {
+  id: ABILITY_HYPER_CLEANSE
+  name: "Hyper Cleanse"
+  description: "Immune to status. Halves poison damage taken."
+}
