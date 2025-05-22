@@ -6818,7 +6818,7 @@ moves {
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
-  power: 160
+  power: 150
   accuracy: 100
   pp: 5
   contact: true
@@ -16762,4 +16762,17 @@ moves {
     type: TYPE_DARK
   }
   mirror_move_affected: true
+}
+moves {
+  id: MOVE_TOXIC_TERRAIN
+  name: "Toxic Terrain (N)"
+  short_name: "ToxicTerrain"
+  tutor: TUTOR_TERRAIN
+  description: "Sets Toxic Terrain for 8 turns."
+  short_description: "Toxic Terrain for 8 turns."
+  effect: EFFECT_MISTY_TERRAIN
+  split: STATUS
+  type: TYPE_POISON
+  target: ALL_BATTLERS
+  pp: 10
 }
