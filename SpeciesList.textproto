@@ -193532,7 +193532,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 20
   }
-  type: TYPE_WATER
+  type: TYPE_PSYCHIC
   hp: 55
   atk: 25
   def: 40
@@ -196195,7 +196195,7 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_SPLASH
+      move: MOVE_TACKLE
     }
     level {
       level: 17
@@ -196203,22 +196203,27 @@ species {
     }
     level {
       level: 24
-      move: MOVE_BOUNCE
-      move: MOVE_WATERFALL
+      move: MOVE_EMBER
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 37
-      move: MOVE_WAVE_CRASH
+      move: MOVE_FLARE_BLITZ
     }
     level {
       level: 46
       move: MOVE_FLAIL
     }
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
     tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_AGILITY
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_FACADE
+    tutor: MOVE_BRAVADO
   }
   visuals {
     icon {
@@ -196279,9 +196284,8 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_ICE_FANG
       move: MOVE_SCARY_FACE
-      move: MOVE_SPLASH
+      move: MOVE_TACKLE
     }
     level {
       level: 17
@@ -196293,73 +196297,69 @@ species {
     }
     level {
       level: 24
-      move: MOVE_BOUNCE
-      move: MOVE_CRUNCH
       move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RAGE
       move: MOVE_MYSTIC_DANCE
-      move: MOVE_WATERFALL
-      move: MOVE_HYPER_FANG
+      move: MOVE_TEETER_DANCE
+      move: MOVE_TEMPER_FLARE
+      move: MOVE_EMBER
     }
     level {
       level: 37
-      move: MOVE_AQUA_FANG
+      move: MOVE_FIRE_FANG
       move: MOVE_DRAGON_RUSH
-      move: MOVE_HYDRO_PUMP
-      move: MOVE_WAVE_CRASH
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_LASH_OUT
+      move: MOVE_FIRE_LASH
+      move: MOVE_FLARE_BLITZ
     }
     level {
       level: 46
-      move: MOVE_DEATHROLL
-      move: MOVE_FLAIL
-      move: MOVE_SCALE_SHOT
-      move: MOVE_WRING_OUT
-      move: MOVE_RIP_AND_TEAR
+      move: MOVE_SEARING_SHOT
+      move: MOVE_QUIVER_DANCE
+      move: MOVE_WYRM_WIND
+      move: MOVE_REVELATION_DANCE
+      move: MOVE_FAIRY_WIND
     }
     level {
       level: 51
       move: MOVE_OUTRAGE
-      move: MOVE_POWER_TRIP
+      move: MOVE_BURNING_BULWARK
     }
     level {
       level: 56
       move: MOVE_DRACO_METEOR
-      move: MOVE_TRUMP_CARD
+      move: MOVE_FLEUR_CANNON
     }
-    tutor: MOVE_AQUA_RING
-    tutor: MOVE_AQUA_TAIL
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_BREAKING_SWIPE
-    tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_DRAGON_PULSE
-    tutor: MOVE_DRAGON_TAIL
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FACADE
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FLY
+    level {
+      level: 71
+      move: MOVE_NO_RETREAT
+    }
+    level {
+      level: 100
+      move: MOVE_TORCH_SONG
+    }
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_SURF
-    tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_WATER_PULSE
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_FRUSTRATION
-    tutor: MOVE_TAUNT
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_JAB
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_AGILITY
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_FACADE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_HEAT_WAVE
   }
   visuals {
     icon {
@@ -196418,71 +196418,61 @@ species {
     level {
       level: 1
       move: MOVE_DEFENSE_CURL
-      move: MOVE_DOUBLE_HIT
-      move: MOVE_DOUBLE_KICK
-      move: MOVE_QUICK_ATTACK
+      move: MOVE_ACCELEROCK
+      move: MOVE_MUD_SLAP
+      move: MOVE_MAT_BLOCK
       move: MOVE_ROLLOUT
     }
     level {
       level: 17
       move: MOVE_BODY_SLAM
-      move: MOVE_HYPER_FANG
-      move: MOVE_SUPER_FANG
+      move: MOVE_SWALLOW
+      move: MOVE_SHARPEN
     }
     level {
       level: 24
       move: MOVE_DIZZY_PUNCH
       move: MOVE_JAGGED_FANGS
-      move: MOVE_MEGA_PUNCH
-      move: MOVE_SEISMIC_FIST
+      move: MOVE_ROCK_POLISH
+      move: MOVE_PITFALL
     }
     level {
       level: 37
-      move: MOVE_FERTILE_FANGS
-      move: MOVE_FLAIL
-      move: MOVE_HAMMER_ARM
+      move: MOVE_MOLTEN_STRIKE
+      move: MOVE_STOCKPILE
+      move: MOVE_ROCK_WRECKER
       move: MOVE_STRENGTH
     }
     level {
       level: 46
-      move: MOVE_DOUBLE_EDGE
-      move: MOVE_JAW_LOCK
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_PYRO_BALL
     }
     level {
       level: 51
-      move: MOVE_BERRY_SMASH
+      move: MOVE_PRIMITIVE_STRIKE
       move: MOVE_HEADLONG_RUSH
     }
     level {
       level: 56
       move: MOVE_MOUNTAIN_CHUNK
+      move: MOVE_HEAD_SMASH
     }
-    level {
-      level: 81
-      move: MOVE_EXTREME_SPEED
-    }
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_BULLDOZE
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_FACADE
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_HEAVY_SLAM
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_FANGS
-    tutor: MOVE_LOW_KICK
-    tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_SAND_TOMB
-    tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_BULLDOZE
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DIG
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_FACADE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_TRICK
+    tutor: MOVE_TAUNT
+    tutor: MOVE_SPIKES
   }
   visuals {
     icon {
