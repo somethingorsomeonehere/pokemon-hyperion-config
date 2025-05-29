@@ -8005,6 +8005,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GRASSY_TERRAIN
@@ -8025,7 +8026,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
   }
   visuals {
     icon {
@@ -8166,6 +8167,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLUTTERING_LEAF
@@ -8188,7 +8190,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
   }
   visuals {
     icon {
@@ -11133,7 +11135,7 @@ species {
   ability: ABILITY_STRONG_JAW
   ability: ABILITY_IMMOLATE
   innate: ABILITY_GUARD_DOG
-  innate: ABILITY_FLASH_FIRE
+  innate: ABILITY_JUSTIFIED
   innate: ABILITY_FLUFFY
   percent_female: 25
   tier: 4
@@ -14785,10 +14787,6 @@ species {
   innate: ABILITY_WATER_ABSORB
   percent_female: 50
   evo {
-    to: SPECIES_TENTACOOL
-    level: 30
-  }
-  evo {
     to: SPECIES_TENTAGREWL
     level: 50
   }
@@ -14831,6 +14829,7 @@ species {
       move: MOVE_SLUDGE_WAVE
       move: MOVE_TRIPLE_DIVE
       move: MOVE_VENOSHOCK
+      move: MOVE_PSYCHO_BOOST
     }
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AGILITY
@@ -15637,6 +15636,7 @@ species {
       move: MOVE_EERIE_IMPULSE
       move: MOVE_PLASMA_PULSE
       move: MOVE_BIG_BLAST
+      move: MOVE_ASTEROID_DOWNFALL
     }
     level {
       level: 24
@@ -18045,7 +18045,6 @@ species {
       move: MOVE_ASSURANCE
       move: MOVE_QUICK_ATTACK
       move: MOVE_STOMP
-      move: MOVE_TRAILBLAZE
     }
     level {
       level: 37
@@ -18189,9 +18188,9 @@ species {
       move: MOVE_LASH_OUT
       move: MOVE_QUICK_ATTACK
       move: MOVE_STOMP
-      move: MOVE_TRAILBLAZE
       move: MOVE_TRI_ATTACK
       move: MOVE_RAZOR_WIND
+      move: MOVE_FEATHER_DANCE
     }
     level {
       level: 37
@@ -24574,6 +24573,7 @@ species {
       move: MOVE_WATER_GUN
       move: MOVE_WRAP
       move: MOVE_SNIPE_SHOT
+      move: MOVE_WRING_OUT
     }
     level {
       level: 17
@@ -24736,6 +24736,7 @@ species {
       move: MOVE_WATER_GUN
       move: MOVE_WRAP
       move: MOVE_SNIPE_SHOT
+      move: MOVE_WRING_OUT
     }
     level {
       level: 17
@@ -24897,6 +24898,7 @@ species {
       move: MOVE_SMOKESCREEN
       move: MOVE_WATER_GUN
       move: MOVE_WRAP
+      move: MOVE_WRING_OUT
     }
     level {
       level: 17
@@ -27211,10 +27213,10 @@ species {
       move: MOVE_FLAIL
     }
     tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -27337,6 +27339,7 @@ species {
       move: MOVE_MYSTIC_DANCE
       move: MOVE_WATERFALL
       move: MOVE_HYPER_FANG
+      move: MOVE_ZEPHYR_RUSH
     }
     level {
       level: 37
@@ -27346,6 +27349,7 @@ species {
       move: MOVE_WAVE_CRASH
       move: MOVE_DOUBLE_EDGE
       move: MOVE_LASH_OUT
+      move: MOVE_FLYING_PRESS
     }
     level {
       level: 46
@@ -27365,10 +27369,16 @@ species {
       move: MOVE_DRACO_METEOR
       move: MOVE_TRUMP_CARD
     }
+    level {
+      level: 61
+      move: MOVE_DRAGON_ASCENT
+    }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_BITE
     tutor: MOVE_BRAVADO
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_DARK_PULSE
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
@@ -27379,24 +27389,22 @@ species {
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLY
+    tutor: MOVE_FRUSTRATION
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICY_WIND
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SURF
+    tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_FRUSTRATION
-    tutor: MOVE_TAUNT
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -29753,6 +29761,10 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
     }
+    level {
+      level: 61
+      move: MOVE_DRAGON_ASCENT
+    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_BREAKING_SWIPE
@@ -31036,6 +31048,10 @@ species {
       level: 56
       move: MOVE_OUTRAGE
     }
+    level {
+      level: 61
+      move: MOVE_DRAGON_ASCENT
+    }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
@@ -32184,10 +32200,11 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_CURSE
+    tutor: MOVE_BODY_PRESS
   }
   visuals {
     icon {
@@ -32322,14 +32339,15 @@ species {
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_CURSE
+    tutor: MOVE_BODY_PRESS
   }
   visuals {
     icon {
@@ -32471,14 +32489,15 @@ species {
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_CURSE
+    tutor: MOVE_BODY_PRESS
   }
   visuals {
     icon {
@@ -33497,6 +33516,7 @@ species {
       move: MOVE_DRAGON_DANCE
       move: MOVE_SCREECH
       move: MOVE_WATERFALL
+      move: MOVE_JAW_LOCK
     }
     level {
       level: 37
@@ -33504,6 +33524,7 @@ species {
       move: MOVE_KARMA
       move: MOVE_RAGE
       move: MOVE_THRASH
+      move: MOVE_PSYCHIC_FANGS
     }
     level {
       level: 46
@@ -33513,6 +33534,7 @@ species {
     level {
       level: 51
       move: MOVE_HYDRO_CANNON
+      move: MOVE_RIP_AND_TEAR
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AQUA_TAIL
@@ -37328,19 +37350,20 @@ species {
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PSYCHIC
-    tutor: MOVE_PSYSHOCK
-    tutor: MOVE_NATURE_POWER
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_TEARFUL_LOOK
   }
   visuals {
     icon {
@@ -37486,19 +37509,20 @@ species {
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PSYCHIC
-    tutor: MOVE_PSYSHOCK
-    tutor: MOVE_NATURE_POWER
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_TEARFUL_LOOK
   }
   visuals {
     icon {
@@ -37637,19 +37661,20 @@ species {
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PSYCHIC
-    tutor: MOVE_PSYSHOCK
-    tutor: MOVE_NATURE_POWER
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_TEARFUL_LOOK
   }
   visuals {
     icon {
@@ -39517,6 +39542,7 @@ species {
       move: MOVE_POISON_POWDER
       move: MOVE_STUN_SPORE
       move: MOVE_SWEET_SCENT
+      move: MOVE_FAIRY_WIND
     }
     level {
       level: 17
@@ -39557,6 +39583,7 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLORAL_HEALING
@@ -39584,7 +39611,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
   }
   visuals {
     icon {
@@ -40663,10 +40690,6 @@ species {
       move: MOVE_HEALING_WISH
       move: MOVE_LEAF_STORM
     }
-    level {
-      level: 51
-      move: MOVE_ENDEAVOR
-    }
     tutor: MOVE_ABSORB
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
@@ -41118,10 +41141,10 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_ROTOTILLER
   }
   visuals {
     icon {
@@ -41336,6 +41359,7 @@ species {
       move: MOVE_SLAM
       move: MOVE_YAWN
       move: MOVE_MUD_SHOT
+      move: MOVE_BUBBLE_BEAM
     }
     level {
       level: 17
@@ -41473,6 +41497,7 @@ species {
       move: MOVE_SLAM
       move: MOVE_YAWN
       move: MOVE_MUD_SHOT
+      move: MOVE_BUBBLE_BEAM
     }
     level {
       level: 17
@@ -41918,10 +41943,6 @@ species {
       level: 46
       move: MOVE_BRAVE_BIRD
       move: MOVE_PERISH_SONG
-    }
-    level {
-      level: 51
-      move: MOVE_ENDEAVOR
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -45310,6 +45331,7 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
@@ -45329,8 +45351,7 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_CRUSH_CLAW
   }
   visuals {
     icon {
@@ -45450,6 +45471,7 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
@@ -45469,8 +45491,7 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_CRUSH_CLAW
   }
   visuals {
     icon {
@@ -46063,6 +46084,10 @@ species {
       level: 51
       move: MOVE_HEADLONG_RUSH
       move: MOVE_HORN_DRILL
+    }
+    level {
+      level: 56
+      move: MOVE_HORN_LEECH
     }
     tutor: MOVE_BERSERKER_HORN
     tutor: MOVE_BUG_BITE
@@ -47156,7 +47181,6 @@ species {
     }
     level {
       level: 24
-      move: MOVE_ENDEAVOR
       move: MOVE_MOONLIGHT
       move: MOVE_NIGHT_DAZE
     }
@@ -49469,6 +49493,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_ODOR_SLEUTH
       move: MOVE_POISON_GAS
+      move: MOVE_SNATCH
     }
     level {
       level: 17
@@ -49485,6 +49510,7 @@ species {
       move: MOVE_SMOG
       move: MOVE_SNARL
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_NIGHT_DAZE
     }
     level {
       level: 37
@@ -49498,14 +49524,18 @@ species {
       move: MOVE_INCINERATE
       move: MOVE_SCARY_FACE
       move: MOVE_VENOSHOCK
+      move: MOVE_SUPERHOT_FLAME
+      move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 51
       move: MOVE_DESTINY_BOND
       move: MOVE_OVERHEAT
       move: MOVE_PUNISHMENT
+      move: MOVE_ECLIPSE
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_COUNTER
@@ -49533,8 +49563,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_TAUNT
+    tutor: MOVE_GASTRO_ACID
   }
   visuals {
     icon {
@@ -49605,11 +49636,11 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BITE
       move: MOVE_FIRE_FANG
       move: MOVE_HOWL
       move: MOVE_ODOR_SLEUTH
       move: MOVE_POISON_GAS
+      move: MOVE_SNATCH
     }
     level {
       level: 17
@@ -49626,6 +49657,7 @@ species {
       move: MOVE_SMOG
       move: MOVE_SNARL
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_NIGHT_DAZE
     }
     level {
       level: 37
@@ -49639,6 +49671,8 @@ species {
       move: MOVE_INCINERATE
       move: MOVE_SCARY_FACE
       move: MOVE_VENOSHOCK
+      move: MOVE_SUPERHOT_FLAME
+      move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 51
@@ -49646,8 +49680,10 @@ species {
       move: MOVE_OVERHEAT
       move: MOVE_PUNISHMENT
       move: MOVE_RIP_AND_TEAR
+      move: MOVE_ECLIPSE
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_COUNTER
@@ -49677,8 +49713,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_TAUNT
+    tutor: MOVE_GASTRO_ACID
   }
   visuals {
     icon {
@@ -50330,7 +50367,7 @@ species {
   spatk: 105
   spdef: 95
   spe: 60
-  ability: ABILITY_SIGHTING_SYSTEM
+  ability: ABILITY_FRISK
   ability: ABILITY_TRACE
   ability: ABILITY_TWISTED_DIMENSION
   innate: ABILITY_LEVITATE
@@ -54642,6 +54679,7 @@ species {
       move: MOVE_FLAME_WHEEL
       move: MOVE_QUICK_ATTACK
       move: MOVE_SCRATCH
+      move: MOVE_MEGA_KICK
     }
     level {
       level: 17
@@ -54687,7 +54725,6 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -54787,6 +54824,8 @@ species {
       move: MOVE_FLAME_WHEEL
       move: MOVE_QUICK_ATTACK
       move: MOVE_SCRATCH
+      move: MOVE_MEGA_PUNCH
+      move: MOVE_MEGA_KICK
     }
     level {
       level: 17
@@ -54808,8 +54847,6 @@ species {
     level {
       level: 37
       move: MOVE_BATON_PASS
-      move: MOVE_MEGA_KICK
-      move: MOVE_MEGA_PUNCH
       move: MOVE_MIRROR_MOVE
     }
     level {
@@ -54841,6 +54878,8 @@ species {
     tutor: MOVE_FRUSTRATION
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SUNNY_DAY
@@ -54848,9 +54887,6 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_LOW_SWEEP
   }
   visuals {
     icon {
@@ -54930,6 +54966,8 @@ species {
       move: MOVE_FLAME_WHEEL
       move: MOVE_QUICK_ATTACK
       move: MOVE_SCRATCH
+      move: MOVE_MEGA_PUNCH
+      move: MOVE_MEGA_KICK
     }
     level {
       level: 17
@@ -54951,8 +54989,6 @@ species {
     level {
       level: 37
       move: MOVE_BATON_PASS
-      move: MOVE_MEGA_KICK
-      move: MOVE_MEGA_PUNCH
       move: MOVE_MIRROR_MOVE
       move: MOVE_SUPERPOWER
     }
@@ -54968,6 +55004,10 @@ species {
       move: MOVE_BRAVE_BIRD
       move: MOVE_REVERSAL
       move: MOVE_SUBMISSION
+    }
+    level {
+      level: 56
+      move: MOVE_TRIPLE_KICK
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURA_SPHERE
@@ -54989,6 +55029,8 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SUNNY_DAY
@@ -54996,9 +55038,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_EARTHQUAKE
   }
   visuals {
     icon {
@@ -57568,6 +57608,7 @@ species {
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_METAL_SOUND
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
@@ -57576,7 +57617,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_ENERGY_WAVE
   }
   visuals {
     icon {
@@ -57736,6 +57777,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_METAL_SOUND
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
@@ -57750,7 +57792,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_ENERGY_WAVE
   }
   visuals {
     icon {
@@ -57872,6 +57914,8 @@ species {
       move: MOVE_BEATDOWN
       move: MOVE_SONIC_BOOM
       move: MOVE_SCREECH
+      move: MOVE_GUST
+      move: MOVE_TWISTER
     }
     level {
       level: 24
@@ -57888,16 +57932,23 @@ species {
       move: MOVE_SUCKER_PUNCH
       move: MOVE_FLAME_TONGUE
       move: MOVE_PERISH_SONG
+      move: MOVE_LASH_OUT
     }
     level {
       level: 46
       move: MOVE_ASSURANCE
       move: MOVE_BEAT_UP
+      move: MOVE_SWIFT
+      move: MOVE_PETAL_BLIZZARD
     }
     level {
       level: 51
       move: MOVE_LEAF_STORM
       move: MOVE_WHIRLING_STRIKES
+    }
+    level {
+      level: 71
+      move: MOVE_BLEAKWIND_STORM
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_ACROBATICS
@@ -57919,6 +57970,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_METAL_SOUND
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
@@ -57936,7 +57988,8 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_ENERGY_WAVE
   }
   visuals {
     icon {
@@ -59998,8 +60051,6 @@ species {
     tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
   }
   visuals {
     icon {
@@ -60105,6 +60156,7 @@ species {
       move: MOVE_FLING
       move: MOVE_FURY_SWIPES
       move: MOVE_REVERSAL
+      move: MOVE_STOMPING_TANTRUM
     }
     level {
       level: 24
@@ -60138,8 +60190,7 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -60245,6 +60296,7 @@ species {
       move: MOVE_FLING
       move: MOVE_FURY_SWIPES
       move: MOVE_REVERSAL
+      move: MOVE_STOMPING_TANTRUM
     }
     level {
       level: 24
@@ -60291,8 +60343,7 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -60498,6 +60549,7 @@ species {
       move: MOVE_FURY_SWIPES
       move: MOVE_LUNGE
       move: MOVE_SKITTER_SMACK
+      move: MOVE_SHARPEN
     }
     level {
       level: 24
@@ -60618,6 +60670,7 @@ species {
       move: MOVE_FURY_SWIPES
       move: MOVE_LUNGE
       move: MOVE_SKITTER_SMACK
+      move: MOVE_SHARPEN
     }
     level {
       level: 24
@@ -60825,6 +60878,8 @@ species {
       move: MOVE_FURY_SWIPES
       move: MOVE_LUNGE
       move: MOVE_SKITTER_SMACK
+      move: MOVE_SHARPEN
+      move: MOVE_AIR_CUTTER
     }
     level {
       level: 24
@@ -61871,6 +61926,7 @@ species {
       move: MOVE_HEADLONG_RUSH
       move: MOVE_INSTRUCT
       move: MOVE_MEDITATE
+      move: MOVE_SMELLING_SALTS
     }
     level {
       level: 46
@@ -62621,6 +62677,7 @@ species {
       move: MOVE_FLING
       move: MOVE_QUASH
       move: MOVE_SWAGGER
+      move: MOVE_GHASTLY_ECHO
     }
     level {
       level: 46
@@ -62649,6 +62706,7 @@ species {
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
+    tutor: MOVE_DISABLE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_FEINT
     tutor: MOVE_FLASH_CANNON
@@ -62678,12 +62736,12 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
+    tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_DISABLE
-    tutor: MOVE_TORMENT
+    tutor: MOVE_FLASH_FREEZE
   }
   visuals {
     icon {
@@ -62876,6 +62934,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
+    tutor: MOVE_WILL_O_WISP
   }
   visuals {
     icon {
@@ -64977,6 +65036,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_REFLECT
@@ -64988,9 +65048,8 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_METRONOME
     tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_SWORDS_DANCE
   }
   visuals {
     icon {
@@ -68349,6 +68408,7 @@ species {
       move: MOVE_ICE_BALL
       move: MOVE_LUNGE
       move: MOVE_POUNCE
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 17
@@ -68393,6 +68453,7 @@ species {
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -68449,6 +68510,7 @@ species {
       move: MOVE_ICICLE_SPEAR
       move: MOVE_LUNGE
       move: MOVE_POUNCE
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 17
@@ -68504,6 +68566,7 @@ species {
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -68556,6 +68619,7 @@ species {
       move: MOVE_ICICLE_SPEAR
       move: MOVE_LUNGE
       move: MOVE_POUNCE
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 17
@@ -68571,6 +68635,7 @@ species {
       move: MOVE_DRAGON_BREATH
       move: MOVE_ICE_SHARD
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SIGNAL_BEAM
     }
     level {
       level: 37
@@ -68616,6 +68681,7 @@ species {
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -68788,7 +68854,6 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -68896,10 +68961,6 @@ species {
   innate: ABILITY_SOUL_EATER
   percent_female: 50
   evo {
-    to: SPECIES_CACNEA
-    level: 23
-  }
-  evo {
     to: SPECIES_CACJACK
     level: 45
   }
@@ -68979,7 +69040,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
@@ -69076,7 +69137,6 @@ species {
     level {
       level: 17
       move: MOVE_DISARMING_VOICE
-      move: MOVE_ENDEAVOR
       move: MOVE_MIRROR_MOVE
       move: MOVE_UPROAR
       move: MOVE_FAIRY_WIND
@@ -69086,10 +69146,12 @@ species {
       move: MOVE_FEATHER_DANCE
       move: MOVE_FURY_ATTACK
       move: MOVE_STEEL_WING
+      move: MOVE_TWISTER
     }
     level {
       level: 37
       move: MOVE_HEAL_BELL
+      move: MOVE_DRAGON_BREATH
     }
     level {
       level: 46
@@ -69252,7 +69314,6 @@ species {
     level {
       level: 17
       move: MOVE_DISARMING_VOICE
-      move: MOVE_ENDEAVOR
       move: MOVE_MIRROR_MOVE
       move: MOVE_UPROAR
       move: MOVE_FAIRY_WIND
@@ -69265,12 +69326,14 @@ species {
       move: MOVE_FURY_ATTACK
       move: MOVE_MYSTIC_DANCE
       move: MOVE_STEEL_WING
+      move: MOVE_TWISTER
     }
     level {
       level: 37
       move: MOVE_FIERY_DANCE
       move: MOVE_HEAL_BELL
       move: MOVE_SKY_ATTACK
+      move: MOVE_DRAGON_BREATH
     }
     level {
       level: 46
@@ -69287,6 +69350,10 @@ species {
     level {
       level: 56
       move: MOVE_PERISH_SONG
+    }
+    level {
+      level: 61
+      move: MOVE_DRAGON_ASCENT
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -73700,6 +73767,7 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_GIGA_IMPACT
@@ -73726,8 +73794,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -73861,12 +73928,14 @@ species {
       move: MOVE_FURY_CUTTER
       move: MOVE_PSYBLADE
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_OVERHEAT
     }
     level {
       level: 51
       move: MOVE_ASSURANCE
       move: MOVE_MAGIC_ROOM
       move: MOVE_PUNISHMENT
+      move: MOVE_ECLIPSE
     }
     level {
       level: 56
@@ -73889,6 +73958,7 @@ species {
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_HAIL
+    tutor: MOVE_HURRICANE
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_NASTY_PLOT
@@ -73903,14 +73973,19 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THIEF
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_AURA_SPHERE
   }
   visuals {
     icon {
@@ -74185,11 +74260,13 @@ species {
       move: MOVE_LAST_RESORT
     }
     tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COUNTER
     tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISABLE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FACADE
     tutor: MOVE_FLASH_FREEZE
@@ -74198,6 +74275,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_RAPID_SPIN
@@ -74207,10 +74285,7 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_DISABLE
-    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -74344,13 +74419,16 @@ species {
       move: MOVE_DOUBLE_EDGE
     }
     tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COUNTER
     tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISABLE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FACADE
+    tutor: MOVE_FEINT
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_GIGA_IMPACT
@@ -74359,6 +74437,7 @@ species {
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_RAPID_SPIN
@@ -74367,13 +74446,9 @@ species {
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SPIKES
     tutor: MOVE_STONE_EDGE
-    tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_FEINT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_DISABLE
-    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -74508,6 +74583,7 @@ species {
       move: MOVE_TRUMP_CARD
     }
     tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
@@ -74515,6 +74591,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISABLE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_WAVE
@@ -74531,6 +74608,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_NIGHT_SHADE
@@ -74543,10 +74621,7 @@ species {
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_DISABLE
-    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -79602,6 +79677,7 @@ species {
       move: MOVE_GYRO_BALL
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_BITE
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CREEPING_THORNS
@@ -79620,6 +79696,7 @@ species {
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
@@ -79627,9 +79704,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_HARD_PRESS
   }
   visuals {
     icon {
@@ -79746,6 +79821,7 @@ species {
       move: MOVE_SHELL_SMASH
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_BITE
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CREEPING_THORNS
@@ -79765,6 +79841,7 @@ species {
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
@@ -79772,9 +79849,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_HARD_PRESS
   }
   visuals {
     icon {
@@ -79900,6 +79975,7 @@ species {
       move: MOVE_FISSURE
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_BITE
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
@@ -79924,6 +80000,7 @@ species {
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SUNNY_DAY
@@ -79932,9 +80009,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_HARD_PRESS
   }
   visuals {
     icon {
@@ -87927,10 +88002,6 @@ species {
       move: MOVE_PERISH_SONG
       move: MOVE_PUNISHMENT
     }
-    level {
-      level: 51
-      move: MOVE_ENDEAVOR
-    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -88372,6 +88443,7 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_HEADBUTT
@@ -88396,8 +88468,6 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
   }
   visuals {
     icon {
@@ -89985,6 +90055,7 @@ species {
     level {
       level: 46
       move: MOVE_MINIMIZE
+      move: MOVE_AMNESIA
     }
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
@@ -90634,14 +90705,14 @@ species {
 species {
   id: SPECIES_SPIRITOMB_REDUX
   form_of: SPECIES_SPIRITOMB
-  type: TYPE_GHOST
+  type: TYPE_PSYCHIC
   type2: TYPE_POISON
-  hp: 98
-  atk: 126
-  def: 76
-  spatk: 126
-  spdef: 76
-  spe: 15
+  hp: 77
+  atk: 60
+  def: 108
+  spatk: 117
+  spdef: 120
+  spe: 35
   ability: ABILITY_NEUTRALIZING_GAS
   ability: ABILITY_COSMIC_DAZE
   ability: ABILITY_FOREWARN
@@ -90673,12 +90744,14 @@ species {
       move: MOVE_BITTER_MALICE
       move: MOVE_POLTERGEIST
       move: MOVE_ASTONISH
+      move: MOVE_VENOSHOCK
     }
     level {
       level: 37
       move: MOVE_SHADOW_HAMMER
       move: MOVE_EERIE_IMPULSE
       move: MOVE_EXPANDING_FORCE
+      move: MOVE_BANEFUL_BUNKER
     }
     level {
       level: 46
@@ -92666,6 +92739,7 @@ species {
       move: MOVE_POISON_STING
       move: MOVE_SHARPEN
       move: MOVE_BAD_EGG
+      move: MOVE_SLASH
     }
     level {
       level: 17
@@ -92684,24 +92758,27 @@ species {
       level: 37
       move: MOVE_FURY_CUTTER
       move: MOVE_PITFALL
+      move: MOVE_FELL_STINGER
     }
     level {
       level: 46
-      move: MOVE_SLASH
+      move: MOVE_SMART_STRIKE
     }
     level {
       level: 51
       move: MOVE_CROSS_POISON
-      move: MOVE_FELL_STINGER
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DIG
+    tutor: MOVE_DRILL_RUN
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LEECH_LIFE
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -92713,10 +92790,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LEECH_LIFE
-    tutor: MOVE_DRILL_RUN
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_CUT
   }
   visuals {
     icon {
@@ -92848,6 +92922,7 @@ species {
       move: MOVE_POISON_STING
       move: MOVE_SHARPEN
       move: MOVE_BAD_EGG
+      move: MOVE_SLASH
     }
     level {
       level: 17
@@ -92867,28 +92942,31 @@ species {
       move: MOVE_FURY_CUTTER
       move: MOVE_PITFALL
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_FELL_STINGER
     }
     level {
       level: 46
-      move: MOVE_SLASH
       move: MOVE_SUPERPOWER
+      move: MOVE_SMART_STRIKE
     }
     level {
       level: 51
       move: MOVE_CROSS_POISON
-      move: MOVE_FELL_STINGER
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DIG
+    tutor: MOVE_DRILL_RUN
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LEECH_LIFE
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -92900,10 +92978,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LEECH_LIFE
-    tutor: MOVE_DRILL_RUN
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_CUT
   }
   visuals {
     icon {
@@ -94472,6 +94547,7 @@ species {
       level: 37
       move: MOVE_ROCK_POLISH
       move: MOVE_STRENGTH
+      move: MOVE_ASTEROID_DOWNFALL
     }
     level {
       level: 46
@@ -106399,18 +106475,21 @@ species {
       move: MOVE_SLAM
       move: MOVE_SMACK_DOWN
       move: MOVE_WOOD_HAMMER
+      move: MOVE_BODY_SLAM
     }
     level {
       level: 17
       move: MOVE_HAMMER_ARM
       move: MOVE_SMELLING_SALTS
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_DIZZY_PUNCH
     }
     level {
       level: 24
       move: MOVE_BRICK_BREAK
       move: MOVE_COACHING
       move: MOVE_VITAL_THROW
+      move: MOVE_CHIP_AWAY
     }
     level {
       level: 37
@@ -106439,9 +106518,13 @@ species {
     tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FORCE_PALM
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -106449,13 +106532,10 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
-    tutor: MOVE_WORK_UP
-    tutor: MOVE_HARD_PRESS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HEADBUTT
   }
   visuals {
     icon {
@@ -106536,18 +106616,21 @@ species {
       move: MOVE_SMACK_DOWN
       move: MOVE_STEEL_BEAM
       move: MOVE_WOOD_HAMMER
+      move: MOVE_BODY_SLAM
     }
     level {
       level: 17
       move: MOVE_HAMMER_ARM
       move: MOVE_SMELLING_SALTS
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_DIZZY_PUNCH
     }
     level {
       level: 24
       move: MOVE_BRICK_BREAK
       move: MOVE_COACHING
       move: MOVE_VITAL_THROW
+      move: MOVE_CHIP_AWAY
     }
     level {
       level: 37
@@ -106576,9 +106659,13 @@ species {
     tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FORCE_PALM
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -106586,13 +106673,10 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
-    tutor: MOVE_WORK_UP
-    tutor: MOVE_HARD_PRESS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HEADBUTT
   }
   visuals {
     icon {
@@ -106686,18 +106770,21 @@ species {
       move: MOVE_SMACK_DOWN
       move: MOVE_STEEL_BEAM
       move: MOVE_WOOD_HAMMER
+      move: MOVE_BODY_SLAM
     }
     level {
       level: 17
       move: MOVE_HAMMER_ARM
       move: MOVE_SMELLING_SALTS
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_DIZZY_PUNCH
     }
     level {
       level: 24
       move: MOVE_BRICK_BREAK
       move: MOVE_COACHING
       move: MOVE_VITAL_THROW
+      move: MOVE_CHIP_AWAY
     }
     level {
       level: 37
@@ -106727,10 +106814,14 @@ species {
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FORCE_PALM
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -106738,13 +106829,10 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
-    tutor: MOVE_WORK_UP
-    tutor: MOVE_HARD_PRESS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HEADBUTT
   }
   visuals {
     icon {
@@ -107948,6 +108036,7 @@ species {
       level: 24
       move: MOVE_VENOM_BOLT
       move: MOVE_VENOSHOCK
+      move: MOVE_SMART_STRIKE
     }
     level {
       level: 37
@@ -107973,7 +108062,9 @@ species {
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -108084,6 +108175,7 @@ species {
       level: 24
       move: MOVE_VENOM_BOLT
       move: MOVE_VENOSHOCK
+      move: MOVE_SMART_STRIKE
     }
     level {
       level: 37
@@ -108109,7 +108201,9 @@ species {
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -108214,6 +108308,7 @@ species {
       move: MOVE_MEGAHORN
       move: MOVE_VENOM_BOLT
       move: MOVE_VENOSHOCK
+      move: MOVE_SMART_STRIKE
     }
     level {
       level: 37
@@ -108241,7 +108336,9 @@ species {
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -110636,7 +110733,6 @@ species {
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
-      move: MOVE_ENDEAVOR
       move: MOVE_HEAD_SMASH
     }
     tutor: MOVE_BODY_PRESS
@@ -110740,7 +110836,6 @@ species {
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
-      move: MOVE_ENDEAVOR
       move: MOVE_HEADLONG_RUSH
       move: MOVE_HEAD_SMASH
       move: MOVE_PLASMA_FISTS
@@ -111442,13 +111537,16 @@ species {
       level: 56
       move: MOVE_TRIPLE_KICK
     }
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BULK_UP
     tutor: MOVE_CIRCLE_THROW
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_FRUSTRATION
@@ -111457,7 +111555,9 @@ species {
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_ONI_FIST
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RETALIATE
@@ -111468,12 +111568,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONI_FIST
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -111591,19 +111686,23 @@ species {
       move: MOVE_SCARY_FACE
       move: MOVE_SUBMISSION
       move: MOVE_PRIMITIVE_STRIKE
+      move: MOVE_PARTING_SHOT
     }
     level {
       level: 56
       move: MOVE_OBSTRUCT
       move: MOVE_TRIPLE_KICK
     }
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BULK_UP
     tutor: MOVE_CIRCLE_THROW
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_FRUSTRATION
@@ -111615,7 +111714,9 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_ONI_FIST
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RETALIATE
@@ -111626,12 +111727,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONI_FIST
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -112793,6 +112889,10 @@ species {
       move: MOVE_HEAD_SMASH
       move: MOVE_WHIRLING_STRIKES
     }
+    level {
+      level: 61
+      move: MOVE_DRAGON_ASCENT
+    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -113088,6 +113188,7 @@ species {
       move: MOVE_EXPLOSION
       move: MOVE_GIGA_DRAIN
       move: MOVE_METEOR_MASH
+      move: MOVE_DIRE_CLAW
     }
     level {
       level: 51
@@ -116044,10 +116145,12 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
     tutor: MOVE_FEINT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RETALIATE
     tutor: MOVE_SEED_BOMB
@@ -116055,8 +116158,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_FACADE
-    tutor: MOVE_NATURE_POWER
+    tutor: MOVE_AGILITY
   }
   visuals {
     icon {
@@ -116148,6 +116250,7 @@ species {
       level: 37
       move: MOVE_DOUBLE_EDGE
       move: MOVE_TRAILBLAZE
+      move: MOVE_ROCK_CLIMB
     }
     level {
       level: 46
@@ -116170,12 +116273,14 @@ species {
     tutor: MOVE_DRILL_RUN
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
     tutor: MOVE_FEINT
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
@@ -116185,8 +116290,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_FACADE
-    tutor: MOVE_NATURE_POWER
+    tutor: MOVE_AGILITY
   }
   visuals {
     icon {
@@ -116482,11 +116586,13 @@ species {
       level: 24
       move: MOVE_ENCORE
       move: MOVE_RISING_VOLTAGE
+      move: MOVE_ZIPPY_ZAP
     }
     level {
       level: 37
       move: MOVE_AERIAL_ACE
       move: MOVE_SWAGGER
+      move: MOVE_ZAP_JIVE
     }
     level {
       level: 46
@@ -116508,6 +116614,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_NASTY_PLOT
@@ -116523,8 +116630,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -118681,6 +118787,7 @@ species {
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_TAIL
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SOAK
     tutor: MOVE_SPIKES
     tutor: MOVE_SURF
@@ -118692,7 +118799,6 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_RAIN_DANCE
   }
   visuals {
     icon {
@@ -118878,6 +118984,7 @@ species {
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_TAIL
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SOAK
     tutor: MOVE_SPIKES
     tutor: MOVE_SURF
@@ -118889,7 +118996,6 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_RAIN_DANCE
   }
   visuals {
     icon {
@@ -119002,6 +119108,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_SUPERCELL_SLAM
       move: MOVE_ZAP_CANNON
+      move: MOVE_STARBURST
     }
     level {
       level: 46
@@ -119036,6 +119143,7 @@ species {
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SOAK
     tutor: MOVE_SPIKES
     tutor: MOVE_SURF
@@ -119048,7 +119156,8 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_POWER_UP_PUNCH
   }
   visuals {
     icon {
@@ -121401,6 +121510,7 @@ species {
       move: MOVE_SHARPEN
       move: MOVE_THUNDER_FANG
       move: MOVE_JAW_LOCK
+      move: MOVE_JAGGED_FANGS
     }
     level {
       level: 17
@@ -122027,6 +122137,7 @@ species {
       move: MOVE_MEGA_PUNCH
       move: MOVE_STOMP
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SELF_DESTRUCT
     }
     level {
       level: 17
@@ -122164,6 +122275,7 @@ species {
       move: MOVE_MEGA_PUNCH
       move: MOVE_STOMP
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SELF_DESTRUCT
     }
     level {
       level: 17
@@ -122193,6 +122305,7 @@ species {
       move: MOVE_EXPLOSION
       move: MOVE_MOUNTAIN_CHUNK
       move: MOVE_PHANTOM_FORCE
+      move: MOVE_CORE_ENFORCER
     }
     level {
       level: 56
@@ -123829,6 +123942,8 @@ species {
       move: MOVE_AMNESIA
       move: MOVE_BELLY_DRUM
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_OVERHEAT
+      move: MOVE_GIGA_DRAIN
     }
     level {
       level: 51
@@ -123862,7 +123977,8 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_DIG
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -136671,7 +136787,7 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
+    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -136772,6 +136888,7 @@ species {
       level: 24
       move: MOVE_ROCK_POLISH
       move: MOVE_STRENGTH
+      move: MOVE_CRUNCH
     }
     level {
       level: 37
@@ -136815,7 +136932,7 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
+    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -138576,6 +138693,8 @@ species {
       move: MOVE_DISARMING_VOICE
       move: MOVE_FAIRY_WIND
       move: MOVE_FLATTER
+      move: MOVE_BIND
+      move: MOVE_DOUBLE_SLAP
     }
     level {
       level: 17
@@ -138584,10 +138703,12 @@ species {
       move: MOVE_HEAL_PULSE
       move: MOVE_SCREECH
       move: MOVE_SWAGGER
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 24
       move: MOVE_BATON_PASS
+      move: MOVE_SWIFT
     }
     level {
       level: 37
@@ -138607,6 +138728,7 @@ species {
       level: 51
       move: MOVE_LIGHT_OF_RUIN
     }
+    tutor: MOVE_CALTROPS
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_FLASH_CANNON
@@ -138619,19 +138741,19 @@ species {
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_REFLECT
     tutor: MOVE_REFRESH
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SPIKES
+    tutor: MOVE_TAUNT
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_METRONOME
-    tutor: MOVE_CALTROPS
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_RAPID_SPIN
   }
   visuals {
     icon {
@@ -144591,6 +144713,7 @@ species {
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_DEFOG
     tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_GIGA_IMPACT
@@ -144599,10 +144722,12 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PLUCK
     tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_ROOST
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SHADOW_BALL
@@ -144616,9 +144741,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_PSYCHIC_TERRAIN
-    tutor: MOVE_ELECTRIC_TERRAIN
-    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_SUNNY_DAY
   }
   visuals {
     icon {
@@ -145839,6 +145962,7 @@ species {
       move: MOVE_JAGGED_FANGS
       move: MOVE_LEER
       move: MOVE_TACKLE
+      move: MOVE_MUD_SLAP
     }
     level {
       level: 17
@@ -145983,7 +146107,6 @@ species {
       level: 1
       move: MOVE_AQUA_FANG
       move: MOVE_BEAT_UP
-      move: MOVE_ENDEAVOR
       move: MOVE_ROAR
       move: MOVE_SPLASH
       move: MOVE_WATER_SPORT
@@ -147038,7 +147161,6 @@ species {
     }
     level {
       level: 37
-      move: MOVE_ENDEAVOR
       move: MOVE_FURY_CUTTER
       move: MOVE_LEECH_BLADE
     }
@@ -147146,7 +147268,6 @@ species {
     }
     level {
       level: 37
-      move: MOVE_ENDEAVOR
       move: MOVE_FURY_CUTTER
       move: MOVE_LEAFAGE
       move: MOVE_LEECH_BLADE
@@ -147520,15 +147641,15 @@ species {
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POISON_JAB
     tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TOXIC_SPIKES
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TEARFUL_LOOK
   }
   visuals {
     icon {
@@ -152955,7 +153076,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_STEALTH_ROCK
   }
   visuals {
     icon {
@@ -153072,7 +153193,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_STEALTH_ROCK
   }
   visuals {
     icon {
@@ -156932,6 +157053,7 @@ species {
       move: MOVE_DRUM_BEATING
       move: MOVE_ENDEAVOR
       move: MOVE_GRASS_KNOT
+      move: MOVE_SMASHING_PUMPKINS
     }
     level {
       level: 37
@@ -159072,6 +159194,7 @@ species {
       move: MOVE_ECHOED_VOICE
     }
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
@@ -159086,10 +159209,9 @@ species {
     tutor: MOVE_SPIDER_WEB
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_WORRY_SEED
-    tutor: MOVE_COTTON_SPORE
     tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_SNORE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_LEAF_TORNADO
   }
   visuals {
     icon {
@@ -159175,6 +159297,7 @@ species {
       move: MOVE_COTTON_GUARD
     }
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
@@ -159191,10 +159314,9 @@ species {
     tutor: MOVE_SPIDER_WEB
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_WORRY_SEED
-    tutor: MOVE_COTTON_SPORE
     tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_SNORE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_LEAF_TORNADO
   }
   visuals {
     icon {
@@ -162917,7 +163039,6 @@ species {
     level {
       level: 46
       move: MOVE_FAIRY_LOCK
-      move: MOVE_SONIC_BOOM
     }
     level {
       level: 51
@@ -162934,9 +163055,9 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EERIE_FOG
-    tutor: MOVE_EERIE_SPELL
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLASH
     tutor: MOVE_HAZE
@@ -162954,6 +163075,7 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_RETALIATE
     tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -162961,9 +163083,6 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_DISABLE
   }
   visuals {
     icon {
@@ -163046,7 +163165,6 @@ species {
     level {
       level: 46
       move: MOVE_FAIRY_LOCK
-      move: MOVE_SONIC_BOOM
     }
     level {
       level: 51
@@ -163063,9 +163181,9 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EERIE_FOG
-    tutor: MOVE_EERIE_SPELL
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLASH
     tutor: MOVE_HAZE
@@ -163083,6 +163201,7 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_RETALIATE
     tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -163090,9 +163209,6 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_DISABLE
   }
   visuals {
     icon {
@@ -163178,7 +163294,6 @@ species {
     level {
       level: 46
       move: MOVE_FAIRY_LOCK
-      move: MOVE_SONIC_BOOM
       move: MOVE_TERROR_LOCKS
       move: MOVE_OMINOUS_WIND
     }
@@ -163197,9 +163312,9 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EERIE_FOG
-    tutor: MOVE_EERIE_SPELL
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FALSE_SWIPE
     tutor: MOVE_FLASH
@@ -163222,6 +163337,7 @@ species {
     tutor: MOVE_RETALIATE
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -163229,9 +163345,6 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_DISABLE
   }
   visuals {
     icon {
@@ -165543,12 +165656,14 @@ species {
       move: MOVE_DOUBLE_KICK
       move: MOVE_EARTHSPLITTER
       move: MOVE_SMACK_DOWN
+      move: MOVE_TRAILBLAZE
     }
     level {
       level: 37
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_PRIMITIVE_STRIKE
       move: MOVE_TROP_KICK
+      move: MOVE_BONK
     }
     level {
       level: 46
@@ -165564,6 +165679,7 @@ species {
     level {
       level: 56
       move: MOVE_HEADLONG_RUSH
+      move: MOVE_SHORE_UP
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BREAKING_SWIPE
@@ -165575,6 +165691,7 @@ species {
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_LOW_KICK
@@ -165588,7 +165705,8 @@ species {
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_TRICK_ROOM
   }
   visuals {
     icon {
@@ -171763,6 +171881,7 @@ species {
       move: MOVE_DOUBLE_KICK
       move: MOVE_FERTILE_FANGS
       move: MOVE_SLAM
+      move: MOVE_POISON_FANG
     }
     level {
       level: 24
@@ -172210,7 +172329,6 @@ species {
     level {
       level: 37
       move: MOVE_ASSURANCE
-      move: MOVE_FELL_STINGER
       move: MOVE_PUNISHMENT
       move: MOVE_RIDER_KICK
     }
@@ -172223,6 +172341,7 @@ species {
       level: 51
       move: MOVE_FIRST_IMPRESSION
       move: MOVE_TRIPLE_KICK
+      move: MOVE_FELL_STINGER
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -173327,8 +173446,8 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_METRONOME
     tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_LEECH_SEED
   }
   visuals {
     icon {
@@ -174008,6 +174127,7 @@ species {
       move: MOVE_ROCK_BLAST
       move: MOVE_ROCK_POLISH
       move: MOVE_QUASH
+      move: MOVE_SMELLING_SALTS
     }
     level {
       level: 46
@@ -174495,6 +174615,7 @@ species {
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -174502,7 +174623,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -174600,6 +174721,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SOAK
     tutor: MOVE_SURF
     tutor: MOVE_THUNDER
@@ -174609,7 +174731,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -176063,6 +176185,8 @@ species {
       move: MOVE_BURNING_JEALOUSY
       move: MOVE_FLAME_BURST
       move: MOVE_SYNTHESIS
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_WOOD_HAMMER
     }
     level {
       level: 51
@@ -180057,7 +180181,6 @@ species {
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EERIE_FOG
-    tutor: MOVE_EERIE_SPELL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_GIGA_IMPACT
@@ -180073,6 +180196,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYSHOCK
@@ -180081,7 +180205,6 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_PLAY_ROUGH
   }
   visuals {
     icon {
@@ -180398,7 +180521,6 @@ species {
     }
     level {
       level: 17
-      move: MOVE_ENDEAVOR
       move: MOVE_STEAMROLLER
     }
     level {
@@ -184682,6 +184804,7 @@ species {
       move: MOVE_ELECTRO_SHOT
       move: MOVE_THUNDER_CAGE
     }
+    tutor: MOVE_BITE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DISCHARGE
     tutor: MOVE_DRAGON_CHEER
@@ -184702,7 +184825,8 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_BITE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_AIR_SLASH
   }
   visuals {
     icon {
@@ -186643,14 +186767,15 @@ species {
     tutor: MOVE_POISON_TAIL
     tutor: MOVE_PURSUIT
     tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TOXIC_SPIKES
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TEARFUL_LOOK
   }
   visuals {
     icon {
@@ -187093,6 +187218,9 @@ species {
     level {
       level: 56
       move: MOVE_CHLOROBLAST
+    }
+    level {
+      level: 61
       move: MOVE_DRAGON_ENERGY
     }
     tutor: MOVE_ACROBATICS
@@ -190444,6 +190572,7 @@ species {
       level: 46
       move: MOVE_NATURAL_GIFT
       move: MOVE_WOOD_HAMMER
+      move: MOVE_PRIMITIVE_STRIKE
     }
     level {
       level: 51
@@ -191851,6 +191980,7 @@ species {
       move: MOVE_STRENGTH_SAP
       move: MOVE_DRAIN_BRAIN
       move: MOVE_BANEFUL_BUNKER
+      move: MOVE_PSYCHO_BOOST
     }
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AGILITY
@@ -192025,20 +192155,28 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISABLE
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEX
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_INGRAIN
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_PURSUIT
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_RETALIATE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_PUNCH
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPIKES
     tutor: MOVE_SPITE
@@ -192047,17 +192185,10 @@ species {
     tutor: MOVE_THIEF
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_VEXING_VOID
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_FLUTTERING_LEAF
-    tutor: MOVE_SHADOW_BALL
-    tutor: MOVE_HEX
-    tutor: MOVE_CURSE
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_SHADOW_PUNCH
-    tutor: MOVE_DISABLE
-    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
