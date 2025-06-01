@@ -99,7 +99,7 @@ ability {
 ability {
   id: ABILITY_SHIELD_DUST
   name: "Shield Dust"
-  description: "Immune to added move effects and all entry hazards."
+  description: "Immune to added move effects, hazards, and powder moves."
 }
 ability {
   id: ABILITY_OWN_TEMPO
@@ -1009,7 +1009,7 @@ ability {
 ability {
   id: ABILITY_BERSERK
   name: "Berserk"
-  description: "Boosts Sp. Atk by one stage when at 1/2 of max HP or lower."
+  description: "Boosts highest attack by +1 when at 1/2 of max HP or lower."
 }
 ability {
   id: ABILITY_SLUSH_RUSH
@@ -1674,7 +1674,7 @@ ability {
 ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
-  description: "Foes hit the lowest damage roll, have 5% less acc. and can't crit."
+  description: "Foes can't crit, deal min damage, and have no effect chance."
 }
 ability {
   id: ABILITY_HAUNTED_SPIRIT
@@ -1884,7 +1884,7 @@ ability {
 ability {
   id: ABILITY_DEADEYE
   name: "Deadeye"
-  description: "Never misses. Arrow and cannon moves hit weakest defense."
+  description: "Arrow & cannon moves never miss. Crits hit weakest defense."
 }
 ability {
   id: ABILITY_ARTILLERY
@@ -3374,7 +3374,7 @@ ability {
 ability {
   id: ABILITY_BLOOD_STIGMA
   name: "Blood Stigma"
-  description: "Immune to status. Gets a 50% boost vs bleeding foes."
+  description: "Immune to status. Gets a 2x boost vs bleeding foes."
 }
 ability {
   id: ABILITY_MAXIMUM_ACCELERATION
@@ -4038,13 +4038,13 @@ ability {
 }
 ability {
   id: ABILITY_WOODLAND_CURSE
-  name: "Woodland Curse (P)"
-  description: "Uses Forest's Curse on Entry."
+  name: "Woodland Curse"
+  description: "Uses Forest's Curse on Entry. Adds Grass type on contact."
 }
 ability {
   id: ABILITY_MALODOR
-  name: "Malodor (N)"
-  description: "Getting hit by contact supresses the attacker's abilities."
+  name: "Malodor"
+  description: "Suppresses attacker's abilities on contact."
 }
 ability {
   id: ABILITY_BLUR
@@ -4053,7 +4053,7 @@ ability {
 }
 ability {
   id: ABILITY_ELUDE
-  name: "Elude (N)"
+  name: "Elude"
   description: "Uses Speed as defense stat when hit by non-contact."
 }
 ability {
@@ -4063,8 +4063,8 @@ ability {
 }
 ability {
   id: ABILITY_REVERBATE
-  name: "Reverbate (N)"
-  description: "Normal moves are flagged as Sound moves."
+  name: "Reverbate"
+  description: "Normal moves are Sound moves."
 }
 ability {
   id: ABILITY_MIXED_MARTIAL_ARTS
@@ -4108,7 +4108,7 @@ ability {
 }
 ability { 
   id: ABILITY_SCARECROW
-  name: "Scarecrow (P)"
+  name: "Scarecrow"
   description: "Scare + Bad Luck."
 }
 ability {
@@ -4283,6 +4283,6 @@ ability {
 }
 ability {
   id: ABILITY_MOLTEN_COAT
-  name: "Molten Coat (P)"
+  name: "Molten Coat"
   description: "Mineralize + Rock moves have 50% burn chance."
 }
