@@ -4038,13 +4038,13 @@ ability {
 }
 ability {
   id: ABILITY_WOODLAND_CURSE
-  name: "Woodland Curse (P)"
+  name: "Woodland Curse"
   description: "Uses Forest's Curse on Entry. Adds Grass type on contact."
 }
 ability {
   id: ABILITY_MALODOR
-  name: "Malodor (N)"
-  description: "Getting hit by contact supresses the attacker's abilities."
+  name: "Malodor"
+  description: "Suppresses attacker's abilities on contact."
 }
 ability {
   id: ABILITY_BLUR
@@ -4053,7 +4053,7 @@ ability {
 }
 ability {
   id: ABILITY_ELUDE
-  name: "Elude (N)"
+  name: "Elude"
   description: "Uses Speed as defense stat when hit by non-contact."
 }
 ability {
@@ -4063,8 +4063,8 @@ ability {
 }
 ability {
   id: ABILITY_REVERBATE
-  name: "Reverbate (N)"
-  description: "Normal moves are flagged as Sound moves."
+  name: "Reverbate"
+  description: "Normal moves are Sound moves."
 }
 ability {
   id: ABILITY_MIXED_MARTIAL_ARTS
@@ -4283,6 +4283,6 @@ ability {
 }
 ability {
   id: ABILITY_MOLTEN_COAT
-  name: "Molten Coat (P)"
+  name: "Molten Coat"
   description: "Mineralize + Rock moves have 50% burn chance."
 }
