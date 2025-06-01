@@ -99,7 +99,7 @@ ability {
 ability {
   id: ABILITY_SHIELD_DUST
   name: "Shield Dust"
-  description: "Immune to added move effects and all entry hazards."
+  description: "Immune to added move effects, hazards, and powder moves."
 }
 ability {
   id: ABILITY_OWN_TEMPO
