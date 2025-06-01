@@ -4283,6 +4283,6 @@ ability {
 }
 ability {
   id: ABILITY_MOLTEN_COAT
-  name: "Molten Coat"
+  name: "Molten Coat (P)"
   description: "Mineralize + Rock moves have 50% burn chance."
 }
