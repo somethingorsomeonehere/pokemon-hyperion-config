@@ -4281,3 +4281,8 @@ ability {
   name: "Hyper Cleanse"
   description: "Immune to status. Halves poison damage taken."
 }
+ability {
+  id: ABILITY_MOLTEN_COAT
+  name: "Molten Coat (P)"
+  description: "Mineralize + Rock moves have 50% burn chance."
+}

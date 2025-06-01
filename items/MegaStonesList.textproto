@@ -2209,5 +2209,45 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
-  talk_to_nurse_joy: true
+  adoption_center: true
+}
+item {
+  id: ITEM_ARCANITE_H
+  name: "Arcanite H"
+  description: "Enables Arcanine H to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}
+item {
+  id: ITEM_REUNICLUSITE
+  name: "Reuniclusite"
+  description: "Enables Reuniclus to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}
+item {
+  id: ITEM_SWAMPAGEITE
+  name: "Swampageite"
+  description: "Enables Swampage to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}
+item {
+  id: ITEM_CHANDELUREITE
+  name: "Chandelureite"
+  description: "Enables Chandelure to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
 }

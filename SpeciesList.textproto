@@ -197082,3 +197082,455 @@ species {
     shiny: "snorlax/redux/shiny"
   }
 }
+species {
+  id: SPECIES_ARCANINE_HISUIAN_MEGA
+  form_of: SPECIES_ARCANINE
+  type: TYPE_FIRE
+  type2: TYPE_ROCK
+  hp: 90
+  atk: 140
+  def: 110
+  spatk: 110
+  spdef: 110
+  spe: 140
+  ability: ABILITY_TOUGH_CLAWS
+  ability: ABILITY_TOUGH_CLAWS
+  ability: ABILITY_TOUGH_CLAWS
+  innate: ABILITY_ROCK_HEAD
+  innate: ABILITY_MOLTEN_COAT
+  innate: ABILITY_RECKLESS
+  percent_female: 25
+  mega {
+    from: SPECIES_ARCANINE_HISUIAN
+    item: ITEM_ARCANITE_H
+  }
+  visuals {
+    icon {
+      path: "arcanine/hisuian/mega/icon"
+    }
+    front {
+      path: "arcanine/hisuian/mega/front"
+      coords {
+        size: 136
+        y_offset: 3
+      }
+    }
+    back {
+      path: "arcanine/hisuian/mega/back"
+      coords {
+        size: 120
+        y_offset: 0
+      }
+    }
+    palette: "arcanine/hisuian/mega/normal"
+    shiny: "arcanine/hisuian/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_REUNICLUS_MEGA
+  form_of: SPECIES_REUNICLUS
+  type: TYPE_PSYCHIC
+  hp: 110
+  atk: 85
+  def: 105
+  spatk: 135
+  spdef: 125
+  spe: 30
+  ability: ABILITY_LIQUID_OOZE
+  ability: ABILITY_HUSTLE
+  ability: ABILITY_UNNERVE
+  innate: ABILITY_ROCK_HEAD
+  innate: ABILITY_LIQUIFIED
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_REUNICLUS
+    item: ITEM_REUNICLUSITE
+  }
+  visuals {
+    icon {
+      path: "reuniclus/mega/icon"
+    }
+    front {
+      path: "reuniclus/mega/front"
+      coords {
+        size: 136
+        y_offset: 3
+      }
+    }
+    back {
+      path: "reuniclus/mega/back"
+      coords {
+        size: 120
+        y_offset: 4
+      }
+    }
+    palette: "reuniclus/mega/normal"
+    shiny: "reuniclus/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_KIPMODO
+  dex {
+    name: "Kipmodo"
+    category: "Mud Fish"
+    description: "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water\'s edge."
+    national_dex_num: 258
+    hoenn_dex_num: 7
+    body_color: BODY_COLOR_BLUE
+    egg_group: MONSTER
+    egg_group_2: WATER_1
+    height: 4
+    weight: 76
+    pokemon_scale: 535
+    trainer_scale: 256
+    pokemon_offset: 20
+  }
+  type: TYPE_WATER
+  hp: 55
+  atk: 75
+  def: 50
+  spatk: 50
+  spdef: 50
+  spe: 40
+  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_MULTISCALE
+  ability: ABILITY_REGENERATOR
+  innate: ABILITY_TORRENT
+  innate: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_WATER_VEIL
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_MARSHMODO
+    level: 16
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BUBBLE_BEAM
+      move: MOVE_GROWL
+      move: MOVE_MUD_SPORT
+      move: MOVE_TACKLE
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_MUD_SHOT
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+    }
+    level {
+      level: 24
+      move: MOVE_MUD_BOMB
+      move: MOVE_WATERFALL
+    }
+    level {
+      level: 37
+      move: MOVE_MUDDY_WATER
+    }
+    level {
+      level: 46
+      move: MOVE_WAVE_CRASH
+    }
+  }
+  visuals {
+    icon {
+      path: "kipmodo/icon"
+    }
+    front {
+      path: "kipmodo/front"
+      anim: ANIM_CIRCULAR_STRETCH_TWICE
+      coords {
+        size: 86
+        y_offset: 13
+      }
+    }
+    back {
+      path: "kipmodo/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        size: 102
+        y_offset: 10
+      }
+    }
+    palette: "kipmodo/normal"
+    shiny: "kipmodo/shiny"
+  }
+}
+species {
+  id: SPECIES_MARSHMODO
+  dex {
+    name: "Marshmodo"
+    category: "Mud Fish"
+    description: "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud."
+    national_dex_num: 259
+    hoenn_dex_num: 8
+    body_color: BODY_COLOR_BLUE
+    egg_group: MONSTER
+    egg_group_2: WATER_1
+    height: 7
+    weight: 280
+    pokemon_scale: 340
+    trainer_scale: 256
+    pokemon_offset: 7
+  }
+  type: TYPE_WATER
+  type2: TYPE_GROUND
+  hp: 80
+  atk: 90
+  def: 70
+  spatk: 60
+  spdef: 70
+  spe: 50
+  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_FIELD_EXPLORER
+  ability: ABILITY_STAMINA
+  innate: ABILITY_TORRENT
+  innate: ABILITY_DRY_SKIN
+  innate: ABILITY_BATTLE_ARMOR
+  percent_female: 50
+  evo {
+    to: SPECIES_SWAMPAGE
+    level: 36
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BUBBLE_BEAM
+      move: MOVE_GROWL
+      move: MOVE_MUD_SPORT
+      move: MOVE_TACKLE
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_MUD_SHOT
+      move: MOVE_STOMP
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+    }
+    level {
+      level: 24
+      move: MOVE_MUD_BOMB
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_TORRENT_FIST
+      move: MOVE_WATERFALL
+    }
+    level {
+      level: 37
+      move: MOVE_MUDDY_WATER
+    }
+    level {
+      level: 46
+      move: MOVE_AVALANCHE
+      move: MOVE_WAVE_CRASH
+    }
+  }
+  visuals {
+    icon {
+      path: "marshmodo/icon"
+    }
+    front {
+      path: "marshmodo/front"
+      anim: ANIM_V_STRETCH
+      coords {
+        size: 103
+        y_offset: 5
+      }
+    }
+    back {
+      path: "marshmodo/back"
+      anim: BACK_ANIM_CONCAVE_ARC_SMALL
+      coords {
+        size: 136
+        y_offset: 0
+      }
+    }
+    palette: "marshmodo/normal"
+    shiny: "marshmodo/shiny"
+  }
+}
+species {
+  id: SPECIES_SWAMPAGE
+  dex {
+    name: "Swampage"
+    category: "Mud Fish"
+    description: "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski."
+    national_dex_num: 260
+    hoenn_dex_num: 9
+    body_color: BODY_COLOR_BLUE
+    egg_group: MONSTER
+    egg_group_2: WATER_1
+    height: 15
+    weight: 819
+    pokemon_scale: 256
+    trainer_scale: 256
+  }
+  type: TYPE_DRAGON
+  type2: TYPE_POISON
+  hp: 80
+  atk: 120
+  def: 80
+  spatk: 60
+  spdef: 78
+  spe: 117
+  ability: ABILITY_TOXIC_DEBRIS
+  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_STAMINA
+  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_SWIFT_SWIM
+  percent_female: 50
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BUBBLE_BEAM
+      move: MOVE_GROWL
+      move: MOVE_MUD_SPORT
+      move: MOVE_TACKLE
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_MUD_SHOT
+      move: MOVE_STOMP
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+    }
+    level {
+      level: 24
+      move: MOVE_MUD_BOMB
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_TORRENT_FIST
+      move: MOVE_WATERFALL
+      move: MOVE_ROCK_CLIMB
+    }
+    level {
+      level: 37
+      move: MOVE_HAMMER_ARM
+      move: MOVE_MUDDY_WATER
+      move: MOVE_ICE_SPINNER
+    }
+    level {
+      level: 46
+      move: MOVE_AVALANCHE
+      move: MOVE_JET_PUNCH
+      move: MOVE_SEISMIC_FIST
+      move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 51
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_HYDRO_CANNON
+    }
+  }
+  visuals {
+    icon {
+      path: "swampage/icon"
+    }
+    front {
+      path: "swampage/front"
+      anim: ANIM_H_SHAKE
+      coords {
+        size: 136
+        y_offset: 6
+      }
+    }
+    back {
+      path: "swampage/back"
+      anim: BACK_ANIM_SHAKE_GLOW_BLUE
+      coords {
+        size: 136
+        y_offset: 0
+      }
+    }
+    palette: "swampage/normal"
+    shiny: "swampage/shiny"
+  }
+}
+species {
+  id: SPECIES_SWAMPAGE_MEGA
+  form_of: SPECIES_SWAMPAGE
+  type: TYPE_WATER
+  type2: TYPE_GROUND
+  hp: 100
+  atk: 150
+  def: 130
+  spatk: 75
+  spdef: 110
+  spe: 70
+  ability: ABILITY_BREAKWATER
+  ability: ABILITY_BREAKWATER
+  ability: ABILITY_BREAKWATER
+  innate: ABILITY_RIPTIDE
+  innate: ABILITY_IRON_FIST
+  innate: ABILITY_REGENERATOR
+  percent_female: 50
+  mega {
+    from: SPECIES_SWAMPAGE
+    item: ITEM_SWAMPAGEITE
+  }
+  visuals {
+    icon {
+      path: "swampage/mega/icon"
+    }
+    front {
+      path: "swampage/mega/front"
+      coords {
+        y_offset: 4
+      }
+    }
+    back {
+      path: "swampage/mega/back"
+      coords {
+        y_offset: 6
+      }
+    }
+    palette: "swampage/mega/normal"
+    shiny: "swampage/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_CHANDELURE_MEGA
+  form_of: SPECIES_CHANDELURE
+  type: TYPE_GHOST
+  type2: TYPE_FIRE
+  hp: 80
+  atk: 75
+  def: 100
+  spatk: 175
+  spdef: 120
+  spe: 90
+  ability: ABILITY_PURGATORY
+  ability: ABILITY_SHADOW_SHIELD
+  ability: ABILITY_HELLBLAZE
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_RADIANCE
+  percent_female: 50
+  heads: 3
+  mega {
+    from: SPECIES_CHANDELURE
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "chandelure/mega/icon"
+    }
+    front {
+      path: "chandelure/mega/front"
+      coords {
+        y_offset: 4
+      }
+    }
+    back {
+      path: "chandelure/mega/back"
+      coords {
+        y_offset: 6
+      }
+    }
+    palette: "chandelure/mega/normal"
+    shiny: "chandelure/mega/shiny"
+  }
+}
