@@ -197119,7 +197119,6 @@ species {
       path: "arcanine/hisuian/mega/back"
       coords {
         size: 120
-        y_offset: 0
       }
     }
     palette: "arcanine/hisuian/mega/normal"
@@ -197131,15 +197130,15 @@ species {
   form_of: SPECIES_REUNICLUS
   type: TYPE_PSYCHIC
   hp: 110
-  atk: 85
+  atk: 135
   def: 105
   spatk: 135
   spdef: 125
   spe: 30
-  ability: ABILITY_LIQUID_OOZE
+  ability: ABILITY_MAGICAL_FISTS
   ability: ABILITY_HUSTLE
-  ability: ABILITY_UNNERVE
-  innate: ABILITY_ROCK_HEAD
+  ability: ABILITY_IRON_FIST
+  innate: ABILITY_PSYCHIC_MIND
   innate: ABILITY_LIQUIFIED
   innate: ABILITY_MAGIC_GUARD
   percent_female: 50
@@ -197344,7 +197343,6 @@ species {
       anim: BACK_ANIM_CONCAVE_ARC_SMALL
       coords {
         size: 136
-        y_offset: 0
       }
     }
     palette: "marshmodo/normal"
@@ -197442,7 +197440,6 @@ species {
       anim: BACK_ANIM_SHAKE_GLOW_BLUE
       coords {
         size: 136
-        y_offset: 0
       }
     }
     palette: "swampage/normal"
