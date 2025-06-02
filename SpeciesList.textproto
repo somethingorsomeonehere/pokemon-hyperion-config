@@ -197081,7 +197081,7 @@ species {
   }
   visuals {
     icon {
-      path: "snorlax/redux/megaicon"
+      path: "snorlax/redux/mega/icon"
       palette: 3
     }
     front {
@@ -197095,7 +197095,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 133
-        y_offset: 5
+        y_offset: 0
       }
     }
     palette: "snorlax/redux/mega/normal"
