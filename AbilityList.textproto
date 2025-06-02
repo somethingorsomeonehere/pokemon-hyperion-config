@@ -1459,7 +1459,7 @@ ability {
 ability {
   id: ABILITY_AURORA_BOREALIS
   name: "Aurora Borealis"
-  description: "Boosts the power of Ice-type moves by 1.5x (due to STAB)."
+  description: "Ice-type moves gain STAB. Moves always benefit from hail."
 }
 ability {
   id: ABILITY_AVENGER
