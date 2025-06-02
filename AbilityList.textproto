@@ -1489,7 +1489,7 @@ ability {
 ability {
   id: ABILITY_AMPHIBIOUS
   name: "Amphibious"
-  description: "Boosts the power of Water-type moves by 1.5x (due to STAB)."
+  description: "Water moves gain STAB. Can't become drenched."
 }
 ability {
   id: ABILITY_GROUNDED
@@ -4269,7 +4269,7 @@ ability {
 ability {
   id: ABILITY_PURPLE_HAZE
   name: "Purple Haze"
-  description: "Every attack triggers a 20BP Poison Gas."
+  description: "Triggers a 20BP Poison Gas after using a move."
 }
 ability {
   id: ABILITY_GNASHING_CANNON
