@@ -197081,25 +197081,25 @@ species {
   }
   visuals {
     icon {
-      path: "snorlax/icon"
+      path: "snorlax/redux/megaicon"
       palette: 3
     }
     front {
-      path: "snorlax/redux/front"
+      path: "snorlax/redux/mega/front"
       coords {
         y_offset: 2
       }
     }
     back {
-      path: "snorlax/redux/back"
+      path: "snorlax/redux/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 133
         y_offset: 5
       }
     }
-    palette: "snorlax/redux/normal"
-    shiny: "snorlax/redux/shiny"
+    palette: "snorlax/redux/mega/normal"
+    shiny: "snorlax/redux/mega/shiny"
   }
 }
 species {
