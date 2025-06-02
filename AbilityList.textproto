@@ -319,7 +319,7 @@ ability {
 ability {
   id: ABILITY_MARVEL_SCALE
   name: "Marvel Scale"
-  description: "Ups Def by 1.5x if suffering from a status condition."
+  description: "Ups Def and Sp. Def by 1.5x when statused."
 }
 ability {
   id: ABILITY_LIQUID_OOZE
@@ -1459,7 +1459,7 @@ ability {
 ability {
   id: ABILITY_AURORA_BOREALIS
   name: "Aurora Borealis"
-  description: "Boosts the power of Ice-type moves by 1.5x (due to STAB)."
+  description: "Ice-type moves gain STAB. Moves always benefit from hail."
 }
 ability {
   id: ABILITY_AVENGER
@@ -1489,7 +1489,7 @@ ability {
 ability {
   id: ABILITY_AMPHIBIOUS
   name: "Amphibious"
-  description: "Boosts the power of Water-type moves by 1.5x (due to STAB)."
+  description: "Water moves gain STAB. Can't become drenched."
 }
 ability {
   id: ABILITY_GROUNDED
@@ -3114,7 +3114,7 @@ ability {
 ability {
   id: ABILITY_BEAUTIFUL_MUSIC
   name: "Beautiful Music"
-  description: "Sound-based moves have 50% chance to infatuate the foe."
+  description: "Sound moves have 50% chance to infatuate, ignoring gender."
 }
 ability {
   id: ABILITY_SURPRISE
@@ -3379,7 +3379,7 @@ ability {
 ability {
   id: ABILITY_MAXIMUM_ACCELERATION
   name: "Max Acceleration"
-  description: "Moves use the Speed stat for damage calculations."
+  description: "Speed Boost + Slipstream."
 }
 ability {
   id: ABILITY_SIDEWINDER
@@ -4048,7 +4048,7 @@ ability {
 }
 ability {
   id: ABILITY_BLUR
-  name: "Blur (N)"
+  name: "Blur"
   description: "Uses Speed as defense stat when hit by contact."
 }
 ability {
@@ -4073,12 +4073,12 @@ ability {
 }
 ability {
   id: ABILITY_STRATEGIC_PAUSE
-  name: "Strategic Pause (N)"
+  name: "Strategic Pause"
   description: "+2 crit rate when moving last + Analytic."
 }
 ability {
   id: ABILITY_OVERRULE
-  name: "Overrule (N)"
+  name: "Overrule"
   description: "Crits ignore resists and bypass abilities"
 }
 ability {
@@ -4269,7 +4269,7 @@ ability {
 ability {
   id: ABILITY_PURPLE_HAZE
   name: "Purple Haze"
-  description: "Every attack triggers a 20BP Poison Gas."
+  description: "Triggers a 20BP Poison Gas after using a move."
 }
 ability {
   id: ABILITY_GNASHING_CANNON
