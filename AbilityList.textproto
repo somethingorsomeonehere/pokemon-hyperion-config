@@ -3379,7 +3379,7 @@ ability {
 ability {
   id: ABILITY_MAXIMUM_ACCELERATION
   name: "Max Acceleration"
-  description: "Moves use the Speed stat for damage calculations."
+  description: "Speed Boost + Slipstream."
 }
 ability {
   id: ABILITY_SIDEWINDER
