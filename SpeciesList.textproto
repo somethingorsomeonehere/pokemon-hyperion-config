@@ -100734,11 +100734,11 @@ species {
   spatk: 90
   spdef: 125
   spe: 125
-  ability: ABILITY_ROYAL_DECREE
-  ability: ABILITY_ROYAL_DECREE
-  ability: ABILITY_ROYAL_DECREE
+  ability: ABILITY_SCARE
+  ability: ABILITY_DRAGONS_MAW
+  ability: ABILITY_CONTRARY
   innate: ABILITY_FOREST_RAGE
-  innate: ABILITY_CONTRARY
+  innate: ABILITY_ROYAL_DECREE
   innate: ABILITY_MULTISCALE
   percent_female: 50
   mega {
@@ -197546,7 +197546,6 @@ species {
     back {
       path: "chandelure/mega/back"
       coords {
-        y_offset: 6
       }
     }
     palette: "chandelure/mega/normal"
