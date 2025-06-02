@@ -60462,7 +60462,7 @@ species {
   spatk: 85
   spdef: 105
   spe: 110
-  ability: ABILITY_RUDE_AWAKENING
+  ability: ABILITY_UNSEEN_FIST
   ability: ABILITY_KNOW_YOUR_PLACE
   ability: ABILITY_CONTEMPT
   innate: ABILITY_APE_SHIFT
@@ -100734,12 +100734,12 @@ species {
   spatk: 90
   spdef: 125
   spe: 125
-  ability: ABILITY_TERRIFY
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_CONTRARY
+  ability: ABILITY_ROYAL_DECREE
+  ability: ABILITY_ROYAL_DECREE
+  ability: ABILITY_ROYAL_DECREE
   innate: ABILITY_FOREST_RAGE
-  innate: ABILITY_SHED_SKIN
-  innate: ABILITY_SUPREME_OVERLORD
+  innate: ABILITY_CONTRARY
+  innate: ABILITY_MULTISCALE
   percent_female: 50
   mega {
     from: SPECIES_SERPERIOR
@@ -112588,6 +112588,10 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
       move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 61
+      move: MOVE_TSUNAMI_HAMMER
     }
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_COUNTER
@@ -195398,6 +195402,8 @@ species {
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GUNK_SHOT
@@ -195406,23 +195412,21 @@ species {
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SURF
+    tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_DEFOG
-    tutor: MOVE_TAILWIND
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_WILL_O_WISP
   }
   visuals {
     icon {
@@ -195532,6 +195536,8 @@ species {
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FLAMETHROWER
@@ -195546,26 +195552,24 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SPITE
     tutor: MOVE_SURF
+    tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_DEFOG
-    tutor: MOVE_TAILWIND
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_WILL_O_WISP
   }
   visuals {
     icon {
@@ -195665,27 +195669,27 @@ species {
       move: MOVE_RISING_VOLTAGE
     }
     level {
-      level: 56
+      level: 61
       move: MOVE_WILDBOLT_STORM
     }
     tutor: MOVE_AIR_SLASH
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SURF
+    tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_DEFOG
-    tutor: MOVE_TAILWIND
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_THUNDER_WAVE
   }
   visuals {
     icon {
@@ -196471,7 +196475,7 @@ species {
 species {
   id: SPECIES_JAGGED_CHUNGULIS
   dex {
-    name: "JagChungulus"
+    name: "Jagged Chungulus"
     category: "Digging"
     description: "With its powerful ears it reduces dense bedrock to rubble. It can be a big help at construction sites. When it\'s finished digging, it lounges about lazily."
     national_dex_num: 660
@@ -197095,7 +197099,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 133
-        y_offset: 0
       }
     }
     palette: "snorlax/redux/mega/normal"
@@ -197181,7 +197184,6 @@ species {
       path: "reuniclus/mega/back"
       coords {
         size: 120
-        y_offset: 4
       }
     }
     palette: "reuniclus/mega/normal"

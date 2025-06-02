@@ -4286,3 +4286,8 @@ ability {
   name: "Molten Coat"
   description: "Mineralize + Rock moves have 50% burn chance."
 }
+ability {
+  id: ABILITY_ROYAL_DECREE
+  name: "Royal Decree"
+  description: "Queenly Majesty + Glare on entry once per battle."
+}
