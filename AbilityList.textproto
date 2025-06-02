@@ -319,7 +319,7 @@ ability {
 ability {
   id: ABILITY_MARVEL_SCALE
   name: "Marvel Scale"
-  description: "Ups Def by 1.5x if suffering from a status condition."
+  description: "Ups Def and Sp. Def by 1.5x when statused."
 }
 ability {
   id: ABILITY_LIQUID_OOZE
@@ -4048,7 +4048,7 @@ ability {
 }
 ability {
   id: ABILITY_BLUR
-  name: "Blur (N)"
+  name: "Blur"
   description: "Uses Speed as defense stat when hit by contact."
 }
 ability {
@@ -4073,12 +4073,12 @@ ability {
 }
 ability {
   id: ABILITY_STRATEGIC_PAUSE
-  name: "Strategic Pause (N)"
+  name: "Strategic Pause"
   description: "+2 crit rate when moving last + Analytic."
 }
 ability {
   id: ABILITY_OVERRULE
-  name: "Overrule (N)"
+  name: "Overrule"
   description: "Crits ignore resists and bypass abilities"
 }
 ability {
