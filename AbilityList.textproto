@@ -3114,7 +3114,7 @@ ability {
 ability {
   id: ABILITY_BEAUTIFUL_MUSIC
   name: "Beautiful Music"
-  description: "Sound-based moves have 50% chance to infatuate the foe."
+  description: "Sound moves have 50% chance to infatuate, ignoring gender."
 }
 ability {
   id: ABILITY_SURPRISE
