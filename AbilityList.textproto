@@ -544,7 +544,7 @@ ability {
 ability {
   id: ABILITY_FOREWARN
   name: "Forewarn"
-  description: "Casts a 50 BP Future Sight on entry."
+  description: "Casts an 80 BP Future Sight on entry."
 }
 ability {
   id: ABILITY_UNAWARE
@@ -1508,7 +1508,7 @@ ability {
 }
 ability {
   id: ABILITY_FELINE_PROWESS
-  name: "Feline Prowess"
+  name: "Cryptic Power"
   description: "Doubles own Sp. Atk stat. Boosts raw stat, not base stat."
 }
 ability {
@@ -4290,4 +4290,49 @@ ability {
   id: ABILITY_ROYAL_DECREE
   name: "Royal Decree"
   description: "Queenly Majesty + Glare on entry once per battle."
+}
+ability {
+  id: ABILITY_BREEZY_NEIGH
+  name: "Breezy Neigh"
+  description: "KOs raise Speed by one stage."
+}
+ability {
+  id: ABILITY_DREAMSCAPE
+  name: "Dreamscape (C)"
+  description: "Comatose + Dreamcatcher + Deal 20% more damage."
+}
+ability {
+  id: ABILITY_HASTE_MAKES_WASTE
+  name: "Haste Makes Waste (C)"
+  description: "Stall + Analytic."
+}
+ability {
+  id: ABILITY_HUNGRY_MAWS
+  name: "Hungry Maws (C)"
+  description: "Strong Jaw + Jaws of Carnage."
+}
+ability {
+  id: ABILITY_THERMAL_SLIDE
+  name: "Thermal Slide (C)"
+  description: "Ups speed by 50% in sun or hail."
+}
+ability {
+  id: ABILITY_THERMOMANCY
+  name: "Thermomancy (C)"
+  description: "Pyromancy + Cryomancy."
+}
+ability {
+  id: ABILITY_CHUCKSTER
+  name: "Chuckster (N)"
+  description: "Once per entry, take 1/2 damage and force-switch the target."
+}
+ability {
+  id: ABILITY_HEAT_SINK
+  name: "Heat Sink (C)"
+  description: "Redirects Fire moves. Absorbs them, ups highest Atk."
+}
+ability {
+  id: ABILITY_RELIC_STONE
+  name: "Relic Stone (N)"
+  description: "Disables STAB boost of others. also effects ate abilities."
 }

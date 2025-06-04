@@ -574,7 +574,7 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   power: 95
-  accuracy: 95
+  accuracy: 100
   pp: 5
   effect_chance: 20
   contact: true
@@ -16775,4 +16775,32 @@ moves {
   type: TYPE_POISON
   target: ALL_BATTLERS
   pp: 10
+}
+moves {
+  id: MOVE_JETSTREAM_BURST
+  name: "Jetstream Burst"
+  short_name: "Jet Burst"
+  description: "Attacks with wind that hits both targets."
+  short_description: "Strikes by using flurries of wind."
+  split: SPECIAL
+  type: TYPE_FLYING
+  target: BOTH
+  power: 120
+  accuracy: 100
+  pp: 5
+  mirror_move_affected: true
+}
+moves {
+  id: MOVE_SKY_QUAKE
+  name: "Sky Quake"
+  short_name: "Sky Quake"
+  description: "Howling winds shake the heavens, hitting both foes."
+  short_description: "Strikes with harsh winds."
+  split: PHYSICAL
+  type: TYPE_FLYING
+  target: BOTH
+  power: 90
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
 }
