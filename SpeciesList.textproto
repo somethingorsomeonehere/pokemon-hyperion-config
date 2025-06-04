@@ -53885,6 +53885,7 @@ species {
       move: MOVE_FAIRY_WIND
       move: MOVE_FIRE_PLEDGE
       move: MOVE_FLAME_BURST
+      move: MOVE_REVIVAL_BLESSING
     }
     level {
       level: 17
@@ -140652,6 +140653,7 @@ species {
       move: MOVE_DISARMING_VOICE
       move: MOVE_FAIRY_WIND
       move: MOVE_HEAL_PULSE
+      move: MOVE_REVIVAL_BLESSING
     }
     level {
       level: 17
