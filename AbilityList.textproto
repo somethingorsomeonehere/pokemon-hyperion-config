@@ -4123,7 +4123,7 @@ ability {
 }
 ability {
   id: ABILITY_FROSTBIND
-  name: "Frostbind (N)"
+  name: "Frostbind"
   description: "Inflicting Frostbite also inflicts Disable."
 }
 ability {
