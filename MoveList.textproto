@@ -9655,7 +9655,6 @@ moves {
   pp: 5
   mirror_move_affected: true
   sound: true
-  reckless: true
 }
 moves {
   id: MOVE_FAIRY_LOCK
