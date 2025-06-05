@@ -9644,8 +9644,9 @@ moves {
   id: MOVE_BOOMBURST
   name: "Boomburst"
   short_name: "Boomburst"
-  description: "An explosively loud sound is let out, hitting all that surrounds it."
-  short_description: "Attacks everything with a destructive sound wave."
+  description: "Attacks everything around the user. Takes 50% recoil after."
+  short_description: "Attack everything then take recoil."
+  effect: EFFECT_RECOIL_50
   split: SPECIAL
   type: TYPE_NORMAL
   target: FOES_AND_ALLY
