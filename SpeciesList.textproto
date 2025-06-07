@@ -9969,17 +9969,17 @@ species {
   form_of: SPECIES_PERSIAN
   type: TYPE_DARK
   hp: 65
-  atk: 75
-  def: 70
+  atk: 78
+  def: 65
   spatk: 105
   spdef: 65
-  spe: 115
-  ability: ABILITY_CHEAP_TACTICS
-  ability: ABILITY_OPPORTUNIST
-  ability: ABILITY_PRANKSTER
+  spe: 117
+  ability: ABILITY_LOW_BLOW
+  ability: ABILITY_EGOIST
+  ability: ABILITY_ELUDE
   innate: ABILITY_FUR_COAT
   innate: ABILITY_COWARD
-  innate: ABILITY_PERFECTIONIST
+  innate: ABILITY_EQUINOX
   percent_female: 50
   learnset {
     level {
@@ -61289,7 +61289,7 @@ species {
   ability: ABILITY_PUNK_ROCK
   ability: ABILITY_SCRAPPY
   ability: ABILITY_MOLD_BREAKER
-  innate: ABILITY_COMPETITIVE
+  innate: ABILITY_IMPENETRABLE
   innate: ABILITY_LOUD_BANG
   innate: ABILITY_AMPLIFIER
   percent_female: 50
@@ -93706,7 +93706,11 @@ species {
   percent_female: 50
   evo {
     to: SPECIES_LUMINOSITEON
-    level: 45
+    level: 55
+  }
+  evo {
+    to: SPECIES_FINNEON
+    level: 16
   }
   learnset {
     level {
@@ -111060,7 +111064,7 @@ species {
   tier: 3
   evo {
     to: SPECIES_SAGARACAS
-    level: 45
+    level: 36
   }
   learnset {
     level {
@@ -143797,7 +143801,11 @@ species {
   percent_female: 50
   evo {
     to: SPECIES_GOOSCHASE
-    level: 45
+    level: 36
+  }
+  evo {
+    to: SPECIES_YUNGOOS
+    level: 20
   }
   learnset {
     level {
