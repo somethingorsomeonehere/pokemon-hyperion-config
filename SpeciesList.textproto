@@ -197556,7 +197556,7 @@ species {
 }
 species {
   id: SPECIES_CHANDELURE_MEGA
-  form_of: SPECIES_CHANDELURE
+    form_of: SPECIES_CHANDELURE
   type: TYPE_GHOST
   type2: TYPE_FIRE
   hp: 80
