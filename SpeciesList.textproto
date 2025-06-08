@@ -9919,26 +9919,26 @@ species {
       move: MOVE_BEAT_UP
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CHARM
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_FACADE
+    tutor: MOVE_FLASH
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_FLASH
-    tutor: MOVE_BITE
+    tutor: MOVE_ICE_BEAM
   }
   visuals {
     icon {
@@ -9974,12 +9974,12 @@ species {
   spatk: 105
   spdef: 65
   spe: 117
-  ability: ABILITY_LOW_BLOW
-  ability: ABILITY_EGOIST
+  ability: ABILITY_FUR_COAT
+  ability: ABILITY_PRANKSTER
   ability: ABILITY_ELUDE
-  innate: ABILITY_FUR_COAT
   innate: ABILITY_COWARD
-  innate: ABILITY_EQUINOX
+  innate: ABILITY_PRIM_AND_PROPER
+  innate: ABILITY_LOW_BLOW
   percent_female: 50
   learnset {
     level {
@@ -10027,12 +10027,14 @@ species {
       move: MOVE_BEAT_UP
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CHARM
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
+    tutor: MOVE_FLASH
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAL_BLOCK
@@ -10045,15 +10047,13 @@ species {
     tutor: MOVE_PURSUIT
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_FLASH
-    tutor: MOVE_BITE
+    tutor: MOVE_ICE_BEAM
   }
   visuals {
     icon {
@@ -44723,10 +44723,10 @@ species {
   spdef: 85
   spe: 55
   ability: ABILITY_MIGHTY_HORN
-  ability: ABILITY_TIPPING_POINT
-  ability: ABILITY_UNAWARE
+  ability: ABILITY_NORMALIZE
+  ability: ABILITY_HALF_DRAKE
   innate: ABILITY_SUPER_LUCK
-  innate: ABILITY_LETS_ROLL
+  innate: ABILITY_OWN_TEMPO
   innate: ABILITY_SERENE_GRACE
   percent_female: 50
   evo {
@@ -197556,7 +197556,7 @@ species {
 }
 species {
   id: SPECIES_CHANDELURE_MEGA
-    form_of: SPECIES_CHANDELURE
+  form_of: SPECIES_CHANDELURE
   type: TYPE_GHOST
   type2: TYPE_FIRE
   hp: 80
