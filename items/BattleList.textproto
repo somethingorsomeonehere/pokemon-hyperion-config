@@ -191,7 +191,7 @@ item {
   description: "A magnifying lens that boosts the accuracy of moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_strength: 10
+  hold_effect_strength: 12
   image: "wide_lens"
   palette: "wide_lens"
   talk_to_nurse_joy: true

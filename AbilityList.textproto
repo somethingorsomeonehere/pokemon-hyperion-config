@@ -4336,3 +4336,13 @@ ability {
   name: "Relic Stone (N)"
   description: "Disables STAB boost of others. also effects ate abilities."
 }
+ability {
+  id: ABILITY_SUPERCELL
+  name: "Supercell (P)"
+  description: "Drizzle + Electro Surge."
+}
+ability {
+  id: ABILITY_LIGHTNING_ASPECT
+  name: "Lightning Aspect (P)"
+  description: "Absorbs electric moves then ups highest stat by +1."
+}

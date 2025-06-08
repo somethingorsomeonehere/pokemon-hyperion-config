@@ -190821,7 +190821,7 @@ species {
 species {
   id: SPECIES_CRAWDAUNTLES
   dex {
-    name: "Crawdauntles"
+    name: "Crawdauntless"
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: WATER_3
@@ -191961,7 +191961,6 @@ species {
       path: "seerkat/back"
       coords {
         size: 120
-        y_offset: 2
       }
     }
     palette: "seerkat/normal"
@@ -193083,7 +193082,7 @@ species {
     back {
       path: "scizor/redux/mega/back"
       coords {
-        y_offset: 4
+        y_offset: 7
       }
     }
     palette: "scizor/redux/mega/normal"
@@ -197594,5 +197593,48 @@ species {
     }
     palette: "chandelure/mega/normal"
     shiny: "chandelure/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ZAPDOS_EX_MEGA
+  form_of: SPECIES_ZAPDOS
+  type: TYPE_ELECTRIC
+  type2: TYPE_FLYING
+  hp: 85
+  atk: 110
+  def: 85
+  spatk: 155
+  spdef: 110
+  spe: 150
+  ability: ABILITY_SUPERCELL
+  ability: ABILITY_SUPERCELL
+  ability: ABILITY_SUPERCELL
+  innate: ABILITY_LIGHTNING_ASPECT
+  innate: ABILITY_GALE_WINGS
+  innate: ABILITY_STATIC
+  percent_female: 100
+  mega {
+    from: SPECIES_ZAPDOS
+    item: ITEM_TINKATITE_R
+  }
+  visuals {
+    icon {
+      path: "zapdos/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "zapdos/mega/front"
+      coords {
+      }
+    }
+    back {
+      path: "zapdos/mega/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 4
+      }
+    }
+    palette: "zapdos/mega/normal"
+    shiny: "zapdos/mega/shiny"
   }
 }
