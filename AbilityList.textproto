@@ -4033,8 +4033,8 @@ ability {
 }
 ability {
   id: ABILITY_SUPER_SNIPER
-  name: "Super Sniper (P)"
-  description: "UNFINISHED. Sniper + Attacks hit switching foes with 1/2 Power."
+  name: "Super Sniper"
+  description: "Sniper + Attacks hit switching foes with 1/2 Power."
 }
 ability {
   id: ABILITY_WOODLAND_CURSE
@@ -4068,7 +4068,7 @@ ability {
 }
 ability {
   id: ABILITY_MIXED_MARTIAL_ARTS
-  name: "Mixed Martial Arts (N)"
+  name: "Mixed Martial Arts"
   description: "Normal moves are flagged as Punch + Kick moves."
 }
 ability {
@@ -4158,7 +4158,7 @@ ability {
 }
 ability {
   id: ABILITY_GRASS_FLUTE
-  name: "Grass Flute (N)"
+  name: "Grass Flute"
   description: "Sound moves inflict Fear."
 }
 ability {
@@ -4169,7 +4169,7 @@ ability {
 ability {
   id: ABILITY_HARUKAZE
   name: "Harukaze (N)"
-  description: "setting Grassy Terrain sets Tailwind an vise-versa."
+  description: "setting Grassy Terrain sets Tailwind an vice versa."
 }
 ability {
   id: ABILITY_TOXIC_SURGE
@@ -4203,7 +4203,7 @@ ability {
 }
 ability {
   id: ABILITY_POISON_QUILLS
-  name: "Poison Quills (P)"
+  name: "Poison Quills"
   description: "Rough Skin + Poison Point."
 }
 ability {
@@ -4214,7 +4214,7 @@ ability {
 ability {
   id: ABILITY_FESTIVITIES
   name: "Festivities (N)"
-  description: "Sound moves become dance moves and vise versa."
+  description: "Sound moves become dance moves and vice versa."
 }
 ability {
   id: ABILITY_FEY_FLIGHT
@@ -4298,27 +4298,27 @@ ability {
 }
 ability {
   id: ABILITY_DREAMSCAPE
-  name: "Dreamscape (C)"
+  name: "Dreamscape"
   description: "Comatose + Dreamcatcher + Deal 20% more damage."
 }
 ability {
   id: ABILITY_HASTE_MAKES_WASTE
-  name: "Haste Makes Waste (C)"
+  name: "Haste Makes Waste"
   description: "Stall + Analytic."
 }
 ability {
   id: ABILITY_HUNGRY_MAWS
-  name: "Hungry Maws (C)"
+  name: "Hungry Maws"
   description: "Strong Jaw + Jaws of Carnage."
 }
 ability {
   id: ABILITY_THERMAL_SLIDE
-  name: "Thermal Slide (C)"
+  name: "Thermal Slide"
   description: "Ups speed by 50% in sun or hail."
 }
 ability {
   id: ABILITY_THERMOMANCY
-  name: "Thermomancy (C)"
+  name: "Thermomancy"
   description: "Pyromancy + Cryomancy."
 }
 ability {
@@ -4328,7 +4328,7 @@ ability {
 }
 ability {
   id: ABILITY_HEAT_SINK
-  name: "Heat Sink (C)"
+  name: "Heat Sink"
   description: "Redirects Fire moves. Absorbs them, ups highest Atk."
 }
 ability {
@@ -4338,11 +4338,11 @@ ability {
 }
 ability {
   id: ABILITY_SUPERCELL
-  name: "Supercell (P)"
+  name: "Supercell"
   description: "Drizzle + Electro Surge."
 }
 ability {
   id: ABILITY_LIGHTNING_ASPECT
-  name: "Lightning Aspect (P)"
+  name: "Lightning Aspect"
   description: "Absorbs electric moves then ups highest stat by +1."
 }
