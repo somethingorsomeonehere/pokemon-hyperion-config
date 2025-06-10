@@ -8,6 +8,7 @@ import "AbilityEnum.proto";
 import "ItemEnum.proto";
 import "SpeciesList.proto";
 import "Types.proto";
+import "TrainerEnum.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -210,31 +211,31 @@ message TrainerList {
 message TrainerParty {
   message TrainerMon {
     enum Nature {
-        NATURE_HARDY = 0;
-        NATURE_LONELY = 1;
-        NATURE_BRAVE = 2;
-        NATURE_ADAMANT = 3;
-        NATURE_NAUGHTY = 4;
-        NATURE_BOLD = 5;
-        NATURE_DOCILE = 6;
-        NATURE_RELAXED = 7;
-        NATURE_IMPISH = 8;
-        NATURE_LAX = 9;
-        NATURE_TIMID = 10;
-        NATURE_HASTY = 11;
-        NATURE_SERIOUS = 12;
-        NATURE_JOLLY = 13;
-        NATURE_NAIVE = 14;
-        NATURE_MODEST = 15;
-        NATURE_MILD = 16;
-        NATURE_QUIET = 17;
-        NATURE_BASHFUL = 18;
-        NATURE_RASH = 19;
-        NATURE_CALM = 20;
-        NATURE_GENTLE = 21;
-        NATURE_SASSY = 22;
-        NATURE_CAREFUL = 23;
-        NATURE_QUIRKY = 24;
+      NATURE_HARDY = 0;
+      NATURE_LONELY = 1;
+      NATURE_BRAVE = 2;
+      NATURE_ADAMANT = 3;
+      NATURE_NAUGHTY = 4;
+      NATURE_BOLD = 5;
+      NATURE_DOCILE = 6;
+      NATURE_RELAXED = 7;
+      NATURE_IMPISH = 8;
+      NATURE_LAX = 9;
+      NATURE_TIMID = 10;
+      NATURE_HASTY = 11;
+      NATURE_SERIOUS = 12;
+      NATURE_JOLLY = 13;
+      NATURE_NAIVE = 14;
+      NATURE_MODEST = 15;
+      NATURE_MILD = 16;
+      NATURE_QUIET = 17;
+      NATURE_BASHFUL = 18;
+      NATURE_RASH = 19;
+      NATURE_CALM = 20;
+      NATURE_GENTLE = 21;
+      NATURE_SASSY = 22;
+      NATURE_CAREFUL = 23;
+      NATURE_QUIRKY = 24;
     }
 
     bool legacy_set = 1;
@@ -257,14 +258,19 @@ message TrainerParty {
 }
 
 message Trainer {
-  string id = 1;
+  TrainerEnum id = 1;
   string name = 2;
-  bool forced_double = 3;
-  Species.Gender gender = 4;
-  optional TrainerClass class = 5;
-  optional TrainerPic pic = 6;
-  optional TrainerMusic music = 7;
-  TrainerParty ace = 8;
-  TrainerParty elite = 9;
-  TrainerParty hell = 10;
+  bool has_trainer_flag = 3;
+  bool forced_double = 4;
+  bool risky = 5;
+  bool prefer_status = 6;
+  bool prefer_stall = 7;
+  bool no_switching = 8;
+  Species.Gender gender = 9;
+  optional TrainerClass class = 10;
+  optional TrainerPic pic = 11;
+  optional TrainerMusic music = 12;
+  TrainerParty ace = 13;
+  TrainerParty elite = 14;
+  TrainerParty hell = 15;
 }
