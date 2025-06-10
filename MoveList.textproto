@@ -16805,3 +16805,16 @@ moves {
   pp: 15
   mirror_move_affected: true
 }
+moves {
+  id: MOVE_TOXIC_TERRAIN
+  name: "Toxic Terrain"
+  short_name: "Toxic Terrain"
+  tutor: TUTOR_TERRAIN
+  description: "Boosts Poison-type moves for 8 turns and deals 1/16 HP damage."
+  short_description: "Boosts Poison and damages mons for 8 turns."
+  effect: EFFECT_TOXIC_TERRAIN
+  split: STATUS
+  type: TYPE_POISON
+  target: ALL_BATTLERS
+  pp: 10
+}
