@@ -238,7 +238,7 @@ message TrainerParty {
       NATURE_QUIRKY = 24;
     }
 
-    bool legacy_set = 1;
+    bool nonstandard = 1;
     SpeciesEnum species = 2;
     ItemEnum item = 3;
     Nature nature = 4;

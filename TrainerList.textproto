@@ -3860,7 +3860,7 @@ trainer {
       move: MOVE_MOONBLAST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ALCREMIE
       item: ITEM_LEFTOVERS
       ability: ABILITY_WELL_BAKED_BODY
@@ -6008,7 +6008,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_COOL
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_LICKILICKY
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_UNAWARE
@@ -6019,7 +6019,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SNORLAX
       item: ITEM_NORMAL_GEM
       ability: ABILITY_OBLIVIOUS
@@ -6092,7 +6092,7 @@ trainer {
       move: MOVE_BOOMBURST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SNORLAX
       item: ITEM_NORMAL_GEM
       ability: ABILITY_OBLIVIOUS
@@ -6103,7 +6103,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_LICKILICKY
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_UNAWARE
@@ -8078,7 +8078,7 @@ trainer {
       move: MOVE_EXTREME_SPEED
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOODRA
       item: ITEM_GOODRITE
       ability: ABILITY_POISON_HEAL
@@ -8184,7 +8184,7 @@ trainer {
       move: MOVE_OUTBURST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_IRON_CARAPACE
       item: ITEM_AIR_BALLOON
       ability: ABILITY_SPEED_FORCE
@@ -8220,7 +8220,7 @@ trainer {
       move: MOVE_HYPNOSIS
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_IRON_VOCA
       item: ITEM_THROAT_SPRAY
       ability: ABILITY_TANGLING_HAIR
@@ -10600,7 +10600,7 @@ trainer {
       move: MOVE_ACCELEROCK
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SLOWKING_GALARIAN
       item: ITEM_BLACK_SLUDGE
       ability: ABILITY_REJECTION
@@ -10962,7 +10962,7 @@ trainer {
       move: MOVE_HEADLONG_RUSH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_LYCANROC
       item: ITEM_BRIGHT_POWDER
       ability: ABILITY_SPEED_FORCE
@@ -12545,7 +12545,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -12555,7 +12555,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -12565,7 +12565,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -12575,7 +12575,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -12585,7 +12585,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -12595,7 +12595,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14155,7 +14155,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_HIKER
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14165,7 +14165,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14175,7 +14175,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14185,7 +14185,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14195,7 +14195,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -14205,7 +14205,7 @@ trainer {
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HAPPINY
       item: ITEM_FOCUS_SASH
       ability: ABILITY_REGENERATOR
@@ -16166,7 +16166,7 @@ trainer {
       move: MOVE_FOCUS_BLAST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_UNOWN
       item: ITEM_CHOICE_SPECS
       ability: ABILITY_RUN_AWAY
@@ -16856,7 +16856,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_RICH
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_LINOONE
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_ELUDE
@@ -16866,7 +16866,7 @@ trainer {
       move: MOVE_FURY_SWIPES
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLDUCK
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_CLOUD_NINE
@@ -16876,7 +16876,7 @@ trainer {
       move: MOVE_PSYCH_UP
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MANECTRIC
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_GENERATOR
@@ -16932,7 +16932,7 @@ trainer {
       move: MOVE_ICE_BEAM
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_FROSLASS_REDUX
       item: ITEM_LIFE_ORB
       ability: ABILITY_BLOOD_PRICE
@@ -16944,7 +16944,7 @@ trainer {
       move: MOVE_SUCKER_PUNCH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SCRAFTY_MEGA
       item: ITEM_LIFE_ORB
       ability: ABILITY_COMBAT_SPECIALIST
@@ -16956,7 +16956,7 @@ trainer {
       move: MOVE_POISON_JAB
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ARBOK
       item: ITEM_ARBOKITE
       ability: ABILITY_MERCILESS
@@ -17076,7 +17076,7 @@ trainer {
       move: MOVE_DYNAMIC_PUNCH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLACEPHALON
       item: ITEM_CHOICE_SPECS
       ability: ABILITY_MAGIC_GUARD
@@ -17088,7 +17088,7 @@ trainer {
       move: MOVE_EXTRASENSORY
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BASCULEGION_F
       item: ITEM_CHOICE_SCARF
       ability: ABILITY_RAPID_RESPONSE
@@ -17112,7 +17112,7 @@ trainer {
       move: MOVE_EXCALIBUR
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GENGAR
       item: ITEM_GENGARITE_X
       ability: ABILITY_HAUNTED_SPIRIT
@@ -17208,7 +17208,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_LIGHT_CLAY
       ability: ABILITY_SNOW_WARNING
@@ -17232,7 +17232,7 @@ trainer {
       move: MOVE_THUNDERBOLT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SOPRANICE
       item: ITEM_FOCUS_SASH
       ability: ABILITY_SNOW_SONG
@@ -17244,7 +17244,7 @@ trainer {
       move: MOVE_LOVELY_KISS
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLIZZARD_MAW
       item: ITEM_CHOICE_BAND
       ability: ABILITY_GROWING_TOOTH
@@ -17266,7 +17266,7 @@ trainer {
       move: MOVE_ICE_SHARD
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DEWGONG
       item: ITEM_DEWGONGITE
       ability: ABILITY_FUR_COAT
@@ -17374,7 +17374,7 @@ trainer {
       move: MOVE_OVERHEAT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_FUJIFLAP
       item: ITEM_YACHE_BERRY
       ability: ABILITY_AERODYNAMICS
@@ -17870,7 +17870,7 @@ trainer {
       move: MOVE_SHOCK_WAVE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MAGNEZONE
       item: ITEM_MAGNEZONITE
       ability: ABILITY_DOWNLOAD
@@ -17967,7 +17967,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_FEMALE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_TORTEMPLE
       item: ITEM_TACTICAL_VEST
       ability: ABILITY_MOUNTAINEER
@@ -18015,7 +18015,7 @@ trainer {
       move: MOVE_AQUA_FANG
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_TYPHLOSION_HISUIAN
       item: ITEM_SPELL_TAG
       ability: ABILITY_EARLY_GRAVE
@@ -18101,7 +18101,7 @@ trainer {
       move: MOVE_BITTER_BLADE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_WIGGLYTUFF
       item: ITEM_WIGGLYTUFFITE
       ability: ABILITY_LULLABY
@@ -18148,7 +18148,7 @@ trainer {
       move: MOVE_NASTY_PLOT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DUDUNSPARCE_THREE_SEGMENT
       item: ITEM_LEFTOVERS
       ability: ABILITY_NORMALIZE
@@ -18161,7 +18161,7 @@ trainer {
       move: MOVE_SONIC_BOOM
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_PORYGON_Z
       item: ITEM_CHOICE_SCARF
       ability: ABILITY_DOWNLOAD
@@ -18186,7 +18186,7 @@ trainer {
       move: MOVE_U_TURN
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SNORLAX
       item: ITEM_SNORLAXITE
       ability: ABILITY_COMATOSE
@@ -18295,7 +18295,7 @@ trainer {
       move: MOVE_SHADOW_BALL
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ENAMORUS
       item: ITEM_LIFE_ORB
       ability: ABILITY_PURE_LOVE
@@ -18343,7 +18343,7 @@ trainer {
       move: MOVE_DARK_PULSE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ORICORIO
       item: ITEM_ORICORIONITE
       ability: ABILITY_TWO_STEP
@@ -18452,7 +18452,7 @@ trainer {
       move: MOVE_AURA_SPHERE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MR_RIME
       item: ITEM_IRON_BALL
       ability: ABILITY_MAGIC_GUARD
@@ -18500,7 +18500,7 @@ trainer {
       move: MOVE_FERTILE_FANGS
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HATTERENE
       item: ITEM_HATTERENITE
       ability: ABILITY_TWISTED_DIMENSION
@@ -19176,7 +19176,7 @@ trainer {
       move: MOVE_FAKE_OUT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DITTO
       item: ITEM_CHOICE_SCARF
       ability: ABILITY_PRANKSTER
@@ -19994,7 +19994,7 @@ trainer {
       move: MOVE_SWIFT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GYAREVALRY
       item: ITEM_LEFTOVERS
       ability: ABILITY_HOSPITALITY
@@ -20098,37 +20098,37 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CHANSEY
       ability: ABILITY_HEALER
       move: MOVE_MEMENTO
@@ -21142,7 +21142,7 @@ trainer {
       move: MOVE_SHADOW_SNEAK
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SEVIPER
       item: ITEM_EJECT_BUTTON
       ability: ABILITY_CUTTHROAT
@@ -21154,7 +21154,7 @@ trainer {
       move: MOVE_SUCKER_PUNCH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SCYTHER
       item: ITEM_LIFE_ORB
       ability: ABILITY_PERFECTIONIST
@@ -21875,7 +21875,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_MALE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOODRA
       item: ITEM_TACTICAL_VEST
       ability: ABILITY_DRIZZLE
@@ -23284,7 +23284,7 @@ trainer {
       move: MOVE_MUD_SHOT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MANECTRIC
       item: ITEM_CHOICE_SPECS
       ability: ABILITY_GENERATOR
@@ -23566,7 +23566,7 @@ trainer {
       move: MOVE_DETECT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DRAKLOAK
       item: ITEM_DRAGON_FANG
       ability: ABILITY_SPEED_BOOST
@@ -23833,7 +23833,7 @@ trainer {
   }
   elite {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_UNFEZANT
       item: ITEM_FLYING_GEM
       ability: ABILITY_UNBURDEN
@@ -23858,7 +23858,7 @@ trainer {
       move: MOVE_FLIP_TURN
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SCEPTILE
       item: ITEM_ASSAULT_VEST
       ability: ABILITY_CUTTHROAT
@@ -25844,7 +25844,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLIZZARD_MAW
       item: ITEM_BOOSTER_ENERGY
       ability: ABILITY_GROWING_TOOTH
@@ -26035,7 +26035,7 @@ trainer {
       move: MOVE_SUPERSONIC_SHOT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DITTO
       item: ITEM_FOCUS_SASH
       ability: ABILITY_IMPOSTER
@@ -26529,37 +26529,37 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_AUDINO
       ability: ABILITY_EMERGENCY_EXIT
       move: MOVE_MEMENTO
@@ -27602,7 +27602,7 @@ trainer {
       move: MOVE_SLUDGE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ALOMOMOLA
       item: ITEM_LEFTOVERS
       ability: ABILITY_NATURAL_CURE
@@ -29536,7 +29536,7 @@ trainer {
       move: MOVE_FIRE_PUNCH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DONPHAN
       ability: ABILITY_STAMINA
       hp_ev: 252
@@ -33726,7 +33726,7 @@ trainer {
       move: MOVE_CLOSE_COMBAT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MANECTRIC
       item: ITEM_MANECTITE
       ability: ABILITY_GENERATOR
@@ -35039,7 +35039,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_COOL
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -35048,7 +35048,7 @@ trainer {
       move: MOVE_POUND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -35057,7 +35057,7 @@ trainer {
       move: MOVE_POUND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -35066,7 +35066,7 @@ trainer {
       move: MOVE_POUND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -35075,7 +35075,7 @@ trainer {
       move: MOVE_POUND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -35084,7 +35084,7 @@ trainer {
       move: MOVE_POUND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RATTATA
       ability: ABILITY_HUSTLE
       move: MOVE_POUND
@@ -36307,7 +36307,7 @@ trainer {
   }
   elite {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RAMPARDOS
       item: ITEM_FOCUS_SASH
       ability: ABILITY_VIOLENT_RUSH
@@ -37335,7 +37335,7 @@ trainer {
   }
   elite {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SHROOMISH
       item: ITEM_TOXIC_ORB
       ability: ABILITY_POISON_HEAL
@@ -38805,7 +38805,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_HIKER
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_LOOSE_ROCKS
@@ -38815,7 +38815,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_LOOSE_ROCKS
@@ -38825,7 +38825,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_LOOSE_ROCKS
@@ -38835,7 +38835,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM_ALOLAN
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_MEGA_LAUNCHER
@@ -38845,7 +38845,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM_ALOLAN
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_MEGA_LAUNCHER
@@ -38855,7 +38855,7 @@ trainer {
       move: MOVE_EXPLOSION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM_ALOLAN
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_MEGA_LAUNCHER
@@ -42125,7 +42125,7 @@ trainer {
       move: MOVE_RAPID_SPIN
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ROTOM_WASH
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_MOTOR_DRIVE
@@ -42401,7 +42401,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_MEDICHAM
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_FATAL_PRECISION
@@ -42411,7 +42411,7 @@ trainer {
       move: MOVE_PROTECT
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HARIYAMA
       item: ITEM_SITRUS_BERRY
       ability: ABILITY_GUTS
@@ -42432,7 +42432,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_SWIMMER
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_PELIPPER
       ability: ABILITY_DRIZZLE
       hp_ev: 252
@@ -43311,7 +43311,7 @@ trainer {
   }
   elite {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_TOXTRICITY
       item: ITEM_AIR_BALLOON
       ability: ABILITY_INTOXICATE
@@ -43629,7 +43629,7 @@ trainer {
   }
   elite {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GALLADE
       item: ITEM_TACTICAL_VEST
       ability: ABILITY_SWEEPING_EDGE
@@ -44015,7 +44015,7 @@ trainer {
       move: MOVE_EARTHQUAKE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BELLIBOLT
       item: ITEM_ASSAULT_VEST
       ability: ABILITY_DAMP
@@ -44148,7 +44148,7 @@ trainer {
       move: MOVE_SCORCHING_SANDS
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CAMERUPT
       item: ITEM_PASSHO_BERRY
       ability: ABILITY_TIPPING_POINT
@@ -45372,7 +45372,7 @@ trainer {
       move: MOVE_STOMP
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ESCARGINITE
       item: ITEM_WHITE_HERB
       ability: ABILITY_SIMPLE
@@ -48401,7 +48401,7 @@ trainer {
       move: MOVE_BUG_BUZZ
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DUGTRIO
       item: ITEM_FOCUS_SASH
       ability: ABILITY_ARENA_TRAP
@@ -50422,7 +50422,7 @@ trainer {
       hidden_power_type: TYPE_NORMAL
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_DITTO
       item: ITEM_CHOICE_SCARF
       ability: ABILITY_IMPOSTER
@@ -50983,7 +50983,7 @@ trainer {
       move: MOVE_BODY_PRESS
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_KARTANA_FALLEN
       item: ITEM_OCCA_BERRY
       ability: ABILITY_PINNACLE_BLADE
@@ -51121,37 +51121,37 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_HIKER
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BLISSEY
       ability: ABILITY_CUTE_CHARM
       move: MOVE_MEMENTO
@@ -51779,7 +51779,7 @@ trainer {
       move: MOVE_ICE_PUNCH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_SEISMITOAD
       item: ITEM_RINDO_BERRY
       ability: ABILITY_POWER_FISTS
@@ -52261,7 +52261,7 @@ trainer {
       move: MOVE_TRIPLE_DIVE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ARACHTRES
       item: ITEM_SCOPE_LENS
       ability: ABILITY_SNIPER
@@ -52273,7 +52273,7 @@ trainer {
       move: MOVE_NIGHT_SLASH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_VOLCARONA
       item: ITEM_HEAVY_DUTY_BOOTS
       ability: ABILITY_FLASH_FIRE
@@ -52594,7 +52594,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_RAICHU_ALOLAN
       item: ITEM_FOCUS_SASH
       ability: ABILITY_ELECTRIC_SURGE
@@ -52902,7 +52902,7 @@ trainer {
       move: MOVE_TAILWIND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GRANBULL
       ability: ABILITY_RATTLED
       hp_ev: 248
@@ -52976,7 +52976,7 @@ trainer {
       move: MOVE_REVERSAL
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GRANBULL
       ability: ABILITY_RATTLED
       hp_ev: 248
@@ -53142,7 +53142,7 @@ trainer {
       move: MOVE_ROOST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_CASCOON
       item: ITEM_PURPLE_ORB
       ability: ABILITY_SAP_SIPPER
@@ -54400,7 +54400,7 @@ trainer {
       move: MOVE_FIRE_BLAST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_NECROZMA_DUSK_MANE
       item: ITEM_WEAKNESS_POLICY
       ability: ABILITY_NEUROFORCE
@@ -54424,7 +54424,7 @@ trainer {
       move: MOVE_CALM_MIND
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_HEATRAN
       item: ITEM_CHOICE_SPECS
       ability: ABILITY_TURBOBLAZE
@@ -54436,7 +54436,7 @@ trainer {
       move: MOVE_ERUPTION
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ZACIAN
       item: ITEM_RUSTED_SWORD
       ability: ABILITY_INTIMIDATE
@@ -54448,7 +54448,7 @@ trainer {
       move: MOVE_PIXIE_SLASH
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_LEDIAN_PARADOX
       item: ITEM_BOOSTER_ENERGY
       ability: ABILITY_IRON_FIST
@@ -54494,7 +54494,7 @@ trainer {
       move: MOVE_EXCALIBUR
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_ARCANINE_HISUIAN
       ability: ABILITY_ROCK_HEAD
       hp_ev: 4
@@ -54658,7 +54658,7 @@ trainer {
       move: MOVE_DAZZLING_GLEAM
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_TSAREENA
       item: ITEM_FOCUS_SASH
       ability: ABILITY_OBLIVIOUS
@@ -54752,7 +54752,7 @@ trainer {
       move: MOVE_REVIVAL_BLESSING
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_PORYGON_Z
       item: ITEM_LIFE_ORB
       ability: ABILITY_INVERSE_ROOM
@@ -54765,7 +54765,7 @@ trainer {
       move: MOVE_AURA_SPHERE
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_XURKITREE
       item: ITEM_CHOICE_SPECS
       ability: ABILITY_TRANSISTOR
@@ -54882,7 +54882,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_COOL
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BULBASAUR
       ability: ABILITY_CHLOROPLAST
       spatk_ev: 252
@@ -55043,7 +55043,7 @@ trainer {
       move: MOVE_BOOMBURST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_FROSLASS_REDUX
       item: ITEM_FROSLASSITE_R
       ability: ABILITY_BLOOD_STAIN
@@ -55148,7 +55148,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_HIKER
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_LOOSE_ROCKS
@@ -55170,7 +55170,7 @@ trainer {
       move: MOVE_OUTBURST
     }
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_GOLEM_ALOLAN
       item: ITEM_CUSTAP_BERRY
       ability: ABILITY_MEGA_LAUNCHER
@@ -55390,7 +55390,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_COOL
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BULBASAUR
       ability: ABILITY_CHLOROPLAST
     }
@@ -55405,7 +55405,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_FEMALE
   ace {
     mon {
-      legacy_set: true
+      nonstandard: true
       species: SPECIES_BULBASAUR
       ability: ABILITY_CHLOROPLAST
     }
