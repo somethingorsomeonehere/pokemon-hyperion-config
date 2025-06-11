@@ -2084,7 +2084,7 @@ ability {
 ability {
   id: ABILITY_ATOMIC_BURST
   name: "Atomic Burst"
-  description: "When hit super-effectively, triggers 50 BP Hyper Beam."
+  description: "Electromorphosis + Galvanize."
 }
 ability {
   id: ABILITY_HELLBLAZE
