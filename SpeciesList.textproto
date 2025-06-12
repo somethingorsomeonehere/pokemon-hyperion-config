@@ -129347,6 +129347,7 @@ species {
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
+    tutor: MOVE_DIG
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
     tutor: MOVE_HEADBUTT
@@ -129359,8 +129360,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DIG
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -129485,6 +129485,7 @@ species {
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
+    tutor: MOVE_DIG
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
@@ -129502,8 +129503,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DIG
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
