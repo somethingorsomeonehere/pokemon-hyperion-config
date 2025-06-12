@@ -29,7 +29,6 @@ moves {
   id: MOVE_KARATE_CHOP
   name: "Karate Chop"
   short_name: "Karate Chop"
-  tutor: TUTOR_ATTACK
   description: "The foe is attacked with a sharp chop. It has a high critical-hit ratio."
   short_description: "A chopping attack with a high critical-hit ratio."
   split: PHYSICAL
@@ -42,6 +41,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DOUBLE_SLAP
@@ -119,7 +119,6 @@ moves {
   id: MOVE_FIRE_PUNCH
   name: "Fire Punch"
   short_name: "Fire Punch"
-  tutor: TUTOR_ATTACK
   description: "The foe is punched with a fiery fist. 10% burn chance. Iron Fist boost."
   short_description: "A fiery punch that may burn the foe."
   effect: EFFECT_BURN_HIT
@@ -133,12 +132,12 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ICE_PUNCH
   name: "Ice Punch"
   short_name: "Ice Punch"
-  tutor: TUTOR_ATTACK
   description: "The foe is punched with an icy fist. 10% frostbite chance. Iron Fist boost."
   short_description: "An icy punch that may leave the foe with frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -152,12 +151,12 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_THUNDER_PUNCH
   name: "Thunder Punch"
   short_name: "ThunderPunch"
-  tutor: TUTOR_ATTACK
   description: "A punch with an electrified fist. 10% paralyze chance. Iron Fist boost."
   short_description: "An electrified punch that may paralyze the foe."
   effect: EFFECT_PARALYZE_HIT
@@ -171,6 +170,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SCRATCH
@@ -247,7 +247,6 @@ moves {
   id: MOVE_SWORDS_DANCE
   name: "Swords Dance"
   short_name: "Swords Dance"
-  tutor: TUTOR_GOOD_STATUS
   description: "A frenetic dance of fighting. It sharply raises the Attack stat."
   short_description: "A fighting dance that sharply raises Attack."
   effect: EFFECT_ATTACK_UP_2
@@ -257,12 +256,12 @@ moves {
   pp: 20
   snatch_affected: true
   dance: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_CUT
   name: "Cut"
   short_name: "Cut"
-  tutor: TUTOR_ATTACK
   description: "Sharp Steel attack, always crits. Keen Edge boost. Field-based."
   short_description: "Cuts the foe. Always crits."
   effect: EFFECT_BLEED_HIT
@@ -278,6 +277,7 @@ moves {
   mirror_move_affected: true
   keen_edge: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_GUST
@@ -301,7 +301,6 @@ moves {
   id: MOVE_WING_ATTACK
   name: "Wing Attack"
   short_name: "Wing Attack"
-  tutor: TUTOR_ATTACK
   description: "The foe is struck with large, imposing wings spread wide. Air-based."
   short_description: "Strikes the foe with wings spread wide."
   split: PHYSICAL
@@ -313,12 +312,12 @@ moves {
   contact: true
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_WHIRLWIND
   name: "Whirlwind"
   short_name: "Whirlwind"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is made to switch out with an ally. In the wild, the battle ends."
   short_description: "Blows away the foe with wind and ends the battle."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -331,12 +330,12 @@ moves {
   priority: -6
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_FLY
   name: "Fly"
   short_name: "Fly"
-  tutor: TUTOR_ATTACK
   description: "A 2-turn move. Use it to fly to any known town. Air-based."
   short_description: "Flies up on the first turn, then strikes the next turn."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -349,6 +348,7 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BIND
@@ -477,7 +477,6 @@ moves {
   id: MOVE_ROLLING_KICK
   name: "Rolling Kick"
   short_name: "Rolling Kick"
-  tutor: TUTOR_ATTACK
   description: "A quick kick from a rolling spin. +1 priority. Striker boost."
   short_description: "A fast kick delivered from a rapid spin."
   split: PHYSICAL
@@ -490,6 +489,7 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SAND_ATTACK
@@ -510,7 +510,6 @@ moves {
   id: MOVE_HEADBUTT
   name: "Headbutt"
   short_name: "Headbutt"
-  tutor: TUTOR_ATTACK
   description: "The user sticks its head out and rams. 30% flinch chance. Field-based."
   short_description: "A ramming attack that may cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -524,12 +523,12 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_HORN_ATTACK
   name: "Horn Attack"
   short_name: "Horn Attack"
-  tutor: TUTOR_ATTACK
   description: "Jabs with sharply pointed horn. High crit. Mighty Horn boost."
   short_description: "Jabs the foe with sharp horns. High crit chance."
   effect: EFFECT_BLEED_HIT
@@ -544,6 +543,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FURY_ATTACK
@@ -637,7 +637,6 @@ moves {
   id: MOVE_TAKE_DOWN
   name: "Take Down"
   short_name: "Take Down"
-  tutor: TUTOR_ATTACK
   description: "Slams the foe back. 20% chance to lower Speed."
   short_description: "Slams into the foe, knocking them back and lowering speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -650,6 +649,7 @@ moves {
   effect_chance: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_THRASH
@@ -770,7 +770,6 @@ moves {
   id: MOVE_BITE
   name: "Bite"
   short_name: "Bite"
-  tutor: TUTOR_ATTACK
   description: "The user bites with vicious fangs. 30% flinch chance. Strong Jaw boost."
   short_description: "Bites with vicious fangs. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -784,6 +783,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_GROWL
@@ -839,7 +839,6 @@ moves {
   id: MOVE_SUPERSONIC
   name: "Supersonic"
   short_name: "Supersonic"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user generates odd sound waves that confuse foes."
   short_description: "Emits bizarre sound waves that may confuse foes."
   effect: EFFECT_CONFUSE
@@ -851,6 +850,7 @@ moves {
   magic_coat_affected: true
   mirror_move_affected: true
   sound: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_SONIC_BOOM
@@ -875,7 +875,6 @@ moves {
   id: MOVE_DISABLE
   name: "Disable"
   short_name: "Disable"
-  tutor: TUTOR_NICHE_STATUS
   description: "For a few turns, it prevents the foe from using the move it last used."
   short_description: "Psychically disables one of the foe\'s moves."
   effect: EFFECT_DISABLE
@@ -886,6 +885,7 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_ACID
@@ -923,7 +923,6 @@ moves {
   id: MOVE_FLAMETHROWER
   name: "Flamethrower"
   short_name: "Flamethrower"
-  tutor: TUTOR_ATTACK
   description: "The foe is scorched with intense flames. 10% burn chance."
   short_description: "A powerful fire attack that may inflict a burn."
   effect: EFFECT_BURN_HIT
@@ -935,12 +934,12 @@ moves {
   pp: 15
   effect_chance: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MIST
   name: "Mist"
   short_name: "Mist"
-  tutor: TUTOR_NICHE_STATUS
   description: "The ally party is protected by a mist that prevents stat reductions."
   short_description: "Creates a mist that stops reduction of abilities."
   effect: EFFECT_MIST
@@ -949,6 +948,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_WATER_GUN
@@ -971,7 +971,6 @@ moves {
   id: MOVE_HYDRO_PUMP
   name: "Hydro Pump"
   short_name: "Hydro Pump"
-  tutor: TUTOR_ATTACK
   description: "A high volume of water is blasted at with high pressure. Mega Launcher boost"
   short_description: "Blasts water at high power to strike the foe."
   split: SPECIAL
@@ -982,12 +981,12 @@ moves {
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SURF
   name: "Surf"
   short_name: "Surf"
-  tutor: TUTOR_ATTACK
   description: "A big wave crashes down on the foe. Field-based."
   short_description: "Creates a huge wave, then crashes it down on the foe."
   split: SPECIAL
@@ -999,12 +998,12 @@ moves {
   mirror_move_affected: true
   hits_underwater: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ICE_BEAM
   name: "Ice Beam"
   short_name: "Ice Beam"
-  tutor: TUTOR_ATTACK
   description: "The foe is struck with an icy beam. 10% frostbite chance. Mega Launcher boost"
   short_description: "Blasts the foe with an icy beam. May cause frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -1017,12 +1016,12 @@ moves {
   effect_chance: 10
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BLIZZARD
   name: "Blizzard"
   short_name: "Blizzard"
-  tutor: TUTOR_ATTACK
   description: "The foe is blasted with a blizzard. 20% frostbite chance. Weather-based."
   short_description: "Hits the foe with an icy storm. May cause frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -1036,12 +1035,12 @@ moves {
   mirror_move_affected: true
   weather: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PSYBEAM
   name: "Psybeam"
   short_name: "Psybeam"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A peculiar ray is shot at the foe. that lowers SpAtk. Mega Launcher boost"
   short_description: "Fires a peculiar ray that lowers Special Attack."
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -1054,6 +1053,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_BUBBLE_BEAM
@@ -1075,7 +1075,6 @@ moves {
   id: MOVE_AURORA_BEAM
   name: "Aurora Beam"
   short_name: "Aurora Beam"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A rainbow-colored attack beam. 100% attack drop. Mega Launcher boost"
   short_description: "A rainbow-colored beam which lowers the foe\'s Attack 100%."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -1088,12 +1087,12 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_HYPER_BEAM
   name: "Hyper Beam"
   short_name: "Hyper Beam"
-  tutor: TUTOR_ATTACK
   description: "Does severe damage. Needs recharging. Mega Launcher boost"
   short_description: "Powerful, but leaves the user immobile the next turn."
   effect: EFFECT_RECHARGE
@@ -1105,6 +1104,7 @@ moves {
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PECK
@@ -1127,7 +1127,6 @@ moves {
   id: MOVE_DRILL_PECK
   name: "Drill Peck"
   short_name: "Drill Peck"
-  tutor: TUTOR_ATTACK
   description: "A corkscrewing attack. High crit. Mighty Horn boost."
   short_description: "A corkscrewing attack with a high critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -1142,6 +1141,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SUBMISSION
@@ -1164,7 +1164,6 @@ moves {
   id: MOVE_LOW_KICK
   name: "Low Kick"
   short_name: "Low Kick"
-  tutor: TUTOR_ATTACK
   description: "Inflicts more damage on heavier foes. Striker boost."
   short_description: "A kick that inflicts more damage on heavier foes."
   effect: EFFECT_LOW_KICK
@@ -1177,12 +1176,12 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_COUNTER
   name: "Counter"
   short_name: "Counter"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A retaliation move that counters any physical hit with double the damage."
   short_description: "Retaliates any physical hit with double the power."
   effect: EFFECT_COUNTER
@@ -1196,12 +1195,12 @@ moves {
   contact: true
   metronome_banned: true
   copycat_banned: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SEISMIC_TOSS
   name: "Seismic Toss"
   short_name: "Seismic Toss"
-  tutor: TUTOR_ATTACK
   description: "Immobilizes and then slams the foe. Inflicts level damage and triggers hazards."
   short_description: "Carries the foe into the sky then deals damage based on level."
   effect: EFFECT_SKY_DROP
@@ -1214,6 +1213,7 @@ moves {
   contact: true
   mirror_move_affected: true
   throwing: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_STRENGTH
@@ -1237,7 +1237,6 @@ moves {
   id: MOVE_ABSORB
   name: "Absorb"
   short_name: "Absorb"
-  tutor: TUTOR_ATTACK
   description: "Covers the foe with plants that remove stat changes."
   short_description: "Covers the foe with plants that remove stat changes"
   effect: EFFECT_CLEAR_SMOG
@@ -1249,6 +1248,7 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MEGA_DRAIN
@@ -1272,7 +1272,6 @@ moves {
   id: MOVE_LEECH_SEED
   name: "Leech Seed"
   short_name: "Leech Seed"
-  tutor: TUTOR_GOOD_STATUS
   description: "A seed is planted on the foe to steal some HP for the user on every turn."
   short_description: "Plants a seed on the foe to steal HP on every turn."
   effect: EFFECT_LEECH_SEED
@@ -1283,6 +1282,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_GROWTH
@@ -1301,7 +1301,6 @@ moves {
   id: MOVE_RAZOR_LEAF
   name: "Razor Leaf"
   short_name: "Razor Leaf"
-  tutor: TUTOR_ATTACK
   description: "Both foes are hit with a cutting leaf. Always crits. Keen Edge boost."
   short_description: "Cuts both foes with sharp leaves. Always crits."
   effect: EFFECT_BLEED_HIT
@@ -1315,12 +1314,12 @@ moves {
   crit: ALWAYS
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SOLAR_BEAM
   name: "Solar Beam"
   short_name: "Solar Beam"
-  tutor: TUTOR_ATTACK
   description: "Strong 2-turn move. Weather-based. Mega Launcher boost"
   short_description: "Absorbs light in one turn, then attacks next turn."
   effect: EFFECT_SOLARBEAM
@@ -1333,6 +1332,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   weather: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_POISON_POWDER
@@ -1404,7 +1404,6 @@ moves {
   id: MOVE_STRING_SHOT
   name: "String Shot"
   short_name: "String Shot"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe is bound with strings shot from the mouth to reduce its Speed."
   short_description: "Binds the foes with string to harshly reduce Speed."
   effect: EFFECT_SPEED_DOWN_2
@@ -1415,12 +1414,13 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_DRAGON_RAGE
   name: "Dragon Rage"
   short_name: "Dragon Rage"
-  description: "The foe is hit with a shock wave that can damage Fairy Pokémon neutrally."
+  description: "The foe is hit with a shock wave that can damage Fairy Pok\303\251mon neutrally."
   short_description: "Launches shock waves that can damage Fairy mons."
   effect: EFFECT_IGNORE_TYPE_IMMUNITY
   split: SPECIAL
@@ -1435,7 +1435,6 @@ moves {
   id: MOVE_FIRE_SPIN
   name: "Fire Spin"
   short_name: "Fire Spin"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is trapped in an intense spiral of fire that rages four or five turns."
   short_description: "Traps the foe in a ring of fire for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -1447,6 +1446,7 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_THUNDER_SHOCK
@@ -1473,7 +1473,6 @@ moves {
   id: MOVE_THUNDERBOLT
   name: "Thunderbolt"
   short_name: "Thunderbolt"
-  tutor: TUTOR_ATTACK
   description: "A strong electrical attack with a 10% paralyze chance."
   short_description: "A strong electrical attack that may paralyze the foe."
   effect: EFFECT_PARALYZE_HIT
@@ -1485,12 +1484,12 @@ moves {
   pp: 15
   effect_chance: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_THUNDER_WAVE
   name: "Thunder Wave"
   short_name: "Thunder Wave"
-  tutor: TUTOR_GOOD_STATUS
   description: "A weak electric shock that is sure to cause paralysis if it hits."
   short_description: "A weak jolt of electricity that paralyzes the foe."
   effect: EFFECT_PARALYZE
@@ -1501,12 +1500,12 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_THUNDER
   name: "Thunder"
   short_name: "Thunder"
-  tutor: TUTOR_ATTACK
   description: "A brutal lightning attack. 30% paralyze chance. Weather-based."
   short_description: "A lightning attack that may cause paralysis."
   effect: EFFECT_THUNDER
@@ -1520,12 +1519,12 @@ moves {
   mirror_move_affected: true
   hits_air: HITS
   weather: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ROCK_THROW
   name: "Rock Throw"
   short_name: "Rock Throw"
-  tutor: TUTOR_ATTACK
   description: "The user attacks with small rocks. Throw-based."
   short_description: "Throws small rocks to strike the foe."
   split: PHYSICAL
@@ -1537,13 +1536,13 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   throwing: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_EARTHQUAKE
   name: "Earthquake"
   short_name: "Earthquake"
-  tutor: TUTOR_ATTACK
-  description: "An earthquake that strikes all Pokémon in battle excluding the user."
+  description: "An earthquake that strikes all Pok\303\251mon in battle excluding the user."
   short_description: "A powerful quake, but has no effect on flying foes."
   split: PHYSICAL
   type: TYPE_GROUND
@@ -1553,6 +1552,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   hits_underground: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FISSURE
@@ -1573,7 +1573,6 @@ moves {
   id: MOVE_DIG
   name: "Dig"
   short_name: "Dig"
-  tutor: TUTOR_ATTACK
   description: "An attack that hits on the 2nd turn. Field-based."
   short_description: "Digs underground the first turn and strikes next turn."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -1586,12 +1585,12 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_TOXIC
   name: "Toxic"
   short_name: "Toxic"
-  tutor: TUTOR_GOOD_STATUS
   description: "A move that badly poisons the foe. Its poison damage worsens every turn."
   short_description: "Poisons the foe with an intensifying toxin."
   effect: EFFECT_TOXIC
@@ -1603,6 +1602,7 @@ moves {
   effect_chance: 100
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_CONFUSION
@@ -1624,7 +1624,6 @@ moves {
   id: MOVE_PSYCHIC
   name: "Psychic"
   short_name: "Psychic"
-  tutor: TUTOR_ATTACK
   description: "A strong telekinetic attack. 20% chance to drop foe\'s SpDef stat."
   short_description: "A powerful psychic attack that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -1636,6 +1635,7 @@ moves {
   pp: 15
   effect_chance: 20
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_HYPNOSIS
@@ -1669,7 +1669,6 @@ moves {
   id: MOVE_AGILITY
   name: "Agility"
   short_name: "Agility"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user relaxes and lightens its body to sharply boost its Speed."
   short_description: "Relaxes the body to sharply boost Speed."
   effect: EFFECT_SPEED_UP_2
@@ -1678,6 +1677,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_QUICK_ATTACK
@@ -1716,7 +1716,7 @@ moves {
   id: MOVE_TELEPORT
   name: "Teleport"
   short_name: "Teleport"
-  description: "Use it to flee from any wild Pokémon. Also warps to the last POKé CENTER."
+  description: "Use it to flee from any wild Pok\303\251mon. Also warps to the last POK\303\251 CENTER."
   short_description: "A psychic move for fleeing from battle instantly."
   effect: EFFECT_SWITCH_ARGUMENT
   split: STATUS
@@ -1729,7 +1729,6 @@ moves {
   id: MOVE_NIGHT_SHADE
   name: "Night Shade"
   short_name: "Night Shade"
-  tutor: TUTOR_ATTACK
   description: "An attack with a mirage that inflicts damage matching the user\'s level."
   short_description: "Inflicts damage identical to the user\'s level."
   effect: EFFECT_LEVEL_DAMAGE
@@ -1740,6 +1739,7 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MIMIC
@@ -1843,7 +1843,6 @@ moves {
   id: MOVE_CONFUSE_RAY
   name: "Confuse Ray"
   short_name: "Confuse Ray"
-  tutor: TUTOR_GOOD_STATUS
   description: "The foe is exposed to a sinister ray that triggers confusion."
   short_description: "A sinister ray that confuses the foe."
   effect: EFFECT_CONFUSE
@@ -1854,6 +1853,7 @@ moves {
   pp: 5
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_WITHDRAW
@@ -1899,7 +1899,6 @@ moves {
   id: MOVE_LIGHT_SCREEN
   name: "Light Screen"
   short_name: "Light Screen"
-  tutor: TUTOR_GOOD_STATUS
   description: "A wall of light cuts damage from Sp. Atk attacks for five turns."
   short_description: "Creates a wall of light that lowers Sp. Atk damage."
   effect: EFFECT_LIGHT_SCREEN
@@ -1908,25 +1907,25 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_HAZE
   name: "Haze"
   short_name: "Haze"
-  tutor: TUTOR_NICHE_STATUS
-  description: "Eliminates all stat changes among all Pokémon engaged in battle."
+  description: "Eliminates all stat changes among all Pok\303\251mon engaged in battle."
   short_description: "Creates a black haze that eliminates all stat changes."
   effect: EFFECT_HAZE
   split: STATUS
   type: TYPE_ICE
   target: ALL_BATTLERS
   pp: 20
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_REFLECT
   name: "Reflect"
   short_name: "Reflect"
-  tutor: TUTOR_GOOD_STATUS
   description: "A wall of light cuts damage from physical attacks for five turns."
   short_description: "Creates a wall of light that weakens physical attacks."
   effect: EFFECT_REFLECT
@@ -1935,6 +1934,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_FOCUS_ENERGY
@@ -1969,9 +1969,8 @@ moves {
   id: MOVE_METRONOME
   name: "Metronome"
   short_name: "Metronome"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "An unknown power stimulates the brain into using any move at random."
-  short_description: "An unknown power uses any Pokémon move at random."
+  short_description: "An unknown power uses any Pok\303\251mon move at random."
   effect: EFFECT_METRONOME
   split: STATUS
   type: TYPE_NORMAL
@@ -1981,6 +1980,7 @@ moves {
   metronome_banned: true
   copycat_banned: true
   sleep_talk_banned: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_MIRROR_MOVE
@@ -2040,7 +2040,6 @@ moves {
   id: MOVE_LICK
   name: "Lick"
   short_name: "Lick"
-  tutor: TUTOR_ATTACK
   description: "The foe is licked and hit with a long tongue. 30% flinch chance."
   short_description: "Licks with a long tongue to injure. May also flinch."
   effect: EFFECT_FLINCH_HIT
@@ -2053,6 +2052,7 @@ moves {
   effect_chance: 30
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SMOG
@@ -2107,7 +2107,6 @@ moves {
   id: MOVE_FIRE_BLAST
   name: "Fire Blast"
   short_name: "Fire Blast"
-  tutor: TUTOR_ATTACK
   description: "The foe is hit with an intense flame. It has a 20% burn chance."
   short_description: "Incinerates everything it strikes. May cause a burn."
   effect: EFFECT_BURN_HIT
@@ -2119,6 +2118,7 @@ moves {
   pp: 5
   effect_chance: 30
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_WATERFALL
@@ -2355,7 +2355,6 @@ moves {
   id: MOVE_LEECH_LIFE
   name: "Leech Life"
   short_name: "Leech Life"
-  tutor: TUTOR_ATTACK
   description: "An attack that absorbs half the damage it inflicted. Strong Jaw boost."
   short_description: "An attack that steals half the damage inflicted."
   effect: EFFECT_ABSORB
@@ -2368,6 +2367,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_LOVELY_KISS
@@ -2426,7 +2426,6 @@ moves {
   id: MOVE_BUBBLE
   name: "Bubble"
   short_name: "Bubble"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A spray of bubbles hits both foes. 100% chance to drop foe\'s Speed."
   short_description: "An attack using bubbles. Always lowers foe\'s Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -2438,6 +2437,7 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_DIZZY_PUNCH
@@ -2477,7 +2477,6 @@ moves {
   id: MOVE_FLASH
   name: "Flash"
   short_name: "Flash"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A blast of light that has 50% chance to drop foe\'s Atk. Field-based."
   short_description: "Looses a blast of light. 50% chance to drop Atk."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -2490,6 +2489,7 @@ moves {
   effect_chance: 50
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_PSYWAVE
@@ -2527,7 +2527,6 @@ moves {
   id: MOVE_ACID_ARMOR
   name: "Acid Armor"
   short_name: "Acid Armor"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user alters its cells to liquefy itself and sharply raise Defense."
   short_description: "Liquifies the user\'s body to sharply raise Defense."
   effect: EFFECT_DEFENSE_UP_2
@@ -2536,6 +2535,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_CRABHAMMER
@@ -2610,7 +2610,6 @@ moves {
   id: MOVE_REST
   name: "Rest"
   short_name: "Rest"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "The user sleeps for two turns to fully restore HP and heal any status problem."
   short_description: "The user sleeps for 2 turns, restoring HP and status."
   effect: EFFECT_REST
@@ -2619,12 +2618,12 @@ moves {
   target: USER
   pp: 10
   snatch_affected: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_ROCK_SLIDE
   name: "Rock Slide"
   short_name: "Rock Slide"
-  tutor: TUTOR_ATTACK
   description: "Large boulders are hurled at the foe. 20% flinch chance. Throw-based."
   short_description: "Large boulders are hurled. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -2637,6 +2636,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   throwing: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_HYPER_FANG
@@ -2739,7 +2739,6 @@ moves {
   id: MOVE_SUBSTITUTE
   name: "Substitute"
   short_name: "Substitute"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "The user creates a decoy using one-quarter of its full HP."
   short_description: "Creates a decoy using 1/4 of the user\'s maximum HP."
   effect: EFFECT_SUBSTITUTE
@@ -2748,6 +2747,7 @@ moves {
   target: USER
   pp: 10
   snatch_affected: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_STRUGGLE
@@ -2805,7 +2805,6 @@ moves {
   id: MOVE_THIEF
   name: "Thief"
   short_name: "Thief"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Steals or removes the foe\'s item. +1 priority if the user has no item."
   short_description: "While attacking, it may steal the foe\'s held item."
   effect: EFFECT_THIEF
@@ -2818,12 +2817,12 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SPIDER_WEB
   name: "Spider Web"
   short_name: "Spider Web"
-  tutor: TUTOR_NICHE_STATUS
   description: "Ensnares the foe with sticky string so it doesn\'t flee or switch out."
   short_description: "Ensnares the foe to stop it from fleeing or switching."
   effect: EFFECT_MEAN_LOOK
@@ -2834,6 +2833,7 @@ moves {
   ignores_protect: true
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_MIND_READER
@@ -2885,7 +2885,6 @@ moves {
   id: MOVE_SNORE
   name: "Snore"
   short_name: "Snore"
-  tutor: TUTOR_UNIVERSAL_ATTACK
   description: "An attack that can be used only while asleep. Has a 30% flinch chance."
   short_description: "A loud attack that can be used only while asleep."
   effect: EFFECT_SNORE
@@ -2899,12 +2898,12 @@ moves {
   mirror_move_affected: true
   sound: true
   metronome_banned: true
+  tutor: TUTOR_UNIVERSAL_ATTACK
 }
 moves {
   id: MOVE_CURSE
   name: "Curse"
   short_name: "Curse"
-  tutor: TUTOR_GOOD_STATUS
   description: "Inflicts a curse when used in fog or by Ghosts. For others boosts stats."
   short_description: "A move that functions differently for GHOSTS."
   effect: EFFECT_CURSE
@@ -2913,6 +2912,7 @@ moves {
   target: SELECTED
   pp: 10
   ignores_protect: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_FLAIL
@@ -2962,7 +2962,6 @@ moves {
   id: MOVE_COTTON_SPORE
   name: "Cotton Spore"
   short_name: "Cotton Spore"
-  tutor: TUTOR_NICHE_STATUS
   description: "Cotton-like spores cling to the foe, sharply reducing its Speed stat."
   short_description: "Spores cling to the foe, sharply reducing Speed."
   effect: EFFECT_SPEED_DOWN_2
@@ -2974,6 +2973,7 @@ moves {
   magic_coat_affected: true
   mirror_move_affected: true
   powder_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_REVERSAL
@@ -2995,7 +2995,6 @@ moves {
   id: MOVE_SPITE
   name: "Spite"
   short_name: "Spite"
-  tutor: TUTOR_NICHE_STATUS
   description: "A move that cuts 2 to 5 PP from the move last used by the foe."
   short_description: "Spitefully cuts the PP of the foe\'s last move."
   effect: EFFECT_SPITE
@@ -3006,12 +3005,12 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_POWDER_SNOW
   name: "Powder Snow"
   short_name: "Powder Snow"
-  tutor: TUTOR_ATTACK
   description: "Blasts the foe with a snowy gust. 30% chance to frostbite the foe."
   short_description: "Blasts the foe with a snowy gust. May cause freezing."
   effect: EFFECT_FROSTBITE_HIT
@@ -3024,12 +3023,12 @@ moves {
   effect_chance: 30
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PROTECT
   name: "Protect"
   short_name: "Protect"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "Enables the user to evade all attacks. It may fail if used in succession."
   short_description: "Evades attack, but may fail if used in succession."
   effect: EFFECT_PROTECT
@@ -3039,12 +3038,12 @@ moves {
   pp: 10
   priority: 4
   is_protection: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_MACH_PUNCH
   name: "Mach Punch"
   short_name: "Mach Punch"
-  tutor: TUTOR_ATTACK
   description: "A punch thrown at blinding speed. +1 priority. Iron Fist boost."
   short_description: "A punch is thrown at wicked speed to strike first."
   split: PHYSICAL
@@ -3057,6 +3056,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SCARY_FACE
@@ -3092,7 +3092,6 @@ moves {
   id: MOVE_SWEET_KISS
   name: "Sweet Kiss"
   short_name: "Sweet Kiss"
-  tutor: TUTOR_GOOD_STATUS
   description: "Kisses the foe with a sweet cuteness that causes confusion and infatuation."
   short_description: "Demands a kiss, causing confusion and infatuation."
   effect: EFFECT_SWEET_KISS
@@ -3103,6 +3102,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_BELLY_DRUM
@@ -3121,7 +3121,6 @@ moves {
   id: MOVE_SLUDGE_BOMB
   name: "Sludge Bomb"
   short_name: "Sludge Bomb"
-  tutor: TUTOR_ATTACK
   description: "Filthy sludge is hurled at the foe. 30% poison chance."
   short_description: "Sludge is hurled to inflict damage. May also poison."
   effect: EFFECT_POISON_HIT
@@ -3135,6 +3134,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MUD_SLAP
@@ -3173,7 +3173,6 @@ moves {
   id: MOVE_SPIKES
   name: "Spikes"
   short_name: "Spikes"
-  tutor: TUTOR_GOOD_STATUS
   description: "A trap of spikes is laid around the foe\'s party to hurt foes switching in."
   short_description: "Sets spikes that hurt a foe switching in."
   effect: EFFECT_SPIKES
@@ -3182,6 +3181,7 @@ moves {
   target: OPPONENTS_FIELD
   pp: 20
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_ZAP_CANNON
@@ -3205,7 +3205,6 @@ moves {
   id: MOVE_FORESIGHT
   name: "Foresight"
   short_name: "Foresight"
-  tutor: TUTOR_NICHE_STATUS
   description: "Completely negates the foe\'s efforts to heighten its ability to evade."
   short_description: "Negates the foe\'s efforts to heighten evasiveness."
   effect: EFFECT_FORESIGHT
@@ -3215,6 +3214,7 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_DESTINY_BOND
@@ -3235,7 +3235,7 @@ moves {
   name: "Perish Song"
   short_name: "Perish Song"
   description: "Any battler that hears this faints in three turns unless it switches."
-  short_description: "Any Pokémon hearing this song faints in 3 turns."
+  short_description: "Any Pok\303\251mon hearing this song faints in 3 turns."
   effect: EFFECT_PERISH_SONG
   split: STATUS
   type: TYPE_NORMAL
@@ -3247,7 +3247,6 @@ moves {
   id: MOVE_ICY_WIND
   name: "Icy Wind"
   short_name: "Icy Wind"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A chilling wind is used to attack. Lowers foe\'s Speed. Air-based."
   short_description: "A chilling attack that lowers the foe\'s Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -3260,6 +3259,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_DETECT
@@ -3326,7 +3326,6 @@ moves {
   id: MOVE_SANDSTORM
   name: "Sandstorm"
   short_name: "Sandstorm"
-  tutor: TUTOR_WEATHER
   description: "An 8-turn sandstorm that damages all types except Rock, Ground, and Steel."
   short_description: "Causes a sandstorm that rages for several turns."
   effect: EFFECT_SANDSTORM
@@ -3335,6 +3334,7 @@ moves {
   target: SELECTED
   pp: 10
   ignores_protect: true
+  tutor: TUTOR_WEATHER
 }
 moves {
   id: MOVE_GIGA_DRAIN
@@ -3355,7 +3355,6 @@ moves {
   id: MOVE_ENDURE
   name: "Endure"
   short_name: "Endure"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "The user endures any hit with 1 HP left. It may fail if used in succession."
   short_description: "Endures any attack for 1 turn, leaving at least 1HP."
   effect: EFFECT_ENDURE
@@ -3367,12 +3366,12 @@ moves {
   is_protection: true
   metronome_banned: true
   copycat_banned: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_CHARM
   name: "Charm"
   short_name: "Charm"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe is charmed by the user\'s cute appeals, sharply cutting its Attack."
   short_description: "Charms the foe and sharply reduces its Attack."
   effect: EFFECT_ATTACK_DOWN_2
@@ -3383,6 +3382,7 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_ROLLOUT
@@ -3404,7 +3404,6 @@ moves {
   id: MOVE_FALSE_SWIPE
   name: "False Swipe"
   short_name: "False Swipe"
-  tutor: TUTOR_ATTACK
   description: "Can\'t KO the foe. 50% chance to inflict bleed. Keen Edge boost."
   short_description: "An attack that leaves the foe with at least 1 HP."
   effect: EFFECT_FALSE_SWIPE
@@ -3423,6 +3422,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SWAGGER
@@ -3525,7 +3525,6 @@ moves {
   id: MOVE_ATTRACT
   name: "Attract"
   short_name: "Attract"
-  tutor: TUTOR_UNIVERSAL_STATUS_GENDERED
   description: "Inflicts infatuation on opposite gender which halves Atk and SpAtk."
   short_description: "Halves the Atk & SpAtk of the opposite gender."
   effect: EFFECT_ATTRACT
@@ -3536,12 +3535,12 @@ moves {
   pp: 15
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_UNIVERSAL_STATUS_GENDERED
 }
 moves {
   id: MOVE_SLEEP_TALK
   name: "Sleep Talk"
   short_name: "Sleep Talk"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "While asleep, the user randomly uses one of the moves it knows."
   short_description: "Uses an available move randomly while asleep."
   effect: EFFECT_SLEEP_TALK
@@ -3553,6 +3552,7 @@ moves {
   metronome_banned: true
   copycat_banned: true
   sleep_talk_banned: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_HEAL_BELL
@@ -3572,7 +3572,6 @@ moves {
   id: MOVE_RETURN
   name: "Return"
   short_name: "Return"
-  tutor: TUTOR_UNIVERSAL_ATTACK
   description: "A strong and reliable attack that shows the user\'s loyalty."
   short_description: "A reliable and strong Normal-type attack."
   split: PHYSICAL
@@ -3583,6 +3582,7 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UNIVERSAL_ATTACK
 }
 moves {
   id: MOVE_PRESENT
@@ -3603,7 +3603,6 @@ moves {
   id: MOVE_FRUSTRATION
   name: "Frustration"
   short_name: "Frustration"
-  tutor: TUTOR_ATTACK
   description: "The user unleashes its frustration. Failing moves doubles damage."
   short_description: "Deals double damage if the last move failed."
   effect: EFFECT_STOMPING_TANTRUM
@@ -3615,12 +3614,12 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SAFEGUARD
   name: "Safeguard"
   short_name: "Safeguard"
-  tutor: TUTOR_NICHE_STATUS
   description: "It protects the user\'s party from all status problems for five turns."
   short_description: "A mystical force prevents all status problems."
   effect: EFFECT_SAFEGUARD
@@ -3629,6 +3628,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_PAIN_SPLIT
@@ -3664,7 +3664,7 @@ moves {
   id: MOVE_MAGNITUDE
   name: "Magnitude"
   short_name: "Magnitude"
-  description: "A ground-shaking attack against all standing Pokémon. Its power varies."
+  description: "A ground-shaking attack against all standing Pok\303\251mon. Its power varies."
   short_description: "A ground-shaking attack of random intensity."
   effect: EFFECT_MAGNITUDE
   split: PHYSICAL
@@ -3760,7 +3760,6 @@ moves {
   id: MOVE_PURSUIT
   name: "Pursuit"
   short_name: "Pursuit"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "An attack move that works especially well on a foe that is switching out."
   short_description: "Inflicts bad damage if used on a foe switching out."
   effect: EFFECT_PURSUIT
@@ -3772,12 +3771,12 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_RAPID_SPIN
   name: "Rapid Spin"
   short_name: "Rapid Spin"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Frees the user from Bind, Leech Seed, Spikes etc. Ups Speed by +1."
   short_description: "Clears some hazards. Ups speed by +1."
   effect: EFFECT_RAPID_SPIN
@@ -3789,12 +3788,13 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SWEET_SCENT
   name: "Sweet Scent"
   short_name: "Sweet Scent"
-  description: "Allures the foe to reduce evasiveness. It also attracts wild Pokémon."
+  description: "Allures the foe to reduce evasiveness. It also attracts wild Pok\303\251mon."
   short_description: "Allures the foe to harshly reduce evasiveness."
   effect: EFFECT_EVASION_DOWN_2
   split: STATUS
@@ -3826,7 +3826,6 @@ moves {
   id: MOVE_METAL_CLAW
   name: "Metal Claw"
   short_name: "Metal Claw"
-  tutor: TUTOR_ATTACK
   description: "The foe is attacked with steel claws. 20% chance to raise the user\'s Attack."
   short_description: "A claw attack that may raise the user\'s Attack."
   effect: EFFECT_ATTACK_UP_HIT
@@ -3840,6 +3839,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_VITAL_THROW
@@ -3900,7 +3900,6 @@ moves {
   id: MOVE_HIDDEN_POWER
   name: "Hidden Power"
   short_name: "Hidden Power"
-  tutor: TUTOR_UNIVERSAL_ATTACK
   description: "An attack that varies in type depending on the user."
   short_description: "The effectiveness varies with the user."
   effect: EFFECT_HIDDEN_POWER
@@ -3912,6 +3911,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_UNIVERSAL_ATTACK
 }
 moves {
   id: MOVE_CROSS_CHOP
@@ -3953,7 +3953,6 @@ moves {
   id: MOVE_RAIN_DANCE
   name: "Rain Dance"
   short_name: "Rain Dance"
-  tutor: TUTOR_WEATHER
   description: "A heavy rain falls for eight turns, powering up Water-type moves 50%."
   short_description: "Boosts the power of Water-type moves for 5 turns."
   effect: EFFECT_RAIN_DANCE
@@ -3962,12 +3961,12 @@ moves {
   target: SELECTED
   pp: 10
   ignores_protect: true
+  tutor: TUTOR_WEATHER
 }
 moves {
   id: MOVE_SUNNY_DAY
   name: "Sunny Day"
   short_name: "Sunny Day"
-  tutor: TUTOR_WEATHER
   description: "The sun blazes for eight turns, powering up Fire-type moves by 50%."
   short_description: "Boosts the power of Fire-type moves for 5 turns."
   effect: EFFECT_SUNNY_DAY
@@ -3976,6 +3975,7 @@ moves {
   target: SELECTED
   pp: 10
   ignores_protect: true
+  tutor: TUTOR_WEATHER
 }
 moves {
   id: MOVE_CRUNCH
@@ -3999,7 +3999,6 @@ moves {
   id: MOVE_MIRROR_COAT
   name: "Mirror Coat"
   short_name: "Mirror Coat"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A retaliation move that pays back the foe\'s special attack double."
   short_description: "Counters the foe\'s special attack at double the power."
   effect: EFFECT_MIRROR_COAT
@@ -4012,6 +4011,7 @@ moves {
   priority: -5
   metronome_banned: true
   copycat_banned: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_PSYCH_UP
@@ -4062,7 +4062,6 @@ moves {
   id: MOVE_SHADOW_BALL
   name: "Shadow Ball"
   short_name: "Shadow Ball"
-  tutor: TUTOR_ATTACK
   description: "A shadowy blob is hurled at the foe. 20% chance to lower foe\'s SpDef."
   short_description: "Hurls a black blob that may lower the foe\'s Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -4075,6 +4074,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FUTURE_SIGHT
@@ -4112,7 +4112,6 @@ moves {
   id: MOVE_WHIRLPOOL
   name: "Whirlpool"
   short_name: "Whirlpool"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is trapped for four or five turns. Field-based."
   short_description: "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -4126,13 +4125,14 @@ moves {
   mirror_move_affected: true
   hits_underwater: true
   field: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_BEAT_UP
   name: "Beat Up"
   short_name: "Beat Up"
-  description: "All party Pokémon join in the attack. The more allies, the more damage."
-  short_description: "Summons party Pokémon to join in the attack."
+  description: "All party Pok\303\251mon join in the attack. The more allies, the more damage."
+  short_description: "Summons party Pok\303\251mon to join in the attack."
   effect: EFFECT_BEAT_UP
   split: PHYSICAL
   type: TYPE_DARK
@@ -4222,7 +4222,6 @@ moves {
   id: MOVE_HEAT_WAVE
   name: "Heat Wave"
   short_name: "Heat Wave"
-  tutor: TUTOR_ATTACK
   description: "The user exhales a heated breath. 10% burn chance. Air-based."
   short_description: "Exhales a hot breath on the foe. May inflict a burn."
   effect: EFFECT_BURN_HIT
@@ -4235,25 +4234,25 @@ moves {
   effect_chance: 10
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_HAIL
   name: "Hail"
   short_name: "Hail"
-  tutor: TUTOR_WEATHER
-  description: "A hailstorm lasting eight turns damages all Pokémon except the Ice-type."
+  description: "A hailstorm lasting eight turns damages all Pok\303\251mon except the Ice-type."
   short_description: "Summons a hailstorm that strikes every turn."
   effect: EFFECT_HAIL
   split: STATUS
   type: TYPE_ICE
   target: SELECTED
   pp: 10
+  tutor: TUTOR_WEATHER
 }
 moves {
   id: MOVE_TORMENT
   name: "Torment"
   short_name: "Torment"
-  tutor: TUTOR_NICHE_STATUS
   description: "It enrages the foe, making it incapable of using the same move successively."
   short_description: "Torments the foe and stops successive use of a move."
   effect: EFFECT_TORMENT
@@ -4264,6 +4263,7 @@ moves {
   pp: 15
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_FLATTER
@@ -4284,7 +4284,6 @@ moves {
   id: MOVE_WILL_O_WISP
   name: "Will-O-Wisp"
   short_name: "Will-O-Wisp"
-  tutor: TUTOR_GOOD_STATUS
   description: "A sinister, bluish white flame is shot at the foe to inflict a burn."
   short_description: "Inflicts a burn on the foe with intense fire."
   effect: EFFECT_WILL_O_WISP
@@ -4295,6 +4294,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_MEMENTO
@@ -4314,7 +4314,6 @@ moves {
   id: MOVE_FACADE
   name: "Facade"
   short_name: "Facade"
-  tutor: TUTOR_ATTACK
   description: "An attack that is boosted if user is burned, poisoned, or paralyzed."
   short_description: "Doubles damage if burned, paralyzed, or poisoned."
   effect: EFFECT_FACADE
@@ -4326,12 +4325,12 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FOCUS_PUNCH
   name: "Focus Punch"
   short_name: "Focus Punch"
-  tutor: TUTOR_ATTACK
   description: "Moves last. Damage reduced to 40BP if hit. Iron Fist boost."
   short_description: "A powerful loyalty attack. Damage is reduced if hit."
   effect: EFFECT_FOCUS_PUNCH
@@ -4347,6 +4346,7 @@ moves {
   metronome_banned: true
   copycat_banned: true
   sleep_talk_banned: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SMELLING_SALTS
@@ -4383,7 +4383,6 @@ moves {
   id: MOVE_NATURE_POWER
   name: "Nature Power"
   short_name: "Nature Power"
-  tutor: TUTOR_ATTACK
   description: "This move\'s type and power changes depending on the terrain when used."
   short_description: "Type and power changes depending on the terrain."
   effect: EFFECT_TERRAIN_PULSE
@@ -4395,6 +4394,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_CHARGE
@@ -4414,7 +4414,6 @@ moves {
   id: MOVE_TAUNT
   name: "Taunt"
   short_name: "Taunt"
-  tutor: TUTOR_GOOD_STATUS
   description: "The foe is taunted into a rage that allows it to use only attack moves."
   short_description: "Taunts the foe into only using attack moves."
   effect: EFFECT_TAUNT
@@ -4425,12 +4424,12 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_HELPING_HAND
   name: "Helping Hand"
   short_name: "Helping Hand"
-  tutor: TUTOR_UNIVERSAL_STATUS
   description: "A move that boosts the power of the ally\'s attack in a battle."
   short_description: "Boosts the power of the recipient\'s moves."
   effect: EFFECT_HELPING_HAND
@@ -4443,12 +4442,12 @@ moves {
   ignores_protect: true
   metronome_banned: true
   copycat_banned: true
+  tutor: TUTOR_UNIVERSAL_STATUS
 }
 moves {
   id: MOVE_TRICK
   name: "Trick"
   short_name: "Trick"
-  tutor: TUTOR_GOOD_STATUS
   description: "A move that tricks the foe into trading held items with the user."
   short_description: "Tricks the foe into trading held items."
   effect: EFFECT_TRICK
@@ -4458,6 +4457,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_ROLE_PLAY
@@ -4489,7 +4489,7 @@ moves {
   id: MOVE_ASSIST
   name: "Assist"
   short_name: "Assist"
-  description: "The user randomly picks and uses a move of an allied Pokémon."
+  description: "The user randomly picks and uses a move of an allied Pok\303\251mon."
   short_description: "Attacks randomly with one of the partner\'s moves."
   effect: EFFECT_ASSIST
   split: STATUS
@@ -4506,7 +4506,6 @@ moves {
   id: MOVE_INGRAIN
   name: "Ingrain"
   short_name: "Ingrain"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user lays roots that restore HP on every turn. It can\'t switch out."
   short_description: "Lays roots that restore HP. The user can\'t switch out."
   effect: EFFECT_INGRAIN
@@ -4516,6 +4515,7 @@ moves {
   accuracy: 100
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_SUPERPOWER
@@ -4613,7 +4613,6 @@ moves {
   id: MOVE_KNOCK_OFF
   name: "Knock Off"
   short_name: "Knock Off"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Knocks down the foe\'s held item to prevent its use during the battle."
   short_description: "Knocks down the foe\'s held item to prevent its use."
   effect: EFFECT_KNOCK_OFF
@@ -4626,6 +4625,7 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_ENDEAVOR
@@ -4663,7 +4663,6 @@ moves {
   id: MOVE_SKILL_SWAP
   name: "Skill Swap"
   short_name: "Skill Swap"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user employs its psychic power to swap abilities with the foe."
   short_description: "The user swaps special abilities with the target."
   effect: EFFECT_SKILL_SWAP
@@ -4672,6 +4671,7 @@ moves {
   target: SELECTED
   pp: 10
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_IMPRISON
@@ -4691,7 +4691,6 @@ moves {
   id: MOVE_REFRESH
   name: "Refresh"
   short_name: "Refresh"
-  tutor: TUTOR_GOOD_STATUS
   description: "Cures status and heals the user for 25% HP."
   short_description: "Rests for a moment to cure status and heal."
   effect: EFFECT_REFRESH
@@ -4701,12 +4700,12 @@ moves {
   accuracy: 100
   pp: 10
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_GRUDGE
   name: "Grudge"
   short_name: "Grudge"
-  tutor: TUTOR_NICHE_STATUS
   description: "If the user faints, this move deletes the PP of the move that finished it."
   short_description: "If the user faints, deletes all PP of foe\'s last move."
   effect: EFFECT_GRUDGE
@@ -4716,6 +4715,7 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_SNATCH
@@ -4739,7 +4739,6 @@ moves {
   id: MOVE_SECRET_POWER
   name: "Secret Power"
   short_name: "Secret Power"
-  tutor: TUTOR_UNIVERSAL_ATTACK
   description: "Physical Hidden Power. Varies in type depending on the user. Field-based."
   short_description: "Physical Hidden Power. Varies with the user."
   effect: EFFECT_HIDDEN_POWER
@@ -4752,12 +4751,12 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_UNIVERSAL_ATTACK
 }
 moves {
   id: MOVE_DIVE
   name: "Dive"
   short_name: "Dive"
-  tutor: TUTOR_ATTACK
   description: "The user dives underwater and hits next turn. Field-based."
   short_description: "Dives underwater the first turn and strikes next turn."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -4770,6 +4769,7 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ARM_THRUST
@@ -4793,7 +4793,7 @@ moves {
   name: "Camouflage"
   short_name: "Camouflage"
   description: "Alters the user\'s type depending on the location\'s terrain."
-  short_description: "Alters the Pokémon\'s type depending on the location."
+  short_description: "Alters the Pok\303\251mon\'s type depending on the location."
   effect: EFFECT_CAMOUFLAGE
   split: STATUS
   type: TYPE_NORMAL
@@ -4868,8 +4868,8 @@ moves {
   id: MOVE_TEETER_DANCE
   name: "Teeter Dance"
   short_name: "Teeter Dance"
-  description: "A wobbly dance that confuses all the Pokémon in battle."
-  short_description: "Confuses all Pokémon on the scene."
+  description: "A wobbly dance that confuses all the Pok\303\251mon in battle."
+  short_description: "Confuses all Pok\303\251mon on the scene."
   effect: EFFECT_TEETER_DANCE
   split: STATUS
   type: TYPE_NORMAL
@@ -4964,7 +4964,6 @@ moves {
   id: MOVE_HYPER_VOICE
   name: "Hyper Voice"
   short_name: "Hyper Voice"
-  tutor: TUTOR_ATTACK
   description: "The user lets loose a horribly loud shout with the power to damage."
   short_description: "A loud attack that uses sound waves to injure."
   split: SPECIAL
@@ -4975,6 +4974,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   sound: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_POISON_FANG
@@ -4998,7 +4998,6 @@ moves {
   id: MOVE_CRUSH_CLAW
   name: "Crush Claw"
   short_name: "Crush Claw"
-  tutor: TUTOR_ATTACK
   description: "The foe is attacked with sharp claws. 50% chance to lower foe\'s Defense."
   short_description: "Tears at the foe with sharp claws. May lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -5013,6 +5012,7 @@ moves {
   ignores_stat_stages: true
   ignores_ability: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BLAST_BURN
@@ -5087,7 +5087,6 @@ moves {
   id: MOVE_WEATHER_BALL
   name: "Weather Ball"
   short_name: "Weather Ball"
-  tutor: TUTOR_ATTACK
   description: "Varies in power and type depending on the weather. Weather-based."
   short_description: "The move\'s type and power change with the weather."
   effect: EFFECT_WEATHER_BALL
@@ -5101,12 +5100,12 @@ moves {
   ballistic: true
   weather: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_AROMATHERAPY
   name: "Aromatherapy"
   short_name: "Aromatherapy"
-  tutor: TUTOR_GOOD_STATUS
   description: "Heals the status problems of allies and restores 30% HP to the user."
   short_description: "Heals all status problems with a soothing scent."
   effect: EFFECT_HEAL_BELL
@@ -5115,6 +5114,7 @@ moves {
   target: USER
   pp: 5
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_FAKE_TEARS
@@ -5182,7 +5182,6 @@ moves {
   id: MOVE_ROCK_TOMB
   name: "Rock Tomb"
   short_name: "Rock Tomb"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Attacks with Boulders that lower speed on hit. Throw-based."
   short_description: "Stops the foe from moving with rocks and cuts Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -5195,6 +5194,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   throwing: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SILVER_WIND
@@ -5217,7 +5217,6 @@ moves {
   id: MOVE_METAL_SOUND
   name: "Metal Sound"
   short_name: "Metal Sound"
-  tutor: TUTOR_NICHE_STATUS
   description: "A horrible metallic screech is used to sharply lower the foe\'s Sp. Def."
   short_description: "Emits a horrible screech that sharply lowers Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_2
@@ -5229,6 +5228,7 @@ moves {
   magic_coat_affected: true
   mirror_move_affected: true
   sound: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_GRASS_WHISTLE
@@ -5311,7 +5311,6 @@ moves {
   id: MOVE_SHADOW_PUNCH
   name: "Shadow Punch"
   short_name: "Shadow Punch"
-  tutor: TUTOR_ATTACK
   description: "A strong punch from the shadows. Always hits. Iron Fist boost."
   short_description: "An unavoidable punch that is thrown from shadows."
   split: PHYSICAL
@@ -5322,12 +5321,12 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_EXTRASENSORY
   name: "Extrasensory"
   short_name: "Extrasensory"
-  tutor: TUTOR_ATTACK
   description: "Attacks with an odd power. 10% flinch chance. Never misses. Increased crit rate."
   short_description: "Attacks with a peculiar power. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -5339,6 +5338,7 @@ moves {
   effect_chance: 10
   crit: HIGH
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SKY_UPPERCUT
@@ -5365,7 +5365,6 @@ moves {
   id: MOVE_SAND_TOMB
   name: "Sand Tomb"
   short_name: "Sand Tomb"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is trapped inside a painful sandstorm for four or five turns."
   short_description: "Traps and hurts the foe in quicksand for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -5377,6 +5376,7 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SHEER_COLD
@@ -5463,7 +5463,6 @@ moves {
   id: MOVE_IRON_DEFENSE
   name: "Iron Defense"
   short_name: "Iron Defense"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user hardens its body\'s surface to sharply raise its Defense stat."
   short_description: "Hardens the body\'s surface to sharply raise Defense."
   effect: EFFECT_DEFENSE_UP_2
@@ -5472,6 +5471,7 @@ moves {
   target: USER
   pp: 15
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_BLOCK
@@ -5506,7 +5506,6 @@ moves {
   id: MOVE_DRAGON_CLAW
   name: "Dragon Claw"
   short_name: "Dragon Claw"
-  tutor: TUTOR_ATTACK
   description: "Sharp, huge claws hook and slash the foe quickly. Keen Edge boost."
   short_description: "Slashes the foe with sharp claws."
   effect: EFFECT_BLEED_HIT
@@ -5521,6 +5520,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FRENZY_PLANT
@@ -5543,7 +5543,6 @@ moves {
   id: MOVE_BULK_UP
   name: "Bulk Up"
   short_name: "Bulk Up"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user bulks up its body to boost both its Attack and Defense stats."
   short_description: "Bulks up the body to boost both Attack and Defense."
   effect: EFFECT_BULK_UP
@@ -5552,6 +5551,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_BOUNCE
@@ -5599,7 +5599,6 @@ moves {
   id: MOVE_POISON_TAIL
   name: "Poison Tail"
   short_name: "Poison Tail"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "An attack that forces the target to switch. 10% poison chance."
   short_description: "Forces the target to Switch. May also poison."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -5618,12 +5617,12 @@ moves {
   }
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_COVET
   name: "Covet"
   short_name: "Covet"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Steals or removes the foe\'s item. +1 priority if the user has no item."
   short_description: "Cutely begs to obtain an item held by the foe."
   effect: EFFECT_THIEF
@@ -5636,6 +5635,7 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_VOLT_TACKLE
@@ -5691,7 +5691,6 @@ moves {
   id: MOVE_CALM_MIND
   name: "Calm Mind"
   short_name: "Calm Mind"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user focuses its mind to raise the Sp. Atk and Sp. Def stats."
   short_description: "Raises Sp. Atk and Sp. Def by focusing the mind."
   effect: EFFECT_CALM_MIND
@@ -5700,6 +5699,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_LEAF_BLADE
@@ -5769,7 +5769,6 @@ moves {
   id: MOVE_WATER_PULSE
   name: "Water Pulse"
   short_name: "Water Pulse"
-  tutor: TUTOR_ATTACK
   description: "A pulsing blast of water. Has 20% confusion chance. Mega Launcher boost"
   short_description: "Attacks with ultrasonic waves. May confuse the foe."
   effect: EFFECT_CONFUSE_HIT
@@ -5782,6 +5781,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DOOM_DESIRE
@@ -5818,7 +5818,6 @@ moves {
   id: MOVE_ROOST
   name: "Roost"
   short_name: "Roost"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user lands and rests its body. It restores up to half of its max HP."
   short_description: "Restores the user\'s HP by half of its max HP."
   effect: EFFECT_ROOST
@@ -5827,6 +5826,7 @@ moves {
   target: USER
   pp: 5
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_GRAVITY
@@ -5844,7 +5844,6 @@ moves {
   id: MOVE_MIRACLE_EYE
   name: "Miracle Eye"
   short_name: "Miracle Eye"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe is treated as being in inverse room. Psychic-type is immune to Dark."
   short_description: "Inverts the target\'s type matchups."
   effect: EFFECT_MIRACLE_EYE
@@ -5854,6 +5853,7 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_WAKE_UP_SLAP
@@ -5954,15 +5954,14 @@ moves {
   target: SELECTED
   power: 1
   accuracy: 100
-  effect_chance: 100
   pp: 15
+  effect_chance: 100
   mirror_move_affected: true
 }
 moves {
   id: MOVE_FEINT
   name: "Feint"
   short_name: "Feint"
-  tutor: TUTOR_ATTACK
   description: "Hits a foe using moves like Protect, lifting the effect of those moves."
   short_description: "An attack that hits foes using moves like Protect."
   effect: EFFECT_FEINT
@@ -5976,12 +5975,12 @@ moves {
   priority: 2
   ignores_protect: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PLUCK
   name: "Pluck"
   short_name: "Pluck"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Plucks away the foe\'s item, eating it if it\'s a Berry. Strong Jaw boost."
   short_description: "Plucks the foe\'s item away, eating it if it\'s a Berry."
   effect: EFFECT_BUG_BITE
@@ -5995,12 +5994,12 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_TAILWIND
   name: "Tailwind"
   short_name: "Tailwind"
-  tutor: TUTOR_GOOD_STATUS
   description: "A turbulent whirl-wind that ups the Speed stat of the party for 4 turns."
   short_description: "Whips up a turbulent breeze that raises Speed."
   effect: EFFECT_TAILWIND
@@ -6010,6 +6009,7 @@ moves {
   pp: 15
   snatch_affected: true
   air: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_ACUPRESSURE
@@ -6043,8 +6043,7 @@ moves {
   id: MOVE_U_TURN
   name: "U-turn"
   short_name: "U-turn"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "The user strikes, and then switches with a waiting party Pokémon."
+  description: "The user strikes, and then switches with a waiting party Pok\303\251mon."
   short_description: "Does damage then switches out the user."
   effect: EFFECT_HIT_ESCAPE
   split: PHYSICAL
@@ -6055,6 +6054,7 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_CLOSE_COMBAT
@@ -6171,7 +6171,6 @@ moves {
   id: MOVE_HEAL_BLOCK
   name: "Heal Block"
   short_name: "Heal Block"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe cannot use any moves, held items or Abilities that recover HP."
   short_description: "Prevents the foe from recovering any HP."
   effect: EFFECT_HEAL_BLOCK
@@ -6182,6 +6181,7 @@ moves {
   pp: 15
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_WRING_OUT
@@ -6217,7 +6217,6 @@ moves {
   id: MOVE_GASTRO_ACID
   name: "Gastro Acid"
   short_name: "Gastro Acid"
-  tutor: TUTOR_NICHE_STATUS
   description: "Stomach acids are spewed at the foe, negating the effect of its Ability."
   short_description: "Stomach acid suppresses the foe\'s ability."
   effect: EFFECT_GASTRO_ACID
@@ -6228,6 +6227,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_LUCKY_CHANT
@@ -6261,7 +6261,6 @@ moves {
   id: MOVE_COPYCAT
   name: "Copycat"
   short_name: "Copycat"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user tries to mimic the move used immediately before it."
   short_description: "The user mimics the last move used by a foe."
   effect: EFFECT_COPYCAT
@@ -6273,6 +6272,7 @@ moves {
   metronome_banned: true
   copycat_banned: true
   sleep_talk_banned: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_POWER_SWAP
@@ -6337,7 +6337,6 @@ moves {
   id: MOVE_WORRY_SEED
   name: "Worry Seed"
   short_name: "Worry Seed"
-  tutor: TUTOR_NICHE_STATUS
   description: "A seed that is planted that causes Fear and gives Insomnia."
   short_description: "Plants a seed that causes Fear and gives Insomina."
   effect: EFFECT_WORRY_SEED
@@ -6348,6 +6347,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_SUCKER_PUNCH
@@ -6370,7 +6370,6 @@ moves {
   id: MOVE_TOXIC_SPIKES
   name: "Toxic Spikes"
   short_name: "Toxic Spikes"
-  tutor: TUTOR_GOOD_STATUS
   description: "Poison spikes are laid at the foe\'s feet. They poison foes that switch in."
   short_description: "Sets spikes that poison a foe switching in."
   effect: EFFECT_TOXIC_SPIKES
@@ -6379,6 +6378,7 @@ moves {
   target: OPPONENTS_FIELD
   pp: 20
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_HEART_SWAP
@@ -6396,7 +6396,6 @@ moves {
   id: MOVE_AQUA_RING
   name: "Aqua Ring"
   short_name: "Aqua Ring"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user envelops itself in a veil of water. It regains 1/16 HP every turn."
   short_description: "Forms a veil of water that restores HP."
   effect: EFFECT_AQUA_RING
@@ -6405,12 +6404,12 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_MAGNET_RISE
   name: "Magnet Rise"
   short_name: "Magnet Rise"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user levitates using electrically generated magnetism for five turns."
   short_description: "The user levitates with electromagnetism."
   effect: EFFECT_MAGNET_RISE
@@ -6419,6 +6418,7 @@ moves {
   target: USER
   pp: 10
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_FLARE_BLITZ
@@ -6447,7 +6447,6 @@ moves {
   id: MOVE_FORCE_PALM
   name: "Force Palm"
   short_name: "Force Palm"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is attacked with a shock wave. Clears stat changes."
   short_description: "Sends a shock wave through the foe, clearing their stats."
   effect: EFFECT_CLEAR_SMOG
@@ -6460,12 +6459,12 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_AURA_SPHERE
   name: "Aura Sphere"
   short_name: "Aura Sphere"
-  tutor: TUTOR_ATTACK
   description: "A strong blast of aura power. Always hits. Mega Launcher boost"
   short_description: "Attacks with an aura blast that cannot be evaded."
   split: SPECIAL
@@ -6476,6 +6475,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ROCK_POLISH
@@ -6494,7 +6494,6 @@ moves {
   id: MOVE_POISON_JAB
   name: "Poison Jab"
   short_name: "Poison Jab"
-  tutor: TUTOR_ATTACK
   description: "A stabbing attack with 30% poison chance. Iron Fist & Mighty Horn boost."
   short_description: "A stabbing attack that may poison the foe."
   effect: EFFECT_POISON_HIT
@@ -6509,12 +6508,12 @@ moves {
   mirror_move_affected: true
   iron_fist: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DARK_PULSE
   name: "Dark Pulse"
   short_name: "Dark Pulse"
-  tutor: TUTOR_ATTACK
   description: "Releases an aura with dark thoughts. 20% flinch chance. Mega Launcher boost"
   short_description: "Attacks with a horrible aura. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -6527,12 +6526,12 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_NIGHT_SLASH
   name: "Night Slash"
   short_name: "Night Slash"
-  tutor: TUTOR_ATTACK
   description: "The user waits to strike, slashing the foe. High crit. Keen Edge boost."
   short_description: "Hits as soon as possible. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6547,12 +6546,12 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_AQUA_TAIL
   name: "Aqua Tail"
   short_name: "Aqua Tail"
-  tutor: TUTOR_ATTACK
   description: "The user attacks by swinging its tail. High crit chance."
   short_description: "The user swings its tail like a wave to attack."
   split: PHYSICAL
@@ -6564,12 +6563,12 @@ moves {
   contact: true
   crit: HIGH
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SEED_BOMB
   name: "Seed Bomb"
   short_name: "Seed Bomb"
-  tutor: TUTOR_ATTACK
   description: "A barrage of hard-shelled seeds is slammed on the foe from above."
   short_description: "A barrage of hard seeds is fired at the foe."
   split: PHYSICAL
@@ -6580,12 +6579,12 @@ moves {
   pp: 15
   mirror_move_affected: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_AIR_SLASH
   name: "Air Slash"
   short_name: "Air Slash"
-  tutor: TUTOR_ATTACK
   description: "A blade of air with 30% flinch chance. Keen Edge boost. Air-based."
   short_description: "Attacks with a blade of air. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -6599,12 +6598,12 @@ moves {
   mirror_move_affected: true
   keen_edge: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_X_SCISSOR
   name: "X-Scissor"
   short_name: "X-Scissor"
-  tutor: TUTOR_ATTACK
   description: "Slashes with crossed scythes, claws etc. High crit ratio. Keen Edge boost."
   short_description: "Cuts like scissors. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6619,12 +6618,12 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BUG_BUZZ
   name: "Bug Buzz"
   short_name: "Bug Buzz"
-  tutor: TUTOR_ATTACK
   description: "A harsh sound wave from the user. 20% chance to drop foe\'s Sp. Def."
   short_description: "A damaging sound wave that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6637,12 +6636,12 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   sound: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DRAGON_PULSE
   name: "Dragon Pulse"
   short_name: "Dragon Pulse"
-  tutor: TUTOR_ATTACK
   description: "The user\'s gaping mouth generates a shock wave attack. Mega Launcher boost"
   short_description: "Generates a shock wave to damage the foe."
   split: SPECIAL
@@ -6653,6 +6652,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DRAGON_RUSH
@@ -6676,7 +6676,6 @@ moves {
   id: MOVE_POWER_GEM
   name: "Power Gem"
   short_name: "Power Gem"
-  tutor: TUTOR_ATTACK
   description: "A ray of light is shot at the foe, sparkling as if it were made of gems."
   short_description: "Attacks with rays of light that sparkle like diamonds."
   split: SPECIAL
@@ -6686,6 +6685,7 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DRAIN_PUNCH
@@ -6708,7 +6708,6 @@ moves {
   id: MOVE_VACUUM_WAVE
   name: "Vacuum Wave"
   short_name: "Vacuum Wave"
-  tutor: TUTOR_ATTACK
   description: "A pure vacuum is fired at the foe. +1 priority."
   short_description: "Whirls its fists to send a wave that strikes first."
   split: SPECIAL
@@ -6720,12 +6719,12 @@ moves {
   priority: 1
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FOCUS_BLAST
   name: "Focus Blast"
   short_name: "Focus Blast"
-  tutor: TUTOR_ATTACK
   description: "Mental power is un-leashed. 65% chance to lower foe\'s SpDef. Mega Launcher boost"
   short_description: "Attacks at full power. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6739,12 +6738,12 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ENERGY_BALL
   name: "Energy Ball"
   short_name: "Energy Ball"
-  tutor: TUTOR_ATTACK
   description: "Power is drawn from nature and fired at the foe. 10% chance to drop foe\'s SpDef."
   short_description: "Draws power from nature to attack. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6757,6 +6756,7 @@ moves {
   effect_chance: 10
   mirror_move_affected: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BRAVE_BIRD
@@ -6780,7 +6780,6 @@ moves {
   id: MOVE_EARTH_POWER
   name: "Earth Power"
   short_name: "Earth Power"
-  tutor: TUTOR_ATTACK
   description: "The ground erupts below the foe. 10% chance to lower the foe\'s SpDef."
   short_description: "Makes the ground erupt with power. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6792,6 +6791,7 @@ moves {
   pp: 15
   effect_chance: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SWITCHEROO
@@ -6811,7 +6811,6 @@ moves {
   id: MOVE_GIGA_IMPACT
   name: "Giga Impact"
   short_name: "Giga Impact"
-  tutor: TUTOR_ATTACK
   description: "Hits with immense force. Deals severe damage, needs to recharge."
   short_description: "Powerful, but leaves the user immobile the next turn."
   effect: EFFECT_RECHARGE
@@ -6823,12 +6822,12 @@ moves {
   pp: 5
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_NASTY_PLOT
   name: "Nasty Plot"
   short_name: "Nasty Plot"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user stimulates its brain with bad thoughts, sharply raising its SpAtk"
   short_description: "Thinks bad thoughts to sharply boost SpAtk"
   effect: EFFECT_SPECIAL_ATTACK_UP_2
@@ -6837,6 +6836,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_BULLET_PUNCH
@@ -6891,7 +6891,6 @@ moves {
   id: MOVE_SHADOW_CLAW
   name: "Shadow Claw"
   short_name: "Shadow Claw"
-  tutor: TUTOR_ATTACK
   description: "Claws made from shadows strike the foe. High crit. Keen Edge boost."
   short_description: "Strikes with a shadow claw. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6906,6 +6905,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_THUNDER_FANG
@@ -7014,7 +7014,6 @@ moves {
   id: MOVE_PSYCHO_CUT
   name: "Psycho Cut"
   short_name: "Psycho Cut"
-  tutor: TUTOR_ATTACK
   description: "Psychic blades strike the foe. High crit ratio. Keen Edge boost."
   short_description: "Tears with psychic blades. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -7029,12 +7028,12 @@ moves {
   mirror_move_affected: true
   keen_edge: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ZEN_HEADBUTT
   name: "Zen Headbutt"
   short_name: "Zen Headbutt"
-  tutor: TUTOR_ATTACK
   description: "The user focuses, and strikes the foe. 20% flinch chance. Field-based."
   short_description: "Hits with a strong head-butt. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -7048,12 +7047,12 @@ moves {
   contact: true
   mirror_move_affected: true
   field: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MIRROR_SHOT
   name: "Mirror Shot"
   short_name: "Mirror Shot"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A flash of energy is loosed at the foe. Lowers Special Defense."
   short_description: "Emits a flash of energy to damage and cut SpDef."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -7066,12 +7065,12 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_FLASH_CANNON
   name: "Flash Cannon"
   short_name: "Flash Cannon"
-  tutor: TUTOR_ATTACK
   description: "Light energy attack. 10% chance to lower their SpDef stat. Mega Launcher boost"
   short_description: "Releases a blast of light that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -7085,6 +7084,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_ROCK_CLIMB
@@ -7113,7 +7113,6 @@ moves {
   id: MOVE_DEFOG
   name: "Defog"
   short_name: "Defog"
-  tutor: TUTOR_GOOD_STATUS
   description: "Wind blows across the battlefield, clearing barriers, obstacles, etc."
   short_description: "Removes obstacles and lowers evasion."
   effect: EFFECT_DEFOG
@@ -7123,14 +7122,14 @@ moves {
   pp: 15
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_TRICK_ROOM
   name: "Trick Room"
   short_name: "Trick Room"
-  tutor: TUTOR_GOOD_STATUS
-  description: "A bizarre area is constructed for 5 turns where slower Pokémon move first."
-  short_description: "Slower Pokémon get to move first for 5 turns."
+  description: "A bizarre area is constructed for 5 turns where slower Pok\303\251mon move first."
+  short_description: "Slower Pok\303\251mon get to move first for 5 turns."
   effect: EFFECT_TRICK_ROOM
   split: STATUS
   type: TYPE_PSYCHIC
@@ -7138,6 +7137,7 @@ moves {
   pp: 5
   priority: -7
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_DRACO_METEOR
@@ -7159,7 +7159,6 @@ moves {
   id: MOVE_DISCHARGE
   name: "Discharge"
   short_name: "Discharge"
-  tutor: TUTOR_ATTACK
   description: "Electricity is loosed on the field. 30% paralyze chance to foes/ally."
   short_description: "Zaps the field with electri-city. May cause paralysis."
   effect: EFFECT_PARALYZE_HIT
@@ -7171,12 +7170,13 @@ moves {
   pp: 15
   effect_chance: 30
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_LAVA_PLUME
   name: "Lava Plume"
   short_name: "Lava Plume"
-  description: "Scarlet flames wash over all Pokémon in battle. 30% burn chance."
+  description: "Scarlet flames wash over all Pok\303\251mon in battle. 30% burn chance."
   short_description: "Scarlet flames torch everything around the user."
   effect: EFFECT_BURN_HIT
   split: SPECIAL
@@ -7262,7 +7262,6 @@ moves {
   id: MOVE_GUNK_SHOT
   name: "Gunk Shot"
   short_name: "Gunk Shot"
-  tutor: TUTOR_ATTACK
   description: "Filthy garbage is shot at the foe. 30% poison chance. Mega Launcher boost"
   short_description: "Shoots filthy garbage at the foe. May also poison."
   effect: EFFECT_POISON_HIT
@@ -7276,12 +7275,12 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_IRON_HEAD
   name: "Iron Head"
   short_name: "Iron Head"
-  tutor: TUTOR_ATTACK
   description: "The user slams the foe with its steel-hard head. 30% flinch chance."
   short_description: "Slams the foe with a hard head. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -7294,6 +7293,7 @@ moves {
   effect_chance: 30
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_MAGNET_BOMB
@@ -7317,7 +7317,6 @@ moves {
   id: MOVE_STONE_EDGE
   name: "Stone Edge"
   short_name: "Stone Edge"
-  tutor: TUTOR_ATTACK
   description: "Sharpened stones stab the foe from below. Critical hits land more easily."
   short_description: "Stabs the foe with stones. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -7331,6 +7330,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_CAPTIVATE
@@ -7352,7 +7352,6 @@ moves {
   id: MOVE_STEALTH_ROCK
   name: "Stealth Rock"
   short_name: "Stealth Rock"
-  tutor: TUTOR_GOOD_STATUS
   description: "Levitating stones surround the foe. This hurts foes that switch in."
   short_description: "Sets floating stones that hurt a foe switching in."
   effect: EFFECT_STEALTH_ROCK
@@ -7361,6 +7360,7 @@ moves {
   target: OPPONENTS_FIELD
   pp: 20
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_GRASS_KNOT
@@ -7420,7 +7420,6 @@ moves {
   id: MOVE_BUG_BITE
   name: "Bug Bite"
   short_name: "Bug Bite"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Removes the foe\'s item and eats it if it\'s a Berry. Strong Jaw boost."
   short_description: "Tears away the foe\'s item, eating it if it\'s a Berry."
   effect: EFFECT_BUG_BITE
@@ -7434,12 +7433,12 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_CHARGE_BEAM
   name: "Charge Beam"
   short_name: "Charge Beam"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Attacks with an electric charge. Raises own SpAtk. Mega Launcher boost"
   short_description: "Fires a beam of electricity. Raises Sp. Atk by one stage."
   effect: EFFECT_SP_ATTACK_UP_HIT
@@ -7452,6 +7451,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_WOOD_HAMMER
@@ -7734,7 +7734,6 @@ moves {
   id: MOVE_WIDE_GUARD
   name: "Wide Guard"
   short_name: "Wide Guard"
-  tutor: TUTOR_NICHE_STATUS
   description: "For 1 turn, the user and its allies are protected from wide-ranging moves."
   short_description: "Evades wide-ranging attacks for one turn."
   effect: EFFECT_PROTECT
@@ -7748,6 +7747,7 @@ moves {
   }
   is_protection: true
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_GUARD_SPLIT
@@ -7790,7 +7790,6 @@ moves {
   id: MOVE_PSYSHOCK
   name: "Psyshock"
   short_name: "Psyshock"
-  tutor: TUTOR_ATTACK
   description: "The user casts an odd psychic wave to attack the foe for physical damage."
   short_description: "Attacks with a psychic wave that does physical damage."
   split: SPECIAL
@@ -7801,6 +7800,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_VENOSHOCK
@@ -7837,7 +7837,6 @@ moves {
   id: MOVE_RAGE_POWDER
   name: "Rage Powder"
   short_name: "Rage Powder"
-  tutor: TUTOR_GOOD_STATUS
   description: "Foes aim only at the user, enraged by a cloud of its irritating powder."
   short_description: "Scatters powder to make foes attack only the user."
   effect: EFFECT_FOLLOW_ME
@@ -7849,6 +7848,7 @@ moves {
   powder_affected: true
   metronome_banned: true
   copycat_banned: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_TELEKINESIS
@@ -7962,7 +7962,6 @@ moves {
   id: MOVE_HEAVY_SLAM
   name: "Heavy Slam"
   short_name: "Heavy Slam"
-  tutor: TUTOR_ATTACK
   description: "The user slams the foe with its heavy body. Heavier users are stronger."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
@@ -7974,6 +7973,7 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SYNCHRONOISE
@@ -8011,7 +8011,6 @@ moves {
   id: MOVE_SOAK
   name: "Soak"
   short_name: "Soak"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe is struck by a torrent of water which changes its type to Water."
   short_description: "Sprays water at the foe making it Water-type."
   effect: EFFECT_SOAK
@@ -8022,12 +8021,12 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_FLAME_CHARGE
   name: "Flame Charge"
   short_name: "Flame Charge"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Cloaked in flames, the user strikes. This raises its Speed stat."
   short_description: "Attacks in a cloak of flames. Raises Speed."
   effect: EFFECT_SPEED_UP_HIT
@@ -8040,6 +8039,7 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_COIL
@@ -8058,7 +8058,6 @@ moves {
   id: MOVE_LOW_SWEEP
   name: "Low Sweep"
   short_name: "Low Sweep"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The user strikes swiftly at the foe\'s legs, lowering the foe\'s Speed stat."
   short_description: "Attacks the foe\'s legs lowering its Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -8071,6 +8070,7 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_ACID_SPRAY
@@ -8093,7 +8093,6 @@ moves {
   id: MOVE_FOUL_PLAY
   name: "Foul Play"
   short_name: "Foul Play"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The higher the foe\'s Attack stat, the greater the damage this deals."
   short_description: "The higher the foe\'s Attack the more damage caused."
   effect: EFFECT_FOUL_PLAY
@@ -8105,6 +8104,7 @@ moves {
   pp: 15
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_SIMPLE_BEAM
@@ -8210,7 +8210,6 @@ moves {
   id: MOVE_CLEAR_SMOG
   name: "Clear Smog"
   short_name: "Clear Smog"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A clump of special mud is hurled at the foe, resetting their stat changes."
   short_description: "Attacks with white haze that eliminates all stat changes."
   effect: EFFECT_CLEAR_SMOG
@@ -8221,6 +8220,7 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_STORED_POWER
@@ -8313,7 +8313,6 @@ moves {
   id: MOVE_HEX
   name: "Hex"
   short_name: "Hex"
-  tutor: TUTOR_ATTACK
   description: "Double damage to foes affected by status problems."
   short_description: "Does double damage if the foe has a status problem."
   effect: EFFECT_HEX
@@ -8324,12 +8323,12 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SKY_DROP
   name: "Sky Drop"
   short_name: "Sky Drop"
-  tutor: TUTOR_ATTACK
   description: "Immobilizes and then slams the foe. Deals damage and triggers hazards. Throw based."
   short_description: "Takes the foe into the sky then drops it the next turn."
   effect: EFFECT_SKY_DROP
@@ -8342,6 +8341,7 @@ moves {
   contact: true
   mirror_move_affected: true
   throwing: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SHIFT_GEAR
@@ -8360,8 +8360,7 @@ moves {
   id: MOVE_CIRCLE_THROW
   name: "Circle Throw"
   short_name: "Circle Throw"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "The foe is thrown, dragging out another Pokémon into battle. Wild Pokémon flee."
+  description: "The foe is thrown, dragging out another Pok\303\251mon into battle. Wild Pok\303\251mon flee."
   short_description: "Knocks the foe away to end the battle."
   effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
@@ -8374,6 +8373,7 @@ moves {
   contact: true
   mirror_move_affected: true
   no_kings_rock: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_INCINERATE
@@ -8409,7 +8409,6 @@ moves {
   id: MOVE_ACROBATICS
   name: "Acrobatics"
   short_name: "Acrobatics"
-  tutor: TUTOR_ATTACK
   description: "The user nimbly strikes the foe. 50% more damage without an item."
   short_description: "Does 1.5x damage if the user has no item."
   effect: EFFECT_ACROBATICS
@@ -8421,6 +8420,7 @@ moves {
   pp: 15
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_REFLECT_TYPE
@@ -8441,7 +8441,6 @@ moves {
   id: MOVE_RETALIATE
   name: "Retaliate"
   short_name: "Retaliate"
-  tutor: TUTOR_ATTACK
   description: "This vengeful move deals double damage if an ally fainted in the turn before."
   short_description: "An attack that does more damage if an ally fainted."
   effect: EFFECT_RETALIATE
@@ -8453,6 +8452,7 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FINAL_GAMBIT
@@ -8577,8 +8577,7 @@ moves {
   id: MOVE_VOLT_SWITCH
   name: "Volt Switch"
   short_name: "Volt Switch"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "The user strikes, and then switches with a waiting party Pokémon."
+  description: "The user strikes, and then switches with a waiting party Pok\303\251mon."
   short_description: "Does damage then switches out the user."
   effect: EFFECT_HIT_ESCAPE
   split: SPECIAL
@@ -8588,6 +8587,7 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_STRUGGLE_BUG
@@ -8608,7 +8608,6 @@ moves {
   id: MOVE_BULLDOZE
   name: "Bulldoze"
   short_name: "Bulldoze"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "A mighty stomp which hits all foes, and lowers their Speed stat."
   short_description: "Stomps down on the ground. Lowers Speed."
   effect: EFFECT_BULLDOZE
@@ -8620,6 +8619,7 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_FROST_BREATH
@@ -8642,8 +8642,7 @@ moves {
   id: MOVE_DRAGON_TAIL
   name: "Dragon Tail"
   short_name: "Dragon Tail"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "The foe is thrown, dragging out another Pokémon into battle. Wild Pokémon flee."
+  description: "The foe is thrown, dragging out another Pok\303\251mon into battle. Wild Pok\303\251mon flee."
   short_description: "Knocks the foe away to end the battle."
   effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
@@ -8655,12 +8654,12 @@ moves {
   priority: -6
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_WORK_UP
   name: "Work Up"
   short_name: "Work Up"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user is roused, and its Attack and Sp. Atk stats increase."
   short_description: "The user is roused. Ups Attack and SpAtk"
   effect: EFFECT_ATTACK_SPATK_UP
@@ -8669,12 +8668,12 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_ELECTROWEB
   name: "Electroweb"
   short_name: "Electroweb"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is caught in an electric net. This lowers their Speed stat."
   short_description: "Snares the foe with an electric net. Lowers Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -8686,12 +8685,12 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_WILD_CHARGE
   name: "Wild Charge"
   short_name: "Wild Charge"
-  tutor: TUTOR_ATTACK
   description: "An electric, reckless crash attack with 10% paralyze chance."
   short_description: "An electrical tackle with 10% paralyze chance."
   effect: EFFECT_PARALYZE_HIT
@@ -8704,12 +8703,12 @@ moves {
   effect_chance: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DRILL_RUN
   name: "Drill Run"
   short_name: "Drill Run"
-  tutor: TUTOR_ATTACK
   description: "Rotates its body like a drill. High crit ratio. Mighty Horn boost."
   short_description: "Spins its body like a drill. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -8724,6 +8723,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DUAL_CHOP
@@ -8818,7 +8818,6 @@ moves {
   id: MOVE_HEAT_CRASH
   name: "Heat Crash"
   short_name: "Heat Crash"
-  tutor: TUTOR_ATTACK
   description: "The user slams the foe with its heavy body. Heavier users are stronger."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
@@ -8830,12 +8829,12 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_LEAF_TORNADO
   name: "Leaf Tornado"
   short_name: "Leaf Tornado"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The foe is trapped with sharp leaves for four or five turns."
   short_description: "Traps and hurts the foe in a tornado for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -8848,6 +8847,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_STEAMROLLER
@@ -8927,7 +8927,6 @@ moves {
   id: MOVE_HURRICANE
   name: "Hurricane"
   short_name: "Hurricane"
-  tutor: TUTOR_ATTACK
   description: "30% chance to confuse the foe. Weather-and Air-based."
   short_description: "Traps the foe in a fierce wind. May cause confusion."
   effect: EFFECT_HURRICANE
@@ -8942,6 +8941,7 @@ moves {
   hits_air: HITS
   weather: true
   air: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_HEAD_CHARGE
@@ -9173,7 +9173,6 @@ moves {
   id: MOVE_ICICLE_CRASH
   name: "Icicle Crash"
   short_name: "Icicle Crash"
-  tutor: TUTOR_ATTACK
   description: "Sharp icicles fall onto the foe, with a 20% flinch chance."
   short_description: "Drops large icicles on the foe. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -9185,6 +9184,7 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_V_CREATE
@@ -9284,14 +9284,14 @@ moves {
   id: MOVE_ROTOTILLER
   name: "Rototiller"
   short_name: "Rototiller"
-  tutor: TUTOR_GOOD_STATUS
   description: "Boosts the Atk and SpAtk of Grass-types by 1 stage or 2 stages in Grassy Terrain."
-  short_description: "Ups the Attack and Sp. Atk of Grass-type Pokémon."
+  short_description: "Ups the Attack and Sp. Atk of Grass-type Pok\303\251mon."
   effect: EFFECT_ROTOTILLER
   split: STATUS
   type: TYPE_GROUND
   target: ALL_BATTLERS
   pp: 10
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_STICKY_WEB
@@ -9396,7 +9396,7 @@ moves {
   name: "Parabolic Charge"
   short_name: "ParabolcChrg"
   description: "The user attacks all around it, and restores HP by 25% of damage dealt."
-  short_description: "Damages adjacent Pokémon and heals up by 1/4 of it."
+  short_description: "Damages adjacent Pok\303\251mon and heals up by 1/4 of it."
   effect: EFFECT_ABSORB
   split: SPECIAL
   type: TYPE_ELECTRIC
@@ -9492,7 +9492,6 @@ moves {
   id: MOVE_TOPSY_TURVY
   name: "Topsy-Turvy"
   short_name: "Topsy-Turvy"
-  tutor: TUTOR_NICHE_STATUS
   description: "All stat changes affecting the foe turn topsy-turvy and are inverted."
   short_description: "Swaps all stat changes that affect the target."
   effect: EFFECT_TOPSY_TURVY
@@ -9502,12 +9501,12 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_DRAINING_KISS
   name: "Draining Kiss"
   short_name: "DrainingKiss"
-  tutor: TUTOR_ATTACK
   description: "A kiss that absorbs 50% of damage it inflicted to restore HP."
   short_description: "An attack that absorbs over 50% of damage inflicted."
   effect: EFFECT_ABSORB
@@ -9519,6 +9518,7 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_CRAFTY_SHIELD
@@ -9540,8 +9540,8 @@ moves {
   id: MOVE_FLOWER_SHIELD
   name: "Flower Shield"
   short_name: "FlowerShield"
-  description: "A mysterious power raises the Defense of all Grass-type Pokémon in battle."
-  short_description: "Raises the Defense of Grass-type Pokémon."
+  description: "A mysterious power raises the Defense of all Grass-type Pok\303\251mon in battle."
+  short_description: "Raises the Defense of Grass-type Pok\303\251mon."
   effect: EFFECT_FLOWER_SHIELD
   split: STATUS
   type: TYPE_FAIRY
@@ -9552,7 +9552,6 @@ moves {
   id: MOVE_GRASSY_TERRAIN
   name: "Grassy Terrain"
   short_name: "GrssyTerrain"
-  tutor: TUTOR_TERRAIN
   description: "For 8 turns, the ground turns grassy. This ups Grass-type moves, and heals."
   short_description: "The ground turns to grass for 8 turns. Restores HP."
   effect: EFFECT_GRASSY_TERRAIN
@@ -9560,12 +9559,12 @@ moves {
   type: TYPE_GRASS
   target: ALL_BATTLERS
   pp: 10
+  tutor: TUTOR_TERRAIN
 }
 moves {
   id: MOVE_MISTY_TERRAIN
   name: "Misty Terrain"
   short_name: "MistyTerrain"
-  tutor: TUTOR_TERRAIN
   description: "Boosts Fairy-type moves for 8 turns, and prevents status conditions for all."
   short_description: "Covers the ground with mist for 8 turns. Blocks status."
   effect: EFFECT_MISTY_TERRAIN
@@ -9573,6 +9572,7 @@ moves {
   type: TYPE_FAIRY
   target: ALL_BATTLERS
   pp: 10
+  tutor: TUTOR_TERRAIN
 }
 moves {
   id: MOVE_ELECTRIFY
@@ -9592,7 +9592,6 @@ moves {
   id: MOVE_PLAY_ROUGH
   name: "Play Rough"
   short_name: "Play Rough"
-  tutor: TUTOR_ATTACK
   description: "The user and foe play rough, with a 10% chance to drop foe\'s Attack."
   short_description: "Plays rough with the foe. May lower Attack."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -9605,6 +9604,7 @@ moves {
   effect_chance: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_FAIRY_WIND
@@ -9626,7 +9626,6 @@ moves {
   id: MOVE_MOONBLAST
   name: "Moonblast"
   short_name: "Moonblast"
-  tutor: TUTOR_ATTACK
   description: "The power of the moon strikes the foe. 20% chance to lower foe\'s SpAtk."
   short_description: "Attacks with the power of the moon. May lower SpAtk"
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -9639,6 +9638,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   lunar: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_BOOMBURST
@@ -9841,7 +9841,6 @@ moves {
   id: MOVE_VENOM_DRENCH
   name: "Venom Drench"
   short_name: "Venom Drench"
-  tutor: TUTOR_NICHE_STATUS
   description: "Poisoned foes suffer lowered Attack, Sp. Atk and Speed stats."
   short_description: "Lowers the Attack, Sp. Atk and Speed of a poisoned foe."
   effect: EFFECT_VENOM_DRENCH
@@ -9852,6 +9851,7 @@ moves {
   pp: 20
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_POWDER
@@ -9911,7 +9911,6 @@ moves {
   id: MOVE_ELECTRIC_TERRAIN
   name: "Electric Terrain"
   short_name: "ElctrcTrrain"
-  tutor: TUTOR_TERRAIN
   description: "For 8 turns, the charged ground ups Electric-type moves and prevents sleep."
   short_description: "Electrifies the ground for 8 turns. Prevents sleep."
   effect: EFFECT_ELECTRIC_TERRAIN
@@ -9919,12 +9918,12 @@ moves {
   type: TYPE_ELECTRIC
   target: ALL_BATTLERS
   pp: 10
+  tutor: TUTOR_TERRAIN
 }
 moves {
   id: MOVE_DAZZLING_GLEAM
   name: "Dazzling Gleam"
   short_name: "DazzlngGleam"
-  tutor: TUTOR_ATTACK
   description: "The user emits a powerful flash, hitting all foes."
   short_description: "Damages foes by emitting a bright flash."
   split: SPECIAL
@@ -9934,12 +9933,13 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_CELEBRATE
   name: "Celebrate"
   short_name: "Celebrate"
-  description: "The Pokémon congratulates you on your special day!"
+  description: "The Pok\303\251mon congratulates you on your special day!"
   short_description: "Congratulates you on your special day."
   effect: EFFECT_DO_NOTHING
   split: STATUS
@@ -9964,7 +9964,6 @@ moves {
   id: MOVE_BABY_DOLL_EYES
   name: "Baby-Doll Eyes"
   short_name: "BabyDollEyes"
-  tutor: TUTOR_NICHE_STATUS
   description: "Before it can move, the foe\'s Attack stat is lowered by an adorable stare."
   short_description: "Lowers the foe\'s Attack before it can move."
   effect: EFFECT_ATTACK_DOWN
@@ -9975,6 +9974,7 @@ moves {
   priority: 1
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_NUZZLE
@@ -10035,7 +10035,6 @@ moves {
   id: MOVE_POWER_UP_PUNCH
   name: "Power-Up Punch"
   short_name: "PowerUpPunch"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The user strikes, strengthening its fists. This raises their Attack stat."
   short_description: "A hard punch that raises the user\'s Attack."
   effect: EFFECT_ATTACK_UP_HIT
@@ -10049,6 +10048,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_OBLIVION_WING
@@ -10321,7 +10321,6 @@ moves {
   id: MOVE_FLORAL_HEALING
   name: "Floral Healing"
   short_name: "FloralHeal"
-  tutor: TUTOR_GOOD_STATUS
   description: "Heals the target by up to half its max HP. It heals more in grassy terrain."
   short_description: "Restores an ally\'s HP. Heals more on grass."
   effect: EFFECT_HEAL_PULSE
@@ -10330,6 +10329,7 @@ moves {
   target: SELECTED
   pp: 10
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_HIGH_HORSEPOWER
@@ -10366,7 +10366,6 @@ moves {
   id: MOVE_SOLAR_BLADE
   name: "Solar Blade"
   short_name: "Solar Blade"
-  tutor: TUTOR_ATTACK
   description: "A 2-turn move that slices the foe. Weather-based. Keen Edge boost."
   short_description: "Charges first turn, then chops with a blade of light."
   effect: EFFECT_SOLARBEAM
@@ -10380,6 +10379,7 @@ moves {
   mirror_move_affected: true
   keen_edge: true
   weather: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_LEAFAGE
@@ -10400,9 +10400,8 @@ moves {
   id: MOVE_SPOTLIGHT
   name: "Spotlight"
   short_name: "Spotlight"
-  tutor: TUTOR_NICHE_STATUS
   description: "For 1 turn, a spot-light is shone on the foe so that only it is attacked."
-  short_description: "Makes the foe attack the spotlighted Pokémon."
+  short_description: "Makes the foe attack the spotlighted Pok\303\251mon."
   effect: EFFECT_FOLLOW_ME
   split: STATUS
   type: TYPE_NORMAL
@@ -10411,6 +10410,7 @@ moves {
   priority: 3
   magic_coat_affected: true
   metronome_banned: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_TOXIC_THREAD
@@ -10431,7 +10431,6 @@ moves {
   id: MOVE_LASER_FOCUS
   name: "Laser Focus"
   short_name: "Laser Focus"
-  tutor: TUTOR_NICHE_STATUS
   description: "The user focuses intensely, making sure its next move is a critical hit."
   short_description: "Guarantees the next move will be a critical hit."
   effect: EFFECT_LASER_FOCUS
@@ -10440,6 +10439,7 @@ moves {
   target: USER
   pp: 20
   snatch_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_GEAR_UP
@@ -10509,7 +10509,6 @@ moves {
   id: MOVE_PSYCHIC_TERRAIN
   name: "Psychic Terrain"
   short_name: "PsychcTrrain"
-  tutor: TUTOR_TERRAIN
   description: "For 8 turns, faster moves will fail and Psychic-type moves deal more damage."
   short_description: "The ground turns weird for 8 turns. Blocks priority."
   effect: EFFECT_PSYCHIC_TERRAIN
@@ -10517,6 +10516,7 @@ moves {
   type: TYPE_PSYCHIC
   target: ALL_BATTLERS
   pp: 10
+  tutor: TUTOR_TERRAIN
 }
 moves {
   id: MOVE_LUNGE
@@ -10610,9 +10610,9 @@ moves {
   power: 80
   pp: 10
   contact: true
+  ignores_ability: true
   mirror_move_affected: true
   horn: true
-  ignores_ability: true
 }
 moves {
   id: MOVE_PURIFY
@@ -10871,7 +10871,6 @@ moves {
   id: MOVE_LIQUIDATION
   name: "Liquidation"
   short_name: "Liquidation"
-  tutor: TUTOR_ATTACK
   description: "A full-force blast of water with a 20% chance to lower foe\'s Defense."
   short_description: "Slams the foe with water. Can lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -10884,6 +10883,7 @@ moves {
   effect_chance: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PRISMATIC_LASER
@@ -10957,7 +10957,6 @@ moves {
   id: MOVE_TEARFUL_LOOK
   name: "Tearful Look"
   short_name: "Tearful Look"
-  tutor: TUTOR_NICHE_STATUS
   description: "The foe\'s Special Attack is lowered by the user\'s teary eyes."
   short_description: "The user tears up, dropping Special Attack."
   effect: EFFECT_SPECIAL_ATTACK_DOWN
@@ -10968,6 +10967,7 @@ moves {
   priority: 1
   magic_coat_affected: true
   mirror_move_affected: true
+  tutor: TUTOR_NICHE_STATUS
 }
 moves {
   id: MOVE_ZING_ZAP
@@ -11092,6 +11092,7 @@ moves {
   priority: 2
   contact: true
   crit: ALWAYS
+  uses_animation: MOVE_ZING_ZAP
 }
 moves {
   id: MOVE_SPLISHY_SPLASH
@@ -11108,6 +11109,7 @@ moves {
   pp: 15
   effect_chance: 30
   mirror_move_affected: true
+  uses_animation: MOVE_SURF
 }
 moves {
   id: MOVE_FLOATY_FALL
@@ -11320,6 +11322,7 @@ moves {
   mega_launcher: true
   copycat_banned: true
   sleep_talk_banned: true
+  uses_animation: MOVE_HYPER_BEAM
 }
 moves {
   id: MOVE_SNIPE_SHOT
@@ -11437,8 +11440,8 @@ moves {
   id: MOVE_TEATIME
   name: "Teatime"
   short_name: "Teatime"
-  description: "All Pokémon in the battle have teatime, and eat their held Berry."
-  short_description: "All Pokémon have teatime and eat their Berries."
+  description: "All Pok\303\251mon in the battle have teatime, and eat their held Berry."
+  short_description: "All Pok\303\251mon have teatime and eat their Berries."
   effect: EFFECT_PLACEHOLDER
   split: STATUS
   type: TYPE_NORMAL
@@ -11507,6 +11510,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  uses_animation: MOVE_TRICK_ROOM
 }
 moves {
   id: MOVE_CLANGOROUS_SOUL
@@ -11527,7 +11531,6 @@ moves {
   id: MOVE_BODY_PRESS
   name: "Body Press"
   short_name: "Body Press"
-  tutor: TUTOR_ATTACK
   description: "A body slam attack which inflicts more damage the higher the user\'s Defense."
   short_description: "Does more damage the higher the user\'s Def."
   effect: EFFECT_BODY_PRESS
@@ -11539,6 +11542,7 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DECORATE
@@ -11555,6 +11559,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   metronome_banned: true
+  uses_animation: MOVE_FLOWER_SHIELD
 }
 moves {
   id: MOVE_DRUM_BEATING
@@ -11589,6 +11594,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_IRON_FANGS
 }
 moves {
   id: MOVE_PYRO_BALL
@@ -11625,6 +11631,7 @@ moves {
   double_damage_vs_mega: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_SACRED_SWORD
 }
 moves {
   id: MOVE_BEHEMOTH_BASH
@@ -11642,6 +11649,7 @@ moves {
   contact: true
   double_damage_vs_mega: true
   mirror_move_affected: true
+  uses_animation: MOVE_SUNSTEEL_STRIKE
 }
 moves {
   id: MOVE_AURA_WHEEL
@@ -11665,7 +11673,6 @@ moves {
   id: MOVE_BREAKING_SWIPE
   name: "Breaking Swipe"
   short_name: "BreakngSwipe"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The user swings at both foes with its tail, lowering the foes\' Attack stat."
   short_description: "Swings its tail to attack. Lowers the Atk of those hit."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -11679,6 +11686,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_BRANCH_POKE
@@ -11785,7 +11793,6 @@ moves {
   id: MOVE_LIFE_DEW
   name: "Life Dew"
   short_name: "Life Dew"
-  tutor: TUTOR_GOOD_STATUS
   description: "The user restores the HP of itself and its allies with mysterious water."
   short_description: "Scatters water to restore the HP of itself and allies."
   effect: EFFECT_JUNGLE_HEALING
@@ -11794,6 +11801,7 @@ moves {
   target: USER
   pp: 10
   snatch_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_OBSTRUCT
@@ -11855,6 +11863,7 @@ moves {
   every_other_turn: true
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_HYPER_BEAM
 }
 moves {
   id: MOVE_STEEL_BEAM
@@ -12018,7 +12027,6 @@ moves {
   id: MOVE_TERRAIN_PULSE
   name: "Terrain Pulse"
   short_name: "TerrainPulse"
-  tutor: TUTOR_ATTACK
   description: "This move\'s type and power changes depending on the terrain when used."
   short_description: "Type and power changes depending on the terrain."
   effect: EFFECT_TERRAIN_PULSE
@@ -12030,6 +12038,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SKITTER_SMACK
@@ -12103,9 +12112,8 @@ moves {
   id: MOVE_CORROSIVE_GAS
   name: "Corrosive Gas"
   short_name: "CorrosiveGas"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "Highly acidic gas that melts items held by every surrounding Pokémon."
-  short_description: "Highly acidic gas melts items held by surrounding Pokémon."
+  description: "Highly acidic gas that melts items held by every surrounding Pok\303\251mon."
+  short_description: "Highly acidic gas melts items held by surrounding Pok\303\251mon."
   effect: EFFECT_CORROSIVE_GAS
   split: SPECIAL
   type: TYPE_POISON
@@ -12115,12 +12123,13 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_COACHING
   name: "Coaching"
   short_name: "Coaching"
-  description: "The user properly coaches its ally Pokémon, upping their Attack and Defense."
+  description: "The user properly coaches its ally Pok\303\251mon, upping their Attack and Defense."
   short_description: "Properly coaches allies to up their Attack and Defense."
   effect: EFFECT_COACHING
   split: STATUS
@@ -12133,9 +12142,8 @@ moves {
   id: MOVE_FLIP_TURN
   name: "Flip Turn"
   short_name: "Flip Turn"
-  tutor: TUTOR_UTILITY_ATTACK
-  description: "The user strikes, and then switches with a waiting party Pokémon."
-  short_description: "Attacks and rushes back to switch with a party Pokémon."
+  description: "The user strikes, and then switches with a waiting party Pok\303\251mon."
+  short_description: "Attacks and rushes back to switch with a party Pok\303\251mon."
   effect: EFFECT_HIT_ESCAPE
   split: PHYSICAL
   type: TYPE_WATER
@@ -12145,6 +12153,7 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_TRIPLE_AXEL
@@ -12333,7 +12342,7 @@ moves {
   id: MOVE_GLACIAL_LANCE
   name: "Glacial Lance"
   short_name: "GlacialLance"
-  description: "Strikes by hurling a blizzard-cloaked icicle lance at opposing Pokémon."
+  description: "Strikes by hurling a blizzard-cloaked icicle lance at opposing Pok\303\251mon."
   short_description: "Strikes by hurling a blizzard-cloaked icicle lance at a foe."
   split: PHYSICAL
   type: TYPE_ICE
@@ -12357,12 +12366,12 @@ moves {
   pp: 5
   mirror_move_affected: true
   throwing: true
+  uses_animation: MOVE_SHADOW_BALL
 }
 moves {
   id: MOVE_EERIE_SPELL
   name: "Eerie Spell"
   short_name: "Eerie Spell"
-  tutor: TUTOR_ATTACK
   description: "Foe\'s last move has 6 PP cut. Never misses in fog."
   short_description: "Attacks with psychic power. Foe\'s last move has 3 PP cut."
   effect: EFFECT_EERIE_SPELL
@@ -12378,6 +12387,7 @@ moves {
   mirror_move_affected: true
   sound: true
   weather: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_DEATHROLL
@@ -12397,6 +12407,7 @@ moves {
   ignores_stat_stages: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_CRUNCH
 }
 moves {
   id: MOVE_EXCALIBUR
@@ -12487,6 +12498,7 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
+  uses_animation: MOVE_EXPLOSION
 }
 moves {
   id: MOVE_SEISMIC_FIST
@@ -12510,7 +12522,6 @@ moves {
   id: MOVE_IRON_FANGS
   name: "Iron Fangs"
   short_name: "Iron Fangs"
-  tutor: TUTOR_ATTACK
   description: "Breaks any barrier like Light Screen and Reflect. Strong Jaw boost."
   short_description: "Chomps with hard fangs. Destroys any barriers."
   effect: EFFECT_BRICK_BREAK
@@ -12523,6 +12534,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SHADOW_FANGS
@@ -12668,12 +12680,12 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_BITE
 }
 moves {
   id: MOVE_PIXIE_BEAM
   name: "Pixie Beam"
   short_name: "Pixie Beam"
-  tutor: TUTOR_ATTACK
   description: "A powerful magic beam. 20% chance to lower SpAtk. Mega launcher."
   short_description: "A powerfull magic beam 30% chance to drop user SpAtk."
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -12686,6 +12698,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_PIXIE_SLASH
@@ -12802,12 +12815,12 @@ moves {
   pp: 20
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_ICICLE_CRASH
 }
 moves {
   id: MOVE_SUPERSONIC_SHOT
   name: "Supersonic Shot"
   short_name: "S.SonicShot"
-  tutor: TUTOR_ATTACK
   description: "Fires a high-speed arrow. Always crits. Archer boost."
   short_description: "Not done yet."
   split: PHYSICAL
@@ -12819,6 +12832,8 @@ moves {
   crit: ALWAYS
   mirror_move_affected: true
   arrow: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_SUPERSONIC
 }
 moves {
   id: MOVE_ZEPHYR_RUSH
@@ -12838,12 +12853,12 @@ moves {
   reckless: true
   mega_launcher: true
   air: true
+  uses_animation: MOVE_JUMP_KICK
 }
 moves {
   id: MOVE_SHOCKING_JAB
   name: "Shocking Jab"
   short_name: "Shocking Jab"
-  tutor: TUTOR_ATTACK
   description: "An electric jab strikes the foe. 20% paralysis chance. Mighty Horn boost."
   short_description: "Not done yet."
   effect: EFFECT_PARALYZE_HIT
@@ -12856,6 +12871,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_SHOCKING_EDGE
@@ -12908,6 +12924,7 @@ moves {
   pp: 20
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_VOLT_TACKLE
 }
 moves {
   id: MOVE_KINETIC_BARRAGE
@@ -12925,6 +12942,7 @@ moves {
   effect_chance: 30
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_STRENGTH
 }
 moves {
   id: MOVE_FERTILE_FANGS
@@ -12943,6 +12961,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_LEECH_LIFE
 }
 moves {
   id: MOVE_SCATTER_BLAST
@@ -12978,6 +12997,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  uses_animation: MOVE_MACH_PUNCH
 }
 moves {
   id: MOVE_CUTSIE_SLAP
@@ -13014,6 +13034,7 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_DOUBLE_SLAP
 }
 moves {
   id: MOVE_BRAMBLE_BLAST
@@ -13032,6 +13053,7 @@ moves {
   contact: true
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_POISON_STING
 }
 moves {
   id: MOVE_ASTEROID_DOWNFALL
@@ -13046,12 +13068,12 @@ moves {
   pp: 20
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_SMACK_DOWN
 }
 moves {
   id: MOVE_AQUA_BASH
   name: "Aqua Bash"
   short_name: "Aqua Bash"
-  tutor: TUTOR_ATTACK
   description: "A mystical jab strikes the foe. 20% flinch chance. Mighty Horn boost."
   short_description: "A mystical jab strikes the foe. 20% flinch chance."
   effect: EFFECT_FLINCH_HIT
@@ -13065,12 +13087,13 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_AQUA_TAIL
 }
 moves {
   id: MOVE_TECTONIC_FANGS
   name: "Tectonic Fangs"
   short_name: "Tect.Fangs"
-  tutor: TUTOR_ATTACK
   description: "User inserts its ground shaking fangs, 10% chance to flinch. Strong Jaw boost."
   short_description: "User inserts its ground shaking fangs. 10% chance to flinch."
   effect: EFFECT_FLINCH_HIT
@@ -13084,6 +13107,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_CUPID_SHOT
@@ -13120,6 +13144,7 @@ moves {
   }
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_THOUSAND_ARROWS
 }
 moves {
   id: MOVE_DIAMOND_ARROW
@@ -13136,6 +13161,7 @@ moves {
   ignores_stat_stages: true
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_THOUSAND_ARROWS
 }
 moves {
   id: MOVE_DIAMOND_BLADE
@@ -13154,6 +13180,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_CUT
 }
 moves {
   id: MOVE_VENOM_BOLT
@@ -13172,6 +13199,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_POISON_STING
 }
 moves {
   id: MOVE_FUMIGATION_BOMB
@@ -13196,7 +13224,6 @@ moves {
   id: MOVE_BLACK_MAGIC
   name: "Black Magic"
   short_name: "Black Magic"
-  tutor: TUTOR_ATTACK
   description: "Calls on dark power to attack. 20% chance to inflict bleed."
   short_description: "Not done yet."
   effect: EFFECT_BLEED_HIT
@@ -13210,6 +13237,8 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_DARK_PULSE
 }
 moves {
   id: MOVE_FLAME_TONGUE
@@ -13246,6 +13275,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_FIRE_LASH
 }
 moves {
   id: MOVE_ROCKET_PUNCH
@@ -13262,6 +13292,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_COMET_PUNCH
 }
 moves {
   id: MOVE_WEB_SHOT
@@ -13280,6 +13311,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_STICKY_WEB
 }
 moves {
   id: MOVE_AURA_FORCE
@@ -13300,6 +13332,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_AURA_SPHERE
 }
 moves {
   id: MOVE_DRAKE_MISSILE
@@ -13315,6 +13348,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_AURA_SPHERE
 }
 moves {
   id: MOVE_LOTUS_SHOWER
@@ -13337,7 +13371,6 @@ moves {
   id: MOVE_JAGGED_HORNS
   name: "Jagged Horns"
   short_name: "Jagged Horns"
-  tutor: TUTOR_ATTACK
   description: "A rocky jab strikes the foe. 10% flinch chance. 10% bleed chance. Mighty Horn boost."
   short_description: "Not done yet."
   effect: EFFECT_FLINCH_STATUS
@@ -13356,12 +13389,13 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_HORN_ATTACK
 }
 moves {
   id: MOVE_BLOOD_SHOT
   name: "Blood Shot"
   short_name: "Blood Shot"
-  tutor: TUTOR_GOOD_STATUS
   description: "Hurls a sphere of cursed blood magic. Causes the foe to bleed profusely."
   short_description: "Not done yet."
   effect: EFFECT_BLEED
@@ -13372,12 +13406,12 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_FLASH_FREEZE
   name: "Flash Freeze"
   short_name: "Flash Freeze"
-  tutor: TUTOR_GOOD_STATUS
   description: "Multiple ice cubes are shot at the foe. 100% chance to cause frostbite."
   short_description: "Not done yet."
   effect: EFFECT_FROSTBITE
@@ -13388,6 +13422,8 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_GOOD_STATUS
+  uses_animation: MOVE_FREEZE_DRY
 }
 moves {
   id: MOVE_PHANTOM_GLOVES
@@ -13406,6 +13442,7 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_SHADOW_CLAW
 }
 moves {
   id: MOVE_HOMING_FLETCH
@@ -13421,6 +13458,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_THOUSAND_ARROWS
 }
 moves {
   id: MOVE_BITTER_MALICE
@@ -13441,6 +13479,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_DARK_PULSE
 }
 moves {
   id: MOVE_INFERNAL_PARADE
@@ -13461,6 +13500,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_WILL_O_WISP
 }
 moves {
   id: MOVE_DEVIOUS_SHOT
@@ -13478,6 +13518,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_THOUSAND_ARROWS
 }
 moves {
   id: MOVE_STARBURST
@@ -13511,6 +13552,7 @@ moves {
   pp: 20
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_SHADOW_FORCE
 }
 moves {
   id: MOVE_TORRENT_FIST
@@ -13528,6 +13570,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   iron_fist: true
+  uses_animation: MOVE_SURGING_STRIKES
 }
 moves {
   id: MOVE_STAR_CRASH
@@ -13545,6 +13588,7 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  uses_animation: MOVE_METEOR_MASH
 }
 moves {
   id: MOVE_STONE_AXE
@@ -13568,7 +13612,6 @@ moves {
   id: MOVE_ENERGY_WAVE
   name: "Energy Wave"
   short_name: "Energy Wave"
-  tutor: TUTOR_ATTACK
   description: "The user unleashes a deadly wave of energy to strike the enemy."
   short_description: "Deals damage."
   split: SPECIAL
@@ -13578,12 +13621,13 @@ moves {
   accuracy: 90
   pp: 5
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_SONIC_BOOM
 }
 moves {
   id: MOVE_FLUTTERING_LEAF
   name: "Fluttering Leaf"
   short_name: "FlutteringLf"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "The user moves like a fluttering leaf and strikes. User switches afterwards."
   short_description: "Deals damage and switches."
   effect: EFFECT_HIT_ESCAPE
@@ -13595,6 +13639,8 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_UTILITY_ATTACK
+  uses_animation: MOVE_U_TURN
 }
 moves {
   id: MOVE_HEADLONG_RUSH
@@ -13625,6 +13671,7 @@ moves {
   target: USER
   pp: 1
   weather: true
+  uses_animation: MOVE_WISH
 }
 moves {
   id: MOVE_WHIRLING_STRIKES
@@ -13642,12 +13689,12 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
+  uses_animation: MOVE_TRIPLE_AXEL
 }
 moves {
   id: MOVE_MIND_BREAK
   name: "Mind Break"
   short_name: "Mind Break"
-  tutor: TUTOR_ATTACK
   description: "Uses psychic power to shatter foes\' psyche. 20% chance to confuse."
   short_description: "20% confuse chance."
   effect: EFFECT_CONFUSE_HIT
@@ -13659,6 +13706,8 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_PSYSHOCK
 }
 moves {
   id: MOVE_WYRM_WIND
@@ -13682,18 +13731,20 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  uses_animation: MOVE_SCALE_SHOT
 }
 moves {
   id: MOVE_SHED_TAIL
   name: "Shed Tail"
   short_name: "Shed Tail"
-  description: "The user creates a substitute using its own HP and switches with a party Pokémon."
+  description: "The user creates a substitute using its own HP and switches with a party Pok\303\251mon."
   short_description: "Uses 50% HP to create substitute and switch out."
   effect: EFFECT_SHED_TAIL
   split: STATUS
   type: TYPE_NORMAL
   target: USER
   pp: 10
+  uses_animation: MOVE_SUBSTITUTE
 }
 moves {
   id: MOVE_BERRY_SMASH
@@ -13711,6 +13762,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_WOOD_HAMMER
 }
 moves {
   id: MOVE_HYDRO_STEAM
@@ -13741,6 +13793,7 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
+  uses_animation: MOVE_HYDRO_STEAM
 }
 moves {
   id: MOVE_TRIPLE_ARROWS
@@ -13759,14 +13812,13 @@ moves {
   contact: true
   crit: HIGH
   mirror_move_affected: true
-  arrow: true
   striker: true
+  arrow: true
 }
 moves {
   id: MOVE_DOUBLE_LARIAT
   name: "Double Lariat"
   short_name: "DoubleLariat"
-  tutor: TUTOR_ATTACK
   description: "User hits both foes with whirling arms. Foes cannot use any sound moves after."
   short_description: "Hits both targets. Silences hit targets."
   effect: EFFECT_THROAT_CHOP
@@ -13778,6 +13830,8 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_DARKEST_LARIAT
 }
 moves {
   id: MOVE_LEECH_BLADE
@@ -13795,6 +13849,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_LEAF_BLADE
 }
 moves {
   id: MOVE_YGGDRASIL_FORCE
@@ -13811,6 +13866,7 @@ moves {
   pp: 5
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_SUPERPOWER
 }
 moves {
   id: MOVE_DRAIN_BRAIN
@@ -13826,6 +13882,7 @@ moves {
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
+  uses_animation: MOVE_STRENGTH_SAP
 }
 moves {
   id: MOVE_PSYCHOKINETIC_SLAM
@@ -13843,6 +13900,7 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  uses_animation: MOVE_DOUBLE_EDGE
 }
 moves {
   id: MOVE_ESPER_WING
@@ -13883,6 +13941,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_GEM_MISSILE
@@ -13898,6 +13957,7 @@ moves {
   pp: 15
   priority: 1
   mirror_move_affected: true
+  uses_animation: MOVE_POWER_GEM
 }
 moves {
   id: MOVE_RIDER_KICK
@@ -13914,6 +13974,7 @@ moves {
   ignores_ability: true
   mirror_move_affected: true
   striker: true
+  uses_animation: MOVE_JUMP_KICK
 }
 moves {
   id: MOVE_AQUA_CUTTER
@@ -13945,6 +14006,7 @@ moves {
   target: ALL_BATTLERS
   pp: 5
   mirror_move_affected: true
+  uses_animation: MOVE_TRICK_ROOM
 }
 moves {
   id: MOVE_BLAZING_BONE
@@ -13962,6 +14024,7 @@ moves {
   priority: 1
   mirror_move_affected: true
   bone: true
+  uses_animation: MOVE_SHADOW_BONE
 }
 moves {
   id: MOVE_KARMA
@@ -13976,6 +14039,7 @@ moves {
   pp: 20
   snatch_affected: true
   mirror_move_affected: true
+  uses_animation: MOVE_CURSE
 }
 moves {
   id: MOVE_CHILLING_WATER
@@ -14008,6 +14072,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   sound: true
+  uses_animation: MOVE_PURSUIT
 }
 moves {
   id: MOVE_CHILLY_RECEPTION
@@ -14066,6 +14131,7 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_SLASH
 }
 moves {
   id: MOVE_RAGING_SOULS
@@ -14082,6 +14148,7 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
+  uses_animation: MOVE_WILL_O_WISP
 }
 moves {
   id: MOVE_TWIN_BEAM
@@ -14098,6 +14165,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_FREEZING_GLARE
 }
 moves {
   id: MOVE_REQUIEM
@@ -14115,6 +14183,7 @@ moves {
   effect_chance: 10
   mirror_move_affected: true
   sound: true
+  uses_animation: MOVE_SING
 }
 moves {
   id: MOVE_ARMOR_CANNON
@@ -14132,6 +14201,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_OVERHEAT
 }
 moves {
   id: MOVE_BITTER_BLADE
@@ -14164,6 +14234,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  uses_animation: MOVE_GIGA_DRAIN
 }
 moves {
   id: MOVE_GIGATON_HAMMER
@@ -14203,6 +14274,7 @@ moves {
   }
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_FLIP_TURN
 }
 moves {
   id: MOVE_JET_PUNCH
@@ -14257,6 +14329,7 @@ moves {
   effect_chance: 10
   contact: true
   copycat_banned: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_BLAZING_TORQUE
@@ -14274,6 +14347,7 @@ moves {
   effect_chance: 30
   contact: true
   copycat_banned: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_NOXIOUS_TORQUE
@@ -14291,6 +14365,7 @@ moves {
   effect_chance: 30
   contact: true
   copycat_banned: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_MAGICAL_TORQUE
@@ -14308,6 +14383,7 @@ moves {
   effect_chance: 30
   contact: true
   copycat_banned: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_COMBAT_TORQUE
@@ -14325,6 +14401,7 @@ moves {
   effect_chance: 30
   contact: true
   copycat_banned: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_KOWTOW_CLEAVE
@@ -14357,6 +14434,7 @@ moves {
   crit: ALWAYS
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_POLLEN_PUFF
 }
 moves {
   id: MOVE_AQUA_STEP
@@ -14416,6 +14494,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_EXCALIBUR
 }
 moves {
   id: MOVE_SILK_TRAP
@@ -14487,6 +14566,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_DRAGON_TAIL
 }
 moves {
   id: MOVE_SPICY_EXTRACT
@@ -14506,6 +14586,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_SWAGGER
 }
 moves {
   id: MOVE_SPIN_OUT
@@ -14531,6 +14612,7 @@ moves {
   contact: true
   mirror_move_affected: true
   no_sheer_force: true
+  uses_animation: MOVE_RAPID_SPIN
 }
 moves {
   id: MOVE_SALT_CURE
@@ -14553,13 +14635,14 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_TAR_SHOT
 }
 moves {
   id: MOVE_DOODLE
   name: "Doodle"
   short_name: "Doodle"
   description: "The user sketches the foe and changes its and its allies ability to match it."
-  short_description: "Copies the foe's ability to the user and its ally."
+  short_description: "Copies the foe\'s ability to the user and its ally."
   effect: EFFECT_DOODLE
   split: STATUS
   type: TYPE_NORMAL
@@ -14567,6 +14650,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  uses_animation: MOVE_SKETCH
 }
 moves {
   id: MOVE_FILLET_AWAY
@@ -14580,6 +14664,7 @@ moves {
   target: USER
   pp: 10
   snatch_affected: true
+  uses_animation: MOVE_DRAGON_DANCE
 }
 moves {
   id: MOVE_RAGING_BULL
@@ -14620,6 +14705,7 @@ moves {
   }
   mirror_move_affected: true
   no_sheer_force: true
+  uses_animation: MOVE_PAY_DAY
 }
 moves {
   id: MOVE_PSYBLADE
@@ -14642,6 +14728,7 @@ moves {
   mirror_move_affected: true
   keen_edge: true
   horn: true
+  uses_animation: MOVE_PSYCHO_CUT
 }
 moves {
   id: MOVE_RUINATION
@@ -14657,6 +14744,7 @@ moves {
   accuracy: 90
   pp: 5
   mirror_move_affected: true
+  uses_animation: MOVE_FIERY_WRATH
 }
 moves {
   id: MOVE_COLLISION_COURSE
@@ -14676,6 +14764,7 @@ moves {
   }
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_GIGA_IMPACT
 }
 moves {
   id: MOVE_ELECTRO_DRIFT
@@ -14694,6 +14783,7 @@ moves {
     misc: MISC_EFFECT_SUPEREFFECTIVE_BOOST
   }
   mirror_move_affected: true
+  uses_animation: MOVE_AURA_WHEEL
 }
 moves {
   id: MOVE_POUNCE
@@ -14745,6 +14835,7 @@ moves {
   ignores_protect: true
   mirror_move_affected: true
   horn: true
+  uses_animation: MOVE_DRILL_RUN
 }
 moves {
   id: MOVE_DOUBLE_SHOCK
@@ -14777,12 +14868,13 @@ moves {
   pp: 10
   priority: -5
   mirror_move_affected: true
+  uses_animation: MOVE_COUNTER
 }
 moves {
   id: MOVE_BLOOD_MOON
   name: "Blood Moon"
   short_name: "Blood Moon"
-  description: "The user\'s spirit surges from a crimson full moon. Can't be used twice in a row."
+  description: "The user\'s spirit surges from a crimson full moon. Can\'t be used twice in a row."
   short_description: "The user unleashes the spirit from a full red moon."
   split: SPECIAL
   type: TYPE_NORMAL
@@ -14793,6 +14885,7 @@ moves {
   every_other_turn: true
   mirror_move_affected: true
   lunar: true
+  uses_animation: MOVE_HYPER_BEAM
 }
 moves {
   id: MOVE_AXE_KICK
@@ -14817,6 +14910,7 @@ moves {
   mirror_move_affected: true
   reckless: true
   striker: true
+  uses_animation: MOVE_HIGH_JUMP_KICK
 }
 moves {
   id: MOVE_BARB_BARRAGE
@@ -14857,12 +14951,12 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_HAMMER_ARM
 }
 moves {
   id: MOVE_CREEPING_THORNS
   name: "Creeping Thorns"
   short_name: "CreepngThrns"
-  tutor: TUTOR_GOOD_STATUS
   description: "Thorn-covered vines surround the foe. This hurts foes on switch in."
   short_description: "Thorns surround the foe. Hurts foes on switch in."
   effect: EFFECT_STEALTH_ROCK
@@ -14871,6 +14965,7 @@ moves {
   target: OPPONENTS_FIELD
   pp: 20
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_MATCHA_GOTCHA
@@ -14887,6 +14982,7 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
+  uses_animation: MOVE_SCALD
 }
 moves {
   id: MOVE_SYRUP_BOMB
@@ -14930,6 +15026,7 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_WOOD_HAMMER
 }
 moves {
   id: MOVE_ELECTRO_SHOT
@@ -14968,6 +15065,7 @@ moves {
   }
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_DRAGON_PULSE
 }
 moves {
   id: MOVE_BURNING_BULWARK
@@ -14982,13 +15080,14 @@ moves {
   pp: 10
   priority: 4
   is_protection: true
+  uses_animation: MOVE_PROTECT
 }
 moves {
   id: MOVE_THUNDERCLAP
   name: "Thunderclap"
   short_name: "Thunderclap"
   description: "User strikes first with +1 priority. Fails if target\'s not readying an attack."
-  short_description: "Preempts the foe's attack with a flash of lightning."
+  short_description: "Preempts the foe\'s attack with a flash of lightning."
   effect: EFFECT_SUCKER_PUNCH
   split: SPECIAL
   type: TYPE_ELECTRIC
@@ -14998,6 +15097,7 @@ moves {
   pp: 5
   priority: 1
   mirror_move_affected: true
+  uses_animation: MOVE_SMITE
 }
 moves {
   id: MOVE_TACHYON_CUTTER
@@ -15014,12 +15114,12 @@ moves {
   pp: 10
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_SMART_STRIKE
 }
 moves {
   id: MOVE_HARD_PRESS
   name: "Hard Press"
   short_name: "Hard Press"
-  tutor: TUTOR_ATTACK
   description: "This attack will also negate the foe\'s Ability if it has moved already."
   short_description: "Crushes quicker foes, nullifying their ability."
   effect: EFFECT_CORE_ENFORCER
@@ -15031,12 +15131,13 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_BODY_PRESS
 }
 moves {
   id: MOVE_DRAGON_CHEER
   name: "Dragon Cheer"
   short_name: "Dragon Cheer"
-  tutor: TUTOR_NICHE_STATUS
   description: "Raises crit by +1 for all allies. +2 crit for Dragons."
   short_description: "Raises crit by one stage for all allies. +2 if DRAGON"
   effect: EFFECT_DRAGON_CHEER
@@ -15045,6 +15146,8 @@ moves {
   target: USER
   pp: 15
   effect_chance: 100
+  tutor: TUTOR_NICHE_STATUS
+  uses_animation: MOVE_HELPING_HAND
 }
 moves {
   id: MOVE_ALLURING_VOICE
@@ -15084,6 +15187,7 @@ moves {
   ignores_protect: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_STONE_AXE
 }
 moves {
   id: MOVE_TEMPER_FLARE
@@ -15117,11 +15221,11 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  uses_animation: MOVE_SMITE
 }
 moves {
   id: MOVE_PSYCHIC_NOISE
   name: "Psychic Noise"
-  tutor: TUTOR_UTILITY_ATTACK
   short_name: "PsychicNoise"
   description: "The user attacks with unpleasant sound waves. Blocks healing for 2 turns."
   short_description: "Attacks with sound waves. Target can\'t heal."
@@ -15140,6 +15244,7 @@ moves {
   }
   mirror_move_affected: true
   sound: true
+  tutor: TUTOR_UTILITY_ATTACK
 }
 moves {
   id: MOVE_UPPER_HAND
@@ -15178,6 +15283,7 @@ moves {
       effect: MOVE_EFFECT_TOXIC
     }
   }
+  uses_animation: MOVE_ANCHOR_SHOT
 }
 moves {
   id: MOVE_LUNAR_BLESSING
@@ -15386,6 +15492,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_FEMUR_BREAKER
@@ -15404,6 +15511,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_SMITE
 }
 moves {
   id: MOVE_SQUEAKY_HAMMER
@@ -15422,6 +15530,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_PRIMITIVE_STRIKE
@@ -15439,6 +15548,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_SMASHING_PUMPKINS
@@ -15456,6 +15566,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_AIRBORNE_SLAM
@@ -15469,6 +15580,7 @@ moves {
   target: SELECTED
   ignores_protect: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_SPINE_BREAKER
@@ -15487,6 +15599,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_CRACKLE_SLAM
@@ -15507,6 +15620,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_SQUALL_HAMMER
@@ -15527,6 +15641,7 @@ moves {
   mirror_move_affected: true
   no_sheer_force: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_MEGATON_HAMMER
@@ -15544,6 +15659,7 @@ moves {
   ignores_protect: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_BATTERING_RAM
@@ -15561,6 +15677,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_PITFALL
@@ -15584,13 +15701,14 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_VIRAL_STRIKE
   name: "Viral Strike"
   short_name: "Viral Strike"
   description: "Transfers the user\'s status to the target, curing the user. Hammer-based."
-  short_description: "Slams the foe and transfers the user's status."
+  short_description: "Slams the foe and transfers the user\'s status."
   split: PHYSICAL
   type: TYPE_POISON
   target: SELECTED
@@ -15600,6 +15718,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_SHADOW_HAMMER
@@ -15617,6 +15736,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_BONK
@@ -15640,6 +15760,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_MOLTEN_STRIKE
@@ -15658,6 +15779,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_MIRAGE_SLAM
@@ -15674,6 +15796,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_EARTHSPLITTER
@@ -15692,6 +15815,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_BEETLE_BASH
@@ -15710,12 +15834,12 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_GIGATON_HAMMER
 }
 moves {
   id: MOVE_PEBBLE_SHOWER
   name: "Pebble Shower"
   short_name: "PebbleShower"
-  tutor: TUTOR_ATTACK
   description: "A rain of pebbles hits both targets. 20% flinch chance."
   short_description: "20% chance to flinch. Hits both targets."
   effect: EFFECT_FLINCH_HIT
@@ -15727,6 +15851,8 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_ROCK_SLIDE
 }
 moves {
   id: MOVE_RAPID_RIVER
@@ -15744,6 +15870,7 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_WATERFALL
 }
 moves {
   id: MOVE_TOXIC_NEEDLES
@@ -15766,12 +15893,12 @@ moves {
   }
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_BARB_BARRAGE
 }
 moves {
   id: MOVE_SMOLDER_BASH
   name: "Smolder Bash"
   short_name: "Smolder Bash"
-  tutor: TUTOR_ATTACK
   description: "Bashes the foe with a fiery horn. 10% chance to burn. Horn-based."
   short_description: "A scorching jab that has a 10% chance to burn."
   effect: EFFECT_BURN_HIT
@@ -15785,6 +15912,8 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_FLARE_BLITZ
 }
 moves {
   id: MOVE_BEATDOWN
@@ -15801,12 +15930,12 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_BEAT_UP
 }
 moves {
   id: MOVE_EERIE_FOG
   name: "Eerie Fog"
   short_name: "Eerie Fog"
-  tutor: TUTOR_WEATHER
   description: "An eerie fog lasting eight turns drains boosts from non-Ghost and Psychic mons."
   short_description: "An unnatural fog descends, draining stat boosts."
   effect: EFFECT_EERIE_FOG
@@ -15815,6 +15944,8 @@ moves {
   target: SELECTED
   pp: 10
   ignores_protect: true
+  tutor: TUTOR_WEATHER
+  uses_animation: MOVE_HAZE
 }
 moves {
   id: MOVE_MYSTIC_DANCE
@@ -15829,6 +15960,7 @@ moves {
   pp: 20
   snatch_affected: true
   dance: true
+  uses_animation: MOVE_DRAGON_DANCE
 }
 moves {
   id: MOVE_RELENTLESS_CLOBBER
@@ -15846,6 +15978,7 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_BEAT_UP
 }
 moves {
   id: MOVE_POP_MAYHEM
@@ -15868,6 +16001,7 @@ moves {
   }
   mirror_move_affected: true
   ballistic: true
+  uses_animation: MOVE_BULLET_SEED
 }
 moves {
   id: MOVE_KILOBITE
@@ -15885,6 +16019,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_IRON_FANGS
 }
 moves {
   id: MOVE_TANGLING_HUSK
@@ -15899,6 +16034,7 @@ moves {
   pp: 10
   priority: 4
   is_protection: true
+  uses_animation: MOVE_SILK_TRAP
 }
 moves {
   id: MOVE_RIP_AND_TEAR
@@ -15918,12 +16054,12 @@ moves {
   every_other_turn: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_CRUNCH
 }
 moves {
   id: MOVE_BRAVADO
   name: "Bravado"
   short_name: "Bravado"
-  tutor: TUTOR_ATTACK
   description: "An attack that is boosted if user is burned, poisoned, or paralyzed."
   short_description: "Doubles damage if burned, paralyzed, or poisoned."
   effect: EFFECT_FACADE
@@ -15934,6 +16070,8 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_FACADE
 }
 moves {
   id: MOVE_TERROR_CHARGE
@@ -15952,6 +16090,7 @@ moves {
   contact: true
   mirror_move_affected: true
   strong_jaw: true
+  uses_animation: MOVE_DOUBLE_EDGE
 }
 moves {
   id: MOVE_TERROR_LOCKS
@@ -15973,6 +16112,7 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
+  uses_animation: MOVE_NIGHT_SLASH
 }
 moves {
   id: MOVE_DREAM_INVERSION
@@ -15994,6 +16134,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_DREAM_EATER
 }
 moves {
   id: MOVE_TERA_STARSTORM
@@ -16009,6 +16150,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  uses_animation: MOVE_COSMIC_POWER
 }
 moves {
   id: MOVE_SPARKLING_BARRAGE
@@ -16028,6 +16170,7 @@ moves {
   }
   mirror_move_affected: true
   arrow: true
+  uses_animation: MOVE_SPIRIT_SHACKLE
 }
 moves {
   id: MOVE_SPECTRAL_SERENADE
@@ -16044,6 +16187,7 @@ moves {
   pp: 5
   every_other_turn: true
   mirror_move_affected: true
+  uses_animation: MOVE_WILL_O_WISP
 }
 moves {
   id: MOVE_MERCULIGHT
@@ -16058,6 +16202,7 @@ moves {
   pp: 10
   priority: 4
   is_protection: true
+  uses_animation: MOVE_PROTECT
 }
 moves {
   id: MOVE_BIG_BLAST
@@ -16075,6 +16220,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_HYPER_BEAM
 }
 moves {
   id: MOVE_SPECTRAL_FLAME
@@ -16089,6 +16235,7 @@ moves {
   accuracy: 85
   pp: 10
   effect_chance: 100
+  uses_animation: MOVE_WILL_O_WISP
 }
 moves {
   id: MOVE_TREPIDATION
@@ -16105,6 +16252,7 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
+  uses_animation: MOVE_MEAN_LOOK
 }
 moves {
   id: MOVE_ASTRAL_HAND
@@ -16122,6 +16270,7 @@ moves {
   ignores_stat_stages: true
   mirror_move_affected: true
   iron_fist: true
+  uses_animation: MOVE_MEGA_PUNCH
 }
 moves {
   id: MOVE_FETCH
@@ -16134,6 +16283,7 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   ignores_protect: true
+  uses_animation: MOVE_BATON_PASS
 }
 moves {
   id: MOVE_TRANSMUTE
@@ -16152,6 +16302,7 @@ moves {
     misc: MISC_EFFECT_TRANSMUTE
   }
   mirror_move_affected: true
+  uses_animation: MOVE_PSYCHIC
 }
 moves {
   id: MOVE_CLEAR_SKIES
@@ -16164,6 +16315,7 @@ moves {
   type: TYPE_NORMAL
   target: ALL_BATTLERS
   pp: 15
+  uses_animation: MOVE_DEFOG
 }
 moves {
   id: MOVE_READY_OR_NOT
@@ -16185,6 +16337,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_ASTONISH
 }
 moves {
   id: MOVE_GIANT_GALE
@@ -16210,12 +16363,12 @@ moves {
   mirror_move_affected: true
   no_sheer_force: true
   air: true
+  uses_animation: MOVE_HURRICANE
 }
 moves {
   id: MOVE_VEXING_VOID
   name: "Vexing Void"
   short_name: "Vexing Void"
-  tutor: TUTOR_ATTACK
   description: "30% chance to lower Special Defense. Never misses in fog."
   short_description: "A terrifying void engulfs the foe."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -16227,6 +16380,8 @@ moves {
   pp: 5
   effect_chance: 30
   mirror_move_affected: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_DARK_VOID
 }
 moves {
   id: MOVE_ECLIPSE
@@ -16243,12 +16398,12 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
+  uses_animation: MOVE_DARK_VOID
 }
 moves {
   id: MOVE_TAKE_FLIGHT
   name: "Take Flight"
   short_name: "Take Flight"
-  tutor: TUTOR_UTILITY_ATTACK
   description: "Deals damage and then switches out. Air based."
   short_description: "Blasts the foe with wind and takes to the sky."
   effect: EFFECT_HIT_ESCAPE
@@ -16260,12 +16415,13 @@ moves {
   pp: 20
   mirror_move_affected: true
   air: true
+  tutor: TUTOR_UTILITY_ATTACK
+  uses_animation: MOVE_U_TURN
 }
 moves {
   id: MOVE_CALTROPS
   name: "Caltrops"
   short_name: "Caltrops"
-  tutor: TUTOR_GOOD_STATUS
   description: "Spreads spikes that inflict bleeding on the next opponent to switch in."
   short_description: "Spreads dangerous spikes that inflict bleeding."
   effect: EFFECT_CALTROPS
@@ -16274,6 +16430,8 @@ moves {
   target: OPPONENTS_FIELD
   pp: 20
   magic_coat_affected: true
+  tutor: TUTOR_GOOD_STATUS
+  uses_animation: MOVE_SPIKES
 }
 moves {
   id: MOVE_TAKE_HEART
@@ -16287,12 +16445,12 @@ moves {
   target: USER
   pp: 5
   snatch_affected: true
+  uses_animation: MOVE_CALM_MIND
 }
 moves {
   id: MOVE_SAFE_PASSAGE
   name: "Safe Passage"
   short_name: "Safe Passage"
-  tutor: TUTOR_GOOD_STATUS
   description: "Guides an ally onto the field. They take -35% damage this turn."
   short_description: "Guides an ally onto the field, shielding them from harm."
   effect: EFFECT_SWITCH_ARGUMENT
@@ -16300,6 +16458,8 @@ moves {
   type: TYPE_NORMAL
   target: USER
   pp: 20
+  tutor: TUTOR_GOOD_STATUS
+  uses_animation: MOVE_BATON_PASS
 }
 moves {
   id: MOVE_ESPER_WALTZ
@@ -16317,6 +16477,7 @@ moves {
   effect_chance: 50
   mirror_move_affected: true
   dance: true
+  uses_animation: MOVE_REVELATION_DANCE
 }
 moves {
   id: MOVE_ZAP_JIVE
@@ -16334,6 +16495,7 @@ moves {
   effect_chance: 50
   mirror_move_affected: true
   dance: true
+  uses_animation: MOVE_REVELATION_DANCE
 }
 moves {
   id: MOVE_HEX_TROT
@@ -16351,6 +16513,7 @@ moves {
   effect_chance: 50
   mirror_move_affected: true
   dance: true
+  uses_animation: MOVE_REVELATION_DANCE
 }
 moves {
   id: MOVE_MOUNTAIN_GALE
@@ -16368,6 +16531,7 @@ moves {
   effect_chance: 30
   mirror_move_affected: true
   air: true
+  uses_animation: MOVE_ICICLE_CRASH
 }
 moves {
   id: MOVE_BAD_EGG
@@ -16389,6 +16553,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_EGG_BOMB
 }
 moves {
   id: MOVE_MYSTICAL_POWER
@@ -16412,12 +16577,12 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_PSYCHIC
 }
 moves {
   id: MOVE_DRAGON_JAB
   name: "Dragon Jab"
   short_name: "Dragon Jab"
-  tutor: TUTOR_ATTACK
   description: "A jabbing attack. 30%  chance to inflict bleeding. Mighty Horn boost."
   short_description: "Jabs with a horn. can bleed on hit."
   effect: EFFECT_BLEED_HIT
@@ -16431,12 +16596,13 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_MEGAHORN
 }
 moves {
   id: MOVE_ICICLE_IMPALE
   name: "Icicle Impale"
   short_name: "IcicleImaple"
-  tutor: TUTOR_ATTACK
   description: "A jabbing attack. 30%  chance to lower Defense. Mighty Horn boost."
   short_description: "Jabs with a horn. May lower defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -16450,6 +16616,8 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_MEGAHORN
 }
 moves {
   id: MOVE_TOXIC_PLUNGE
@@ -16472,6 +16640,7 @@ moves {
   }
   contact: true
   mirror_move_affected: true
+  uses_animation: MOVE_SLUDGE_WAVE
 }
 moves {
   id: MOVE_SHOWTIME
@@ -16484,6 +16653,7 @@ moves {
   type: TYPE_PSYCHIC
   target: USER
   pp: 5
+  uses_animation: MOVE_MAGIC_ROOM
 }
 moves {
   id: MOVE_BANISHED_POWER
@@ -16507,6 +16677,7 @@ moves {
     }
   }
   mirror_move_affected: true
+  uses_animation: MOVE_DARK_PULSE
 }
 moves {
   id: MOVE_TRIPLE_TREMOR
@@ -16524,6 +16695,7 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
+  uses_animation: MOVE_TRIPLE_KICK
 }
 moves {
   id: MOVE_FIRE_GLAIVE
@@ -16541,6 +16713,7 @@ moves {
   ignores_stat_stages: true
   mirror_move_affected: true
   horn: true
+  uses_animation: MOVE_FLARE_BLITZ
 }
 moves {
   id: MOVE_DEPLETION_BEAM
@@ -16561,12 +16734,12 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   weather: true
+  uses_animation: MOVE_STEEL_BEAM
 }
 moves {
   id: MOVE_ONE_INCH_PUNCH
   name: "One-Inch Punch"
   short_name: "OneInchPunch"
-  tutor: TUTOR_ATTACK
   description: "A powerful punch that never misses. High crit rate. Iron Fist boost."
   short_description: "Picks a weak spot and then strikes with immense force."
   split: PHYSICAL
@@ -16578,12 +16751,13 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_MEGA_PUNCH
 }
 moves {
   id: MOVE_BERSERKER_HORN
   name: "Berserker Horn"
   short_name: "BerserkrHorn"
-  tutor: TUTOR_ATTACK
   description: "Rotates its body like a drill. High crit ratio. Mighty Horn boost."
   short_description: "Spins its body like a drill. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -16598,12 +16772,13 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_MEGAHORN
 }
 moves {
   id: MOVE_ONI_FIST
   name: "Oni Fist"
   short_name: "Oni Fist"
-  tutor: TUTOR_ATTACK
   description: "A strong punch from the shadows. Always hits. Iron Fist boost."
   short_description: "An unavoidable punch that is thrown from shadows."
   split: PHYSICAL
@@ -16614,6 +16789,8 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_SHADOW_PUNCH
 }
 moves {
   id: MOVE_INSECT_IMPACT
@@ -16632,6 +16809,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  uses_animation: MOVE_DOUBLE_EDGE
 }
 moves {
   id: MOVE_LIGHTNING_BULLET
@@ -16650,6 +16828,7 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
+  uses_animation: MOVE_ZAP_CANNON
 }
 moves {
   id: MOVE_METALLIC_MELODY
@@ -16665,12 +16844,13 @@ moves {
   pp: 10
   mirror_move_affected: true
   sound: true
+  uses_animation: MOVE_BOOMBURST
 }
 moves {
   id: MOVE_BLUE_MOON
   name: "Blue Moon"
   short_name: "Blue Moon"
-  description: "The user's spirit surges from a azure full moon. Cannot be used twice in a row."
+  description: "The user\'s spirit surges from a azure full moon. Cannot be used twice in a row."
   short_description: "The user unleashes the spirit from a full blue moon."
   split: SPECIAL
   type: TYPE_ICE
@@ -16681,6 +16861,7 @@ moves {
   every_other_turn: true
   mirror_move_affected: true
   lunar: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_FIVE_STAR_FURY
@@ -16699,6 +16880,7 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_TSUNAMI_HAMMER
@@ -16713,13 +16895,14 @@ moves {
   power: 125
   accuracy: 100
   pp: 5
-  contact: true
   argument {
     type: TYPE_POISON
   }
+  contact: true
   every_other_turn: true
   mirror_move_affected: true
   hammer: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_SEPTIC_SWITCH
@@ -16733,6 +16916,7 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_WATERLOG
@@ -16746,6 +16930,7 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_INCITE
@@ -16763,19 +16948,7 @@ moves {
     type: TYPE_DARK
   }
   mirror_move_affected: true
-}
-moves {
-  id: MOVE_TOXIC_TERRAIN
-  name: "Toxic Terrain (N)"
-  short_name: "ToxicTerrain"
-  tutor: TUTOR_TERRAIN
-  description: "Sets Toxic Terrain for 8 turns."
-  short_description: "Toxic Terrain for 8 turns."
-  effect: EFFECT_MISTY_TERRAIN
-  split: STATUS
-  type: TYPE_POISON
-  target: ALL_BATTLERS
-  pp: 10
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_JETSTREAM_BURST
@@ -16790,6 +16963,7 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
+  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_SKY_QUAKE
@@ -16804,4 +16978,19 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
+  uses_animation: MOVE_NONE
+}
+moves {
+  id: MOVE_TOXIC_TERRAIN
+  name: "Toxic Terrain"
+  short_name: "ToxicTerrain"
+  description: "Boosts Poison-type moves for 8 turns and deals 1/16 HP damage."
+  short_description: "Boosts Poison and damages mons for 8 turns."
+  effect: EFFECT_TOXIC_TERRAIN
+  split: STATUS
+  type: TYPE_POISON
+  target: ALL_BATTLERS
+  pp: 10
+  tutor: TUTOR_TERRAIN
+  uses_animation: MOVE_NONE
 }

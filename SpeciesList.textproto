@@ -190823,6 +190823,7 @@ species {
   dex {
     name: "Crawdauntless"
     body_color: BODY_COLOR_RED
+    national_dex_num: 1075
     egg_group: WATER_1
     egg_group_2: WATER_3
   }
@@ -191973,8 +191974,7 @@ species {
     name: "Tentagrewl"
     category: "Jellyfish"
     description: "It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated."
-    national_dex_num: 73
-    hoenn_dex_num: 69
+    national_dex_num: 1076
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_3
     height: 16
@@ -192117,8 +192117,7 @@ species {
     name: "Cacjack"
     category: "Scarecrow"
     description: "After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night."
-    national_dex_num: 332
-    hoenn_dex_num: 125
+    national_dex_num: 1077
     body_color: BODY_COLOR_GREEN
     egg_group: GRASS
     egg_group_2: HUMAN_LIKE
@@ -192282,18 +192281,7 @@ species {
 }
 species {
   id: SPECIES_TINKATINK_REDUX
-  dex {
-    name: "Tinkatink"
-    category: "Metalsmith"
-    description: "This Pok\303\251mon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it\'s satisfied with the result."
-    national_dex_num: 957
-    body_color: BODY_COLOR_PINK
-    egg_group: FAIRY
-    height: 4
-    weight: 89
-    pokemon_scale: 255
-    trainer_scale: 255
-  }
+  form_of: SPECIES_TINKATINK
   type: TYPE_WATER
   type2: TYPE_POISON
   hp: 51
@@ -192406,18 +192394,7 @@ species {
 }
 species {
   id: SPECIES_TINKATUFF_REDUX
-  dex {
-    name: "Tinkatuff"
-    category: "Hammer"
-    description: "These Pok\303\251mon make their homes in piles of scrap metal. They test the strength of each other\'s hammers by smashing them together."
-    national_dex_num: 958
-    body_color: BODY_COLOR_PINK
-    egg_group: FAIRY
-    height: 7
-    weight: 591
-    pokemon_scale: 255
-    trainer_scale: 255
-  }
+  form_of: SPECIES_TINKATUFF
   type: TYPE_WATER
   type2: TYPE_POISON
   hp: 61
@@ -192538,18 +192515,7 @@ species {
 }
 species {
   id: SPECIES_TINKATON_REDUX
-  dex {
-    name: "Tinkaton"
-    category: "Hammer"
-    description: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home."
-    national_dex_num: 959
-    body_color: BODY_COLOR_PINK
-    egg_group: FAIRY
-    height: 7
-    weight: 1128
-    pokemon_scale: 255
-    trainer_scale: 255
-  }
+  form_of: SPECIES_TINKATON
   type: TYPE_WATER
   type2: TYPE_POISON
   hp: 85
@@ -192716,7 +192682,7 @@ species {
     name: "Tyranjoula"
     category: "EleSpider"
     description: "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense. While it is immobilized by shock, they leisurely consume it."
-    national_dex_num: 596
+    national_dex_num: 1078
     body_color: BODY_COLOR_YELLOW
     egg_group: BUG
     height: 8
@@ -192927,19 +192893,7 @@ species {
 }
 species {
   id: SPECIES_SCIZOR_REDUX
-  dex {
-    name: "Scizor"
-    category: "Pincer"
-    description: "A Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature."
-    national_dex_num: 212
-    body_color: BODY_COLOR_RED
-    egg_group: BUG
-    height: 18
-    weight: 1180
-    pokemon_scale: 278
-    trainer_scale: 256
-    pokemon_offset: 1
-  }
+  form_of: SPECIES_SCIZOR
   type: TYPE_POISON
   type2: TYPE_STEEL
   hp: 70
@@ -193091,19 +193045,7 @@ species {
 }
 species {
   id: SPECIES_KLEAVOR_REDUX
-  dex {
-    name: "Kleavor"
-    category: "Axe"
-    description: "A violent creature that fells towering trees with its crude axes and shields it self with hard stone. Should you chance upon this Pok\303\251mon in the wilds, run."
-    national_dex_num: 900
-    body_color: BODY_COLOR_BROWN
-    egg_group: BUG
-    egg_group_2: FIELD
-    height: 10
-    weight: 100
-    pokemon_scale: 255
-    trainer_scale: 255
-  }
+  form_of: SPECIES_KLEAVOR
   type: TYPE_POISON
   type2: TYPE_ROCK
   hp: 70
@@ -193208,19 +193150,7 @@ species {
 }
 species {
   id: SPECIES_KLEAVOR_REDUX_MEGA
-  dex {
-    name: "Kleavor"
-    category: "Axe"
-    description: "A violent creature that fells towering trees with its crude axes and shields it self with hard stone. Should you chance upon this Pok\303\251mon in the wilds, run."
-    national_dex_num: 900
-    body_color: BODY_COLOR_BROWN
-    egg_group: BUG
-    egg_group_2: FIELD
-    height: 10
-    weight: 100
-    pokemon_scale: 255
-    trainer_scale: 255
-  }
+  form_of: SPECIES_KLEAVOR
   type: TYPE_POISON
   type2: TYPE_ROCK
   hp: 70
@@ -193349,20 +193279,7 @@ species {
 }
 species {
   id: SPECIES_SCYTHER_REDUX
-  dex {
-    name: "Scyther"
-    category: "Mantis"
-    description: "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke."
-    national_dex_num: 123
-    body_color: BODY_COLOR_GREEN
-    egg_group: BUG
-    height: 15
-    weight: 560
-    pokemon_scale: 256
-    trainer_scale: 293
-    pokemon_offset: 1
-    trainer_offset: 2
-  }
+  form_of: SPECIES_SCYTHER
   type: TYPE_POISON
   type2: TYPE_GROUND
   hp: 70
@@ -193471,20 +193388,7 @@ species {
 }
 species {
   id: SPECIES_SCYTHER_REDUX_MEGA
-  dex {
-    name: "Scyther"
-    category: "Mantis"
-    description: "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke."
-    national_dex_num: 123
-    body_color: BODY_COLOR_GREEN
-    egg_group: BUG
-    height: 15
-    weight: 560
-    pokemon_scale: 256
-    trainer_scale: 293
-    pokemon_offset: 1
-    trainer_offset: 2
-  }
+  form_of: SPECIES_SCYTHER
   type: TYPE_POISON
   type2: TYPE_GROUND
   hp: 70
@@ -193717,19 +193621,7 @@ species {
 }
 species {
   id: SPECIES_KRABBY_REDUX
-  dex {
-    name: "Krabby"
-    category: "River Crab"
-    description: "Krabby live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory."
-    national_dex_num: 98
-    body_color: BODY_COLOR_RED
-    egg_group: WATER_3
-    height: 4
-    weight: 65
-    pokemon_scale: 469
-    trainer_scale: 256
-    pokemon_offset: 20
-  }
+  form_of: SPECIES_KRABBY
   type: TYPE_PSYCHIC
   hp: 55
   atk: 25
@@ -193822,19 +193714,7 @@ species {
 }
 species {
   id: SPECIES_KINGLER_REDUX
-  dex {
-    name: "Kingler"
-    category: "Pincer"
-    description: "It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pok\303\251mon quickly tires."
-    national_dex_num: 99
-    body_color: BODY_COLOR_RED
-    egg_group: WATER_3
-    height: 13
-    weight: 600
-    pokemon_scale: 256
-    trainer_scale: 256
-    pokemon_offset: 2
-  }
+  form_of: SPECIES_KINGLER
   type: TYPE_PSYCHIC
   hp: 80
   atk: 50
@@ -193984,19 +193864,7 @@ species {
 }
 species {
   id: SPECIES_SHINX_REDUX
-  dex {
-    name: "Shinx"
-    category: "Flash"
-    description: "It rapidly contracts and relaxes its muscles to generate electricity. Its body shines if endangered. It flees while the foe is momentarily blinded."
-    national_dex_num: 403
-    body_color: BODY_COLOR_BLUE
-    egg_group: FIELD
-    height: 5
-    weight: 95
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_SHINX
   type: TYPE_GRASS
   hp: 45
   atk: 65
@@ -194095,19 +193963,7 @@ species {
 }
 species {
   id: SPECIES_LUXIO_REDUX
-  dex {
-    name: "Luxio"
-    category: "Spark"
-    description: "Strong electricity courses through the tips of its sharp claws. A light scratch has enough amperage to cause fainting in foes."
-    national_dex_num: 404
-    body_color: BODY_COLOR_BLUE
-    egg_group: FIELD
-    height: 9
-    weight: 305
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_LUXIO
   type: TYPE_GRASS
   hp: 60
   atk: 85
@@ -194209,19 +194065,7 @@ species {
 }
 species {
   id: SPECIES_LUXRAY_REDUX_B
-  dex {
-    name: "Luxray"
-    category: "Gleam Eyes"
-    description: "It has eyes which can see through anything. Luxray\'s ability to see through objects comes in handy when it\'s scouting for danger."
-    national_dex_num: 405
-    body_color: BODY_COLOR_BLUE
-    egg_group: FIELD
-    height: 14
-    weight: 420
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_LUXRAY
   type: TYPE_GRASS
   hp: 80
   atk: 120
@@ -194373,20 +194217,7 @@ species {
 }
 species {
   id: SPECIES_ARON_REDUX
-  dex {
-    name: "Aron"
-    category: "Iron Armor"
-    description: "A Pok\303\251mon that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products."
-    national_dex_num: 304
-    hoenn_dex_num: 72
-    body_color: BODY_COLOR_GRAY
-    egg_group: MONSTER
-    height: 4
-    weight: 600
-    pokemon_scale: 419
-    trainer_scale: 256
-    pokemon_offset: 23
-  }
+  form_of: SPECIES_ARON
   type: TYPE_WATER
   type2: TYPE_ROCK
   hp: 50
@@ -194502,20 +194333,7 @@ species {
 }
 species {
   id: SPECIES_LAIRON_REDUX
-  dex {
-    name: "Lairon"
-    category: "Iron Armor"
-    description: "When two Lairon meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles."
-    national_dex_num: 305
-    hoenn_dex_num: 73
-    body_color: BODY_COLOR_GRAY
-    egg_group: MONSTER
-    height: 9
-    weight: 1200
-    pokemon_scale: 275
-    trainer_scale: 256
-    pokemon_offset: 12
-  }
+  form_of: SPECIES_LAIRON
   type: TYPE_WATER
   type2: TYPE_ROCK
   hp: 60
@@ -194638,21 +194456,7 @@ species {
 }
 species {
   id: SPECIES_AGGRON_REDUX
-  dex {
-    name: "Aggron"
-    category: "Iron Armor"
-    description: "Its iron horns grow longer a little at a time. They are used to determine the Aggron\'s age. The gouges in its armor are worn with pride as mementos from battles."
-    national_dex_num: 306
-    hoenn_dex_num: 74
-    body_color: BODY_COLOR_GRAY
-    egg_group: MONSTER
-    height: 21
-    weight: 3600
-    pokemon_scale: 256
-    trainer_scale: 350
-    pokemon_offset: -1
-    trainer_offset: 6
-  }
+  form_of: SPECIES_AGGRON
   type: TYPE_WATER
   type2: TYPE_ROCK
   hp: 70
@@ -194805,20 +194609,7 @@ species {
 }
 species {
   id: SPECIES_MAKUHITA_REDUX
-  dex {
-    name: "Makuhita"
-    category: "Guts"
-    description: "It loves to toughen up its body above all else. If you hear quaking rumbles in a cave, it is the sound of Makuhita undertaking strenuous training."
-    national_dex_num: 296
-    hoenn_dex_num: 49
-    body_color: BODY_COLOR_YELLOW
-    egg_group: HUMAN_LIKE
-    height: 10
-    weight: 864
-    pokemon_scale: 256
-    trainer_scale: 256
-    pokemon_offset: 10
-  }
+  form_of: SPECIES_MAKUHITA
   type: TYPE_FIRE
   type2: TYPE_STEEL
   hp: 50
@@ -194950,20 +194741,7 @@ species {
 }
 species {
   id: SPECIES_HARIYAMA_REDUX
-  dex {
-    name: "Hariyama"
-    category: "Arm Thrust"
-    description: "It has the habit of challenging others without hesitation to tests of strength. It\'s been known to stand on train tracks and stop trains using forearm thrusts."
-    national_dex_num: 297
-    hoenn_dex_num: 50
-    body_color: BODY_COLOR_BROWN
-    egg_group: HUMAN_LIKE
-    height: 23
-    weight: 2538
-    pokemon_scale: 256
-    trainer_scale: 343
-    trainer_offset: 7
-  }
+  form_of: SPECIES_HARIYAMA
   type: TYPE_FIRE
   type2: TYPE_STEEL
   hp: 85
@@ -195083,8 +194861,7 @@ species {
     name: "Kilozuna"
     category: "Arm Thrust"
     description: "It has the habit of challenging others without hesitation to tests of strength. It\'s been known to stand on train tracks and stop trains using forearm thrusts."
-    national_dex_num: 297
-    hoenn_dex_num: 50
+    national_dex_num: 1079
     body_color: BODY_COLOR_BROWN
     egg_group: HUMAN_LIKE
     height: 23
@@ -195205,20 +194982,7 @@ species {
 }
 species {
   id: SPECIES_KILOZUNA_MEGA
-  dex {
-    name: "Kilozuna"
-    category: "Arm Thrust"
-    description: "It has the habit of challenging others without hesitation to tests of strength. It\'s been known to stand on train tracks and stop trains using forearm thrusts."
-    national_dex_num: 297
-    hoenn_dex_num: 50
-    body_color: BODY_COLOR_BROWN
-    egg_group: HUMAN_LIKE
-    height: 23
-    weight: 2538
-    pokemon_scale: 256
-    trainer_scale: 343
-    trainer_offset: 7
-  }
+  form_of: SPECIES_KILOZUNA
   type: TYPE_STEEL
   type2: TYPE_FIRE
   hp: 105
@@ -195374,8 +195138,7 @@ species {
     name: "Fogging"
     category: "Poison Gas"
     description: "Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation."
-    national_dex_num: 109
-    hoenn_dex_num: 113
+    national_dex_num: 1080
     body_color: BODY_COLOR_PURPLE
     egg_group: AMORPHOUS
     height: 6
@@ -195502,8 +195265,7 @@ species {
     name: "Breezing"
     category: "Poison Gas"
     description: "By diluting its toxic gases with a special process, the highest grade of perfume can be extracted. To Weezing, gases emanating from garbage are the ultimate feast."
-    national_dex_num: 110
-    hoenn_dex_num: 114
+    national_dex_num: 1081
     body_color: BODY_COLOR_PURPLE
     egg_group: AMORPHOUS
     height: 12
@@ -195644,8 +195406,7 @@ species {
     name: "Storming"
     category: "Poison Gas"
     description: "By diluting its toxic gases with a special process, the highest grade of perfume can be extracted. To Weezing, gases emanating from garbage are the ultimate feast."
-    national_dex_num: 110
-    hoenn_dex_num: 114
+    national_dex_num: 1082
     body_color: BODY_COLOR_PURPLE
     egg_group: AMORPHOUS
     height: 12
@@ -195760,21 +195521,7 @@ species {
 }
 species {
   id: SPECIES_RALTS_REDUX
-  dex {
-    name: "Ralts"
-    category: "Feeling"
-    description: "A Ralts has the power to sense the emotions of people and Pok\303\251mon with the horns on its head. It takes cover if it senses any hostility."
-    national_dex_num: 280
-    hoenn_dex_num: 29
-    body_color: BODY_COLOR_WHITE
-    egg_group: HUMAN_LIKE
-    egg_group_2: AMORPHOUS
-    height: 4
-    weight: 66
-    pokemon_scale: 457
-    trainer_scale: 256
-    pokemon_offset: -3
-  }
+  form_of: SPECIES_RALTS
   type: TYPE_WATER
   hp: 42
   atk: 27
@@ -195847,20 +195594,7 @@ species {
 }
 species {
   id: SPECIES_KIRLIA_REDUX
-  dex {
-    name: "Kirlia"
-    category: "Emotion"
-    description: "A Kirlia has the psychic power to create a rip in the dimensions and see into the future. It is said to dance with pleasure on sunny mornings."
-    national_dex_num: 281
-    hoenn_dex_num: 30
-    body_color: BODY_COLOR_WHITE
-    egg_group: HUMAN_LIKE
-    egg_group_2: AMORPHOUS
-    height: 8
-    weight: 202
-    pokemon_scale: 354
-    trainer_scale: 256
-  }
+  form_of: SPECIES_KIRLIA
   type: TYPE_WATER
   hp: 58
   atk: 46
@@ -195945,20 +195679,7 @@ species {
 }
 species {
   id: SPECIES_GARDEVOIR_REDUX
-  dex {
-    name: "Gardevoir"
-    category: "Embrace"
-    description: "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its Trainer."
-    national_dex_num: 282
-    hoenn_dex_num: 31
-    body_color: BODY_COLOR_WHITE
-    egg_group: HUMAN_LIKE
-    egg_group_2: AMORPHOUS
-    height: 16
-    weight: 484
-    pokemon_scale: 256
-    trainer_scale: 256
-  }
+  form_of: SPECIES_GARDEVOIR
   type: TYPE_WATER
   type2: TYPE_DARK
   hp: 75
@@ -196075,21 +195796,7 @@ species {
 }
 species {
   id: SPECIES_GALLADE_REDUX
-  dex {
-    name: "Gallade"
-    category: "Blade"
-    description: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows when trying to protect someone. It can sense what its foe is thinking."
-    national_dex_num: 475
-    hoenn_dex_num: 32
-    body_color: BODY_COLOR_WHITE
-    egg_group: HUMAN_LIKE
-    egg_group_2: AMORPHOUS
-    height: 16
-    weight: 520
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_GALLADE
   type: TYPE_WATER
   type2: TYPE_FAIRY
   hp: 105
@@ -196292,8 +195999,7 @@ species {
     name: "Merrykarp"
     category: "Fish"
     description: "Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow."
-    national_dex_num: 129
-    hoenn_dex_num: 53
+    national_dex_num: 1083
     body_color: BODY_COLOR_RED
     egg_group: WATER_2
     egg_group_2: DRAGON
@@ -196385,8 +196091,7 @@ species {
     name: "Gyarevelry"
     category: "Atrocious"
     description: "It is an extremely vicious and violent Pok\303\251mon. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames."
-    national_dex_num: 130
-    hoenn_dex_num: 54
+    national_dex_num: 1084
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_2
     egg_group_2: DRAGON
@@ -196519,9 +196224,9 @@ species {
   id: SPECIES_JAGGED_CHUNGULIS
   dex {
     name: "Jagged Chungulus"
-    category: "Digging"
+    category: "Paradox"
     description: "With its powerful ears it reduces dense bedrock to rubble. It can be a big help at construction sites. When it\'s finished digging, it lounges about lazily."
-    national_dex_num: 660
+    national_dex_num: 1085
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
     height: 10
@@ -196873,19 +196578,7 @@ species {
 }
 species {
   id: SPECIES_MUNCHLAX_REDUX
-  dex {
-    name: "Munchlax"
-    category: "Big Eater"
-    description: "When it finds something that looks like it might be edible, it goes right ahead and swallows it whole. That\'s why it gets fatter day by day."
-    national_dex_num: 446
-    body_color: BODY_COLOR_BLACK
-    egg_group: UNDISCOVERED
-    height: 6
-    weight: 1050
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_MUNCHLAX
   type: TYPE_WATER
   hp: 150
   atk: 25
@@ -196987,20 +196680,7 @@ species {
 }
 species {
   id: SPECIES_SNORLAX_REDUX
-  dex {
-    name: "Snorlax"
-    category: "Sleeping"
-    description: "Snorlax\'s typical day consists of nothing more than eating and sleeping. It is such a docile Pok\303\251mon that there are children who use its big belly as a place to play."
-    national_dex_num: 143
-    body_color: BODY_COLOR_BLACK
-    egg_group: MONSTER
-    height: 21
-    weight: 4600
-    pokemon_scale: 256
-    trainer_scale: 423
-    pokemon_offset: 4
-    trainer_offset: 11
-  }
+  form_of: SPECIES_SNORLAX
   type: TYPE_WATER
   hp: 200
   atk: 60
@@ -197239,8 +196919,7 @@ species {
     name: "Kipmodo"
     category: "Mud Fish"
     description: "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water\'s edge."
-    national_dex_num: 258
-    hoenn_dex_num: 7
+    national_dex_num: 1086
     body_color: BODY_COLOR_BLUE
     egg_group: MONSTER
     egg_group_2: WATER_1
@@ -197328,8 +197007,7 @@ species {
     name: "Marshmodo"
     category: "Mud Fish"
     description: "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud."
-    national_dex_num: 259
-    hoenn_dex_num: 8
+    national_dex_num: 1087
     body_color: BODY_COLOR_BLUE
     egg_group: MONSTER
     egg_group_2: WATER_1
@@ -197420,8 +197098,7 @@ species {
     name: "Swampage"
     category: "Mud Fish"
     description: "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski."
-    national_dex_num: 260
-    hoenn_dex_num: 9
+    national_dex_num: 1088
     body_color: BODY_COLOR_BLUE
     egg_group: MONSTER
     egg_group_2: WATER_1
