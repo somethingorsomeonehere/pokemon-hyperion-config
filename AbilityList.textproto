@@ -4169,11 +4169,11 @@ ability {
 ability {
   id: ABILITY_HARUKAZE
   name: "Harukaze (N)"
-  description: "setting Grassy Terrain sets Tailwind an vice versa."
+  description: "Setting Grassy Terrain sets Tailwind an vice versa."
 }
 ability {
   id: ABILITY_TOXIC_SURGE
-  name: "Toxic Surge (N)"
+  name: "Toxic Surge"
   description: "sets Toxic Terrain on entry."
 }
 ability {
