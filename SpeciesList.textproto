@@ -50587,10 +50587,12 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_COUNTER
+    tutor: MOVE_DISABLE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FACADE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_JAGGED_HORNS
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIST
     tutor: MOVE_PSYCHIC
@@ -50604,8 +50606,6 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_U_TURN
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_DISABLE
-    tutor: MOVE_JAGGED_HORNS
   }
   visuals {
     icon {
@@ -97417,6 +97417,7 @@ species {
     level {
       level: 51
       move: MOVE_STAR_CRASH
+      move: MOVE_PSYCHOKINETIC_SLAM
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_COUNTER
@@ -111064,7 +111065,7 @@ species {
   tier: 3
   evo {
     to: SPECIES_SAGARACAS
-    level: 36
+    level: 28
   }
   learnset {
     level {
@@ -111917,6 +111918,7 @@ species {
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DEFOG
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
@@ -111943,7 +111945,7 @@ species {
     tutor: MOVE_SPITE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TAILWIND
   }
   visuals {
     icon {
@@ -135228,6 +135230,7 @@ species {
       level: 1
       move: MOVE_CONSTRICT
       move: MOVE_PSYCH_UP
+      move: MOVE_INVERSE_ROOM
     }
     level {
       level: 17
@@ -135366,6 +135369,7 @@ species {
       level: 1
       move: MOVE_CONSTRICT
       move: MOVE_PSYCH_UP
+      move: MOVE_INVERSE_ROOM
     }
     level {
       level: 17
@@ -152424,6 +152428,7 @@ species {
       level: 51
       move: MOVE_BONK
       move: MOVE_SHADOW_HAMMER
+      move: MOVE_STAR_CRASH
     }
     level {
       level: 56
@@ -156050,7 +156055,9 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_U_TURN
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_METRONOME
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
   }
   visuals {
     icon {
@@ -156166,7 +156173,9 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_U_TURN
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_METRONOME
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
   }
   visuals {
     icon {
@@ -168245,6 +168254,8 @@ species {
       move: MOVE_CRUSH_GRIP
       move: MOVE_FIRE_FANG
       move: MOVE_RECOVER
+      move: MOVE_VENOSHOCK
+      move: MOVE_DRAGON_RAGE
     }
     level {
       level: 37
@@ -168287,6 +168298,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_TERRAIN_PULSE
   }
   visuals {
     icon {
@@ -170128,6 +170140,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_COUNTER
+    tutor: MOVE_DISABLE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FACADE
@@ -170135,6 +170148,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_JAGGED_HORNS
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIST
     tutor: MOVE_PSYCHIC
@@ -170149,8 +170163,9 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_U_TURN
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_DISABLE
-    tutor: MOVE_JAGGED_HORNS
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_ICICLE_IMPALE
   }
   visuals {
     icon {
@@ -172668,7 +172683,7 @@ species {
   def: 70
   spatk: 70
   spdef: 60
-  spe: 115
+  spe: 125
   ability: ABILITY_ADRENALINE_RUSH
   ability: ABILITY_IRON_FIST
   ability: ABILITY_GENERATOR
@@ -181013,6 +181028,7 @@ species {
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_FRUSTRATION
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -181031,7 +181047,7 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WHIRLWIND
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_TERRAIN_PULSE
   }
   visuals {
     icon {
@@ -182450,8 +182466,9 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_VEXING_VOID
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_BLACK_MAGIC
   }
   visuals {
     icon {
@@ -190822,8 +190839,8 @@ species {
   id: SPECIES_CRAWDAUNTLES
   dex {
     name: "Crawdauntless"
-    body_color: BODY_COLOR_RED
     national_dex_num: 1075
+    body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: WATER_3
   }
