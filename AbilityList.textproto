@@ -4183,7 +4183,7 @@ ability {
 }
 ability {
   id: ABILITY_BIOFILM
-  name: "Biofilm (N)"
+  name: "Biofilm"
   description: "50% spdef boost under Toxic Terrain."
 }
 ability {
