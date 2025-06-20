@@ -2253,8 +2253,26 @@ item {
 }
 item {
   id: ITEM_ZAPDOSITE
-  name: "Zapdosite"
+  name: "Zapdosite-EX"
   description: "Enables Zapdos-EX to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_ARTICUNITE
+  name: "Articunite-EX"
+  description: "Enables Articuno-EX to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_MOLTRESITE
+  name: "Moltresite-EX"
+  description: "Enables Moltres-EX to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"

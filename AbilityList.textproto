@@ -1199,7 +1199,7 @@ ability {
 ability {
   id: ABILITY_PROPELLER_TAIL
   name: "Propeller Tail"
-  description: "Isn't affected by target redirection."
+  description: "Swift Swim + Redirection Immunity."
 }
 ability {
   id: ABILITY_MIRROR_ARMOR
@@ -4345,4 +4345,39 @@ ability {
   id: ABILITY_LIGHTNING_ASPECT
   name: "Lightning Aspect"
   description: "Absorbs electric moves then ups highest stat by +1."
+}
+ability {
+  id: ABILITY_FIRE_ASPECT
+  name: "Fire Aspect (P)"
+  description: "Absorbs fire moves and always burns with fire."
+}
+ability {
+  id: ABILITY_ICE_PLUMES
+  name: "Ice Plumes"
+  description: "Halves damage taken by Special moves. Does NOT double SpDef."
+}
+ability {
+  id: ABILITY_BLISTERING_SUN
+  name: "Blistering Sun"
+  description: "Desolate Land + Air Blower."
+}
+ability {
+  id: ABILITY_MOLTEN_CORE
+  name: "Molten Core (P)"
+  description: "Furnace + Absorbs Rock-moves/Stealth Rocks."
+}
+ability {
+  id: ABILITY_AURORAS_GALE
+  name: "Aurora's Gale (P)"
+  description: "Majestic Bird + Aurora Veil."
+}
+ability {
+  id: ABILITY_WINTER_THRONE
+  name: "Winter Throne (N)"
+  description: "1/8 Damage each turn to non-ice. Heals Ice 1/8 each turn."
+}
+ability {
+  id: ABILITY_ENERGY_TAP
+  name: "Energy Tap"
+  description: "Heals the user for 1/8 of the damage they deal."
 }

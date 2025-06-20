@@ -16994,3 +16994,31 @@ moves {
   tutor: TUTOR_TERRAIN
   uses_animation: MOVE_NONE
 }
+moves {
+  id: MOVE_SUNSTRIKE
+  name: "Sunstrike (N)"
+  short_name: "Sunstrike"
+  description: "Strikes and negates evs, items, boosts, and hits lowest defense."
+  short_description: "Strikes with harsh winds."
+  split: SPECIAL
+  type: TYPE_FIRE
+  target: SELECTED
+  power: 60
+  accuracy: 100
+  pp: 15
+  priority: 1
+  mirror_move_affected: true
+  uses_animation: MOVE_SUNSTEEL_STRIKE
+}
+moves {
+  id: MOVE_TEMPEST_STORM
+  name: "Tempest Storm (N)"
+  short_name: "TempStorm"
+  description: "Hits both sides with a thundershock at the end of each turn for 2-5 turns."
+  short_description: "Sets a thundershock storm."
+  split: STATUS
+  type: TYPE_ELECTRIC
+  target: ALL_BATTLERS
+  pp: 5
+  uses_animation: MOVE_THUNDER
+}

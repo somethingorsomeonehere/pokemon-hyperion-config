@@ -983,13 +983,13 @@ trainer {
       species: SPECIES_VILEPLUME
       item: ITEM_BLACK_SLUDGE
       nature: NATURE_BOLD
-      ability: ABILITY_CHLOROPLAST
+      ability: ABILITY_EFFECT_SPORE
       hp_ev: 252
       def_ev: 252
       spatk_ev: 4
       move: MOVE_GROWTH
       move: MOVE_STRENGTH_SAP
-      move: MOVE_SOLAR_BEAM
+      move: MOVE_GIGA_DRAIN
       move: MOVE_ACID
     }
     mon {
@@ -4584,9 +4584,9 @@ trainer {
     }
     mon {
       species: SPECIES_BELLOSSOM
-      item: ITEM_SITRUS_BERRY
+      item: ITEM_SHELL_BELL
       nature: NATURE_MODEST
-      ability: ABILITY_HARVEST
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 252
       def_ev: 4
       spatk_ev: 252
@@ -4955,7 +4955,7 @@ trainer {
       species: SPECIES_BELLOSSOM
       item: ITEM_GRASS_GEM
       nature: NATURE_TIMID
-      ability: ABILITY_DANCER
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 248
       def_ev: 8
       spe_ev: 252
@@ -5129,7 +5129,7 @@ trainer {
       species: SPECIES_CARNIVINE
       item: ITEM_LIFE_ORB
       nature: NATURE_HASTY
-      ability: ABILITY_ARENA_TRAP
+      ability: ABILITY_SNAP_TRAP_WHEN_HIT
       hp_ev: 188
       atk_ev: 252
       spe_ev: 68
@@ -16985,7 +16985,7 @@ trainer {
       species: SPECIES_VILEPLUME
       item: ITEM_ASSAULT_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_GRASSY_SURGE
+      ability: ABILITY_POISON_ABSORB
       hp_ev: 252
       spatk_ev: 196
       spdef_ev: 60
@@ -19144,7 +19144,7 @@ trainer {
       species: SPECIES_CARNIVINE
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
-      ability: ABILITY_STALL
+      ability: ABILITY_OPPORTUNIST
       hp_ev: 252
       atk_ev: 252
       spe_ev: 4
@@ -32189,7 +32189,7 @@ trainer {
       species: SPECIES_JAGGED_CHUNGULIS
       item: ITEM_ROCKY_HELMET
       nature: NATURE_ADAMANT
-      ability: ABILITY_EARTH_EATER
+      ability: ABILITY_PERMAFROST_CLONE
       hp_ev: 160
       atk_ev: 252
       spdef_ev: 96
@@ -42633,7 +42633,7 @@ trainer {
       species: SPECIES_VILEPLUME
       item: ITEM_BLACK_SLUDGE
       nature: NATURE_BOLD
-      ability: ABILITY_GRASSY_SURGE
+      ability: ABILITY_POISON_ABSORB
       hp_ev: 252
       def_ev: 252
       spdef_ev: 4
@@ -50411,9 +50411,9 @@ trainer {
     }
     mon {
       species: SPECIES_BELLOSSOM
-      item: ITEM_SITRUS_BERRY
+      item: ITEM_SHELL_BELL
       nature: NATURE_MODEST
-      ability: ABILITY_HARVEST
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 252
       def_ev: 4
       spatk_ev: 252
@@ -50462,7 +50462,7 @@ trainer {
       species: SPECIES_BELLOSSOM
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_DANCER
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 248
       def_ev: 8
       spe_ev: 252
@@ -50537,7 +50537,7 @@ trainer {
       species: SPECIES_BELLOSSOM
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_DANCER
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 248
       def_ev: 8
       spe_ev: 252
@@ -50612,7 +50612,7 @@ trainer {
       species: SPECIES_BELLOSSOM
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_DANCER
+      ability: ABILITY_ENERGY_TAP
       hp_ev: 248
       def_ev: 8
       spe_ev: 252
@@ -63241,7 +63241,7 @@ trainer {
       species: SPECIES_VILEPLUME
       item: ITEM_ROCKY_HELMET
       nature: NATURE_BOLD
-      ability: ABILITY_GRASSY_SURGE
+      ability: ABILITY_POISON_ABSORB
       hp_ev: 252
       def_ev: 252
       spdef_ev: 4

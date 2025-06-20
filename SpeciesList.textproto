@@ -6766,8 +6766,10 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
@@ -6781,13 +6783,10 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
-    tutor: MOVE_SNORE
-    tutor: MOVE_FOCUS_PUNCH
+    tutor: MOVE_WORK_UP
   }
   visuals {
     icon {
@@ -6951,6 +6950,7 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FORESIGHT
@@ -6958,25 +6958,23 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_REFLECT
+    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_SAFE_PASSAGE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
-    tutor: MOVE_SNORE
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_WORK_UP
   }
   visuals {
     icon {
@@ -8255,17 +8253,17 @@ species {
   type: TYPE_GRASS
   type2: TYPE_POISON
   hp: 90
-  atk: 60
+  atk: 75
   def: 95
   spatk: 120
   spdef: 100
   spe: 50
   ability: ABILITY_POISON_ABSORB
-  ability: ABILITY_CHLOROPLAST
-  ability: ABILITY_GRASSY_SURGE
-  innate: ABILITY_REGENERATOR
-  innate: ABILITY_GRASS_PELT
-  innate: ABILITY_NATURAL_CURE
+  ability: ABILITY_EFFECT_SPORE
+  ability: ABILITY_SHIELD_DUST
+  innate: ABILITY_NATURAL_RECOVERY
+  innate: ABILITY_BIOFILM
+  innate: ABILITY_TOXIC_SURGE
   percent_female: 50
   learnset {
     level {
@@ -11159,6 +11157,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_LAVA_PLUME
       move: MOVE_ROAR
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -11304,6 +11303,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_LAVA_PLUME
       move: MOVE_ROAR
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -11458,6 +11458,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_ROAR
       move: MOVE_SMOG
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -11574,6 +11575,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_ROAR
       move: MOVE_SMOG
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -11739,6 +11741,7 @@ species {
       move: MOVE_ROAR
       move: MOVE_ROCK_POLISH
       move: MOVE_ROLLOUT
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -11846,6 +11849,7 @@ species {
       move: MOVE_ROAR
       move: MOVE_ROCK_POLISH
       move: MOVE_ROLLOUT
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
@@ -14449,9 +14453,9 @@ species {
   type: TYPE_GRASS
   type2: TYPE_POISON
   hp: 100
-  atk: 105
-  def: 65
-  spatk: 105
+  atk: 110
+  def: 70
+  spatk: 110
   spdef: 70
   spe: 70
   ability: ABILITY_RITE_OF_SPRING
@@ -14810,6 +14814,7 @@ species {
       move: MOVE_CHILLING_WATER
       move: MOVE_GIGA_DRAIN
       move: MOVE_TICKLE
+      move: MOVE_TOXIC_PLUNGE
     }
     level {
       level: 37
@@ -25778,6 +25783,7 @@ species {
       level: 46
       move: MOVE_BRINE
       move: MOVE_PAIN_SPLIT
+      move: MOVE_METEOR_BEAM
     }
     level {
       level: 51
@@ -26084,6 +26090,7 @@ species {
       move: MOVE_LOVELY_KISS
       move: MOVE_WONDER_ROOM
       move: MOVE_FOLLOW_ME
+      move: MOVE_ALLY_SWITCH
     }
     level {
       level: 17
@@ -33185,7 +33192,7 @@ species {
       path: "typhlosion/hisuian_mega/back"
       coords {
         size: 120
-        y_offset: 2
+        y_offset: 0
       }
     }
     palette: "typhlosion/hisuian_mega/normal"
@@ -38164,8 +38171,10 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_FORESIGHT
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -38180,13 +38189,10 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
-    tutor: MOVE_SNORE
-    tutor: MOVE_FOCUS_PUNCH
+    tutor: MOVE_WORK_UP
   }
   visuals {
     icon {
@@ -39528,14 +39534,14 @@ species {
     pokemon_offset: 21
   }
   type: TYPE_GRASS
-  hp: 90
+  hp: 80
   atk: 60
-  def: 105
-  spatk: 110
-  spdef: 100
-  spe: 50
-  ability: ABILITY_DANCER
-  ability: ABILITY_HARVEST
+  def: 110
+  spatk: 100
+  spdef: 80
+  spe: 100
+  ability: ABILITY_ENERGY_TAP
+  ability: ABILITY_SUN_BASKING
   ability: ABILITY_SUN_WORSHIP
   innate: ABILITY_FLOWER_VEIL
   innate: ABILITY_HEALER
@@ -39564,6 +39570,7 @@ species {
       move: MOVE_FOLLOW_ME
       move: MOVE_GIGA_DRAIN
       move: MOVE_FUMIGATION_BOMB
+      move: MOVE_FIERY_DANCE
     }
     level {
       level: 37
@@ -39576,6 +39583,7 @@ species {
       move: MOVE_MOONLIGHT
       move: MOVE_STRENGTH_SAP
       move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_REVELATION_DANCE
     }
     level {
       level: 51
@@ -43923,12 +43931,19 @@ species {
       level: 1
       move: MOVE_DESTINY_BOND
       move: MOVE_ENCORE
+      move: MOVE_FOLLOW_ME
+      move: MOVE_ENTRAINMENT
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_MAGIC_POWDER
+      move: MOVE_COURT_CHANGE
+      move: MOVE_COACHING
     }
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COUNTER
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TRICK_ROOM
     universal_tutors: NO_ATTACKS
   }
   visuals {
@@ -45633,6 +45648,7 @@ species {
       move: MOVE_SLUDGE_WAVE
       move: MOVE_SPIT_UP
       move: MOVE_SWALLOW
+      move: MOVE_TOXIC_PLUNGE
     }
     level {
       level: 37
@@ -51917,6 +51933,7 @@ species {
       move: MOVE_LOVELY_KISS
       move: MOVE_WONDER_ROOM
       move: MOVE_FOLLOW_ME
+      move: MOVE_ALLY_SWITCH
     }
     level {
       level: 17
@@ -72401,6 +72418,7 @@ species {
     tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DEFOG
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_WAVE
@@ -72411,6 +72429,8 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
     tutor: MOVE_HEX
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
@@ -72433,10 +72453,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -74133,11 +74150,12 @@ species {
       move: MOVE_DESTINY_BOND
       move: MOVE_ENCORE
     }
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COUNTER
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TRICK_ROOM
     universal_tutors: NO_ATTACKS
   }
   visuals {
@@ -80165,6 +80183,7 @@ species {
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_DEFOG
+    tutor: MOVE_FACADE
     tutor: MOVE_FLY
     tutor: MOVE_HEADBUTT
     tutor: MOVE_MISTY_TERRAIN
@@ -80178,7 +80197,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_FACADE
+    tutor: MOVE_SKY_DROP
   }
   visuals {
     icon {
@@ -80263,6 +80282,7 @@ species {
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_DEFOG
+    tutor: MOVE_FACADE
     tutor: MOVE_FLY
     tutor: MOVE_HEADBUTT
     tutor: MOVE_MISTY_TERRAIN
@@ -80276,7 +80296,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_FACADE
+    tutor: MOVE_SKY_DROP
   }
   visuals {
     icon {
@@ -85756,10 +85776,10 @@ species {
   spatk: 60
   spdef: 30
   spe: 85
-  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_WATER_GALE_WINGS
   ability: ABILITY_PROPELLER_TAIL
   ability: ABILITY_TECHNICIAN
-  innate: ABILITY_WATER_GALE_WINGS
+  innate: ABILITY_FIELD_EXPLORER
   innate: ABILITY_INFLATABLE
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -93378,17 +93398,17 @@ species {
   }
   type: TYPE_GRASS
   hp: 90
-  atk: 100
+  atk: 116
   def: 92
-  spatk: 74
+  spatk: 80
   spdef: 92
-  spe: 46
+  spe: 50
   ability: ABILITY_OPPORTUNIST
-  ability: ABILITY_STALL
-  ability: ABILITY_ARENA_TRAP
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_STRONG_JAW
-  innate: ABILITY_PREDATOR
+  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_SNAP_TRAP_WHEN_HIT
+  innate: ABILITY_ENERGY_TAP
+  innate: ABILITY_STALL
+  innate: ABILITY_JAWS_OF_CARNAGE
   percent_female: 50
   tier: 2
   learnset {
@@ -98044,12 +98064,14 @@ species {
       move: MOVE_BURN_UP
       move: MOVE_CRUNCH
       move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
     }
     level {
       level: 46
       move: MOVE_DOUBLE_EDGE
       move: MOVE_MAGMA_STORM
       move: MOVE_SCORCHED_EARTH
+      move: MOVE_SELF_DESTRUCT
     }
     level {
       level: 51
@@ -103931,7 +103953,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HYDRO_PUMP
   }
   visuals {
     icon {
@@ -104074,7 +104096,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HYDRO_PUMP
   }
   visuals {
     icon {
@@ -144378,6 +144400,7 @@ species {
       move: MOVE_AVALANCHE
       move: MOVE_CHILLING_WATER
       move: MOVE_SCARY_FACE
+      move: MOVE_SMASHIN_REALITIES
     }
     level {
       level: 37
@@ -149428,6 +149451,7 @@ species {
       move: MOVE_BESTOW
       move: MOVE_FOCUS_ENERGY
       move: MOVE_SMACK_DOWN
+      move: MOVE_DOUBLE_KICK
     }
     level {
       level: 24
@@ -166216,6 +166240,7 @@ species {
       move: MOVE_SPARK
       move: MOVE_THUNDER_SHOCK
       move: MOVE_STUFF_CHEEKS
+      move: MOVE_FLING
     }
     level {
       level: 17
@@ -166325,6 +166350,7 @@ species {
       move: MOVE_SPARK
       move: MOVE_THUNDER_SHOCK
       move: MOVE_STUFF_CHEEKS
+      move: MOVE_FLING
     }
     level {
       level: 17
@@ -185524,6 +185550,7 @@ species {
       level: 37
       move: MOVE_SNARL
       move: MOVE_SYNCHRONOISE
+      move: MOVE_REQUIEM
     }
     level {
       level: 46
@@ -186519,6 +186546,7 @@ species {
       move: MOVE_SING
       move: MOVE_WONDER_ROOM
       move: MOVE_FOLLOW_ME
+      move: MOVE_ALLY_SWITCH
     }
     level {
       level: 17
@@ -191241,7 +191269,7 @@ species {
       path: "weavile/mega/back"
       coords {
         size: 120
-        y_offset: 2
+        y_offset: 6
       }
     }
     palette: "weavile/mega/normal"
@@ -191578,6 +191606,7 @@ species {
       path: "iron_exo/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
+         y_offset: 2
       }
     }
     palette: "iron_exo/normal"
@@ -192403,6 +192432,7 @@ species {
       path: "tinkatink/redux/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
+         y_offset: 4
       }
     }
     palette: "tinkatink/redux/normal"
@@ -192840,7 +192870,7 @@ species {
   spatk: 70
   spdef: 50
   spe: 75
-  ability: ABILITY_KEEN_EDGE
+  ability: ABILITY_VIOLENT_RUSH
   ability: ABILITY_SPEED_BOOST
   ability: ABILITY_RAPID_RESPONSE
   innate: ABILITY_MERCILESS
@@ -194225,7 +194255,7 @@ species {
       path: "luxray/redux_b/mega/back"
       coords {
         size: 135
-        y_offset: 2
+        y_offset: 0
       }
     }
     palette: "luxray/redux_b/mega/normal"
@@ -194990,7 +195020,7 @@ species {
       anim: BACK_ANIM_V_SHAKE_LOW
       coords {
         size: 135
-        y_offset: 12
+        y_offset: 4
       }
     }
     palette: "kilozuna/normal"
@@ -195961,7 +195991,7 @@ species {
     back {
       path: "gardevoir/redux/mega/back"
       coords {
-        y_offset: 6
+        y_offset: 2
       }
     }
     palette: "gardevoir/redux/mega/normal"
@@ -196252,20 +196282,20 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_FIRE
-  type2: TYPE_ROCK
-  hp: 107
-  atk: 133
-  def: 109
+  type: TYPE_ROCK
+  type2: TYPE_GROUND
+  hp: 111
+  atk: 125
+  def: 119
   spatk: 69
-  spdef: 93
-  spe: 59
-  ability: ABILITY_SUPER_SLAMMER
-  ability: ABILITY_EARTH_EATER
-  ability: ABILITY_RESTRAINING_ORDER
+  spdef: 101
+  spe: 45
+  ability: ABILITY_PERMAFROST_CLONE
+  ability: ABILITY_KEEN_EDGE
+  ability: ABILITY_PRESSURE
   innate: ABILITY_PROTOSYNTHESIS
-  innate: ABILITY_PERMAFROST_CLONE
-  innate: ABILITY_GROUNDED
+  innate: ABILITY_SOLAR_FLARE
+  innate: ABILITY_MAGMA_ARMOR
   genderless: true
   learnset {
     level {
@@ -196275,12 +196305,15 @@ species {
       move: MOVE_MUD_SLAP
       move: MOVE_MAT_BLOCK
       move: MOVE_ROLLOUT
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_DIAMOND_BLADE
     }
     level {
       level: 17
       move: MOVE_BODY_SLAM
       move: MOVE_SWALLOW
       move: MOVE_SHARPEN
+      move: MOVE_SEISMIC_BLADE
     }
     level {
       level: 24
@@ -196305,27 +196338,29 @@ species {
       level: 51
       move: MOVE_PRIMITIVE_STRIKE
       move: MOVE_HEADLONG_RUSH
+      move: MOVE_MIGHTY_CLEAVE
     }
     level {
       level: 56
       move: MOVE_MOUNTAIN_CHUNK
       move: MOVE_HEAD_SMASH
     }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_FACADE
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_STONE_EDGE
     tutor: MOVE_SMOLDER_BASH
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_BULLDOZE
-    tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_FACADE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_TRICK
-    tutor: MOVE_TAUNT
     tutor: MOVE_SPIKES
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_TRICK
+    tutor: MOVE_SOLAR_BLADE
   }
   visuals {
     icon {
@@ -197294,7 +197329,7 @@ species {
   form_of: SPECIES_ZAPDOS
   type: TYPE_ELECTRIC
   type2: TYPE_FLYING
-  hp: 85
+  hp: 90
   atk: 110
   def: 85
   spatk: 155
@@ -197306,10 +197341,10 @@ species {
   innate: ABILITY_LIGHTNING_ASPECT
   innate: ABILITY_GALE_WINGS
   innate: ABILITY_STATIC
-  percent_female: 100
+  genderless: true
   mega {
-    from: SPECIES_ZAPDOS
-    item: ITEM_TINKATITE_R
+    from: SPECIES_ZAPDOS_EX
+    item: ITEM_ZAPDOSITE
   }
   visuals {
     icon {
@@ -197330,5 +197365,432 @@ species {
     }
     palette: "zapdos/mega/normal"
     shiny: "zapdos/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_MOLTRES_EX_MEGA
+  form_of: SPECIES_MOLTRES
+  type: TYPE_FIRE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 100
+  def: 95
+  spatk: 200
+  spdef: 95
+  spe: 120
+  ability: ABILITY_BLISTERING_SUN
+  ability: ABILITY_BLISTERING_SUN
+  ability: ABILITY_BLISTERING_SUN
+  innate: ABILITY_FIRE_ASPECT
+  innate: ABILITY_MOLTEN_CORE
+  innate: ABILITY_MAJESTIC_BIRD
+  percent_female: 100
+  mega {
+    from: SPECIES_MOLTRES_EX
+    item: ITEM_MOLTRESITE
+  }
+  visuals {
+    icon {
+      path: "moltres/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "moltres/mega/front"
+      coords {
+      }
+    }
+    back {
+      path: "moltres/mega/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 4
+      }
+    }
+    palette: "moltres/mega/normal"
+    shiny: "moltres/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ARTICUNO_EX_MEGA
+  form_of: SPECIES_ARTICUNO
+  type: TYPE_ICE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 85
+  def: 130
+  spatk: 125
+  spdef: 150
+  spe: 120
+  ability: ABILITY_AURORAS_GALE
+  ability: ABILITY_AURORAS_GALE
+  ability: ABILITY_AURORAS_GALE
+  innate: ABILITY_ICE_PLUMES
+  innate: ABILITY_WINTER_THRONE
+  innate: ABILITY_ANTARCTIC_BIRD
+  percent_female: 100
+  mega {
+    from: SPECIES_ARTICUNO_EX
+    item: ITEM_ARTICUNITE
+  }
+  visuals {
+    icon {
+      path: "articuno/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "articuno/mega/front"
+      coords {
+      }
+    }
+    back {
+      path: "articuno/mega/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 4
+      }
+    }
+    palette: "articuno/mega/normal"
+    shiny: "articuno/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ZAPDOS_EX
+  form_of: SPECIES_ZAPDOS
+  type: TYPE_ELECTRIC
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 90
+  def: 85
+  spatk: 125
+  spdef: 90
+  spe: 100
+  ability: ABILITY_OVERCHARGE
+  ability: ABILITY_GALE_WINGS
+  ability: ABILITY_DRIZZLE
+  innate: ABILITY_VOLT_ABSORB
+  innate: ABILITY_GROUND_SHOCK
+  innate: ABILITY_STATIC
+  genderless: true
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ANCIENT_POWER
+      move: MOVE_CHARGE
+      move: MOVE_GUST
+      move: MOVE_ROAR
+      move: MOVE_SHOCK_WAVE
+    }
+    level {
+      level: 17
+      move: MOVE_BOLT_BEAK
+      move: MOVE_MAGNETIC_FLUX
+      move: MOVE_ZAP_CANNON
+    }
+    level {
+      level: 24
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_RAZOR_WIND
+      move: MOVE_SKY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_BATON_PASS
+      move: MOVE_BUZZY_BUZZ
+      move: MOVE_THUNDERCLAP
+    }
+    level {
+      level: 46
+      move: MOVE_RISING_VOLTAGE
+    }
+    level {
+      level: 51
+      move: MOVE_WILDBOLT_STORM
+    }
+    level {
+      level: 56
+      move: MOVE_AEROBLAST
+      move: MOVE_TEMPEST_STORM
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FLY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_PLUCK
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ROOST
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METRONOME
+    tutor: MOVE_DRILL_PECK
+    tutor: MOVE_HURRICANE
+  }
+  visuals {
+    icon {
+      path: "zapdos/icon"
+      palette: 4
+    }
+    front {
+      path: "zapdos/front"
+      coords {
+      }
+    }
+    back {
+      path: "zapdos/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 4
+      }
+    }
+    palette: "zapdos/normal"
+    shiny: "zapdos/shiny"
+  }
+}
+species {
+  id: SPECIES_MOLTRES_EX
+  form_of: SPECIES_MOLTRES
+  type: TYPE_FIRE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 100
+  def: 90
+  spatk: 125
+  spdef: 85
+  spe: 90
+  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_FLAMING_SOUL
+  ability: ABILITY_DROUGHT
+  innate: ABILITY_FLASH_FIRE
+  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_PYROMANCY
+  genderless: true
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ANCIENT_POWER
+      move: MOVE_FLAME_BURST
+      move: MOVE_GUST
+      move: MOVE_ROAR
+      move: MOVE_SCORCHING_SANDS
+    }
+    level {
+      level: 17
+      move: MOVE_EMBER
+      move: MOVE_INFERNO
+      move: MOVE_MIRROR_MOVE
+      move: MOVE_AERIAL_ACE
+    }
+    level {
+      level: 24
+      move: MOVE_RAZOR_WIND
+      move: MOVE_SCORCHED_EARTH
+      move: MOVE_SKY_ATTACK
+      move: MOVE_MYSTICAL_FIRE
+    }
+    level {
+      level: 37
+      move: MOVE_INCINERATE
+      move: MOVE_SIZZLY_SLIDE
+    }
+    level {
+      level: 46
+      move: MOVE_BURN_UP
+      move: MOVE_SUPERHOT_FLAME
+      move: MOVE_OVERHEAT
+    }
+    level {
+      level: 51
+      move: MOVE_FIERY_DANCE
+      move: MOVE_MAGMA_STORM
+    }
+    level {
+      level: 56
+      move: MOVE_AEROBLAST
+      move: MOVE_SUNSTRIKE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FLY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_PLUCK
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ROOST
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_METRONOME
+    tutor: MOVE_HURRICANE
+  }
+  visuals {
+    icon {
+      path: "moltres/icon"
+      palette: 4
+    }
+    front {
+      path: "moltres/front"
+      coords {
+      }
+    }
+    back {
+      path: "moltres/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 4
+      }
+    }
+    palette: "moltres/normal"
+    shiny: "moltres/shiny"
+  }
+}
+species {
+  id: SPECIES_ARTICUNO_EX
+  form_of: SPECIES_ARTICUNO
+  type: TYPE_ICE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 85
+  def: 110
+  spatk: 95
+  spdef: 135
+  spe: 85
+  ability: ABILITY_NORTH_WIND
+  ability: ABILITY_SNOW_WARNING
+  ability: ABILITY_ICE_SCALES
+  innate: ABILITY_ANTARCTIC_BIRD
+  innate: ABILITY_MAJESTIC_BIRD
+  innate: ABILITY_PERMAFROST
+  percent_female: 100
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ANCIENT_POWER
+      move: MOVE_GUST
+      move: MOVE_ICE_SHARD
+      move: MOVE_MIND_READER
+      move: MOVE_ROAR
+    }
+    level {
+      level: 17
+      move: MOVE_AERIAL_ACE
+      move: MOVE_CHILLING_WATER
+      move: MOVE_FROST_BREATH
+    }
+    level {
+      level: 24
+      move: MOVE_FREEZE_DRY
+      move: MOVE_HEAL_BELL
+      move: MOVE_RAZOR_WIND
+      move: MOVE_SKY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_AURORA_VEIL
+      move: MOVE_FEATHER_DANCE
+      move: MOVE_FREEZY_FROST
+      move: MOVE_NOBLE_ROAR
+    }
+    level {
+      level: 46
+      move: MOVE_SHEER_COLD
+    }
+    level {
+      level: 51
+      move: MOVE_BLEAKWIND_STORM
+    }
+    level {
+      level: 56
+      move: MOVE_AEROBLAST
+    }
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DEFOG
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIST
+    tutor: MOVE_PLUCK
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_REFRESH
+    tutor: MOVE_ROOST
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_METRONOME
+    tutor: MOVE_VACUUM_WAVE
+    tutor: MOVE_HURRICANE
+  }
+  visuals {
+    icon {
+      path: "articuno/ex/icon"
+      palette: 4
+    }
+    front {
+      path: "articuno/ex/front"
+      coords {
+      }
+    }
+    back {
+      path: "articuno/ex/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 8
+      }
+    }
+    palette: "articuno/ex/normal"
+    shiny: "articuno/ex/shiny"
   }
 }
