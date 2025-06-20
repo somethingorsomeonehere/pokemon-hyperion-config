@@ -4333,8 +4333,8 @@ ability {
 }
 ability {
   id: ABILITY_RELIC_STONE
-  name: "Relic Stone (N)"
-  description: "Disables STAB boost of others. also effects ate abilities."
+  name: "Relic Stone"
+  description: "Other battlers don't benefit from STAB."
 }
 ability {
   id: ABILITY_SUPERCELL
