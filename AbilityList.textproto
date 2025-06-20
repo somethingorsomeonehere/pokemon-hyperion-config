@@ -4103,7 +4103,7 @@ ability {
 }
 ability {
   id: ABILITY_SOUL_TAP
-  name: "Soul Tap (N)"
+  name: "Soul Tap"
   description: "Drain 10% HP from foes at the end of each turn in fog."
 }
 ability { 
@@ -4163,17 +4163,17 @@ ability {
 }
 ability {
   id: ABILITY_HEMOTOXIN
-  name: "Hemotoxin (N)"
+  name: "Hemotoxin"
   description: "Supresses abilities of the target when they're poisoned."
 }
 ability {
   id: ABILITY_HARUKAZE
   name: "Harukaze (N)"
-  description: "setting Grassy Terrain sets Tailwind an vice versa."
+  description: "Setting Grassy Terrain sets Tailwind an vice versa."
 }
 ability {
   id: ABILITY_TOXIC_SURGE
-  name: "Toxic Surge (N)"
+  name: "Toxic Surge"
   description: "sets Toxic Terrain on entry."
 }
 ability {
@@ -4183,7 +4183,7 @@ ability {
 }
 ability {
   id: ABILITY_BIOFILM
-  name: "Biofilm (N)"
+  name: "Biofilm"
   description: "50% spdef boost under Toxic Terrain."
 }
 ability {
