@@ -4363,7 +4363,7 @@ ability {
 }
 ability {
   id: ABILITY_MOLTEN_CORE
-  name: "Molten Core (P)"
+  name: "Molten Core"
   description: "Furnace + Absorbs Rock-moves/Stealth Rocks."
 }
 ability {
