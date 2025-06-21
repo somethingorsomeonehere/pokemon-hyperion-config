@@ -1529,7 +1529,7 @@ ability {
 ability {
   id: ABILITY_DREAMCATCHER
   name: "Dreamcatcher"
-  description: "Doubles damage if anyone is sleeping. Pursues sleeping battlers."
+  description: "Doubles damage if anyone is sleeping. Pursues sleeping foes."
 }
 ability {
   id: ABILITY_NOCTURNAL
