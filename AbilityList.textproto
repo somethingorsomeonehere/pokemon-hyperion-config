@@ -4063,7 +4063,7 @@ ability {
 }
 ability {
   id: ABILITY_REVERBATE
-  name: "Reverbate"
+  name: "Reverberate"
   description: "Normal moves are Sound moves."
 }
 ability {
@@ -4213,7 +4213,7 @@ ability {
 }
 ability {
   id: ABILITY_FESTIVITIES
-  name: "Festivities (N)"
+  name: "Festivities"
   description: "Sound moves become dance moves and vice versa."
 }
 ability {
