@@ -10997,7 +10997,7 @@ moves {
   type: TYPE_FAIRY
   target: SELECTED
   power: 1
-  accuracy: 90
+  accuracy: 100
   pp: 5
   contact: true
   mirror_move_affected: true
@@ -13920,6 +13920,8 @@ moves {
   }
   mirror_move_affected: true
   air: true
+  contact: true
+  sound: true
 }
 moves {
   id: MOVE_MORTAL_SPIN
@@ -14741,7 +14743,7 @@ moves {
   type: TYPE_DARK
   target: SELECTED
   power: 1
-  accuracy: 90
+  accuracy: 100
   pp: 5
   mirror_move_affected: true
   uses_animation: MOVE_FIERY_WRATH

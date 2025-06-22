@@ -7888,7 +7888,7 @@ species {
   spatk: 120
   spdef: 70
   spe: 160
-  ability: ABILITY_AMPLIFIER
+  ability: ABILITY_ELUDE
   ability: ABILITY_LOW_VISIBILITY
   ability: ABILITY_TINTED_LENS
   innate: ABILITY_OMINOUS_SHROUD
@@ -8926,11 +8926,11 @@ species {
   spdef: 75
   spe: 100
   ability: ABILITY_TINTED_LENS
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_BIOFILM
   ability: ABILITY_MAGIC_GUARD
   innate: ABILITY_COMPOUND_EYES
+  innate: ABILITY_WONDER_SKIN
   innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_LEVITATE
   percent_female: 50
   learnset {
     level {
@@ -14784,7 +14784,7 @@ species {
   spdef: 120
   spe: 100
   ability: ABILITY_POISON_TOUCH
-  ability: ABILITY_NEUROFORCE
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_REGENERATOR
   innate: ABILITY_CLEAR_BODY
   innate: ABILITY_MERCILESS
@@ -33192,7 +33192,6 @@ species {
       path: "typhlosion/hisuian_mega/back"
       coords {
         size: 120
-        y_offset: 0
       }
     }
     palette: "typhlosion/hisuian_mega/normal"
@@ -56122,7 +56121,7 @@ species {
   ability: ABILITY_MOMENTUM
   ability: ABILITY_GLUTTONY
   innate: ABILITY_FIELD_EXPLORER
-  innate: ABILITY_SPEED_FORCE
+  innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_QUICK_FEET
   percent_female: 50
   learnset {
@@ -56947,10 +56946,10 @@ species {
   spdef: 100
   spe: 65
   ability: ABILITY_POISON_TOUCH
-  ability: ABILITY_SHIELD_DUST
+  ability: ABILITY_BIOFILM
   ability: ABILITY_AERODYNAMICS
   innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_NOCTURNAL
+  innate: ABILITY_SHIELDS_DOWN
   innate: ABILITY_LEVITATE
   percent_female: 50
   learnset {
@@ -65939,7 +65938,7 @@ species {
   spatk: 83
   spdef: 93
   spe: 55
-  ability: ABILITY_POISON_ABSORB
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_GLUTTONY
   ability: ABILITY_UNAWARE
   innate: ABILITY_STICKY_HOLD
@@ -88728,7 +88727,7 @@ species {
   spe: 84
   ability: ABILITY_AFTERMATH
   ability: ABILITY_UNBURDEN
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_CORROSION
   innate: ABILITY_STENCH
   innate: ABILITY_GLUTTONY
@@ -107398,7 +107397,7 @@ species {
   ability: ABILITY_MOLD_BREAKER
   innate: ABILITY_JUGGERNAUT
   innate: ABILITY_ANALYTIC
-  innate: ABILITY_IRON_FIST
+  innate: ABILITY_CHUCKSTER
   percent_female: 0
   tier: 2
   learnset {
@@ -117167,7 +117166,7 @@ species {
   spe: 30
   ability: ABILITY_INFILTRATOR
   ability: ABILITY_MYCELIUM_MIGHT
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_REGENERATOR
   innate: ABILITY_EFFECT_SPORE
   innate: ABILITY_DRY_SKIN
@@ -177875,8 +177874,8 @@ species {
   spdef: 67
   spe: 90
   ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_STALL
-  ability: ABILITY_TOXIC_SPILL
+  ability: ABILITY_BLUR
+  ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_SPEED_BOOST
   innate: ABILITY_FILTER
   innate: ABILITY_OVERCOAT
@@ -191606,7 +191605,7 @@ species {
       path: "iron_exo/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-         y_offset: 2
+        y_offset: 2
       }
     }
     palette: "iron_exo/normal"
@@ -192432,7 +192431,7 @@ species {
       path: "tinkatink/redux/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-         y_offset: 4
+        y_offset: 4
       }
     }
     palette: "tinkatink/redux/normal"
@@ -194255,7 +194254,6 @@ species {
       path: "luxray/redux_b/mega/back"
       coords {
         size: 135
-        y_offset: 0
       }
     }
     palette: "luxray/redux_b/mega/normal"
