@@ -9265,6 +9265,7 @@ moves {
     other: "TRUE"
   }
   snatch_affected: true
+  priority: 1
 }
 moves {
   id: MOVE_BELCH
@@ -10704,6 +10705,7 @@ moves {
   pp: 15
   effect_chance: 30
   ballistic: true
+  mega_launcher: true
 }
 moves {
   id: MOVE_CLANGING_SCALES
@@ -14325,7 +14327,7 @@ moves {
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
-  power: 80
+  power: 85
   accuracy: 100
   pp: 10
   effect_chance: 10
@@ -14343,7 +14345,7 @@ moves {
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
-  power: 80
+  power: 85
   accuracy: 100
   pp: 20
   effect_chance: 30
@@ -14379,7 +14381,7 @@ moves {
   split: PHYSICAL
   type: TYPE_FAIRY
   target: SELECTED
-  power: 80
+  power: 85
   accuracy: 100
   pp: 20
   effect_chance: 30
@@ -14397,7 +14399,7 @@ moves {
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
-  power: 80
+  power: 85
   accuracy: 100
   pp: 20
   effect_chance: 30

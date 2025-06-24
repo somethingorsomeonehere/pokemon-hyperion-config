@@ -22154,6 +22154,7 @@ species {
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_NATURE_POWER
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SUNNY_DAY
@@ -22165,7 +22166,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_VOLT_SWITCH
   }
   visuals {
     icon {
@@ -22259,6 +22260,7 @@ species {
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_NATURE_POWER
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
@@ -22272,7 +22274,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_VOLT_SWITCH
   }
   visuals {
     icon {
@@ -48106,6 +48108,7 @@ species {
       level: 24
       move: MOVE_CHILLING_WATER
       move: MOVE_ICICLE_SPEAR
+      move: MOVE_ROCK_BLAST
     }
     level {
       level: 37
@@ -48241,6 +48244,7 @@ species {
       move: MOVE_CHILLING_WATER
       move: MOVE_ICICLE_SPEAR
       move: MOVE_NOBLE_ROAR
+      move: MOVE_ROCK_BLAST
     }
     level {
       level: 37
@@ -76545,10 +76549,10 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -76846,11 +76850,12 @@ species {
     tutor: MOVE_SKY_DROP
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_DEFOG
   }
   visuals {
     icon {
@@ -95732,6 +95737,7 @@ species {
       move: MOVE_ICICLE_SPEAR
       move: MOVE_NOBLE_ROAR
       move: MOVE_STOMP
+      move: MOVE_ROCK_BLAST
     }
     level {
       level: 37
@@ -108368,6 +108374,7 @@ species {
       level: 46
       move: MOVE_BATON_PASS
       move: MOVE_FURY_CUTTER
+      move: MOVE_NOXIOUS_TORQUE
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BLOOD_SHOT
@@ -120329,6 +120336,7 @@ species {
       level: 51
       move: MOVE_DRACO_METEOR
       move: MOVE_GUILLOTINE
+      move: MOVE_GLAIVE_RUSH
     }
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_COUNTER
@@ -152153,6 +152161,8 @@ species {
       move: MOVE_FOLLOW_ME
       move: MOVE_ROLLOUT
       move: MOVE_THUNDER_SHOCK
+      move: MOVE_IRON_TAIL
+      move: MOVE_STEEL_ROLLER
     }
     level {
       level: 17
@@ -152170,6 +152180,7 @@ species {
       level: 37
       move: MOVE_ION_DELUGE
       move: MOVE_SUPERCELL_SLAM
+      move: MOVE_SPIN_OUT
     }
     level {
       level: 46
@@ -156404,6 +156415,7 @@ species {
       level: 51
       move: MOVE_OUTBURST
       move: MOVE_TRUMP_CARD
+      move: MOVE_RAGING_SOULS
     }
     level {
       level: 56
