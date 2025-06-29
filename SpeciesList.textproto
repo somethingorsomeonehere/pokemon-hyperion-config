@@ -110734,18 +110734,18 @@ species {
   form_of: SPECIES_DARUMAKA
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
-  hp: 70
+  hp: 50
   atk: 90
-  def: 45
+  def: 55
   spatk: 15
-  spdef: 45
+  spdef: 55
   spe: 50
-  ability: ABILITY_HUSTLE
-  ability: ABILITY_ICE_BODY
-  ability: ABILITY_HEATPROOF
+  ability: ABILITY_GORILLA_TACTICS
+  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_BATTLE_AURA
+  innate: ABILITY_EARTH_EATER
+  innate: ABILITY_EARTHBOUND
   innate: ABILITY_MOLD_BREAKER
-  innate: ABILITY_SHEER_FORCE
-  innate: ABILITY_INNER_FOCUS
   percent_female: 50
   tier: 2
   evo {
