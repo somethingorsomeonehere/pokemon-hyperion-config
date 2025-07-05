@@ -4158,7 +4158,7 @@ trainer {
       species: SPECIES_AMOONGUSS
       item: ITEM_LEFTOVERS
       nature: NATURE_BOLD
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_INFILTRATOR
       hp_ev: 252
       def_ev: 168
       spdef_ev: 88
@@ -15116,7 +15116,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -15196,7 +15196,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_CHOICE_SPECS
       nature: NATURE_TIMID
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -15551,7 +15551,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_PSYCHIC_GEM
       nature: NATURE_TIMID
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -28407,7 +28407,7 @@ trainer {
       species: SPECIES_AMOONGUSS
       item: ITEM_ROCKY_HELMET
       nature: NATURE_BOLD
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_INFILTRATOR
       hp_ev: 252
       def_ev: 168
       spdef_ev: 88
@@ -31326,7 +31326,7 @@ trainer {
       species: SPECIES_VENOMOTH
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_WONDER_SKIN
+      ability: ABILITY_TINTED_LENS
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -34892,7 +34892,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_CHOICE_SPECS
       nature: NATURE_TIMID
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -35127,7 +35127,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -42684,7 +42684,7 @@ trainer {
       species: SPECIES_TENTACRUEL
       item: ITEM_LEFTOVERS
       nature: NATURE_MODEST
-      ability: ABILITY_NEUROFORCE
+      ability: ABILITY_REGENERATOR
       hp_ev: 252
       spatk_ev: 252
       spdef_ev: 4
@@ -65861,7 +65861,7 @@ trainer {
       species: SPECIES_SWALOT
       item: ITEM_SITRUS_BERRY
       nature: NATURE_BOLD
-      ability: ABILITY_POISON_ABSORB
+      ability: ABILITY_UNAWARE
       hp_ev: 248
       def_ev: 252
       spdef_ev: 8
@@ -65916,7 +65916,7 @@ trainer {
       species: SPECIES_SKUNTANK
       item: ITEM_SITRUS_BERRY
       nature: NATURE_TIMID
-      ability: ABILITY_UNBURDEN
+      ability: ABILITY_AFTERMATH
       hp_ev: 132
       spatk_ev: 252
       spe_ev: 124
@@ -66613,7 +66613,7 @@ trainer {
       species: SPECIES_SKUNTANK
       item: ITEM_QUICK_CLAW
       nature: NATURE_MODEST
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_AFTERMATH
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 4
@@ -68986,7 +68986,7 @@ trainer {
       species: SPECIES_SKUNTANK
       item: ITEM_SALAC_BERRY
       nature: NATURE_TIMID
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_AFTERMATH
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -77435,7 +77435,7 @@ trainer {
       species: SPECIES_AMOONGUSS
       item: ITEM_GRASSY_SEED
       nature: NATURE_CALM
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_INFILTRATOR
       hp_ev: 252
       spatk_ev: 96
       spdef_ev: 160

@@ -4381,3 +4381,13 @@ ability {
   name: "Energy Tap"
   description: "Heals the user for 1/8 of the damage they deal."
 }
+ability {
+  id: ABILITY_SLUDGE_SPIT
+  name: "Sludge Spit"
+  description: "follows up with 35BP Venom Bolt after using an attack."
+}
+ability {
+  id: ABILITY_SWAMP_THING
+  name: "Swamp Thing"
+  description: "Sets the Swamp Pledge effect on entry."
+}

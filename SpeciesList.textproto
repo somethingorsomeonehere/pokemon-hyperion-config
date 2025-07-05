@@ -196991,19 +196991,20 @@ species {
     trainer_scale: 256
     pokemon_offset: 20
   }
-  type: TYPE_WATER
-  hp: 55
-  atk: 75
-  def: 50
-  spatk: 50
-  spdef: 50
-  spe: 40
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_MULTISCALE
+  type: TYPE_DRAGON
+  type2: TYPE_POISON
+  hp: 50
+  atk: 70
+  def: 43
+  spatk: 39
+  spdef: 41
+  spe: 77
   ability: ABILITY_REGENERATOR
-  innate: ABILITY_TORRENT
-  innate: ABILITY_FIELD_EXPLORER
-  innate: ABILITY_WATER_VEIL
+  ability: ABILITY_RATTLED
+  ability: ABILITY_SLUDGE_SPIT
+  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_ROUGH_SKIN
   percent_female: 50
   tier: 3
   evo {
@@ -197079,20 +197080,20 @@ species {
     trainer_scale: 256
     pokemon_offset: 7
   }
-  type: TYPE_WATER
-  type2: TYPE_GROUND
-  hp: 80
-  atk: 90
-  def: 70
-  spatk: 60
-  spdef: 70
-  spe: 50
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_FIELD_EXPLORER
-  ability: ABILITY_STAMINA
-  innate: ABILITY_TORRENT
-  innate: ABILITY_DRY_SKIN
-  innate: ABILITY_BATTLE_ARMOR
+  type: TYPE_DRAGON
+  type2: TYPE_POISON
+  hp: 75
+  atk: 95
+  def: 55
+  spatk: 45
+  spdef: 53
+  spe: 97
+  ability: ABILITY_REGENERATOR
+  ability: ABILITY_RATTLED
+  ability: ABILITY_SLUDGE_SPIT
+  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_ROUGH_SKIN
   percent_female: 50
   evo {
     to: SPECIES_SWAMPAGE
@@ -197171,18 +197172,18 @@ species {
   }
   type: TYPE_DRAGON
   type2: TYPE_POISON
-  hp: 80
-  atk: 120
-  def: 80
+  hp: 95
+  atk: 115
+  def: 75
   spatk: 60
-  spdef: 78
+  spdef: 73
   spe: 117
-  ability: ABILITY_TOXIC_DEBRIS
-  ability: ABILITY_ROUGH_SKIN
-  ability: ABILITY_STAMINA
+  ability: ABILITY_REGENERATOR
+  ability: ABILITY_ADRENALINE_RUSH
+  ability: ABILITY_SLUDGE_SPIT
   innate: ABILITY_AMPHIBIOUS
   innate: ABILITY_POISON_TOUCH
-  innate: ABILITY_SWIFT_SWIM
+  innate: ABILITY_TOUGH_CLAWS
   percent_female: 50
   learnset {
     level {
@@ -197253,20 +197254,20 @@ species {
 species {
   id: SPECIES_SWAMPAGE_MEGA
   form_of: SPECIES_SWAMPAGE
-  type: TYPE_WATER
-  type2: TYPE_GROUND
-  hp: 100
-  atk: 150
-  def: 130
-  spatk: 75
-  spdef: 110
-  spe: 70
-  ability: ABILITY_BREAKWATER
-  ability: ABILITY_BREAKWATER
-  ability: ABILITY_BREAKWATER
-  innate: ABILITY_RIPTIDE
-  innate: ABILITY_IRON_FIST
-  innate: ABILITY_REGENERATOR
+  type: TYPE_DRAGON
+  type2: TYPE_POISON
+  hp: 95
+  atk: 143
+  def: 98
+  spatk: 112
+  spdef: 95
+  spe: 92
+  ability: ABILITY_SWAMP_THING
+  ability: ABILITY_SWAMP_THING
+  ability: ABILITY_SWAMP_THING
+  innate: ABILITY_AMPHIBIOUS
+  innate: ABILITY_TOXIC_SURGE
+  innate: ABILITY_TOUGH_CLAWS
   percent_female: 50
   mega {
     from: SPECIES_SWAMPAGE
