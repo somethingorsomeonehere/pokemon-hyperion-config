@@ -4383,11 +4383,11 @@ ability {
 }
 ability {
   id: ABILITY_SLUDGE_SPIT
-  name: "Sludge Spit"
+  name: "Sludge Spit (N)"
   description: "follows up with 35BP Venom Bolt after using an attack."
 }
 ability {
   id: ABILITY_SWAMP_THING
-  name: "Swamp Thing"
+  name: "Swamp Thing (N)"
   description: "Sets the Swamp Pledge effect on entry."
 }
