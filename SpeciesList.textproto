@@ -79086,6 +79086,7 @@ species {
       level: 51
       move: MOVE_DOOM_DESIRE
       move: MOVE_METEOR_BEAM
+      move: MOVE_DRACO_METEOR
     }
     level {
       level: 56
