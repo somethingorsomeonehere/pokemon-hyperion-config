@@ -24209,7 +24209,7 @@ trainer {
       species: SPECIES_BEARTIC
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_GUTS
+      ability: ABILITY_QUICK_FEET
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -51672,7 +51672,7 @@ trainer {
       species: SPECIES_BEARTIC
       item: ITEM_ASSAULT_VEST
       nature: NATURE_JOLLY
-      ability: ABILITY_GUTS
+      ability: ABILITY_QUICK_FEET
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -51749,7 +51749,7 @@ trainer {
       species: SPECIES_BEARTIC
       item: ITEM_CHOICE_BAND
       nature: NATURE_JOLLY
-      ability: ABILITY_GUTS
+      ability: ABILITY_QUICK_FEET
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
