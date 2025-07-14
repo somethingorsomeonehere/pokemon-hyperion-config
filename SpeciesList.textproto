@@ -66630,18 +66630,18 @@ species {
     trainer_offset: 18
   }
   type: TYPE_WATER
-  hp: 170
-  atk: 90
-  def: 65
-  spatk: 90
-  spdef: 65
-  spe: 60
-  ability: ABILITY_WATER_VEIL
+  hp: 160
+  atk: 110
+  def: 64
+  spatk: 110
+  spdef: 110
+  spe: 1
+  ability: ABILITY_ANALYTIC
   ability: ABILITY_STAMINA
   ability: ABILITY_DRIZZLE
   innate: ABILITY_LIQUID_VOICE
-  innate: ABILITY_THICK_FAT
   innate: ABILITY_PRESSURE
+  innate: ABILITY_ATLAS
   percent_female: 50
   learnset {
     level {
@@ -197852,5 +197852,564 @@ species {
     }
     palette: "articuno/ex/normal"
     shiny: "articuno/ex/shiny"
+  }
+}
+species {
+  id: SPECIES_MINCCINO_REDUX
+  form_of: SPECIES_MINCCINO
+  type: TYPE_ICE
+  type2: TYPE_FAIRY
+  hp: 55
+  atk: 50
+  def: 40
+  spatk: 40
+  spdef: 40
+  spe: 75
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_OVERCOAT
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_LIMBER
+  percent_female: 75
+  tier: 1
+  evo {
+    to: SPECIES_CINCCINO_REDUX
+    level: 23
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_PLAY_NICE
+      move: MOVE_QUICK_ATTACK
+      move: MOVE_SING
+      move: MOVE_TAIL_WHIP
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_BATON_PASS
+      move: MOVE_ENCORE
+      move: MOVE_TAIL_SLAP
+      move: MOVE_FAKE_TEARS
+    }
+    level {
+      level: 37
+      move: MOVE_BULLET_SEED
+      move: MOVE_DECORATE
+      move: MOVE_FOLLOW_ME
+    }
+    level {
+      level: 46
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_ECHOED_VOICE
+    }
+    level {
+      level: 56
+      move: MOVE_TIDY_UP
+    }
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_COVET
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_REFRESH
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_U_TURN
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METRONOME
+  }
+  visuals {
+    icon {
+      path: "minccino/redux/icon"
+    }
+    front {
+      path: "minccino/redux/front"
+      coords {
+        size: 69
+        y_offset: 11
+      }
+    }
+    back {
+      path: "minccino/redux/back"
+      coords {
+        size: 119
+        y_offset: 6
+      }
+    }
+    palette: "minccino/redux/normal"
+    shiny: "minccino/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_CINCCINO_REDUX
+  form_of: SPECIES_CINCCINO
+  type: TYPE_ICE
+  type2: TYPE_FAIRY
+  hp: 75
+  atk: 95
+  def: 60
+  spatk: 65
+  spdef: 60
+  spe: 115
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_OVERCOAT
+  percent_female: 75
+  no_flip: true
+  evo {
+    to: SPECIES_FROSTUCCINO
+    level: 37
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_PLAY_NICE
+      move: MOVE_QUICK_ATTACK
+      move: MOVE_SING
+      move: MOVE_TAIL_WHIP
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_ROCK_BLAST
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_BATON_PASS
+      move: MOVE_ENCORE
+      move: MOVE_ICE_SPINNER
+      move: MOVE_TAIL_SLAP
+      move: MOVE_FAKE_TEARS
+    }
+    level {
+      level: 37
+      move: MOVE_BULLET_SEED
+      move: MOVE_DECORATE
+      move: MOVE_FOLLOW_ME
+    }
+    level {
+      level: 46
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_ECHOED_VOICE
+    }
+    level {
+      level: 56
+      move: MOVE_TIDY_UP
+    }
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_COVET
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_REFRESH
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_U_TURN
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METRONOME
+  }
+  visuals {
+    icon {
+      path: "cinccino/redux/icon"
+    }
+    front {
+      path: "cinccino/redux/front"
+      anim: ANIM_V_SLIDE
+      coords {
+        size: 69
+        y_offset: 7
+      }
+    }
+    back {
+      path: "cinccino/redux/back"
+      coords {
+        size: 135
+        y_offset: 7
+      }
+    }
+    palette: "cinccino/redux/normal"
+    shiny: "cinccino/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_FROSTUCCINO
+  dex {
+    name: "Frostuccino"
+    category: "Scarf"
+    description: "Their white fur feels amazing to touch. Cinccino\'s body is coated in a special oil that repels dust and helps it deflect attacks, such as punches."
+    national_dex_num: 573
+    body_color: BODY_COLOR_GRAY
+    egg_group: FIELD
+    height: 5
+    weight: 75
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_ICE
+  type2: TYPE_FAIRY
+  hp: 95
+  atk: 105
+  def: 70
+  spatk: 105
+  spdef: 70
+  spe: 120
+  ability: ABILITY_HOSPITALITY
+  ability: ABILITY_CUTE_CHARM
+  ability: ABILITY_WHITEOUT
+  innate: ABILITY_ARCTIC_FUR
+  innate: ABILITY_TANGLING_HAIR
+  innate: ABILITY_FROSTY_PRESCENCE
+  percent_female: 75
+  no_flip: true
+  learnset {
+    level {
+      level: 1
+      move: MOVE_PLAY_NICE
+      move: MOVE_QUICK_ATTACK
+      move: MOVE_SING
+      move: MOVE_TAIL_WHIP
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_ROCK_BLAST
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_BATON_PASS
+      move: MOVE_ENCORE
+      move: MOVE_ICE_SPINNER
+      move: MOVE_TAIL_SLAP
+      move: MOVE_FAKE_TEARS
+    }
+    level {
+      level: 37
+      move: MOVE_BULLET_SEED
+      move: MOVE_DECORATE
+      move: MOVE_FOLLOW_ME
+    }
+    level {
+      level: 46
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_ECHOED_VOICE
+    }
+    level {
+      level: 56
+      move: MOVE_TIDY_UP
+    }
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_COVET
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_REFRESH
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_U_TURN
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METRONOME
+  }
+  visuals {
+    icon {
+      path: "frostuccino/icon"
+    }
+    front {
+      path: "frostuccino/front"
+      anim: ANIM_V_SLIDE
+      coords {
+        size: 69
+        y_offset: 7
+      }
+    }
+    back {
+      path: "frostuccino/back"
+      coords {
+        size: 135
+        y_offset: 7
+      }
+    }
+    palette: "frostuccino/normal"
+    shiny: "frostuccino/shiny"
+  }
+}
+species {
+  id: SPECIES_IRON_PALETTE
+  dex {
+    name: "Iron Palette"
+    category: "Color Swap"
+    description: "A Pok\303\251mon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled."
+    national_dex_num: 352
+    hoenn_dex_num: 150
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    height: 10
+    weight: 220
+    pokemon_scale: 316
+    trainer_scale: 256
+    pokemon_offset: 10
+  }
+  type: TYPE_NORMAL
+  hp: 60
+  atk: 90
+  def: 70
+  spatk: 60
+  spdef: 120
+  spe: 40
+  ability: ABILITY_DEFEATIST
+  ability: ABILITY_RECEIVER
+  ability: ABILITY_KLUTZ
+  innate: ABILITY_COLOR_CHANGE
+  innate: ABILITY_PROTEAN
+  innate: ABILITY_CHEAP_TACTICS
+  percent_female: 50
+  tier: 4
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ASTONISH
+      move: MOVE_CAMOUFLAGE
+      move: MOVE_DETECT
+      move: MOVE_FAKE_OUT
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 17
+      move: MOVE_FEINT_ATTACK
+      move: MOVE_HONE_CLAWS
+      move: MOVE_MIMIC
+      move: MOVE_SLASH
+      move: MOVE_SNATCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+      move: MOVE_IMPRISON
+      move: MOVE_INSTRUCT
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_SYNCHRONOISE
+    }
+    level {
+      level: 37
+      move: MOVE_CONFIDE
+      move: MOVE_ME_FIRST
+      move: MOVE_POWER_SWAP
+      move: MOVE_RECOVER
+      move: MOVE_STRENGTH
+    }
+    level {
+      level: 46
+      move: MOVE_ANCIENT_POWER
+      move: MOVE_FLING
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_SWIFT
+    }
+    level {
+      level: 51
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_LAST_RESORT
+    }
+    level {
+      level: 56
+      move: MOVE_ENTRAINMENT
+      move: MOVE_SHED_TAIL
+    }
+    level {
+      level: 61
+      move: MOVE_BATON_PASS
+    }
+  }
+  visuals {
+    icon {
+      path: "iron_palette/icon"
+      palette: 1
+    }
+    front {
+      path: "iron_palette/front"
+      anim: ANIM_FLICKER_INCREASING
+      coords {
+        size: 103
+        y_offset: 5
+      }
+    }
+    back {
+      path: "iron_palette/back"
+      anim: BACK_ANIM_H_VIBRATE
+      coords {
+        size: 119
+        y_offset: 6
+      }
+    }
+    palette: "iron_palette/normal"
+    shiny: "iron_palette/shiny"
+        }
+      }
+species {
+  id: SPECIES_SINISTEA_REDUX
+  form_of: SPECIES_SINISTEA
+  type: TYPE_GHOST
+  hp: 40
+  atk: 45
+  def: 45
+  spatk: 74
+  spdef: 54
+  spe: 50
+  ability: ABILITY_WEAK_ARMOR
+  ability: ABILITY_DANCER
+  ability: ABILITY_AROMA_VEIL
+  innate: ABILITY_ECTOPLASM
+  innate: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_WATER_ABSORB
+  genderless: true
+  tier: 2
+  evo {
+    to: SPECIES_POLTEAGEIST_REDUX
+    level: 36
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_TEATIME
+    }
+    level {
+      level: 17
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_OMINOUS_WIND
+    }
+    level {
+      level: 24
+      move: MOVE_ASTONISH
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_PHANTOM_FORCE
+    }
+    level {
+      level: 37
+      move: MOVE_CHILLING_WATER
+    }
+    level {
+      level: 46
+      move: MOVE_POLTERGEIST
+    }
+    level {
+      level: 51
+      move: MOVE_SHELL_SMASH
+    }
+  }
+  visuals {
+    icon {
+      path: "sinistea/redux/icon"
+      palette: 2
+    }
+    front {
+      path: "sinistea/redux/front"
+      coords {
+        size: 84
+        y_offset: 17
+      }
+    }
+    back {
+      path: "sinistea/redux/back"
+      coords {
+        size: 100
+        y_offset: 16
+      }
+    }
+    palette: "sinistea/redux/normal"
+    shiny: "sinistea/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_POLTEAGEIST_REDUX
+  form_of: SPECIES_POLTEAGEIST
+  type: TYPE_GHOST
+  hp: 60
+  atk: 65
+  def: 65
+  spatk: 134
+  spdef: 114
+  spe: 70
+  ability: ABILITY_WEAK_ARMOR
+  ability: ABILITY_DANCER
+  ability: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_ECTOPLASM
+  innate: ABILITY_LIQUIFIED
+  innate: ABILITY_WATER_ABSORB
+  genderless: true
+  learnset {
+    level {
+      level: 1
+      move: MOVE_TEATIME
+    }
+    level {
+      level: 17
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_OMINOUS_WIND
+    }
+    level {
+      level: 24
+      move: MOVE_ASTONISH
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_PHANTOM_FORCE
+    }
+    level {
+      level: 37
+      move: MOVE_CHILLING_WATER
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_SCALD
+    }
+    level {
+      level: 46
+      move: MOVE_BERRY_SMASH
+      move: MOVE_POLTERGEIST
+    }
+    level {
+      level: 51
+      move: MOVE_OUTBURST
+      move: MOVE_RAGING_SOULS
+      move: MOVE_SHELL_SMASH
+    }
+    level {
+      level: 56
+      move: MOVE_STORED_POWER
+      move: MOVE_STRENGTH_SAP
+    }
+  }
+  visuals {
+    icon {
+      path: "polteageist/redux/icon"
+      palette: 2
+    }
+    front {
+      path: "polteageist/redux/front"
+      coords {
+        size: 102
+        y_offset: 11
+      }
+    }
+    back {
+      path: "polteageist/redux/back"
+      coords {
+        size: 133
+        y_offset: 13
+      }
+    }
+    palette: "polteageist/redux/normal"
+    shiny: "polteageist/redux/shiny"
   }
 }

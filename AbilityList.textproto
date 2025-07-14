@@ -4391,3 +4391,8 @@ ability {
   name: "Swamp Thing (N)"
   description: "Sets the Swamp Pledge effect on entry."
 }
+ability {
+  id: ABILITY_FROSTY_PRESCENCE
+  name: "Frosty Prescence"
+  description: "Uses Mist on entry."
+}
