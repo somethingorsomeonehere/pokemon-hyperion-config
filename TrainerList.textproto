@@ -3758,7 +3758,7 @@ trainer {
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_CRABONINATION
+      species: SPECIES_CRABRUISER_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_SOUL_CRUSHER
@@ -33070,7 +33070,7 @@ trainer {
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_CRABONINATION
+      species: SPECIES_CRABRUISER_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_SOUL_CRUSHER
@@ -76107,7 +76107,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_MALE
   ace {
     mon {
-      species: SPECIES_CRABONINATION
+      species: SPECIES_CRABRUISER_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_GRIP_PINCER

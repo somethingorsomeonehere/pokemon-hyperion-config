@@ -4396,3 +4396,8 @@ ability {
   name: "Frosty Prescence"
   description: "Uses Mist on entry."
 }
+ability {
+  id: ABILITY_CHILLING_PELLETS
+  name: "Chilling Pellets"
+  description: "Uses 13BP Icicle Spear when hit by contact."
+}

@@ -2278,3 +2278,156 @@ item {
   image: "aggronite"
   palette: "aggronite"
 }
+item {
+  id: ITEM_CARBONIXITE
+  name: "Carbonixite"
+  description: "Enables Carbonix to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_DRAGAPULTITE
+  name: "Dragapultite"
+  description: "Enables Dragapult to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_SANDSLASHITE_A
+  name: "Sandslashite-A"
+  description: "Enables Sandslash-A to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_KLEAVITE
+  name: "Kleavite"
+  description: "Enables Kleavor to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_SCYTHERITE
+  name: "Scytherite"
+  description: "Enables Scyther to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_HYDREIGONITE
+  name: "Hydreigonite"
+  description: "Enables Hydreigon to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_VANILLUXEITE
+  name: "Vanilluxeite"
+  description: "Enables Vanilluxe to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_HERACREUSITE
+  name: "Heracreusite"
+  description: "Enables Heracreus to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_EXCADRILLITE_R
+  name: "Excadrillite-R"
+  description: "Enables Excadrill-R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_MAMOSWINITE_R
+  name: "Mamoswinite-R"
+  description: "Enables Mamoswine-R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_VANILLUXEITE_R
+  name: "Vanilluxeite-R"
+  description: "Enables Vanilluxe-R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_CHANDELUREITE_R
+  name: "Chandelureite-R"
+  description: "Enables Chandelure-R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_SNEASLERITE
+  name: "Sneaslerite"
+  description: "Enables Sneasler to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_CLEFABITE
+  name: "Clefabite"
+  description: "Enables Clefable to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_GOODRITE_H
+  name: "Goodrite-H"
+  description: "Enables Goodra-H to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_TSAREENITE
+  name: "Tsareenite"
+  description: "Enables Tsareena to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_ALTARIANITE_R
+  name: "Altarianite-R"
+  description: "Enables Altaria-R to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
