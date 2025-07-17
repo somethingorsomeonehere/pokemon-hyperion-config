@@ -18706,7 +18706,7 @@ species {
   type: TYPE_WATER
   type2: TYPE_ICE
   hp: 90
-  atk: 95
+  atk: 100
   def: 70
   spatk: 100
   spdef: 95
@@ -18734,6 +18734,7 @@ species {
       move: MOVE_LOVELY_BITE
       move: MOVE_STOCKPILE
       move: MOVE_WATER_PLEDGE
+      move: MOVE_SPIKE_CANNON
     }
     level {
       level: 24
@@ -18853,14 +18854,14 @@ species {
   type: TYPE_WATER
   type2: TYPE_ICE
   hp: 90
-  atk: 130
+  atk: 135
   def: 110
   spatk: 110
   spdef: 110
   spe: 90
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_LIGHTNING_ROD
-  ability: ABILITY_HYDRATE
+  ability: ABILITY_SELF_SUFFICIENT
   innate: ABILITY_COLD_REBOUND
   innate: ABILITY_WATER_VEIL
   innate: ABILITY_ARCTIC_FUR
@@ -52963,9 +52964,10 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_NASTY_PLOT
   }
   visuals {
     icon {
@@ -53107,9 +53109,10 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_NASTY_PLOT
   }
   visuals {
     icon {
@@ -53249,9 +53252,10 @@ species {
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_NASTY_PLOT
   }
   visuals {
     icon {
@@ -74771,8 +74775,8 @@ species {
   spatk: 130
   spdef: 120
   spe: 120
-  ability: ABILITY_SOUL_EATER
   ability: ABILITY_CRYOMANCY
+  ability: ABILITY_FROSTBIND
   ability: ABILITY_BAD_LUCK
   innate: ABILITY_YUKI_ONNA
   innate: ABILITY_WHITEOUT
@@ -75922,6 +75926,7 @@ species {
     level {
       level: 51
       move: MOVE_BATON_PASS
+      move: MOVE_DEATHROLL
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AQUA_TAIL
@@ -80597,18 +80602,18 @@ species {
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_TORMENT
+    tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_U_TURN
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
   }
   visuals {
     icon {
@@ -80753,21 +80758,21 @@ species {
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_MACH_PUNCH
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_TORMENT
+    tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_U_TURN
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
   }
   visuals {
     icon {
@@ -80909,21 +80914,21 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_LOW_SWEEP
     tutor: MOVE_MACH_PUNCH
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_TORMENT
+    tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_LOW_SWEEP
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_U_TURN
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
   }
   visuals {
     icon {
@@ -85944,11 +85949,11 @@ species {
   spatk: 100
   spdef: 50
   spe: 115
-  ability: ABILITY_TECHNICIAN
+  ability: ABILITY_WATER_VEIL
   ability: ABILITY_PROPELLER_TAIL
   ability: ABILITY_HYDRATE
   innate: ABILITY_WATER_GALE_WINGS
-  innate: ABILITY_WATER_VEIL
+  innate: ABILITY_TECHNICIAN
   innate: ABILITY_INFLATABLE
   percent_female: 50
   learnset {
@@ -85965,6 +85970,7 @@ species {
       move: MOVE_ICE_FANG
       move: MOVE_ME_FIRST
       move: MOVE_WATERFALL
+      move: MOVE_ICICLE_SPEAR
     }
     level {
       level: 24
@@ -146000,12 +146006,12 @@ species {
   spatk: 85
   spdef: 75
   spe: 111
-  ability: ABILITY_LUNAR_ECLIPSE
+  ability: ABILITY_STURDY
   ability: ABILITY_SMOKEY_MANEUVERS
   ability: ABILITY_WEAK_ARMOR
   innate: ABILITY_DEAD_POWER
   innate: ABILITY_TO_THE_BONE
-  innate: ABILITY_SOUL_EATER
+  innate: ABILITY_LUNAR_ECLIPSE
   percent_female: 50
   learnset {
     level {
@@ -153846,7 +153852,7 @@ species {
   ability: ABILITY_GRASS_PELT
   ability: ABILITY_CHLOROPLAST
   ability: ABILITY_HARVEST
-  innate: ABILITY_MIGHTY_HORN
+  innate: ABILITY_TOUGH_CLAWS
   innate: ABILITY_GRASSY_SURGE
   innate: ABILITY_REGENERATOR
   genderless: true
@@ -166493,8 +166499,6 @@ species {
       level: 61
       move: MOVE_DOUBLE_SHOCK
       move: MOVE_SMITE
-      move: MOVE_COLLISION_COURSE
-      move: MOVE_ELECTRO_DRIFT
     }
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FOUL_PLAY
@@ -167906,9 +167910,9 @@ species {
   type: TYPE_DRAGON
   type2: TYPE_GHOST
   hp: 88
-  atk: 120
+  atk: 110
   def: 75
-  spatk: 100
+  spatk: 110
   spdef: 75
   spe: 142
   ability: ABILITY_CLEAR_BODY
@@ -197390,10 +197394,10 @@ species {
   type: TYPE_GHOST
   type2: TYPE_FIRE
   hp: 80
-  atk: 75
+  atk: 65
   def: 100
-  spatk: 175
-  spdef: 120
+  spatk: 190
+  spdef: 115
   spe: 90
   ability: ABILITY_PURGATORY
   ability: ABILITY_SHADOW_SHIELD
@@ -197783,12 +197787,12 @@ species {
   form_of: SPECIES_ARTICUNO
   type: TYPE_ICE
   type2: TYPE_FLYING
-  hp: 90
+  hp: 120
   atk: 85
   def: 110
-  spatk: 95
+  spatk: 125
   spdef: 135
-  spe: 85
+  spe: 105
   ability: ABILITY_NORTH_WIND
   ability: ABILITY_SNOW_WARNING
   ability: ABILITY_ICE_SCALES
