@@ -4393,111 +4393,111 @@ ability {
 }
 ability {
   id: ABILITY_FROSTY_PRESCENCE
-  name: "Frosty Prescence"
+  name: "Frosty Prescence (P)"
   description: "Uses Mist on entry."
 }
 ability {
   id: ABILITY_CHILLING_PELLETS
-  name: "Chilling Pellets"
+  name: "Chilling Pellets (P)"
   description: "Uses 13BP Icicle Spear when hit by contact."
 }
 ability {
   id: ABILITY_PAINT_SHOT
-  name: "Paint Shot"
+  name: "Paint Shot (N)"
   description: "Mega launcher moves change the target's type to the move used."
 }
 ability {
   id: ABILITY_STONECUTTER
-  name: "Stonecutter"
+  name: "Stonecutter (N)"
   description: "Fossilized + Rock moves ignore abilities."
 }
 ability {
   id: ABILITY_EDGELORD
-  name: "Edgelord"
+  name: "Edgelord (N)"
   description: "First Keen Edge move each entry gets +1 priority. Resets on KO."
 }
 ability {
   id: ABILITY_WARMONGER
-  name: "Warmonger"
+  name: "Warmonger (N)"
   description: "Boosts the user's rock, steel, and dragon moves by 30%."
 }
 ability {
   id: ABILITY_LOCUST_SWARM
-  name: "Locust Swarm"
+  name: "Locust Swarm (N)"
   description: "Changes into Hivemind form until 1/4 HP or less."
 }
 ability {
   id: ABILITY_REVELATION
-  name: "Revelation"
+  name: "Revelation (N)"
   description: "Changes into Revelation form until 1/4 HP or less."
 }
 ability {
   id: ABILITY_CURSE_OF_FAMINE
-  name: "Curse of Famine"
+  name: "Curse of Famine (N)"
   description: "Eats terrain, restores hp, and boosts a defense."
 }
 ability {
   id: ABILITY_CRYSTALLINE_ARMOR
-  name: "Crystalline Armor"
+  name: "Crystalline Armor (N)"
   description: "Reflects stat drops and immune to critical hits."
 }
 ability {
   id: ABILITY_SOUL_HARVEST
-  name: "Soul Harvest"
+  name: "Soul Harvest (N)"
   description: "Fainted Pokemon increase your offenses and spdef by 5%."
 }
 ability {
   id: ABILITY_THICK_BLUBBER
-  name: "Thick Blubber"
+  name: "Thick Blubber (N)"
   description: "Take 1/4 damage from fire and ice in return for having 1/2 speed."
 }
 ability {
   id: ABILITY_CRAVING
-  name: "Craving"
+  name: "Craving (N)"
   description: "Eat a random berry at the end of the turn."
 }
 ability {
   id: ABILITY_RAT_KING
-  name: "Rat King"
+  name: "Rat King (N)"
   description: "Allies with a BST below 400 get their stats boosted by 50%."
 }
 ability {
   id: ABILITY_CRISPY_CREAM
-  name: "Crispy Cream"
+  name: "Crispy Cream (N)"
   description: "30% to inflict burn/frostbite when hit by contact."
 }
 ability {
   id: ABILITY_DEEP_FRIED
-  name: "Deep Fried"
+  name: "Deep Fried (N)"
   description: "Summons a sea of fire on entry."
 }
 ability {
   id: ABILITY_FOOD_LOVERS
-  name: "Food Lovers"
+  name: "Food Lovers (N)"
   description: "Hospitality + Friend Guard."
 }
 ability {
   id: ABILITY_LUNAR_WRATH
-  name: "Lunar Wrath"
+  name: "Lunar Wrath (N)"
   description: "After using a Ghost move, follow up with a 50BP Moongeist Beam."
 }
 ability {
   id: ABILITY_SPYWARE
-  name: "Spyware"
+  name: "Spyware (N)"
   description: "Sharply raises a stat based on foe's strong point."
 }
 ability {
   id: ABILITY_VIRUS
-  name: "Virus"
+  name: "Virus (N)"
   description: "Electric moves have 50% chance to poison as well."
 }
 ability {
   id: ABILITY_POWER_LEAK
-  name: "Power Leak"
+  name: "Power Leak (N)"
   description: "When hit, set up Electric Terrain."
 }
 ability {
   id: ABILITY_BACKUP_POWER
-  name: "Backup Power"
+  name: "Backup Power (N)"
   description: "Revives at 25% HP once after fainting in Electric Terrain."
 }

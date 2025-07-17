@@ -199785,7 +199785,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_WATER
+  type: TYPE_BUG
+  type2: TYPE_GHOST
   hp: 50
   atk: 130
   def: 120
@@ -199882,8 +199883,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_GHOST
-  type2: TYPE_POISON
+  type: TYPE_POISON
+  type2: TYPE_GHOST
   hp: 102
   atk: 126
   def: 68
@@ -200189,19 +200190,19 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type2: TYPE_FLYING
+  hp: 96
+  atk: 75
+  def: 65
+  spatk: 122
+  spdef: 62
+  spe: 111
+  ability: ABILITY_OPPORTUNIST
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_CLOUD_NINE
+  innate: ABILITY_ADAPTABILITY
+  innate: ABILITY_AMPLIFIER
+  innate: ABILITY_PARROTING
   percent_female: 50
   tier: 3
   learnset {
@@ -200542,9 +200543,9 @@ species {
   }
   type: TYPE_FIGHTING
   type2: TYPE_ICE
-  hp: 127
+  hp: 137
   atk: 152
-  def: 117
+  def: 107
   spatk: 62
   spdef: 87
   spe: 43
@@ -201134,20 +201135,20 @@ species {
 species {
   id: SPECIES_PENTADUG_ALOLAN
   form_of: SPECIES_PENTADUG
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
+  type: TYPE_GROUND
+  type2: TYPE_STEEL
   hp: 70
   atk: 130
   def: 75
   spatk: 55
   spdef: 75
   spe: 120
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
+  ability: ABILITY_LOOSE_ROCKS
+  ability: ABILITY_ARENA_TRAP
+  ability: ABILITY_STEELWORKER
+  innate: ABILITY_MULTI_HEADED
   innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   tier: 3
   learnset {
@@ -201223,20 +201224,20 @@ species {
 species {
   id: SPECIES_DRILBUR_REDUX
   form_of: SPECIES_DRILBUR
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_DRAGON
+  type2: TYPE_ROCK
+  hp: 63
+  atk: 65
+  def: 50
+  spatk: 25
+  spdef: 55
+  spe: 70
+  ability: ABILITY_EARTHBOUND
+  ability: ABILITY_SOLID_ROCK
+  ability: ABILITY_BATTLE_ARMOR
+  innate: ABILITY_GROUNDED
+  innate: ABILITY_THICK_FAT
+  innate: ABILITY_ROCKHARD_WILL
   percent_female: 50
   tier: 3
   evo {
@@ -201332,10 +201333,6 @@ species {
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
   tier: 3
-  evo {
-    to: SPECIES_DRILBUR_REDUX
-    level: 35
-  }
   evo {
     to: SPECIES_EXCADRILL_REDUX_MEGA
     level: 46
@@ -201502,20 +201499,20 @@ species {
 species {
   id: SPECIES_SWINUB_REDUX
   form_of: SPECIES_SWINUB
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_GROUND
+  type2: TYPE_GRASS
+  hp: 55
+  atk: 55
+  def: 35
+  spatk: 35
+  spdef: 35
+  spe: 35
+  ability: ABILITY_EARTHBOUND
+  ability: ABILITY_GRASS_PELT
+  ability: ABILITY_RAW_WOOD
+  innate: ABILITY_FLUFFY
+  innate: ABILITY_THICK_FAT
+  innate: ABILITY_HARVEST
   percent_female: 50
   tier: 3
   evo {
@@ -201595,20 +201592,20 @@ species {
 species {
   id: SPECIES_PILOSWINE_REDUX
   form_of: SPECIES_PILOSWINE
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_GROUND
+  type2: TYPE_GRASS
+  hp: 90
+  atk: 100
+  def: 65
+  spatk: 65
+  spdef: 65
+  spe: 65
+  ability: ABILITY_EARTHBOUND
+  ability: ABILITY_GRASS_PELT
+  ability: ABILITY_RAW_WOOD
+  innate: ABILITY_OBLIVIOUS
+  innate: ABILITY_THICK_FAT
+  innate: ABILITY_HARVEST
   percent_female: 50
   tier: 3
   evo {
@@ -201824,20 +201821,19 @@ species {
 species {
   id: SPECIES_RATTATA_REDUX
   form_of: SPECIES_RATTATA
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_POISON
+  hp: 35
+  atk: 66
+  def: 40
+  spatk: 20
+  spdef: 30
+  spe: 62
+  ability: ABILITY_HUSTLE
+  ability: ABILITY_ANGER_POINT
+  ability: ABILITY_LOOTER
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_STENCH
+  innate: ABILITY_SCRAPPY
   percent_female: 50
   tier: 3
   evo {
@@ -202006,20 +202002,20 @@ species {
 species {
   id: SPECIES_VANILLITE_REDUX
   form_of: SPECIES_VANILLITE
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_ICE
+  type2: TYPE_FIRE
+  hp: 51
+  atk: 75
+  def: 45
+  spatk: 45
+  spdef: 50
+  spe: 55
+  ability: ABILITY_WELL_BAKED_BODY
+  ability: ABILITY_HOSPITALITY
+  ability: ABILITY_SUGAR_RUSH
+  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_CRISPY_CREAM
   percent_female: 50
   tier: 3
   evo {
@@ -202099,20 +202095,20 @@ species {
 species {
   id: SPECIES_VANILLISH_REDUX
   form_of: SPECIES_VANILLISH
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_ICE
+  type2: TYPE_FIRE
+  hp: 66
+  atk: 95
+  def: 60
+  spatk: 60
+  spdef: 65
+  spe: 65
+  ability: ABILITY_WELL_BAKED_BODY
+  ability: ABILITY_HOSPITALITY
+  ability: ABILITY_SUGAR_RUSH
+  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_CRISPY_CREAM
   percent_female: 50
   tier: 3
   evo {
@@ -202328,20 +202324,20 @@ species {
 species {
   id: SPECIES_LARVESTA_REDUX
   form_of: SPECIES_LARVESTA
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_BUG
+  type2: TYPE_DARK
+  hp: 35
+  atk: 55
+  def: 55
+  spatk: 70
+  spdef: 80
+  spe: 65
+  ability: ABILITY_MOON_SPIRIT
+  ability: ABILITY_LUNAR_AFFINITY
+  ability: ABILITY_WANDERING_SPIRIT
+  innate: ABILITY_PHANTOM
+  innate: ABILITY_PRISM_ARMOR
+  innate: ABILITY_NOCTURNAL
   percent_female: 50
   tier: 3
   evo {
@@ -202635,47 +202631,72 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_ZING_ZAP
+      move: MOVE_ELECTRO_BALL
+      move: MOVE_CHARGE
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_BAD_EGG
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_SHOCK_WAVE
+      move: MOVE_POISON_STING
+      move: MOVE_SPARK
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_NUZZLE
+      move: MOVE_SUPERCELL_SLAM
+      move: MOVE_ACID_SPRAY
+      move: MOVE_KARMA
+      move: MOVE_TOXIC_PLUNGE
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_GEAR_UP
+      move: MOVE_SHIFT_GEAR
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_ZAP_CANNON
+      move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_MALIGNANT_CHAIN
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_AURA_WHEEL
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_ELECTRO_DRIFT
+      move: MOVE_BOLT_STRIKE
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_CURSE
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
   }
   visuals {
     icon {
@@ -202722,7 +202743,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_WEEPINBELL
+    to: SPECIES_WEEPINBELL_REDUX
     level: 21
   }
   learnset {
@@ -202815,7 +202836,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_VICTREEBEL
+    to: SPECIES_VICTREEBEL_REDUX
     level: 36
   }
   learnset {
@@ -203158,12 +203179,12 @@ species {
   form_of: SPECIES_LITWICK
   type: TYPE_NORMAL
   type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
+  hp: 65
+  atk: 30
+  def: 55
+  spatk: 75
+  spdef: 55
+  spe: 25
   ability: ABILITY_ENVENOM
   ability: ABILITY_POISON_QUILLS
   ability: ABILITY_OMINOUS_SHROUD
@@ -203173,7 +203194,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_LAMPENT
+    to: SPECIES_LAMPENT_REDUX
     level: 23
   }
   learnset {
@@ -203251,12 +203272,12 @@ species {
   form_of: SPECIES_LAMPENT
   type: TYPE_NORMAL
   type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
+  hp: 80
+  atk: 40
+  def: 55
+  spatk: 95
+  spdef: 55
+  spe: 45
   ability: ABILITY_ENVENOM
   ability: ABILITY_POISON_QUILLS
   ability: ABILITY_OMINOUS_SHROUD
@@ -203266,7 +203287,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_CHANDELURE
+    to: SPECIES_CHANDELURE_REDUX
     level: 41
   }
   learnset {
