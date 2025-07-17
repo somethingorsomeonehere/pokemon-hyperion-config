@@ -39,7 +39,7 @@ ability {
 ability {
   id: ABILITY_LIMBER
   name: "Limber"
-  description: "Immune to paralysis. Takes 50% less recoil damage."
+  description: "Paralysis immune, Takes 50% less recoil, immune to stat drops."
 }
 ability {
   id: ABILITY_SAND_VEIL
@@ -4400,4 +4400,104 @@ ability {
   id: ABILITY_CHILLING_PELLETS
   name: "Chilling Pellets"
   description: "Uses 13BP Icicle Spear when hit by contact."
+}
+ability {
+  id: ABILITY_PAINT_SHOT
+  name: "Paint Shot"
+  description: "Mega launcher moves change the target's type to the move used."
+}
+ability {
+  id: ABILITY_STONECUTTER
+  name: "Stonecutter"
+  description: "Fossilized + Rock moves ignore abilities."
+}
+ability {
+  id: ABILITY_EDGELORD
+  name: "Edgelord"
+  description: "First Keen Edge move each entry gets +1 priority. Resets on KO."
+}
+ability {
+  id: ABILITY_WARMONGER
+  name: "Warmonger"
+  description: "Boosts the user's rock, steel, and dragon moves by 30%."
+}
+ability {
+  id: ABILITY_LOCUST_SWARM
+  name: "Locust Swarm"
+  description: "Changes into Hivemind form until 1/4 HP or less."
+}
+ability {
+  id: ABILITY_REVELATION
+  name: "Revelation"
+  description: "Changes into Revelation form until 1/4 HP or less."
+}
+ability {
+  id: ABILITY_CURSE_OF_FAMINE
+  name: "Curse of Famine"
+  description: "Eats terrain, restores hp, and boosts a defense."
+}
+ability {
+  id: ABILITY_CRYSTALLINE_ARMOR
+  name: "Crystalline Armor"
+  description: "Reflects stat drops and immune to critical hits."
+}
+ability {
+  id: ABILITY_SOUL_HARVEST
+  name: "Soul Harvest"
+  description: "Fainted Pokemon increase your offenses and spdef by 5%."
+}
+ability {
+  id: ABILITY_THICK_BLUBBER
+  name: "Thick Blubber"
+  description: "Take 1/4 damage from fire and ice in return for having 1/2 speed."
+}
+ability {
+  id: ABILITY_CRAVING
+  name: "Craving"
+  description: "Eat a random berry at the end of the turn."
+}
+ability {
+  id: ABILITY_RAT_KING
+  name: "Rat King"
+  description: "Allies with a BST below 400 get their stats boosted by 50%."
+}
+ability {
+  id: ABILITY_CRISPY_CREAM
+  name: "Crispy Cream"
+  description: "30% to inflict burn/frostbite when hit by contact."
+}
+ability {
+  id: ABILITY_DEEP_FRIED
+  name: "Deep Fried"
+  description: "Summons a sea of fire on entry."
+}
+ability {
+  id: ABILITY_FOOD_LOVERS
+  name: "Food Lovers"
+  description: "Hospitality + Friend Guard."
+}
+ability {
+  id: ABILITY_LUNAR_WRATH
+  name: "Lunar Wrath"
+  description: "After using a Ghost move, follow up with a 50BP Moongeist Beam."
+}
+ability {
+  id: ABILITY_SPYWARE
+  name: "Spyware"
+  description: "Sharply raises a stat based on foe's strong point."
+}
+ability {
+  id: ABILITY_VIRUS
+  name: "Virus"
+  description: "Electric moves have 50% chance to poison as well."
+}
+ability {
+  id: ABILITY_POWER_LEAK
+  name: "Power Leak"
+  description: "When hit, set up Electric Terrain."
+}
+ability {
+  id: ABILITY_BACKUP_POWER
+  name: "Backup Power"
+  description: "Revives at 25% HP once after fainting in Electric Terrain."
 }

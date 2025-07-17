@@ -9218,10 +9218,6 @@ species {
   percent_female: 50
   heads: 3
   evo {
-    to: SPECIES_DIGLETT
-    level: 26
-  }
-  evo {
     to: SPECIES_PENTADUG
     level: 37
   }
@@ -9482,10 +9478,6 @@ species {
   percent_female: 50
   heads: 3
   no_flip: true
-  evo {
-    to: SPECIES_DIGLETT_ALOLAN
-    level: 26
-  }
   evo {
     to: SPECIES_PENTADUG_ALOLAN
     level: 37
@@ -42250,7 +42242,7 @@ species {
   ability: ABILITY_RUN_AWAY
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_MAGIC_GUARD
-  innate: ABILITY_SCHOOLING
+  innate: ABILITY_REVELATION
   innate: ABILITY_LEVITATE
   innate: ABILITY_REGENERATOR
   genderless: true
@@ -42330,7 +42322,7 @@ species {
   ability: ABILITY_ANTICIPATION
   ability: ABILITY_MINION_CONTROL
   ability: ABILITY_MAGIC_BOUNCE
-  innate: ABILITY_SCHOOLING
+  innate: ABILITY_REVELATION
   innate: ABILITY_WONDER_SKIN
   innate: ABILITY_UNOWN_POWER
   genderless: true
@@ -48922,7 +48914,7 @@ species {
   ability: ABILITY_SLUSH_RUSH
   innate: ABILITY_THICK_FAT
   innate: ABILITY_MAGIC_BOUNCE
-  innate: ABILITY_CHRISTMAS_SPIRIT
+  innate: ABILITY_AERILATE
   percent_female: 50
   tier: 1
   evo {
@@ -177393,10 +177385,6 @@ species {
   percent_female: 50
   heads: 3
   evo {
-    to: SPECIES_WIGLETT
-    level: 26
-  }
-  evo {
     to: SPECIES_PENTAWUG
     level: 37
   }
@@ -193680,7 +193668,6 @@ species {
 }
 species {
   id: SPECIES_SLATE
-  randomizer_banned: SPECIES_HIDDEN
   dex {
     name: "Slate"
     category: "???"
@@ -193703,12 +193690,12 @@ species {
   spatk: 110
   spdef: 110
   spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  ability: ABILITY_PAINT_SHOT
+  ability: ABILITY_STONECUTTER
+  ability: ABILITY_EDGELORD
+  innate: ABILITY_WARMONGER
+  innate: ABILITY_CURSE_OF_FAMINE
+  innate: ABILITY_CRYSTALLINE_ARMOR
   percent_female: 50
   tier: 3
   learnset {
@@ -198233,7 +198220,7 @@ species {
   ability: ABILITY_STALL
   innate: ABILITY_QUARK_DRIVE
   innate: ABILITY_SUPER_SCOPE
-  innate: ABILITY_CHEAP_TACTICS
+  innate: ABILITY_PAINT_SHOT
   percent_female: 50
   tier: 4
   learnset {
@@ -198404,7 +198391,7 @@ species {
   ability: ABILITY_OVERWHELM
   ability: ABILITY_OVERCOAT
   ability: ABILITY_LONG_REACH
-  innate: ABILITY_ECTOPLASM
+  innate: ABILITY_WARMONGER
   innate: ABILITY_LIMBER
   innate: ABILITY_FIGHT_SPIRIT
   genderless: true
@@ -198493,7 +198480,7 @@ species {
   spatk: 115
   spdef: 65
   spe: 95
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_SNOW_WARNING
   ability: ABILITY_PRANKSTER
   ability: ABILITY_SLUSH_RUSH
   innate: ABILITY_THICK_FAT
@@ -199047,19 +199034,19 @@ species {
     trainer_offset: 14
   }
   type: TYPE_ROCK
-  type2: TYPE_GROUND
-  hp: 65
-  atk: 70
-  def: 160
-  spatk: 30
-  spdef: 55
-  spe: 70
-  ability: ABILITY_ROCK_HEAD
-  ability: ABILITY_STAMINA
+  type2: TYPE_DRAGON
+  hp: 75
+  atk: 55
+  def: 75
+  spatk: 105
+  spdef: 200
+  spe: 20
   ability: ABILITY_SAND_STREAM
+  ability: ABILITY_MAGIC_GUARD
+  ability: ABILITY_EARTH_EATER
   innate: ABILITY_STURDY
-  innate: ABILITY_ROUGH_SKIN
-  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_ARCANE_FORCE
+  innate: ABILITY_ADAPTABILITY
   percent_female: 50
   tier: 4
   learnset {
@@ -199165,95 +199152,23 @@ species {
   id: SPECIES_CARBONIX_MEGA
   form_of: SPECIES_CARBONIX
   type: TYPE_ROCK
-  type2: TYPE_GROUND
-  hp: 65
-  atk: 70
-  def: 160
-  spatk: 30
-  spdef: 55
-  spe: 70
-  ability: ABILITY_ROCK_HEAD
-  ability: ABILITY_STAMINA
-  ability: ABILITY_SAND_STREAM
-  innate: ABILITY_STURDY
-  innate: ABILITY_ROUGH_SKIN
-  innate: ABILITY_SOLID_ROCK
+  type2: TYPE_DRAGON
+  hp: 75
+  atk: 55
+  def: 105
+  spatk: 145
+  spdef: 230
+  spe: 20
+  ability: ABILITY_OVERWHELM
+  ability: ABILITY_IMPENETRABLE
+  ability: ABILITY_EARTH_EATER
+  innate: ABILITY_CRYSTALLINE_ARMOR
+  innate: ABILITY_ARCANE_FORCE
+  innate: ABILITY_ADAPTABILITY
   percent_female: 50
-  tier: 4
-  learnset {
-    level {
-      level: 1
-      move: MOVE_BLOCK
-      move: MOVE_DEFENSE_CURL
-      move: MOVE_ROCK_POLISH
-      move: MOVE_ROLLOUT
-      move: MOVE_SELF_DESTRUCT
-      move: MOVE_SHARPEN
-      move: MOVE_SMACK_DOWN
-      move: MOVE_WRAP
-    }
-    level {
-      level: 17
-      move: MOVE_DRAGON_BREATH
-      move: MOVE_DRAGON_DANCE
-      move: MOVE_DRAGON_RUSH
-      move: MOVE_STEAMROLLER
-      move: MOVE_STEEL_ROLLER
-    }
-    level {
-      level: 24
-      move: MOVE_IRON_TAIL
-      move: MOVE_JAGGED_FANGS
-      move: MOVE_SCARY_FACE
-      move: MOVE_SUBMISSION
-    }
-    level {
-      level: 37
-      move: MOVE_NOBLE_ROAR
-      move: MOVE_ROCK_WRECKER
-      move: MOVE_DOUBLE_EDGE
-    }
-    level {
-      level: 46
-      move: MOVE_FISSURE
-      move: MOVE_HEADLONG_RUSH
-    }
-    level {
-      level: 51
-      move: MOVE_HEAD_SMASH
-    }
-    tutor: MOVE_AGILITY
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_BREAKING_SWIPE
-    tutor: MOVE_BULLDOZE
-    tutor: MOVE_COUNTER
-    tutor: MOVE_CURSE
-    tutor: MOVE_DIG
-    tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_DRAGON_PULSE
-    tutor: MOVE_DRAGON_TAIL
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HARD_PRESS
-    tutor: MOVE_HEAVY_SLAM
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_DEFENSE
-    tutor: MOVE_IRON_HEAD
-    tutor: MOVE_KNOCK_OFF
-    tutor: MOVE_POISON_TAIL
-    tutor: MOVE_REFRESH
-    tutor: MOVE_ROCK_SLIDE
-    tutor: MOVE_ROCK_THROW
-    tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_ROTOTILLER
-    tutor: MOVE_SANDSTORM
-    tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_STONE_EDGE
-    tutor: MOVE_TAUNT
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
+  mega {
+    from: SPECIES_CARBONIX
+    item: ITEM_CARBONIXITE
   }
   visuals {
     icon {
@@ -199297,10 +199212,10 @@ species {
   type: TYPE_POISON
   hp: 70
   atk: 100
-  def: 77
+  def: 87
   spatk: 50
-  spdef: 77
-  spe: 156
+  spdef: 87
+  spe: 136
   ability: ABILITY_SCAVENGER
   ability: ABILITY_GRAPPLER
   ability: ABILITY_GOOEY
@@ -199784,9 +199699,9 @@ species {
   ability: ABILITY_SHIELD_DUST
   ability: ABILITY_EARLY_GRAVE
   ability: ABILITY_SURPRISE
-  innate: ABILITY_SCHOOLING
+  innate: ABILITY_LOCUST_SWARM
   innate: ABILITY_SHADOW_SHIELD
-  innate: ABILITY_MULTISCALE
+  innate: ABILITY_CURSE_OF_FAMINE
   percent_female: 50
   tier: 3
   learnset {
@@ -199880,9 +199795,9 @@ species {
   ability: ABILITY_SHIELD_DUST
   ability: ABILITY_EARLY_GRAVE
   ability: ABILITY_SURPRISE
-  innate: ABILITY_SCHOOLING
+  innate: ABILITY_LOCUST_SWARM
   innate: ABILITY_SHADOW_SHIELD
-  innate: ABILITY_MULTISCALE
+  innate: ABILITY_CURSE_OF_FAMINE
   percent_female: 50
   tier: 3
   learnset {
@@ -199980,7 +199895,7 @@ species {
   ability: ABILITY_FATAL_PRECISION
   innate: ABILITY_QUARK_DRIVE
   innate: ABILITY_POWER_EDGE
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_SOUL_HARVEST
   percent_female: 50
   tier: 3
   learnset {
@@ -200477,20 +200392,19 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
+  type: TYPE_GROUND
+  hp: 75
+  atk: 120
+  def: 75
+  spatk: 55
+  spdef: 70
+  spe: 130
+  ability: ABILITY_LOOSE_ROCKS
+  ability: ABILITY_ARENA_TRAP
+  ability: ABILITY_EARTHBOUND
+  innate: ABILITY_MULTI_HEADED
   innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_SPEED_FORCE
   percent_female: 50
   tier: 3
   learnset {
@@ -200582,51 +200496,9 @@ species {
   innate: ABILITY_EQUINOX
   innate: ABILITY_SPIKE_ARMOR
   percent_female: 50
-  tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_FROST_BRAND
-    }
-    level {
-      level: 17
-      move: MOVE_SKETCH
-    }
-    level {
-      level: 24
-      move: MOVE_BIND
-    }
-    level {
-      level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+  mega {
+    from: SPECIES_HERACREUS
+    item: ITEM_HERACREUSITE
   }
   visuals {
     icon {
@@ -200670,9 +200542,9 @@ species {
   }
   type: TYPE_FIGHTING
   type2: TYPE_ICE
-  hp: 97
-  atk: 132
-  def: 97
+  hp: 127
+  atk: 152
+  def: 117
   spatk: 62
   spdef: 87
   spe: 43
@@ -200777,66 +200649,24 @@ species {
 species {
   id: SPECIES_DRAGAPULT_MEGA
   form_of: SPECIES_DRAGAPULT
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_DRAGON
+  type2: TYPE_GHOST
+  hp: 88
+  atk: 130
+  def: 90
+  spatk: 130
+  spdef: 90
+  spe: 172
+  ability: ABILITY_CLEAR_BODY
+  ability: ABILITY_ECTOPLASM
+  ability: ABILITY_PARENTAL_BOND
+  innate: ABILITY_AERIALIST
+  innate: ABILITY_INFILTRATOR
+  innate: ABILITY_SPEED_BOOST
   percent_female: 50
-  tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_FROST_BRAND
-    }
-    level {
-      level: 17
-      move: MOVE_SKETCH
-    }
-    level {
-      level: 24
-      move: MOVE_BIND
-    }
-    level {
-      level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+  mega {
+    from: SPECIES_DRAGAPULT
+    item: ITEM_DRAGAPULTITE
   }
   visuals {
     icon {
@@ -200866,20 +200696,20 @@ species {
 species {
   id: SPECIES_SANDSLASH_ALOLAN_MEGA
   form_of: SPECIES_SANDSLASH
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
+  type: TYPE_ICE
+  type2: TYPE_STEEL
+  hp: 95
+  atk: 135
+  def: 130
+  spatk: 50
+  spdef: 75
+  spe: 85
   ability: ABILITY_ENVENOM
   ability: ABILITY_POISON_QUILLS
   ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_BATTLE_ARMOR
+  innate: ABILITY_WHITEOUT
+  innate: ABILITY_TOUGH_CLAWS
   percent_female: 50
   mega {
     from: SPECIES_SANDSLASH_ALOLAN
@@ -200913,20 +200743,20 @@ species {
 species {
   id: SPECIES_KLEAVOR_MEGA
   form_of: SPECIES_KLEAVOR
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_BUG
+  type2: TYPE_ROCK
+  hp: 70
+  atk: 165
+  def: 130
+  spatk: 65
+  spdef: 75
+  spe: 95
+  ability: ABILITY_MINERALIZE
+  ability: ABILITY_CUTTHROAT
+  ability: ABILITY_RELIC_STONE
+  innate: ABILITY_STONECUTTER
+  innate: ABILITY_DUAL_WIELD
+  innate: ABILITY_TECHNICIAN
   percent_female: 50
   mega {
     from: SPECIES_KLEAVOR
@@ -200960,20 +200790,20 @@ species {
 species {
   id: SPECIES_SCYTHER_MEGA
   form_of: SPECIES_SCYTHER
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_BUG
+  type2: TYPE_FLYING
+  hp: 70
+  atk: 130
+  def: 80
+  spatk: 125
+  spdef: 80
+  spe: 115
+  ability: ABILITY_AERILATE
+  ability: ABILITY_MYSTIC_BLADES
+  ability: ABILITY_QUICK_DRAW
+  innate: ABILITY_PERFECTIONIST
+  innate: ABILITY_EDGELORD
+  innate: ABILITY_TECHNICIAN
   percent_female: 50
   mega {
     from: SPECIES_SCYTHER
@@ -201007,20 +200837,20 @@ species {
 species {
   id: SPECIES_HYDREIGON_MEGA
   form_of: SPECIES_HYDREIGON
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
+  type: TYPE_DARK
+  type2: TYPE_DRAGON
+  hp: 92
+  atk: 105
+  def: 105
+  spatk: 170
+  spdef: 105
+  spe: 123
   ability: ABILITY_ENVENOM
   ability: ABILITY_POISON_QUILLS
   ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_MERCILESS
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_BEAST_BOOST
   percent_female: 50
   mega {
     from: SPECIES_HYDREIGON
@@ -201114,20 +200944,20 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
+  type: TYPE_GHOST
+  type2: TYPE_GROUND
+  hp: 105
+  atk: 75
+  def: 135
   spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
+  spdef: 105
+  spe: 45
+  ability: ABILITY_FORT_KNOX
+  ability: ABILITY_SHADOW_SHIELD
   ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
+  innate: ABILITY_WATER_COMPACTION
   innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_SAND_STREAM
   percent_female: 50
   tier: 3
   learnset {
@@ -201216,20 +201046,19 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  type: TYPE_WATER
+  hp: 70
+  atk: 120
+  def: 75
+  spatk: 55
+  spdef: 75
+  spe: 130
+  ability: ABILITY_ACCELERATE
+  ability: ABILITY_RATTLED
+  ability: ABILITY_COWARD
+  innate: ABILITY_GOOEY
+  innate: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_MULTI_HEADED
   percent_female: 50
   tier: 3
   learnset {
@@ -201307,12 +201136,12 @@ species {
   form_of: SPECIES_PENTADUG
   type: TYPE_NORMAL
   type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
+  hp: 70
+  atk: 130
+  def: 75
+  spatk: 55
+  spdef: 75
+  spe: 120
   ability: ABILITY_ENVENOM
   ability: ABILITY_POISON_QUILLS
   ability: ABILITY_OMINOUS_SHROUD
@@ -201503,6 +201332,14 @@ species {
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_DRILBUR_REDUX
+    level: 35
+  }
+  evo {
+    to: SPECIES_EXCADRILL_REDUX_MEGA
+    level: 46
+  }
   learnset {
     level {
       level: 1
@@ -201578,7 +201415,7 @@ species {
   form_of: SPECIES_EXCADRILL
   type: TYPE_DRAGON
   type2: TYPE_ROCK
-  hp: 98
+  hp: 108
   atk: 135
   def: 85
   spatk: 50
@@ -201588,7 +201425,7 @@ species {
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_WEAK_ARMOR
   innate: ABILITY_GROUNDED
-  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_THICK_BLUBBER
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
   tier: 3
@@ -201948,58 +201785,16 @@ species {
   spatk: 90
   spdef: 100
   spe: 90
-  ability: ABILITY_ENVENOM
+  ability: ABILITY_CRAVING
   ability: ABILITY_FLOURISH
   ability: ABILITY_RAW_WOOD
   innate: ABILITY_SEED_SOWER
   innate: ABILITY_THICK_FAT
   innate: ABILITY_PURPLE_HAZE
   percent_female: 50
-  tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_FROST_BRAND
-    }
-    level {
-      level: 17
-      move: MOVE_SKETCH
-    }
-    level {
-      level: 24
-      move: MOVE_BIND
-    }
-    level {
-      level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+  mega {
+    from: SPECIES_MAMOSWINE_REDUX
+    item: ITEM_MAMOSWINITE_R
   }
   visuals {
     icon {
@@ -202410,7 +202205,7 @@ species {
   ability: ABILITY_SUGAR_RUSH
   innate: ABILITY_SOLID_ROCK
   innate: ABILITY_MOLTEN_DOWN
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_CRISPY_CREAM
   percent_female: 50
   tier: 3
   learnset {
@@ -202494,12 +202289,12 @@ species {
   spatk: 110
   spdef: 105
   spe: 80
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
+  ability: ABILITY_DEEP_FRIED
+  ability: ABILITY_FOOD_LOVERS
   ability: ABILITY_SLUSH_RUSH
   innate: ABILITY_SOLID_ROCK
   innate: ABILITY_GOOEY
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_CRISPY_CREAM
   percent_female: 50
   mega {
     from: SPECIES_VANILLUXE_REDUX
@@ -202744,7 +202539,7 @@ species {
   ability: ABILITY_DARK_AURA
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_PHANTOM
-  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_LUNAR_WRATH
   innate: ABILITY_MAJESTIC_MOTH
   percent_female: 50
   tier: 3
@@ -202831,8 +202626,8 @@ species {
   spe: 85
   ability: ABILITY_VOLT_ABSORB
   ability: ABILITY_PICKPOCKET
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
+  ability: ABILITY_VIRUS
+  innate: ABILITY_SPYWARE
   innate: ABILITY_INFILTRATOR
   innate: ABILITY_LEVITATE
   percent_female: 50
@@ -203555,7 +203350,7 @@ species {
   spatk: 145
   spdef: 90
   spe: 60
-  ability: ABILITY_ENVENOM
+  ability: ABILITY_BACKUP_POWER
   ability: ABILITY_DAZZLING
   ability: ABILITY_GENERATOR
   innate: ABILITY_ILLUMINATE
@@ -203644,58 +203439,16 @@ species {
   spatk: 165
   spdef: 110
   spe: 80
-  ability: ABILITY_ENVENOM
+  ability: ABILITY_BACKUP_POWER
   ability: ABILITY_DAZZLING
   ability: ABILITY_ENERGIZED
   innate: ABILITY_RADIANCE
-  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_POWER_LEAK
   innate: ABILITY_LEVITATE
   percent_female: 50
-  tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_FROST_BRAND
-    }
-    level {
-      level: 17
-      move: MOVE_SKETCH
-    }
-    level {
-      level: 24
-      move: MOVE_BIND
-    }
-    level {
-      level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+  mega {
+    from: SPECIES_CHANDELURE
+    item: ITEM_CHANDELUREITE_R
   }
   visuals {
     icon {
