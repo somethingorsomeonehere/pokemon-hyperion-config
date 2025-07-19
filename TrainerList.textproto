@@ -77208,20 +77208,21 @@ trainer {
       move: MOVE_SNARL
       move: MOVE_FLAMETHROWER
       move: MOVE_DRAGON_PULSE
-      move: MOVE_SNARL
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_GRASS
     }
     mon {
-      species: SPECIES_FURFROU
+      species: SPECIES_FURFROU_DIAMOND_TRIM
       item: ITEM_LEFTOVERS
       nature: NATURE_IMPISH
-      ability: ABILITY_CUTE_CHARM
+      ability: ABILITY_SOLID_ROCK
       hp_ev: 252
+      atk_ev: 4
       def_ev: 252
-      spdef_ev: 4
       move: MOVE_COTTON_GUARD
       move: MOVE_BODY_PRESS
-      move: MOVE_U_TURN
       move: MOVE_SUCKER_PUNCH
+      move: MOVE_U_TURN
     }
     mon {
       species: SPECIES_BOLTUND
@@ -77250,8 +77251,8 @@ trainer {
       move: MOVE_REVERSAL
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_BULK_UP]"
       species: SPECIES_GRANBULL
+      item: ITEM_GRANBULLITE
       nature: NATURE_ADAMANT
       ability: ABILITY_RATTLED
       hp_ev: 248
@@ -77260,7 +77261,7 @@ trainer {
       move: MOVE_PLAY_ROUGH
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_CRUNCH
-      move: MOVE_BULK_UP
+      move: MOVE_POWER_UP_PUNCH
     }
   }
 }
