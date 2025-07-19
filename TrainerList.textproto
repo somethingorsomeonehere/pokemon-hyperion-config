@@ -77261,7 +77261,7 @@ trainer {
       move: MOVE_PLAY_ROUGH
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_CRUNCH
-      move: MOVE_BULK_UP
+      move: MOVE_POWER_UP_PUNCH
     }
   }
 }
