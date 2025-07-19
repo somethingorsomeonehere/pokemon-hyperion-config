@@ -4501,3 +4501,8 @@ ability {
   name: "Backup Power (N)"
   description: "Revives at 25% HP once after fainting in Electric Terrain."
 }
+ability {
+  id: ABILITY_SAND_FIEND
+  name: "Sand Fiend (N)"
+  description: "Sand Force + Sand Rush."
+}

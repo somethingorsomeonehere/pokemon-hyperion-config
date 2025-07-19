@@ -189080,9 +189080,9 @@ species {
   ability: ABILITY_HONEY_GATHER
   ability: ABILITY_GOOEY
   ability: ABILITY_COMPOUND_EYES
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_FLUFFY
   innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_FLUFFY
+  innate: ABILITY_AERODYNAMICS
   percent_female: 50
   learnset {
     level {
@@ -189118,6 +189118,10 @@ species {
       move: MOVE_DEFEND_ORDER
       move: MOVE_GIGA_DRAIN
       move: MOVE_SIGNAL_BEAM
+    }
+    level {
+      level: 51
+      move: MOVE_SPRINGTIDE_STORM
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
@@ -200408,7 +200412,7 @@ species {
   ability: ABILITY_ARENA_TRAP
   ability: ABILITY_EARTHBOUND
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_SAND_FIEND
   innate: ABILITY_SPEED_FORCE
   percent_female: 50
   tier: 3
@@ -201151,7 +201155,7 @@ species {
   ability: ABILITY_ARENA_TRAP
   ability: ABILITY_STEELWORKER
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_SAND_FIEND
   innate: ABILITY_SPEED_FORCE
   percent_female: 50
   tier: 3
@@ -202676,8 +202680,11 @@ species {
     }
     level {
       level: 56
+      move: MOVE_VOLT_TACKLE
+    }
+    level {
+      level: 71
       move: MOVE_ELECTRO_DRIFT
-      move: MOVE_BOLT_STRIKE
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
