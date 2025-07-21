@@ -188032,8 +188032,8 @@ species {
   }
   type: TYPE_ICE
   type2: TYPE_DARK
-  hp: 111
-  atk: 117
+  hp: 115
+  atk: 133
   def: 101
   spatk: 73
   spdef: 103
@@ -201923,12 +201923,12 @@ species {
   form_of: SPECIES_RATICATE
   type: TYPE_POISON
   type2: TYPE_FIGHTING
-  hp: 60
-  atk: 102
+  hp: 70
+  atk: 107
   def: 80
   spatk: 40
   spdef: 55
-  spe: 101
+  spe: 106
   ability: ABILITY_HUSTLE
   ability: ABILITY_ANGER_POINT
   ability: ABILITY_LOOTER

@@ -3403,7 +3403,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_LIFE_ORB
       nature: NATURE_ADAMANT
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -3488,7 +3488,7 @@ trainer {
       def_ev: 4
       spe_ev: 252
       move: MOVE_SCALE_SHOT
-      move: MOVE_FISHIOUS_REND
+      move: MOVE_WATERFALL
       move: MOVE_DRILL_PECK
       move: MOVE_SHOCKING_JAB
     }
@@ -6994,7 +6994,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_LIFE_ORB
       nature: NATURE_HASTY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       atk_ev: 128
       spatk_ev: 128
       spe_ev: 252
@@ -11044,7 +11044,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -12829,7 +12829,7 @@ trainer {
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_FISHIOUS_REND
+      move: MOVE_DEATHROLL
       move: MOVE_DRACONIC_FANGS
       move: MOVE_ICE_FANG
       move: MOVE_DRAGON_DANCE
@@ -32851,44 +32851,6 @@ trainer {
       move: MOVE_ASTONISH
     }
   }
-  hell {
-    mon {
-      species: SPECIES_VENUSAUR
-      nature: NATURE_IMPISH
-      ability: ABILITY_CHLOROPLAST
-      move: MOVE_BULLET_SEED
-      move: MOVE_GROWL
-      move: MOVE_GROWTH
-      move: MOVE_POISON_POWDER
-    }
-    mon {
-      species: SPECIES_CHARMANDER
-      nature: NATURE_IMPISH
-      ability: ABILITY_FLAME_BODY
-      move: MOVE_FIRE_FANG
-      move: MOVE_FLAME_BURST
-      move: MOVE_GROWL
-      move: MOVE_LEER
-    }
-    mon {
-      species: SPECIES_CHARIZARD
-      nature: NATURE_IMPISH
-      ability: ABILITY_MOLTEN_DOWN
-      move: MOVE_FIRE_FANG
-      move: MOVE_FLAME_BURST
-      move: MOVE_GROWL
-      move: MOVE_LEER
-    }
-    mon {
-      species: SPECIES_BLASTOISE
-      nature: NATURE_IMPISH
-      ability: ABILITY_STAMINA
-      move: MOVE_BUBBLE_BEAM
-      move: MOVE_TACKLE
-      move: MOVE_TAIL_WHIP
-      move: MOVE_WITHDRAW
-    }
-  }
 }
 trainer {
   id: TRAINER_CALVIN_2
@@ -46651,7 +46613,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -54766,7 +54728,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -58365,7 +58327,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -69949,7 +69911,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_MYSTIC_WATER
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -73046,7 +73008,7 @@ trainer {
       species: SPECIES_FLOATZEL
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_WATER_VEIL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
