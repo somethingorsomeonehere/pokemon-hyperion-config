@@ -66330,7 +66330,7 @@ trainer {
       species: SPECIES_LYCANROC_ECLIPSE
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_LUNAR_ECLIPSE
+      ability: ABILITY_STURDY
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
