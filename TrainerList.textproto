@@ -10082,7 +10082,7 @@ trainer {
       move: MOVE_HEAD_SMASH
     }
     mon {
-      species: SPECIES_BEWARDEN
+      species: SPECIES_BEWARDEN_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_NO_GUARD
@@ -27631,7 +27631,7 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
     }
     mon {
-      species: SPECIES_BEWARDEN
+      species: SPECIES_BEWARDEN_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_NO_GUARD

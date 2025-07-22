@@ -39,7 +39,7 @@ ability {
 ability {
   id: ABILITY_LIMBER
   name: "Limber"
-  description: "Paralysis immune, Takes 50% less recoil, immune to stat drops."
+  description: "Para immune, takes half recoil, immune to self stat drops."
 }
 ability {
   id: ABILITY_SAND_VEIL
@@ -4419,7 +4419,7 @@ ability {
 ability {
   id: ABILITY_WARMONGER
   name: "Warmonger (N)"
-  description: "Boosts the user's rock, steel, and dragon moves by 30%."
+  description: "Boosts the user's rock, steel, and fighting moves by 30%."
 }
 ability {
   id: ABILITY_LOCUST_SWARM
@@ -4505,4 +4505,64 @@ ability {
   id: ABILITY_SAND_FIEND
   name: "Sand Fiend (N)"
   description: "Sand Force + Sand Rush."
+}
+ability {
+  id: ABILITY_MOUSTACHE
+  name: "Moustache (N)"
+  description: "Tangling Hair + Stamina."
+}
+ability {
+  id: ABILITY_DEPTH_EXPLORER
+  name: "Depth Explorer (N)"
+  description: "Field Explorer + Illuminate."
+}
+ability {
+  id: ABILITY_DUNE_VEIL
+  name: "Dune Veil (N)"
+  description: "Sand Guard + Self Sufficient."
+}
+ability {
+  id: ABILITY_STRONG_FOUNDATION
+  name: "Strong Foundation (N)"
+  description: "Takes 1/2 Water and Ground dmg and can't be forced out."
+}
+ability {
+  id: ABILITY_FOG_MACHINE
+  name: "Fog Machine (N)"
+  description: "When hit, Set up Eerie Fog."
+}
+ability {
+  id: ABILITY_DROP_BLOCKS
+  name: "Drop Blocks (N)"
+  description: "When hit, set up spikes."
+}
+ability {
+  id: ABILITY_TURF_WAR
+  name: "Turf War (N)"
+  description: "Destroys terrain and boosts highest stat."
+}
+ability {
+  id: ABILITY_GREEDY
+  name: "Greedy (N)"
+  description: "Uses Thief when it loses an item."
+}
+ability {
+  id: ABILITY_LIGHT_SABER
+  name: "Lightsaber (N)"
+  description: "Adds Fire-type. Keen Edge moves have 25% burn or paralysis."
+}
+ability {
+  id: ABILITY_LOOSE_THORNS
+  name: "Loose Thorns (N)"
+  description: "Sets Creeping Thorns when hit by contact."
+}
+ability {
+  id: ABILITY_MUSICAL_NOTES
+  name: "Musical Notes (N)"
+  description: "Status moves become sound-based."
+}
+ability {
+  id: ABILITY_LASER_DRILL
+  name: "Laser Drill (N)"
+  description: "Horn moves have a 50% burn chance."
 }

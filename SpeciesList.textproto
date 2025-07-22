@@ -3427,6 +3427,10 @@ species {
   innate: ABILITY_QUICK_FEET
   innate: ABILITY_GROWING_TOOTH
   percent_female: 50
+  evo {
+    to: SPECIES_RATICATE_EVO
+    level: 37
+  }
   learnset {
     level {
       level: 1
@@ -3693,6 +3697,10 @@ species {
   innate: ABILITY_OPPORTUNIST
   innate: ABILITY_RETRIEVER
   percent_female: 50
+  evo {
+    to: SPECIES_RATICATE_ALOLAN_EVO
+    level: 37
+  }
   learnset {
     level {
       level: 1
@@ -38045,7 +38053,7 @@ species {
       coords {
         size: 134
         y_offset: 6
-      } 
+      }
     }
     palette: "clefable/redux/normal"
     shiny: "clefable/redux/shiny"
@@ -67649,6 +67657,10 @@ species {
   percent_female: 50
   tier: 2
   no_flip: true
+  evo {
+    to: SPECIES_SPINDAZE
+    level: 37
+  }
   learnset {
     level {
       level: 1
@@ -85957,6 +85969,14 @@ species {
   innate: ABILITY_TECHNICIAN
   innate: ABILITY_INFLATABLE
   percent_female: 50
+  evo {
+    to: SPECIES_BUIZEL
+    level: 26
+  }
+  evo {
+    to: SPECIES_FLOATZEL_EVO
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -102089,10 +102109,6 @@ species {
   innate: ABILITY_FIELD_EXPLORER
   percent_female: 50
   evo {
-    to: SPECIES_PATRAT
-    level: 14
-  }
-  evo {
     to: SPECIES_SEERKAT
     level: 28
   }
@@ -114100,6 +114116,14 @@ species {
   innate: ABILITY_OVERCOAT
   percent_female: 75
   no_flip: true
+  evo {
+    to: SPECIES_MINCCINO
+    level: 23
+  }
+  evo {
+    to: SPECIES_CINCCINO_EVO
+    level: 37
+  }
   learnset {
     level {
       level: 1
@@ -118020,10 +118044,6 @@ species {
   innate: ABILITY_TECHNICIAN
   innate: ABILITY_COMPOUND_EYES
   percent_female: 50
-  evo {
-    to: SPECIES_JOLTIK
-    level: 36
-  }
   evo {
     to: SPECIES_TYRANJOULA
     level: 50
@@ -122694,10 +122714,6 @@ species {
   evo {
     to: SPECIES_KINGAMBIT
     level: 50
-  }
-  evo {
-    to: SPECIES_PAWNIARD
-    level: 36
   }
   evo {
     to: SPECIES_QUEENGAMBIT
@@ -146973,6 +146989,14 @@ species {
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_PREDATOR
   percent_female: 50
+  evo {
+    to: SPECIES_DEWPIDER
+    level: 22
+  }
+  evo {
+    to: SPECIES_ARAQUANID_EVO
+    level: 45
+  }
   learnset {
     level {
       level: 1
@@ -148127,6 +148151,14 @@ species {
   innate: ABILITY_UNAWARE
   innate: ABILITY_LUMBERJACK
   percent_female: 50
+  evo {
+    to: SPECIES_STUFFUL
+    level: 27
+  }
+  evo {
+    to: SPECIES_BEWARDEN
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -148476,7 +148508,7 @@ species {
   innate: ABILITY_CUTE_CHARM
   percent_female: 50
   evo {
-    to: SPECIES_BEWARDEN
+    to: SPECIES_BEWARDEN_REDUX
     level: 50
   }
   learnset {
@@ -150038,10 +150070,6 @@ species {
   innate: ABILITY_SAND_GUARD
   innate: ABILITY_SELF_SUFFICIENT
   percent_female: 50
-  evo {
-    to: SPECIES_SANDYGAST
-    level: 28
-  }
   evo {
     to: SPECIES_ABYSSAND
     level: 45
@@ -189790,12 +189818,8 @@ species {
   }
 }
 species {
-  id: SPECIES_BEWARDEN
-  dex {
-    name: "Bewarden"
-    body_color: BODY_COLOR_PINK
-    egg_group: FIELD
-  }
+  id: SPECIES_BEWARDEN_REDUX
+  form_of: SPECIES_BEWARDEN
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
   hp: 130
@@ -192990,6 +193014,18 @@ species {
   innate: ABILITY_TAG
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_SCYTHER_REDUX
+    level: 28
+  }
+  evo {
+    to: SPECIES_SCIZOR_REDUX
+    level: 28
+  }
+  evo {
+    to: SPECIES_KLEAVOR_REDUX
+    level: 28
+  }
   learnset {
     level {
       level: 1
@@ -193692,19 +193728,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  type2: TYPE_POISON
-  hp: 110
-  atk: 1
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 255
-  ability: ABILITY_PAINT_SHOT
-  ability: ABILITY_STONECUTTER
-  ability: ABILITY_EDGELORD
-  innate: ABILITY_WARMONGER
-  innate: ABILITY_CURSE_OF_FAMINE
-  innate: ABILITY_CRYSTALLINE_ARMOR
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
   percent_female: 50
   tier: 3
   learnset {
@@ -198113,7 +198148,7 @@ species {
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 95
-  atk: 105
+  atk: 70
   def: 70
   spatk: 105
   spdef: 70
@@ -198411,36 +198446,27 @@ species {
     }
     level {
       level: 17
-      move: MOVE_MEGA_DRAIN
       move: MOVE_OMINOUS_WIND
     }
     level {
       level: 24
-      move: MOVE_ASTONISH
       move: MOVE_PAIN_SPLIT
-      move: MOVE_PHANTOM_FORCE
     }
     level {
       level: 37
-      move: MOVE_CHILLING_WATER
-      move: MOVE_GIGA_DRAIN
       move: MOVE_SCALD
     }
     level {
       level: 46
-      move: MOVE_BERRY_SMASH
       move: MOVE_POLTERGEIST
     }
     level {
       level: 51
-      move: MOVE_OUTBURST
-      move: MOVE_RAGING_SOULS
       move: MOVE_SHELL_SMASH
     }
     level {
       level: 56
       move: MOVE_STORED_POWER
-      move: MOVE_STRENGTH_SAP
     }
   }
   visuals {
@@ -198802,7 +198828,6 @@ species {
       path: "cetoddle/redux/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 0
       }
     }
     palette: "cetoddle/redux/normal"
@@ -198903,7 +198928,6 @@ species {
       path: "cetitan/redux/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 0
       }
     }
     palette: "cetitan/redux/normal"
@@ -199236,38 +199260,83 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
     }
     level {
       level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
     }
     level {
       level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
     }
     level {
       level: 37
-      move: MOVE_SHOCK_WAVE
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
     }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
   }
   visuals {
     icon {
@@ -199441,7 +199510,6 @@ species {
       path: "grotom/roll/back"
       coords {
         size: 119
-        y_offset: 0
       }
     }
     palette: "grotom/roll/normal"
@@ -199869,7 +199937,6 @@ species {
       path: "wispywaspy/hivemind/back"
       coords {
         size: 116
-        y_offset: 0
       }
     }
     palette: "wispywaspy/hivemind/normal"
@@ -200201,17 +200268,17 @@ species {
   type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 96
-  atk: 75
+  atk: 72
   def: 65
-  spatk: 122
-  spdef: 62
-  spe: 111
-  ability: ABILITY_OPPORTUNIST
+  spatk: 112
+  spdef: 65
+  spe: 121
+  ability: ABILITY_MUSICAL_NOTES
   ability: ABILITY_PRANKSTER
-  ability: ABILITY_CLOUD_NINE
-  innate: ABILITY_ADAPTABILITY
+  ability: ABILITY_PARROTING
+  innate: ABILITY_RESONANCE
   innate: ABILITY_AMPLIFIER
-  innate: ABILITY_PARROTING
+  innate: ABILITY_CLOUD_NINE
   percent_female: 50
   tier: 3
   learnset {
@@ -200403,18 +200470,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GROUND
-  hp: 75
+  hp: 95
   atk: 120
-  def: 75
+  def: 80
   spatk: 55
-  spdef: 70
-  spe: 130
-  ability: ABILITY_LOOSE_ROCKS
-  ability: ABILITY_ARENA_TRAP
+  spdef: 75
+  spe: 100
+  ability: ABILITY_STAMINA
+  ability: ABILITY_SAND_FIEND
   ability: ABILITY_EARTHBOUND
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_SAND_FIEND
-  innate: ABILITY_SPEED_FORCE
+  innate: ABILITY_EARTHBOUND
+  innate: ABILITY_THICK_FAT
   percent_female: 50
   tier: 3
   learnset {
@@ -200688,7 +200755,6 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 0
       }
     }
     back {
@@ -200696,7 +200762,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "dragapult/mega/normal"
@@ -200735,7 +200800,6 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 0
       }
     }
     back {
@@ -200957,17 +201021,17 @@ species {
   type: TYPE_GHOST
   type2: TYPE_GROUND
   hp: 105
-  atk: 75
-  def: 135
-  spatk: 110
-  spdef: 105
+  atk: 55
+  def: 85
+  spatk: 135
+  spdef: 125
   spe: 45
   ability: ABILITY_FORT_KNOX
-  ability: ABILITY_SHADOW_SHIELD
-  ability: ABILITY_OMINOUS_SHROUD
+  ability: ABILITY_EARTH_EATER
+  ability: ABILITY_SAND_STREAM
   innate: ABILITY_WATER_COMPACTION
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_SAND_STREAM
+  innate: ABILITY_DUNE_VEIL
+  innate: ABILITY_SCARE
   percent_female: 50
   tier: 3
   learnset {
@@ -201017,11 +201081,11 @@ species {
   }
   visuals {
     icon {
-      path: "palossand/icon"
+      path: "abyssand/icon"
       palette: 4
     }
     front {
-      path: "palossand/front"
+      path: "abyssand/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -201029,15 +201093,15 @@ species {
       }
     }
     back {
-      path: "palossand/back"
+      path: "abyssand/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "palossand/normal"
-    shiny: "palossand/shiny"
+    palette: "abyssand/normal"
+    shiny: "abyssand/shiny"
   }
 }
 species {
@@ -201067,7 +201131,7 @@ species {
   ability: ABILITY_RATTLED
   ability: ABILITY_COWARD
   innate: ABILITY_GOOEY
-  innate: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_DEPTH_EXPLORER
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
   tier: 3
@@ -201146,18 +201210,18 @@ species {
   form_of: SPECIES_PENTADUG
   type: TYPE_GROUND
   type2: TYPE_STEEL
-  hp: 70
-  atk: 130
-  def: 75
-  spatk: 55
+  hp: 105
+  atk: 120
+  def: 90
+  spatk: 45
   spdef: 75
-  spe: 120
-  ability: ABILITY_LOOSE_ROCKS
-  ability: ABILITY_ARENA_TRAP
+  spe: 90
+  ability: ABILITY_COSTAR
+  ability: ABILITY_MOUSTACHE
   ability: ABILITY_STEELWORKER
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_SAND_FIEND
-  innate: ABILITY_SPEED_FORCE
+  innate: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_LOOSE_ROCKS
   percent_female: 50
   tier: 3
   learnset {
@@ -201343,7 +201407,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_EXCADRILL_REDUX_MEGA
+    to: SPECIES_REXCADRILL
     level: 46
   }
   learnset {
@@ -201417,8 +201481,21 @@ species {
   }
 }
 species {
-  id: SPECIES_EXCADRILL_REDUX_MEGA
-  form_of: SPECIES_EXCADRILL
+  id: SPECIES_REXCADRILL
+  dex {
+    name: "Rexcadrill"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
   type: TYPE_DRAGON
   type2: TYPE_ROCK
   hp: 108
@@ -201912,7 +201989,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "rattata/redux/normal"
@@ -201938,6 +202014,10 @@ species {
   innate: ABILITY_SCRAPPY
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_RATICATE_REDUX_EVO
+    level: 37
+  }
   learnset {
     level {
       level: 1
@@ -202001,7 +202081,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "raticate/redux/normal"
@@ -202443,7 +202522,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_VOLCARONA_REDUX_EVO
+    to: SPECIES_SELENUMBRA
     level: 56
   }
   learnset {
@@ -202517,9 +202596,9 @@ species {
   }
 }
 species {
-  id: SPECIES_VOLCARONA_REDUX_EVO
+  id: SPECIES_SELENUMBRA
   dex {
-    name: "VolcaronaE"
+    name: "Selenumbra"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -202611,7 +202690,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "rvolcevo/normal"
@@ -203091,7 +203169,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "sawk/redux/normal"
@@ -203179,7 +203256,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
       }
     }
     palette: "throh/redux/normal"
@@ -203506,5 +203582,2077 @@ species {
     }
     palette: "chandelure/mega/normal"
     shiny: "chandelure/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_SNEASLER_MEGA
+  form_of: SPECIES_SNEASLER
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_SNEASLER
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_CLEFABLE_MEGA
+  form_of: SPECIES_CLEFABLE
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_CLEFABLE
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_TSAREENA_MEGA
+  form_of: SPECIES_TSAREENA
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_TSAREENA
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_GOODRA_HISUIAN_MEGA
+  form_of: SPECIES_GOODRA
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_GOODRA_HISUIAN
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_HARIYAMA_MEGA
+  form_of: SPECIES_HARIYAMA
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_HARIYAMA
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_SWABLU_REDUX
+  form_of: SPECIES_SWABLU
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_ALTARIA_REDUX
+  form_of: SPECIES_ALTARIA
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_ALTARIA_REDUX_MEGA
+  form_of: SPECIES_ALTARIA
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  mega {
+    from: SPECIES_ALTARIA_REDUX
+    item: ITEM_CHANDELUREITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_RATICATE_EVO
+  dex {
+    name: "RaticateE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_RATICATE_ALOLAN_EVO
+  form_of: SPECIES_RATICATE_EVO
+  type: TYPE_DARK
+  type2: TYPE_NORMAL
+  hp: 105
+  atk: 96
+  def: 90
+  spatk: 40
+  spdef: 80
+  spe: 97
+  ability: ABILITY_LOW_BLOW
+  ability: ABILITY_GLUTTONY
+  ability: ABILITY_SUBDUE
+  innate: ABILITY_TURF_WAR
+  innate: ABILITY_UNNERVE
+  innate: ABILITY_GREEDY
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_FLOATZEL_EVO
+  dex {
+    name: "FloatzelE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_CINCCINO_EVO
+  dex {
+    name: "CincinnoE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_BEWARDEN
+  dex {
+    name: "Bewarden"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_ARAQUANID_EVO
+  dex {
+    name: "AraquanidE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_SPINDAZE
+  dex {
+    name: "Spindaze"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_NACLI_CON
+  dex {
+    name: "Blokli"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 55
+  atk: 50
+  def: 65
+  spatk: 50
+  spdef: 65
+  spe: 5
+  ability: ABILITY_NORMALIZE
+  ability: ABILITY_IMMUNITY
+  ability: ABILITY_SELF_REPAIR
+  innate: ABILITY_STRONG_FOUNDATION
+  innate: ABILITY_DROP_BLOCKS
+  innate: ABILITY_PICKUP
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_NACLSTACK_CON
+    level: 23
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_NACLSTACK_CON
+  dex {
+    name: "Stakablox"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 65
+  atk: 60
+  def: 80
+  spatk: 60
+  spdef: 80
+  spe: 10
+  ability: ABILITY_NORMALIZE
+  ability: ABILITY_IMMUNITY
+  ability: ABILITY_SELF_REPAIR
+  innate: ABILITY_STRONG_FOUNDATION
+  innate: ABILITY_DROP_BLOCKS
+  innate: ABILITY_PICKUP
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_GARGABLOX
+    level: 38
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_GARGABLOX
+  dex {
+    name: "Gargablox"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 95
+  atk: 80
+  def: 110
+  spatk: 80
+  spdef: 110
+  spe: 25
+  ability: ABILITY_FORT_KNOX
+  ability: ABILITY_IMMUNITY
+  ability: ABILITY_SELF_REPAIR
+  innate: ABILITY_STRONG_FOUNDATION
+  innate: ABILITY_DROP_BLOCKS
+  innate: ABILITY_PICKUP
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_HIPPOPOTAS_CON
+  dex {
+    name: "HippopotasC"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_HIPPOWDON
+    level: 34
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_HIPPOWDON_CON
+  dex {
+    name: "HippowdonC"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_HARVESTING_TYRANT
+  dex {
+    name: "Harvesting Tyrant"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_GRASS
+  type2: TYPE_DRAGON
+  hp: 135
+  atk: 135
+  def: 135
+  spatk: 55
+  spdef: 55
+  spe: 55
+  ability: ABILITY_OVERCOAT
+  ability: ABILITY_PRIMAL_MAW
+  ability: ABILITY_SUNS_BOUNTY
+  innate: ABILITY_PROTOSYNTHESIS
+  innate: ABILITY_LOOSE_THORNS
+  innate: ABILITY_SEED_SOWER
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_IRON_SPIRALS
+  dex {
+    name: "Iron Spirals"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_GROUND
+  type2: TYPE_PSYCHIC
+  hp: 98
+  atk: 68
+  def: 114
+  spatk: 108
+  spdef: 114
+  spe: 88
+  ability: ABILITY_ENERGIZED_HORNS
+  ability: ABILITY_EARTH_EATER
+  ability: ABILITY_POWER_CORE
+  innate: ABILITY_QUARK_DRIVE
+  innate: ABILITY_IMPENETRABLE
+  innate: ABILITY_LASER_DRILL
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_RATICATE_REDUX_EVO
+  dex {
+    name: "RaticateRE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_POISON
+  type2: TYPE_FIGHTING
+  hp: 100
+  atk: 122
+  def: 90
+  spatk: 50
+  spdef: 75
+  spe: 71
+  ability: ABILITY_RAT_KING
+  ability: ABILITY_FUR_COAT
+  ability: ABILITY_HUSTLE
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_STENCH
+  innate: ABILITY_LOOTER
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_IRON_SABER
+  dex {
+    name: "Iron Saber"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_GRASS
+  type2: TYPE_ELECTRIC
+  hp: 102
+  atk: 82
+  def: 104
+  spatk: 76
+  spdef: 102
+  spe: 104
+  ability: ABILITY_INTIMIDATE
+  ability: ABILITY_SUNS_BOUNTY
+  ability: ABILITY_MERCILESS
+  innate: ABILITY_QUARK_DRIVE
+  innate: ABILITY_DUAL_WIELD
+  innate: ABILITY_LIGHT_SABER
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+      palette: 4
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
