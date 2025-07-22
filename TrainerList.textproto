@@ -30882,7 +30882,7 @@ trainer {
       species: SPECIES_AUDINO
       item: ITEM_AUDINITE
       nature: NATURE_CALM
-      ability: ABILITY_EMERGENCY_EXIT
+      ability: ABILITY_EMERGENCY_EXIT 
       hp_ev: 252
       def_ev: 4
       spdef_ev: 252
