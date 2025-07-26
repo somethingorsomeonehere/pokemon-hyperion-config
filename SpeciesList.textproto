@@ -37630,6 +37630,10 @@ species {
   innate: ABILITY_MOON_SPIRIT
   percent_female: 75
   no_flip: true
+  evo {
+    to: SPECIES_CLEFAIRY
+    level: 20
+  }
   learnset {
     level {
       level: 1
@@ -130028,6 +130032,10 @@ species {
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GALE_WINGS
   percent_female: 50
+  evo {
+    to: SPECIES_FLETCHINDER
+    level: 35
+  }
   learnset {
     level {
       level: 1
@@ -138721,6 +138729,10 @@ species {
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_FILTER
   percent_female: 50
+  evo {
+    to: SPECIES_SLIGGOO_HISUIAN
+    level: 45
+  }
   learnset {
     level {
       level: 1
@@ -148834,6 +148846,10 @@ species {
   innate: ABILITY_QUEENLY_MAJESTY
   percent_female: 100
   no_flip: true
+  evo {
+    to: SPECIES_STEENEE
+    level: 36
+  }
   learnset {
     level {
       level: 1
@@ -170502,6 +170518,10 @@ species {
   innate: ABILITY_POISON_TOUCH
   innate: ABILITY_MOUNTAINEER
   percent_female: 50
+  evo {
+    to: SPECIES_SNEASEL_HISUIAN
+    level: 36
+  }
   learnset {
     level {
       level: 1
@@ -198952,6 +198972,10 @@ species {
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GALE_WINGS
   percent_female: 50
+  mega {
+    from: SPECIES_TALONFLAME
+    item: ITEM_CHANDELUREITE
+  }
   learnset {
     level {
       level: 1
@@ -199265,6 +199289,7 @@ species {
       move: MOVE_POISON_GAS
       move: MOVE_SCREECH
       move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
     }
     level {
       level: 17
@@ -199297,6 +199322,7 @@ species {
       move: MOVE_ENCORE
       move: MOVE_MEMENTO
       move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
     }
     level {
       level: 46
@@ -199380,42 +199406,6 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
-    }
-    level {
-      level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
-    }
-    level {
-      level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
-    }
-    level {
-      level: 37
-      move: MOVE_SHOCK_WAVE
-    }
-  }
   visuals {
     icon {
       path: "grotom/glass/icon"
@@ -199458,42 +199448,6 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
-    }
-    level {
-      level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
-    }
-    level {
-      level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
-    }
-    level {
-      level: 37
-      move: MOVE_SHOCK_WAVE
-    }
-  }
   visuals {
     icon {
       path: "grotom/roll/icon"
@@ -199535,42 +199489,6 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
-    }
-    level {
-      level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
-    }
-    level {
-      level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
-    }
-    level {
-      level: 37
-      move: MOVE_SHOCK_WAVE
-    }
-  }
   visuals {
     icon {
       path: "grotom/drum/icon"
@@ -199613,42 +199531,6 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
-    }
-    level {
-      level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
-    }
-    level {
-      level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
-    }
-    level {
-      level: 37
-      move: MOVE_SHOCK_WAVE
-    }
-  }
   visuals {
     icon {
       path: "grotom/kick/icon"
@@ -199691,42 +199573,6 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_EERIE_IMPULSE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_PAIN_SPLIT
-      move: MOVE_THUNDER_SHOCK
-    }
-    level {
-      level: 17
-      move: MOVE_ALLY_SWITCH
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_POLTERGEIST
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_QUASH
-    }
-    level {
-      level: 24
-      move: MOVE_FLAME_BURST
-      move: MOVE_FREEZY_FROST
-      move: MOVE_FROST_BREATH
-      move: MOVE_LEAF_STORM
-      move: MOVE_LEECH_BLADE
-      move: MOVE_OVERHEAT
-      move: MOVE_RAZOR_WIND
-      move: MOVE_SPLISHY_SPLASH
-      move: MOVE_BLAZING_TORQUE
-      move: MOVE_AIR_CUTTER
-      move: MOVE_FROST_BOLT
-    }
-    level {
-      level: 37
-      move: MOVE_SHOCK_WAVE
-    }
-  }
   visuals {
     icon {
       path: "grotom/fill/icon"
@@ -203603,7 +203449,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_SNEASLER
-    item: ITEM_CHANDELUREITE
+    item: ITEM_SNEASLERITE
   }
   visuals {
     icon {
@@ -203649,7 +203495,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_CLEFABLE
-    item: ITEM_CHANDELUREITE
+    item: ITEM_CLEFABITE
   }
   visuals {
     icon {
@@ -203695,7 +203541,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_TSAREENA
-    item: ITEM_CHANDELUREITE
+    item: ITEM_TSAREENITE
   }
   visuals {
     icon {
@@ -203741,7 +203587,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_GOODRA_HISUIAN
-    item: ITEM_CHANDELUREITE
+    item: ITEM_GOODRITE_H
   }
   visuals {
     icon {
@@ -204009,7 +203855,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_ALTARIA_REDUX
-    item: ITEM_CHANDELUREITE
+    item: ITEM_ALTARIANITE_R
   }
   visuals {
     icon {
@@ -204732,9 +204578,9 @@ species {
   }
 }
 species {
-  id: SPECIES_NACLI_CON
+  id: SPECIES_BLOCLI
   dex {
-    name: "Blokli"
+    name: "Blocli"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -204763,7 +204609,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_NACLSTACK_CON
+    to: SPECIES_BLOXTACK
     level: 23
   }
   learnset {
@@ -204837,9 +204683,9 @@ species {
   }
 }
 species {
-  id: SPECIES_NACLSTACK_CON
+  id: SPECIES_BLOXTACK
   dex {
-    name: "Stakablox"
+    name: "Bloxtack"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1

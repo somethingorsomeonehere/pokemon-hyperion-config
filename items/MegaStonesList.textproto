@@ -2286,6 +2286,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_DRAGAPULTITE
@@ -2295,6 +2296,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_SANDSLASHITE_A
@@ -2304,6 +2306,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_KLEAVITE
@@ -2313,6 +2316,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_SCYTHERITE
@@ -2322,6 +2326,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_HYDREIGONITE
@@ -2331,6 +2336,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_VANILLUXEITE
@@ -2340,6 +2346,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_HERACREUSITE
@@ -2349,6 +2356,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_EXCADRILLITE_R
@@ -2358,6 +2366,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_MAMOSWINITE_R
@@ -2367,6 +2376,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_VANILLUXEITE_R
@@ -2376,6 +2386,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_CHANDELUREITE_R
@@ -2385,6 +2396,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_SNEASLERITE
@@ -2394,6 +2406,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_CLEFABITE
@@ -2403,6 +2416,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_GOODRITE_H
@@ -2412,6 +2426,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_TSAREENITE
@@ -2421,6 +2436,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
 }
 item {
   id: ITEM_ALTARIANITE_R
@@ -2430,4 +2446,15 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  adoption_center: true
+}
+item {
+  id: ITEM_HARIYAMITE
+  name: "Hariyamite"
+  description: "Enables Hariyama to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
 }

@@ -4566,3 +4566,13 @@ ability {
   name: "Laser Drill (N)"
   description: "Horn moves have a 50% burn chance."
 }
+ability {
+  id: ABILITY_STRIKEOUT
+  name: "Strikeout (N)"
+  description: "Forces the foe out if they don't attack for 3 turns."
+}
+ability {
+  id: ABILITY_HOME_RUN
+  name: "Home Run (N)"
+  description: "Landing a crit boosts your 3 lowest stats. RAW stat, not base."
+}
