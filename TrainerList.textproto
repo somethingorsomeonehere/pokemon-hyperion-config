@@ -3164,6 +3164,32 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_FIGHTING
     }
+    mon {
+      species: SPECIES_CACJACK
+      item: ITEM_BRIGHT_POWDER
+      nature: NATURE_JOLLY
+      ability: ABILITY_SOUL_TAP
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_ASTONISH
+      move: MOVE_BANISHED_POWER
+      move: MOVE_NEEDLE_ARM
+      move: MOVE_SPIKY_SHIELD
+    }
+    mon {
+      species: SPECIES_CHANDELURE
+      item: ITEM_CHANDELUREITE
+      nature: NATURE_TIMID
+      ability: ABILITY_FLASH_FIRE
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_FIRE_BLAST
+      move: MOVE_SHADOW_BALL
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_PAIN_SPLIT
+    }
   }
 }
 trainer {
@@ -3782,17 +3808,17 @@ trainer {
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_CRABRUISER_REDUX
-      item: ITEM_ASSAULT_VEST
-      nature: NATURE_ADAMANT
-      ability: ABILITY_SOUL_CRUSHER
-      hp_ev: 252
-      atk_ev: 252
-      spdef_ev: 4
-      move: MOVE_HAMMER_ARM
-      move: MOVE_SPINE_BREAKER
-      move: MOVE_RELENTLESS_CLOBBER
-      move: MOVE_EARTHSPLITTER
+      species: SPECIES_GALLADE_REDUX
+      item: ITEM_GALLADITE_R
+      nature: NATURE_TIMID
+      ability: ABILITY_BEST_OFFENSE
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_AQUA_CUTTER
+      move: MOVE_PIXIE_SLASH
+      move: MOVE_FROST_BRAND
+      move: MOVE_PSYBLADE
     }
     mon {
       species: SPECIES_BARRASKEWDA
@@ -15293,7 +15319,7 @@ trainer {
       def_ev: 4
       move: MOVE_DRAGON_RUSH
       move: MOVE_FLARE_BLITZ
-      move: MOVE_DRACONIC_FANGS
+      move: MOVE_HEAD_SMASH
       move: MOVE_ACCELEROCK
     }
     mon {
@@ -15308,6 +15334,7 @@ trainer {
       move: MOVE_KARMA
       move: MOVE_HIDDEN_POWER
       move: MOVE_SLUDGE_BOMB
+      hidden_power_type: TYPE_ICE
     }
     mon {
       species: SPECIES_RAMPARDOS
@@ -21106,18 +21133,18 @@ trainer {
       move: MOVE_HORN_LEECH
       move: MOVE_HORN_ATTACK
       move: MOVE_TRAILBLAZE
-      move: MOVE_MEGAHORN
+      move: MOVE_SUNNY_DAY
     }
     mon {
       species: SPECIES_SAWSBUCK_AUTUMN
       item: ITEM_ASSAULT_VEST
       nature: NATURE_JOLLY
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_CHLOROPHYLL
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
-      move: MOVE_HORN_LEECH
-      move: MOVE_HORN_DRILL
+      move: MOVE_HYPER_DRILL
+      move: MOVE_SOLAR_BLADE
       move: MOVE_DRILL_RUN
       move: MOVE_MEGAHORN
     }
@@ -21132,20 +21159,20 @@ trainer {
       move: MOVE_HORN_LEECH
       move: MOVE_HORN_ATTACK
       move: MOVE_DRILL_RUN
-      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_BERSERKER_HORN
     }
     mon {
       species: SPECIES_SAWSBUCK
-      item: ITEM_CHOICE_SCARF
+      item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_CHLOROPHYLL
+      ability: ABILITY_SKILL_LINK
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
-      move: MOVE_SOLAR_BLADE
+      move: MOVE_BULLET_SEED
       move: MOVE_FURY_ATTACK
       move: MOVE_TRAILBLAZE
-      move: MOVE_MEGAHORN
+      move: MOVE_PECK
     }
   }
 }
@@ -34365,17 +34392,17 @@ trainer {
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_CRABRUISER_REDUX
-      item: ITEM_ASSAULT_VEST
-      nature: NATURE_ADAMANT
-      ability: ABILITY_SOUL_CRUSHER
-      hp_ev: 252
-      atk_ev: 252
-      spdef_ev: 4
-      move: MOVE_HAMMER_ARM
-      move: MOVE_SPINE_BREAKER
-      move: MOVE_RELENTLESS_CLOBBER
-      move: MOVE_EARTHSPLITTER
+      species: SPECIES_GALLADE_REDUX
+      item: ITEM_GALLADITE_R
+      nature: NATURE_TIMID
+      ability: ABILITY_HYDRATION
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_CHILLING_WATER
+      move: MOVE_WATER_SPOUT
+      move: MOVE_ALLURING_VOICE
+      move: MOVE_ICE_BEAM
     }
     mon {
       species: SPECIES_WEAVILE
@@ -66204,7 +66231,6 @@ trainer {
   }
   elite {
     mon {
-      nonstandard: "Invalid EV total"
       species: SPECIES_GALLADE
       item: ITEM_TACTICAL_VEST
       nature: NATURE_JOLLY
@@ -66230,7 +66256,6 @@ trainer {
       move: MOVE_ICE_PUNCH
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_EARTHQUAKE, MOVE_U_TURN, MOVE_GUNK_SHOT]"
       species: SPECIES_PASSIMIAN
       item: ITEM_CHOICE_SCARF
       nature: NATURE_JOLLY
@@ -66247,7 +66272,7 @@ trainer {
       species: SPECIES_HARIYAMA
       item: ITEM_FLAME_ORB
       nature: NATURE_ADAMANT
-      ability: ABILITY_SALT_CIRCLE
+      ability: ABILITY_GUTS
       hp_ev: 252
       atk_ev: 188
       spdef_ev: 68
@@ -75598,7 +75623,6 @@ trainer {
       move: MOVE_STEALTH_ROCK
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_TAKE_FLIGHT]"
       species: SPECIES_AERODACTYL
       item: ITEM_CHOICE_BAND
       nature: NATURE_JOLLY
@@ -75648,7 +75672,7 @@ trainer {
       move: MOVE_ZAP_CANNON
       move: MOVE_TECHNO_BLAST
       move: MOVE_STEEL_BEAM
-      move: MOVE_HIDDEN_POWER
+      move: MOVE_ICE_BEAM
       hidden_power_type: TYPE_BUG
     }
     mon {
@@ -75941,17 +75965,17 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_TENTACRUEL
+      species: SPECIES_TENTAGREWL
       item: ITEM_BLACK_SLUDGE
-      nature: NATURE_BOLD
-      ability: ABILITY_REGENERATOR
+      nature: NATURE_MODEST
+      ability: ABILITY_CORROSION
       hp_ev: 252
-      def_ev: 208
-      spatk_ev: 48
+      def_ev: 4
+      spatk_ev: 252
       move: MOVE_TOXIC_SPIKES
       move: MOVE_HYDRO_PUMP
-      move: MOVE_FLIP_TURN
       move: MOVE_SLUDGE_BOMB
+      move: MOVE_GIGA_DRAIN
     }
     mon {
       species: SPECIES_MACHAMP
@@ -75967,17 +75991,17 @@ trainer {
       move: MOVE_ICE_PUNCH
     }
     mon {
-      species: SPECIES_SEISMITOAD
-      item: ITEM_RINDO_BERRY
-      nature: NATURE_NAIVE
-      ability: ABILITY_POWER_FISTS
-      atk_ev: 4
-      spatk_ev: 252
+      species: SPECIES_FLOATZEL
+      item: ITEM_LOADED_DICE
+      nature: NATURE_JOLLY
+      ability: ABILITY_HYDRATE
+      atk_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_ECHOED_VOICE
-      move: MOVE_KNOCK_OFF
-      move: MOVE_HIDDEN_POWER
-      move: MOVE_SOIL_DRAIN
+      move: MOVE_AQUA_JET
+      move: MOVE_TAIL_SLAP
+      move: MOVE_FAKE_OUT
+      move: MOVE_POWER_UP_PUNCH
     }
     mon {
       species: SPECIES_CORVIKNIGHT
