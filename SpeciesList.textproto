@@ -94260,6 +94260,7 @@ species {
       move: MOVE_GROWTH
       move: MOVE_NATURAL_GIFT
       move: MOVE_TRAILBLAZE
+      move: MOVE_MOUNTAIN_GALE
     }
     level {
       level: 51
