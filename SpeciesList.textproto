@@ -18903,19 +18903,7 @@ species {
 }
 species {
   id: SPECIES_KECLEONG
-  dex {
-    name: "Kecleong"
-    category: "Sea Swap"
-    description: "It loves to snooze on bitterly cold ice. The sight of this Pok\303\251mon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago."
-    national_dex_num: 87
-    body_color: BODY_COLOR_WHITE
-    egg_group: WATER_1
-    egg_group_2: FIELD
-    height: 27
-    weight: 1222
-    pokemon_scale: 256
-    trainer_scale: 275
-  }
+  form_of: SPECIES_DEWGONG
   type: TYPE_ICE
   type2: TYPE_NORMAL
   hp: 90
@@ -56393,9 +56381,9 @@ species {
   spdef: 61
   spe: 110
   ability: ABILITY_PICKUP
-  ability: ABILITY_DEFIANT
   ability: ABILITY_JUMP_SCARE
-  innate: ABILITY_QUICK_FEET
+  ability: ABILITY_RECKLESS
+  innate: ABILITY_DEFIANT
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GUTS
   percent_female: 50
@@ -164072,7 +164060,7 @@ species {
   ability: ABILITY_CHEAP_TACTICS
   ability: ABILITY_JUMP_SCARE
   ability: ABILITY_STAMINA
-  innate: ABILITY_PICKUP
+  innate: ABILITY_DEFIANT
   innate: ABILITY_TOXIC_BOOST
   innate: ABILITY_POISON_HEAL
   percent_female: 50
@@ -193760,18 +193748,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 125
-  atk: 1
-  def: 125
-  spatk: 200
-  spdef: 120
-  spe: 255
-  ability: ABILITY_BACKUP_POWER
-  ability: ABILITY_FOG_MACHINE
-  ability: ABILITY_EDGELORD
-  innate: ABILITY_CRISPY_CREAM
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_LUNAR_WRATH
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
   percent_female: 50
   tier: 3
   learnset {
@@ -199392,7 +199380,7 @@ species {
       path: "grotom/back"
       coords {
         size: 119
-        y_offset: 4
+        y_offset: 5
       }
     }
     palette: "grotom/normal"
@@ -199642,44 +199630,73 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_AQUA_FANG
-      move: MOVE_BEAT_UP
-      move: MOVE_ROAR
-      move: MOVE_SPLASH
-      move: MOVE_WATER_SPORT
-      move: MOVE_KARMA
+      move: MOVE_SHADOW_FANGS
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_LUNGE
+      move: MOVE_POUNCE
+      move: MOVE_INFESTATION
     }
     level {
       level: 17
-      move: MOVE_BODY_SLAM
-      move: MOVE_ICE_FANG
+      move: MOVE_BEAT_UP
+      move: MOVE_CRUNCH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
-      move: MOVE_CHILLING_WATER
-      move: MOVE_MUDDY_WATER
-      move: MOVE_MUD_BOMB
-      move: MOVE_WATER_GUN
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_LASH_OUT
     }
     level {
       level: 37
-      move: MOVE_AVALANCHE
-      move: MOVE_IRON_TAIL
-      move: MOVE_RAPID_RIVER
+      move: MOVE_THOUSAND_WAVES
+      move: MOVE_SILK_TRAP
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_FAKE_TEARS
     }
     level {
       level: 46
-      move: MOVE_DOUBLE_EDGE
+      move: MOVE_GHASTLY_ECHO
+      move: MOVE_POLTERGEIST
+      move: MOVE_RIP_AND_TEAR
     }
     level {
       level: 51
-      move: MOVE_DEATHROLL
+      move: MOVE_DEFEND_ORDER
+      move: MOVE_SHADOW_HAMMER
     }
     level {
       level: 56
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_WAVE_CRASH
+      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_FISSURE
     }
+    level {
+      level: 61
+      move: MOVE_ATTACK_ORDER
+    }
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_X_SCISSOR
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_BITE
+    tutor: MOVE_STRING_SHOT
+    tutor: MOVE_U_TURN
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_HEX
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_VEXING_VOID
   }
   visuals {
     icon {
@@ -199698,7 +199715,7 @@ species {
       path: "wispywaspy/back"
       coords {
         size: 116
-        y_offset: 0
+        y_offset: 18
       }
     }
     palette: "wispywaspy/normal"
@@ -199707,19 +199724,7 @@ species {
 }
 species {
   id: SPECIES_WISPYWASPY_HIVEMIND
-  dex {
-    name: "Wispywaspy"
-    category: "Small Fry"
-    description: "When it\'s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
-    national_dex_num: 746
-    body_color: BODY_COLOR_BLUE
-    egg_group: WATER_2
-    height: 2
-    weight: 3
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_WISPYWASPY
   type: TYPE_BUG
   type2: TYPE_GHOST
   hp: 50
@@ -199736,48 +199741,6 @@ species {
   innate: ABILITY_CURSE_OF_FAMINE
   percent_female: 50
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_AQUA_FANG
-      move: MOVE_BEAT_UP
-      move: MOVE_ROAR
-      move: MOVE_SPLASH
-      move: MOVE_WATER_SPORT
-      move: MOVE_KARMA
-    }
-    level {
-      level: 17
-      move: MOVE_BODY_SLAM
-      move: MOVE_ICE_FANG
-    }
-    level {
-      level: 24
-      move: MOVE_CHILLING_WATER
-      move: MOVE_MUDDY_WATER
-      move: MOVE_MUD_BOMB
-      move: MOVE_WATER_GUN
-    }
-    level {
-      level: 37
-      move: MOVE_AVALANCHE
-      move: MOVE_IRON_TAIL
-      move: MOVE_RAPID_RIVER
-    }
-    level {
-      level: 46
-      move: MOVE_DOUBLE_EDGE
-    }
-    level {
-      level: 51
-      move: MOVE_DEATHROLL
-    }
-    level {
-      level: 56
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_WAVE_CRASH
-    }
-  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -199788,7 +199751,7 @@ species {
       anim: ANIM_V_SLIDE_WOBBLE_SMALL
       coords {
         size: 69
-        y_offset: 5
+        y_offset: 15
       }
     }
     back {
@@ -199888,7 +199851,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 5
+        y_offset: 13
       }
     }
     back {
@@ -199896,7 +199859,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "iron_scythe/normal"
@@ -200092,7 +200055,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 1
+        y_offset: 13
       }
     }
     back {
@@ -200100,7 +200063,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "heracreus/normal"
@@ -200194,7 +200157,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 13
       }
     }
     back {
@@ -200202,7 +200165,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 8
+        y_offset: 13
       }
     }
     palette: "orchestot/normal"
@@ -200212,7 +200175,7 @@ species {
 species {
   id: SPECIES_QUEENGAMBIT
   dex {
-    name: "Queengambit"
+    name: "Slate"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200314,7 +200277,7 @@ species {
 species {
   id: SPECIES_PENTADUG
   dex {
-    name: "Pentadug"
+    name: "Slate"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200405,7 +200368,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 17
+        y_offset: 13
       }
     }
     palette: "pentadug/normal"
@@ -200574,7 +200537,7 @@ species {
       path: "crabruiser/back"
       coords {
         size: 136
-        y_offset: 0
+        y_offset: 3
       }
     }
     palette: "crabruiser/normal"
@@ -200947,7 +200910,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 13
       }
     }
     back {
@@ -200955,7 +200918,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "abyssand/normal"
@@ -201064,7 +201027,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 13
       }
     }
     back {
@@ -201072,7 +201035,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 11
+        y_offset: 13
       }
     }
     palette: "pentawug/normal"
@@ -201177,7 +201140,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 10
+        y_offset: 13
       }
     }
     back {
@@ -201185,7 +201148,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 17
+        y_offset: 13
       }
     }
     palette: "pentadug/alolan/normal"
@@ -202385,7 +202348,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 14
+        y_offset: 6
       }
     }
     back {
@@ -202393,7 +202356,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 12
+        y_offset: 2
       }
     }
     palette: "larvesta/redux/normal"
@@ -202478,7 +202441,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 7
+        y_offset: 13
       }
     }
     back {
@@ -202486,7 +202449,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 2
+        y_offset: 13
       }
     }
     palette: "volcarona/redux/normal"
@@ -203513,7 +203476,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 13
       }
     }
     back {
@@ -203521,7 +203484,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "sneasler/mega/normal"
@@ -204122,7 +204085,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 13
       }
     }
     back {
@@ -204130,7 +204093,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 8
+        y_offset: 13
       }
     }
     palette: "ratfioso/normal"
@@ -204740,7 +204703,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 15
+        y_offset: 13
       }
     }
     palette: "blocli/normal"
@@ -204837,7 +204800,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 10
+        y_offset: 13
       }
     }
     back {
@@ -204845,7 +204808,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 12
+        y_offset: 13
       }
     }
     palette: "bloxtack/normal"
@@ -204938,7 +204901,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 3
+        y_offset: 13
       }
     }
     back {
@@ -204946,7 +204909,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 13
       }
     }
     palette: "gargablox/normal"
@@ -205254,7 +205217,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 11
+        y_offset: 13
       }
     }
     palette: "harvesting_tyrant/normal"
@@ -205348,7 +205311,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 5
+        y_offset: 13
       }
     }
     back {
@@ -205356,7 +205319,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "iron_spirals/normal"
@@ -205552,7 +205515,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 0
+        y_offset: 13
       }
     }
     back {
@@ -205560,7 +205523,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 0
+        y_offset: 13
       }
     }
     palette: "iron_saber/normal"
