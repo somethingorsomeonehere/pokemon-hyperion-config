@@ -82180,7 +82180,7 @@ species {
   spe: 95
   ability: ABILITY_DROUGHT
   ability: ABILITY_SNOW_WARNING
-  ability: ABILITY_PYROMANCY
+  ability: ABILITY_THERMOMANCY
   innate: ABILITY_ANTARCTIC_BIRD
   innate: ABILITY_MOLTEN_DOWN
   innate: ABILITY_ICE_SCALES
@@ -82296,8 +82296,8 @@ species {
   ability: ABILITY_FROST_BURN
   ability: ABILITY_FROST_BURN
   innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_CRYOMANCY
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_THERMOMANCY
+  innate: ABILITY_THERMAL_SLIDE
   percent_female: 50
   mega {
     from: SPECIES_EMPOLEON_REDUX
