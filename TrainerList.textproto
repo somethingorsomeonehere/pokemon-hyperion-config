@@ -9602,7 +9602,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_CHOICE_SPECS
       nature: NATURE_MODEST
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 4
@@ -10108,7 +10108,7 @@ trainer {
       move: MOVE_HEAD_SMASH
     }
     mon {
-      species: SPECIES_BEWARDEN
+      species: SPECIES_BEWARDEN_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_NO_GUARD
@@ -14633,6 +14633,7 @@ trainer {
       species: SPECIES_PORYGON
       item: ITEM_EVIOLITE
       nature: NATURE_MODEST
+      ability: ABILITY_SELF_REPAIR
       hp_ev: 196
       spatk_ev: 98
       move: MOVE_SONIC_BOOM
@@ -27623,7 +27624,7 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
     }
     mon {
-      species: SPECIES_BEWARDEN
+      species: SPECIES_BEWARDEN_REDUX
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_NO_GUARD
@@ -35332,6 +35333,7 @@ trainer {
       species: SPECIES_GRIMER
       item: ITEM_LEFTOVERS
       nature: NATURE_ADAMANT
+      ability: ABILITY_POISON_TOUCH
       hp_ev: 252
       atk_ev: 252
       spe_ev: 4
@@ -49839,7 +49841,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -49927,7 +49929,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -50007,7 +50009,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -50973,7 +50975,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -51061,7 +51063,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -51141,7 +51143,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_THERMOMANCY
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252

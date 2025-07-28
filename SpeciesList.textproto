@@ -18903,7 +18903,19 @@ species {
 }
 species {
   id: SPECIES_KECLEONG
-  form_of: SPECIES_DEWGONG
+  dex {
+    name: "Kecleong"
+    category: "Sea Swap"
+    description: "It loves to snooze on bitterly cold ice. The sight of this Pok\303\251mon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago."
+    national_dex_num: 87
+    body_color: BODY_COLOR_WHITE
+    egg_group: WATER_1
+    egg_group_2: FIELD
+    height: 27
+    weight: 1222
+    pokemon_scale: 256
+    trainer_scale: 275
+  }
   type: TYPE_ICE
   type2: TYPE_NORMAL
   hp: 90
@@ -193748,18 +193760,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  hp: 125
+  atk: 1
+  def: 125
+  spatk: 200
+  spdef: 120
+  spe: 255
+  ability: ABILITY_BACKUP_POWER
+  ability: ABILITY_FOG_MACHINE
+  ability: ABILITY_EDGELORD
+  innate: ABILITY_CRISPY_CREAM
+  innate: ABILITY_MAGUS_BLADES
+  innate: ABILITY_LUNAR_WRATH
   percent_female: 50
   tier: 3
   learnset {
@@ -199380,7 +199392,7 @@ species {
       path: "grotom/back"
       coords {
         size: 119
-        y_offset: 5
+        y_offset: 4
       }
     }
     palette: "grotom/normal"
@@ -199686,7 +199698,7 @@ species {
       path: "wispywaspy/back"
       coords {
         size: 116
-        y_offset: 18
+        y_offset: 0
       }
     }
     palette: "wispywaspy/normal"
@@ -199776,7 +199788,7 @@ species {
       anim: ANIM_V_SLIDE_WOBBLE_SMALL
       coords {
         size: 69
-        y_offset: 15
+        y_offset: 5
       }
     }
     back {
@@ -199876,7 +199888,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 5
       }
     }
     back {
@@ -199884,7 +199896,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "iron_scythe/normal"
@@ -200080,7 +200092,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -200088,7 +200100,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "heracreus/normal"
@@ -200182,7 +200194,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -200190,7 +200202,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 8
       }
     }
     palette: "orchestot/normal"
@@ -200200,7 +200212,7 @@ species {
 species {
   id: SPECIES_QUEENGAMBIT
   dex {
-    name: "Slate"
+    name: "Queengambit"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200302,7 +200314,7 @@ species {
 species {
   id: SPECIES_PENTADUG
   dex {
-    name: "Slate"
+    name: "Pentadug"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200393,7 +200405,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 17
       }
     }
     palette: "pentadug/normal"
@@ -200562,7 +200574,7 @@ species {
       path: "crabruiser/back"
       coords {
         size: 136
-        y_offset: 3
+        y_offset: 0
       }
     }
     palette: "crabruiser/normal"
@@ -200935,7 +200947,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -200943,7 +200955,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "abyssand/normal"
@@ -200984,71 +200996,87 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_AQUA_JET
+      move: MOVE_WRAP
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_FAKE_OUT
+      move: MOVE_ICE_SHARD
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_FLAIL
+      move: MOVE_ICE_SPINNER
+      move: MOVE_THROAT_CHOP
+      move: MOVE_WATERFALL
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ROCK_CLIMB
+      move: MOVE_ROCK_POLISH
+      move: MOVE_SUCKER_PUNCH
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_STRENGTH
+      move: MOVE_TRIPLE_DIVE
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_WAVE_CRASH
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DIG
+    tutor: MOVE_DIVE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_SOAK
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SURF
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
-      path: "wugtrio/icon"
+      path: "pentawug/icon"
       palette: 4
     }
     front {
-      path: "wugtrio/front"
+      path: "pentawug/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
-      path: "wugtrio/back"
+      path: "pentawug/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 11
       }
     }
-    palette: "wugtrio/normal"
-    shiny: "wugtrio/shiny"
+    palette: "pentawug/normal"
+    shiny: "pentawug/shiny"
   }
 }
 species {
@@ -201073,71 +201101,95 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_ASTONISH
+      move: MOVE_GROWL
+      move: MOVE_MAGNITUDE
+      move: MOVE_QUICK_GUARD
+      move: MOVE_SAND_ATTACK
+      move: MOVE_SLASH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_BARRAGE
+      move: MOVE_HONE_CLAWS
+      move: MOVE_MUD_SLAP
+      move: MOVE_PECK
+      move: MOVE_ROCK_BLAST
+      move: MOVE_SCORCHING_SANDS
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_AERIAL_ACE
+      move: MOVE_BEAT_UP
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SCREECH
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ASSURANCE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FISSURE
+      move: MOVE_REVERSAL
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MEMENTO
+      move: MOVE_STEEL_ROLLER
     }
     level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
+      level: 100
+      move: MOVE_HIGH_JUMP_KICK
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CUT
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FEINT
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_METAL_CLAW
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_THIEF
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
-      path: "dugtrio/alolan/icon"
+      path: "pentadug/alolan/icon"
       palette: 4
     }
     front {
-      path: "dugtrio/alolan/front"
+      path: "pentadug/alolan/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
-      path: "dugtrio/alolan/back"
+      path: "pentadug/alolan/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 17
       }
     }
-    palette: "dugtrio/alolan/normal"
-    shiny: "dugtrio/alolan/shiny"
+    palette: "pentadug/alolan/normal"
+    shiny: "pentadug/alolan/shiny"
   }
 }
 species {
@@ -202333,7 +202385,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 14
       }
     }
     back {
@@ -202341,7 +202393,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 2
+        y_offset: 12
       }
     }
     palette: "larvesta/redux/normal"
@@ -202426,7 +202478,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -202434,7 +202486,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 2
       }
     }
     palette: "volcarona/redux/normal"
@@ -203453,27 +203505,27 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "sneasler/mega/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "sneasler/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "sneasler/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "sneasler/mega/normal"
+    shiny: "sneasler/mega/shiny"
   }
 }
 species {
@@ -203985,7 +204037,20 @@ species {
 }
 species {
   id: SPECIES_RATICATE_ALOLAN_EVO
-  form_of: SPECIES_RATICATE_EVO
+  dex {
+    name: "Ratfioso"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
   type: TYPE_DARK
   type2: TYPE_NORMAL
   hp: 105
@@ -204049,27 +204114,27 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "ratfioso/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "ratfioso/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "ratfioso/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 8
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "ratfioso/normal"
+    shiny: "ratfioso/normal"
   }
 }
 species {
@@ -204659,11 +204724,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "blocli/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "blocli/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204671,15 +204736,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "blocli/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 15
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "blocli/normal"
+    shiny: "blocli/shiny"
   }
 }
 species {
@@ -204764,27 +204829,27 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "bloxtack/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "bloxtack/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "bloxtack/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 12
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "bloxtack/normal"
+    shiny: "bloxtack/shiny"
   }
 }
 species {
@@ -204865,27 +204930,27 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "gargablox/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "gargablox/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "gargablox/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "gargablox/normal"
+    shiny: "gargablox/shiny"
   }
 }
 species {
@@ -205173,11 +205238,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "harvesting_tyrant/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "harvesting_tyrant/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205185,15 +205250,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "harvesting_tyrant/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 11
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "harvesting_tyrant/normal"
+    shiny: "harvesting_tyrant/shiny"
   }
 }
 species {
@@ -205275,27 +205340,27 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "iron_spirals/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "iron_spirals/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 5
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "iron_spirals/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "iron_spirals/normal"
+    shiny: "iron_spirals/shiny"
   }
 }
 species {
@@ -205479,26 +205544,26 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "iron_saber/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "iron_saber/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 0
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "iron_saber/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "iron_saber/normal"
+    shiny: "iron_saber/shiny"
   }
 }
