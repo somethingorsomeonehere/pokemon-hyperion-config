@@ -198290,57 +198290,76 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_CAMOUFLAGE
-      move: MOVE_DETECT
-      move: MOVE_FAKE_OUT
-      move: MOVE_SCRATCH
+      move: MOVE_PSYWAVE
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_CHARGE
+      move: MOVE_BIG_BLAST
     }
     level {
       level: 17
-      move: MOVE_FEINT_ATTACK
-      move: MOVE_HONE_CLAWS
-      move: MOVE_MIMIC
-      move: MOVE_SLASH
-      move: MOVE_SNATCH
+      move: MOVE_TRANSMUTE
+      move: MOVE_SHOCK_WAVE
+      move: MOVE_LIGHTNING_BULLET
     }
     level {
       level: 24
-      move: MOVE_BIND
-      move: MOVE_IMPRISON
-      move: MOVE_INSTRUCT
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_SYNCHRONOISE
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_BUZZY_BUZZ
     }
     level {
       level: 37
-      move: MOVE_CONFIDE
-      move: MOVE_ME_FIRST
-      move: MOVE_POWER_SWAP
-      move: MOVE_RECOVER
-      move: MOVE_STRENGTH
+      move: MOVE_PLASMA_PULSE
+      move: MOVE_TWIN_BEAM
+      move: MOVE_OUTBURST
+      move: MOVE_SHIFT_GEAR
     }
     level {
       level: 46
-      move: MOVE_ANCIENT_POWER
-      move: MOVE_FLING
-      move: MOVE_SUCKER_PUNCH
       move: MOVE_SWIFT
+      move: MOVE_ENCORE
+      move: MOVE_DRAIN_BRAIN
+      move: MOVE_RISING_VOLTAGE
     }
     level {
       level: 51
-      move: MOVE_CHEAP_SHOT
-      move: MOVE_LAST_RESORT
+      move: MOVE_EXPANDING_FORCE
+      move: MOVE_SEARING_SHOT
+      move: MOVE_ZAP_CANNON
     }
     level {
       level: 56
-      move: MOVE_ENTRAINMENT
+      move: MOVE_PHOTON_GEYSER
       move: MOVE_SHED_TAIL
+      move: MOVE_GEAR_UP
     }
-    level {
-      level: 61
-      move: MOVE_BATON_PASS
-    }
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_AGILITY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_TAUNT
+    tutor: MOVE_DISCHARGE
   }
   visuals {
     icon {
