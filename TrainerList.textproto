@@ -25855,17 +25855,17 @@ trainer {
       move: MOVE_HEAVY_SLAM
     }
     mon {
-      species: SPECIES_TIRTOUGA
+      species: SPECIES_LAIRON_REDUX
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_OPPORTUNIST
-      hp_ev: 252
+      ability: ABILITY_SHEER_FORCE
+      hp_ev: 244
       atk_ev: 252
-      spdef_ev: 4
-      move: MOVE_AQUA_JET
-      move: MOVE_JAGGED_FANGS
-      move: MOVE_AQUA_FANG
-      move: MOVE_CURSE
+      def_ev: 12
+      move: MOVE_BULK_UP
+      move: MOVE_LOTUS_SHOWER
+      move: MOVE_ROCK_SLIDE
+      move: MOVE_AQUA_BASH
     }
     mon {
       species: SPECIES_NACLSTACK
