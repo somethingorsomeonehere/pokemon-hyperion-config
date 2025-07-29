@@ -46378,28 +46378,51 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_TWINS
   ace {
     mon {
-      species: SPECIES_JIGGLYPUFF
+      species: SPECIES_MASCHIFF
       item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_COMPETITIVE
-      hp_ev: 128
-      spatk_ev: 128
-      move: MOVE_SING
-      move: MOVE_CAPTIVATE
-      move: MOVE_HYPER_VOICE
-      move: MOVE_DISABLE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_FRIEND_GUARD
+      hp_ev: 68
+      atk_ev: 196
+      move: MOVE_BITE
+      move: MOVE_HYPER_FANG
+      move: MOVE_PLAY_ROUGH
+      move: MOVE_PROTECT
     }
     mon {
-      species: SPECIES_SUNKERN
-      item: ITEM_BRIGHT_POWDER
-      nature: NATURE_CALM
-      ability: ABILITY_OVERCOAT
+      species: SPECIES_DRATINI
+      item: ITEM_EVIOLITE
+      nature: NATURE_IMPISH
+      ability: ABILITY_POWER_SPOT
       hp_ev: 252
+      def_ev: 4
+      move: MOVE_DRAGON_JAB
+      move: MOVE_AQUA_TAIL
+      move: MOVE_BREAKING_SWIPE
+      move: MOVE_PROTECT
+    }
+    mon {
+      species: SPECIES_CUTIEFLY
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_SWEET_VEIL
       spatk_ev: 4
-      move: MOVE_LEECH_SEED
-      move: MOVE_JUNGLE_HEALING
-      move: MOVE_LEAF_TORNADO
-      move: MOVE_EARTH_POWER
+      spe_ev: 252
+      move: MOVE_POLLEN_PUFF
+      move: MOVE_DRAINING_KISS
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_AROMATHERAPY
+    }
+    mon {
+      species: SPECIES_SWABLU
+      item: ITEM_EVIOLITE
+      nature: NATURE_MODEST
+      ability: ABILITY_FRIEND_GUARD
+      hp_ev: 68
+      spatk_ev: 196
+      move: MOVE_HYPER_VOICE
+      move: MOVE_AIR_SLASH
+      move: MOVE_SKY_DROP
     }
   }
   elite {
@@ -57702,6 +57725,32 @@ trainer {
   pic: TRAINER_PIC_LASS
   music: TRAINER_ENCOUNTER_MUSIC_FEMALE
   ace {
+    mon {
+      species: SPECIES_JIGGLYPUFF
+      item: ITEM_EVIOLITE
+      nature: NATURE_MODEST
+      ability: ABILITY_COMPETITIVE
+      hp_ev: 128
+      spatk_ev: 128
+      move: MOVE_SING
+      move: MOVE_CAPTIVATE
+      move: MOVE_HYPER_VOICE
+      move: MOVE_DISABLE
+    }
+    mon {
+      species: SPECIES_SUNKERN
+      item: ITEM_BRIGHT_POWDER
+      nature: NATURE_CALM
+      ability: ABILITY_OVERCOAT
+      hp_ev: 252
+      spatk_ev: 4
+      move: MOVE_LEECH_SEED
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_LEAF_TORNADO
+      move: MOVE_EARTH_POWER
+    }
+  }
+  elite {
     mon {
       species: SPECIES_GOTHITA
       item: ITEM_CHOICE_SCARF
