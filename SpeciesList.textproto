@@ -56381,9 +56381,9 @@ species {
   spdef: 61
   spe: 110
   ability: ABILITY_PICKUP
-  ability: ABILITY_DEFIANT
   ability: ABILITY_JUMP_SCARE
-  innate: ABILITY_QUICK_FEET
+  ability: ABILITY_RECKLESS
+  innate: ABILITY_DEFIANT
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GUTS
   percent_female: 50
@@ -82180,7 +82180,7 @@ species {
   spe: 95
   ability: ABILITY_DROUGHT
   ability: ABILITY_SNOW_WARNING
-  ability: ABILITY_PYROMANCY
+  ability: ABILITY_THERMOMANCY
   innate: ABILITY_ANTARCTIC_BIRD
   innate: ABILITY_MOLTEN_DOWN
   innate: ABILITY_ICE_SCALES
@@ -82296,8 +82296,8 @@ species {
   ability: ABILITY_FROST_BURN
   ability: ABILITY_FROST_BURN
   innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_CRYOMANCY
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_THERMOMANCY
+  innate: ABILITY_THERMAL_SLIDE
   percent_female: 50
   mega {
     from: SPECIES_EMPOLEON_REDUX
@@ -94260,6 +94260,7 @@ species {
       move: MOVE_GROWTH
       move: MOVE_NATURAL_GIFT
       move: MOVE_TRAILBLAZE
+      move: MOVE_MOUNTAIN_GALE
     }
     level {
       level: 51
@@ -164060,7 +164061,7 @@ species {
   ability: ABILITY_CHEAP_TACTICS
   ability: ABILITY_JUMP_SCARE
   ability: ABILITY_STAMINA
-  innate: ABILITY_PICKUP
+  innate: ABILITY_DEFIANT
   innate: ABILITY_TOXIC_BOOST
   innate: ABILITY_POISON_HEAL
   percent_female: 50
@@ -198290,57 +198291,76 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_ASTONISH
-      move: MOVE_CAMOUFLAGE
-      move: MOVE_DETECT
-      move: MOVE_FAKE_OUT
-      move: MOVE_SCRATCH
+      move: MOVE_PSYWAVE
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_CHARGE
+      move: MOVE_BIG_BLAST
     }
     level {
       level: 17
-      move: MOVE_FEINT_ATTACK
-      move: MOVE_HONE_CLAWS
-      move: MOVE_MIMIC
-      move: MOVE_SLASH
-      move: MOVE_SNATCH
+      move: MOVE_TRANSMUTE
+      move: MOVE_SHOCK_WAVE
+      move: MOVE_LIGHTNING_BULLET
     }
     level {
       level: 24
-      move: MOVE_BIND
-      move: MOVE_IMPRISON
-      move: MOVE_INSTRUCT
-      move: MOVE_SHADOW_SNEAK
-      move: MOVE_SYNCHRONOISE
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_BUZZY_BUZZ
     }
     level {
       level: 37
-      move: MOVE_CONFIDE
-      move: MOVE_ME_FIRST
-      move: MOVE_POWER_SWAP
-      move: MOVE_RECOVER
-      move: MOVE_STRENGTH
+      move: MOVE_PLASMA_PULSE
+      move: MOVE_TWIN_BEAM
+      move: MOVE_OUTBURST
+      move: MOVE_SHIFT_GEAR
     }
     level {
       level: 46
-      move: MOVE_ANCIENT_POWER
-      move: MOVE_FLING
-      move: MOVE_SUCKER_PUNCH
       move: MOVE_SWIFT
+      move: MOVE_ENCORE
+      move: MOVE_DRAIN_BRAIN
+      move: MOVE_RISING_VOLTAGE
     }
     level {
       level: 51
-      move: MOVE_CHEAP_SHOT
-      move: MOVE_LAST_RESORT
+      move: MOVE_EXPANDING_FORCE
+      move: MOVE_SEARING_SHOT
+      move: MOVE_ZAP_CANNON
     }
     level {
       level: 56
-      move: MOVE_ENTRAINMENT
+      move: MOVE_PHOTON_GEYSER
       move: MOVE_SHED_TAIL
+      move: MOVE_GEAR_UP
     }
-    level {
-      level: 61
-      move: MOVE_BATON_PASS
-    }
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_AGILITY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_TAUNT
+    tutor: MOVE_DISCHARGE
   }
   visuals {
     icon {
@@ -199630,44 +199650,73 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_AQUA_FANG
-      move: MOVE_BEAT_UP
-      move: MOVE_ROAR
-      move: MOVE_SPLASH
-      move: MOVE_WATER_SPORT
-      move: MOVE_KARMA
+      move: MOVE_SHADOW_FANGS
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_LUNGE
+      move: MOVE_POUNCE
+      move: MOVE_INFESTATION
     }
     level {
       level: 17
-      move: MOVE_BODY_SLAM
-      move: MOVE_ICE_FANG
+      move: MOVE_BEAT_UP
+      move: MOVE_CRUNCH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
-      move: MOVE_CHILLING_WATER
-      move: MOVE_MUDDY_WATER
-      move: MOVE_MUD_BOMB
-      move: MOVE_WATER_GUN
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_LASH_OUT
     }
     level {
       level: 37
-      move: MOVE_AVALANCHE
-      move: MOVE_IRON_TAIL
-      move: MOVE_RAPID_RIVER
+      move: MOVE_THOUSAND_WAVES
+      move: MOVE_SILK_TRAP
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_FAKE_TEARS
     }
     level {
       level: 46
-      move: MOVE_DOUBLE_EDGE
+      move: MOVE_GHASTLY_ECHO
+      move: MOVE_POLTERGEIST
+      move: MOVE_RIP_AND_TEAR
     }
     level {
       level: 51
-      move: MOVE_DEATHROLL
+      move: MOVE_DEFEND_ORDER
+      move: MOVE_SHADOW_HAMMER
     }
     level {
       level: 56
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_WAVE_CRASH
+      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_FISSURE
     }
+    level {
+      level: 61
+      move: MOVE_ATTACK_ORDER
+    }
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_X_SCISSOR
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_BITE
+    tutor: MOVE_STRING_SHOT
+    tutor: MOVE_U_TURN
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_HEX
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_VEXING_VOID
   }
   visuals {
     icon {
@@ -199695,19 +199744,7 @@ species {
 }
 species {
   id: SPECIES_WISPYWASPY_HIVEMIND
-  dex {
-    name: "Wispywaspy"
-    category: "Small Fry"
-    description: "When it\'s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
-    national_dex_num: 746
-    body_color: BODY_COLOR_BLUE
-    egg_group: WATER_2
-    height: 2
-    weight: 3
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  form_of: SPECIES_WISPYWASPY
   type: TYPE_BUG
   type2: TYPE_GHOST
   hp: 50
@@ -199724,48 +199761,6 @@ species {
   innate: ABILITY_CURSE_OF_FAMINE
   percent_female: 50
   tier: 3
-  learnset {
-    level {
-      level: 1
-      move: MOVE_AQUA_FANG
-      move: MOVE_BEAT_UP
-      move: MOVE_ROAR
-      move: MOVE_SPLASH
-      move: MOVE_WATER_SPORT
-      move: MOVE_KARMA
-    }
-    level {
-      level: 17
-      move: MOVE_BODY_SLAM
-      move: MOVE_ICE_FANG
-    }
-    level {
-      level: 24
-      move: MOVE_CHILLING_WATER
-      move: MOVE_MUDDY_WATER
-      move: MOVE_MUD_BOMB
-      move: MOVE_WATER_GUN
-    }
-    level {
-      level: 37
-      move: MOVE_AVALANCHE
-      move: MOVE_IRON_TAIL
-      move: MOVE_RAPID_RIVER
-    }
-    level {
-      level: 46
-      move: MOVE_DOUBLE_EDGE
-    }
-    level {
-      level: 51
-      move: MOVE_DEATHROLL
-    }
-    level {
-      level: 56
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_WAVE_CRASH
-    }
-  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -200984,55 +200979,71 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_AQUA_JET
+      move: MOVE_WRAP
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_FAKE_OUT
+      move: MOVE_ICE_SHARD
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_FLAIL
+      move: MOVE_ICE_SPINNER
+      move: MOVE_THROAT_CHOP
+      move: MOVE_WATERFALL
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ROCK_CLIMB
+      move: MOVE_ROCK_POLISH
+      move: MOVE_SUCKER_PUNCH
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_STRENGTH
+      move: MOVE_TRIPLE_DIVE
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_WAVE_CRASH
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DIG
+    tutor: MOVE_DIVE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_SOAK
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SURF
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
-      path: "wugtrio/icon"
+      path: "pentawug/icon"
       palette: 4
     }
     front {
-      path: "wugtrio/front"
+      path: "pentawug/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -201040,15 +201051,15 @@ species {
       }
     }
     back {
-      path: "wugtrio/back"
+      path: "pentawug/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "wugtrio/normal"
-    shiny: "wugtrio/shiny"
+    palette: "pentawug/normal"
+    shiny: "pentawug/shiny"
   }
 }
 species {
@@ -201073,55 +201084,79 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_ASTONISH
+      move: MOVE_GROWL
+      move: MOVE_MAGNITUDE
+      move: MOVE_QUICK_GUARD
+      move: MOVE_SAND_ATTACK
+      move: MOVE_SLASH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_BARRAGE
+      move: MOVE_HONE_CLAWS
+      move: MOVE_MUD_SLAP
+      move: MOVE_PECK
+      move: MOVE_ROCK_BLAST
+      move: MOVE_SCORCHING_SANDS
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_AERIAL_ACE
+      move: MOVE_BEAT_UP
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SCREECH
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ASSURANCE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FISSURE
+      move: MOVE_REVERSAL
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MEMENTO
+      move: MOVE_STEEL_ROLLER
     }
     level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
+      level: 100
+      move: MOVE_HIGH_JUMP_KICK
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CUT
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FEINT
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_METAL_CLAW
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_THIEF
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
-      path: "dugtrio/alolan/icon"
+      path: "pentadug/alolan/icon"
       palette: 4
     }
     front {
-      path: "dugtrio/alolan/front"
+      path: "pentadug/alolan/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -201129,15 +201164,15 @@ species {
       }
     }
     back {
-      path: "dugtrio/alolan/back"
+      path: "pentadug/alolan/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "dugtrio/alolan/normal"
-    shiny: "dugtrio/alolan/shiny"
+    palette: "pentadug/alolan/normal"
+    shiny: "pentadug/alolan/shiny"
   }
 }
 species {
@@ -203453,11 +203488,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "sneasler/mega/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "sneasler/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -203465,15 +203500,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "sneasler/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "sneasler/mega/normal"
+    shiny: "sneasler/mega/shiny"
   }
 }
 species {
@@ -203985,7 +204020,20 @@ species {
 }
 species {
   id: SPECIES_RATICATE_ALOLAN_EVO
-  form_of: SPECIES_RATICATE_EVO
+  dex {
+    name: "Ratfioso"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
   type: TYPE_DARK
   type2: TYPE_NORMAL
   hp: 105
@@ -204049,11 +204097,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "ratfioso/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "ratfioso/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204061,15 +204109,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "ratfioso/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "ratfioso/normal"
+    shiny: "ratfioso/normal"
   }
 }
 species {
@@ -204659,11 +204707,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "blocli/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "blocli/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204671,15 +204719,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "blocli/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "blocli/normal"
+    shiny: "blocli/shiny"
   }
 }
 species {
@@ -204764,11 +204812,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "bloxtack/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "bloxtack/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204776,15 +204824,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "bloxtack/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "bloxtack/normal"
+    shiny: "bloxtack/shiny"
   }
 }
 species {
@@ -204865,11 +204913,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "gargablox/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "gargablox/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204877,15 +204925,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "gargablox/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "gargablox/normal"
+    shiny: "gargablox/shiny"
   }
 }
 species {
@@ -205173,11 +205221,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "harvesting_tyrant/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "harvesting_tyrant/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205185,15 +205233,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "harvesting_tyrant/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "harvesting_tyrant/normal"
+    shiny: "harvesting_tyrant/shiny"
   }
 }
 species {
@@ -205275,11 +205323,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "iron_spirals/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "iron_spirals/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205287,15 +205335,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "iron_spirals/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "iron_spirals/normal"
+    shiny: "iron_spirals/shiny"
   }
 }
 species {
@@ -205479,11 +205527,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "iron_saber/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "iron_saber/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205491,14 +205539,14 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "iron_saber/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "iron_saber/normal"
+    shiny: "iron_saber/shiny"
   }
 }
