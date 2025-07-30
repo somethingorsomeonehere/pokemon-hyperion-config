@@ -146151,7 +146151,7 @@ species {
   ability: ABILITY_MIND_CRUSH
   ability: ABILITY_ON_THE_PROWL
   ability: ABILITY_DETERMINATION
-  innate: ABILITY_ROCKHARD_WILL
+  innate: ABILITY_FLUFFY
   innate: ABILITY_MOON_SPIRIT
   innate: ABILITY_DAZZLING
   percent_female: 50
@@ -198282,9 +198282,9 @@ species {
   spe: 56
   ability: ABILITY_PROTEAN
   ability: ABILITY_ANALYTIC
-  ability: ABILITY_STALL
+  ability: ABILITY_ARTILLERY
   innate: ABILITY_QUARK_DRIVE
-  innate: ABILITY_SUPER_SCOPE
+  innate: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_PAINT_SHOT
   percent_female: 50
   tier: 4
