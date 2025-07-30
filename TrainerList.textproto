@@ -34174,7 +34174,7 @@ trainer {
       species: SPECIES_SPINDA
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_DANCER
+      ability: ABILITY_DEFIANT
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -64182,7 +64182,7 @@ trainer {
       species: SPECIES_SPINDA
       item: ITEM_SITRUS_BERRY
       nature: NATURE_IMPISH
-      ability: ABILITY_COMPETITIVE
+      ability: ABILITY_DEFIANT
       hp_ev: 252
       def_ev: 252
       spdef_ev: 4
