@@ -204650,8 +204650,8 @@ species {
   spe: 5
   ability: ABILITY_NORMALIZE
   ability: ABILITY_IMMUNITY
-  ability: ABILITY_SELF_REPAIR
-  innate: ABILITY_STRONG_FOUNDATION
+  ability: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_STURDY
   innate: ABILITY_DROP_BLOCKS
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -204663,47 +204663,47 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_DOUBLE_EDGE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SELF_DESTRUCT
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BRAVADO
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SPIKES
+    tutor: MOVE_TAKE_DOWN
   }
   visuals {
     icon {
@@ -204755,8 +204755,8 @@ species {
   spe: 10
   ability: ABILITY_NORMALIZE
   ability: ABILITY_IMMUNITY
-  ability: ABILITY_SELF_REPAIR
-  innate: ABILITY_STRONG_FOUNDATION
+  ability: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_STURDY
   innate: ABILITY_DROP_BLOCKS
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -204768,47 +204768,51 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
+      move: MOVE_STOMP
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_HIGH_HORSEPOWER
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SELF_DESTRUCT
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BRAVADO
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SPIKES
+    tutor: MOVE_TAKE_DOWN
   }
   visuals {
     icon {
@@ -204869,47 +204873,78 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
+      move: MOVE_STOMP
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
       move: MOVE_BIND
+      move: MOVE_UPPER_HAND
+      move: MOVE_SEISMIC_FIST
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_FAKE_OUT
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_HAMMER_ARM
+      move: MOVE_HIGH_HORSEPOWER
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SUBMISSION
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
+      move: MOVE_PRIMITIVE_STRIKE
+      move: MOVE_ICE_HAMMER
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_SELF_DESTRUCT
+      move: MOVE_FISSURE
     }
     level {
       level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
+      move: MOVE_CRUSH_GRIP
     }
     level {
       level: 81
-      move: MOVE_TACKLE
+      move: MOVE_STOCKPILE
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_DOUBLE_LARIAT
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_SPIKES
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
   }
   visuals {
     icon {
