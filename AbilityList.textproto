@@ -4576,3 +4576,18 @@ ability {
   name: "Home Run (N)"
   description: "Landing a crit boosts your 3 lowest stats. RAW stat, not base."
 }
+ability {
+  id: ABILITY_BRUISER
+  name: "Bruiser"
+  description: "Adds Fighting-type on entry."
+}
+ability {
+  id: ABILITY_NARCISSIST
+  name: "Narcissist (N)"
+  description: "When a stat is lowered, sharply raise both offenses."
+}
+ability {
+  id: ABILITY_LETS_DANCE
+  name: "Let's Dance"
+  description: "Uses Teeter Dance on entry, Confusing the field."
+}
