@@ -201049,9 +201049,9 @@ species {
   spdef: 75
   spe: 130
   ability: ABILITY_ACCELERATE
-  ability: ABILITY_RATTLED
-  ability: ABILITY_COWARD
-  innate: ABILITY_GOOEY
+  ability: ABILITY_IMPULSE
+  ability: ABILITY_STURDY
+  innate: ABILITY_LIMBER
   innate: ABILITY_DEPTH_EXPLORER
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
