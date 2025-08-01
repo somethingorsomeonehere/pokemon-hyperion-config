@@ -9152,7 +9152,6 @@ species {
     tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THIEF
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -9291,7 +9290,6 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_THIEF
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -9440,7 +9438,7 @@ species {
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THIEF
-    tutor: MOVE_METRONOME
+    tutor: MOVE_CALTROPS
   }
   visuals {
     icon {
@@ -9557,7 +9555,7 @@ species {
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_THIEF
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
+    tutor: MOVE_CALTROPS
   }
   visuals {
     icon {
@@ -20829,7 +20827,6 @@ species {
     level {
       level: 1
       move: MOVE_BLOCK
-      move: MOVE_DEFENSE_CURL
       move: MOVE_ROCK_POLISH
       move: MOVE_ROLLOUT
       move: MOVE_SELF_DESTRUCT
@@ -20839,7 +20836,6 @@ species {
     }
     level {
       level: 17
-      move: MOVE_DRAGON_BREATH
       move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_STEAMROLLER
@@ -20883,7 +20879,6 @@ species {
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_POISON_TAIL
@@ -20898,7 +20893,6 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -34609,6 +34603,7 @@ species {
       move: MOVE_MEGA_PUNCH
       move: MOVE_STEEL_WING
       move: MOVE_STRUGGLE_BUG
+      move: MOVE_FIVE_STAR_FURY
     }
     level {
       level: 17
@@ -67647,18 +67642,18 @@ species {
     pokemon_offset: 4
   }
   type: TYPE_NORMAL
-  hp: 90
+  hp: 70
   atk: 90
-  def: 70
+  def: 60
   spatk: 90
-  spdef: 70
+  spdef: 60
   spe: 95
-  ability: ABILITY_CONTRARY
+  ability: ABILITY_DEFIANT
   ability: ABILITY_COMPETITIVE
-  ability: ABILITY_DANCER
+  ability: ABILITY_CONTRARY
   innate: ABILITY_UNAWARE
   innate: ABILITY_SIMPLE
-  innate: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_DANCER
   percent_female: 50
   tier: 2
   no_flip: true
@@ -67677,8 +67672,8 @@ species {
     level {
       level: 17
       move: MOVE_FAKE_TEARS
-      move: MOVE_HYPNOSIS
       move: MOVE_PSYCH_UP
+      move: MOVE_AURA_FORCE
     }
     level {
       level: 24
@@ -67686,6 +67681,9 @@ species {
       move: MOVE_GUARD_SPLIT
       move: MOVE_POWER_SPLIT
       move: MOVE_SUPERPOWER
+      move: MOVE_ASTRAL_HAND
+      move: MOVE_JAGGED_PUNCH
+      move: MOVE_UPPER_HAND
     }
     level {
       level: 37
@@ -67699,8 +67697,8 @@ species {
       move: MOVE_DOUBLE_EDGE
       move: MOVE_DYNAMIC_PUNCH
       move: MOVE_ENTRAINMENT
-      move: MOVE_SUCKER_PUNCH
       move: MOVE_STRENGTH
+      move: MOVE_HYPNOSIS
     }
     level {
       level: 51
@@ -67721,19 +67719,13 @@ species {
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
-    tutor: MOVE_FIRE_PUNCH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_ICE_PUNCH
     tutor: MOVE_LOW_KICK
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WORK_UP
@@ -83411,7 +83403,6 @@ species {
     level {
       level: 17
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_DOUBLE_KICK
       move: MOVE_SNARL
       move: MOVE_SPARK
       move: MOVE_THUNDER_FANG
@@ -83436,8 +83427,8 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FLASH
@@ -83445,7 +83436,6 @@ species {
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MAGNET_RISE
-    tutor: MOVE_METAL_CLAW
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PURSUIT
     tutor: MOVE_SPOTLIGHT
@@ -83454,8 +83444,6 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -83540,7 +83528,6 @@ species {
     level {
       level: 17
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_DOUBLE_KICK
       move: MOVE_SNARL
       move: MOVE_SPARK
       move: MOVE_THUNDER_FANG
@@ -83566,8 +83553,8 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FLASH
@@ -83575,7 +83562,6 @@ species {
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MAGNET_RISE
-    tutor: MOVE_METAL_CLAW
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PURSUIT
     tutor: MOVE_SPOTLIGHT
@@ -83584,8 +83570,6 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -83831,10 +83815,16 @@ species {
   randomizer_banned: SPECIES_HIDDEN
   dex {
     name: "Luxzero"
-    national_dex_num: 9999
-    body_color: BODY_COLOR_WHITE
+    category: "Glacial Lion"
+    description: "Rumored to have been a luxray that experienced years of cryosleep in a malfunctioned capsule, thus creating immensely cold ice on itself once it woke up. It is not fond of humans and is hard to tame."
+    national_dex_num: 405
+    body_color: BODY_COLOR_BLUE
     egg_group: FIELD
-    egg_group_2: FIELD
+    height: 14
+    weight: 420
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
   }
   type: TYPE_ELECTRIC
   type2: TYPE_ICE
@@ -83853,65 +83843,87 @@ species {
   percent_female: 50
   learnset {
     level {
-      level: 10
-      move: MOVE_BABY_DOLL_EYES
+      level: 1
+      move: MOVE_CHARGE
+      move: MOVE_LEER
+      move: MOVE_TACKLE
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_QUASH
+      move: MOVE_ICE_FANG
     }
     level {
-      level: 12
-      move: MOVE_BITE
-    }
-    level {
-      level: 15
+      level: 17
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_SNARL
       move: MOVE_SPARK
+      move: MOVE_THUNDER_FANG
+      move: MOVE_FREEZE_DRY
     }
     level {
-      level: 22
+      level: 24
       move: MOVE_ROAR
-    }
-    level {
-      level: 26
-      move: MOVE_VOLT_SWITCH
-    }
-    level {
-      level: 34
-      move: MOVE_SCARY_FACE
+      move: MOVE_SHARPEN
+      move: MOVE_SWAGGER
+      move: MOVE_TRAILBLAZE
+      move: MOVE_ZING_ZAP
+      move: MOVE_CRUNCH
+      move: MOVE_ICE_SPINNER
+      move: MOVE_JAW_LOCK
+      move: MOVE_AQUA_FANG
     }
     level {
       level: 37
-      move: MOVE_THUNDER_FANG
-    }
-    level {
-      level: 40
       move: MOVE_RISING_VOLTAGE
+      move: MOVE_SUPERCELL_SLAM
+      move: MOVE_GLACIER_CRASH
     }
     level {
       level: 46
-      move: MOVE_CRUNCH
+      move: MOVE_SCARY_FACE
+      move: MOVE_VOLT_TACKLE
+      move: MOVE_MOUNTAIN_GALE
     }
     level {
-      level: 48
-      move: MOVE_ION_DELUGE
-    }
-    level {
-      level: 50
-      move: MOVE_DISCHARGE
-    }
-    level {
-      level: 54
-      move: MOVE_SWAGGER
-    }
-    level {
-      level: 58
-      move: MOVE_WILD_CHARGE
-    }
-    level {
-      level: 60
+      level: 51
+      move: MOVE_SHEER_COLD
+      move: MOVE_FREEZE_SHOCK
+      move: MOVE_CLOSE_COMBAT
       move: MOVE_SMITE
     }
-    level {
-      level: 63
-      move: MOVE_VOLT_TACKLE
-    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FLASH
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MAGNET_RISE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_AQUA_BASH
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_SURF
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_POWDER_SNOW
   }
   visuals {
     icon {
@@ -93789,10 +93801,6 @@ species {
   evo {
     to: SPECIES_LUMINOSITEON
     level: 55
-  }
-  evo {
-    to: SPECIES_FINNEON
-    level: 16
   }
   learnset {
     level {
@@ -107909,6 +107917,7 @@ species {
       move: MOVE_GROWTH
       move: MOVE_LEAFAGE
       move: MOVE_STICKY_WEB
+      move: MOVE_GRASSY_GLIDE
     }
     level {
       level: 24
@@ -107919,7 +107928,6 @@ species {
     }
     level {
       level: 37
-      move: MOVE_GRASSY_GLIDE
       move: MOVE_NATURAL_GIFT
     }
     level {
@@ -108036,6 +108044,7 @@ species {
       move: MOVE_GROWTH
       move: MOVE_LEAFAGE
       move: MOVE_STICKY_WEB
+      move: MOVE_GRASSY_GLIDE
     }
     level {
       level: 24
@@ -108046,7 +108055,6 @@ species {
     }
     level {
       level: 37
-      move: MOVE_GRASSY_GLIDE
       move: MOVE_LEECH_BLADE
       move: MOVE_NATURAL_GIFT
     }
@@ -146152,7 +146160,7 @@ species {
   ability: ABILITY_MIND_CRUSH
   ability: ABILITY_ON_THE_PROWL
   ability: ABILITY_DETERMINATION
-  innate: ABILITY_ROCKHARD_WILL
+  innate: ABILITY_FLUFFY
   innate: ABILITY_MOON_SPIRIT
   innate: ABILITY_DAZZLING
   percent_female: 50
@@ -150001,7 +150009,6 @@ species {
       level: 37
       move: MOVE_MUD_SPORT
       move: MOVE_QUASH
-      move: MOVE_SOIL_DRAIN
     }
     level {
       level: 46
@@ -150118,7 +150125,6 @@ species {
       level: 37
       move: MOVE_MUD_SPORT
       move: MOVE_QUASH
-      move: MOVE_SOIL_DRAIN
     }
     level {
       level: 46
@@ -198281,9 +198287,9 @@ species {
   spe: 56
   ability: ABILITY_PROTEAN
   ability: ABILITY_ANALYTIC
-  ability: ABILITY_STALL
+  ability: ABILITY_ARTILLERY
   innate: ABILITY_QUARK_DRIVE
-  innate: ABILITY_SUPER_SCOPE
+  innate: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_PAINT_SHOT
   percent_female: 50
   tier: 4
@@ -199129,7 +199135,6 @@ species {
     level {
       level: 1
       move: MOVE_BLOCK
-      move: MOVE_DEFENSE_CURL
       move: MOVE_ROCK_POLISH
       move: MOVE_ROLLOUT
       move: MOVE_SELF_DESTRUCT
@@ -199139,11 +199144,11 @@ species {
     }
     level {
       level: 17
-      move: MOVE_DRAGON_BREATH
       move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_STEAMROLLER
       move: MOVE_STEEL_ROLLER
+      move: MOVE_MYSTIC_DANCE
     }
     level {
       level: 24
@@ -199151,12 +199156,15 @@ species {
       move: MOVE_JAGGED_FANGS
       move: MOVE_SCARY_FACE
       move: MOVE_SUBMISSION
+      move: MOVE_TWISTER
     }
     level {
       level: 37
       move: MOVE_NOBLE_ROAR
       move: MOVE_ROCK_WRECKER
       move: MOVE_DOUBLE_EDGE
+      move: MOVE_PRISM_BLAST
+      move: MOVE_GEM_MISSILE
     }
     level {
       level: 46
@@ -199166,39 +199174,50 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_DRACO_METEOR
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_ENERGY
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_BULLDOZE
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_JAB
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POISON_TAIL
+    tutor: MOVE_POWER_GEM
     tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROTOTILLER
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -200194,7 +200213,7 @@ species {
 species {
   id: SPECIES_QUEENGAMBIT
   dex {
-    name: "Slate"
+    name: "Queengambit"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200296,7 +200315,7 @@ species {
 species {
   id: SPECIES_PENTADUG
   dex {
-    name: "Slate"
+    name: "Pentadug"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -200327,47 +200346,83 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_ASTONISH
+      move: MOVE_GROWL
+      move: MOVE_MAGNITUDE
+      move: MOVE_QUICK_GUARD
+      move: MOVE_SAND_ATTACK
+      move: MOVE_SLASH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_HONE_CLAWS
+      move: MOVE_MUD_SLAP
+      move: MOVE_PECK
+      move: MOVE_ROCK_BLAST
+      move: MOVE_SCORCHING_SANDS
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_AERIAL_ACE
+      move: MOVE_BEAT_UP
+      move: MOVE_SCREECH
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ASSURANCE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FISSURE
+      move: MOVE_REVERSAL
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_UPPER_HAND
+      move: MOVE_CHEAP_SHOT
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_FINAL_GAMBIT
+      move: MOVE_HEAD_SMASH
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_CLOSE_COMBAT
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_NO_RETREAT
     }
     level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
+      level: 100
+      move: MOVE_HIGH_JUMP_KICK
     }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FEINT
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_THIEF
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_SWORDS_DANCE
   }
   visuals {
     icon {
@@ -200877,47 +200932,72 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_RECYCLE
+      move: MOVE_SAND_ATTACK
+      move: MOVE_SCORCHING_SANDS
+      move: MOVE_STOCKPILE
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_IMPRISON
+      move: MOVE_INFESTATION
+      move: MOVE_OMINOUS_WIND
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_BRINE
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_SPIT_UP
+      move: MOVE_SWALLOW
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_MUD_SPORT
+      move: MOVE_QUASH
+      move: MOVE_SOIL_DRAIN
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_CHILLING_WATER
+      move: MOVE_MUDDY_WATER
+      move: MOVE_SCORCHED_EARTH
+      move: MOVE_MAT_BLOCK
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
+      move: MOVE_SHORE_UP
+      move: MOVE_COMEUPPANCE
     }
     level {
       level: 71
-      move: MOVE_SCRATCH
+      move: MOVE_SANDSEAR_STORM
     }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEX
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SPIKES
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_VEXING_VOID
   }
   visuals {
     icon {
@@ -200968,9 +201048,9 @@ species {
   spdef: 75
   spe: 130
   ability: ABILITY_ACCELERATE
-  ability: ABILITY_RATTLED
-  ability: ABILITY_COWARD
-  innate: ABILITY_GOOEY
+  ability: ABILITY_IMPULSE
+  ability: ABILITY_STURDY
+  innate: ABILITY_LIMBER
   innate: ABILITY_DEPTH_EXPLORER
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
@@ -201114,11 +201194,22 @@ species {
       move: MOVE_DOUBLE_EDGE
       move: MOVE_FISSURE
       move: MOVE_REVERSAL
+      move: MOVE_METAL_BURST
+      move: MOVE_SPIN_OUT
+      move: MOVE_UPPER_HAND
     }
     level {
       level: 46
       move: MOVE_MEMENTO
       move: MOVE_STEEL_ROLLER
+    }
+    level {
+      level: 51
+      move: MOVE_CLOSE_COMBAT
+    }
+    level {
+      level: 56
+      move: MOVE_NO_RETREAT
     }
     level {
       level: 100
@@ -201147,7 +201238,9 @@ species {
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_THIEF
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
+    tutor: MOVE_CALTROPS
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_TAKE_DOWN
   }
   visuals {
     icon {
@@ -203533,11 +203626,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "clefable/mega/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "clefable/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -203545,15 +203638,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "clefable/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "clefable/mega/normal"
+    shiny: "clefable/mega/shiny"
   }
 }
 species {
@@ -204052,47 +204145,78 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_AFTER_YOU
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_LOVELY_BITE
+      move: MOVE_POISON_FANG
+      move: MOVE_QUICK_ATTACK
+      move: MOVE_SCARY_FACE
+      move: MOVE_TACKLE
+      move: MOVE_TAIL_WHIP
+      move: MOVE_STUFF_CHEEKS
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_ASSURANCE
+      move: MOVE_FEINT_ATTACK
+      move: MOVE_FURY_SWIPES
+      move: MOVE_HONE_CLAWS
+      move: MOVE_HYPER_FANG
+      move: MOVE_PUNISHMENT
+      move: MOVE_SCREECH
+      move: MOVE_SPIT_UP
+      move: MOVE_STOCKPILE
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_SWALLOW
+      move: MOVE_BELLY_DRUM
+      move: MOVE_PARTING_SHOT
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_CHIP_AWAY
+      move: MOVE_CRUNCH
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FAKE_OUT
+      move: MOVE_FAKE_TEARS
+      move: MOVE_FLAIL
+      move: MOVE_JAW_LOCK
+      move: MOVE_ME_FIRST
+      move: MOVE_SUPER_FANG
+      move: MOVE_COMEUPPANCE
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_BEAT_UP
+      move: MOVE_FINAL_GAMBIT
+      move: MOVE_LAST_RESORT
+      move: MOVE_MIMIC
+      move: MOVE_RECYCLE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_CHEAP_SHOT
     }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AGILITY
+    tutor: MOVE_COVET
+    tutor: MOVE_CUT
+    tutor: MOVE_DIG
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_THIEF
+    tutor: MOVE_TORMENT
+    tutor: MOVE_TOXIC
+    tutor: MOVE_METRONOME
+    tutor: MOVE_BITE
+    tutor: MOVE_COUNTER
   }
   visuals {
     icon {
@@ -204527,8 +204651,8 @@ species {
   id: SPECIES_SPINDAZE
   dex {
     name: "Spindaze"
-    category: "???"
-    description: "Hi i use this for implementing."
+    category: "Woozy Fighter"
+    description: "Spindaze is always over it\'s head thinking it\'s the best at everything it does when in reality it\'s incapable of thinking properly due to mind toxins, thus making it dense."
     national_dex_num: 1
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
@@ -204540,72 +204664,119 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  type2: TYPE_POISON
+  hp: 90
+  atk: 92
+  def: 78
+  spatk: 92
+  spdef: 78
+  spe: 110
+  ability: ABILITY_LETS_DANCE
+  ability: ABILITY_NARCISSIST
+  ability: ABILITY_CONTRARY
+  innate: ABILITY_BRUISER
+  innate: ABILITY_SIMPLE
+  innate: ABILITY_TOXIC_SPILL
   percent_female: 50
   tier: 3
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_DIZZY_PUNCH
+      move: MOVE_MIMIC
+      move: MOVE_TEETER_DANCE
+      move: MOVE_UPROAR
+      move: MOVE_ACID
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_FAKE_TEARS
+      move: MOVE_PSYCH_UP
+      move: MOVE_AURA_FORCE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_FOLLOW_ME
+      move: MOVE_GUARD_SPLIT
+      move: MOVE_POWER_SPLIT
+      move: MOVE_SUPERPOWER
+      move: MOVE_ASTRAL_HAND
+      move: MOVE_JAGGED_PUNCH
+      move: MOVE_UPPER_HAND
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ENCORE
+      move: MOVE_FAKE_OUT
+      move: MOVE_SWAGGER
+      move: MOVE_WISH
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_BELCH
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_DYNAMIC_PUNCH
+      move: MOVE_ENTRAINMENT
+      move: MOVE_STRENGTH
+      move: MOVE_HYPNOSIS
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_FLAIL
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_SKY_UPPERCUT
+      move: MOVE_VIRAL_STRIKE
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_ASSIST
+      move: MOVE_BATON_PASS
     }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_COPYCAT
+    tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_COUNTER
+    tutor: MOVE_DISABLE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_FEINT
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_FOCUS_PUNCH
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_LOW_KICK
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_POWER_UP_PUNCH
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TOPSY_TURVY
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "spindaze/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "spindaze/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204613,15 +204784,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "spindaze/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "spindaze/normal"
+    shiny: "spindaze/shiny"
   }
 }
 species {
@@ -204649,8 +204820,8 @@ species {
   spe: 5
   ability: ABILITY_NORMALIZE
   ability: ABILITY_IMMUNITY
-  ability: ABILITY_SELF_REPAIR
-  innate: ABILITY_STRONG_FOUNDATION
+  ability: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_STURDY
   innate: ABILITY_DROP_BLOCKS
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -204662,47 +204833,47 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_DOUBLE_EDGE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SELF_DESTRUCT
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BRAVADO
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SPIKES
+    tutor: MOVE_TAKE_DOWN
   }
   visuals {
     icon {
@@ -204754,8 +204925,8 @@ species {
   spe: 10
   ability: ABILITY_NORMALIZE
   ability: ABILITY_IMMUNITY
-  ability: ABILITY_SELF_REPAIR
-  innate: ABILITY_STRONG_FOUNDATION
+  ability: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_STURDY
   innate: ABILITY_DROP_BLOCKS
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -204767,47 +204938,51 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
+      move: MOVE_STOMP
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_HIGH_HORSEPOWER
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SELF_DESTRUCT
     }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
-    }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BRAVADO
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SPIKES
+    tutor: MOVE_TAKE_DOWN
   }
   visuals {
     icon {
@@ -204868,47 +205043,78 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_BLOCK
+      move: MOVE_BODY_SLAM
+      move: MOVE_SHARPEN
+      move: MOVE_TIDY_UP
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_CONVERSION
+      move: MOVE_READY_OR_NOT
+      move: MOVE_CONVERSION_2
+      move: MOVE_STOMP
+      move: MOVE_MAGNITUDE
     }
     level {
       level: 24
       move: MOVE_BIND
+      move: MOVE_UPPER_HAND
+      move: MOVE_SEISMIC_FIST
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_RECOVER
+      move: MOVE_FAKE_OUT
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_HAMMER_ARM
+      move: MOVE_HIGH_HORSEPOWER
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SUBMISSION
+      move: MOVE_MAT_BLOCK
+      move: MOVE_EXPLOSION
+      move: MOVE_OUTBURST
+      move: MOVE_PRIMITIVE_STRIKE
+      move: MOVE_ICE_HAMMER
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_SELF_DESTRUCT
+      move: MOVE_FISSURE
     }
     level {
       level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
+      move: MOVE_CRUSH_GRIP
     }
     level {
       level: 81
-      move: MOVE_TACKLE
+      move: MOVE_STOCKPILE
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_DOUBLE_LARIAT
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_SPIKES
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
   }
   visuals {
     icon {
