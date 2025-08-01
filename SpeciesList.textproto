@@ -38767,16 +38767,16 @@ species {
   }
   type: TYPE_PSYCHIC
   type2: TYPE_FLYING
-  hp: 87
-  atk: 87
-  def: 82
-  spatk: 56
-  spdef: 82
+  hp: 82
+  atk: 80
+  def: 80
+  spatk: 115
+  spdef: 80
   spe: 106
   ability: ABILITY_UNNERVE
-  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_DREAMCATCHER
   ability: ABILITY_INVERSE_ROOM
-  innate: ABILITY_FELINE_PROWESS
+  innate: ABILITY_KEEN_EYE
   innate: ABILITY_FOREWARN
   innate: ABILITY_MAGIC_BOUNCE
   percent_female: 50
@@ -38823,6 +38823,7 @@ species {
     level {
       level: 51
       move: MOVE_DREAM_EATER
+      move: MOVE_REVIVAL_BLESSING
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -191334,7 +191335,6 @@ species {
     level {
       level: 51
       move: MOVE_FURY_CUTTER
-      move: MOVE_TRIPLE_AXEL
       move: MOVE_KARMA
       move: MOVE_VISE_GRIP
     }
@@ -192097,7 +192097,6 @@ species {
     level {
       level: 56
       move: MOVE_BATON_PASS
-      move: MOVE_LUSTER_PURGE
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURA_SPHERE
@@ -200460,12 +200459,12 @@ species {
   }
   type: TYPE_FIGHTING
   type2: TYPE_ICE
-  hp: 137
-  atk: 152
-  def: 107
-  spatk: 62
+  hp: 132
+  atk: 142
+  def: 97
+  spatk: 82
   spdef: 87
-  spe: 43
+  spe: 48
   ability: ABILITY_PRETENTIOUS
   ability: ABILITY_HYPER_AGGRESSIVE
   ability: ABILITY_RAGING_BOXER
