@@ -4413,22 +4413,22 @@ ability {
 }
 ability {
   id: ABILITY_EDGELORD
-  name: "Edgelord (P)"
+  name: "Edgelord"
   description: "First Keen Edge move each entry gets +1 priority. Resets on KO."
 }
 ability {
   id: ABILITY_WARMONGER
-  name: "Warmonger (P)"
+  name: "Warmonger"
   description: "Boosts the user's rock, steel, and fighting moves by 30%."
 }
 ability {
   id: ABILITY_LOCUST_SWARM
-  name: "Locust Swarm (N)"
+  name: "Locust Swarm"
   description: "Changes into Hivemind form until 1/4 HP or less."
 }
 ability {
   id: ABILITY_REVELATION
-  name: "Revelation (N)"
+  name: "Revelation"
   description: "Changes into Revelation form until 1/4 HP or less."
 }
 ability {

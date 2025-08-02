@@ -199801,6 +199801,9 @@ species {
     palette: "wispywaspy/hivemind/normal"
     shiny: "wispywaspy/hivemind/shiny"
   }
+  battle_form {
+    of: SPECIES_WISPYWASPY
+  }
 }
 species {
   id: SPECIES_IRON_SCYTHE
