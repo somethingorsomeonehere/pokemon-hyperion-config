@@ -4408,7 +4408,7 @@ ability {
 }
 ability {
   id: ABILITY_STONECUTTER
-  name: "Stonecutter (N)"
+  name: "Stonecutter"
   description: "Fossilized + Rock moves ignore abilities."
 }
 ability {
