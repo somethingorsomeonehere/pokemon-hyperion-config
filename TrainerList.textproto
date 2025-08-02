@@ -5690,7 +5690,7 @@ trainer {
       species: SPECIES_XATU
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_CLOUD_NINE
+      ability: ABILITY_UNNERVE
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -6048,7 +6048,7 @@ trainer {
       species: SPECIES_XATU
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_CLOUD_NINE
+      ability: ABILITY_DREAMCATCHER
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -9765,7 +9765,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_CHOICE_SPECS
       nature: NATURE_MODEST
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 4
@@ -22363,7 +22363,7 @@ trainer {
       species: SPECIES_XATU
       item: ITEM_FIRE_GEM
       nature: NATURE_TIMID
-      ability: ABILITY_CLOUD_NINE
+      ability: ABILITY_UNNERVE
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -30102,6 +30102,7 @@ trainer {
       species: SPECIES_LUCARIO
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
+      ability: ABILITY_JUSTIFIED
       hp_ev: 6
       spatk_ev: 252
       spe_ev: 252
@@ -34470,7 +34471,7 @@ trainer {
       species: SPECIES_PENTAWUG
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_COWARD
+      ability: ABILITY_STURDY
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -51013,7 +51014,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -51101,7 +51102,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -51181,7 +51182,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -52147,7 +52148,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -52235,7 +52236,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -52315,7 +52316,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_TIMID
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -72879,7 +72880,7 @@ trainer {
       species: SPECIES_XATU
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_CLOUD_NINE
+      ability: ABILITY_DREAMCATCHER
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
