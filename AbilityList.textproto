@@ -4348,7 +4348,7 @@ ability {
 }
 ability {
   id: ABILITY_FIRE_ASPECT
-  name: "Fire Aspect (P)"
+  name: "Fire Aspect"
   description: "Absorbs fire moves and always burns with fire."
 }
 ability {
@@ -4368,12 +4368,12 @@ ability {
 }
 ability {
   id: ABILITY_AURORAS_GALE
-  name: "Aurora's Gale (P)"
+  name: "Aurora's Gale"
   description: "Majestic Bird + Aurora Veil."
 }
 ability {
   id: ABILITY_WINTER_THRONE
-  name: "Winter Throne (N)"
+  name: "Winter Throne"
   description: "1/8 Damage each turn to non-ice. Heals Ice 1/8 each turn."
 }
 ability {
@@ -4383,7 +4383,7 @@ ability {
 }
 ability {
   id: ABILITY_SLUDGE_SPIT
-  name: "Sludge Spit (N)"
+  name: "Sludge Spit"
   description: "follows up with 35BP Venom Bolt after using an attack."
 }
 ability {
