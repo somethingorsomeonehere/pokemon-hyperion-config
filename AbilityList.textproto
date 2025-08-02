@@ -4433,7 +4433,7 @@ ability {
 }
 ability {
   id: ABILITY_CURSE_OF_FAMINE
-  name: "Curse of Famine (N)"
+  name: "Curse of Famine"
   description: "Eats terrain, restores hp, and boosts a defense."
 }
 ability {
