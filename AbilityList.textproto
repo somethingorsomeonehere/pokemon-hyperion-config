@@ -4463,22 +4463,22 @@ ability {
 }
 ability {
   id: ABILITY_CRISPY_CREAM
-  name: "Crispy Cream (P)"
+  name: "Crispy Cream"
   description: "30% to inflict burn/frostbite when hit by contact."
 }
 ability {
   id: ABILITY_DEEP_FRIED
-  name: "Deep Fried (N)"
+  name: "Deep Fried"
   description: "Summons a sea of fire on entry."
 }
 ability {
   id: ABILITY_FOOD_LOVERS
-  name: "Food Lovers (N)"
+  name: "Food Lovers"
   description: "Hospitality + Friend Guard."
 }
 ability {
   id: ABILITY_LUNAR_WRATH
-  name: "Lunar Wrath (P)"
+  name: "Lunar Wrath"
   description: "After using a Ghost move, follow up with a 50BP Moongeist Beam."
 }
 ability {
@@ -4488,12 +4488,12 @@ ability {
 }
 ability {
   id: ABILITY_VIRUS
-  name: "Virus (N)"
+  name: "Virus"
   description: "Electric moves have 50% chance to poison as well."
 }
 ability {
   id: ABILITY_POWER_LEAK
-  name: "Power Leak (P)"
+  name: "Power Leak"
   description: "When hit, set up Electric Terrain."
 }
 ability {
@@ -4528,7 +4528,7 @@ ability {
 }
 ability {
   id: ABILITY_FOG_MACHINE
-  name: "Fog Machine (P)"
+  name: "Fog Machine"
   description: "When hit, Set up Eerie Fog."
 }
 ability {
