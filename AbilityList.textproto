@@ -4448,7 +4448,7 @@ ability {
 }
 ability {
   id: ABILITY_THICK_BLUBBER
-  name: "Thick Blubber (P)"
+  name: "Thick Blubber"
   description: "Take 1/4 damage from fire and ice in return for having 1/2 speed."
 }
 ability {
@@ -4458,7 +4458,7 @@ ability {
 }
 ability {
   id: ABILITY_RAT_KING
-  name: "Rat King (N)"
+  name: "Rat King"
   description: "Allies with a BST below 400 get their stats boosted by 50%."
 }
 ability {
