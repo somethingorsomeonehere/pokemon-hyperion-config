@@ -4388,22 +4388,22 @@ ability {
 }
 ability {
   id: ABILITY_SWAMP_THING
-  name: "Swamp Thing (N)"
+  name: "Swamp Thing"
   description: "Sets the Swamp Pledge effect on entry."
 }
 ability {
   id: ABILITY_FROSTY_PRESCENCE
-  name: "Frosty Prescence (P)"
+  name: "Frosty Prescence"
   description: "Uses Mist on entry."
 }
 ability {
   id: ABILITY_CHILLING_PELLETS
-  name: "Chilling Pellets (P)"
+  name: "Chilling Pellets"
   description: "Uses 13BP Icicle Spear when hit by contact."
 }
 ability {
   id: ABILITY_PAINT_SHOT
-  name: "Paint Shot (N)"
+  name: "Paint Shot"
   description: "Mega launcher moves change the target's type to the move used."
 }
 ability {
