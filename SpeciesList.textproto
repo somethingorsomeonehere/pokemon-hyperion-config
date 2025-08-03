@@ -82173,10 +82173,10 @@ species {
   spe: 95
   ability: ABILITY_DROUGHT
   ability: ABILITY_SNOW_WARNING
-  ability: ABILITY_THERMOMANCY
-  innate: ABILITY_ANTARCTIC_BIRD
+  ability: ABILITY_ICE_SCALES
+  innate: ABILITY_THERMAL_SLIDE
   innate: ABILITY_MOLTEN_DOWN
-  innate: ABILITY_ICE_SCALES
+  innate: ABILITY_FLAME_SHIELD
   percent_female: 50
   learnset {
     level {
@@ -199800,6 +199800,9 @@ species {
     }
     palette: "wispywaspy/hivemind/normal"
     shiny: "wispywaspy/hivemind/shiny"
+  }
+  battle_form {
+    of: SPECIES_WISPYWASPY
   }
 }
 species {
