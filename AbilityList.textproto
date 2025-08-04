@@ -4503,22 +4503,22 @@ ability {
 }
 ability {
   id: ABILITY_SAND_FIEND
-  name: "Sand Fiend (P)"
+  name: "Sand Fiend"
   description: "Sand Force + Sand Guard."
 }
 ability {
   id: ABILITY_MOUSTACHE
-  name: "Moustache (P)"
+  name: "Moustache"
   description: "Tangling Hair + Stamina."
 }
 ability {
   id: ABILITY_DEPTH_EXPLORER
-  name: "Depth Explorer (P)"
+  name: "Depth Explorer"
   description: "Field Explorer + Illuminate."
 }
 ability {
   id: ABILITY_DUNE_VEIL
-  name: "Dune Veil (P)"
+  name: "Dune Veil"
   description: "Sand Guard + Self Sufficient."
 }
 ability {
@@ -4533,7 +4533,7 @@ ability {
 }
 ability {
   id: ABILITY_DROP_BLOCKS
-  name: "Drop Blocks (N)"
+  name: "Drop Blocks"
   description: "When hit, set up spikes."
 }
 ability {
