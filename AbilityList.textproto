@@ -4443,7 +4443,7 @@ ability {
 }
 ability {
   id: ABILITY_SOUL_HARVEST
-  name: "Soul Harvest (N)"
+  name: "Soul Harvest"
   description: "Fainted Pokemon increase your offenses and spdef by 5%."
 }
 ability {
@@ -4498,7 +4498,7 @@ ability {
 }
 ability {
   id: ABILITY_BACKUP_POWER
-  name: "Backup Power (N)"
+  name: "Backup Power"
   description: "Revives at 25% HP once after fainting in Electric Terrain."
 }
 ability {
