@@ -185741,6 +185741,10 @@ species {
       level: 61
       move: MOVE_BLOOD_MOON
     }
+    level {
+      level: 71
+      move: MOVE_MOONGEIST_BEAM
+    }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_CALM_MIND
