@@ -64466,9 +64466,9 @@ species {
   spatk: 95
   spdef: 85
   spe: 110
-  ability: ABILITY_PURE_POWER
-  ability: ABILITY_PURE_POWER
-  ability: ABILITY_PURE_POWER
+  ability: ABILITY_HUGE_POWER
+  ability: ABILITY_HUGE_POWER
+  ability: ABILITY_HUGE_POWER
   innate: ABILITY_COMBAT_SPECIALIST
   innate: ABILITY_ENLIGHTENED
   innate: ABILITY_TECHNICIAN
@@ -83625,14 +83625,14 @@ species {
   type2: TYPE_DARK
   hp: 90
   atk: 120
-  def: 79
-  spatk: 75
-  spdef: 79
-  spe: 90
-  ability: ABILITY_FRISK
+  def: 74
+  spatk: 69
+  spdef: 74
+  spe: 106
+  ability: ABILITY_QUICK_FEET
   ability: ABILITY_ELECTRIC_BURST
   ability: ABILITY_GUTS
-  innate: ABILITY_SHORT_CIRCUIT
+  innate: ABILITY_GLEAM_EYES
   innate: ABILITY_INTIMIDATE
   innate: ABILITY_PREDATOR
   percent_female: 50
@@ -83773,10 +83773,10 @@ species {
   type2: TYPE_DARK
   hp: 90
   atk: 143
-  def: 95
-  spatk: 96
-  spdef: 95
-  spe: 114
+  def: 96
+  spatk: 89
+  spdef: 96
+  spe: 119
   ability: ABILITY_SHOCKING_MAW
   ability: ABILITY_SHOCKING_MAW
   ability: ABILITY_SHOCKING_MAW
@@ -83834,9 +83834,9 @@ species {
   spatk: 90
   spdef: 74
   spe: 110
-  ability: ABILITY_HYPER_AGGRESSIVE
-  ability: ABILITY_SHINY_LIGHTNING
-  ability: ABILITY_CRYO_ARCHITECT
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_DEEP_FREEZE
+  ability: ABILITY_WATER_ABSORB
   innate: ABILITY_FATAL_PRECISION
   innate: ABILITY_FLUFFY
   innate: ABILITY_PREDATOR
@@ -170526,10 +170526,6 @@ species {
   innate: ABILITY_POISON_TOUCH
   innate: ABILITY_MOUNTAINEER
   percent_female: 50
-  evo {
-    to: SPECIES_SNEASEL_HISUIAN
-    level: 36
-  }
   learnset {
     level {
       level: 1
@@ -180139,7 +180135,7 @@ species {
   spe: 111
   ability: ABILITY_ARMOR_TAIL
   ability: ABILITY_HUGE_POWER
-  ability: ABILITY_FUR_COAT
+  ability: ABILITY_PURE_POWER
   innate: ABILITY_PROTOSYNTHESIS
   innate: ABILITY_NOSFERATU
   innate: ABILITY_TANGLING_HAIR
@@ -195010,7 +195006,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_ARMOR_CANNON
       move: MOVE_OUTBURST
       move: MOVE_EXPLOSION
       move: MOVE_HEADLONG_RUSH
@@ -195023,12 +195018,7 @@ species {
     }
     level {
       level: 56
-      move: MOVE_BULLET_PUNCH
       move: MOVE_FISSURE
-    }
-    level {
-      level: 71
-      move: MOVE_SUNSTEEL_STRIKE
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_SMOLDER_BASH
@@ -200044,47 +200034,79 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_FURY_ATTACK
+      move: MOVE_SHARPEN
+      move: MOVE_FLOWER_SHIELD
+      move: MOVE_CUTSIE_SLAP
+      move: MOVE_HARDEN
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_NEEDLE_ARM
+      move: MOVE_TRAILBLAZE
+      move: MOVE_POUNCE
+      move: MOVE_LUNGE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_HORN_LEECH
+      move: MOVE_SPIRIT_BREAK
+      move: MOVE_LEAFAGE
+      move: MOVE_AFTER_YOU
+      move: MOVE_GROWTH
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_HORN_DRILL
+      move: MOVE_SPIKY_SHIELD
+      move: MOVE_SCALE_SHOT
+      move: MOVE_COMEUPPANCE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_HYPER_DRILL
+      move: MOVE_MEGAHORN
+      move: MOVE_DECORATE
+      move: MOVE_DRACO_METEOR
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_YGGDRASIL_FORCE
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_STAR_CRASH
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_WOOD_HAMMER
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_DRAGON_JAB
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_U_TURN
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_CURSE
+    tutor: MOVE_SPIKES
   }
   visuals {
     icon {
@@ -200467,7 +200489,7 @@ species {
   ability: ABILITY_VENOM_CROWN
   ability: ABILITY_DUAL_WIELD
   ability: ABILITY_GRASS_PELT
-  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_DRAGONFRUIT
   innate: ABILITY_EQUINOX
   innate: ABILITY_SPIKE_ARMOR
   percent_female: 50
@@ -203563,24 +203585,21 @@ species {
 species {
   id: SPECIES_SNEASLER_MEGA
   form_of: SPECIES_SNEASLER
-  type: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
+  type: TYPE_FIGHTING
+  type2: TYPE_POISON
+  hp: 80
+  atk: 155
+  def: 70
+  spatk: 65
+  spdef: 120
+  spe: 120
+  ability: ABILITY_WEAK_ARMOR
+  ability: ABILITY_MERCILESS
+  ability: ABILITY_SHEER_FORCE
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  innate: ABILITY_ROCKY_EXTERIOR
+  innate: ABILITY_LEAD_CLAWS
   percent_female: 50
-  mega {
-    from: SPECIES_SNEASLER
-    item: ITEM_SNEASLERITE
-  }
   visuals {
     icon {
       path: "sneasler/mega/icon"
@@ -205756,5 +205775,284 @@ species {
     }
     palette: "iron_saber/normal"
     shiny: "iron_saber/shiny"
+  }
+}
+species {
+  id: SPECIES_TOXICROAK_SPLIT
+  dex {
+    name: "ToxicroakS"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "toxicroaks/icon"
+      palette: 4
+    }
+    front {
+      path: "toxicroaks/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "toxicroaks/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "toxicroaks/normal"
+    shiny: "toxicroaks/shiny"
+  }
+}
+species {
+  id: SPECIES_EXEGGCUTE_REDUX
+  form_of: SPECIES_EXEGGCUTE
+  type: TYPE_GRASS
+  type2: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "exeggcute/redux/icon"
+      palette: 4
+    }
+    front {
+      path: "exeggcute/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "exeggcute/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "exeggcute/redux/normal"
+    shiny: "exeggcute/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_EXEGGUTOR_REDUX
+  form_of: SPECIES_EXEGGUTOR
+  type: TYPE_GRASS
+  type2: TYPE_NORMAL
+  hp: 85
+  atk: 110
+  def: 65
+  spatk: 85
+  spdef: 80
+  spe: 125
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "exeggutor/redux/icon"
+      palette: 4
+    }
+    front {
+      path: "exeggutor/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "exeggutor/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "exeggutor/redux/normal"
+    shiny: "exeggutor/redux/shiny"
   }
 }

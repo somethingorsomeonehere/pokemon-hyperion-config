@@ -374,7 +374,7 @@ ability {
 ability {
   id: ABILITY_PURE_POWER
   name: "Pure Power"
-  description: "Doubles own Attack stat. Boosts raw stat, not base stat."
+  description: "Doubles own Sp.Atk stat. Boosts raw stat, not base stat."
 }
 ability {
   id: ABILITY_SHELL_ARMOR
@@ -4590,4 +4590,19 @@ ability {
   id: ABILITY_LETS_DANCE
   name: "Let's Dance"
   description: "Uses Teeter Dance on entry, Confusing the field."
+}
+ability {
+  id: ABILITY_DRAGONFRUIT
+  name: "Dragonfruit (N)"
+  description: "Half Drake + Rough Skin."
+}
+ability {
+  id: ABILITY_ROCKY_EXTERIOR
+  name: "Rocky Exterior (N)"
+  description: "Adds Rock-type."
+}
+ability {
+  id: ABILITY_LEAD_CLAWS
+  name: "Lead Claws (N)"
+  description: "Half Drake + Rough Skin."
 }
