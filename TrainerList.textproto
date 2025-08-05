@@ -75834,6 +75834,19 @@ trainer {
       move: MOVE_EXTREME_SPEED
       move: MOVE_PLAY_ROUGH
     }
+    mon {
+      species: SPECIES_PENTADUG
+      item: ITEM_LIFE_ORB
+      nature: NATURE_ADAMANT
+      ability: ABILITY_STAMINA
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_HEAD_SMASH
+      move: MOVE_KNOCK_OFF
+      move: MOVE_EARTHQUAKE
+      move: MOVE_NO_RETREAT
+    }
   }
 }
 trainer {
@@ -81493,17 +81506,17 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_FLYGON
-      item: ITEM_SILVER_POWDER
-      nature: NATURE_JOLLY
+      species: SPECIES_SANDSLASH
+      item: ITEM_ROCKY_HELMET
+      nature: NATURE_IMPISH
       ability: ABILITY_SAND_STREAM
-      atk_ev: 252
-      spdef_ev: 4
-      spe_ev: 252
-      move: MOVE_FIRST_IMPRESSION
-      move: MOVE_FURY_CUTTER
-      move: MOVE_DRAGON_CLAW
-      move: MOVE_EARTHQUAKE
+      hp_ev: 252
+      def_ev: 144
+      spdef_ev: 112
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SUPER_FANG
+      move: MOVE_COUNTER
+      move: MOVE_DIRE_CLAW
     }
     mon {
       species: SPECIES_CLAYDOL
@@ -81519,30 +81532,30 @@ trainer {
       move: MOVE_BODY_PRESS
     }
     mon {
-      species: SPECIES_DRACOVISH
-      item: ITEM_TACTICAL_VEST
+      species: SPECIES_PENTADUG
+      item: ITEM_LEFTOVERS
       nature: NATURE_JOLLY
-      ability: ABILITY_SAND_RUSH
+      ability: ABILITY_SAND_FIEND
+      hp_ev: 100
+      atk_ev: 252
+      spe_ev: 156
+      move: MOVE_NO_RETREAT
+      move: MOVE_EARTHQUAKE
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_HEAD_SMASH
+    }
+    mon {
+      species: SPECIES_FLYGON
+      item: ITEM_SILVER_POWDER
+      nature: NATURE_JOLLY
+      ability: ABILITY_SAND_STREAM
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
-      move: MOVE_FISHIOUS_REND
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_FIRST_IMPRESSION
+      move: MOVE_FURY_CUTTER
+      move: MOVE_DRAGON_CLAW
       move: MOVE_EARTHQUAKE
-      move: MOVE_AQUA_JET
-    }
-    mon {
-      species: SPECIES_SANDSLASH
-      item: ITEM_ROCKY_HELMET
-      nature: NATURE_IMPISH
-      ability: ABILITY_SAND_STREAM
-      hp_ev: 252
-      def_ev: 144
-      spdef_ev: 112
-      move: MOVE_HIGH_HORSEPOWER
-      move: MOVE_SUPER_FANG
-      move: MOVE_COUNTER
-      move: MOVE_DIRE_CLAW
     }
     mon {
       species: SPECIES_ARMALDO
@@ -81555,7 +81568,7 @@ trainer {
       move: MOVE_DIAMOND_BLADE
       move: MOVE_FURY_CUTTER
       move: MOVE_SLASH
-      move: MOVE_RAZOR_SHELL
+      move: MOVE_ACCELEROCK
     }
     mon {
       species: SPECIES_KROOKODILE
