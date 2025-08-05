@@ -44754,7 +44754,7 @@ species {
   form_of: SPECIES_DUDUNSPARCE
   long_name: "Dudunsparce Three"
   type: TYPE_NORMAL
-  hp: 135
+  hp: 115
   atk: 90
   def: 80
   spatk: 95
@@ -185736,6 +185736,10 @@ species {
     level {
       level: 61
       move: MOVE_BLOOD_MOON
+    }
+    level {
+      level: 71
+      move: MOVE_MOONGEIST_BEAM
     }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BLACK_MAGIC
