@@ -180136,7 +180136,7 @@ species {
   spe: 111
   ability: ABILITY_ARMOR_TAIL
   ability: ABILITY_HUGE_POWER
-  ability: ABILITY_PURE_POWER
+  ability: ABILITY_FUR_COAT
   innate: ABILITY_PROTOSYNTHESIS
   innate: ABILITY_NOSFERATU
   innate: ABILITY_TANGLING_HAIR
@@ -180160,6 +180160,7 @@ species {
       move: MOVE_FIRE_FANG
       move: MOVE_FOLLOW_ME
       move: MOVE_PSYWAVE
+      move: MOVE_MYSTICAL_FIRE
     }
     level {
       level: 37
@@ -180184,11 +180185,13 @@ species {
       move: MOVE_SHED_TAIL
       move: MOVE_STAR_CRASH
     }
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BRAVADO
     tutor: MOVE_BULK_UP
     tutor: MOVE_CALM_MIND
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
     tutor: MOVE_GIGA_IMPACT
@@ -180211,8 +180214,10 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_DISABLE
-    tutor: MOVE_BITE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SHADOW_BALL
   }
   visuals {
     icon {
@@ -199439,6 +199444,89 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
+    }
+    level {
+      level: 24
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
+    }
+    level {
+      level: 37
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
+    }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
+  }
   visuals {
     icon {
       path: "grotom/glass/icon"
@@ -199481,6 +199569,89 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
+    }
+    level {
+      level: 24
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
+    }
+    level {
+      level: 37
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
+    }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
+  }
   visuals {
     icon {
       path: "grotom/roll/icon"
@@ -199522,6 +199693,89 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
+    }
+    level {
+      level: 24
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
+    }
+    level {
+      level: 37
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
+    }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
+  }
   visuals {
     icon {
       path: "grotom/drum/icon"
@@ -199564,6 +199818,89 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
+    }
+    level {
+      level: 24
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
+    }
+    level {
+      level: 37
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
+    }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
+  }
   visuals {
     icon {
       path: "grotom/kick/icon"
@@ -199606,6 +199943,89 @@ species {
   innate: ABILITY_STICKY_HOLD
   genderless: true
   tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ACID
+      move: MOVE_POISON_STING
+      move: MOVE_POISON_GAS
+      move: MOVE_SCREECH
+      move: MOVE_ALLY_SWITCH
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_BAD_EGG
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_VENOSHOCK
+      move: MOVE_COACHING
+    }
+    level {
+      level: 24
+      move: MOVE_JUMP_KICK
+      move: MOVE_METEOR_MASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_WICKED_TORQUE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_ROCK_POLISH
+      move: MOVE_DIAMOND_BLADE
+      move: MOVE_CROSS_POISON
+    }
+    level {
+      level: 37
+      move: MOVE_ACCELEROCK
+      move: MOVE_DARKEST_LARIAT
+      move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_SPIN_OUT
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ENCORE
+      move: MOVE_MEMENTO
+      move: MOVE_MAT_BLOCK
+      move: MOVE_SNAP_TRAP
+    }
+    level {
+      level: 46
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_FISSURE
+      move: MOVE_STRENGTH
+      move: MOVE_ROCKET_PUNCH
+      move: MOVE_COMEUPPANCE
+      move: MOVE_MIGHTY_CLEAVE
+    }
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_DISABLE
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_KARATE_CHOP
+  }
   visuals {
     icon {
       path: "grotom/fill/icon"

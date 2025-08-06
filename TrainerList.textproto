@@ -2803,7 +2803,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_LUXRAYNITE
       nature: NATURE_JOLLY
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -7457,6 +7457,7 @@ trainer {
       species: SPECIES_PERSIAN_ALOLAN
       item: ITEM_LIFE_ORB
       nature: NATURE_NAIVE
+      ability: ABILITY_FUR_COAT
       atk_ev: 36
       spatk_ev: 220
       spe_ev: 252
@@ -9776,7 +9777,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_LUXRAYNITE
       nature: NATURE_JOLLY
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -10339,7 +10340,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_LUXRAYNITE
       nature: NATURE_JOLLY
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -17111,7 +17112,7 @@ trainer {
       species: SPECIES_EMPOLEON_REDUX
       item: ITEM_EMPOLEONITE_R
       nature: NATURE_MODEST
-      ability: ABILITY_THERMOMANCY
+      ability: ABILITY_ICE_SCALES
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
@@ -24869,7 +24870,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_ASSAULT_VEST
       nature: NATURE_CAREFUL
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       atk_ev: 252
       spdef_ev: 252
       spe_ev: 4
@@ -25103,7 +25104,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_ROCKY_HELMET
       nature: NATURE_IMPISH
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       hp_ev: 252
       def_ev: 252
       spdef_ev: 4
@@ -59904,7 +59905,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_EXPERT_BELT
       nature: NATURE_JOLLY
-      ability: ABILITY_FRISK
+      ability: ABILITY_ELECTRIC_BURST
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -70561,7 +70562,7 @@ trainer {
       species: SPECIES_LUXRAY
       item: ITEM_FLAME_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_GUTS
+      ability: ABILITY_ELECTRIC_BURST
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -75538,6 +75539,7 @@ trainer {
       species: SPECIES_XATU
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
+      ability: ABILITY_UNNERVE
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -81912,6 +81914,7 @@ trainer {
       species: SPECIES_CALYREX_SHADOW_RIDER
       item: ITEM_SHELL_BELL
       nature: NATURE_TIMID
+      ability: ABILITY_AS_ONE_SHADOW_RIDER
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
