@@ -118406,6 +118406,7 @@ species {
       level: 51
       move: MOVE_EXPLOSION
       move: MOVE_WOOD_HAMMER
+      move: MOVE_SNAP_TRAP
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BODY_PRESS
@@ -198751,7 +198752,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "krampird/icon"
       palette: 1
     }
     front {
