@@ -4438,7 +4438,7 @@ ability {
 }
 ability {
   id: ABILITY_CRYSTALLINE_ARMOR
-  name: "Crystalline Armor (N)"
+  name: "Crystalline Armor"
   description: "Reflects stat drops and immune to critical hits."
 }
 ability {
