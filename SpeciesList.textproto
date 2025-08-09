@@ -122189,6 +122189,7 @@ species {
       level: 51
       move: MOVE_FLARE_BLITZ
       move: MOVE_OUTRAGE
+      move: MOVE_RAGING_FURY
     }
     level {
       level: 56
