@@ -83816,11 +83816,10 @@ species {
 }
 species {
   id: SPECIES_LUXZERO
-  randomizer_banned: SPECIES_HIDDEN
   dex {
     name: "Luxzero"
     category: "Glacial Lion"
-    description: "Rumored to have been a luxray that experienced years of cryosleep in a malfunctioned capsule, thus creating immensely cold ice on itself once it woke up. It is not fond of humans and is hard to tame."
+    description: "Rumored to have been a luxray that experienced years of cryosleep in a malfunctioned capsule."
     national_dex_num: 405
     body_color: BODY_COLOR_BLUE
     egg_group: FIELD
