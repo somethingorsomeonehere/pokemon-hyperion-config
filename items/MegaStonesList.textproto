@@ -2458,3 +2458,13 @@ item {
   palette: "aggronite"
   adoption_center: true
 }
+item {
+  id: ITEM_LUXZERITE
+  name: "Luxzerite"
+  description: "Enables Luxzero to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}
