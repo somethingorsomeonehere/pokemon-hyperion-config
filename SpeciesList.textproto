@@ -69944,10 +69944,15 @@ species {
     level {
       level: 51
       move: MOVE_LUMINA_CRASH
+      move: MOVE_BLOOD_MOON
     }
     level {
       level: 56
       move: MOVE_DIAMOND_STORM
+    }
+    level {
+      level: 61
+      move: MOVE_BLUE_MOON
     }
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_CALM_MIND
@@ -200550,11 +200555,11 @@ species {
   }
   visuals {
     icon {
-      path: "orthworm/icon"
+      path: "wooly_worm/icon"
       palette: 4
     }
     front {
-      path: "orthworm/front"
+      path: "wooly_worm/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -200562,15 +200567,15 @@ species {
       }
     }
     back {
-      path: "orthworm/back"
+      path: "wooly_worm/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "orthworm/normal"
-    shiny: "orthworm/shiny"
+    palette: "wooly_worm/normal"
+    shiny: "wooly_worm/shiny"
   }
 }
 species {
@@ -203007,46 +203012,48 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_SNATCH
+      move: MOVE_PAYBACK
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_BODY_SLAM
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_REQUIEM
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_SNARL
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_ASTONISH
+      move: MOVE_POWER_TRIP
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_SPEED_SWAP
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_BITTER_MALICE
+      move: MOVE_SWIFT
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_POLLEN_PUFF
+      move: MOVE_MOONLIGHT
+      move: MOVE_MEMENTO
+      move: MOVE_WISH
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_RAGING_SOULS
     }
     level {
       level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_DESTINY_BOND
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_BUBBLE
     tutor: MOVE_FACADE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_SHADOW_BALL
@@ -203072,9 +203079,6 @@ species {
     tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_WIDE_GUARD
   }
   visuals {
     icon {
@@ -203127,46 +203131,55 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_SNATCH
+      move: MOVE_PAYBACK
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_BODY_SLAM
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_REQUIEM
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_SNARL
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_ASTONISH
+      move: MOVE_POWER_TRIP
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_SPEED_SWAP
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_BITTER_MALICE
+      move: MOVE_SWIFT
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_POLLEN_PUFF
+      move: MOVE_MOONLIGHT
+      move: MOVE_MEMENTO
+      move: MOVE_WISH
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_RAGING_SOULS
+      move: MOVE_STAR_CRASH
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
+      move: MOVE_ECLIPSE
+      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_HEX_TROT
     }
     level {
       level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_DESTINY_BOND
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_BUBBLE
     tutor: MOVE_FACADE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_SHADOW_BALL
@@ -203194,7 +203207,6 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_WIDE_GUARD
   }
   visuals {
     icon {
@@ -203932,20 +203944,20 @@ species {
 species {
   id: SPECIES_LITWICK_REDUX
   form_of: SPECIES_LITWICK
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
+  type: TYPE_GHOST
+  type2: TYPE_ELECTRIC
   hp: 65
   atk: 30
   def: 55
   spatk: 75
   spdef: 55
   spe: 25
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  ability: ABILITY_BACKUP_POWER
+  ability: ABILITY_DAZZLING
+  ability: ABILITY_SHORT_CIRCUIT
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_CURSED_BODY
+  innate: ABILITY_LEVITATE
   percent_female: 50
   tier: 3
   evo {
@@ -204003,7 +204015,7 @@ species {
       palette: 4
     }
     front {
-      path: "litwick/front"
+      path: "litwick/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204011,34 +204023,34 @@ species {
       }
     }
     back {
-      path: "litwick/back"
+      path: "litwick/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "litwick/normal"
-    shiny: "litwick/shiny"
+    palette: "litwick/redux/normal"
+    shiny: "litwick/redux/shiny"
   }
 }
 species {
   id: SPECIES_LAMPENT_REDUX
   form_of: SPECIES_LAMPENT
-  type: TYPE_NORMAL
-  type2: TYPE_POISON
+  type: TYPE_GHOST
+  type2: TYPE_ELECTRIC
   hp: 80
   atk: 40
   def: 55
   spatk: 95
   spdef: 55
   spe: 45
-  ability: ABILITY_ENVENOM
-  ability: ABILITY_POISON_QUILLS
-  ability: ABILITY_OMINOUS_SHROUD
-  innate: ABILITY_KOMODO
-  innate: ABILITY_MAGUS_BLADES
-  innate: ABILITY_PURPLE_HAZE
+  ability: ABILITY_BACKUP_POWER
+  ability: ABILITY_DAZZLING
+  ability: ABILITY_ELECTRIC_BURST
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_CURSED_BODY
+  innate: ABILITY_LEVITATE
   percent_female: 50
   tier: 3
   evo {
@@ -204096,7 +204108,7 @@ species {
       palette: 4
     }
     front {
-      path: "lampent/front"
+      path: "lampent/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204104,15 +204116,15 @@ species {
       }
     }
     back {
-      path: "lampent/back"
+      path: "lampent/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "lampent/normal"
-    shiny: "lampent/shiny"
+    palette: "lampent/redux/normal"
+    shiny: "lampent/redux/shiny"
   }
 }
 species {
@@ -204185,7 +204197,7 @@ species {
       palette: 4
     }
     front {
-      path: "chandelure/front"
+      path: "chandelure/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204193,15 +204205,15 @@ species {
       }
     }
     back {
-      path: "chandelure/back"
+      path: "chandelure/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "chandelure/normal"
-    shiny: "chandelure/shiny"
+    palette: "chandelure/redux/normal"
+    shiny: "chandelure/redux/shiny"
   }
 }
 species {
@@ -204232,7 +204244,7 @@ species {
       palette: 4
     }
     front {
-      path: "chandelure/mega/front"
+      path: "chandelure/redux/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204240,15 +204252,15 @@ species {
       }
     }
     back {
-      path: "chandelure/mega/back"
+      path: "chandelure/redux/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "chandelure/mega/normal"
-    shiny: "chandelure/mega/shiny"
+    palette: "chandelure/redux/mega/normal"
+    shiny: "chandelure/redux/mega/shiny"
   }
 }
 species {
@@ -206245,7 +206257,7 @@ species {
 species {
   id: SPECIES_RATICATE_REDUX_EVO
   dex {
-    name: "RaticateRE"
+    name: "Eraticate"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -206321,11 +206333,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "raticate/redux/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "eraticate/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -206333,15 +206345,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "eraticate/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "eraticate/normal"
+    shiny: "eraticate/shiny"
   }
 }
 species {
