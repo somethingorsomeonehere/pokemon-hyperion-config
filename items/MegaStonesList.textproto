@@ -2468,3 +2468,13 @@ item {
   palette: "aggronite"
   adoption_center: true
 }
+item {
+  id: ITEM_TALONFLAMEITE
+  name: "Talonflameite"
+  description: "Enables Talonflame to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}

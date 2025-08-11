@@ -12824,7 +12824,7 @@ moves {
   name: "Supersonic Shot"
   short_name: "S.SonicShot"
   description: "Fires a high-speed arrow. Always crits. Archer boost."
-  short_description: "Not done yet."
+  short_description: "An arrow attack. always crits."
   split: PHYSICAL
   type: TYPE_FLYING
   target: SELECTED

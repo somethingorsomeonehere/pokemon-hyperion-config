@@ -4611,3 +4611,13 @@ ability {
   name: "Flawless Precision (N)"
   description: "Fatal + Deadly Precision."
 }
+ability {
+  id: ABILITY_CHAINSAW
+  name: "Chainsaw (N)"
+  description: "Keen edge moves now lower defense by -1."
+}
+ability {
+  id: ABILITY_GALEFORCE_WINGS
+  name: "Galeforce Wings (N)"
+  description: "Flying moves now have +1 Priority."
+}
