@@ -3636,7 +3636,7 @@ ability {
   id: ABILITY_TERA_SHELL
   name: "Tera Shell"
   description: "All hits will be not very effective while at full HP."
-  expanded_description: "At full HP, all attacks towards the user deal "not very effective" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities."
+  expanded_description: "At full HP, all attacks towards the user deal \"not very effective\" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities."
 }
 ability {
   id: ABILITY_TOXIC_CHAIN
@@ -4424,7 +4424,7 @@ ability {
   id: ABILITY_TERAFORM_ZERO
   name: "Teraform Zero"
   description: "Tera Shell + clears weather and terrain on first entry."
-  expanded_description: "At full HP, all attacks towards the user deal "not very effective" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities. On entry, clears normal weathers and terrains."
+  expanded_description: "At full HP, all attacks towards the user deal \"not very effective\" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities. On entry, clears normal weathers and terrains."
 }
 ability {
   id: ABILITY_SET_ABLAZE
@@ -4628,7 +4628,7 @@ ability {
   id: ABILITY_SOOTHSAYER
   name: "Soothsayer"
   description: "Resists all attacks for three turns on first entry."
-  expanded_description: "On entry, all attacks received by the user are considered "not very effective" for 3 turns. Deactivates when switching out."
+  expanded_description: "On entry, all attacks received by the user are considered \"not very effective\" for 3 turns. Deactivates when switching out."
 }
 ability {
   id: ABILITY_CORRUPTED_MIND
