@@ -198000,18 +198000,18 @@ species {
   form_of: SPECIES_MINCCINO
   type: TYPE_ICE
   type2: TYPE_FAIRY
-  hp: 55
-  atk: 50
+  hp: 50
+  atk: 40
   def: 40
-  spatk: 40
+  spatk: 50
   spdef: 40
-  spe: 75
-  ability: ABILITY_PERFECTIONIST
+  spe: 80
+  ability: ABILITY_PERMAFROST
   ability: ABILITY_OVERCOAT
-  ability: ABILITY_SKILL_LINK
+  ability: ABILITY_WHITEOUT
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_LIMBER
+  innate: ABILITY_FREEZING_POINT
+  innate: ABILITY_SERENE_GRACE
   percent_female: 75
   tier: 1
   evo {
@@ -198093,18 +198093,18 @@ species {
   form_of: SPECIES_CINCCINO
   type: TYPE_ICE
   type2: TYPE_FAIRY
-  hp: 75
-  atk: 95
+  hp: 65
+  atk: 85
   def: 60
-  spatk: 65
+  spatk: 95
   spdef: 60
-  spe: 115
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
+  spe: 105
+  ability: ABILITY_FRIEND_GUARD
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_ICE_BODY
+  innate: ABILITY_REFRIGERATE
   innate: ABILITY_OVERCOAT
+  innate: ABILITY_SERENE_GRACE
   percent_female: 75
   no_flip: true
   evo {
@@ -198203,9 +198203,9 @@ species {
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 95
-  atk: 70
+  atk: 105
   def: 70
-  spatk: 105
+  spatk: 70
   spdef: 70
   spe: 120
   ability: ABILITY_CHILLING_PELLETS
@@ -202752,8 +202752,28 @@ species {
       move: MOVE_TACKLE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FACADE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_HAIL
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_MIST
+    tutor: MOVE_HAZE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_FLASH_FREEZE
   }
   visuals {
     icon {
@@ -202845,8 +202865,28 @@ species {
       move: MOVE_TACKLE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FACADE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_HAIL
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_MIST
+    tutor: MOVE_HAZE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_FLASH_FREEZE
   }
   visuals {
     icon {
@@ -202895,47 +202935,60 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_BLAZING_TORQUE
+      move: MOVE_ACCELEROCK
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_EMBER
+      move: MOVE_GLACIER_CRASH
+      move: MOVE_FREEZE_DRY
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_MOUNTAIN_GALE
+      move: MOVE_MOLTEN_STRIKE
+      move: MOVE_BURNING_BULWARK
     }
     level {
       level: 46
       move: MOVE_TRIPLE_AXEL
+      move: MOVE_PYRO_BALL
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_SHEER_COLD
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_SIZZLY_SLIDE
+      move: MOVE_ERUPTION
+      move: MOVE_RAGING_FURY
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_HAIL
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_MIST
+    tutor: MOVE_HAZE
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_FLASH_FREEZE
   }
   visuals {
     icon {
