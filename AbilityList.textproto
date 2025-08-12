@@ -3636,7 +3636,7 @@ ability {
   id: ABILITY_TERA_SHELL
   name: "Tera Shell"
   description: "All hits will be not very effective while at full HP."
-  expanded_description: "At full HP, all attacks towards the user deal "not very effective" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities."
+  expanded_description: "At full HP, all attacks towards the user deal not very effective damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities."
 }
 ability {
   id: ABILITY_TOXIC_CHAIN
@@ -4424,7 +4424,7 @@ ability {
   id: ABILITY_TERAFORM_ZERO
   name: "Teraform Zero"
   description: "Tera Shell + clears weather and terrain on first entry."
-  expanded_description: "At full HP, all attacks towards the user deal "not very effective" damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities. On entry, clears normal weathers and terrains."
+  expanded_description: "At full HP, all attacks towards the user deal not very effective damage regardless of type effectiveness. Activates on each hit of a multihit attack unlike other similar abilities. On entry, clears normal weathers and terrains."
 }
 ability {
   id: ABILITY_SET_ABLAZE
@@ -4628,7 +4628,7 @@ ability {
   id: ABILITY_SOOTHSAYER
   name: "Soothsayer"
   description: "Resists all attacks for three turns on first entry."
-  expanded_description: "On entry, all attacks received by the user are considered "not very effective" for 3 turns. Deactivates when switching out."
+  expanded_description: "On entry, all attacks received by the user are considered not very effective for 3 turns. Deactivates when switching out."
 }
 ability {
   id: ABILITY_CORRUPTED_MIND
@@ -5478,4 +5478,109 @@ ability {
   id: ABILITY_GALEFORCE_WINGS
   name: "Galeforce Wings (N)"
   description: "Flying moves now have +1 Priority."
+}
+ability {
+  id: ABILITY_EMPRESS
+  name: "Empress (N)"
+  description: "Queenly Majesty + Rivalry."
+}
+ability {
+  id: ABILITY_MASHED_POTATO
+  name: "Mashed Potato (N)"
+  description: "Syrup Bomb effect on the foe for 3 turns."
+}
+ability {
+  id: ABILITY_RAINBOW_SCALES
+  name: "Rainbow Scales (N)"
+  description: "Fire Scales + Taste the Rainbow."
+}
+ability {
+  id: ABILITY_TASTE_THE_RAINBOW
+  name: "Taste the Rainbow (N)"
+  description: "Summons the Rainbow Pledge effect on entry."
+}
+ability {
+  id: ABILITY_HYPNOTIC_TOUCH
+  name: "Hypnotic Touch (N)"
+  description: "Contact moves have a 20% Chance to sleep. Works on offense."
+}
+ability {
+  id: ABILITY_HYDRA
+  name: "Hydra (N)"
+  description: "Multiheaded + Beast Boost."
+}
+ability {
+  id: ABILITY_WINGS_OF_PESTILENCE
+  name: "Wings of Pestilence (N)"
+  description: "Every attack has a 20% Bleed chance and 10% Curse chance."
+}
+ability {
+  id: ABILITY_SUNDAE
+  name: "Sundae (N)"
+  description: "Snow Warning + Ice Body."
+}
+ability {
+  id: ABILITY_ICE_PICK
+  name: "Ice Picks (N)"
+  description: "Tough Claws + Slush Rush."
+}
+ability {
+  id: ABILITY_HAMMER_FIST
+  name: "Hammer Fist (N)"
+  description: "Boosts punch and hammer moves by 25%."
+}
+ability {
+  id: ABILITY_MACH_3
+  name: "Mach 3 (N)"
+  description: "Deadly Precision + Slipstream."
+}
+ability {
+  id: ABILITY_RAGING_STORM
+  name: "Raging Storm (N)"
+  description: "Boosts offense by 50% in rain."
+}
+ability {
+  id: ABILITY_SUMO_GUARD
+  name: "Sumo Guard (N)"
+  description: "Juggernaut + Thick Fat."
+}
+ability {
+  id: ABILITY_SUMO_WRESTLER
+  name: "Sumo Wrestler (N)"
+  description: "Uses Circle throw at the end of each 2nd turn."
+}
+ability {
+  id: ABILITY_COSMIC_WINGS
+  name: "Cosmic Wings (N)"
+  description: "Flying moves become Fairy-type."
+}
+ability {
+  id: ABILITY_COSMIC_DUST
+  name: "Cosmic Dust (N)"
+  description: "Magic Guard + Cosmic Daze."
+}
+ability {
+  id: ABILITY_COOL_EXIT
+  name: "Cool Exit (N)"
+  description: "Uses Chilly Reception at the end of your 2nd turn."
+}
+ability {
+  id: ABILITY_DEVIOUS_PRESENT
+  name: "Devious Present (N)"
+  description: "Boosts Ice and throwing moves by 50%."
+}
+ability {
+  id: ABILITY_CHRISTMAS_NIGHTMARE
+  name: "Christmas Nightmare (N)"
+  description: "Enemies take 1/8 damage when in hail."
+}
+ability {
+  id: ABILITY_SAP_TRAP
+  name: "Sap Trap (N)"
+  description: "Lowers foe's speed at the end of turns. At -3 they get trapped."
+}
+ability {
+  id: ABILITY_BARK_SKIN
+  name: "Dead Bark (N)"
+  description: "Adds Ghost-type. Takes 15% less damage. 30% less damage if SE."
 }
