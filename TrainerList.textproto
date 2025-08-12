@@ -31098,7 +31098,7 @@ trainer {
       species: SPECIES_CRABRUISER
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
-      ability: ABILITY_HYPER_AGGRESSIVE
+      ability: ABILITY_SUPER_SLAMMER
       hp_ev: 252
       atk_ev: 252
       spdef_ev: 4
@@ -50102,7 +50102,7 @@ trainer {
       species: SPECIES_DEDELIBIRD
       item: ITEM_TACTICAL_VEST
       nature: NATURE_TIMID
-      ability: ABILITY_SNOW_WARNING
+      ability: ABILITY_COOL_EXIT
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
