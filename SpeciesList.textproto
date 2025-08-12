@@ -194379,8 +194379,6 @@ species {
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_BUBBLE
   }
   visuals {
