@@ -15008,6 +15008,7 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULLDOZE
@@ -15150,6 +15151,7 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULLDOZE
@@ -15298,6 +15300,7 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULLDOZE
@@ -20862,6 +20865,7 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BODY_PRESS
@@ -21009,6 +21013,7 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
       move: MOVE_STEEL_BEAM
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 100
@@ -22799,6 +22804,7 @@ species {
       level: 37
       move: MOVE_BONEMERANG
       move: MOVE_SKULL_BASH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
@@ -22945,6 +22951,7 @@ species {
       move: MOVE_RAGE
       move: MOVE_SKULL_BASH
       move: MOVE_THRASH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
@@ -23093,6 +23100,7 @@ species {
       move: MOVE_RAGING_FURY
       move: MOVE_SKULL_BASH
       move: MOVE_THRASH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
@@ -26766,6 +26774,7 @@ species {
       move: MOVE_HEADLONG_RUSH
       move: MOVE_HEAD_CHARGE
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -40108,6 +40117,7 @@ species {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_HEAD_SMASH
       move: MOVE_SUBMISSION
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
@@ -50334,6 +50344,7 @@ species {
       move: MOVE_SUPERPOWER
       move: MOVE_MOUNTAIN_CHUNK
       move: MOVE_SLACK_OFF
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
@@ -53232,6 +53243,7 @@ species {
     level {
       level: 51
       move: MOVE_POWER_TRIP
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
@@ -64034,6 +64046,7 @@ species {
       move: MOVE_EXCALIBUR
       move: MOVE_HEAD_SMASH
       move: MOVE_SCARY_FACE
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -72376,7 +72389,7 @@ species {
   ability: ABILITY_RAGING_STORM
   innate: ABILITY_PRISM_SCALES
   innate: ABILITY_TANGLING_HAIR
-  innate: ABILITY_HIGH_TIDE
+  innate: ABILITY_ADAPTABILITY
   percent_female: 50
   mega {
     from: SPECIES_MILOTIC
@@ -74483,6 +74496,7 @@ species {
       move: MOVE_ICE_SPINNER
       move: MOVE_RECOVER
       move: MOVE_SCARY_FACE
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
@@ -76861,6 +76875,7 @@ species {
     level {
       level: 51
       move: MOVE_ZEPHYR_RUSH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
@@ -80046,6 +80061,7 @@ species {
       move: MOVE_GRASSY_GLIDE
       move: MOVE_GYRO_BALL
       move: MOVE_HEADLONG_RUSH
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -84311,6 +84327,7 @@ species {
     level {
       level: 51
       move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
@@ -84569,6 +84586,7 @@ species {
       level: 46
       move: MOVE_SCARY_FACE
       move: MOVE_STEEL_BEAM
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -84981,6 +84999,7 @@ species {
       level: 46
       move: MOVE_EXPLOSION
       move: MOVE_MOUNTAIN_CHUNK
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -92060,10 +92079,15 @@ species {
       level: 51
       move: MOVE_FISSURE
       move: MOVE_LAST_RESORT
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
       move: MOVE_EXPLOSION
+    }
+    level {
+      level: 101
+      move: MOVE_EXTREME_SPEED
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_CHARM
@@ -104415,6 +104439,7 @@ species {
     level {
       level: 56
       move: MOVE_ZAP_CANNON
+      move: MOVE_DREAM_EATER
     }
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_CALM_MIND
@@ -111886,6 +111911,7 @@ species {
       move: MOVE_HEADLONG_RUSH
       move: MOVE_HEAD_SMASH
       move: MOVE_DARKEST_LARIAT
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
@@ -123376,6 +123402,7 @@ species {
       level: 56
       move: MOVE_HEAD_SMASH
       move: MOVE_HORN_DRILL
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
@@ -145718,6 +145745,7 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
     }
+    tutor: MOVE_BITE
     tutor: MOVE_COVET
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DIG
@@ -145729,8 +145757,7 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_AGILITY
   }
   visuals {
     icon {
@@ -145780,7 +145807,7 @@ species {
   spdef: 65
   spe: 112
   ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_TECTONIZE
+  ability: ABILITY_ADRENALINE_RUSH
   ability: ABILITY_VIOLENT_RUSH
   innate: ABILITY_SAND_VEIL
   innate: ABILITY_SAND_RUSH
@@ -145823,7 +145850,9 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
+    tutor: MOVE_BITE
     tutor: MOVE_BULLDOZE
     tutor: MOVE_COVET
     tutor: MOVE_CRUSH_CLAW
@@ -145846,8 +145875,7 @@ species {
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_AGILITY
   }
   visuals {
     icon {
@@ -146031,6 +146059,7 @@ species {
     level {
       level: 51
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_COUNTER
@@ -180083,6 +180112,7 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
       move: MOVE_VITAL_THROW
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
@@ -180857,6 +180887,7 @@ species {
       move: MOVE_HEAD_SMASH
       move: MOVE_SPIN_OUT
       move: MOVE_ZIPPY_ZAP
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
@@ -185912,6 +185943,7 @@ species {
       move: MOVE_HEAD_SMASH
       move: MOVE_SKY_UPPERCUT
       move: MOVE_SUBMISSION
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
@@ -199165,6 +199197,7 @@ species {
       level: 51
       move: MOVE_HEAD_SMASH
       move: MOVE_DRACO_METEOR
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 56
