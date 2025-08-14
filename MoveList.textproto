@@ -2350,6 +2350,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   ballistic: true
+  throwing: true
 }
 moves {
   id: MOVE_LEECH_LIFE
@@ -2605,6 +2606,7 @@ moves {
   mirror_move_affected: true
   ignores_levitation: true
   bone: true
+  throwing: true
 }
 moves {
   id: MOVE_REST
@@ -6580,6 +6582,7 @@ moves {
   mirror_move_affected: true
   ballistic: true
   tutor: TUTOR_ATTACK
+  throwing: true
 }
 moves {
   id: MOVE_AIR_SLASH
@@ -7893,6 +7896,7 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   hits_air: HITS
+  throwing: true
 }
 moves {
   id: MOVE_STORM_THROW
@@ -8006,6 +8010,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   ballistic: true
+  throwing: true
 }
 moves {
   id: MOVE_SOAK
@@ -14711,6 +14716,7 @@ moves {
   mirror_move_affected: true
   no_sheer_force: true
   uses_animation: MOVE_PAY_DAY
+  throwing: true
 }
 moves {
   id: MOVE_PSYBLADE
@@ -16163,7 +16169,7 @@ moves {
   short_name: "SprklngBrrge"
   description: "The user shoots 3 beams of light at the target."
   short_description: "Hits 3 Times with light rays."
-  effect: EFFECT_DOUBLE_HIT
+  effect: EFFECT_TRIPLE_HIT
   split: PHYSICAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -17063,4 +17069,311 @@ moves {
   mirror_move_affected: true
   reckless: true
   uses_animation: MOVE_DOUBLE_EDGE
+}
+moves {
+  id: MOVE_CHILLER
+  name: "Chiller"
+  short_name: "Chiller"
+  description: "Hits the foe with 3 explosive snowballs. 10% Frostbite."
+  short_description: "Hits 3 times with snowballs."
+  effect: EFFECT_TRIPLE_HIT
+  split: PHYSICAL
+  type: TYPE_ICE
+  target: SELECTED
+  power: 30
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_ICE_BALL
+}
+moves {
+  id: MOVE_SPREAD_BOMB
+  name: "Spread Bomb"
+  short_name: "WideBomb"
+  description: "A wide reaching bomb is thrown, hitting the field with A 30% burn chance."
+  short_description: "Hits everyone else. 30% Burn chance."
+  effect: EFFECT_BURN_HIT
+  split: PHYSICAL
+  type: TYPE_FIRE
+  target: FOES_AND_ALLY
+  power: 90
+  accuracy: 100
+  pp: 10
+  effect_chance: 20
+  mirror_move_affected: true
+  uses_animation: MOVE_EXPLOSION
+}
+moves {
+  id: MOVE_BALL_TOSS
+  name: "Ball Toss"
+  short_name: "BallToss"
+  description: "Throws a ball forward. 20% flinch chance"
+  short_description: "A ball attack. 20% flinch."
+  effect: EFFECT_FLINCH_HIT
+  split: PHYSICAL
+  type: TYPE_NORMAL
+  target: SELECTED
+  power: 90
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_BARRAGE
+}
+moves {
+  id: MOVE_PARTY_FAVORS
+  name: "Party Favors"
+  short_name: "PartyFavor"
+  description: "Heals you and your ally by 25% and does damage."
+  short_description: "A ball attack. 20% flinch."
+  effect: EFFECT_FLINCH_HIT
+  split: PHYSICAL
+  type: TYPE_FAIRY
+  target: SELECTED
+  power: 60
+  accuracy: 100
+  pp: 10
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_CELEBRATE
+}
+moves {
+  id: MOVE_SHOT_PUT
+  name: "Shot Put"
+  short_name: "Shot Put"
+  description: "Throws a heavy sphere. 30% to lower speed."
+  short_description: "A ball attack. 30% speed drop."
+  effect: EFFECT_SPEED_DOWN_HIT
+  split: PHYSICAL
+  type: TYPE_STEEL
+  target: SELECTED
+  power: 85
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_BARRAGE
+}
+moves {
+  id: MOVE_BLOCK_DROPPER
+  name: "Block Dropper"
+  short_name: "Block Drop"
+  description: "Drops 2 to 5 blocks onto the target."
+  short_description: "A ball attack. 20% flinch."
+  effect: EFFECT_MULTI_HIT
+  split: PHYSICAL
+  type: TYPE_GROUND
+  target: SELECTED
+  power: 25
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_BARRAGE
+}
+moves {
+  id: MOVE_SABER_SLASHES
+  name: "Saber Slashes"
+  short_name: "Sabers"
+  description: "Hits twice. Uses elec. or fire based on effectiveness."
+  short_description: "A ball attack. 20% flinch."
+  effect: EFFECT_DOUBLE_HIT
+  split: PHYSICAL
+  type: TYPE_FIRE
+  type2: TYPE_ELECTRIC
+  target: SELECTED
+  power: 35
+  accuracy: 100
+  pp: 10
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_FIRE_LASH
+}
+moves {
+  id: MOVE_DRAGON_DASH
+  name: "Dragon Dash"
+  short_name: "DragonDash"
+  description: "Lunges at the target quickly. +1 prio."
+  short_description: "+1 priority attack."
+  effect: EFFECT_HIT
+  split: PHYSICAL
+  type: TYPE_DRAGON
+  target: SELECTED
+  power: 40
+  accuracy: 100
+  pp: 20
+  priority: 1
+  mirror_move_affected: true
+  uses_animation: MOVE_DRAGON_RUSH
+}
+moves {
+  id: MOVE_POCKET_SAND
+  name: "Pocket Sand"
+  short_name: "PocketSand"
+  description: "The user throws sand on a dime. 10% acc. drop, +1 priority."
+  short_description: "+1 priority, 10% acc drop."
+  effect: EFFECT_ACCURACY_DOWN_HIT
+  split: PHYSICAL
+  type: TYPE_GROUND
+  target: SELECTED
+  power: 40
+  accuracy: 100
+  pp: 20
+  mirror_move_affected: true
+  throwing: true
+  uses_animation: MOVE_SAND_ATTACK
+}
+moves {
+  id: MOVE_CONCOCTION
+  name: "Concoction"
+  short_name: "Concoction"
+  description: "Attacks and uses a random berry effect."
+  short_description: "Damages and uses a berry."
+  effect: EFFECT_PLACEHOLDER
+  split: PHYSICAL
+  type: TYPE_MYSTERY
+  target: SELECTED
+  power: 30
+  accuracy: 100
+  pp: 5
+  mirror_move_affected: true
+  uses_animation: MOVE_CELEBRATE
+}
+moves {
+  id: MOVE_UNSCREW
+  name: "Unscrew"
+  short_name: "Unscrew"
+  description: "Tampers with the target. Stronger vs Steel."
+  short_description: "Super effective vs Steel."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  split: PHYSICAL
+  type: TYPE_STEEL
+  target: SELECTED
+  power: 80
+  accuracy: 100
+  pp: 15
+  argument {
+    type: TYPE_STEEL
+  }
+  mirror_move_affected: true
+  uses_animation: MOVE_DISCHARGE
+}
+moves {
+  id: MOVE_GODSPEED
+  name: "Godspeed"
+  short_name: "Godspeed"
+  description: "Swoops with incredible speed. +2 prio."
+  short_description: "Super effective vs Steel."
+  effect: EFFECT_HIT
+  split: PHYSICAL
+  type: TYPE_FLYING
+  target: SELECTED
+  power: 65
+  pp: 5
+  priority: 2
+  mirror_move_affected: true
+  air: true
+  uses_animation: MOVE_BRAVE_BIRD
+}
+moves {
+  id: MOVE_PSYCHO_WAVE
+  name: "Psycho Wave"
+  short_name: "Psycho Wave"
+  description: "A hazardous energy ball hits the foe. 50% recoil damage."
+  short_description: "A life-risking energy with 50% recoil."
+  effect: EFFECT_RECOIL_50
+  split: SPECIAL
+  type: TYPE_PSYCHIC
+  target: SELECTED
+  power: 150
+  accuracy: 85
+  pp: 5
+  mirror_move_affected: true
+  reckless: true
+  uses_animation: MOVE_PSYCHO_BOOST
+}
+moves {
+  id: MOVE_ATOMIC_FIRE
+  name: "Atomic Fire"
+  short_name: "Atomic Fire"
+  description: "A hazardous energy ball hits the foe. 50% recoil damage."
+  short_description: "A life-risking energy with 50% recoil."
+  effect: EFFECT_RECOIL_33
+  split: SPECIAL
+  type: TYPE_FIRE
+  target: SELECTED
+  power: 120
+  accuracy: 100
+  pp: 10
+  mirror_move_affected: true
+  reckless: true
+  uses_animation: MOVE_FIRE_BLAST
+}
+moves {
+  id: MOVE_RAIN_FLUSH
+  name: "Rain Flush"
+  short_name: "RainFlush"
+  description: "An all consuming rain hits the foe. drops your defenses."
+  short_description: "A powerful rain attack. Lowers the user\'s defenses."
+  effect: EFFECT_CLOSE_COMBAT
+  split: SPECIAL
+  type: TYPE_WATER
+  target: SELECTED
+  power: 120
+  accuracy: 100
+  pp: 5
+  effect_chance: 100
+  mirror_move_affected: true
+  uses_animation: MOVE_RAIN_DANCE
+}
+moves {
+  id: MOVE_ICE_WALL
+  name: "Ice Wall"
+  short_name: "Ice Wall"
+  description: "The user applies a stone cold barrier, setting reflect."
+  short_description: "Sets reflect with ice."
+  effect: EFFECT_BADDY_BAD
+  split: PHYSICAL
+  type: TYPE_ICE
+  target: SELECTED
+  power: 70
+  accuracy: 100
+  pp: 5
+  mirror_move_affected: true
+  uses_animation: MOVE_BARRIER
+}
+moves {
+  id: MOVE_OBSCURED_SHOT
+  name: "Obscured Shot"
+  short_name: "SneakShot"
+  description: "User strikes first. It fails if the foe is not attacking."
+  short_description: "Strikes first if the foe is preparing an attack."
+  effect: EFFECT_SUCKER_PUNCH
+  split: SPECIAL
+  type: TYPE_DARK
+  target: SELECTED
+  power: 70
+  accuracy: 100
+  pp: 5
+  priority: 1
+  contact: true
+  mirror_move_affected: true
+}
+moves {
+  id: MOVE_BLITZ_ARROW
+  name: "Blitz Arrow"
+  short_name: "BlitzArrow"
+  description: "Shoots an arrow with fighter will. 20% flinch chance."
+  short_description: "20% flinch chance. arrow based."
+  effect: EFFECT_FLINCH_HIT
+  split: PHYSICAL
+  type: TYPE_FIGHTING
+  target: SELECTED
+  power: 85
+  accuracy: 100
+  pp: 10
+  effect_chance: 20
+  mirror_move_affected: true
+  arrow: true
 }

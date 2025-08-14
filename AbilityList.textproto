@@ -5462,7 +5462,7 @@ ability {
 ability {
   id: ABILITY_LEAD_CLAWS
   name: "Lead Claws (N)"
-  description: "Half Drake + Rough Skin."
+  description: "Tough Claws + Rough Skin."
 }
 ability {
   id: ABILITY_FLAWLESS_PRECISION
