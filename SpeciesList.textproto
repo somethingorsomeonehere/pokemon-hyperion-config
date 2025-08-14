@@ -48783,7 +48783,6 @@ species {
     pokemon_offset: 3
   }
   type: TYPE_WATER
-  type2: TYPE_GROUND
   hp: 75
   atk: 65
   def: 95
@@ -101317,6 +101316,7 @@ species {
       move: MOVE_BELLY_DRUM
       move: MOVE_BLAST_BURN
       move: MOVE_HEAD_SMASH
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BODY_PRESS
@@ -159360,6 +159360,7 @@ species {
       move: MOVE_QUICK_ATTACK
       move: MOVE_SNATCH
       move: MOVE_TAIL_SLAP
+      move: MOVE_SWIFT
     }
     level {
       level: 17
@@ -161879,6 +161880,7 @@ species {
     }
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_MAGNET_RISE
@@ -161890,7 +161892,8 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
-    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_THUNDER
   }
   visuals {
     icon {
@@ -161991,6 +161994,7 @@ species {
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_BEAM
@@ -162007,7 +162011,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_THUNDER
   }
   visuals {
     icon {
@@ -162092,7 +162096,7 @@ species {
   ability: ABILITY_TECHNICIAN
   ability: ABILITY_NOISE_CANCEL
   ability: ABILITY_INTOXICATE
-  innate: ABILITY_BASS_BOOSTED
+  innate: ABILITY_PUNK_ROCK
   innate: ABILITY_LOUD_BANG
   innate: ABILITY_WATER_ABSORB
   percent_female: 50
@@ -162143,6 +162147,7 @@ species {
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FLASH
+    tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_BEAM
@@ -162158,7 +162163,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_WATER_PULSE
   }
   visuals {
     icon {
@@ -165936,9 +165941,9 @@ species {
   spdef: 60
   spe: 70
   ability: ABILITY_CLEAR_BODY
-  ability: ABILITY_POWER_OF_ALCHEMY
+  ability: ABILITY_JUGGERNAUT
   ability: ABILITY_POWER_SPOT
-  innate: ABILITY_MINERALIZE
+  innate: ABILITY_STRIKER
   innate: ABILITY_STALWART
   innate: ABILITY_SOLID_ROCK
   percent_female: 50
@@ -180200,7 +180205,7 @@ species {
   spe: 111
   ability: ABILITY_ARMOR_TAIL
   ability: ABILITY_HUGE_POWER
-  ability: ABILITY_FUR_COAT
+  ability: ABILITY_PURE_POWER
   innate: ABILITY_PROTOSYNTHESIS
   innate: ABILITY_NOSFERATU
   innate: ABILITY_TANGLING_HAIR
@@ -180980,7 +180985,7 @@ species {
   ability: ABILITY_SNOW_WARNING
   innate: ABILITY_QUARK_DRIVE
   innate: ABILITY_COLD_REBOUND
-  innate: ABILITY_IMPULSE
+  innate: ABILITY_SPEED_BOOST
   genderless: true
   tier: 5
   learnset {
@@ -186141,6 +186146,7 @@ species {
       move: MOVE_HEAL_PULSE
       move: MOVE_ODOR_SLEUTH
       move: MOVE_SWEET_SCENT
+      move: MOVE_SEPTIC_SWITCH
     }
     level {
       level: 17
@@ -194457,8 +194463,8 @@ species {
   evo {
     to: SPECIES_AGGRON_REDUX
     level: 36
-    }
-    learnset {
+  }
+  learnset {
     level {
       level: 1
       move: MOVE_BODY_SLAM
