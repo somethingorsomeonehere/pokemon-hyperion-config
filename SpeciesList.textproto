@@ -204314,8 +204314,34 @@ species {
       move: MOVE_TACKLE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FACADE
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FLASH
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CURSE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DISABLE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_TRICK
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLASH_CANNON
   }
   visuals {
     icon {
@@ -204407,8 +204433,34 @@ species {
       move: MOVE_TACKLE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FACADE
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FLASH
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CURSE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DISABLE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_TRICK
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLASH_CANNON
   }
   visuals {
     icon {
@@ -204457,47 +204509,68 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_ASTONISH
+      move: MOVE_CHARGE
+      move: MOVE_SNATCH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_OMINOUS_WIND
+      move: MOVE_ACUPRESSURE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_PLASMA_PULSE
+      move: MOVE_ELECTRIFY
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_POLTERGEIST
+      move: MOVE_TERROR_LOCKS
+      move: MOVE_SHOCK_WAVE
+      move: MOVE_FOLLOW_ME
+      move: MOVE_MYSTICAL_FIRE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_DESTINY_BOND
+      move: MOVE_OUTBURST
+      move: MOVE_VOLT_TACKLE
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_ZAP_CANNON
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FLASH
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CURSE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_CHARM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DISABLE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_TRICK
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLASH_CANNON
   }
   visuals {
     icon {
@@ -206618,47 +206691,85 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_MAGNITUDE
+      move: MOVE_SWAGGER
+      move: MOVE_TELEPORT
+      move: MOVE_GRAVITY
+      move: MOVE_DEFENSE_CURL
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_INSTRUCT
+      move: MOVE_CONFUSION
+      move: MOVE_PSYCHIC_FANGS
+      move: MOVE_THUNDER_SHOCK
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_HORN_DRILL
+      move: MOVE_KINESIS
+      move: MOVE_TELEKINESIS
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_SMART_STRIKE
+      move: MOVE_MIRAGE_SLAM
+      move: MOVE_AFTER_YOU
+      move: MOVE_AUTOTOMIZE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_HYPER_DRILL
+      move: MOVE_EXPANDING_FORCE
+      move: MOVE_BARRIER
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_FISSURE
+      move: MOVE_SHELTER
+      move: MOVE_VOLT_TACKLE
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_PSYCHOKINETIC_SLAM
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_PSYCHO_CUT
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_REFLECT
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFRESH
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_SHOCKING_JAB
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_CALTROPS
   }
   visuals {
     icon {
