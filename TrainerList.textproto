@@ -94636,6 +94636,7 @@ trainer {
     }
   }
 }
+
 trainer {
   id: TRAINER_RODRICK
   name: "Rodrick"
