@@ -2530,7 +2530,7 @@ ability {
   id: ABILITY_GIFTED_MIND
   name: "Gifted Mind"
   description: "Nulls Psychic weakness; status moves always hit."
-  expanded_description: "Gifted Mind grants immunity to Dark, Ghost, and Bug-type moves while making all status moves used by this Pokemon never miss. This immunity ignores Inverse Room.   *For Discord/reference use*"
+  expanded_description: "Gifted Mind grants immunity to Dark, Ghost, and Bug-type moves while making all status moves used by this Pokemon never miss. This immunity ignores Inverse Room."
 }
 ability {
   id: ABILITY_HYDRO_CIRCUIT
