@@ -15,5 +15,5 @@ message Ability {
   AbilityEnum id = 1;
   string name = 2;
   string description = 3;
-  repeated string expanded_description = 4;
+  optional string expanded_description = 4;
 }
