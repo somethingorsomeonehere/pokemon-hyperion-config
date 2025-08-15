@@ -94564,3 +94564,193 @@ trainer {
     }
   }
 }
+
+trainer {
+  id: TRAINER_LETT
+  name: "Lett"
+  gender: MALE
+  class: TRAINER_CLASS_RUIN_MANIAC
+  pic: TRAINER_PIC_RUIN_MANIAC
+  music: TRAINER_ENCOUNTER_MUSIC_HIKER
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_ORWELL
+  name: "Orwell"
+  gender: MALE
+  class: TRAINER_CLASS_RUIN_MANIAC
+  pic: TRAINER_PIC_RUIN_MANIAC
+  music: TRAINER_ENCOUNTER_MUSIC_HIKER
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_AMANDA
+  name: "Amanda"
+  gender: FEMALE
+  class: TRAINER_CLASS_PKMN_RANGER
+  pic: TRAINER_PIC_POKEMON_RANGER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_RODRICK
+  name: "Rodrick"
+  gender: MALE
+  class: TRAINER_CLASS_CAMPER
+  pic: TRAINER_PIC_CAMPER
+  music: TRAINER_ENCOUNTER_MUSIC_MALE
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_1
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_2
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_3
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_COURTNEY_SUNHOLLOW
+  name: "Courtney"
+  gender: FEMALE
+  class: TRAINER_CLASS_MAGMA_ADMIN
+  pic: TRAINER_PIC_MAGMA_ADMIN_F
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
