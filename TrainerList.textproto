@@ -17595,7 +17595,7 @@ trainer {
       ability: ABILITY_JUGGERNAUT
       hp_ev: 252
       atk_ev: 252
-      def_ev: 522
+      def_ev: 252
       move: MOVE_HEAD_SMASH
       move: MOVE_SEISMIC_SLAM
       move: MOVE_IRON_TAIL
