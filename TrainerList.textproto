@@ -10578,7 +10578,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -19105,7 +19105,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_ROCK_GEM
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -22881,7 +22881,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -35972,6 +35972,7 @@ trainer {
       species: SPECIES_PERSIAN_ALOLAN
       item: ITEM_SWIRLY_GLASSES
       nature: NATURE_MODEST
+      ability: ABILITY_FUR_COAT
       hp_ev: 252
       def_ev: 252
       spatk_ev: 252
@@ -83391,7 +83392,7 @@ trainer {
       species: SPECIES_STONJOURNER
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
-      ability: ABILITY_POWER_OF_ALCHEMY
+      ability: ABILITY_JUGGERNAUT
       hp_ev: 252
       atk_ev: 252
       spdef_ev: 4
