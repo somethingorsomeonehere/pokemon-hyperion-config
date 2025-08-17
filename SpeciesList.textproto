@@ -197593,23 +197593,23 @@ species {
   }
   visuals {
     icon {
-      path: "zapdos/icon"
+      path: "zapdos/ex/icon"
       palette: 4
     }
     front {
-      path: "zapdos/front"
+      path: "zapdos/ex/front"
       coords {
       }
     }
     back {
-      path: "zapdos/back"
+      path: "zapdos/ex/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 4
       }
     }
-    palette: "zapdos/normal"
-    shiny: "zapdos/shiny"
+    palette: "zapdos/ex/normal"
+    shiny: "zapdos/ex/shiny"
   }
 }
 species {
