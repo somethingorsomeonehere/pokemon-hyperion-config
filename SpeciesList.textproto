@@ -84012,14 +84012,13 @@ species {
       path: "luxray/redux/mega/front"
       coords {
         size: 136
-        y_offset: 3
+        y_offset: 6
       }
     }
     back {
       path: "luxray/redux/mega/back"
       coords {
         size: 135
-        y_offset: 3
       }
     }
     palette: "luxray/redux/mega/normal"
@@ -86572,10 +86571,10 @@ species {
   spdef: 78
   spe: 85
   ability: ABILITY_AROMA_VEIL
-  ability: ABILITY_SOLAR_POWER
+  ability: ABILITY_RAIN_DISH
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
-  innate: ABILITY_CHLOROPHYLL
+  innate: ABILITY_RIPEN
   innate: ABILITY_SOLAR_FLARE
   percent_female: 50
   learnset {
@@ -86730,7 +86729,7 @@ species {
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_SOLAR_FLARE
+  innate: ABILITY_IMMOLATE
   percent_female: 50
   uses_learnset: SPECIES_CHERRIM
   visuals {
@@ -89172,12 +89171,12 @@ species {
   spatk: 79
   spdef: 116
   spe: 33
-  ability: ABILITY_BATTLE_ARMOR
+  ability: ABILITY_DRIZZLE
   ability: ABILITY_LEAD_COAT
   ability: ABILITY_TWISTED_DIMENSION
   innate: ABILITY_STEELY_SPIRIT
   innate: ABILITY_HEATPROOF
-  innate: ABILITY_BULLETPROOF
+  innate: ABILITY_BATTLE_ARMOR
   genderless: true
   learnset {
     level {
@@ -106052,7 +106051,7 @@ species {
   spatk: 97
   spdef: 55
   spe: 114
-  ability: ABILITY_EMANATE
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_AERILATE
   ability: ABILITY_SIMPLE
   innate: ABILITY_UNAWARE
@@ -113979,10 +113978,10 @@ species {
   spe: 110
   ability: ABILITY_AMBUSH
   ability: ABILITY_RECURRING_NIGHTMARE
-  ability: ABILITY_EXPLOIT_WEAKNESS
+  ability: ABILITY_SNOW_CLOAK
   innate: ABILITY_ILLUSION
   innate: ABILITY_VENGEANCE
-  innate: ABILITY_OPPORTUNIST
+  innate: ABILITY_EXPLOIT_WEAKNESS
   percent_female: 12.5
   learnset {
     level {
@@ -140539,7 +140538,7 @@ species {
   spatk: 97
   spdef: 80
   spe: 123
-  ability: ABILITY_AERODYNAMICS
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_AERILATE
   ability: ABILITY_LOUD_BANG
   innate: ABILITY_AMBUSH
@@ -165993,6 +165992,7 @@ species {
       move: MOVE_ROCK_BLAST
       move: MOVE_ROCK_POLISH
       move: MOVE_SPINE_BREAKER
+      move: MOVE_RUMBLE_KICK
     }
     level {
       level: 17
@@ -175947,10 +175947,10 @@ species {
   spdef: 70
   spe: 100
   ability: ABILITY_INFILTRATOR
-  ability: ABILITY_DESERT_CLOAK
+  ability: ABILITY_SAND_RUSH
   ability: ABILITY_LOOSE_QUILLS
   innate: ABILITY_WIND_RIDER
-  innate: ABILITY_LETS_ROLL
+  innate: ABILITY_DESERT_CLOAK
   innate: ABILITY_NOSFERATU
   percent_female: 50
   learnset {
@@ -197411,7 +197411,7 @@ species {
       path: "zapdos/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 14
       }
     }
     palette: "zapdos/mega/normal"
@@ -197605,7 +197605,7 @@ species {
       path: "zapdos/ex/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 14
       }
     }
     palette: "zapdos/ex/normal"
@@ -200893,6 +200893,7 @@ species {
       move: MOVE_VENOM_BOLT
       move: MOVE_HOMING_FLETCH
       move: MOVE_BURNING_JEALOUSY
+      move: MOVE_BLITZ_ARROW
     }
     level {
       level: 46
@@ -201904,7 +201905,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 17
       }
     }
     palette: "pentadug/alolan/normal"
@@ -202966,7 +202967,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanillite/redux/normal"
@@ -203077,7 +203077,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanillish/redux/normal"
@@ -203194,7 +203193,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanilluxe/redux/normal"
@@ -203233,7 +203231,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
@@ -203241,7 +203239,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanilluxe/redux/mega/normal"
@@ -203352,7 +203349,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 14
       }
     }
     back {
@@ -203360,7 +203357,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 2
+        y_offset: 12
       }
     }
     palette: "larvesta/redux/normal"
@@ -203480,7 +203477,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -203488,7 +203485,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 2
       }
     }
     palette: "volcarona/redux/normal"
@@ -204387,7 +204384,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -204395,7 +204392,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "litwick/redux/normal"
@@ -204486,7 +204482,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 18
       }
     }
     back {
@@ -204494,7 +204490,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "lampent/redux/normal"
@@ -204596,7 +204591,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -204604,7 +204599,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "chandelure/redux/normal"
@@ -204643,7 +204637,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -204651,7 +204645,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "chandelure/redux/mega/normal"
@@ -204690,7 +204683,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -204698,7 +204691,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "sneasler/mega/normal"
@@ -204736,7 +204728,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -204744,7 +204736,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 10
       }
     }
     palette: "clefable/mega/normal"
@@ -204876,7 +204868,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -204884,7 +204876,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "hariyama/mega/normal"
@@ -205776,7 +205768,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -205784,7 +205776,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 5
       }
     }
     palette: "bewarden/normal"
@@ -206263,7 +206255,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
@@ -206271,7 +206263,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 12
       }
     }
     palette: "bloxtack/normal"
@@ -206395,7 +206387,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 10
+        y_offset: 3
       }
     }
     back {
@@ -206403,7 +206395,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 6
+        y_offset: 10
       }
     }
     palette: "gargablox/normal"
@@ -207046,7 +207038,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -207054,7 +207046,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "eraticate/normal"
@@ -207201,7 +207192,7 @@ species {
 species {
   id: SPECIES_TOXICROAK_SPLIT
   dex {
-    name: "ToxicroakS"
+    name: "Hypnocroak"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -207497,7 +207488,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -207505,7 +207496,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "exeggutor/redux/normal"

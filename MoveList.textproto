@@ -17377,3 +17377,22 @@ moves {
   mirror_move_affected: true
   arrow: true
 }
+moves {
+  id: MOVE_RUMBLE_KICK
+  name: "Rumble Kick"
+  short_name: "RumbleKick"
+  description: "A kick from a reinforced leg. 20% Atk drop. Striker."
+  short_description: "May down attack. Striker."
+  effect: EFFECT_ATTACK_DOWN_HIT
+  split: PHYSICAL
+  type: TYPE_ROCK
+  target: SELECTED
+  power: 90
+  accuracy: 100
+  pp: 15
+  effect_chance: 30
+  contact: true
+  mirror_move_affected: true
+  striker: true
+  uses_animation: MOVE_MEGA_KICK
+}
