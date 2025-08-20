@@ -84012,14 +84012,13 @@ species {
       path: "luxray/redux/mega/front"
       coords {
         size: 136
-        y_offset: 3
+        y_offset: 6
       }
     }
     back {
       path: "luxray/redux/mega/back"
       coords {
         size: 135
-        y_offset: 3
       }
     }
     palette: "luxray/redux/mega/normal"
@@ -86572,10 +86571,10 @@ species {
   spdef: 78
   spe: 85
   ability: ABILITY_AROMA_VEIL
-  ability: ABILITY_SOLAR_POWER
+  ability: ABILITY_RAIN_DISH
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
-  innate: ABILITY_CHLOROPHYLL
+  innate: ABILITY_RIPEN
   innate: ABILITY_SOLAR_FLARE
   percent_female: 50
   learnset {
@@ -86730,7 +86729,7 @@ species {
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_SOLAR_FLARE
+  innate: ABILITY_IMMOLATE
   percent_female: 50
   uses_learnset: SPECIES_CHERRIM
   visuals {
@@ -89172,12 +89171,12 @@ species {
   spatk: 79
   spdef: 116
   spe: 33
-  ability: ABILITY_BATTLE_ARMOR
+  ability: ABILITY_DRIZZLE
   ability: ABILITY_LEAD_COAT
   ability: ABILITY_TWISTED_DIMENSION
   innate: ABILITY_STEELY_SPIRIT
   innate: ABILITY_HEATPROOF
-  innate: ABILITY_BULLETPROOF
+  innate: ABILITY_BATTLE_ARMOR
   genderless: true
   learnset {
     level {
@@ -106052,7 +106051,7 @@ species {
   spatk: 97
   spdef: 55
   spe: 114
-  ability: ABILITY_EMANATE
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_AERILATE
   ability: ABILITY_SIMPLE
   innate: ABILITY_UNAWARE
@@ -113979,10 +113978,10 @@ species {
   spe: 110
   ability: ABILITY_AMBUSH
   ability: ABILITY_RECURRING_NIGHTMARE
-  ability: ABILITY_EXPLOIT_WEAKNESS
+  ability: ABILITY_SNOW_CLOAK
   innate: ABILITY_ILLUSION
   innate: ABILITY_VENGEANCE
-  innate: ABILITY_OPPORTUNIST
+  innate: ABILITY_EXPLOIT_WEAKNESS
   percent_female: 12.5
   learnset {
     level {
@@ -140539,7 +140538,7 @@ species {
   spatk: 97
   spdef: 80
   spe: 123
-  ability: ABILITY_AERODYNAMICS
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_AERILATE
   ability: ABILITY_LOUD_BANG
   innate: ABILITY_AMBUSH
@@ -165993,6 +165992,7 @@ species {
       move: MOVE_ROCK_BLAST
       move: MOVE_ROCK_POLISH
       move: MOVE_SPINE_BREAKER
+      move: MOVE_RUMBLE_KICK
     }
     level {
       level: 17
@@ -175947,10 +175947,10 @@ species {
   spdef: 70
   spe: 100
   ability: ABILITY_INFILTRATOR
-  ability: ABILITY_DESERT_CLOAK
+  ability: ABILITY_SAND_RUSH
   ability: ABILITY_LOOSE_QUILLS
   innate: ABILITY_WIND_RIDER
-  innate: ABILITY_LETS_ROLL
+  innate: ABILITY_DESERT_CLOAK
   innate: ABILITY_NOSFERATU
   percent_female: 50
   learnset {
@@ -197411,7 +197411,7 @@ species {
       path: "zapdos/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 14
       }
     }
     palette: "zapdos/mega/normal"
@@ -197593,23 +197593,23 @@ species {
   }
   visuals {
     icon {
-      path: "zapdos/icon"
+      path: "zapdos/ex/icon"
       palette: 4
     }
     front {
-      path: "zapdos/front"
+      path: "zapdos/ex/front"
       coords {
       }
     }
     back {
-      path: "zapdos/back"
+      path: "zapdos/ex/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 14
       }
     }
-    palette: "zapdos/normal"
-    shiny: "zapdos/shiny"
+    palette: "zapdos/ex/normal"
+    shiny: "zapdos/ex/shiny"
   }
 }
 species {
@@ -200350,17 +200350,21 @@ species {
       move: MOVE_POISON_FANG
       move: MOVE_TREPIDATION
       move: MOVE_SMOG
+      move: MOVE_ASTONISH
     }
     level {
       level: 17
       move: MOVE_SEISMIC_BLADE
       move: MOVE_COIL
       move: MOVE_TOXIC_PLUNGE
+      move: MOVE_SHADOW_FANGS
     }
     level {
       level: 24
       move: MOVE_LEAF_BLADE
       move: MOVE_SLUDGE_WAVE
+      move: MOVE_BITTER_MALICE
+      move: MOVE_BLOCK_DROPPER
     }
     level {
       level: 37
@@ -200371,33 +200375,47 @@ species {
     level {
       level: 46
       move: MOVE_MYSTIC_DANCE
+      move: MOVE_POLTERGEIST
+      move: MOVE_DESTINY_BOND
+      move: MOVE_SEPTIC_SWITCH
     }
     level {
       level: 51
       move: MOVE_HEADLONG_RUSH
+      move: MOVE_SHADOW_HAMMER
+      move: MOVE_NOXIOUS_TORQUE
     }
     level {
       level: 56
       move: MOVE_DIRE_CLAW
+      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_GLARE
     }
     tutor: MOVE_BRAVADO
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CLEAR_SMOG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FACADE
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
-    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_RAZOR_LEAF
-    tutor: MOVE_BULLDOZE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_CLEAR_SMOG
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_CURSE
+    tutor: MOVE_SPITE
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_HEX
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -200458,47 +200476,79 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_AUTOTOMIZE
+      move: MOVE_FIRST_IMPRESSION
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_SILVER_WIND
+      move: MOVE_DEFENSE_CURL
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_COIL
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_INFESTATION
+      move: MOVE_EMBER
+      move: MOVE_METEOR_MASH
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_SHELTER
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_POLLEN_PUFF
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_SHED_TAIL
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_STICKY_WEB
+      move: MOVE_QUIVER_DANCE
+      move: MOVE_UNSCREW
+      move: MOVE_ACUPRESSURE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SYNTHESIS
+      move: MOVE_METAL_BURST
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_LEAF_STORM
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_SEED_FLARE
+      move: MOVE_STEEL_BEAM
+      move: MOVE_OUTBURST
+      move: MOVE_CHLOROBLAST
+      move: MOVE_ATOMIC_FIRE
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_IRON_FANGS
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CALTROPS
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_METAL_SOUND
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
@@ -200843,6 +200893,7 @@ species {
       move: MOVE_VENOM_BOLT
       move: MOVE_HOMING_FLETCH
       move: MOVE_BURNING_JEALOUSY
+      move: MOVE_BLITZ_ARROW
     }
     level {
       level: 46
@@ -201854,7 +201905,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 17
       }
     }
     palette: "pentadug/alolan/normal"
@@ -202916,7 +202967,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanillite/redux/normal"
@@ -203027,7 +203077,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanillish/redux/normal"
@@ -203144,7 +203193,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanilluxe/redux/normal"
@@ -203183,7 +203231,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
@@ -203191,7 +203239,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanilluxe/redux/mega/normal"
@@ -203302,7 +203349,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 14
       }
     }
     back {
@@ -203310,7 +203357,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 2
+        y_offset: 12
       }
     }
     palette: "larvesta/redux/normal"
@@ -203430,7 +203477,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -203438,7 +203485,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 2
       }
     }
     palette: "volcarona/redux/normal"
@@ -204281,46 +204328,26 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_ASTONISH
+      move: MOVE_CHARGE
+      move: MOVE_SNATCH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_OMINOUS_WIND
+      move: MOVE_ACUPRESSURE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_ELECTRIFY
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_SHOCK_WAVE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_BUBBLE
     tutor: MOVE_FACADE
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_THUNDER
@@ -204342,8 +204369,6 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_TRICK
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_FLAMETHROWER
@@ -204359,7 +204384,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -204367,7 +204392,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "litwick/redux/normal"
@@ -204400,46 +204424,28 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_ASTONISH
+      move: MOVE_CHARGE
+      move: MOVE_SNATCH
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_OMINOUS_WIND
+      move: MOVE_ACUPRESSURE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_PLASMA_PULSE
+      move: MOVE_ELECTRIFY
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
-    }
-    level {
-      level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_POLTERGEIST
+      move: MOVE_SHOCK_WAVE
     }
     tutor: MOVE_BRAVADO
-    tutor: MOVE_BUBBLE
     tutor: MOVE_FACADE
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_THUNDER
@@ -204461,8 +204467,6 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_TRICK
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_FLAMETHROWER
@@ -204478,7 +204482,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 18
       }
     }
     back {
@@ -204486,7 +204490,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "lampent/redux/normal"
@@ -204588,7 +204591,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -204596,7 +204599,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "chandelure/redux/normal"
@@ -204635,7 +204637,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -204643,7 +204645,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "chandelure/redux/mega/normal"
@@ -204682,7 +204683,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -204690,7 +204691,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "sneasler/mega/normal"
@@ -204728,7 +204728,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -204736,7 +204736,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 10
       }
     }
     palette: "clefable/mega/normal"
@@ -204868,7 +204868,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -204876,7 +204876,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "hariyama/mega/normal"
@@ -204909,47 +204909,68 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_GUST
+      move: MOVE_AERIAL_ACE
+      move: MOVE_DUAL_WINGBEAT
+      move: MOVE_BLAZING_TORQUE
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_BOUNCY_BUBBLE
+      move: MOVE_WATER_SPORT
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_CHILLING_WATER
+      move: MOVE_WATER_GUN
+      move: MOVE_FREEZE_DRY
+      move: MOVE_WATERLOG
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_GIANT_GALE
+      move: MOVE_RAPID_RIVER
+      move: MOVE_AFTER_YOU
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_HYDRO_STEAM
+      move: MOVE_SUPERHOT_FLAME
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_RAGING_FURY
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_WAVE_CRASH
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_SURF
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_DEFOG
   }
   visuals {
     icon {
@@ -204998,47 +205019,76 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_GUST
+      move: MOVE_AERIAL_ACE
+      move: MOVE_DUAL_WINGBEAT
+      move: MOVE_BLAZING_TORQUE
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_BOUNCY_BUBBLE
+      move: MOVE_WATER_SPORT
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_CHILLING_WATER
+      move: MOVE_WATER_GUN
+      move: MOVE_FREEZE_DRY
+      move: MOVE_WATERLOG
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_GIANT_GALE
+      move: MOVE_RAPID_RIVER
+      move: MOVE_AFTER_YOU
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_HYDRO_STEAM
+      move: MOVE_SUPERHOT_FLAME
+      move: MOVE_BURN_UP
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_RAGING_FURY
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_STEAM_ERUPTION
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_WAVE_CRASH
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_WATER_SPOUT
+      move: MOVE_ERUPTION
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_SURF
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_DEFOG
   }
   visuals {
     icon {
@@ -205718,7 +205768,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -205726,7 +205776,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 5
       }
     }
     palette: "bewarden/normal"
@@ -206205,7 +206255,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
@@ -206213,7 +206263,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 12
       }
     }
     palette: "bloxtack/normal"
@@ -206337,7 +206387,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 10
+        y_offset: 3
       }
     }
     back {
@@ -206345,7 +206395,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 6
+        y_offset: 10
       }
     }
     palette: "gargablox/normal"
@@ -206391,47 +206441,64 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_SYRUP_BOMB
+      move: MOVE_POCKET_SAND
+      move: MOVE_LEAFAGE
+      move: MOVE_MUD_SPORT
+      move: MOVE_SWEET_SCENT
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_GRASS_KNOT
+      move: MOVE_BERRY_SMASH
+      move: MOVE_MUD_SHOT
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_CONCOCTION
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_YAWN
+      move: MOVE_SPICY_EXTRACT
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SOIL_DRAIN
+      move: MOVE_RECYCLE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_SYNTHESIS
+      move: MOVE_SHORE_UP
+      move: MOVE_FISSURE
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_SEISMIC_SLAM
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_ABSORB
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_REFRESH
+    tutor: MOVE_WIDE_GUARD
   }
   visuals {
     icon {
@@ -206493,47 +206560,72 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_SYRUP_BOMB
+      move: MOVE_POCKET_SAND
+      move: MOVE_LEAFAGE
+      move: MOVE_MUD_SPORT
+      move: MOVE_SWEET_SCENT
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_GRASS_KNOT
+      move: MOVE_BERRY_SMASH
+      move: MOVE_MUD_SHOT
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_CONCOCTION
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_YAWN
+      move: MOVE_SPICY_EXTRACT
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SOIL_DRAIN
+      move: MOVE_RECYCLE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SYNTHESIS
+      move: MOVE_SHORE_UP
+      move: MOVE_FISSURE
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_LEAF_STORM
+      move: MOVE_METEOR_BEAM
+      move: MOVE_HEADLONG_RUSH
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_ABSORB
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_REFRESH
+    tutor: MOVE_WIDE_GUARD
   }
   visuals {
     icon {
@@ -206595,47 +206687,80 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_FERTILE_FANGS
+      move: MOVE_DRACONIC_FANGS
+      move: MOVE_BULLET_SEED
+      move: MOVE_TWISTER
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_DRAGON_BREATH
+      move: MOVE_DRAGON_DASH
+      move: MOVE_GRASS_KNOT
+      move: MOVE_FIRE_FANG
+      move: MOVE_GIGA_DRAIN
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_BERRY_SMASH
+      move: MOVE_SPICY_EXTRACT
+      move: MOVE_TRAILBLAZE
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_DRAGON_HAMMER
+      move: MOVE_SMASHING_PUMPKINS
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SYNTHESIS
+      move: MOVE_DRAGON_DANCE
     }
     level {
       level: 51
-      move: MOVE_GIGATON_HAMMER
+      move: MOVE_DRACO_METEOR
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_LEAF_STORM
+      move: MOVE_OVERHEAT
     }
     level {
       level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_OUTRAGE
+      move: MOVE_RAGING_FURY
+      move: MOVE_SHED_TAIL
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_JAB
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_ABSORB
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -206913,7 +207038,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -206921,7 +207046,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "eraticate/normal"
@@ -207068,7 +207192,7 @@ species {
 species {
   id: SPECIES_TOXICROAK_SPLIT
   dex {
-    name: "ToxicroakS"
+    name: "Hypnocroak"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -207364,7 +207488,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 4
       }
     }
     back {
@@ -207372,7 +207496,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "exeggutor/redux/normal"

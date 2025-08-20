@@ -1703,8 +1703,8 @@ ability {
 ability {
   id: ABILITY_EXPLOIT_WEAKNESS
   name: "Exploit Weakness"
-  description: "Deals 1.25x and targets lowest defense vs statused foes."
-  expanded_description: "When attacking a statused opponent, deals 1.25x damage and automatically targets their lower defensive stat."
+  description: "Targets lowest defense vs statused foes."
+  expanded_description: "When attacking a statused opponent, targets their lower defensive stat."
 }
 ability {
   id: ABILITY_GROUND_SHOCK
@@ -2530,7 +2530,7 @@ ability {
   id: ABILITY_GIFTED_MIND
   name: "Gifted Mind"
   description: "Nulls Psychic weakness; status moves always hit."
-  expanded_description: "Gifted Mind grants immunity to Dark, Ghost, and Bug-type moves while making all status moves used by this Pokemon never miss. This immunity ignores Inverse Room.   *For Discord/reference use*"
+  expanded_description: "Gifted Mind grants immunity to Dark, Ghost, and Bug-type moves while making all status moves used by this Pokemon never miss. This immunity ignores Inverse Room."
 }
 ability {
   id: ABILITY_HYDRO_CIRCUIT
@@ -5583,4 +5583,9 @@ ability {
   id: ABILITY_BARK_SKIN
   name: "Dead Bark (N)"
   description: "Adds Ghost-type. Takes 15% less damage. 30% less damage if SE."
+}
+ability {
+  id: ABILITY_ECHOLOCATION
+  name: "Echolocation (N)"
+  description: "In fog, deal 20% more damage and never miss."
 }

@@ -10657,7 +10657,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -17915,7 +17915,7 @@ trainer {
       ability: ABILITY_JUGGERNAUT
       hp_ev: 252
       atk_ev: 252
-      def_ev: 522
+      def_ev: 252
       move: MOVE_HEAD_SMASH
       move: MOVE_SEISMIC_SLAM
       move: MOVE_IRON_TAIL
@@ -19436,7 +19436,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_ROCK_GEM
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -23292,7 +23292,7 @@ trainer {
       species: SPECIES_LYCANROC
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_TECTONIZE
+      ability: ABILITY_ADRENALINE_RUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -36543,6 +36543,7 @@ trainer {
       species: SPECIES_PERSIAN_ALOLAN
       item: ITEM_SWIRLY_GLASSES
       nature: NATURE_MODEST
+      ability: ABILITY_FUR_COAT
       hp_ev: 252
       def_ev: 252
       spatk_ev: 252
@@ -66433,6 +66434,8 @@ trainer {
       move: MOVE_SLUDGE_BOMB
       move: MOVE_DRAGON_PULSE
       move: MOVE_EARTH_POWER
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_ICE
     }
   }
 }
@@ -84361,7 +84364,7 @@ trainer {
       species: SPECIES_STONJOURNER
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
-      ability: ABILITY_POWER_OF_ALCHEMY
+      ability: ABILITY_JUGGERNAUT
       hp_ev: 252
       atk_ev: 252
       spdef_ev: 4
@@ -95531,6 +95534,350 @@ trainer {
       move: MOVE_JAGGED_PUNCH
       move: MOVE_ACCELEROCK
       move: MOVE_DRAIN_PUNCH
+    }
+  }
+}
+trainer {
+  id: TRAINER_LETT
+  name: "Lett"
+  gender: MALE
+  class: TRAINER_CLASS_RUIN_MANIAC
+  pic: TRAINER_PIC_RUIN_MANIAC
+  music: TRAINER_ENCOUNTER_MUSIC_HIKER
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_WUGTRIO
+      item: ITEM_MYSTIC_WATER
+      nature: NATURE_JOLLY
+      ability: ABILITY_COWARD
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_JET
+      move: MOVE_ICE_SPINNER
+      move: MOVE_WATERFALL
+      move: MOVE_STRENGTH
+    }
+    mon {
+      species: SPECIES_DUGTRIO
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_SAND_RUSH
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_ASTONISH
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_NIGHT_SLASH
+      move: MOVE_REVERSAL
+    }
+    mon {
+      species: SPECIES_DUGTRIO_ALOLAN
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_SAND_RUSH
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_ASTONISH
+      move: MOVE_IRON_HEAD
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SUCKER_PUNCH
+    }
+    mon {
+      species: SPECIES_PENTAWUG
+      item: ITEM_LIFE_ORB
+      nature: NATURE_NAIVE
+      ability: ABILITY_IMPULSE
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_JET
+      move: MOVE_SURF
+      move: MOVE_ICE_BEAM
+      move: MOVE_SUCKER_PUNCH
+    }
+    mon {
+      species: SPECIES_PENTADUG
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_STAMINA
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_ASTONISH
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_HEAD_SMASH
+    }
+    mon {
+      species: SPECIES_PENTADUG_ALOLAN
+      item: ITEM_LEFTOVERS
+      nature: NATURE_JOLLY
+      ability: ABILITY_MOUSTACHE
+      hp_ev: 156
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 96
+      move: MOVE_NO_RETREAT
+      move: MOVE_EARTHQUAKE
+      move: MOVE_IRON_HEAD
+      move: MOVE_SUCKER_PUNCH
+    }
+  }
+}
+trainer {
+  id: TRAINER_ORWELL
+  name: "Orwell"
+  gender: MALE
+  class: TRAINER_CLASS_RUIN_MANIAC
+  pic: TRAINER_PIC_RUIN_MANIAC
+  music: TRAINER_ENCOUNTER_MUSIC_HIKER
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_AMANDA
+  name: "Amanda"
+  gender: FEMALE
+  class: TRAINER_CLASS_PKMN_RANGER
+  pic: TRAINER_PIC_POKEMON_RANGER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_RODRICK
+  name: "Rodrick"
+  gender: MALE
+  class: TRAINER_CLASS_CAMPER
+  pic: TRAINER_PIC_CAMPER
+  music: TRAINER_ENCOUNTER_MUSIC_MALE
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_1
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_2
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_GRUNT_SUNHOLLOW_3
+  name: "Grunt"
+  gender: MALE
+  class: TRAINER_CLASS_TEAM_MAGMA
+  pic: TRAINER_PIC_MAGMA_GRUNT_M
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+}
+trainer {
+  id: TRAINER_COURTNEY_SUNHOLLOW
+  name: "Courtney"
+  gender: FEMALE
+  class: TRAINER_CLASS_MAGMA_ADMIN
+  pic: TRAINER_PIC_MAGMA_ADMIN_F
+  music: TRAINER_ENCOUNTER_MUSIC_MAGMA
+  ace {
+    mon {
+      species: SPECIES_BLACEPHALON
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGIC_GUARD
+      hp_ev: 4
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_MIND_BLOWN
+      move: MOVE_PSYSHOCK
+      move: MOVE_TRUMP_CARD
+      move: MOVE_INFERNAL_PARADE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_NINETALES
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_MOONBLAST
+      move: MOVE_FLAMETHROWER
+      move: MOVE_NASTY_PLOT
+      move: MOVE_SOLAR_BEAM
+    }
+    mon {
+      species: SPECIES_SANDY_SHOCKS
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_TIMID
+      ability: ABILITY_OVERCHARGE
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_VOLT_SWITCH
+      move: MOVE_SCORCHING_SANDS
+      move: MOVE_WEATHER_BALL
+      move: MOVE_THUNDER_CAGE
+    }
+    mon {
+      species: SPECIES_LILLIGANT_HISUIAN
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_CHLOROPHYLL
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_LEAF_BLADE
+      move: MOVE_AXE_KICK
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_VICTORY_DANCE
+    }
+    mon {
+      species: SPECIES_BRONTONANA
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_RIPEN
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
+      move: MOVE_SOLAR_BEAM
+      move: MOVE_DRAGON_ENERGY
+      move: MOVE_EARTH_POWER
+      move: MOVE_SUNNY_DAY
+    }
+    mon {
+      species: SPECIES_HOUNDOOM_REDUX
+      item: ITEM_HOUNDOOMINITE_R
+      nature: NATURE_TIMID
+      ability: ABILITY_BERSERK
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_OVERHEAT
+      move: MOVE_RAGING_SOULS
+      move: MOVE_SLUDGE_BOMB
+      move: MOVE_AURA_SPHERE
+    }
+    mon {
+      species: SPECIES_ARCANINE
+      item: ITEM_ARCANITE_R
+      nature: NATURE_JOLLY
+      ability: ABILITY_INTIMIDATE
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_WILD_CHARGE
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_PLAY_ROUGH
     }
   }
 }
