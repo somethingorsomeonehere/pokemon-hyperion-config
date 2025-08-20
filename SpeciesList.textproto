@@ -16270,7 +16270,7 @@ species {
   spatk: 122
   spdef: 90
   spe: 148
-  ability: ABILITY_KEEN_EDGE
+  ability: ABILITY_MYSTIC_BLADES
   ability: ABILITY_RADIANCE
   ability: ABILITY_DAZZLING
   innate: ABILITY_UNICORN
