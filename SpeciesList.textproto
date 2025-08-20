@@ -106052,9 +106052,9 @@ species {
   spdef: 55
   spe: 114
   ability: ABILITY_ECHOLOCATION
-  ability: ABILITY_AERILATE
+  ability: ABILITY_UNAWARE
   ability: ABILITY_SIMPLE
-  innate: ABILITY_UNAWARE
+  innate: ABILITY_EMANATE
   innate: ABILITY_AERODYNAMICS
   innate: ABILITY_LOUD_BANG
   percent_female: 50
