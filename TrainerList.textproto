@@ -94758,6 +94758,86 @@ trainer {
       move: MOVE_INFERNAL_PARADE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_ABYSSAND
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_FORT_KNOX
+      hp_ev: 252
+      def_ev: 252
+      spatk_ev: 4
+      move: MOVE_EARTH_POWER
+      move: MOVE_CHILLING_WATER
+      move: MOVE_NIGHT_SHADE
+      move: MOVE_SHORE_UP
+    }
+    mon {
+      species: SPECIES_MR_RIME
+      item: ITEM_LIGHT_CLAY
+      nature: NATURE_TIMID
+      ability: ABILITY_NORTH_WIND
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SLACK_OFF
+      move: MOVE_PSYCHIC
+      move: MOVE_AURA_SPHERE
+      move: MOVE_FREEZE_DRY
+    }
+    mon {
+      species: SPECIES_PYROAR
+      item: ITEM_LIFE_ORB
+      nature: NATURE_TIMID
+      ability: ABILITY_HUBRIS
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_BURNING_BULWARK
+      move: MOVE_FLAMETHROWER
+      move: MOVE_HYPER_VOICE
+      move: MOVE_SCORCHING_SANDS
+    }
+    mon {
+      species: SPECIES_BRAMBLEGHAST
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_INFILTRATOR
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_TAILWIND
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_SHADOW_CLAW
+      move: MOVE_POWER_WHIP
+    }
+    mon {
+      species: SPECIES_FURFROU_PHARAOH_TRIM
+      item: ITEM_LEFTOVERS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_CURSED_BODY
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_COTTON_GUARD
+      move: MOVE_BODY_PRESS
+      move: MOVE_CRUNCH
+      move: MOVE_RETURN
+    }
+    mon {
+      species: SPECIES_CARBONIX
+      item: ITEM_CHOICE_SPECS
+      nature: NATURE_MODEST
+      ability: ABILITY_EARTH_EATER
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
+      move: MOVE_DRACO_METEOR
+      move: MOVE_PRISM_BLAST
+      move: MOVE_FOCUS_BLAST
+      move: MOVE_SLUDGE_BOMB
+    }
+  }
 }
 trainer {
   id: TRAINER_GRUNT_SUNHOLLOW_2
@@ -94779,6 +94859,86 @@ trainer {
       move: MOVE_PSYSHOCK
       move: MOVE_TRUMP_CARD
       move: MOVE_INFERNAL_PARADE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_SOLROCK
+      item: ITEM_HEAT_ROCK
+      nature: NATURE_JOLLY
+      ability: ABILITY_DROUGHT
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_ROCK_WRECKER
+      move: MOVE_SOLAR_BLADE
+      move: MOVE_ROCK_POLISH
+    }
+    mon {
+      species: SPECIES_TYPHLOSION
+      item: ITEM_CHARCOAL
+      nature: NATURE_TIMID
+      ability: ABILITY_EARTHBOUND
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_ERUPTION
+      move: MOVE_FLAMETHROWER
+      move: MOVE_EARTH_POWER
+      move: MOVE_MUD_SHOT
+    }
+    mon {
+      species: SPECIES_SCOVILLAIN
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_CHLOROPHYLL
+      atk_ev: 252
+      spdef_ev: 4
+      spe_ev: 252
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_FIRE_FANG
+      move: MOVE_SOLAR_BLADE
+      move: MOVE_CRUNCH
+    }
+    mon {
+      species: SPECIES_HELIOSUNNY
+      item: ITEM_EJECT_PACK
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_THUNDER
+      move: MOVE_VOLT_SWITCH
+      move: MOVE_OVERHEAT
+      move: MOVE_SOLAR_BEAM
+    }
+    mon {
+      species: SPECIES_ARBOLIVA
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_TRIAGE
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_GROWTH
+      move: MOVE_SOIL_DRAIN
+      move: MOVE_HYPER_VOICE
+    }
+    mon {
+      species: SPECIES_RATICATE_ALOLAN_EVO
+      item: ITEM_SALAC_BERRY
+      nature: NATURE_JOLLY
+      ability: ABILITY_GLUTTONY
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_CRUNCH
+      move: MOVE_HYPER_FANG
+      move: MOVE_JAW_LOCK
+      move: MOVE_SUCKER_PUNCH
     }
   }
 }
@@ -94895,7 +95055,7 @@ trainer {
     }
     mon {
       species: SPECIES_ARCANINE
-      item: ITEM_ARCANITE_R
+      item: ITEM_ARCANITE
       nature: NATURE_JOLLY
       ability: ABILITY_INTIMIDATE
       atk_ev: 252
