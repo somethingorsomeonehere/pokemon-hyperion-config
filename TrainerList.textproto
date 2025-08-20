@@ -95685,6 +95685,86 @@ trainer {
       move: MOVE_INFERNAL_PARADE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_GLISCOR
+      item: ITEM_TOXIC_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_SAND_VEIL
+      hp_ev: 92
+      atk_ev: 252
+      spe_ev: 164
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_EARTHQUAKE
+      move: MOVE_KNOCK_OFF
+      move: MOVE_ROCK_POLISH
+    }
+    mon {
+      species: SPECIES_STOUTLAND
+      item: ITEM_CHOICE_BAND
+      nature: NATURE_JOLLY
+      ability: ABILITY_SAND_RUSH
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_RETURN
+      move: MOVE_PLAY_ROUGH
+      move: MOVE_SUPERPOWER
+    }
+    mon {
+      species: SPECIES_GASTRODON_EAST_SEA
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_SAND_GUARD
+      hp_ev: 252
+      def_ev: 128
+      spatk_ev: 128
+      move: MOVE_KARMA
+      move: MOVE_RECOVER
+      move: MOVE_CHILLING_WATER
+      move: MOVE_EARTH_POWER
+    }
+    mon {
+      species: SPECIES_MUDSDALE
+      item: ITEM_LEFTOVERS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_STRIKER
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_STONE_EDGE
+      move: MOVE_BULK_UP
+    }
+    mon {
+      species: SPECIES_INFERNAPE
+      item: ITEM_CHOICE_SCARF
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGICAL_FISTS
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_ONE_INCH_PUNCH
+      move: MOVE_FIRE_PUNCH
+      move: MOVE_THUNDER_PUNCH
+      move: MOVE_U_TURN
+    }
+    mon {
+      species: SPECIES_TANGROWTH
+      item: ITEM_SWIRLY_GLASSES
+      nature: NATURE_MODEST
+      ability: ABILITY_LONG_REACH
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
+      move: MOVE_DRAIN_BRAIN
+      move: MOVE_KNOCK_OFF
+      move: MOVE_POWER_WHIP
+      move: MOVE_POISON_JAB
+    }
+  }
 }
 trainer {
   id: TRAINER_RODRICK
@@ -95706,6 +95786,72 @@ trainer {
       move: MOVE_PSYSHOCK
       move: MOVE_TRUMP_CARD
       move: MOVE_INFERNAL_PARADE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_DODRIO
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_BIG_PECKS
+      hp_ev: 8
+      atk_ev: 252
+      spe_ev: 248
+      move: MOVE_DRILL_PECK
+      move: MOVE_STOMP
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_HIGH_HORSEPOWER
+    }
+    mon {
+      species: SPECIES_TYPHLOSION
+      item: ITEM_CHARCOAL
+      nature: NATURE_TIMID
+      ability: ABILITY_SAND_RUSH
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_ERUPTION
+      move: MOVE_EARTH_POWER
+      move: MOVE_FOCUS_BLAST
+      move: MOVE_MUD_SHOT
+    }
+    mon {
+      species: SPECIES_CRAWDAUNT
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_ADAPTABILITY
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_CRABHAMMER
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_KNOCK_OFF
+      move: MOVE_AQUA_JET
+    }
+    mon {
+      species: SPECIES_LEAVANNY
+      item: ITEM_CHOICE_SCARF
+      nature: NATURE_JOLLY
+      ability: ABILITY_DUAL_WIELD
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_PSYCHO_CUT
+      move: MOVE_X_SCISSOR
+      move: MOVE_CUT
+      move: MOVE_LEAF_BLADE
+    }
+    mon {
+      species: SPECIES_CONKELDURR
+      item: ITEM_FLAME_ORB
+      nature: NATURE_ADAMANT
+      ability: ABILITY_GUTS
+      hp_ev: 252
+      atk_ev: 252
+      move: MOVE_HAMMER_ARM
+      move: MOVE_DIZZY_PUNCH
+      move: MOVE_MACH_PUNCH
+      move: MOVE_WOOD_HAMMER
     }
   }
 }
