@@ -17123,11 +17123,11 @@ moves {
 }
 moves {
   id: MOVE_PARTY_FAVORS
-  name: "Party Favors"
+  name: "Party Favors(P)"
   short_name: "PartyFavor"
   description: "Heals you and your ally by 25% and does damage."
   short_description: "A ball attack. 20% flinch."
-  effect: EFFECT_FLINCH_HIT
+  effect: EFFECT_PLACEHOLDER
   split: PHYSICAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -17242,8 +17242,8 @@ moves {
 }
 moves {
   id: MOVE_UNSCREW
-  name: "Unscrew"
-  short_name: "Unscrew"
+  name: "Hacksaw"
+  short_name: "Hacksaw"
   description: "Tampers with the target. Stronger vs Steel."
   short_description: "Super effective vs Steel."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
