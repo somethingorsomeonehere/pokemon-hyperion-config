@@ -93279,6 +93279,10 @@ species {
     to: SPECIES_TOXICROAK
     level: 28
   }
+  evo {
+    to: SPECIES_TOXICROAK_SPLIT
+    level: 28
+  }
   learnset {
     level {
       level: 1
@@ -122828,6 +122832,10 @@ species {
   percent_female: 50
   evo {
     to: SPECIES_KINGAMBIT
+    level: 50
+  }
+  evo {
+    to: SPECIES_QUEENGAMBIT
     level: 50
   }
   learnset {
@@ -197965,15 +197973,15 @@ species {
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 65
-  atk: 85
-  def: 60
+  atk: 60
+  def: 80
   spatk: 95
-  spdef: 60
-  spe: 105
+  spdef: 75
+  spe: 95
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_PRANKSTER
   ability: ABILITY_ICE_BODY
-  innate: ABILITY_REFRIGERATE
+  innate: ABILITY_ARCTIC_FUR
   innate: ABILITY_OVERCOAT
   innate: ABILITY_SERENE_GRACE
   percent_female: 75
@@ -198138,6 +198146,7 @@ species {
       move: MOVE_ZEPHYR_RUSH
       move: MOVE_TRAILBLAZE
       move: MOVE_ICE_WALL
+      move: MOVE_PARTY_FAVORS
     }
     level {
       level: 37
@@ -198871,6 +198880,10 @@ species {
   innate: ABILITY_SCAVENGER
   percent_female: 50
   tier: 1
+  evo {
+    to: SPECIES_CETITAN_REDUX
+    level: 30
+  }
   learnset {
     level {
       level: 1
@@ -201933,7 +201946,7 @@ species {
   tier: 3
   evo {
     to: SPECIES_EXCADRILL_REDUX
-    level: 35
+    level: 31
   }
   learnset {
     level {
@@ -205551,7 +205564,7 @@ species {
 species {
   id: SPECIES_CINCCINO_EVO
   dex {
-    name: "CincinnoE"
+    name: "Beniccino"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -205565,17 +205578,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 85
+  type2: TYPE_FAIRY
+  hp: 90
   atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
+  def: 60
+  spatk: 75
+  spdef: 75
+  spe: 120
   ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
+  ability: ABILITY_FAIRY_TALE
   ability: ABILITY_SKILL_LINK
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_PICKUP
   innate: ABILITY_FLUFFIEST
   percent_female: 50
   tier: 3
@@ -205606,6 +205620,7 @@ species {
       move: MOVE_BULLET_SEED
       move: MOVE_DECORATE
       move: MOVE_FOLLOW_ME
+      move: MOVE_FAIRY_SPHERES
     }
     level {
       level: 46
@@ -205632,11 +205647,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "dunkaccino/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "dunkaccino/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205644,15 +205659,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "dunkaccino/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "dunkaccino/normal"
+    shiny: "dunkaccino/shiny"
   }
 }
 species {
@@ -206502,11 +206517,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "hippopotato/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "hippopotato/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -206514,15 +206529,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "hippopotato/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "hippopotato/normal"
+    shiny: "hippopotato/shiny"
   }
 }
 species {
@@ -206629,11 +206644,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "hippotaton/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "hippotaton/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -206648,8 +206663,8 @@ species {
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "hippotaton/normal"
+    shiny: "hippotaton/shiny"
   }
 }
 species {
