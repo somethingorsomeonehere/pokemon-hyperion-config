@@ -16270,7 +16270,7 @@ species {
   spatk: 122
   spdef: 90
   spe: 148
-  ability: ABILITY_KEEN_EDGE
+  ability: ABILITY_MYSTIC_BLADES
   ability: ABILITY_RADIANCE
   ability: ABILITY_DAZZLING
   innate: ABILITY_UNICORN
@@ -106056,9 +106056,9 @@ species {
   spdef: 55
   spe: 114
   ability: ABILITY_ECHOLOCATION
-  ability: ABILITY_AERILATE
+  ability: ABILITY_UNAWARE
   ability: ABILITY_SIMPLE
-  innate: ABILITY_UNAWARE
+  innate: ABILITY_EMANATE
   innate: ABILITY_AERODYNAMICS
   innate: ABILITY_LOUD_BANG
   percent_female: 50
