@@ -6254,7 +6254,7 @@ species {
     pokemon_offset: 10
   }
   type: TYPE_FIRE
-  type2: TYPE_FAIRY
+  type2: TYPE_GHOST
   hp: 73
   atk: 76
   def: 75
@@ -6303,6 +6303,7 @@ species {
       move: MOVE_PAIN_SPLIT
       move: MOVE_POWER_SWAP
       move: MOVE_SPEED_SWAP
+      move: MOVE_RAGING_SOULS
     }
     level {
       level: 51
@@ -26264,7 +26265,6 @@ species {
     pokemon_offset: 8
   }
   type: TYPE_ELECTRIC
-  type2: TYPE_FIGHTING
   hp: 60
   atk: 100
   def: 57
@@ -39268,7 +39268,6 @@ species {
     pokemon_offset: 4
   }
   type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
   hp: 110
   atk: 75
   def: 85
@@ -86753,7 +86752,7 @@ species {
   id: SPECIES_CHERRIM_SUNSHINE
   form_of: SPECIES_CHERRIM
   type: TYPE_GRASS
-  type2: TYPE_FAIRY
+  type2: TYPE_FIRE
   hp: 70
   atk: 100
   def: 70
@@ -204885,11 +204884,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "goodra/hisuian/mega/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "goodra/hisuian/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -204897,15 +204896,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "goodra/hisuian/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "goodra/hisuian/mega/normal"
+    shiny: "goodra/hisuian/mega/shiny"
   }
 }
 species {
@@ -205489,7 +205488,7 @@ species {
 species {
   id: SPECIES_FLOATZEL_EVO
   dex {
-    name: "FloatzelE"
+    name: "Guardozel"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -205502,7 +205501,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_NORMAL
+  type: TYPE_WATER
   hp: 85
   atk: 110
   def: 65
@@ -205596,11 +205595,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "guardozel/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "guardozel/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205608,15 +205607,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "guardozel/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "guardozel/normal"
+    shiny: "guardozel/shiny"
   }
 }
 species {
@@ -205636,19 +205635,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  type2: TYPE_FAIRY
-  hp: 90
-  atk: 110
-  def: 60
-  spatk: 75
-  spdef: 75
-  spe: 120
+  hp: 95
+  atk: 135
+  def: 70
+  spatk: 55
+  spdef: 70
+  spe: 105
+  ability: ABILITY_PIXILATE
+  ability: ABILITY_PICKUP
   ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_FAIRY_TALE
-  ability: ABILITY_SKILL_LINK
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_PICKUP
-  innate: ABILITY_FLUFFIEST
+  innate: ABILITY_SKILL_LINK
+  innate: ABILITY_OVERCOAT
   percent_female: 50
   tier: 3
   learnset {

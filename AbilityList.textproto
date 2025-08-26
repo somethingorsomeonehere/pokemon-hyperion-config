@@ -5589,3 +5589,8 @@ ability {
   name: "Echolocation (N)"
   description: "In fog, deal 20% more damage and never miss."
 }
+ability {
+  id: ABILITY_MASSIVE_PELT
+  name: "Massive Pelt (N)"
+  description: "Tangling Hair + Fluffy."
+}

@@ -4981,7 +4981,7 @@ trainer {
       species: SPECIES_CHERRIM
       item: ITEM_LIFE_ORB
       nature: NATURE_NAIVE
-      ability: ABILITY_SOLAR_POWER
+      ability: ABILITY_RAIN_DISH
       atk_ev: 252
       spatk_ev: 4
       spe_ev: 252
@@ -5898,7 +5898,7 @@ trainer {
       species: SPECIES_CHERRIM
       item: ITEM_FIRE_GEM
       nature: NATURE_TIMID
-      ability: ABILITY_SOLAR_POWER
+      ability: ABILITY_RAIN_DISH
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -6046,7 +6046,7 @@ trainer {
       species: SPECIES_BRONZONG
       item: ITEM_TACTICAL_VEST
       nature: NATURE_SASSY
-      ability: ABILITY_BATTLE_ARMOR
+      ability: ABILITY_LEAD_COAT
       hp_ev: 252
       atk_ev: 252
       spdef_ev: 4
@@ -6586,7 +6586,7 @@ trainer {
       species: SPECIES_BRONZONG
       item: ITEM_LEFTOVERS
       nature: NATURE_BOLD
-      ability: ABILITY_BATTLE_ARMOR
+      ability: ABILITY_LEAD_COAT
       hp_ev: 252
       def_ev: 180
       spdef_ev: 76
@@ -20413,7 +20413,7 @@ trainer {
       species: SPECIES_ZOROARK_HISUIAN
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_EXPLOIT_WEAKNESS
+      ability: ABILITY_AMBUSH
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
@@ -20544,7 +20544,7 @@ trainer {
       species: SPECIES_NOIVERN
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_AERODYNAMICS
+      ability: ABILITY_AERILATE
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
@@ -24844,7 +24844,7 @@ trainer {
       species: SPECIES_CHERRIM
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_SOLAR_POWER
+      ability: ABILITY_RAIN_DISH
       def_ev: 252
       spatk_ev: 252
       spe_ev: 252
@@ -34251,7 +34251,7 @@ trainer {
       species: SPECIES_SWOOBAT
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_EMANATE
+      ability: ABILITY_UNAWARE
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -48906,7 +48906,7 @@ trainer {
       species: SPECIES_SWOOBAT
       item: ITEM_CHOICE_SCARF
       nature: NATURE_TIMID
-      ability: ABILITY_EMANATE
+      ability: ABILITY_UNAWARE
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -64347,7 +64347,7 @@ trainer {
       species: SPECIES_CHERRIM
       item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_SOLAR_POWER
+      ability: ABILITY_RAIN_DISH
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
@@ -64711,7 +64711,7 @@ trainer {
       species: SPECIES_SWOOBAT
       item: ITEM_SITRUS_BERRY
       nature: NATURE_TIMID
-      ability: ABILITY_EMANATE
+      ability: ABILITY_UNAWARE
       hp_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -84951,7 +84951,7 @@ trainer {
       species: SPECIES_CHERRIM
       item: ITEM_FOCUS_SASH
       nature: NATURE_NAIVE
-      ability: ABILITY_SOLAR_POWER
+      ability: ABILITY_RAIN_DISH
       atk_ev: 128
       def_ev: 4
       spatk_ev: 124
@@ -90511,12 +90511,12 @@ trainer {
       species: SPECIES_SWOOBAT
       item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_AERILATE
+      ability: ABILITY_UNAWARE
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
       move: MOVE_ESPER_WING
-      move: MOVE_HYPER_VOICE
+      move: MOVE_HURRICANE
       move: MOVE_TAKE_FLIGHT
       move: MOVE_NASTY_PLOT
     }
