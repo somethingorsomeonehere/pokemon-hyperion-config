@@ -183153,10 +183153,10 @@ species {
   spdef: 100
   spe: 135
   ability: ABILITY_COMBAT_SPECIALIST
-  ability: ABILITY_TURBOBLAZE
+  ability: ABILITY_SUN_BASKING
   ability: ABILITY_AFTERSHOCK
   innate: ABILITY_ORICHALCUM_PULSE
-  innate: ABILITY_DRAGONS_MAW
+  innate: ABILITY_TURBOBLAZE
   innate: ABILITY_WINGED_KING
   genderless: true
   learnset {
@@ -184382,6 +184382,7 @@ species {
       move: MOVE_VINE_WHIP
       move: MOVE_MEGA_DRAIN
       move: MOVE_ENCORE
+      move: MOVE_GRASSY_GLIDE
     }
     level {
       level: 17
@@ -188676,13 +188677,13 @@ species {
   atk: 120
   def: 125
   spatk: 70
-  spdef: 60
+  spdef: 80
   spe: 125
   ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_PYROCLASTIC_FLOW
+  ability: ABILITY_NEUROTOXIN
   ability: ABILITY_SHELL_ARMOR
-  innate: ABILITY_GRIP_PINCER
-  innate: ABILITY_EXPLOIT_WEAKNESS
+  innate: ABILITY_PYROCLASTIC_FLOW
+  innate: ABILITY_MERCILESS
   innate: ABILITY_VENOBLAZE_PINCERS
   percent_female: 50
   learnset {
@@ -197450,11 +197451,11 @@ species {
   type: TYPE_ELECTRIC
   type2: TYPE_FLYING
   hp: 90
-  atk: 110
-  def: 85
-  spatk: 155
-  spdef: 110
-  spe: 150
+  atk: 90
+  def: 125
+  spatk: 185
+  spdef: 120
+  spe: 170
   ability: ABILITY_SUPERCELL
   ability: ABILITY_SUPERCELL
   ability: ABILITY_SUPERCELL
@@ -197492,9 +197493,9 @@ species {
   form_of: SPECIES_MOLTRES
   type: TYPE_FIRE
   type2: TYPE_FLYING
-  hp: 90
+  hp: 120
   atk: 100
-  def: 95
+  def: 145
   spatk: 200
   spdef: 95
   spe: 120
@@ -197535,11 +197536,11 @@ species {
   form_of: SPECIES_ARTICUNO
   type: TYPE_ICE
   type2: TYPE_FLYING
-  hp: 90
+  hp: 120
   atk: 85
-  def: 130
-  spatk: 125
-  spdef: 150
+  def: 140
+  spatk: 145
+  spdef: 170
   spe: 120
   ability: ABILITY_AURORAS_GALE
   ability: ABILITY_AURORAS_GALE
@@ -197580,10 +197581,10 @@ species {
   type2: TYPE_FLYING
   hp: 90
   atk: 90
-  def: 85
-  spatk: 125
-  spdef: 90
-  spe: 100
+  def: 115
+  spatk: 135
+  spdef: 110
+  spe: 140
   ability: ABILITY_OVERCHARGE
   ability: ABILITY_GALE_WINGS
   ability: ABILITY_DRIZZLE
@@ -197686,10 +197687,10 @@ species {
   form_of: SPECIES_MOLTRES
   type: TYPE_FIRE
   type2: TYPE_FLYING
-  hp: 90
+  hp: 120
   atk: 100
-  def: 90
-  spatk: 125
+  def: 130
+  spatk: 155
   spdef: 85
   spe: 90
   ability: ABILITY_AIR_BLOWER
@@ -204058,7 +204059,7 @@ species {
 species {
   id: SPECIES_VICTREEBEL_REDUX
   form_of: SPECIES_VICTREEBEL
-  type: TYPE_GRASS
+  type: TYPE_GHOST
   type2: TYPE_ICE
   hp: 106
   atk: 96
