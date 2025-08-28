@@ -3699,7 +3699,7 @@ species {
   innate: ABILITY_RETRIEVER
   percent_female: 50
   evo {
-    to: SPECIES_RATICATE_ALOLAN_EVO
+    to: SPECIES_RATFIOSO
     level: 37
   }
   learnset {
@@ -83584,6 +83584,10 @@ species {
     to: SPECIES_LUXRAY
     level: 30
   }
+  evo {
+    to: SPECIES_LUXZERO
+    level: 30
+  }
   learnset {
     level {
       level: 1
@@ -86103,7 +86107,7 @@ species {
   innate: ABILITY_INFLATABLE
   percent_female: 50
   evo {
-    to: SPECIES_FLOATZEL_EVO
+    to: SPECIES_GUARDOZEL
     level: 50
   }
   learnset {
@@ -93315,7 +93319,7 @@ species {
     level: 28
   }
   evo {
-    to: SPECIES_TOXICROAK_SPLIT
+    to: SPECIES_HYPNOCROAK
     level: 28
   }
   learnset {
@@ -114277,7 +114281,7 @@ species {
   percent_female: 75
   no_flip: true
   evo {
-    to: SPECIES_CINCCINO_EVO
+    to: SPECIES_BENICCINO
     level: 37
   }
   learnset {
@@ -199160,7 +199164,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_TALONFLAME
-    item: ITEM_CHANDELUREITE
+    item: ITEM_TALONFLAMEITE
   }
   learnset {
     level {
@@ -202848,7 +202852,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_RATICATE_REDUX_EVO
+    to: SPECIES_ERATICATE
     level: 37
   }
   learnset {
@@ -205349,7 +205353,7 @@ species {
   }
 }
 species {
-  id: SPECIES_RATICATE_ALOLAN_EVO
+  id: SPECIES_RATFIOSO
   dex {
     name: "Ratfioso"
     category: "???"
@@ -205486,7 +205490,7 @@ species {
   }
 }
 species {
-  id: SPECIES_FLOATZEL_EVO
+  id: SPECIES_GUARDOZEL
   dex {
     name: "Guardozel"
     category: "???"
@@ -205619,7 +205623,7 @@ species {
   }
 }
 species {
-  id: SPECIES_CINCCINO_EVO
+  id: SPECIES_BENICCINO
   dex {
     name: "Beniccino"
     category: "???"
@@ -206477,7 +206481,7 @@ species {
   }
 }
 species {
-  id: SPECIES_HIPPOPOTAS_CON
+  id: SPECIES_HIPPOPOTATO
   dex {
     name: "Hippopotato"
     category: "???"
@@ -206509,7 +206513,7 @@ species {
   percent_female: 50
   tier: 3
   evo {
-    to: SPECIES_HIPPOWDON_CON
+    to: SPECIES_HIPPOTATON
     level: 34
   }
   learnset {
@@ -206600,7 +206604,7 @@ species {
   }
 }
 species {
-  id: SPECIES_HIPPOWDON_CON
+  id: SPECIES_HIPPOTATON
   dex {
     name: "Hippotaton"
     category: "???"
@@ -207001,7 +207005,7 @@ species {
   }
 }
 species {
-  id: SPECIES_RATICATE_REDUX_EVO
+  id: SPECIES_ERATICATE
   dex {
     name: "Eraticate"
     category: "???"
@@ -207264,7 +207268,7 @@ species {
   }
 }
 species {
-  id: SPECIES_TOXICROAK_SPLIT
+  id: SPECIES_HYPNOCROAK
   dex {
     name: "Hypnocroak"
     category: "???"

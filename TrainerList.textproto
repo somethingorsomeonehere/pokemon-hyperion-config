@@ -96047,7 +96047,7 @@ trainer {
       move: MOVE_HYPER_VOICE
     }
     mon {
-      species: SPECIES_RATICATE_ALOLAN_EVO
+      species: SPECIES_RATFIOSO
       item: ITEM_SALAC_BERRY
       nature: NATURE_JOLLY
       ability: ABILITY_GLUTTONY
