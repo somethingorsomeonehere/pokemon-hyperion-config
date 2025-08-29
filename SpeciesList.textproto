@@ -68214,6 +68214,7 @@ species {
     level {
       level: 56
       move: MOVE_DRACO_METEOR
+      move: MOVE_CLANGING_SCALES
     }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BITE
@@ -91523,8 +91524,8 @@ species {
   spatk: 90
   spdef: 120
   spe: 102
+  ability: ABILITY_OVERWHELM
   ability: ABILITY_SAND_VEIL
-  ability: ABILITY_CUTTHROAT
   ability: ABILITY_SWEEPING_EDGE
   innate: ABILITY_HYPER_AGGRESSIVE
   innate: ABILITY_KEEN_EDGE
@@ -188964,10 +188965,10 @@ species {
   type: TYPE_DARK
   hp: 80
   atk: 156
-  def: 55
-  spatk: 96
-  spdef: 55
-  spe: 136
+  def: 70
+  spatk: 86
+  spdef: 70
+  spe: 138
   ability: ABILITY_FEARMONGER
   ability: ABILITY_FATAL_PRECISION
   ability: ABILITY_AMBUSH
@@ -188999,6 +189000,7 @@ species {
       level: 37
       move: MOVE_PARTING_SHOT
       move: MOVE_THROAT_CHOP
+      move: MOVE_CROSS_POISON
     }
     level {
       level: 46
