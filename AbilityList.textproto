@@ -5347,7 +5347,7 @@ ability {
 ability {
   id: ABILITY_VIRUS
   name: "Virus"
-  description: "Electric moves have 50% chance to poison as well."
+  description: "Electric moves have 30% chance to poison as well."
 }
 ability {
   id: ABILITY_POWER_LEAK
@@ -5462,7 +5462,7 @@ ability {
 ability {
   id: ABILITY_LEAD_CLAWS
   name: "Lead Claws (N)"
-  description: "Tough Claws + Rough Skin."
+  description: "Tough Claws + Mineralize."
 }
 ability {
   id: ABILITY_FLAWLESS_PRECISION
@@ -5588,4 +5588,9 @@ ability {
   id: ABILITY_ECHOLOCATION
   name: "Echolocation (N)"
   description: "In fog, deal 20% more damage and never miss."
+}
+ability {
+  id: ABILITY_MASSIVE_PELT
+  name: "Massive Pelt (N)"
+  description: "Tangling Hair + Fluffy."
 }

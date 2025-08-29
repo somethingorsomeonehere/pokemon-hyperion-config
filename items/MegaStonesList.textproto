@@ -2366,7 +2366,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
-  adoption_center: true
 }
 item {
   id: ITEM_MAMOSWINITE_R
