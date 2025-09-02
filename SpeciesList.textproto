@@ -207766,7 +207766,7 @@ species {
   }
   visuals {
     icon {
-      path: "steve/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
@@ -207813,7 +207813,7 @@ species {
   }
   visuals {
     icon {
-      path: "steve/real/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
