@@ -5594,3 +5594,8 @@ ability {
   name: "Massive Pelt (N)"
   description: "Tangling Hair + Fluffy."
 }
+ability {
+  id: ABILITY_I_AM_STEVE
+  name: "i am steve"
+  description: "dude what even is this game anymore"
+}

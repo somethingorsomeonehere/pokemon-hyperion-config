@@ -2477,3 +2477,13 @@ item {
   palette: "aggronite"
   adoption_center: true
 }
+item {
+  id: ITEM_EYE_OF_ENDER
+  name: "Eye of Ender"
+  description: "Enables steve to become real."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+  adoption_center: true
+}
