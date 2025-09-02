@@ -144479,6 +144479,10 @@ species {
       move: MOVE_STICKY_WEB
       move: MOVE_ZAP_CANNON
     }
+    level {
+      level: 100
+      move: MOVE_ELECTRO_BALL
+    }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
@@ -188910,9 +188914,9 @@ species {
   hp: 80
   atk: 156
   def: 70
-  spatk: 86
+  spatk: 96
   spdef: 70
-  spe: 138
+  spe: 128
   ability: ABILITY_FEARMONGER
   ability: ABILITY_FATAL_PRECISION
   ability: ABILITY_AMBUSH
@@ -207297,7 +207301,7 @@ species {
   ability: ABILITY_ANTICIPATION
   ability: ABILITY_PRANKSTER
   ability: ABILITY_BAD_DREAMS
-  innate: ABILITY_SWEET_DREAMS
+  innate: ABILITY_CLEAR_BODY
   innate: ABILITY_DREAMCATCHER
   innate: ABILITY_HYPNOTIC_TOUCH
   percent_female: 50
@@ -207339,6 +207343,8 @@ species {
       move: MOVE_VENOSHOCK
       move: MOVE_PSYCHOKINETIC_SLAM
       move: MOVE_NOXIOUS_TORQUE
+      move: MOVE_DREAM_EATER
+      move: MOVE_NIGHTMARE
     }
     level {
       level: 51
