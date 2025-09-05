@@ -2133,8 +2133,8 @@ item {
 }
 item {
   id: ITEM_KINGLERITE_R
-  name: "Kinglerite"
-  description: "Enables Kingler to Mega Evolve."
+  name: "Kinglerite R"
+  description: "Enables Kingler R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "audinite"
