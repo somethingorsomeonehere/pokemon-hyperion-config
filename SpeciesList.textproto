@@ -42110,7 +42110,6 @@ species {
     pokemon_offset: -8
   }
   type: TYPE_GHOST
-  type2: TYPE_FAIRY
   hp: 60
   atk: 60
   def: 60
@@ -44680,7 +44679,7 @@ species {
   spe: 65
   ability: ABILITY_MIGHTY_HORN
   ability: ABILITY_NORMALIZE
-  ability: ABILITY_HALF_DRAKE
+  ability: ABILITY_SAND_GUARD
   innate: ABILITY_SUPER_LUCK
   innate: ABILITY_OWN_TEMPO
   innate: ABILITY_SERENE_GRACE
@@ -44803,7 +44802,7 @@ species {
   spe: 55
   ability: ABILITY_MIGHTY_HORN
   ability: ABILITY_NORMALIZE
-  ability: ABILITY_HALF_DRAKE
+  ability: ABILITY_SAND_GUARD
   innate: ABILITY_SUPER_LUCK
   innate: ABILITY_OWN_TEMPO
   innate: ABILITY_SERENE_GRACE
@@ -86485,7 +86484,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_FAIRY
   hp: 45
   atk: 62
   def: 45
@@ -86646,7 +86644,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_FAIRY
   hp: 70
   atk: 100
   def: 70
@@ -86812,7 +86809,7 @@ species {
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_IMMOLATE
+  innate: ABILITY_SUN_BASKING
   percent_female: 50
   uses_learnset: SPECIES_CHERRIM
   visuals {
@@ -88049,7 +88046,7 @@ species {
   ability: ABILITY_SURPRISE
   innate: ABILITY_LEVITATE
   innate: ABILITY_SHADOW_TAG
-  innate: ABILITY_PIXIE_POWER
+  innate: ABILITY_EMANATE
   percent_female: 50
   learnset {
     level {
@@ -207772,7 +207769,7 @@ species {
   }
   visuals {
     icon {
-      path: "steve/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
@@ -207819,7 +207816,7 @@ species {
   }
   visuals {
     icon {
-      path: "steve/real/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
