@@ -90990,10 +90990,10 @@ species {
   spatk: 117
   spdef: 120
   spe: 35
-  ability: ABILITY_SPECTRAL_SHROUD
+  ability: ABILITY_SCARE
   ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_HEADSTRONG
-  innate: ABILITY_SCARE
+  innate: ABILITY_SPECTRAL_SHROUD
   innate: ABILITY_POISON_PUPPETEER
   innate: ABILITY_COSMIC_DAZE
   percent_female: 50
@@ -109616,7 +109616,7 @@ species {
   ability: ABILITY_VIOLENT_RUSH
   ability: ABILITY_ROCK_HEAD
   ability: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_SPECTRALIZE
+  innate: ABILITY_CLEAR_BODY
   innate: ABILITY_RECKLESS
   innate: ABILITY_SUPREME_OVERLORD
   percent_female: 50
@@ -207684,7 +207684,7 @@ species {
   dex {
     name: "steve"
     category: "ough"
-    description: "no this isn't canon go away."
+    description: "no this isn\'t canon go away."
     national_dex_num: 1
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
