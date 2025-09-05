@@ -82837,7 +82837,7 @@ species {
   spdef: 40
   spe: 31
   ability: ABILITY_SIMPLE
-  ability: ABILITY_LOOTER
+  ability: ABILITY_LUMBERJACK
   ability: ABILITY_MOODY
   innate: ABILITY_UNAWARE
   innate: ABILITY_GROWING_TOOTH
@@ -82986,7 +82986,7 @@ species {
   spdef: 60
   spe: 71
   ability: ABILITY_SIMPLE
-  ability: ABILITY_LOOTER
+  ability: ABILITY_LUMBERJACK
   ability: ABILITY_MOODY
   innate: ABILITY_UNAWARE
   innate: ABILITY_GROWING_TOOTH
