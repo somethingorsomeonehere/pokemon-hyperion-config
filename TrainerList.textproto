@@ -6738,7 +6738,7 @@ trainer {
       spe_ev: 252
       move: MOVE_SOLAR_BEAM
       move: MOVE_HEAT_WAVE
-      move: MOVE_DAZZLING_GLEAM
+      move: MOVE_SHADOW_BALL
       move: MOVE_NASTY_PLOT
     }
     mon {
@@ -14601,7 +14601,7 @@ trainer {
       move: MOVE_NASTY_PLOT
       move: MOVE_SHADOW_BALL
       move: MOVE_PIXIE_BEAM
-      move: MOVE_MYSTICAL_FIRE
+      move: MOVE_HYPER_VOICE
     }
     mon {
       species: SPECIES_GOURGEIST
@@ -57863,7 +57863,7 @@ trainer {
       move: MOVE_MOONBLAST
       move: MOVE_SOLAR_BEAM
       move: MOVE_FLAMETHROWER
-      move: MOVE_BLOOD_SHOT
+      move: MOVE_SHADOW_BALL
     }
     mon {
       species: SPECIES_DARMANITAN_ZEN_MODE
@@ -70254,8 +70254,8 @@ trainer {
       spe_ev: 252
       move: MOVE_FLAMETHROWER
       move: MOVE_SOLAR_BEAM
-      move: MOVE_MOONBLAST
-      move: MOVE_PSYCHIC_NOISE
+      move: MOVE_SHADOW_BALL
+      move: MOVE_DAZZLING_GLEAM
     }
     mon {
       species: SPECIES_SANDY_SHOCKS
@@ -99056,7 +99056,7 @@ trainer {
       def_ev: 4
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_MOONBLAST
+      move: MOVE_SHADOW_BALL
       move: MOVE_FLAMETHROWER
       move: MOVE_NASTY_PLOT
       move: MOVE_SOLAR_BEAM
