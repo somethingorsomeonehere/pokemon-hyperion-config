@@ -880,7 +880,7 @@ species {
   ability: ABILITY_TOUGH_CLAWS
   innate: ABILITY_BLAZE
   innate: ABILITY_LEVITATE
-  innate: ABILITY_SUN_WORSHIP
+  innate: ABILITY_EGOIST
   percent_female: 50
   learnset {
     level {
@@ -49442,6 +49442,7 @@ species {
       move: MOVE_INCINERATE
       move: MOVE_SHOCKING_EDGE
       move: MOVE_SPARK
+      move: MOVE_AIR_CUTTER
     }
     level {
       level: 46
@@ -51273,6 +51274,7 @@ species {
       move: MOVE_DOUBLE_KICK
       move: MOVE_JUMP_KICK
       move: MOVE_MEDITATE
+      move: MOVE_RUMBLE_KICK
     }
     level {
       level: 17
@@ -77044,7 +77046,7 @@ species {
   ability: ABILITY_BEAST_BOOST
   ability: ABILITY_BEAST_BOOST
   innate: ABILITY_RECKLESS
-  innate: ABILITY_AERILATE
+  innate: ABILITY_OVERWHELM
   innate: ABILITY_PREDATOR
   percent_female: 50
   mega {
@@ -78950,7 +78952,7 @@ species {
   spdef: 90
   spe: 95
   ability: ABILITY_DRAGONS_MAW
-  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_FEARMONGER
   ability: ABILITY_VIOLENT_RUSH
   innate: ABILITY_AIR_LOCK
   innate: ABILITY_WEATHER_CONTROL
@@ -82837,7 +82839,7 @@ species {
   spdef: 40
   spe: 31
   ability: ABILITY_SIMPLE
-  ability: ABILITY_LOOTER
+  ability: ABILITY_LUMBERJACK
   ability: ABILITY_MOODY
   innate: ABILITY_UNAWARE
   innate: ABILITY_GROWING_TOOTH
@@ -82986,7 +82988,7 @@ species {
   spdef: 60
   spe: 71
   ability: ABILITY_SIMPLE
-  ability: ABILITY_LOOTER
+  ability: ABILITY_LUMBERJACK
   ability: ABILITY_MOODY
   innate: ABILITY_UNAWARE
   innate: ABILITY_GROWING_TOOTH
@@ -90979,7 +90981,7 @@ species {
 species {
   id: SPECIES_SPIRITOMB_REDUX
   form_of: SPECIES_SPIRITOMB
-  type: TYPE_PSYCHIC
+  type: TYPE_GHOST
   type2: TYPE_POISON
   hp: 77
   atk: 60
@@ -90987,10 +90989,10 @@ species {
   spatk: 117
   spdef: 120
   spe: 35
-  ability: ABILITY_SPECTRAL_SHROUD
+  ability: ABILITY_SCARE
   ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_HEADSTRONG
-  innate: ABILITY_SCARE
+  innate: ABILITY_SPECTRAL_SHROUD
   innate: ABILITY_POISON_PUPPETEER
   innate: ABILITY_COSMIC_DAZE
   percent_female: 50
@@ -109613,7 +109615,7 @@ species {
   ability: ABILITY_VIOLENT_RUSH
   ability: ABILITY_ROCK_HEAD
   ability: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_SPECTRALIZE
+  innate: ABILITY_CLEAR_BODY
   innate: ABILITY_RECKLESS
   innate: ABILITY_SUPREME_OVERLORD
   percent_female: 50
@@ -150341,7 +150343,6 @@ species {
     level {
       level: 24
       move: MOVE_BRINE
-      move: MOVE_GIGA_DRAIN
       move: MOVE_SPIT_UP
       move: MOVE_SWALLOW
     }
@@ -150349,6 +150350,8 @@ species {
       level: 37
       move: MOVE_MUD_SPORT
       move: MOVE_QUASH
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_SOIL_DRAIN
     }
     level {
       level: 46
@@ -166114,7 +166117,7 @@ species {
   spdef: 60
   spe: 70
   ability: ABILITY_CLEAR_BODY
-  ability: ABILITY_JUGGERNAUT
+  ability: ABILITY_RELIC_STONE
   ability: ABILITY_POWER_SPOT
   innate: ABILITY_STRIKER
   innate: ABILITY_STALWART
@@ -188771,9 +188774,9 @@ species {
   spdef: 60
   spe: 125
   ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_PYROCLASTIC_FLOW
+  ability: ABILITY_NEUROTOXIN
   ability: ABILITY_SHELL_ARMOR
-  innate: ABILITY_GRIP_PINCER
+  innate: ABILITY_PYROCLASTIC_FLOW
   innate: ABILITY_EXPLOIT_WEAKNESS
   innate: ABILITY_VENOBLAZE_PINCERS
   percent_female: 50
@@ -205589,18 +205592,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_WATER
-  hp: 85
-  atk: 110
-  def: 65
+  hp: 80
+  atk: 85
+  def: 85
   spatk: 85
   spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
+  spe: 145
+  ability: ABILITY_FRIEND_GUARD
+  ability: ABILITY_HOSPITALITY
+  ability: ABILITY_HYDRATE
+  innate: ABILITY_STALWART
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  innate: ABILITY_WATER_BUBBLE
   percent_female: 50
   tier: 3
   learnset {
