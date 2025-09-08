@@ -193307,16 +193307,7 @@ species {
 }
 species {
   id: SPECIES_KNAIVER_REDUX
-  dex {
-    name: "Knaiver"
-    category: "Hatchling"
-    description: "An elusive Pok\303\251mon, it adapts to almost any surroundings, scavenging until it reaches its incredible potential."
-    national_dex_num: 1071
-    body_color: BODY_COLOR_GREEN
-    egg_group: BUG
-    height: 4
-    weight: 40
-  }
+  form_of: SPECIES_KNAIVER
   type: TYPE_POISON
   type2: TYPE_DRAGON
   hp: 50
@@ -207683,9 +207674,8 @@ species {
     category: "ough"
     description: "no this isn\'t canon go away."
     national_dex_num: 1
-    body_color: BODY_COLOR_GREEN
-    egg_group: FIELD
-    egg_group_2: FIELD
+    body_color: BODY_COLOR_BLUE
+    egg_group: UNDISCOVERED
     height: 7
     weight: 69
     pokemon_scale: 356
@@ -207779,7 +207769,7 @@ species {
         size: 69
         y_offset: 13
       }
-    }
+      }
     back {
       path: "steve/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
