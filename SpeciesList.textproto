@@ -168267,6 +168267,7 @@ species {
       move: MOVE_PHANTOM_FORCE
       move: MOVE_RAGING_SOULS
       move: MOVE_GODSPEED
+      move: MOVE_OVERHEAT
     }
     level {
       level: 56
@@ -199249,17 +199250,17 @@ species {
   type: TYPE_FIRE
   type2: TYPE_FLYING
   hp: 78
-  atk: 81
-  def: 71
-  spatk: 74
-  spdef: 69
+  atk: 121
+  def: 91
+  spatk: 89
+  spdef: 94
   spe: 126
-  ability: ABILITY_PREDATOR
-  ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_BIG_PECKS
-  innate: ABILITY_FLOCK
-  innate: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_GALE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_PREDATOR
+  innate: ABILITY_BIG_PECKS
   percent_female: 50
   mega {
     from: SPECIES_TALONFLAME
