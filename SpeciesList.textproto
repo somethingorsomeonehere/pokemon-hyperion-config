@@ -12256,7 +12256,7 @@ species {
   ability: ABILITY_IRON_FIST
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_POWER_FISTS
-  innate: ABILITY_HYPNOTIST
+  innate: ABILITY_RAGING_STORM
   innate: ABILITY_PRECISE_FIST
   innate: ABILITY_WATER_ABSORB
   percent_female: 50
@@ -21661,7 +21661,7 @@ species {
   spdef: 50
   spe: 75
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_HYDRATE
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_GRIP_PINCER
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_HYPER_CUTTER
@@ -24939,7 +24939,7 @@ species {
   spe: 95
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_SKILL_LINK
-  ability: ABILITY_HYDRATION
+  ability: ABILITY_RAGING_STORM
   innate: ABILITY_PRISM_SCALES
   innate: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_MULTISCALE
@@ -25094,7 +25094,7 @@ species {
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_SNIPER
   ability: ABILITY_ADAPTABILITY
-  innate: ABILITY_SEA_GUARDIAN
+  innate: ABILITY_RAGING_STORM
   innate: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_MULTISCALE
   percent_female: 50
@@ -25788,7 +25788,7 @@ species {
   spdef: 85
   spe: 115
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_ANALYTIC
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_STORM_DRAIN
   innate: ABILITY_NATURAL_CURE
   innate: ABILITY_VICTORY_STAR
@@ -30244,11 +30244,11 @@ species {
   spatk: 125
   spdef: 90
   spe: 100
-  ability: ABILITY_OVERCHARGE
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_GALE_WINGS
   ability: ABILITY_DRIZZLE
   innate: ABILITY_VOLT_ABSORB
-  innate: ABILITY_GROUND_SHOCK
+  innate: ABILITY_OVERCHARGE
   innate: ABILITY_STATIC
   genderless: true
   tier: 5
@@ -53799,7 +53799,7 @@ species {
   spe: 110
   ability: ABILITY_WONDER_SKIN
   ability: ABILITY_WEATHER_CONTROL
-  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_RAGING_STORM
   innate: ABILITY_HUGE_WINGS
   innate: ABILITY_MULTISCALE
   innate: ABILITY_POSEIDONS_DOMINION
@@ -72697,7 +72697,7 @@ species {
   spdef: 75
   spe: 110
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_WEATHER_DOUBLE_BOOST
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_AERIALIST
   innate: ABILITY_FORECAST
   innate: ABILITY_WEATHER_CONTROL
@@ -78679,9 +78679,9 @@ species {
   spatk: 180
   spdef: 160
   spe: 90
-  ability: ABILITY_ARTILLERY
-  ability: ABILITY_ARTILLERY
-  ability: ABILITY_ARTILLERY
+  ability: ABILITY_RAGING_STORM
+  ability: ABILITY_RAGING_STORM
+  ability: ABILITY_RAGING_STORM
   innate: ABILITY_SWIFT_SWIM
   innate: ABILITY_PRIMAL_ARMOR
   innate: ABILITY_PRIMORDIAL_SEA
@@ -101995,7 +101995,7 @@ species {
   spdef: 65
   spe: 90
   ability: ABILITY_EXPLOIT_WEAKNESS
-  ability: ABILITY_VIOLENT_RUSH
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_MERCILESS
   innate: ABILITY_TORRENT
   innate: ABILITY_BATTLE_ARMOR
@@ -126221,7 +126221,7 @@ species {
   spdef: 80
   spe: 111
   ability: ABILITY_AIRBORNE
-  ability: ABILITY_TERMINAL_VELOCITY
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_SPEED_BOOST
   innate: ABILITY_PRANKSTER
   innate: ABILITY_WEATHER_CONTROL
@@ -126436,7 +126436,7 @@ species {
   spdef: 80
   spe: 111
   ability: ABILITY_TRANSISTOR
-  ability: ABILITY_OVERCHARGE
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_THUNDERCALL
   innate: ABILITY_TERAVOLT
   innate: ABILITY_WEATHER_CONTROL
@@ -168267,6 +168267,7 @@ species {
       move: MOVE_PHANTOM_FORCE
       move: MOVE_RAGING_SOULS
       move: MOVE_GODSPEED
+      move: MOVE_OVERHEAT
     }
     level {
       level: 56
@@ -175411,7 +175412,7 @@ species {
   spatk: 105
   spdef: 60
   spe: 125
-  ability: ABILITY_COMPETITIVE
+  ability: ABILITY_RAGING_STORM
   ability: ABILITY_IMPULSE
   ability: ABILITY_AIR_BLOWER
   innate: ABILITY_VOLT_ABSORB
@@ -199240,17 +199241,17 @@ species {
   type: TYPE_FIRE
   type2: TYPE_FLYING
   hp: 78
-  atk: 81
-  def: 71
-  spatk: 74
-  spdef: 69
+  atk: 121
+  def: 91
+  spatk: 89
+  spdef: 94
   spe: 126
-  ability: ABILITY_PREDATOR
-  ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_BIG_PECKS
-  innate: ABILITY_FLOCK
-  innate: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_GALE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  ability: ABILITY_GALEFORCE_WINGS
+  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_PREDATOR
+  innate: ABILITY_BIG_PECKS
   percent_female: 50
   mega {
     from: SPECIES_TALONFLAME
