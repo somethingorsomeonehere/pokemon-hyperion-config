@@ -6062,7 +6062,6 @@ species {
     pokemon_offset: 19
   }
   type: TYPE_FIRE
-  type2: TYPE_FAIRY
   hp: 38
   atk: 41
   def: 40
@@ -207773,7 +207772,7 @@ species {
         size: 69
         y_offset: 13
       }
-      }
+    }
     back {
       path: "steve/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
