@@ -4898,7 +4898,7 @@ trainer {
       item: ITEM_GALLADITE_R
       nature: NATURE_MODEST
       ability: ABILITY_DAZZLING
-      hp_ev: 522
+      hp_ev: 252
       def_ev: 128
       spatk_ev: 252
       spdef_ev: 128
