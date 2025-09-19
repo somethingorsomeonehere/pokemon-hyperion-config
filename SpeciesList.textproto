@@ -73323,11 +73323,11 @@ species {
   spatk: 75
   spdef: 103
   spe: 108
-  ability: ABILITY_PRANKSTER
-  ability: ABILITY_PRANKSTER
-  ability: ABILITY_PRANKSTER
+  ability: ABILITY_SOUL_LINKER
+  ability: ABILITY_CONJOURER_OF_DECEIT
+  ability: ABILITY_TOUGH_CLAWS
   innate: ABILITY_INTIMIDATE
-  innate: ABILITY_MAGIC_GUARD
+  innate: ABILITY_PRANKSTER
   innate: ABILITY_SOUL_EATER
   percent_female: 50
   mega {
