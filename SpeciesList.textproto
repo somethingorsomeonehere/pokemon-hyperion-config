@@ -44675,8 +44675,8 @@ species {
   spdef: 75
   spe: 65
   ability: ABILITY_MIGHTY_HORN
-  ability: ABILITY_EARTHBOUND
-  ability: ABILITY_SHED_SKIN
+  ability: ABILITY_SAND_GUARD
+  ability: ABILITY_TECTONIZE
   innate: ABILITY_SUPER_LUCK
   innate: ABILITY_OWN_TEMPO
   innate: ABILITY_SERENE_GRACE
