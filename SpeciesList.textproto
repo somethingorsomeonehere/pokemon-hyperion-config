@@ -3337,6 +3337,7 @@ species {
       move: MOVE_NATURAL_GIFT
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_COVET
     tutor: MOVE_CUT
     tutor: MOVE_DIG
@@ -3351,8 +3352,6 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -3473,6 +3472,7 @@ species {
       move: MOVE_NATURAL_GIFT
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_COVET
     tutor: MOVE_CUT
     tutor: MOVE_DIG
@@ -3489,8 +3489,6 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -205339,18 +205337,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  hp: 123
+  atk: 113
+  def: 84
+  spatk: 57
+  spdef: 77
+  spe: 54
+  ability: ABILITY_KINGS_WRATH
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_LOOTER
+  innate: ABILITY_MINION_CONTROL
+  innate: ABILITY_FORT_KNOX
+  innate: ABILITY_TANGLED_TAILS
   percent_female: 50
   tier: 3
   learnset {
@@ -205365,6 +205363,8 @@ species {
       move: MOVE_TACKLE
       move: MOVE_TAIL_WHIP
       move: MOVE_THUNDER_FANG
+      move: MOVE_WRAP
+      move: MOVE_INFESTATION
     }
     level {
       level: 17
@@ -205392,8 +205392,10 @@ species {
       move: MOVE_LAST_RESORT
       move: MOVE_MIMIC
       move: MOVE_NATURAL_GIFT
+      move: MOVE_SNAP_TRAP
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BITE
     tutor: MOVE_COVET
     tutor: MOVE_CUT
     tutor: MOVE_DIG
@@ -205410,8 +205412,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
+    tutor: MOVE_CURSE
   }
   visuals {
     icon {
@@ -205960,19 +205961,20 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  type: TYPE_WATER
+  type2: TYPE_BUG
+  hp: 88
+  atk: 94
+  def: 102
+  spatk: 68
+  spdef: 153
+  spe: 52
+  ability: ABILITY_FOAMY_WEB
+  ability: ABILITY_STORM_DRAIN
+  ability: ABILITY_PURIFYING_WATERS
+  innate: ABILITY_WATER_BUBBLE
+  innate: ABILITY_COMPOUND_EYES
+  innate: ABILITY_PREDATOR
   percent_female: 50
   tier: 3
   learnset {

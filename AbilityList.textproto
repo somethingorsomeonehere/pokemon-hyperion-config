@@ -5599,3 +5599,20 @@ ability {
   name: "i am steve"
   description: "dude what even is this game anymore"
 }
+ability {
+  id: ABILITY_TANGLED_TAILS
+  name: "Tangled Tails (N)"
+  description: "Know Your Place + Grappler."
+  expanded_description: "Landing contact moves causes the target to always move last regardless of priority, speed, or other effects for 5 turns. Effect does not stack or refresh on already afflicted targets. Trapping moves last 6 turns instead of 4-5 turns and increases their damage at the end of the turn to 1/6 max HP per turn."
+}
+ability {
+  id: ABILITY_FOAMY_WEB
+  name: "Foamy Web"
+  description: "Casts an unremovable Sticky Web on entry. Lasts 5 turns."
+  expanded_description: "Sets Sticky Web on opponent's field when the user enters battle. Lasts 5 turns and lowers Speed by 1 stage for any grounded Pokemon switching in. Cannot activate if Sticky Web is already present on opponent's field."
+}
+ability {
+  id: ABILITY_SHARP_TALONS
+  name: "Sharp Talons"
+  description: "Kicking moves have a 50% Bleed chance."
+}
