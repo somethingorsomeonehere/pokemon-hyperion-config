@@ -45925,7 +45925,7 @@ species {
   }
   type: TYPE_BUG
   type2: TYPE_ROCK
-  hp: 30
+  hp: 50
   atk: 10
   def: 230
   spatk: 10
@@ -46060,18 +46060,18 @@ species {
   form_of: SPECIES_SHUCKLE
   type: TYPE_BUG
   type2: TYPE_ROCK
-  hp: 30
+  hp: 50
   atk: 60
   def: 255
   spatk: 10
   spdef: 255
   spe: 5
-  ability: ABILITY_SELF_SUFFICIENT
-  ability: ABILITY_SELF_SUFFICIENT
-  ability: ABILITY_SELF_SUFFICIENT
+  ability: ABILITY_SELF_REPAIR
+  ability: ABILITY_SELF_REPAIR
+  ability: ABILITY_SELF_REPAIR
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_JUGGERNAUT
-  innate: ABILITY_UNAWARE
+  innate: ABILITY_FORT_KNOX
   percent_female: 50
   heads: 3
   mega {
@@ -98145,6 +98145,7 @@ species {
       level: 56
       move: MOVE_DRAGON_ENERGY
       move: MOVE_WATER_SPOUT
+      move: MOVE_HYPERSPACE_HOLE
     }
     level {
       level: 61
@@ -98170,6 +98171,7 @@ species {
     tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -98185,8 +98187,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_SHADOW_BALL
   }
   visuals {
     icon {
