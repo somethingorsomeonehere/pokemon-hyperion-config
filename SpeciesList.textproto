@@ -3428,7 +3428,7 @@ species {
   innate: ABILITY_GROWING_TOOTH
   percent_female: 50
   evo {
-    to: SPECIES_RATICATE_EVO
+    to: SPECIES_RATIKING
     level: 37
   }
   learnset {
@@ -147240,7 +147240,7 @@ species {
   innate: ABILITY_PREDATOR
   percent_female: 50
   evo {
-    to: SPECIES_ARAQUANID_EVO
+    to: SPECIES_TORRENTULA
     level: 45
   }
   learnset {
@@ -147281,7 +147281,6 @@ species {
     level {
       level: 51
       move: MOVE_KARMA
-      move: MOVE_TRIPLE_DIVE
       move: MOVE_RAIN_FLUSH
     }
     tutor: MOVE_AQUA_RING
@@ -205322,9 +205321,9 @@ species {
   }
 }
 species {
-  id: SPECIES_RATICATE_EVO
+  id: SPECIES_RATIKING
   dex {
-    name: "RaticateE"
+    name: "Ratiking"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -205417,11 +205416,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "ratiking/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "ratiking/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205429,15 +205428,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "ratiking/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "ratiking/normal"
+    shiny: "ratiking/shiny"
   }
 }
 species {
@@ -205947,9 +205946,9 @@ species {
   }
 }
 species {
-  id: SPECIES_ARAQUANID_EVO
+  id: SPECIES_TORRENTULA
   dex {
-    name: "AraquanidE"
+    name: "Torrentula"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
@@ -206051,11 +206050,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "torrentula/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "torrentula/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -206063,15 +206062,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "torrentula/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "torrentula/normal"
+    shiny: "torrentula/shiny"
   }
 }
 species {
