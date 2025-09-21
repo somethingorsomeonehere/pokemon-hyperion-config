@@ -205384,6 +205384,7 @@ species {
       move: MOVE_FLAIL
       move: MOVE_ME_FIRST
       move: MOVE_SUPER_FANG
+      move: MOVE_BERRY_SMASH
     }
     level {
       level: 37
@@ -205393,6 +205394,11 @@ species {
       move: MOVE_MIMIC
       move: MOVE_NATURAL_GIFT
       move: MOVE_SNAP_TRAP
+      move: MOVE_STOCKPILE
+    }
+    level {
+      level: 46
+      move: MOVE_KINGS_SHIELD
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BITE
