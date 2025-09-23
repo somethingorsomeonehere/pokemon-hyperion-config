@@ -5721,7 +5721,7 @@ trainer {
       species: SPECIES_BASCULEGION_F
       item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_SPECTRALIZE
+      ability: ABILITY_GUILT_TRIP
       hp_ev: 252
       def_ev: 4
       spatk_ev: 252
@@ -5740,21 +5740,21 @@ trainer {
       spe_ev: 252
       move: MOVE_KOWTOW_CLEAVE
       move: MOVE_PIXIE_SLASH
-      move: MOVE_FLAMETHROWER
+      move: MOVE_WEATHER_BALL
       move: MOVE_LIGHT_OF_RUIN
     }
     mon {
-      species: SPECIES_INFERNAPE_REDUX
-      item: ITEM_INFERNAPENITE_R
+      species: SPECIES_GARDEVOIR_REDUX
+      item: ITEM_GARDEVOIRITE
       nature: NATURE_JOLLY
-      ability: ABILITY_WATER_GALE_WINGS
+      ability: ABILITY_ON_THE_PROWL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_JET_PUNCH
-      move: MOVE_TORRENT_FIST
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_CUTSIE_SLAP
+      move: MOVE_AQUA_BASH
+      move: MOVE_KOWTOW_CLEAVE
+      move: MOVE_TERROR_LOCKS
+      move: MOVE_SUCKER_PUNCH
     }
   }
   hell {
