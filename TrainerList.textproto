@@ -97017,11 +97017,11 @@ trainer {
       species: SPECIES_KORAIDON
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_COMBAT_SPECIALIST
+      ability: ABILITY_SUN_BASKING
       hp_ev: 252
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_DRACONIC_FANGS
+      move: MOVE_ZEPHYR_RUSH
       move: MOVE_SACRED_FIRE
       move: MOVE_COLLISION_COURSE
       move: MOVE_DRACONIC_FANGS
