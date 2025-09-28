@@ -27563,6 +27563,7 @@ species {
       move: MOVE_FLAIL
       move: MOVE_PYRO_BALL
       move: MOVE_REQUIEM
+      move: MOVE_OVERHEAT
     }
     level {
       level: 51
@@ -58861,6 +58862,8 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
   }
   visuals {
     icon {
@@ -59004,6 +59007,8 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
   }
   visuals {
     icon {
@@ -59329,8 +59334,10 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_X_SCISSOR
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
   }
   visuals {
     icon {
@@ -112651,6 +112658,7 @@ species {
       move: MOVE_POWER_SPLIT
       move: MOVE_SHADOW_SNEAK
       move: MOVE_ALLY_SWITCH
+      move: MOVE_AMNESIA
     }
     level {
       level: 37
@@ -124355,6 +124363,7 @@ species {
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_CUT
+    tutor: MOVE_DIG
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_PUNCH
     tutor: MOVE_FIRE_SPIN
@@ -124371,10 +124380,10 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SPIKES
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAUNT
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_DIG
-    tutor: MOVE_TAUNT
+    tutor: MOVE_FLASH_CANNON
   }
   visuals {
     icon {
@@ -143556,7 +143565,6 @@ species {
       level: 51
       move: MOVE_BOOMBURST
       move: MOVE_HYDRO_CANNON
-      move: MOVE_SONIC_BOOM
       move: MOVE_MISTY_EXPLOSION
     }
     tutor: MOVE_AQUA_RING
@@ -206117,7 +206125,7 @@ species {
   ability: ABILITY_NARCISSIST
   ability: ABILITY_CONTRARY
   innate: ABILITY_BRUISER
-  innate: ABILITY_SIMPLE
+  innate: ABILITY_COSMIC_DAZE
   innate: ABILITY_TOXIC_SPILL
   percent_female: 50
   tier: 3
@@ -207184,7 +207192,6 @@ species {
     }
     level {
       level: 51
-      move: MOVE_NOXIOUS_TORQUE
       move: MOVE_CLOSE_COMBAT
       move: MOVE_OBSTRUCT
     }
@@ -207394,8 +207401,8 @@ species {
   hp: 105
   atk: 65
   def: 100
-  spatk: 65
-  spdef: 100
+  spatk: 75
+  spdef: 90
   spe: 95
   ability: ABILITY_ANTICIPATION
   ability: ABILITY_PRANKSTER
@@ -207449,6 +207456,10 @@ species {
       level: 51
       move: MOVE_CROSS_CHOP
       move: MOVE_PSYCHO_WAVE
+    }
+    level {
+      level: 56
+      move: MOVE_SLEEP_POWDER
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURA_SPHERE

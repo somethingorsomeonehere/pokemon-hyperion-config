@@ -104449,15 +104449,15 @@ trainer {
       spdef_ev: 252
       move: MOVE_DOUBLE_IRON_BASH
       move: MOVE_ICE_FANG
-      move: MOVE_IRON_DEFENSE
+      move: MOVE_FIRE_FANG
       move: MOVE_BODY_PRESS
     }
     mon {
-      nonstandard: "Invalid EV total"
       species: SPECIES_KARTANA_FALLEN
       item: ITEM_OCCA_BERRY
       nature: NATURE_ADAMANT
       ability: ABILITY_PINNACLE_BLADE
+      hp_ev: 4
       atk_ev: 252
       spe_ev: 252
       move: MOVE_EXCALIBUR
@@ -104475,7 +104475,7 @@ trainer {
       spe_ev: 252
       move: MOVE_METEOR_MASH
       move: MOVE_PSYCHOKINETIC_SLAM
-      move: MOVE_EARTHQUAKE
+      move: MOVE_HIGH_HORSEPOWER
       move: MOVE_HAMMER_ARM
     }
   }
