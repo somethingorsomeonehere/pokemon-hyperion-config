@@ -46509,6 +46509,7 @@ species {
       level: 51
       move: MOVE_ASSURANCE
       move: MOVE_TRIPLE_AXEL
+      move: MOVE_CLOSE_COMBAT
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BLIZZARD
