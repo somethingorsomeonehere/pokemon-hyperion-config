@@ -153269,6 +153269,7 @@ species {
       level: 51
       move: MOVE_ECHOED_VOICE
       move: MOVE_OUTRAGE
+      move: MOVE_BARRIER
     }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AURA_SPHERE

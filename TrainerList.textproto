@@ -37447,17 +37447,17 @@ trainer {
       move: MOVE_SEISMIC_BLADE
     }
     mon {
-      species: SPECIES_HITMONCHAN
-      item: ITEM_SHELL_BELL
-      nature: NATURE_ADAMANT
-      ability: ABILITY_BLITZ_BOXER
-      hp_ev: 252
-      atk_ev: 252
-      spdef_ev: 4
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_ICE_PUNCH
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_THUNDER_PUNCH
+      species: SPECIES_PRIMARINA
+      item: ITEM_THROAT_SPRAY
+      nature: NATURE_MODEST
+      ability: ABILITY_AMPLIFIER
+      hp_ev: 188
+      def_ev: 68
+      spatk_ev: 252
+      move: MOVE_ICE_BEAM
+      move: MOVE_SYNCHRONOISE
+      move: MOVE_REQUIEM
+      move: MOVE_ECHOED_VOICE
     }
     mon {
       species: SPECIES_DUELUMBER
@@ -37486,18 +37486,17 @@ trainer {
       move: MOVE_MACH_PUNCH
     }
     mon {
-      species: SPECIES_HATTERENE
-      item: ITEM_LIFE_ORB
-      nature: NATURE_QUIET
-      ability: ABILITY_TWISTED_DIMENSION
+      species: SPECIES_HITMONCHAN
+      item: ITEM_SHELL_BELL
+      nature: NATURE_ADAMANT
+      ability: ABILITY_BLITZ_BOXER
       hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      iron_pill: true
-      move: MOVE_PSYCHIC
-      move: MOVE_THUNDERBOLT
-      move: MOVE_TRI_ATTACK
-      move: MOVE_MYSTICAL_FIRE
+      atk_ev: 252
+      spdef_ev: 4
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_ICE_PUNCH
+      move: MOVE_METEOR_MASH
+      move: MOVE_THUNDER_PUNCH
     }
   }
   hell {
@@ -37973,7 +37972,7 @@ trainer {
       species: SPECIES_TYRANJOULA
       item: ITEM_ASSAULT_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_CHOKEHOLD
+      ability: ABILITY_ITCHY_DEFENSE
       hp_ev: 252
       def_ev: 4
       spatk_ev: 252
@@ -38009,17 +38008,17 @@ trainer {
       move: MOVE_FOCUS_BLAST
     }
     mon {
-      species: SPECIES_RAPIDASH
-      item: ITEM_RAPIDASHITE
-      nature: NATURE_ADAMANT
-      ability: ABILITY_RECKLESS
+      species: SPECIES_KINGDRA
+      item: ITEM_KINGDRANITE_Y
+      nature: NATURE_TIMID
+      ability: ABILITY_SWIFT_SWIM
       hp_ev: 4
-      atk_ev: 252
+      spatk_ev: 252
       spe_ev: 252
-      move: MOVE_SUPERCELL_SLAM
-      move: MOVE_FLARE_BLITZ
-      move: MOVE_DOUBLE_EDGE
-      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_ZAP_CANNON
+      move: MOVE_OCTAZOOKA
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_MUD_SHOT
     }
   }
   hell {
@@ -40055,7 +40054,7 @@ trainer {
       spatk_ev: 252
       iron_pill: true
       move: MOVE_EXPANDING_FORCE
-      move: MOVE_DAZZLING_GLEAM
+      move: MOVE_MOONBLAST
       move: MOVE_ATTACK_ORDER
       move: MOVE_PSYSTRIKE
     }
@@ -40074,18 +40073,18 @@ trainer {
       move: MOVE_THUNDERBOLT
     }
     mon {
-      species: SPECIES_ORANGURU
-      item: ITEM_LIGHT_CLAY
+      species: SPECIES_DRAMPA
+      item: ITEM_PSYCHIC_SEED
       nature: NATURE_QUIET
       ability: ABILITY_FRIEND_GUARD
-      hp_ev: 248
-      def_ev: 252
-      spdef_ev: 8
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
       iron_pill: true
       move: MOVE_BARRIER
-      move: MOVE_EXPANDING_FORCE
-      move: MOVE_ENERGY_WAVE
-      move: MOVE_INSTRUCT
+      move: MOVE_DRAGON_CHEER
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_HYPER_BEAM
     }
     mon {
       species: SPECIES_CALYREX_ICE_RIDER
@@ -40098,7 +40097,7 @@ trainer {
       iron_pill: true
       move: MOVE_GLACIAL_LANCE
       move: MOVE_KINETIC_BARRAGE
-      move: MOVE_DOUBLE_KICK
+      move: MOVE_BODY_PRESS
       move: MOVE_HORN_LEECH
     }
     mon {
@@ -40111,7 +40110,7 @@ trainer {
       spdef_ev: 188
       iron_pill: true
       move: MOVE_AMNESIA
-      move: MOVE_HEAL_PULSE
+      move: MOVE_FLAMETHROWER
       move: MOVE_EXPANDING_FORCE
       move: MOVE_SCALD
     }
