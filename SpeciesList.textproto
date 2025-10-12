@@ -191988,17 +191988,17 @@ species {
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
   hp: 70
-  atk: 75
+  atk: 74
   def: 90
   spatk: 140
   spdef: 140
-  spe: 75
+  spe: 76
   ability: ABILITY_TERAVOLT
   ability: ABILITY_DUAL_WIELD
   ability: ABILITY_VOLT_RUSH
-  innate: ABILITY_ARTILLERY
-  innate: ABILITY_EXPLOIT_WEAKNESS
   innate: ABILITY_QUARK_DRIVE
+  innate: ABILITY_EXPLOIT_WEAKNESS
+  innate: ABILITY_ARTILLERY
   genderless: true
   learnset {
     level {
