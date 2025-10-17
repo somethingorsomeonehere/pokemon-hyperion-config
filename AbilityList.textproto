@@ -5619,6 +5619,6 @@ ability {
 ability {
   id: ABILITY_ZEN_GARDEN
   name: "Zen Garden"
-  description: "Sets up Grassy or Psychic Terrain at random. The matching seed item guarantees that terrain."
+  description: "Sets up Grassy or Psychic Terrain at random."
   expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
