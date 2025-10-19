@@ -37423,6 +37423,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
@@ -37430,11 +37431,11 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_HURRICANE
   }
   visuals {
     icon {
@@ -37582,6 +37583,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
@@ -37589,11 +37591,11 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_HURRICANE
   }
   visuals {
     icon {
@@ -37734,6 +37736,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFLECT
@@ -37741,11 +37744,11 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_HURRICANE
   }
   visuals {
     icon {
