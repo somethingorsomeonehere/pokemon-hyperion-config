@@ -207989,11 +207989,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "spearow/redux/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "spearow/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208001,15 +208001,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "spearow/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "spearow/redux/normal"
+    shiny: "spearow/redux/shiny"
   }
 }
 species {
@@ -208101,11 +208101,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "fearow/redux/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "fearow/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208113,15 +208113,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "fearow/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "fearow/redux/normal"
+    shiny: "fearow/redux/shiny"
   }
 }
 species {
@@ -208227,11 +208227,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "fearow/redux/evo/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "fearow/redux/evo/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208239,14 +208239,14 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "fearow/redux/evo/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "fearow/redux/evo/normal"
+    shiny: "fearow/redux/evo/shiny"
   }
 }
