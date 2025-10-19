@@ -5296,7 +5296,7 @@ ability {
 }
 ability {
   id: ABILITY_CRYSTALLINE_ARMOR
-  name: "Crystalline Armor"
+  name: "Crystalline Armor (N)"
   description: "Reflects stat drops and immune to critical hits."
 }
 ability {
@@ -5397,7 +5397,7 @@ ability {
 ability {
   id: ABILITY_TURF_WAR
   name: "Turf War (N)"
-  description: "Destroys terrain and boosts highest stat."
+  description: "Destroys terrain and boosts highest stat on entry."
 }
 ability {
   id: ABILITY_GREEDY
