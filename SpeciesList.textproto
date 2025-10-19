@@ -207589,7 +207589,30 @@ species {
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_ABSORB
+    tutor: MOVE_REFRESH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_EXTRASENSORY
   }
   visuals {
     icon {
@@ -207621,64 +207644,88 @@ species {
   form_of: SPECIES_EXEGGUTOR
   type: TYPE_GRASS
   type2: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  hp: 100
+  atk: 60
+  def: 105
+  spatk: 130
+  spdef: 105
+  spe: 30
+  ability: ABILITY_TRIAGE
+  ability: ABILITY_STAMINA
+  ability: ABILITY_ZEN_GARDEN
+  innate: ABILITY_RITE_OF_SPRING
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_ABSORBANT
   percent_female: 50
   tier: 3
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_HEAL_BELL
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_BULLET_SEED
+      move: MOVE_BARRAGE
+      move: MOVE_MEDITATE
+      move: MOVE_HARDEN
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_EXPLOSION
+      move: MOVE_GRASS_PLEDGE
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_TRANSMUTE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_SELF_DESTRUCT
+      move: MOVE_BERRY_SMASH
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_SPEED_SWAP
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_SYNTHESIS
+      move: MOVE_EXPANDING_FORCE
+      move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_OUTBURST
+      move: MOVE_YGGDRASIL_FORCE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_LEAF_STORM
+      move: MOVE_TELEPORT
+      move: MOVE_MIRAGE_SLAM
+      move: MOVE_MEMENTO
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
-    tutor: MOVE_BUBBLE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_ABSORB
+    tutor: MOVE_REFRESH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_EXTRASENSORY
   }
   visuals {
     icon {
@@ -207864,5 +207911,345 @@ species {
     }
     palette: "steve/real/normal"
     shiny: "steve/real/shiny"
+  }
+}
+species {
+  id: SPECIES_SPEAROW_REDUX
+  form_of: SPECIES_SPEAROW
+  type: TYPE_FIGHTING
+  type2: TYPE_DARK
+  hp: 55
+  atk: 62
+  def: 25
+  spatk: 26
+  spdef: 26
+  spe: 68
+  ability: ABILITY_VIOLENT_RUSH
+  ability: ABILITY_SHARP_TALONS
+  ability: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_STRIKER
+  innate: ABILITY_MERCILESS
+  innate: ABILITY_SCARE
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_FEAROW_REDUX
+    level: 24
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BRICK_BREAK
+      move: MOVE_SNARL
+      move: MOVE_LASH_OUT
+      move: MOVE_BEATDOWN
+      move: MOVE_BEAT_UP
+      move: MOVE_STOMP
+      move: MOVE_HONE_CLAWS
+    }
+    level {
+      level: 17
+      move: MOVE_RUMBLE_KICK
+      move: MOVE_UPPER_HAND
+      move: MOVE_MUD_SHOT
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_THROAT_CHOP
+      move: MOVE_SMACK_DOWN
+      move: MOVE_QUASH
+    }
+    level {
+      level: 37
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SUBMISSION
+    }
+    level {
+      level: 46
+      move: MOVE_JUMP_KICK
+      move: MOVE_RAGE
+      move: MOVE_SUPERPOWER
+    }
+    level {
+      level: 51
+      move: MOVE_AXE_KICK
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_THIEF
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_LOW_KICK
+  }
+  visuals {
+    icon {
+      path: "spearow/redux/icon"
+      palette: 4
+    }
+    front {
+      path: "spearow/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "spearow/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "spearow/redux/normal"
+    shiny: "spearow/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_FEAROW_REDUX
+  form_of: SPECIES_FEAROW
+  type: TYPE_FIGHTING
+  type2: TYPE_DARK
+  hp: 85
+  atk: 112
+  def: 85
+  spatk: 51
+  spdef: 51
+  spe: 98
+  ability: ABILITY_VIOLENT_RUSH
+  ability: ABILITY_SHARP_TALONS
+  ability: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_STRIKER
+  innate: ABILITY_MERCILESS
+  innate: ABILITY_SCARE
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_FEAROW_REDUX_EVO
+    level: 40
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BRICK_BREAK
+      move: MOVE_SNARL
+      move: MOVE_LASH_OUT
+      move: MOVE_BEATDOWN
+      move: MOVE_BEAT_UP
+      move: MOVE_STOMP
+      move: MOVE_HONE_CLAWS
+    }
+    level {
+      level: 17
+      move: MOVE_RUMBLE_KICK
+      move: MOVE_UPPER_HAND
+      move: MOVE_MUD_SHOT
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_THROAT_CHOP
+      move: MOVE_SMACK_DOWN
+      move: MOVE_MEGA_KICK
+      move: MOVE_QUASH
+    }
+    level {
+      level: 37
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_POWER_TRIP
+      move: MOVE_SUBMISSION
+    }
+    level {
+      level: 46
+      move: MOVE_JUMP_KICK
+      move: MOVE_RAGE
+      move: MOVE_SUPERPOWER
+      move: MOVE_STRENGTH
+    }
+    level {
+      level: 51
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_AXE_KICK
+      move: MOVE_HEAD_SMASH
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_TAUNT
+    tutor: MOVE_THIEF
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_LOW_KICK
+  }
+  visuals {
+    icon {
+      path: "fearow/redux/icon"
+      palette: 4
+    }
+    front {
+      path: "fearow/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "fearow/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "fearow/redux/normal"
+    shiny: "fearow/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_FEAROW_REDUX_EVO
+  dex {
+    name: "FearowRE"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_DARK
+  type2: TYPE_FIGHTING
+  hp: 105
+  atk: 132
+  def: 95
+  spatk: 51
+  spdef: 51
+  spe: 108
+  ability: ABILITY_BLOOD_BATH
+  ability: ABILITY_RECKLESS
+  ability: ABILITY_ANGER_POINT
+  innate: ABILITY_STRIKER
+  innate: ABILITY_SHARP_TALONS
+  innate: ABILITY_SCARE
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_BRICK_BREAK
+      move: MOVE_SNARL
+      move: MOVE_LASH_OUT
+      move: MOVE_BEATDOWN
+      move: MOVE_BEAT_UP
+      move: MOVE_STOMP
+      move: MOVE_HONE_CLAWS
+    }
+    level {
+      level: 17
+      move: MOVE_RUMBLE_KICK
+      move: MOVE_UPPER_HAND
+      move: MOVE_MUD_SHOT
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_THROAT_CHOP
+      move: MOVE_SMACK_DOWN
+      move: MOVE_MEGA_KICK
+      move: MOVE_QUASH
+    }
+    level {
+      level: 37
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_POWER_TRIP
+      move: MOVE_SUBMISSION
+      move: MOVE_PARTING_SHOT
+    }
+    level {
+      level: 46
+      move: MOVE_JUMP_KICK
+      move: MOVE_RAGE
+      move: MOVE_SUPERPOWER
+      move: MOVE_STRENGTH
+    }
+    level {
+      level: 51
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_AXE_KICK
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_HEAD_SMASH
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_TAUNT
+    tutor: MOVE_THIEF
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_LOW_KICK
+    tutor: MOVE_EARTHQUAKE
+  }
+  visuals {
+    icon {
+      path: "fearow/redux/evo/icon"
+      palette: 4
+    }
+    front {
+      path: "fearow/redux/evo/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "fearow/redux/evo/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "fearow/redux/evo/normal"
+    shiny: "fearow/redux/evo/shiny"
   }
 }
