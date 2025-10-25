@@ -33538,7 +33538,6 @@ species {
     trainer_offset: 7
   }
   type: TYPE_WATER
-  type2: TYPE_DARK
   hp: 85
   atk: 125
   def: 100
