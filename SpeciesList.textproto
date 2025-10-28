@@ -132249,8 +132249,7 @@ species {
 species {
   id: SPECIES_FLOETTE_ETERNAL_FLOWER
   form_of: SPECIES_FLOETTE
-  type: TYPE_DARK
-  type2: TYPE_FAIRY
+  type: TYPE_FAIRY
   hp: 74
   atk: 65
   def: 67

@@ -720,7 +720,7 @@ item {
 }
 item {
   id: ITEM_DRAGONITENITE
-  name: "Dragonitenite"
+  name: "Dragoninite"
   description: "Enables Dragonite to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -786,7 +786,7 @@ item {
 }
 item {
   id: ITEM_FERALIGATRITE_X
-  name: "Feraligatrite X"
+  name: "Feraligite X"
   description: "Enables Feraligatr to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -797,7 +797,7 @@ item {
 }
 item {
   id: ITEM_FERALIGATRITE_Y
-  name: "Feraligatrite Y"
+  name: "Feraligite Y"
   description: "Enables Feraligatr to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -1177,7 +1177,7 @@ item {
 }
 item {
   id: ITEM_CLEFABITE_R
-  name: "Clefabite R"
+  name: "Clefablite R"
   description: "Enables Clefable R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -2243,7 +2243,7 @@ item {
 }
 item {
   id: ITEM_CHANDELUREITE
-  name: "Chandelureite"
+  name: "Chandelurite"
   description: "Enables Chandelure to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -2389,7 +2389,7 @@ item {
 }
 item {
   id: ITEM_CHANDELUREITE_R
-  name: "Chandelureite-R"
+  name: "Chandelurite-R"
   description: "Enables Chandelure-R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -2409,7 +2409,7 @@ item {
 }
 item {
   id: ITEM_CLEFABITE
-  name: "Clefabite"
+  name: "Clefablite"
   description: "Enables Clefable to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
