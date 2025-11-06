@@ -73856,7 +73856,7 @@ species {
     trainer_scale: 256
   }
   type: TYPE_PSYCHIC
-  type2: TYPE_FAIRY
+  type2: TYPE_STEEL
   hp: 85
   atk: 50
   def: 90
@@ -73868,7 +73868,7 @@ species {
   ability: ABILITY_AIR_BLOWER
   innate: ABILITY_LEVITATE
   innate: ABILITY_SOUNDPROOF
-  innate: ABILITY_METALLIC
+  innate: ABILITY_FAIRY_TALE
   percent_female: 50
   learnset {
     level {
