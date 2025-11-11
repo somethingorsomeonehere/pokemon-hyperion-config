@@ -52,7 +52,7 @@ ability {
   id: ABILITY_SAND_VEIL
   name: "Sand Veil"
   description: "Evasion is boosted by 1.25x while a sandstorm is active."
-  expanded_description: "During sandstorm, enemy Pokemon's accuracy is divided by 1.25, and user is immune to sand damage. Bypassed by No Guard/Mold Breaker. (note to self: does this count as +1 evasion? does it just multiply the end result after accuracy/evasion buffs/nerfs?)"
+  expanded_description: "During sandstorm, enemy Pokemon's accuracy is divided by 1.25, and user is immune to sand damage. Bypassed by No Guard/Mold Breaker."
 }
 ability {
   id: ABILITY_STATIC
@@ -4729,7 +4729,7 @@ ability {
   id: ABILITY_FRENZIED_PHANTOM
   name: "Frenzied Phantom"
   description: "Hyper Aggressive + Shadow Tag."
-  expanded_description: "Makes all attacks hit twice in succession. First hit deals 100%, second hit deals 25%. Each hit rolls secondary effects independently (except flinch). Prevents all non-Shadow Tag or Ghost-type foes from switching out. Pivot moves such as Volt Switch still allows them to switch (except Teleport.)"
+  expanded_description: "Makes all attacks hit twice in succession. First hit deals 100%, second hit deals 25%. Each hit rolls secondary effects independently (except flinch). Prevents all non-Shadow Tag or Ghost-type foes from switching out. Pivot moves such as Volt Switch still allows them to switch"
 }
 ability {
   id: ABILITY_DNA_SCRAMBLE
@@ -5169,9 +5169,9 @@ ability {
 }
 ability {
   id: ABILITY_CHUCKSTER
-  name: "Chuckster (N)"
+  name: "Chuckster"
   description: "Once per entry, take 1/2 damage and force-switch the target."
-  expanded_description: "Once per entry when receiving a contact move, gain 50% damage reduction and force out the attacker. Multiplicative with other sources of damage  reduction."
+  expanded_description: "Once per entry when receiving a contact move, gain 50% damage reduction and force out the attacker. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_HEAT_SINK
@@ -5411,7 +5411,7 @@ ability {
 }
 ability {
   id: ABILITY_LOOSE_THORNS
-  name: "Loose Thorns (N)"
+  name: "Loose Thorns"
   description: "Sets Creeping Thorns when hit by contact."
 }
 ability {
@@ -5456,7 +5456,7 @@ ability {
 }
 ability {
   id: ABILITY_ROCKY_EXTERIOR
-  name: "Rocky Exterior (N)"
+  name: "Rocky Exterior"
   description: "Adds Rock-type."
 }
 ability {
