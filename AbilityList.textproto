@@ -5411,7 +5411,7 @@ ability {
 }
 ability {
   id: ABILITY_LOOSE_THORNS
-  name: "Loose Thorns (N)"
+  name: "Loose Thorns"
   description: "Sets Creeping Thorns when hit by contact."
 }
 ability {
