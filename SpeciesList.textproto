@@ -197620,23 +197620,23 @@ species {
   }
   visuals {
     icon {
-      path: "moltres/mega/icon"
+      path: "moltres/ex/mega/icon"
       palette: 4
     }
     front {
-      path: "moltres/mega/front"
+      path: "moltres/ex/mega/front"
       coords {
       }
     }
     back {
-      path: "moltres/mega/back"
+      path: "moltres/ex/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 4
       }
     }
-    palette: "moltres/mega/normal"
-    shiny: "moltres/mega/shiny"
+    palette: "moltres/ex/mega/normal"
+    shiny: "moltres/ex/mega/shiny"
   }
 }
 species {
@@ -197886,23 +197886,23 @@ species {
   }
   visuals {
     icon {
-      path: "moltres/icon"
+      path: "moltres/ex/icon"
       palette: 4
     }
     front {
-      path: "moltres/front"
+      path: "moltres/ex/front"
       coords {
       }
     }
     back {
-      path: "moltres/back"
+      path: "moltres/ex/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 4
       }
     }
-    palette: "moltres/normal"
-    shiny: "moltres/shiny"
+    palette: "moltres/ex/normal"
+    shiny: "moltres/ex/shiny"
   }
 }
 species {
@@ -205157,11 +205157,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "swablu/redux/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "swablu/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205169,15 +205169,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "swablu/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "swablu/redux/normal"
+    shiny: "swablu/redux/shiny"
   }
 }
 species {
@@ -205275,11 +205275,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "altaria/redux/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "altaria/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205287,15 +205287,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "altaria/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "altaria/redux/normal"
+    shiny: "altaria/redux/shiny"
   }
 }
 species {
@@ -205322,11 +205322,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "altaria/redux/redux_mega/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "altaria/redux/redux_mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -205334,15 +205334,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "altaria/redux/redux_mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "altaria/redux/redux_mega/normal"
+    shiny: "altaria/redux/redux_mega/shiny"
   }
 }
 species {
@@ -208132,7 +208132,7 @@ species {
 species {
   id: SPECIES_FEAROW_REDUX_EVO
   dex {
-    name: "FearowRE"
+    name: "Terrow"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1
