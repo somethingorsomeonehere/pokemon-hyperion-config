@@ -789,7 +789,7 @@ trainer {
   hell {
     mon {
       species: SPECIES_CLEFABLE_REDUX
-      item: ITEM_CLEFABITE_R
+      item: ITEM_CLEFABLITE_R
       nature: NATURE_TIMID
       ability: ABILITY_LOOSE_ROCKS
       def_ev: 252
@@ -4826,7 +4826,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_FLASH_FIRE
       hp_ev: 4
@@ -5435,7 +5435,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_X
+      item: ITEM_FERALIGITE_X
       nature: NATURE_JOLLY
       ability: ABILITY_INTIMIDATE
       atk_ev: 252
@@ -9152,7 +9152,7 @@ trainer {
       move: MOVE_MUD_SHOT
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_SITRUS_BERRY
       nature: NATURE_ADAMANT
       ability: ABILITY_COMBAT_SPECIALIST
@@ -16687,7 +16687,7 @@ trainer {
     }
     mon {
       species: SPECIES_DRAGONITE
-      item: ITEM_DRAGONITENITE
+      item: ITEM_DRAGONINITE
       nature: NATURE_JOLLY
       ability: ABILITY_PRISM_SCALES
       hp_ev: 4
@@ -17446,7 +17446,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_ETHEREAL_RUSH
       hp_ev: 4
@@ -17549,7 +17549,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_ETHEREAL_RUSH
       hp_ev: 252
@@ -26453,7 +26453,7 @@ trainer {
       move: MOVE_JAGGED_HORNS
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_LEFTOVERS
       nature: NATURE_RELAXED
       ability: ABILITY_DARK_GALE_WINGS
@@ -30386,7 +30386,7 @@ trainer {
       move: MOVE_TRAILBLAZE
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_CHOICE_BAND
       nature: NATURE_ADAMANT
       ability: ABILITY_DARK_GALE_WINGS
@@ -35332,7 +35332,7 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR
   ace {
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_TACTICAL_VEST
       nature: NATURE_JOLLY
       ability: ABILITY_DARK_GALE_WINGS
@@ -36076,7 +36076,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_ETHEREAL_RUSH
       hp_ev: 252
@@ -58353,7 +58353,7 @@ trainer {
       move: MOVE_FRUSTRATION
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_SHELL_BELL
       nature: NATURE_ADAMANT
       ability: ABILITY_MOXIE
@@ -72716,7 +72716,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_Y
+      item: ITEM_FERALIGITE_Y
       nature: NATURE_MODEST
       ability: ABILITY_INTIMIDATE
       hp_ev: 252
@@ -76004,7 +76004,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_SHADOW_TAG
       def_ev: 252
@@ -78265,7 +78265,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_X
+      item: ITEM_FERALIGITE_X
       nature: NATURE_JOLLY
       ability: ABILITY_INTIMIDATE
       hp_ev: 4
@@ -82951,7 +82951,7 @@ trainer {
       hidden_power_type: TYPE_GRASS
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_TACTICAL_VEST
       nature: NATURE_IMPISH
       ability: ABILITY_COMBAT_SPECIALIST
@@ -95572,7 +95572,7 @@ trainer {
       move: MOVE_HEADLONG_RUSH
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_LEFTOVERS
       nature: NATURE_JOLLY
       ability: ABILITY_COMBAT_SPECIALIST
@@ -95667,7 +95667,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_CHANDELUREITE
+      item: ITEM_CHANDELURITE
       nature: NATURE_TIMID
       ability: ABILITY_ETHEREAL_RUSH
       hp_ev: 252
@@ -95692,7 +95692,7 @@ trainer {
       move: MOVE_FLAME_BURST
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_LEFTOVERS
       nature: NATURE_JOLLY
       ability: ABILITY_COMBAT_SPECIALIST
@@ -98910,7 +98910,7 @@ trainer {
     }
     mon {
       species: SPECIES_CLEFABLE_REDUX
-      item: ITEM_CLEFABITE_R
+      item: ITEM_CLEFABLITE_R
       nature: NATURE_MODEST
       ability: ABILITY_LOOSE_ROCKS
       hp_ev: 252
@@ -107597,7 +107597,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_X
+      item: ITEM_FERALIGITE_X
       nature: NATURE_ADAMANT
       ability: ABILITY_INTIMIDATE
       atk_ev: 252
@@ -107678,7 +107678,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_X
+      item: ITEM_FERALIGITE_X
       nature: NATURE_JOLLY
       ability: ABILITY_INTIMIDATE
       atk_ev: 252
@@ -107757,7 +107757,7 @@ trainer {
     }
     mon {
       species: SPECIES_FERALIGATR
-      item: ITEM_FERALIGATRITE_X
+      item: ITEM_FERALIGITE_X
       nature: NATURE_ADAMANT
       ability: ABILITY_INTIMIDATE
       hp_ev: 252
@@ -109044,7 +109044,7 @@ trainer {
     }
     mon {
       species: SPECIES_DRAGONITE
-      item: ITEM_DRAGONITENITE
+      item: ITEM_DRAGONINITE
       nature: NATURE_JOLLY
       ability: ABILITY_PRISM_SCALES
       atk_ev: 252
@@ -114600,7 +114600,7 @@ trainer {
       move: MOVE_ROCK_TOMB
     }
     mon {
-      species: SPECIES_SCRAFTY_MEGA
+      species: SPECIES_SCRAFSTER
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
       ability: ABILITY_MOXIE

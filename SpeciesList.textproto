@@ -31212,7 +31212,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_DRAGONITE
-    item: ITEM_DRAGONITENITE
+    item: ITEM_DRAGONINITE
   }
   uses_learnset: SPECIES_DRAGONITE
   visuals {
@@ -31399,7 +31399,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_DRAGONITE_PARTNER
-    item: ITEM_DRAGONITENITE
+    item: ITEM_DRAGONINITE
   }
   uses_learnset: SPECIES_DRAGONITE
 }
@@ -31444,7 +31444,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_DRAGONITE_PARTNER_B
-    item: ITEM_DRAGONITENITE
+    item: ITEM_DRAGONINITE
     type: MEGA_B
   }
   uses_learnset: SPECIES_DRAGONITE
@@ -31490,7 +31490,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_DRAGONITE_PARTNER_C
-    item: ITEM_DRAGONITENITE
+    item: ITEM_DRAGONINITE
     type: MEGA_C
   }
   uses_learnset: SPECIES_DRAGONITE
@@ -32601,14 +32601,14 @@ species {
   type: TYPE_GRASS
   type2: TYPE_FAIRY
   hp: 80
-  atk: 97
-  def: 130
-  spatk: 118
-  spdef: 130
-  spe: 80
-  ability: ABILITY_MISTY_SURGE
-  ability: ABILITY_MISTY_SURGE
-  ability: ABILITY_MISTY_SURGE
+  atk: 92
+  def: 115
+  spatk: 143
+  spdef: 115
+  spe: 90
+  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_GRASSY_SURGE
   innate: ABILITY_FOREST_RAGE
   innate: ABILITY_ABSORBANT
   innate: ABILITY_TRIAGE
@@ -33672,23 +33672,23 @@ species {
   id: SPECIES_FERALIGATR_MEGA_X
   form_of: SPECIES_FERALIGATR
   type: TYPE_WATER
-  type2: TYPE_DARK
+  type2: TYPE_DRAGON
   hp: 85
-  atk: 140
-  def: 100
-  spatk: 109
-  spdef: 98
-  spe: 103
-  ability: ABILITY_PRIMAL_MAW
-  ability: ABILITY_PRIMAL_MAW
-  ability: ABILITY_PRIMAL_MAW
+  atk: 160
+  def: 130
+  spatk: 89
+  spdef: 93
+  spe: 78
+  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_STRONG_JAW
   innate: ABILITY_RIPTIDE
-  innate: ABILITY_GROWING_TOOTH
-  innate: ABILITY_WONDER_SCALE
+  innate: ABILITY_DOUBLE_IRON_BARBS
+  innate: ABILITY_PREDATOR
   percent_female: 50
   mega {
     from: SPECIES_FERALIGATR
-    item: ITEM_FERALIGATRITE_X
+    item: ITEM_FERALIGITE_X
     type: MEGA_X
   }
   visuals {
@@ -33731,7 +33731,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_FERALIGATR
-    item: ITEM_FERALIGATRITE_Y
+    item: ITEM_FERALIGITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -38120,7 +38120,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_CLEFABLE_REDUX
-    item: ITEM_CLEFABITE_R
+    item: ITEM_CLEFABLITE_R
   }
   visuals {
     icon {
@@ -112013,7 +112013,7 @@ species {
   innate: ABILITY_RECKLESS
   percent_female: 50
   evo {
-    to: SPECIES_SCRAFTY_MEGA
+    to: SPECIES_SCRAFSTER
     level: 55
   }
   learnset {
@@ -112145,7 +112145,7 @@ species {
   }
 }
 species {
-  id: SPECIES_SCRAFTY_MEGA
+  id: SPECIES_SCRAFSTER
   dex {
     name: "Scrafster"
     category: "Hoodlum"
@@ -112175,23 +112175,23 @@ species {
   uses_learnset: SPECIES_SCRAFTY
   visuals {
     icon {
-      path: "scrafty/mega/icon"
+      path: "scrafster/icon"
       palette: 2
     }
     front {
-      path: "scrafty/mega/front"
+      path: "scrafster/front"
       coords {
       }
     }
     back {
-      path: "scrafty/mega/back"
+      path: "scrafster/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 5
       }
     }
-    palette: "scrafty/mega/normal"
-    shiny: "scrafty/mega/shiny"
+    palette: "scrafster/normal"
+    shiny: "scrafster/shiny"
   }
 }
 species {
@@ -197532,7 +197532,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_CHANDELURE
-    item: ITEM_CHANDELUREITE
+    item: ITEM_CHANDELURITE
   }
   visuals {
     icon {
@@ -204808,7 +204808,7 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_CHANDELURE_REDUX
-    item: ITEM_CHANDELUREITE_R
+    item: ITEM_CHANDELURITE_R
   }
   visuals {
     icon {
@@ -204897,6 +204897,10 @@ species {
   innate: ABILITY_COSMIC_DUST
   innate: ABILITY_MOON_SPIRIT
   percent_female: 50
+  mega {
+    from: SPECIES_CLEFABLE
+    item: ITEM_CLEFABLITE
+  }
   visuals {
     icon {
       path: "clefable/mega/icon"
@@ -208249,5 +208253,53 @@ species {
     }
     palette: "fearow/redux/evo/normal"
     shiny: "fearow/redux/evo/shiny"
+  }
+}
+species {
+  id: SPECIES_CLEFABLE_MEGA_Y
+  form_of: SPECIES_CLEFABLE
+  type: TYPE_FAIRY
+  type2: TYPE_FLYING
+  hp: 100
+  atk: 80
+  def: 100
+  spatk: 140
+  spdef: 118
+  spe: 70
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_CLEFABLE
+    item: ITEM_CLEFABLITE_Y
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "clefable/mega_x/icon"
+      palette: 4
+    }
+    front {
+      path: "clefable/mega_x/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "clefable/mega_x/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "clefable/mega_x/normal"
+    shiny: "clefable/mega_x/shiny"
   }
 }

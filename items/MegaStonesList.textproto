@@ -719,8 +719,8 @@ item {
   unique_mega_location: "Defeat Leader Winona."
 }
 item {
-  id: ITEM_DRAGONITENITE
-  name: "Dragoninite"
+  id: ITEM_DRAGONINITE
+  name: "Dragoninite X"
   description: "Enables Dragonite to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -785,7 +785,7 @@ item {
   unique_mega_location: "Defeat Totem Gyarados on Route 132."
 }
 item {
-  id: ITEM_FERALIGATRITE_X
+  id: ITEM_FERALIGITE_X
   name: "Feraligite X"
   description: "Enables Feraligatr to Mega Evolve."
   grouping: POCKET_MEGA_STONES
@@ -796,7 +796,7 @@ item {
   unique_mega_location: "Defeat Sailor Caleb on Route 105."
 }
 item {
-  id: ITEM_FERALIGATRITE_Y
+  id: ITEM_FERALIGITE_Y
   name: "Feraligite Y"
   description: "Enables Feraligatr to Mega Evolve."
   grouping: POCKET_MEGA_STONES
@@ -1047,9 +1047,9 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_SCRAFTITE
-  name: "Scraftite"
-  description: "Enables Scrafty to Mega Evolve."
+  id: ITEM_SCRAFTINITE
+  name: "Scraftinite"
+  description: "Enables Scrafty to Mega Evolve, NOT Scrafster."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
@@ -1176,7 +1176,7 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_CLEFABITE_R
+  id: ITEM_CLEFABLITE_R
   name: "Clefablite R"
   description: "Enables Clefable R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
@@ -2242,8 +2242,8 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_CHANDELUREITE
-  name: "Chandelurite"
+  id: ITEM_CHANDELURITE
+  name: "Chandelurite X"
   description: "Enables Chandelure to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -2388,7 +2388,7 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_CHANDELUREITE_R
+  id: ITEM_CHANDELURITE_R
   name: "Chandelurite-R"
   description: "Enables Chandelure-R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
@@ -2408,7 +2408,7 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_CLEFABITE
+  id: ITEM_CLEFABLITE
   name: "Clefablite"
   description: "Enables Clefable to Mega Evolve."
   grouping: POCKET_MEGA_STONES
@@ -2485,4 +2485,210 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+}
+item {
+  id: ITEM_CLEFABLITE_Y
+  name: "Clefablite Y"
+  description: "Enables Clefable to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_STARMINITE
+  name: "Starminite"
+  description: "Enables Starmie to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_DRAGONINITE_Y
+  name: "Dragoninite Y"
+  description: "Enables Dragonite to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_EXCADRITE
+  name: "Excadrite"
+  description: "Enables Excadrill to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_SCOLIPITE
+  name: "Scolipite"
+  description: "Enables Scolipede to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_EELEKTROSSITE
+  name: "Eelektrossite"
+  description: "Enables Eelektross to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_CHANDELURITE_Y
+  name: "Chandelurite Y"
+  description: "Enables Chandelure to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_CHESNAUGHTITE
+  name: "Chesnaughtite"
+  description: "Enables Chesnaught to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_DELPHOXITE
+  name: "Delphoxite"
+  description: "Enables Delphox to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GRENINJITE
+  name: "Greninjite"
+  description: "Enables Greninja to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_FLOETTITE
+  name: "Floettite"
+  description: "Enables Floette-E to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_MALAMARITE
+  name: "Malamarite"
+  description: "Enables Malamar to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_BARBARACITE
+  name: "Barbaracite"
+  description: "Enables Barbaracle to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_DRAGALGITE
+  name: "Dragalgite"
+  description: "Enables Dragalge to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_HAWLUCHANITE
+  name: "Hawluchanite"
+  description: "Enables Hawlucha to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_ZYGARDITE
+  name: "Zygardite"
+  description: "Enables Zygarde-C to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_DRAMPANITE
+  name: "Drampanite"
+  description: "Enables Drampa to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_FALINKSITE
+  name: "Falinksite"
+  description: "Enables Falinks to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_RAICHUNITE_X
+  name: "Raichu"
+  description: "Enables Raichu to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_RAICHUNITE_Y
+  name: "Raichunite Y"
+  description: "Enables Raichu to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_PYROARITE
+  name: "Pyroarite"
+  description: "Enables Pyroar to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
 }
