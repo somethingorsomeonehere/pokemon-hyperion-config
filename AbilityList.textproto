@@ -5421,7 +5421,7 @@ ability {
 }
 ability {
   id: ABILITY_LASER_DRILL
-  name: "Laser Drill (N)"
+  name: "Laser Drill"
   description: "Horn moves have a 50% burn chance."
 }
 ability {
