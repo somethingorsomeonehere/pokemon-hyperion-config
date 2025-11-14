@@ -5341,7 +5341,7 @@ ability {
 }
 ability {
   id: ABILITY_SPYWARE
-  name: "Spyware (N)"
+  name: "Spyware"
   description: "Sharply raises a stat based on foe's strong point."
 }
 ability {
@@ -5451,7 +5451,7 @@ ability {
 }
 ability {
   id: ABILITY_DRAGONFRUIT
-  name: "Dragonfruit (N)"
+  name: "Dragonfruit"
   description: "Half Drake + Rough Skin."
 }
 ability {
@@ -5461,7 +5461,7 @@ ability {
 }
 ability {
   id: ABILITY_LEAD_CLAWS
-  name: "Lead Claws (N)"
+  name: "Lead Claws"
   description: "Tough Claws + Mineralize."
 }
 ability {
