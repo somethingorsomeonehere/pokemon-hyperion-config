@@ -5481,7 +5481,7 @@ ability {
 }
 ability {
   id: ABILITY_EMPRESS
-  name: "Empress (N)"
+  name: "Empress"
   description: "Queenly Majesty + Rivalry."
 }
 ability {
