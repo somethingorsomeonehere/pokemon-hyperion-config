@@ -5471,7 +5471,7 @@ ability {
 }
 ability {
   id: ABILITY_CHAINSAW
-  name: "Chainsaw (N)"
+  name: "Chainsaw"
   description: "Keen edge moves now lower defense by -1."
 }
 ability {
