@@ -199157,7 +199157,7 @@ species {
   ability: ABILITY_DEEP_CUTS
   innate: ABILITY_MONSTER_HUNTER
   innate: ABILITY_BLOOD_PRICE
-  innate: ABILITY_PREDATOR
+  innate: ABILITY_CHAINSAW
   percent_female: 50
   learnset {
     level {
