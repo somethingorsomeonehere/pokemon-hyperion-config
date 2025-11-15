@@ -5476,7 +5476,7 @@ ability {
 }
 ability {
   id: ABILITY_GALEFORCE_WINGS
-  name: "Galeforce Wings (N)"
+  name: "Galeforce Wings"
   description: "Flying moves now have +1 Priority."
 }
 ability {
