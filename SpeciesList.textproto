@@ -201651,6 +201651,7 @@ species {
   innate: ABILITY_MIND_CRUSH
   innate: ABILITY_MERCILESS
   percent_female: 50
+  heads: 3
   mega {
     from: SPECIES_HYDREIGON
     item: ITEM_HYDREIGONITE
