@@ -5506,7 +5506,7 @@ ability {
 }
 ability {
   id: ABILITY_HYDRA
-  name: "Hydra (N)"
+  name: "Hydra"
   description: "Multiheaded + Beast Boost."
 }
 ability {
