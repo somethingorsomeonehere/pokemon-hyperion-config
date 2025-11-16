@@ -5516,7 +5516,7 @@ ability {
 }
 ability {
   id: ABILITY_SUNDAE
-  name: "Sundae (N)"
+  name: "Sundae"
   description: "Snow Warning + Ice Body."
 }
 ability {
