@@ -5406,7 +5406,7 @@ ability {
 }
 ability {
   id: ABILITY_LIGHT_SABER
-  name: "Lightsaber (N)"
+  name: "Lightsaber"
   description: "Adds Fire-type. Keen Edge moves have 25% burn or paralysis."
 }
 ability {
@@ -5476,12 +5476,12 @@ ability {
 }
 ability {
   id: ABILITY_GALEFORCE_WINGS
-  name: "Galeforce Wings (N)"
+  name: "Galeforce Wings"
   description: "Flying moves now have +1 Priority."
 }
 ability {
   id: ABILITY_EMPRESS
-  name: "Empress (N)"
+  name: "Empress"
   description: "Queenly Majesty + Rivalry."
 }
 ability {
@@ -5501,22 +5501,22 @@ ability {
 }
 ability {
   id: ABILITY_HYPNOTIC_TOUCH
-  name: "Hypnotic Touch (N)"
+  name: "Hypnotic Touch"
   description: "Contact moves have a 20% Chance to sleep. Works on offense."
 }
 ability {
   id: ABILITY_HYDRA
-  name: "Hydra (N)"
+  name: "Hydra"
   description: "Multiheaded + Beast Boost."
 }
 ability {
   id: ABILITY_WINGS_OF_PESTILENCE
-  name: "Wings of Pestilence (N)"
+  name: "Wings of Pestilence"
   description: "Every attack has a 20% Bleed chance and 10% Curse chance."
 }
 ability {
   id: ABILITY_SUNDAE
-  name: "Sundae (N)"
+  name: "Sundae"
   description: "Snow Warning + Ice Body."
 }
 ability {
