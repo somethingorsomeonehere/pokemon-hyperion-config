@@ -5406,7 +5406,7 @@ ability {
 }
 ability {
   id: ABILITY_LIGHT_SABER
-  name: "Lightsaber (N)"
+  name: "Lightsaber"
   description: "Adds Fire-type. Keen Edge moves have 25% burn or paralysis."
 }
 ability {
