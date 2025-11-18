@@ -84504,7 +84504,6 @@ trainer {
   }
   elite {
     mon {
-      nonstandard: "Invalid moves: [MOVE_U_TURN]"
       species: SPECIES_CROBAT
       item: ITEM_BLACK_SLUDGE
       nature: NATURE_JOLLY
@@ -84515,7 +84514,7 @@ trainer {
       move: MOVE_CROSS_POISON
       move: MOVE_DUAL_WINGBEAT
       move: MOVE_U_TURN
-      move: MOVE_TAKE_FLIGHT
+      move: MOVE_SHADOW_FANGS
     }
     mon {
       species: SPECIES_DHELMISE
@@ -84528,7 +84527,7 @@ trainer {
       move: MOVE_ANCHOR_SHOT
       move: MOVE_POWER_WHIP
       move: MOVE_PAIN_SPLIT
-      move: MOVE_EARTHQUAKE
+      move: MOVE_TRIPLE_DIVE
     }
     mon {
       species: SPECIES_GABITE_REDUX
