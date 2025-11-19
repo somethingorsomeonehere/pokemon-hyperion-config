@@ -1763,7 +1763,7 @@ ability {
 ability {
   id: ABILITY_AQUATIC
   name: "Aquatic"
-  description: "Adds Water type to itself."
+  description: "Adds Water type on entry."
   expanded_description: "Upon entering battle, adds Water to the user's current typing. Retains Water typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -1787,7 +1787,7 @@ ability {
 ability {
   id: ABILITY_GROUNDED
   name: "Grounded"
-  description: "Adds Ground type to itself."
+  description: "Adds Ground type on entry."
   expanded_description: "Grounded adds Ground type to the Pokemon upon entry. Retains Ground typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -1852,13 +1852,13 @@ ability {
 ability {
   id: ABILITY_ICE_AGE
   name: "Ice Age"
-  description: "Adds Ice type to itself."
+  description: "Adds Ice type on entry."
   expanded_description: "Upon entering battle, adds Ice to the user's current typing. Retains Ice typing even upon losing the ability, going away only when switching out."
 }
 ability {
   id: ABILITY_HALF_DRAKE
   name: "Half Drake"
-  description: "Adds Dragon type to itself."
+  description: "Adds Dragon type on entry."
   expanded_description: "Upon entering battle, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -1870,7 +1870,7 @@ ability {
 ability {
   id: ABILITY_DRAGONFLY
   name: "Dragonfly"
-  description: "Adds Dragon type to itself. Avoids Ground attacks."
+  description: "Adds Dragon type on entry. Avoids Ground attacks."
   expanded_description: "Upon entering battle, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out. Also gives the user immunity to Ground-type attacks and field effects that require you to be grounded."
 }
 ability {
@@ -1894,7 +1894,7 @@ ability {
 ability {
   id: ABILITY_METALLIC
   name: "Metallic"
-  description: "Adds Steel type to itself."
+  description: "Adds Steel type on entry."
   expanded_description: "Upon entering battle, adds Steel to the user's current typing. Retains Steel typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -1942,7 +1942,7 @@ ability {
 ability {
   id: ABILITY_PHANTOM
   name: "Phantom"
-  description: "Adds Ghost type to itself."
+  description: "Adds Ghost type on entry."
   expanded_description: "Upon entering battle, adds Ghost to user's current typing. Retains Ghost typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -2709,7 +2709,7 @@ ability {
 ability {
   id: ABILITY_FAIRY_TALE
   name: "Fairy Tale"
-  description: "Adds Fairy type to itself."
+  description: "Adds Fairy type on entry."
   expanded_description: "Upon entering battle, adds Fairy to the user's current typing. Retains Fairy typing even upon losing the ability, going away only when switching out."
 }
 ability {
@@ -5437,7 +5437,7 @@ ability {
 ability {
   id: ABILITY_BRUISER
   name: "Bruiser"
-  description: "Adds Fighting-type on entry."
+  description: "Adds Fighting type on entry."
 }
 ability {
   id: ABILITY_NARCISSIST
@@ -5457,7 +5457,7 @@ ability {
 ability {
   id: ABILITY_ROCKY_EXTERIOR
   name: "Rocky Exterior"
-  description: "Adds Rock-type."
+  description: "Adds Rock type on entry."
 }
 ability {
   id: ABILITY_LEAD_CLAWS
@@ -5472,12 +5472,12 @@ ability {
 ability {
   id: ABILITY_CHAINSAW
   name: "Chainsaw"
-  description: "Keen edge moves now lower defense by -1."
+  description: "Keen edge attacks lower defense by -1."
 }
 ability {
   id: ABILITY_GALEFORCE_WINGS
   name: "Galeforce Wings"
-  description: "Flying moves now have +1 Priority."
+  description: "Flying moves get +1 Priority."
 }
 ability {
   id: ABILITY_EMPRESS
@@ -5502,7 +5502,7 @@ ability {
 ability {
   id: ABILITY_HYPNOTIC_TOUCH
   name: "Hypnotic Touch"
-  description: "Contact moves have a 20% Chance to sleep. Works on offense."
+  description: "20% chance to sleep on contact. Also works on offense."
 }
 ability {
   id: ABILITY_HYDRA
@@ -5582,7 +5582,7 @@ ability {
 ability {
   id: ABILITY_BARK_SKIN
   name: "Dead Bark (N)"
-  description: "Adds Ghost-type. Takes 15% less damage. 30% less damage if SE."
+  description: "Adds Ghost type. Takes 15% less damage. 30% less damage if SE."
 }
 ability {
   id: ABILITY_ECHOLOCATION
