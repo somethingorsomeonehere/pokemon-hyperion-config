@@ -5586,7 +5586,7 @@ ability {
 }
 ability {
   id: ABILITY_ECHOLOCATION
-  name: "Echolocation (N)"
+  name: "Echolocation"
   description: "In fog, deal 20% more damage and never miss."
 }
 ability {
