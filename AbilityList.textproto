@@ -5556,7 +5556,7 @@ ability {
 }
 ability {
   id: ABILITY_COSMIC_DUST
-  name: "Cosmic Dust (N)"
+  name: "Cosmic Dust"
   description: "Magic Guard + Cosmic Daze."
 }
 ability {
