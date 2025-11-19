@@ -5581,7 +5581,7 @@ ability {
 }
 ability {
   id: ABILITY_BARK_SKIN
-  name: "Dead Bark (N)"
+  name: "Dead Bark"
   description: "Adds Ghost type. Takes 15% less damage. 30% less damage if SE."
 }
 ability {
