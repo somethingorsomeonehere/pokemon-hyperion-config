@@ -25638,6 +25638,7 @@ species {
       move: MOVE_PSYCHO_SHIFT
       move: MOVE_REFLECT_TYPE
       move: MOVE_WATER_SHURIKEN
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
@@ -25675,6 +25676,7 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_PSYBEAM
@@ -25692,8 +25694,9 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_ROCK_THROW
   }
   visuals {
     icon {
@@ -25800,6 +25803,7 @@ species {
       move: MOVE_PSYCHO_SHIFT
       move: MOVE_REFLECT_TYPE
       move: MOVE_WATER_SHURIKEN
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
@@ -25824,12 +25828,15 @@ species {
       move: MOVE_BRINE
       move: MOVE_PAIN_SPLIT
       move: MOVE_METEOR_BEAM
+      move: MOVE_SUPERPOWER
     }
     level {
       level: 51
       move: MOVE_DIAMOND_STORM
       move: MOVE_SPEED_SWAP
       move: MOVE_STORED_POWER
+      move: MOVE_WAVE_CRASH
+      move: MOVE_PSYCHOKINETIC_SLAM
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURORA_BEAM
@@ -25839,6 +25846,7 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_POWER_GEM
@@ -25857,8 +25865,10 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_ROCK_THROW
   }
   visuals {
     icon {
@@ -32610,7 +32620,7 @@ species {
   ability: ABILITY_GRASSY_SURGE
   ability: ABILITY_GRASSY_SURGE
   innate: ABILITY_FOREST_RAGE
-  innate: ABILITY_ABSORBANT
+  innate: ABILITY_FLOWER_NECKLACE
   innate: ABILITY_TRIAGE
   percent_female: 50
   mega {
@@ -33679,9 +33689,9 @@ species {
   spatk: 89
   spdef: 93
   spe: 78
-  ability: ABILITY_STRONG_JAW
-  ability: ABILITY_STRONG_JAW
-  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_CRUSHING_JAW
+  ability: ABILITY_CRUSHING_JAW
+  ability: ABILITY_CRUSHING_JAW
   innate: ABILITY_RIPTIDE
   innate: ABILITY_DOUBLE_IRON_BARBS
   innate: ABILITY_PREDATOR
@@ -101525,16 +101535,16 @@ species {
   type2: TYPE_FIGHTING
   hp: 110
   atk: 148
-  def: 137
-  spatk: 70
-  spdef: 90
-  spe: 80
-  ability: ABILITY_FLAME_SHIELD
-  ability: ABILITY_AVENGER
-  ability: ABILITY_SUN_BASKING
+  def: 75
+  spatk: 110
+  spdef: 110
+  spe: 82
+  ability: ABILITY_FIRE_RULER
+  ability: ABILITY_FIRE_RULER
+  ability: ABILITY_FIRE_RULER
   innate: ABILITY_HELLBLAZE
-  innate: ABILITY_BRUTEFORCE
-  innate: ABILITY_VIOLENT_RUSH
+  innate: ABILITY_EVAPORATE
+  innate: ABILITY_LONG_REACH
   percent_female: 50
   no_flip: true
   mega {
@@ -132256,9 +132266,9 @@ species {
   spatk: 125
   spdef: 128
   spe: 92
-  ability: ABILITY_FAIRY_AURA
+  ability: ABILITY_ENERGY_TAP
   ability: ABILITY_GRASSY_SURGE
-  ability: ABILITY_DARK_AURA
+  ability: ABILITY_FAIRY_AURA
   innate: ABILITY_PASTEL_VEIL
   innate: ABILITY_MAGIC_GUARD
   innate: ABILITY_MYSTIC_POWER
@@ -208263,13 +208273,13 @@ species {
   type2: TYPE_FLYING
   hp: 100
   atk: 80
-  def: 100
-  spatk: 140
-  spdef: 118
-  spe: 70
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
+  def: 95
+  spatk: 135
+  spdef: 100
+  spe: 88
+  ability: ABILITY_LEPIDOPTERAN
+  ability: ABILITY_LEPIDOPTERAN
+  ability: ABILITY_LEPIDOPTERAN
   innate: ABILITY_POLLINATE
   innate: ABILITY_GIANT_WINGS
   innate: ABILITY_MAGIC_GUARD
@@ -208302,5 +208312,1040 @@ species {
     }
     palette: "clefable/mega_x/normal"
     shiny: "clefable/mega_x/shiny"
+  }
+}
+species {
+  id: SPECIES_DRAGALGE_MEGA
+  form_of: SPECIES_DRAGALGE
+  type: TYPE_POISON
+  type2: TYPE_DRAGON
+  hp: 100
+  atk: 80
+  def: 100
+  spatk: 140
+  spdef: 118
+  spe: 70
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_DRAGALGE
+    item: ITEM_DRAGALGITE
+  }
+  visuals {
+    icon {
+      path: "dragalge/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "dragalge/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "dragalge/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "dragalge/mega/normal"
+    shiny: "dragalge/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_VICTREEBEL_MEGA
+  form_of: SPECIES_VICTREEBEL
+  type: TYPE_GRASS
+  type2: TYPE_POISON
+  hp: 100
+  atk: 125
+  def: 95
+  spatk: 135
+  spdef: 105
+  spe: 70
+  ability: ABILITY_HYPER_AGGRESSIVE
+  ability: ABILITY_POISON_ABSORB
+  ability: ABILITY_SWEET_VEIL
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_WONDER_SKIN
+  percent_female: 50
+  mega {
+    from: SPECIES_VICTREEBEL
+    item: ITEM_VICTREEBELITE
+  }
+  visuals {
+    icon {
+      path: "victreebel/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "victreebel/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "victreebel/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "victreebel/mega/normal"
+    shiny: "victreebel/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_STARMIE_MEGA
+  form_of: SPECIES_STARMIE
+  type: TYPE_WATER
+  type2: TYPE_PSYCHIC
+  hp: 60
+  atk: 100
+  def: 110
+  spatk: 130
+  spdef: 105
+  spe: 120
+  ability: ABILITY_HUGE_POWER
+  ability: ABILITY_HUGE_POWER
+  ability: ABILITY_HUGE_POWER
+  innate: ABILITY_BREAK_IT_DOWN
+  innate: ABILITY_SPITEFUL
+  innate: ABILITY_MYSTIC_POWER
+  percent_female: 50
+  mega {
+    from: SPECIES_STARMIE
+    item: ITEM_STARMINITE
+  }
+  visuals {
+    icon {
+      path: "starmie/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "starmie/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "starmie/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "starmie/mega/normal"
+    shiny: "starmie/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_DRAGONITE_MEGA_Y
+  form_of: SPECIES_DRAGONITE
+  type: TYPE_DRAGON
+  type2: TYPE_FLYING
+  hp: 91
+  atk: 124
+  def: 115
+  spatk: 145
+  spdef: 125
+  spe: 100
+  ability: ABILITY_SERENE_GRACE
+  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_WISHMAKER
+  innate: ABILITY_ANGELIC_WINGS
+  innate: ABILITY_MYSTIC_POWER
+  innate: ABILITY_INNER_FOCUS
+  percent_female: 50
+  mega {
+    from: SPECIES_DRAGONITE
+    item: ITEM_DRAGONINITE_Y
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "dragonite/mega_y/icon"
+      palette: 4
+    }
+    front {
+      path: "dragonite/mega_y/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "dragonite/mega_y/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "dragonite/mega_y/normal"
+    shiny: "dragonite/mega_y/shiny"
+  }
+}
+species {
+  id: SPECIES_SKARMORY_MEGA_Y
+  form_of: SPECIES_SKARMORY
+  type: TYPE_STEEL
+  type2: TYPE_FLYING
+  hp: 75
+  atk: 140
+  def: 110
+  spatk: 40
+  spdef: 100
+  spe: 130
+  ability: ABILITY_TALON_TRAP
+  ability: ABILITY_TALON_TRAP
+  ability: ABILITY_TALON_TRAP
+  innate: ABILITY_SHARP_TALONS
+  innate: ABILITY_GOOD_AS_GOLD
+  innate: ABILITY_LIGHT_METAL
+  percent_female: 50
+  mega {
+    from: SPECIES_SKARMORY
+    item: ITEM_SKARMORITE_Y
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "skarmory/mega_y/icon"
+      palette: 4
+    }
+    front {
+      path: "skarmory/mega_y/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "skarmory/mega_y/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "skarmory/mega_y/normal"
+    shiny: "skarmory/mega_y/shiny"
+  }
+}
+species {
+  id: SPECIES_FROSLASS_MEGA_Y
+  form_of: SPECIES_FROSLASS
+  type: TYPE_ICE
+  type2: TYPE_GHOST
+  hp: 70
+  atk: 80
+  def: 70
+  spatk: 140
+  spdef: 100
+  spe: 140
+  ability: ABILITY_REJECTION
+  ability: ABILITY_FRISK
+  ability: ABILITY_OVERCAST
+  innate: ABILITY_HOLLOW_ICE_ZONE
+  innate: ABILITY_CRYOSTASIS
+  innate: ABILITY_AURORA_BOREALIS
+  percent_female: 50
+  mega {
+    from: SPECIES_FROSLASS
+    item: ITEM_FROSLASSITE_Y
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "froslass/mega_y/icon"
+      palette: 4
+    }
+    front {
+      path: "froslass/mega_y/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "froslass/mega_y/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "froslass/mega_y/normal"
+    shiny: "froslass/mega_y/shiny"
+  }
+}
+species {
+  id: SPECIES_EXCADRILL_MEGA
+  form_of: SPECIES_EXCADRILL
+  type: TYPE_GROUND
+  type2: TYPE_STEEL
+  hp: 110
+  atk: 165
+  def: 100
+  spatk: 65
+  spdef: 65
+  spe: 103
+  ability: ABILITY_MOLD_BREAKER
+  ability: ABILITY_SAND_RUSH
+  ability: ABILITY_SAND_GUARD
+  innate: ABILITY_MEGA_DRILL
+  innate: ABILITY_STEELWORKER
+  innate: ABILITY_HEATPROOF
+  percent_female: 50
+  mega {
+    from: SPECIES_EXCADRILL
+    item: ITEM_EXCADRITE
+  }
+  visuals {
+    icon {
+      path: "excadrill/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "excadrill/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "excadrill/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "excadrill/mega/normal"
+    shiny: "excadrill/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_SCOLIPEDE_MEGA
+  form_of: SPECIES_SCOLIPEDE
+  type: TYPE_BUG
+  type2: TYPE_POISON
+  hp: 90
+  atk: 140
+  def: 149
+  spatk: 75
+  spdef: 99
+  spe: 62
+  ability: ABILITY_TINTED_LENS
+  ability: ABILITY_SELF_REPAIR
+  ability: ABILITY_DAUNTLESS_SHIELD
+  innate: ABILITY_TOXIC_SHELL
+  innate: ABILITY_HEMOTOXIN
+  innate: ABILITY_MIGHTY_HORN
+  percent_female: 50
+  mega {
+    from: SPECIES_SCOLIPEDE
+    item: ITEM_SCOLIPITE
+  }
+  visuals {
+    icon {
+      path: "scolipede/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "scolipede/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "scolipede/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "scolipede/mega/normal"
+    shiny: "scolipede/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_SCRAFTY_MEGA
+  form_of: SPECIES_SCRAFTY
+  type: TYPE_DARK
+  type2: TYPE_FIGHTING
+  hp: 65
+  atk: 130
+  def: 135
+  spatk: 55
+  spdef: 135
+  spe: 83
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_SCRAFTY
+    item: ITEM_SCRAFTINITE
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "scrafty/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "scrafty/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "scrafty/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "scrafty/mega/normal"
+    shiny: "scrafty/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_EELEKTROSS_MEGA
+  form_of: SPECIES_EELEKTROSS
+  type: TYPE_ELECTRIC
+  hp: 85
+  atk: 145
+  def: 90
+  spatk: 135
+  spdef: 100
+  spe: 80
+  ability: ABILITY_ELECTROMORPHOSIS
+  ability: ABILITY_NOSFERATU
+  ability: ABILITY_PLUS
+  innate: ABILITY_BOOGER_HEADS
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_AMPHIBIOUS
+  percent_female: 50
+  mega {
+    from: SPECIES_EELEKTROSS
+    item: ITEM_EELEKTROSSITE
+  }
+  visuals {
+    icon {
+      path: "eelektross/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "eelektross/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "eelektross/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "eelektross/mega/normal"
+    shiny: "eelektross/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_CHANDELURE_MEGA_Y
+  form_of: SPECIES_CHANDELURE
+  type: TYPE_GHOST
+  type2: TYPE_FIRE
+  hp: 80
+  atk: 75
+  def: 110
+  spatk: 175
+  spdef: 110
+  spe: 90
+  ability: ABILITY_FRIEND_GUARD
+  ability: ABILITY_FLAME_SHIELD
+  ability: ABILITY_HELLBLAZE
+  innate: ABILITY_CHANDELIER
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_FLAME_BODY
+  percent_female: 50
+  mega {
+    from: SPECIES_CHANDELURE
+    item: ITEM_CHANDELURITE_Y
+  }
+  visuals {
+    icon {
+      path: "chandelure/mega_y/icon"
+      palette: 4
+    }
+    front {
+      path: "chandelure/mega_y/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "chandelure/mega_y/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "chandelure/mega_y/normal"
+    shiny: "chandelure/mega_y/shiny"
+  }
+}
+species {
+  id: SPECIES_CHESNAUGHT_MEGA
+  form_of: SPECIES_CHESNAUGHT
+  type: TYPE_GRASS
+  type2: TYPE_FIGHTING
+  hp: 88
+  atk: 137
+  def: 172
+  spatk: 74
+  spdef: 115
+  spe: 49
+  ability: ABILITY_KINGS_WRATH
+  ability: ABILITY_CHESTNUT_SHIELD
+  ability: ABILITY_CHESTNUT_AXE
+  innate: ABILITY_FOREST_RAGE
+  innate: ABILITY_STALWART
+  innate: ABILITY_SPIKE_ARMOR
+  percent_female: 50
+  mega {
+    from: SPECIES_CHESNAUGHT
+    item: ITEM_CHESNAUGHTITE
+  }
+  visuals {
+    icon {
+      path: "chesnaught/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "chesnaught/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "chesnaught/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "chesnaught/mega/normal"
+    shiny: "chesnaught/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_DELPHOX_MEGA
+  form_of: SPECIES_DELPHOX
+  type: TYPE_FIRE
+  type2: TYPE_PSYCHIC
+  hp: 100
+  atk: 80
+  def: 100
+  spatk: 140
+  spdef: 118
+  spe: 70
+  ability: ABILITY_DEADLY_PRECISION
+  ability: ABILITY_MYSTIC_POWER
+  ability: ABILITY_FOREWARN
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_WITCH_BROOM
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_DELPHOX
+    item: ITEM_DELPHOXITE
+  }
+  visuals {
+    icon {
+      path: "delphox/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "delphox/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "delphox/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "delphox/mega/normal"
+    shiny: "delphox/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_GRENINJA_MEGA
+  form_of: SPECIES_GRENINJA
+  type: TYPE_WATER
+  type2: TYPE_DARK
+  hp: 72
+  atk: 125
+  def: 77
+  spatk: 138
+  spdef: 81
+  spe: 142
+  ability: ABILITY_FATAL_PRECISION
+  ability: ABILITY_RAIN_SHROUD
+  ability: ABILITY_PROTEAN
+  innate: ABILITY_RIPTIDE
+  innate: ABILITY_GIANT_SHURIKEN
+  innate: ABILITY_ANTICIPATION
+  percent_female: 50
+  mega {
+    from: SPECIES_GRENINJA
+    item: ITEM_GRENINJITE
+  }
+  visuals {
+    icon {
+      path: "greninja/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "greninja/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "greninja/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "greninja/mega/normal"
+    shiny: "greninja/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_PYROAR_MEGA
+  form_of: SPECIES_PYROAR
+  type: TYPE_NORMAL
+  type2: TYPE_FIRE
+  hp: 86
+  atk: 88
+  def: 92
+  spatk: 129
+  spdef: 86
+  spe: 136
+  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_HUBRIS
+  ability: ABILITY_FIRES_WRATH
+  innate: ABILITY_EMPERORS_WRATH
+  innate: ABILITY_RIVALRY
+  innate: ABILITY_PREDATOR
+  percent_female: 50
+  mega {
+    from: SPECIES_PYROAR
+    item: ITEM_PYROARITE
+  }
+  visuals {
+    icon {
+      path: "pyroar/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "pyroar/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "pyroar/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "pyroar/mega/normal"
+    shiny: "pyroar/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_FLOETTE_ETERNAL_FLOWER_MEGA
+  form_of: SPECIES_FLOETTE
+  type: TYPE_FAIRY
+  hp: 74
+  atk: 85
+  def: 87
+  spatk: 155
+  spdef: 148
+  spe: 102
+  ability: ABILITY_ENERGY_SIPHON
+  ability: ABILITY_MISTY_SURGE
+  ability: ABILITY_ARTILLERY
+  innate: ABILITY_ETERNAL_FLOWER
+  innate: ABILITY_MAGIC_GUARD
+  innate: ABILITY_FAIRY_AURA
+  percent_female: 50
+  mega {
+    from: SPECIES_FLOETTE_ETERNAL_FLOWER
+    item: ITEM_FLOETTITE
+  }
+  visuals {
+    icon {
+      path: "floette/eternal_flower/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "floette/eternal_flower/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "floette/eternal_flower/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "floette/eternal_flower/mega/normal"
+    shiny: "floette/eternal_flower/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_MALAMAR_MEGA
+  form_of: SPECIES_MALAMAR
+  type: TYPE_DARK
+  type2: TYPE_PSYCHIC
+  hp: 86
+  atk: 102
+  def: 88
+  spatk: 115
+  spdef: 120
+  spe: 88
+  ability: ABILITY_ENTRANCE
+  ability: ABILITY_INVERSE_ROOM
+  ability: ABILITY_INFILTRATOR
+  innate: ABILITY_HYPNOTIC_TRANCE
+  innate: ABILITY_BRAIN_OVERLOAD
+  innate: ABILITY_BRAIN_MASS
+  percent_female: 50
+  mega {
+    from: SPECIES_MALAMAR
+    item: ITEM_MALAMARITE
+  }
+  visuals {
+    icon {
+      path: "malamar/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "malamar/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "malamar/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "malamar/mega/normal"
+    shiny: "malamar/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_BARBARACLE_MEGA
+  form_of: SPECIES_BARBARACLE
+  type: TYPE_ROCK
+  type2: TYPE_FIGHTING
+  hp: 72
+  atk: 140
+  def: 130
+  spatk: 64
+  spdef: 106
+  spe: 88
+  ability: ABILITY_FRISK
+  ability: ABILITY_SNIPER
+  ability: ABILITY_VITAL_SPIRIT
+  innate: ABILITY_HAND_BARNACLES
+  innate: ABILITY_TOUGH_CLAWS
+  innate: ABILITY_SOLID_ROCK
+  percent_female: 50
+  mega {
+    from: SPECIES_BARBARACLE
+    item: ITEM_BARBARACITE
+  }
+  visuals {
+    icon {
+      path: "barbaracle/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "barbaracle/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "barbaracle/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "barbaracle/mega/normal"
+    shiny: "barbaracle/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_HAWLUCHA_MEGA
+  form_of: SPECIES_HAWLUCHA
+  type: TYPE_FIGHTING
+  type2: TYPE_FLYING
+  hp: 78
+  atk: 137
+  def: 100
+  spatk: 74
+  spdef: 93
+  spe: 118
+  ability: ABILITY_GOOD_AS_GOLD
+  ability: ABILITY_COMBAT_SPECIALIST
+  ability: ABILITY_WRESTLE_SHOWMAN
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_STAMINA
+  innate: ABILITY_VITAL_SPIRIT
+  percent_female: 50
+  mega {
+    from: SPECIES_HAWLUCHA
+    item: ITEM_HAWLUCHANITE
+  }
+  visuals {
+    icon {
+      path: "hawlucha/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "hawlucha/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "hawlucha/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "hawlucha/mega/normal"
+    shiny: "hawlucha/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ZYGARDE_COMPLETE_MEGA
+  form_of: SPECIES_ZYGARDE
+  type: TYPE_DRAGON
+  type2: TYPE_GROUND
+  hp: 216
+  atk: 70
+  def: 121
+  spatk: 216
+  spdef: 85
+  spe: 100
+  ability: ABILITY_NIHIL_BLASTER
+  ability: ABILITY_NIHIL_BLASTER
+  ability: ABILITY_NIHIL_BLASTER
+  innate: ABILITY_PRIMAL_ARMOR
+  innate: ABILITY_EARTHBOUND
+  innate: ABILITY_POWER_CORE
+  percent_female: 50
+  mega {
+    from: SPECIES_ZYGARDE_COMPLETE
+    item: ITEM_ZYGARDITE
+  }
+  visuals {
+    icon {
+      path: "zygarde/complete/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "zygarde/complete/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "zygarde/complete/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "zygarde/complete/mega/normal"
+    shiny: "zygarde/complete/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_DRAMPA_MEGA
+  form_of: SPECIES_DRAMPA
+  type: TYPE_NORMAL
+  type2: TYPE_DRAGON
+  hp: 100
+  atk: 80
+  def: 100
+  spatk: 140
+  spdef: 118
+  spe: 70
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  ability: ABILITY_SWARM
+  innate: ABILITY_POLLINATE
+  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_MAGIC_GUARD
+  percent_female: 50
+  mega {
+    from: SPECIES_DRAMPA
+    item: ITEM_DRAMPANITE
+  }
+  visuals {
+    icon {
+      path: "drampa/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "drampa/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "drampa/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "drampa/mega/normal"
+    shiny: "drampa/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_FALINKS_MEGA
+  form_of: SPECIES_FALINKS
+  type: TYPE_FIGHTING
+  hp: 65
+  atk: 135
+  def: 135
+  spatk: 70
+  spdef: 65
+  spe: 100
+  ability: ABILITY_INTREPID_SWORD
+  ability: ABILITY_DAUNTLESS_SHIELD
+  ability: ABILITY_FRIEND_GUARD
+  innate: ABILITY_VOLTRON
+  innate: ABILITY_STEELWORKER
+  innate: ABILITY_DISCIPLINE
+  percent_female: 50
+  mega {
+    from: SPECIES_FALINKS
+    item: ITEM_FALINKSITE
+  }
+  visuals {
+    icon {
+      path: "falinks/mega/icon"
+      palette: 4
+    }
+    front {
+      path: "falinks/mega/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 2
+      }
+    }
+    back {
+      path: "falinks/mega/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 10
+      }
+    }
+    palette: "falinks/mega/normal"
+    shiny: "falinks/mega/shiny"
   }
 }
