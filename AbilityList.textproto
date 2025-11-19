@@ -5566,7 +5566,7 @@ ability {
 }
 ability {
   id: ABILITY_DEVIOUS_PRESENT
-  name: "Devious Present (N)"
+  name: "Devious Present"
   description: "Boosts Ice and throwing moves by 50%."
 }
 ability {
