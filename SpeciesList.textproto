@@ -27843,7 +27843,7 @@ species {
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_SNOW_WARNING
   ability: ABILITY_PERMAFROST
-  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_SERENE_GRACE
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_SELF_SUFFICIENT
   percent_female: 50
@@ -29787,7 +29787,7 @@ species {
   ability: ABILITY_FATAL_PRECISION
   innate: ABILITY_FOSSILIZED
   innate: ABILITY_ROCK_HEAD
-  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_PRESSURE
   percent_female: 12.5
   tier: 3
   learnset {
@@ -40245,7 +40245,6 @@ species {
     pokemon_offset: 6
   }
   type: TYPE_WATER
-  type2: TYPE_NORMAL
   hp: 110
   atk: 75
   def: 80
@@ -47250,8 +47249,8 @@ species {
   id: SPECIES_URSALUNA_BLOODMOON
   form_of: SPECIES_URSALUNA
   long_name: "Ursaluna Bloodmoon"
-  type: TYPE_NORMAL
-  type2: TYPE_GROUND
+  type: TYPE_GROUND
+  type2: TYPE_NORMAL
   hp: 113
   atk: 70
   def: 120
@@ -61760,8 +61759,8 @@ species {
 species {
   id: SPECIES_EXPLOUD_REDUX
   form_of: SPECIES_EXPLOUD
-  type: TYPE_ELECTRIC
-  type2: TYPE_GHOST
+  type: TYPE_GHOST
+  type2: TYPE_ELECTRIC
   hp: 134
   atk: 61
   def: 103
@@ -73866,7 +73865,6 @@ species {
     trainer_scale: 256
   }
   type: TYPE_PSYCHIC
-  type2: TYPE_STEEL
   hp: 85
   atk: 50
   def: 90
@@ -83741,7 +83739,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_ELECTRIC
-  type2: TYPE_DARK
   hp: 90
   atk: 120
   def: 74
@@ -91937,8 +91934,8 @@ species {
 species {
   id: SPECIES_GARCHOMP_MEGA_REDUX
   form_of: SPECIES_GARCHOMP
-  type: TYPE_GHOST
-  type2: TYPE_WATER
+  type: TYPE_WATER
+  type2: TYPE_GHOST
   hp: 100
   atk: 150
   def: 105
@@ -95126,7 +95123,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_ELECTRIC
-  type2: TYPE_FIGHTING
   hp: 95
   atk: 123
   def: 87
@@ -95268,7 +95264,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_FIRE
-  type2: TYPE_POISON
   hp: 75
   atk: 95
   def: 67
@@ -97103,8 +97098,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_FAIRY
-  type2: TYPE_PSYCHIC
+  type: TYPE_PSYCHIC
+  type2: TYPE_FAIRY
   hp: 75
   atk: 75
   def: 130
@@ -97371,8 +97366,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_FAIRY
-  type2: TYPE_PSYCHIC
+  type: TYPE_PSYCHIC
+  type2: TYPE_FAIRY
   hp: 80
   atk: 105
   def: 105
@@ -97658,8 +97653,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_FAIRY
-  type2: TYPE_PSYCHIC
+  type: TYPE_PSYCHIC
+  type2: TYPE_FAIRY
   hp: 75
   atk: 125
   def: 70
@@ -99289,7 +99284,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DARK
-  type2: TYPE_GHOST
   hp: 70
   atk: 90
   def: 90
@@ -99422,7 +99416,6 @@ species {
   randomizer_banned: MONOTYPE
   form_of: SPECIES_DARKRAI
   type: TYPE_DARK
-  type2: TYPE_GHOST
   hp: 70
   atk: 110
   def: 95
@@ -100736,7 +100729,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_DRAGON
   hp: 67
   atk: 60
   def: 75
@@ -100894,7 +100886,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_DRAGON
   hp: 83
   atk: 74
   def: 95
@@ -112220,7 +112211,7 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_PSYCHIC
-  type2: TYPE_GHOST
+  type2: TYPE_FLYING
   hp: 72
   atk: 58
   def: 90
@@ -112230,7 +112221,7 @@ species {
   ability: ABILITY_LOW_VISIBILITY
   ability: ABILITY_DREAMCATCHER
   ability: ABILITY_SAGE_POWER
-  innate: ABILITY_AERIALIST
+  innate: ABILITY_FLOCK
   innate: ABILITY_TINTED_LENS
   innate: ABILITY_WONDER_SKIN
   percent_female: 50
@@ -122361,7 +122352,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DRAGON
-  type2: TYPE_ROCK
   hp: 97
   atk: 120
   def: 90
@@ -122373,7 +122363,7 @@ species {
   ability: ABILITY_SUN_BASKING
   innate: ABILITY_TOUGH_CLAWS
   innate: ABILITY_SOLID_ROCK
-  innate: ABILITY_TURBOBLAZE
+  innate: ABILITY_MOLD_BREAKER
   percent_female: 50
   tier: 3
   learnset {
@@ -138555,7 +138545,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DRAGON
-  type2: TYPE_WATER
   hp: 68
   atk: 75
   def: 68
@@ -138697,7 +138686,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DRAGON
-  type2: TYPE_WATER
   hp: 90
   atk: 100
   def: 85
@@ -165809,8 +165797,8 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
-  type: TYPE_WATER
-  type2: TYPE_ELECTRIC
+  type: TYPE_ELECTRIC
+  type2: TYPE_WATER
   hp: 75
   atk: 101
   def: 95
@@ -166974,7 +166962,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_STEEL
-  type2: TYPE_WATER
   hp: 72
   atk: 80
   def: 49
@@ -167089,7 +167076,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_STEEL
-  type2: TYPE_WATER
   hp: 122
   atk: 130
   def: 69
@@ -167204,7 +167190,6 @@ species {
   id: SPECIES_COPPERAJAH_MEGA
   form_of: SPECIES_COPPERAJAH
   type: TYPE_STEEL
-  type2: TYPE_WATER
   hp: 122
   atk: 160
   def: 109
@@ -191852,7 +191837,6 @@ species {
   id: SPECIES_GOODRA_MEGA
   form_of: SPECIES_GOODRA
   type: TYPE_DRAGON
-  type2: TYPE_WATER
   hp: 90
   atk: 125
   def: 85
