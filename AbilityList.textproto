@@ -5607,7 +5607,7 @@ ability {
 }
 ability {
   id: ABILITY_FOAMY_WEB
-  name: "Foamy Web"
+  name: "Foamy Web (N)"
   description: "Casts an unremovable Sticky Web on entry. Lasts 5 turns."
   expanded_description: "Sets Sticky Web on opponent's field when the user enters battle. Lasts 5 turns and lowers Speed by 1 stage for any grounded Pokemon switching in. Cannot activate if Sticky Web is already present on opponent's field."
 }
