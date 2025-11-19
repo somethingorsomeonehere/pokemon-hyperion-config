@@ -5576,7 +5576,7 @@ ability {
 }
 ability {
   id: ABILITY_SAP_TRAP
-  name: "Sap Trap (N)"
+  name: "Sap Trap"
   description: "Lowers foe's speed at the end of turns. At -3 they get trapped."
 }
 ability {
