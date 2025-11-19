@@ -5591,7 +5591,7 @@ ability {
 }
 ability {
   id: ABILITY_MASSIVE_PELT
-  name: "Massive Pelt (N)"
+  name: "Massive Pelt"
   description: "Tangling Hair + Fluffy."
 }
 ability {
