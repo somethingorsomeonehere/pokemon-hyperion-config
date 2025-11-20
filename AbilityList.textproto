@@ -5571,7 +5571,7 @@ ability {
 }
 ability {
   id: ABILITY_CHRISTMAS_NIGHTMARE
-  name: "Christmas Nightmare (N)"
+  name: "Christmas Nightmare"
   description: "Enemies take 1/8 damage when in hail."
 }
 ability {
