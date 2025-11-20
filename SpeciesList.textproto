@@ -208300,6 +208300,7 @@ species {
 }
 species {
   id: SPECIES_DRAGALGE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGALGE
   type: TYPE_POISON
   type2: TYPE_DRAGON
@@ -208347,6 +208348,7 @@ species {
 }
 species {
   id: SPECIES_VICTREEBEL_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_VICTREEBEL
   type: TYPE_GRASS
   type2: TYPE_POISON
@@ -208441,6 +208443,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_MEGA_Y
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -208537,6 +208540,7 @@ species {
 }
 species {
   id: SPECIES_FROSLASS_MEGA_Y
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FROSLASS
   type: TYPE_ICE
   type2: TYPE_GHOST
@@ -208585,6 +208589,7 @@ species {
 }
 species {
   id: SPECIES_EXCADRILL_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_EXCADRILL
   type: TYPE_GROUND
   type2: TYPE_STEEL
@@ -208632,6 +208637,7 @@ species {
 }
 species {
   id: SPECIES_SCOLIPEDE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_SCOLIPEDE
   type: TYPE_BUG
   type2: TYPE_POISON
@@ -209008,6 +209014,7 @@ species {
 }
 species {
   id: SPECIES_FLOETTE_ETERNAL_FLOWER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FLOETTE
   type: TYPE_FAIRY
   hp: 74
@@ -209195,6 +209202,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_COMPLETE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -209242,6 +209250,7 @@ species {
 }
 species {
   id: SPECIES_DRAMPA_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAMPA
   type: TYPE_NORMAL
   type2: TYPE_DRAGON
