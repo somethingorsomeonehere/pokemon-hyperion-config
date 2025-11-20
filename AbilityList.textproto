@@ -5551,7 +5551,7 @@ ability {
 }
 ability {
   id: ABILITY_COSMIC_WINGS
-  name: "Cosmic Wings (N)"
+  name: "Cosmic Wings"
   description: "Flying moves become Fairy-type."
 }
 ability {
