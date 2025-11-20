@@ -5561,7 +5561,7 @@ ability {
 }
 ability {
   id: ABILITY_COOL_EXIT
-  name: "Cool Exit (N)"
+  name: "Cool Exit"
   description: "Uses Chilly Reception at the end of your 2nd turn."
 }
 ability {
