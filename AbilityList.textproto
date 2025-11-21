@@ -5521,12 +5521,12 @@ ability {
 }
 ability {
   id: ABILITY_ICE_PICK
-  name: "Ice Picks (N)"
+  name: "Ice Picks"
   description: "Tough Claws + Slush Rush."
 }
 ability {
   id: ABILITY_HAMMER_FIST
-  name: "Hammer Fist (N)"
+  name: "Hammer Fist"
   description: "Boosts punch and hammer moves by 25%."
 }
 ability {
@@ -5541,7 +5541,7 @@ ability {
 }
 ability {
   id: ABILITY_SUMO_GUARD
-  name: "Sumo Guard (N)"
+  name: "Sumo Guard"
   description: "Juggernaut + Thick Fat."
 }
 ability {
@@ -5634,7 +5634,7 @@ ability {
 }
 ability {
   id: ABILITY_BRAIN_OVERLOAD
-  name: "Brain Overload"
+  name: "Brain Overload (N)"
   description: "When hit, sets up Psychic Terrain."
 }
 ability {
@@ -5649,12 +5649,12 @@ ability {
 }
 ability {
   id: ABILITY_CHESTNUT_AXE
-  name: "Chestnut Axe"
+  name: "Chestnut Axe (N)"
   description: "Keen edge + Grass moves become Keen Edge boosted."
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
-  name: "Giant Shuriken"
+  name: "Giant Shuriken (N)"
   description: "Water Shuriken hits once with 100BP and +1 crit."
 }
 ability {
@@ -5674,12 +5674,12 @@ ability {
 }
 ability {
   id: ABILITY_WRESTLE_SHOWMAN
-  name: "Wrestle Showman"
+  name: "Wrestle Showman (N)"
   description: "Flying Press gains +10BP and causes Taunt."
 }
 ability {
   id: ABILITY_FIRE_RULER
-  name: "Fire Ruler"
+  name: "Fire Ruler (N)"
   description: "King's Wrath + Flame Body"
 }
 ability {
@@ -5709,12 +5709,12 @@ ability {
 }
 ability {
   id: ABILITY_FIRES_WRATH
-  name: "Fire's Wrath"
+  name: "Fire's Wrath (N)"
   description: "Intimidate + Scare; 10% burn chance on non contact moves."
 }
 ability {
   id: ABILITY_EMPERORS_WRATH
-  name: "Emperor's Wrath"
+  name: "Emperor's Wrath (N)"
   description: "King's Wrath + Queen's Mourning."
 }
 ability {
@@ -5749,23 +5749,23 @@ ability {
 }
 ability {
   id: ABILITY_ETERNAL_FLOWER
-  name: "Eternal Flower"
+  name: "Eternal Flower (N)"
   description: "Reduces the stats of other Megas by 20%."
 }
 ability {
   id: ABILITY_NIHIL_BLASTER
-  name: "Nihil Blaster"
+  name: "Nihil Blaster (N)"
   description: "Aura Break + Mega Launcher."
 }
 ability {
   id: ABILITY_HOLLOW_ICE_ZONE
-  name: "Hollow Ice Zone"
+  name: "Hollow Ice Zone (N)"
   description: "Foe's non-contact moves are Ice-type if user hasn't acted."
 }
 ability {
   id: ABILITY_OVERCAST
-  name: "Overcast"
-  description: "Low Visibility + Set Mist on entry."
+  name: "Overcast (N)"
+  description: "Low Visibility + Sets Mist on entry."
 }
 ability {
   id: ABILITY_CRYOSTASIS
@@ -5779,7 +5779,7 @@ ability {
 }
 ability {
   id: ABILITY_MEGA_DRILL
-  name: "Mega Drill"
+  name: "Mega Drill (N)"
   description: "Mighty Horn + all Drill moves are 30% stronger."
 }
 ability {
@@ -5789,6 +5789,6 @@ ability {
 }
 ability {
   id: ABILITY_LUCHA_LIBRE
-  name: "Lucha Libre"
+  name: "Lucha Libre (N)"
   description: "Dazzling + Defiant."
 }
