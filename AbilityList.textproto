@@ -5531,7 +5531,7 @@ ability {
 }
 ability {
   id: ABILITY_MACH_3
-  name: "Mach 3 (N)"
+  name: "Mach 3"
   description: "Deadly Precision + Slipstream."
 }
 ability {
