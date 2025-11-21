@@ -5625,204 +5625,170 @@ ability {
 ability {
   id: ABILITY_TUMMYACHE
   name: "Tummyache"
-  description: "Thick Fat + Corroison."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
+  description: "Thick Fat + Corrosion."
 }
 ability {
   id: ABILITY_HYPNOTIC_TRANCE
   name: "Hypnotic Trance"
   description: "Hypnosis never misses and also causes Confusion."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BRAIN_OVERLOAD
   name: "Brain Overload"
   description: "When hit, sets up Psychic Terrain."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BRAIN_MASS
   name: "Brain Mass"
   description: "Halves damage taken while at full HP."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_CHESTNUT_SHIELD
   name: "Chestnut Shield"
   description: "Impenetrable + Bulletproof"
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_CHESTNUT_AXE
   name: "Chestnut Axe"
   description: "Keen edge + Grass moves become Keen Edge boosted."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
   name: "Giant Shuriken"
   description: "Water Shuriken hits once with 100BP and +1 crit."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_RAIN_SHROUD
   name: "Rain Shroud"
   description: "Ups evasion by 30% in rain."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_WITCH_BROOM
   name: "Witch Broom"
   description: "Hyper Aggressive + Hover."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_ANGELIC_WINGS
   name: "Angelic Wings"
   description: "Prism Scales + Huge Wings."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_WRESTLE_SHOWMAN
   name: "Wrestle Showman"
   description: "Flying Press gains +10BP and causes Taunt."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_FIRE_RULER
   name: "Fire Ruler"
   description: "King's Wrath + Flame Body"
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_CHANDELIER
   name: "Chandelier"
   description: "Illuminate + Pyromancy."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_FOGGY_EYE
   name: "Foggy Eye"
   description: "While in Fog, boost Ghost moves by 50% and resist Ghost moves."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_TOXIC_SHELL
   name: "Toxic Shell"
   description: "Shell Armor + Poison Point."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_HAND_BARNACLES
   name: "Hand Barnacles"
   description: "Multi-Headed + Water STAB."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_VOLTRON
   name: "Voltron"
   description: "Battle Armor + Mighty Horn."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_FIRES_WRATH
   name: "Fire's Wrath"
   description: "Intimidate + Scare; 10% burn chance on non contact moves."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_EMPERORS_WRATH
   name: "Emperor's Wrath"
   description: "King's Wrath + Queen's Mourning."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_LEPIDOPTERAN
   name: "Lepidopteran"
   description: "Swarm + Unaware."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BREAK_IT_DOWN
   name: "Break it Down"
   description: "After using a dance move, follow up with a 20BP Rapid Spin."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_TALON_TRAP
   name: "Talon Trap"
   description: "75% chance to trap when using a Striker move."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BACKSTREET_BOY
   name: "Backstreet Boy"
   description: "Striker + Kicking moves are Dance moves and vise-versa."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BACKFLIP
   name: "Backflip"
   description: "After using a Dance move, follow up with a 50BP Chip Away."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_CRUSHING_JAW
   name: "Crushing Jaw"
   description: "Strong Jaw + Biting moves have a 50% chance to lower defense."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_ETERNAL_FLOWER
   name: "Eternal Flower"
   description: "Reduces the stats of other Megas by 20%."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_NIHIL_BLASTER
   name: "Nihil Blaster"
   description: "Aura Break + Mega Launcher."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_HOLLOW_ICE_ZONE
   name: "Hollow Ice Zone"
   description: "Foe's non-contact moves are Ice-type if user hasn't acted."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_OVERCAST
   name: "Overcast"
   description: "Low Visibility + Set Mist on entry."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_CRYOSTASIS
   name: "Cryostasis"
   description: "Cryomancy + Frostbite causes flinching."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_FLOWER_NECKLACE
   name: "Flower Necklace"
   description: "Grassy Surge boosts Special Defense by 1 stage."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_MEGA_DRILL
   name: "Mega Drill"
   description: "Mighty Horn + all Drill moves are 30% stronger."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_BOOGER_HEADS
   name: "Booger Heads"
   description: "Takes 30% less damage from attacks + Gooey"
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
 ability {
   id: ABILITY_LUCHA_LIBRE
   name: "Lucha Libre"
   description: "Dazzling + Defiant."
-  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
 }
