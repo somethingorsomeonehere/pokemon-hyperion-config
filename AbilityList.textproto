@@ -5536,8 +5536,8 @@ ability {
 }
 ability {
   id: ABILITY_RAGING_STORM
-  name: "Raging Storm (N)"
-  description: "Boosts offense by 50% in rain."
+  name: "Raging Storm"
+  description: "Ups highest attacking stat by 1.5x in sun."
 }
 ability {
   id: ABILITY_SUMO_GUARD
