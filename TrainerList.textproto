@@ -114967,3 +114967,281 @@ trainer {
     }
   }
 }
+trainer {
+  id: TRAINER_ACE_TRAINER_GOAT
+  name: "Goat"
+  gender: MALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_NEO
+  name: "Neo"
+  gender: MALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_ANABELLE
+  name: "Anabelle"
+  gender: FEMALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_VIOLET
+  name: "Violet"
+  gender: FEMALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_SKIER_JANET
+  name: "Janet"
+  gender: FEMALE
+  class: TRAINER_CLASS_SKIER
+  pic: TRAINER_PIC_SKIER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_SKIER_GLOVEL
+  name: "Glovel"
+  gender: MALE
+  class: TRAINER_CLASS_SKIER
+  pic: TRAINER_PIC_SKIER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_PAGANI
+  name: "Pagani"
+  gender: FEMALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_ASHLEY
+  name: "Ashley"
+  gender: FEMALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_LEELA
+  name: "Leela"
+  gender: FEMALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_F
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+trainer {
+  id: TRAINER_ACE_TRAINER_DICK
+  name: "Dick"
+  gender: MALE
+  class: TRAINER_CLASS_COOLTRAINER
+  pic: TRAINER_PIC_COOLTRAINER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_SKIER_GUIN
+  name: "Guin"
+  gender: MALE
+  class: TRAINER_CLASS_SKIER
+  pic: TRAINER_PIC_SKIER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
+
+trainer {
+  id: TRAINER_ACE_TRAINER_MIKE
+  name: "Mike"
+  gender: MALE
+  class: TRAINER_CLASS_SKIER
+  pic: TRAINER_PIC_SKIER_M
+  music: TRAINER_ENCOUNTER_MUSIC_COOL
+  ace {
+    mon {
+      species: SPECIES_MAGIKARP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_TIMID
+      ability: ABILITY_DROUGHT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SPLASH
+      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_BOUNCE
+    }
+  }
+}
