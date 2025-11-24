@@ -5634,7 +5634,7 @@ ability {
 }
 ability {
   id: ABILITY_BRAIN_OVERLOAD
-  name: "Brain Overload (N)"
+  name: "Brain Overload"
   description: "When hit, sets up Psychic Terrain."
 }
 ability {
@@ -5709,7 +5709,7 @@ ability {
 }
 ability {
   id: ABILITY_FIRES_WRATH
-  name: "Fire's Wrath (N)"
+  name: "Fire's Wrath"
   description: "Intimidate + Scare; 10% burn chance on non contact moves."
 }
 ability {
