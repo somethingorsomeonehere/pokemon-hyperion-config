@@ -1452,7 +1452,7 @@ ability {
   id: ABILITY_STALWART
   name: "Stalwart"
   description: "Isn't affected by target redirection."
-  expanded_description: "Stalwart prevents the Pokemon from being affected by target redirection effects and effects that remove or suppress abilities."
+  expanded_description: "Stalwart prevents the Pokemon from being affected by target redirection effects."
 }
 ability {
   id: ABILITY_STEAM_ENGINE
