@@ -5749,7 +5749,7 @@ ability {
 }
 ability {
   id: ABILITY_ETERNAL_FLOWER
-  name: "Eternal Flower (N)"
+  name: "Eternal Flower"
   description: "Reduces the stats of other Megas by 20%."
 }
 ability {
