@@ -5486,7 +5486,7 @@ ability {
 }
 ability {
   id: ABILITY_MASHED_POTATO
-  name: "Mashed Potato (N)"
+  name: "Mashed Potato"
   description: "Syrup Bomb effect on the foe for 3 turns."
 }
 ability {
