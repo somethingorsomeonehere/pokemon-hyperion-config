@@ -5649,7 +5649,7 @@ ability {
 }
 ability {
   id: ABILITY_CHESTNUT_AXE
-  name: "Chestnut Axe (N)"
+  name: "Chestnut Axe"
   description: "Keen edge + Grass moves become Keen Edge boosted."
 }
 ability {
