@@ -108512,8 +108512,8 @@ species {
   ability: ABILITY_GRIP_PINCER
   ability: ABILITY_POISON_POINT
   ability: ABILITY_SPEED_BOOST
-  innate: ABILITY_LETS_ROLL
-  innate: ABILITY_COIL_UP
+  innate: ABILITY_CURLIPEDE
+  innate: ABILITY_NEUROTOXIN
   innate: ABILITY_SHELL_ARMOR
   percent_female: 50
   evo {
