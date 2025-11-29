@@ -5654,7 +5654,7 @@ ability {
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
-  name: "Giant Shuriken (N)"
+  name: "Giant Shuriken"
   description: "Water Shuriken hits once with 100BP and +1 crit."
 }
 ability {
@@ -5783,8 +5783,8 @@ ability {
   description: "Mighty Horn + all Drill moves are 30% stronger."
 }
 ability {
-  id: ABILITY_BOOGER_HEADS
-  name: "Booger Heads"
+  id: ABILITY_MUCUS_MEMBRANE
+  name: "Mucus Membrane"
   description: "Takes 30% less damage from attacks + Gooey"
 }
 ability {

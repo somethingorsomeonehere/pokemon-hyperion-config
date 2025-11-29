@@ -108512,8 +108512,8 @@ species {
   ability: ABILITY_GRIP_PINCER
   ability: ABILITY_POISON_POINT
   ability: ABILITY_SPEED_BOOST
-  innate: ABILITY_LETS_ROLL
-  innate: ABILITY_COIL_UP
+  innate: ABILITY_CURLIPEDE
+  innate: ABILITY_NEUROTOXIN
   innate: ABILITY_SHELL_ARMOR
   percent_female: 50
   evo {
@@ -197516,12 +197516,12 @@ species {
   spatk: 190
   spdef: 115
   spe: 90
-  ability: ABILITY_PURGATORY
-  ability: ABILITY_SHADOW_SHIELD
+  ability: ABILITY_FRIEND_GUARD
+  ability: ABILITY_FLAME_SHIELD
   ability: ABILITY_HELLBLAZE
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_CHANDELIER
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_RADIANCE
+  innate: ABILITY_FLAME_BODY
   percent_female: 50
   heads: 3
   mega {
@@ -208300,7 +208300,6 @@ species {
 }
 species {
   id: SPECIES_DRAGALGE_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGALGE
   type: TYPE_POISON
   type2: TYPE_DRAGON
@@ -208323,11 +208322,11 @@ species {
   }
   visuals {
     icon {
-      path: "dragalge/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "dragalge/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208335,20 +208334,19 @@ species {
       }
     }
     back {
-      path: "dragalge/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "dragalge/mega/normal"
-    shiny: "dragalge/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
   id: SPECIES_VICTREEBEL_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_VICTREEBEL
   type: TYPE_GRASS
   type2: TYPE_POISON
@@ -208467,7 +208465,7 @@ species {
   }
   visuals {
     icon {
-      path: "dragonite/mega_y/icon"
+      path: "dragonite/mega/icon"
       palette: 4
     }
     front {
@@ -208564,11 +208562,11 @@ species {
   }
   visuals {
     icon {
-      path: "froslass/mega_y/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "froslass/mega_y/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208576,15 +208574,15 @@ species {
       }
     }
     back {
-      path: "froslass/mega_y/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "froslass/mega_y/normal"
-    shiny: "froslass/mega_y/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -208612,11 +208610,11 @@ species {
   }
   visuals {
     icon {
-      path: "excadrill/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "excadrill/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208624,20 +208622,19 @@ species {
       }
     }
     back {
-      path: "excadrill/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "excadrill/mega/normal"
-    shiny: "excadrill/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
   id: SPECIES_SCOLIPEDE_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_SCOLIPEDE
   type: TYPE_BUG
   type2: TYPE_POISON
@@ -208660,11 +208657,11 @@ species {
   }
   visuals {
     icon {
-      path: "scolipede/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "scolipede/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208672,15 +208669,15 @@ species {
       }
     }
     back {
-      path: "scolipede/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "scolipede/mega/normal"
-    shiny: "scolipede/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -208694,12 +208691,12 @@ species {
   spatk: 55
   spdef: 135
   spe: 83
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  innate: ABILITY_POLLINATE
-  innate: ABILITY_GIANT_WINGS
-  innate: ABILITY_MAGIC_GUARD
+  ability: ABILITY_BACKSTREET_BOY
+  ability: ABILITY_BACKSTREET_BOY
+  ability: ABILITY_BACKSTREET_BOY
+  innate: ABILITY_WONDER_SCALE
+  innate: ABILITY_BACKFLIP
+  innate: ABILITY_OVERCOAT
   percent_female: 50
   mega {
     from: SPECIES_SCRAFTY
@@ -208744,7 +208741,7 @@ species {
   ability: ABILITY_ELECTROMORPHOSIS
   ability: ABILITY_NOSFERATU
   ability: ABILITY_PLUS
-  innate: ABILITY_BOOGER_HEADS
+  innate: ABILITY_MUCUS_MEMBRANE
   innate: ABILITY_LEVITATE
   innate: ABILITY_AMPHIBIOUS
   percent_female: 50
@@ -208788,12 +208785,12 @@ species {
   spatk: 175
   spdef: 110
   spe: 90
-  ability: ABILITY_FRIEND_GUARD
-  ability: ABILITY_FLAME_SHIELD
-  ability: ABILITY_HELLBLAZE
-  innate: ABILITY_CHANDELIER
-  innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_FLAME_BODY
+  ability: ABILITY_PURGATORY
+  ability: ABILITY_SHADOW_SHIELD
+  ability: ABILITY_FOGGY_EYE
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_ETHEREAL_RUSH
+  innate: ABILITY_RADIANCE
   percent_female: 50
   mega {
     from: SPECIES_CHANDELURE
@@ -208885,7 +208882,7 @@ species {
   ability: ABILITY_DEADLY_PRECISION
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_FOREWARN
-  innate: ABILITY_POLLINATE
+  innate: ABILITY_HELLBLAZE
   innate: ABILITY_WITCH_BROOM
   innate: ABILITY_MAGIC_GUARD
   percent_female: 50
@@ -209014,7 +209011,6 @@ species {
 }
 species {
   id: SPECIES_FLOETTE_ETERNAL_FLOWER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FLOETTE
   type: TYPE_FAIRY
   hp: 74
@@ -209036,11 +209032,11 @@ species {
   }
   visuals {
     icon {
-      path: "floette/eternal_flower/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "floette/eternal_flower/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -209048,15 +209044,15 @@ species {
       }
     }
     back {
-      path: "floette/eternal_flower/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "floette/eternal_flower/mega/normal"
-    shiny: "floette/eternal_flower/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -209202,7 +209198,6 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_COMPLETE_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -209225,11 +209220,11 @@ species {
   }
   visuals {
     icon {
-      path: "zygarde/complete/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "zygarde/complete/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -209237,20 +209232,19 @@ species {
       }
     }
     back {
-      path: "zygarde/complete/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "zygarde/complete/mega/normal"
-    shiny: "zygarde/complete/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
   id: SPECIES_DRAMPA_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAMPA
   type: TYPE_NORMAL
   type2: TYPE_DRAGON
@@ -209273,11 +209267,11 @@ species {
   }
   visuals {
     icon {
-      path: "drampa/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
-      path: "drampa/mega/front"
+      path: "question_mark/circled/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -209285,15 +209279,15 @@ species {
       }
     }
     back {
-      path: "drampa/mega/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "drampa/mega/normal"
-    shiny: "drampa/mega/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
