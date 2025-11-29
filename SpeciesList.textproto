@@ -208741,7 +208741,7 @@ species {
   ability: ABILITY_ELECTROMORPHOSIS
   ability: ABILITY_NOSFERATU
   ability: ABILITY_PLUS
-  innate: ABILITY_BOOGER_HEADS
+  innate: ABILITY_MUCUS_MEMBRANE
   innate: ABILITY_LEVITATE
   innate: ABILITY_AMPHIBIOUS
   percent_female: 50
