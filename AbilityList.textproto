@@ -5754,7 +5754,7 @@ ability {
 }
 ability {
   id: ABILITY_NIHIL_BLASTER
-  name: "Nihil Blaster (N)"
+  name: "Nihil Blaster"
   description: "Aura Break + Mega Launcher."
 }
 ability {
