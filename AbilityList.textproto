@@ -5654,7 +5654,7 @@ ability {
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
-  name: "Giant Shuriken (N)"
+  name: "Giant Shuriken"
   description: "Water Shuriken hits once with 100BP and +1 crit."
 }
 ability {
