@@ -5466,7 +5466,7 @@ ability {
 }
 ability {
   id: ABILITY_FLAWLESS_PRECISION
-  name: "Flawless Precision (N)"
+  name: "Flawless Precision"
   description: "Fatal + Deadly Precision."
 }
 ability {
