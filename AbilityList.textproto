@@ -5792,3 +5792,8 @@ ability {
   name: "Lucha Libre (N)"
   description: "Dazzling + Defiant."
 }
+ability {
+  id: ABILITY_CURLIPEDE
+  name: "Curlipede"
+  description: "Let's Roll + Coil Up"
+}
