@@ -197516,12 +197516,12 @@ species {
   spatk: 190
   spdef: 115
   spe: 90
-  ability: ABILITY_PURGATORY
-  ability: ABILITY_SHADOW_SHIELD
+  ability: ABILITY_FRIEND_GUARD
+  ability: ABILITY_FLAME_SHIELD
   ability: ABILITY_HELLBLAZE
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_CHANDELIER
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_RADIANCE
+  innate: ABILITY_FLAME_BODY
   percent_female: 50
   heads: 3
   mega {
@@ -208441,6 +208441,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_MEGA_Y
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -208537,6 +208538,7 @@ species {
 }
 species {
   id: SPECIES_FROSLASS_MEGA_Y
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FROSLASS
   type: TYPE_ICE
   type2: TYPE_GHOST
@@ -208585,6 +208587,7 @@ species {
 }
 species {
   id: SPECIES_EXCADRILL_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_EXCADRILL
   type: TYPE_GROUND
   type2: TYPE_STEEL
@@ -208688,12 +208691,12 @@ species {
   spatk: 55
   spdef: 135
   spe: 83
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  innate: ABILITY_POLLINATE
-  innate: ABILITY_GIANT_WINGS
-  innate: ABILITY_MAGIC_GUARD
+  ability: ABILITY_BACKSTREET_BOY
+  ability: ABILITY_BACKSTREET_BOY
+  ability: ABILITY_BACKSTREET_BOY
+  innate: ABILITY_WONDER_SCALE
+  innate: ABILITY_BACKFLIP
+  innate: ABILITY_OVERCOAT
   percent_female: 50
   mega {
     from: SPECIES_SCRAFTY
@@ -208782,12 +208785,12 @@ species {
   spatk: 175
   spdef: 110
   spe: 90
-  ability: ABILITY_FRIEND_GUARD
-  ability: ABILITY_FLAME_SHIELD
-  ability: ABILITY_HELLBLAZE
-  innate: ABILITY_CHANDELIER
-  innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_FLAME_BODY
+  ability: ABILITY_PURGATORY
+  ability: ABILITY_SHADOW_SHIELD
+  ability: ABILITY_FOGGY_EYE
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_ETHEREAL_RUSH
+  innate: ABILITY_RADIANCE
   percent_female: 50
   mega {
     from: SPECIES_CHANDELURE
@@ -208879,7 +208882,7 @@ species {
   ability: ABILITY_DEADLY_PRECISION
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_FOREWARN
-  innate: ABILITY_POLLINATE
+  innate: ABILITY_HELLBLAZE
   innate: ABILITY_WITCH_BROOM
   innate: ABILITY_MAGIC_GUARD
   percent_female: 50
