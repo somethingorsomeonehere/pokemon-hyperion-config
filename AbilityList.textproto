@@ -5674,7 +5674,7 @@ ability {
 }
 ability {
   id: ABILITY_WRESTLE_SHOWMAN
-  name: "Wrestle Showman (N)"
+  name: "Wrestle Showman"
   description: "Flying Press gains +10BP and causes Taunt."
 }
 ability {
