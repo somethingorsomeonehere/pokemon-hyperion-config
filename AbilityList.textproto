@@ -5764,7 +5764,7 @@ ability {
 }
 ability {
   id: ABILITY_OVERCAST
-  name: "Overcast (N)"
+  name: "Overcast"
   description: "Low Visibility + Sets Mist on entry."
 }
 ability {
