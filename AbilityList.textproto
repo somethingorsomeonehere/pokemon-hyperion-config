@@ -5804,7 +5804,7 @@ ability {
 }
 ability {
   id: ABILITY_WATERBORNE
-  name: "Waterborne (N)"
+  name: "Waterborne"
   description: "Aquatic + Adaptability"
 }
 ability {
