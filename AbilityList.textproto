@@ -5797,3 +5797,18 @@ ability {
   name: "Curlipede"
   description: "Let's Roll + Coil Up"
 }
+ability {
+  id: ABILITY_STORM_CLOUD
+  name: "Storm Cloud (N)"
+  description: "Summon rain on entry for 8 turns. Gain Electric-type STAB."
+}
+ability {
+  id: ABILITY_WATERBORNE
+  name: "Waterborne"
+  description: "Aquatic + Adaptability"
+}
+ability {
+  id: ABILITY_DRAKELP_HEAD
+  name: "Drakelp Head (N)"
+  description: "Placeholder"
+}
