@@ -5075,7 +5075,7 @@ ability {
 }
 ability {
   id: ABILITY_SUPERHEAVY
-  name: "Superheavy (N)"
+  name: "Superheavy"
   description: "Steadfast + blocks phasing moves."
   expanded_description: "Getting flinched raises Speed by one stage. Prevents forced switching from moves and Red Card."
 }
