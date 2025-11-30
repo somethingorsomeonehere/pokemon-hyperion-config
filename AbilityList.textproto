@@ -5775,7 +5775,7 @@ ability {
 ability {
   id: ABILITY_FLOWER_NECKLACE
   name: "Flower Necklace"
-  description: "Grassy Surge boosts Special Defense by 1 stage."
+  description: "This Pokémon's SpDef gets a 1.5x boost in Grassy Terrain."
 }
 ability {
   id: ABILITY_MEGA_DRILL
