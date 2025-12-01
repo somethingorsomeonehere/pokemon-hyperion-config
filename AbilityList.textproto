@@ -5416,7 +5416,7 @@ ability {
 }
 ability {
   id: ABILITY_MUSICAL_NOTES
-  name: "Musical Notes (N)"
+  name: "Musical Notes"
   description: "Status moves become sound-based."
 }
 ability {
