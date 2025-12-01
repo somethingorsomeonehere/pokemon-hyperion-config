@@ -5496,7 +5496,7 @@ ability {
 }
 ability {
   id: ABILITY_TASTE_THE_RAINBOW
-  name: "Taste the Rainbow (N)"
+  name: "Taste the Rainbow"
   description: "Summons the Rainbow Pledge effect on entry."
 }
 ability {
