@@ -5812,3 +5812,8 @@ ability {
   name: "Drakelp Head (N)"
   description: "Placeholder"
 }
+ability {
+  id: ABILITY_POLARITY
+  name: "Polarity"
+  description: "Plus + Minus"
+}
