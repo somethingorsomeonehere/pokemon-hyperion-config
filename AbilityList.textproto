@@ -5431,8 +5431,8 @@ ability {
 }
 ability {
   id: ABILITY_HOME_RUN
-  name: "Home Run (N)"
-  description: "Landing a crit boosts your 3 lowest stats. RAW stat, not base."
+  name: "Home Run"
+  description: "Landing a crit boosts your 3 lowest stats."
 }
 ability {
   id: ABILITY_BRUISER
