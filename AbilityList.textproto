@@ -4962,7 +4962,7 @@ ability {
 ability {
   id: ABILITY_STAINLESS_STEEL
   name: "Stainless Steel"
-  description: "Fort Knox + Wonder Skin."
+  description: "Fort Knox + Steelworker."
   expanded_description: "Converts Normal-type moves to Steel-type and grants STAB for Steel moves regardless of typing. Additionally takes half damage from Dark and Ghost-type moves. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
 }
 ability {
