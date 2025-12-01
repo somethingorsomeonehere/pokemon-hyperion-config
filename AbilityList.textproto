@@ -5441,7 +5441,7 @@ ability {
 }
 ability {
   id: ABILITY_NARCISSIST
-  name: "Narcissist (N)"
+  name: "Narcissist"
   description: "When a stat is lowered, sharply raise both offenses."
 }
 ability {
