@@ -5799,7 +5799,7 @@ ability {
 }
 ability {
   id: ABILITY_STORM_CLOUD
-  name: "Storm Cloud (N)"
+  name: "Storm Cloud"
   description: "Summon rain on entry for 8 turns. Gain Electric-type STAB."
 }
 ability {
