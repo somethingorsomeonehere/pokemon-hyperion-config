@@ -5679,7 +5679,7 @@ ability {
 }
 ability {
   id: ABILITY_FIRE_RULER
-  name: "Fire Ruler (N)"
+  name: "Fire Ruler"
   description: "King's Wrath + Flame Body"
 }
 ability {
@@ -5714,7 +5714,7 @@ ability {
 }
 ability {
   id: ABILITY_EMPERORS_WRATH
-  name: "Emperor's Wrath (N)"
+  name: "Emperor's Wrath"
   description: "King's Wrath + Queen's Mourning."
 }
 ability {
@@ -5789,7 +5789,7 @@ ability {
 }
 ability {
   id: ABILITY_LUCHA_LIBRE
-  name: "Lucha Libre (N)"
+  name: "Lucha Libre"
   description: "Dazzling + Defiant."
 }
 ability {
