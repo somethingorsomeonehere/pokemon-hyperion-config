@@ -5491,7 +5491,7 @@ ability {
 }
 ability {
   id: ABILITY_RAINBOW_SCALES
-  name: "Rainbow Scales (N)"
+  name: "Rainbow Scales"
   description: "Fire Scales + Taste the Rainbow."
 }
 ability {
