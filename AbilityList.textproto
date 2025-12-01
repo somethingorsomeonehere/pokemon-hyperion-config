@@ -5381,7 +5381,7 @@ ability {
 }
 ability {
   id: ABILITY_STRONG_FOUNDATION
-  name: "Strong Foundation (P)"
+  name: "Strong Foundation"
   description: "Takes 1/2 Water and Ground dmg and can't be forced out."
 }
 ability {
