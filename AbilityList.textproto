@@ -5809,8 +5809,8 @@ ability {
 }
 ability {
   id: ABILITY_DRAKELP_HEAD
-  name: "Drakelp Head (N)"
-  description: "Placeholder"
+  name: "Drakelp Head"
+  description: "Weakens first move taken and drops opponent's attack."
 }
 ability {
   id: ABILITY_POLARITY
