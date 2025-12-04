@@ -4895,13 +4895,13 @@ ability {
 }
 ability {
   id: ABILITY_TENTALOCK
-  name: "Tentalock (N)"
+  name: "Tentalock"
   description: "Grappler + Serpent Bind."
   expanded_description: "Trapping moves last 6 turns instead of 4-5 turns and increases their damage at the end of the turn to 1/6 max HP per turn. Gives attacks a 50% chance to trap the target for 6 turns, preventing escape or switching. Once trapped, their speed drops by one stage each turn they remain on the field."
 }
 ability {
   id: ABILITY_SERPENT_BIND
-  name: "Serpent Bind (N)"
+  name: "Serpent Bind"
   description: "50% chance to trap, then drop the their speed by -1 each turn."
   expanded_description: "Gives attacks a 50% chance to trap the target for 4-5 turns, preventing escape or switching. Once trapped, their speed drops by one stage each turn they remain on the field."
 }
