@@ -5009,7 +5009,7 @@ ability {
 }
 ability {
   id: ABILITY_CHOKEHOLD
-  name: "Chokehold (N)"
+  name: "Chokehold"
   description: "Binding moves lower speed and paralyze."
   expanded_description: "When the user traps a target, they inflict paralysis and drop their speed by one stage once every turn while trapped."
 }
