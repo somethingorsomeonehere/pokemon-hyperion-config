@@ -4985,8 +4985,8 @@ ability {
 }
 ability {
   id: ABILITY_HARUKAZE
-  name: "Harukaze (N)"
-  description: "Setting Grassy Terrain sets Tailwind an vice versa."
+  name: "Harukaze"
+  description: "Setting Grassy Terrain sets Tailwind and vice versa."
   expanded_description: "Sets Grassy Terrain when setting Tailwind, and sets Tailwind when setting Grassy Terrain. Does not refresh the duration in either case if one is already active."
 }
 ability {
