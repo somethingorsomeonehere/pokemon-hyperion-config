@@ -74887,16 +74887,16 @@ species {
   type2: TYPE_GHOST
   hp: 70
   atk: 70
-  def: 90
+  def: 120
   spatk: 130
   spdef: 120
-  spe: 120
-  ability: ABILITY_CRYOMANCY
-  ability: ABILITY_FROSTBIND
-  ability: ABILITY_BAD_LUCK
-  innate: ABILITY_YUKI_ONNA
-  innate: ABILITY_WHITEOUT
-  innate: ABILITY_GLACIAL_GHOST
+  spe: 90
+  ability: ABILITY_REJECTION
+  ability: ABILITY_FRISK
+  ability: ABILITY_OVERCAST
+  innate: ABILITY_HOLLOW_ICE_ZONE
+  innate: ABILITY_CRYOSTASIS
+  innate: ABILITY_AURORA_BOREALIS
   percent_female: 100
   mega {
     from: SPECIES_FROSLASS
@@ -208546,12 +208546,12 @@ species {
   spatk: 140
   spdef: 100
   spe: 140
-  ability: ABILITY_REJECTION
-  ability: ABILITY_FRISK
-  ability: ABILITY_OVERCAST
-  innate: ABILITY_HOLLOW_ICE_ZONE
-  innate: ABILITY_CRYOSTASIS
-  innate: ABILITY_AURORA_BOREALIS
+  ability: ABILITY_CRYOMANCY
+  ability: ABILITY_FROSTBIND
+  ability: ABILITY_BAD_LUCK
+  innate: ABILITY_YUKI_ONNA
+  innate: ABILITY_WHITEOUT
+  innate: ABILITY_GLACIAL_GHOST
   percent_female: 50
   mega {
     from: SPECIES_FROSLASS
