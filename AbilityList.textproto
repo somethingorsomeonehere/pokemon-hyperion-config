@@ -5815,5 +5815,5 @@ ability {
 ability {
   id: ABILITY_POLARITY
   name: "Polarity"
-  description: "Plus + Minus"
+  description: "Increases the party's highest stat by 30%"
 }
