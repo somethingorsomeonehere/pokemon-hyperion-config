@@ -4883,9 +4883,9 @@ ability {
 }
 ability {
   id: ABILITY_MENTAL_POLLUTION
-  name: "Mental Pollution (N)"
-  description: "Nulls abilities when confused except others with this ability."
-  expanded_description: "Nullifies all opposing Pokemon's abilities and innates while they are confused. Pokemon with Mental Pollution remain unaffected."
+  name: "Mental Pollution"
+  description: "Suppresses others' abilities when it becomes confused."
+  expanded_description: "Applies ability suppression to other Pokemon when it becomes confused. Suppression lasts while those Pokemon remain on the field. Pokemon with Mental Pollution are unaffected."
 }
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT

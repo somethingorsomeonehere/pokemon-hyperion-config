@@ -17736,7 +17736,7 @@ species {
     pokemon_offset: 2
     trainer_offset: 2
   }
-  type: TYPE_FIGHTING
+  type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 52
   atk: 90
@@ -74887,16 +74887,16 @@ species {
   type2: TYPE_GHOST
   hp: 70
   atk: 70
-  def: 90
+  def: 120
   spatk: 130
   spdef: 120
-  spe: 120
-  ability: ABILITY_CRYOMANCY
-  ability: ABILITY_FROSTBIND
-  ability: ABILITY_BAD_LUCK
-  innate: ABILITY_YUKI_ONNA
-  innate: ABILITY_WHITEOUT
-  innate: ABILITY_GLACIAL_GHOST
+  spe: 90
+  ability: ABILITY_REJECTION
+  ability: ABILITY_FRISK
+  ability: ABILITY_OVERCAST
+  innate: ABILITY_HOLLOW_ICE_ZONE
+  innate: ABILITY_CRYOSTASIS
+  innate: ABILITY_AURORA_BOREALIS
   percent_female: 100
   mega {
     from: SPECIES_FROSLASS
@@ -76142,7 +76142,6 @@ species {
     pokemon_offset: 5
   }
   type: TYPE_WATER
-  type2: TYPE_FAIRY
   hp: 65
   atk: 84
   def: 105
@@ -109076,7 +109075,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_FAIRY
   hp: 45
   atk: 35
   def: 50
@@ -208303,18 +208301,18 @@ species {
   form_of: SPECIES_DRAGALGE
   type: TYPE_POISON
   type2: TYPE_DRAGON
-  hp: 100
-  atk: 80
-  def: 100
-  spatk: 140
-  spdef: 118
-  spe: 70
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  innate: ABILITY_POLLINATE
-  innate: ABILITY_GIANT_WINGS
-  innate: ABILITY_MAGIC_GUARD
+  hp: 85
+  atk: 97
+  def: 105
+  spatk: 142
+  spdef: 163
+  spe: 44
+  ability: ABILITY_PROTEAN
+  ability: ABILITY_CONTRARY
+  ability: ABILITY_TOXIC_SURGE
+  innate: ABILITY_WATERBORNE
+  innate: ABILITY_TOXIC_SPILL
+  innate: ABILITY_DRAKELP_HEAD
   percent_female: 50
   mega {
     from: SPECIES_DRAGALGE
@@ -208359,7 +208357,7 @@ species {
   ability: ABILITY_HYPER_AGGRESSIVE
   ability: ABILITY_POISON_ABSORB
   ability: ABILITY_SWEET_VEIL
-  innate: ABILITY_POLLINATE
+  innate: ABILITY_TUMMYACHE
   innate: ABILITY_GIANT_WINGS
   innate: ABILITY_WONDER_SKIN
   percent_female: 50
@@ -208548,12 +208546,12 @@ species {
   spatk: 140
   spdef: 100
   spe: 140
-  ability: ABILITY_REJECTION
-  ability: ABILITY_FRISK
-  ability: ABILITY_OVERCAST
-  innate: ABILITY_HOLLOW_ICE_ZONE
-  innate: ABILITY_CRYOSTASIS
-  innate: ABILITY_AURORA_BOREALIS
+  ability: ABILITY_CRYOMANCY
+  ability: ABILITY_FROSTBIND
+  ability: ABILITY_BAD_LUCK
+  innate: ABILITY_YUKI_ONNA
+  innate: ABILITY_WHITEOUT
+  innate: ABILITY_GLACIAL_GHOST
   percent_female: 50
   mega {
     from: SPECIES_FROSLASS
@@ -209163,7 +209161,7 @@ species {
   ability: ABILITY_GOOD_AS_GOLD
   ability: ABILITY_COMBAT_SPECIALIST
   ability: ABILITY_WRESTLE_SHOWMAN
-  innate: ABILITY_POLLINATE
+  innate: ABILITY_LUCHA_LIBRE
   innate: ABILITY_STAMINA
   innate: ABILITY_VITAL_SPIRIT
   percent_female: 50
