@@ -5829,7 +5829,7 @@ ability {
 }
 ability {
   id: ABILITY_THUNDER_CLOUDS
-  name: "Thunder Clouds (N)"
+  name: "Thunder Clouds"
   description: "After using a special move, launch a 35 BP Thunderbolt"
 }
 
