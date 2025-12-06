@@ -5823,8 +5823,8 @@ ability {
   description: "Heal 1/4 of max HP whenever below 1/2 health"
 }
 ability {
-  id: ABILITY_BERSERKER_RAGE
-  name: "Berserker Rage (N)"
+  id: ABILITY_GOING_BERSERK
+  name: " Going Berserk (N)"
   description: "Berserk + Rampage"
 }
 ability {
