@@ -4889,7 +4889,7 @@ ability {
 }
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
-  name: "Madness Enhancement (N)"
+  name: "Madness Enhancement"
   description: "Confuses self in fog, halves damage when confused."
   expanded_description: "Forces self-confusion when entering fog. All incoming damage is reduced by 50% when the user is confused and it will never hurt itself."
 }
