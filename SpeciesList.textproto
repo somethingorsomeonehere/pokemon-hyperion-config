@@ -83740,14 +83740,14 @@ species {
   type: TYPE_ELECTRIC
   hp: 90
   atk: 120
-  def: 74
-  spatk: 69
-  spdef: 74
-  spe: 106
-  ability: ABILITY_QUICK_FEET
+  def: 79
+  spatk: 75
+  spdef: 79
+  spe: 90
+  ability: ABILITY_FRISK
   ability: ABILITY_ELECTRIC_BURST
   ability: ABILITY_GUTS
-  innate: ABILITY_GLEAM_EYES
+  innate: ABILITY_SHORT_CIRCUIT
   innate: ABILITY_INTIMIDATE
   innate: ABILITY_PREDATOR
   percent_female: 50
@@ -83887,7 +83887,6 @@ species {
   id: SPECIES_LUXRAY_MEGA
   form_of: SPECIES_LUXRAY
   type: TYPE_ELECTRIC
-  type2: TYPE_DARK
   hp: 90
   atk: 143
   def: 96
