@@ -5817,3 +5817,19 @@ ability {
   name: "Polarity"
   description: "Increases the party's highest stat by 30%"
 }
+ability {
+  id: ABILITY_RESILIENCE
+  name: "Resilience (N)"
+  description: "Heal 1/4 of max HP whenever below 1/2 health"
+}
+ability {
+  id: ABILITY_BERSERKER_RAGE
+  name: "Berserker Rage (N)"
+  description: "Berserk + Rampage"
+}
+ability {
+  id: ABILITY_THUNDER_CLOUDS
+  name: "Thunder Clouds (N)"
+  description: "After using a special move, launch a 35 BP Thunderbolt"
+}
+
