@@ -193972,18 +193972,18 @@ species {
   id: SPECIES_KRABBY_REDUX
   form_of: SPECIES_KRABBY
   type: TYPE_PSYCHIC
-  hp: 55
-  atk: 25
-  def: 40
-  spatk: 105
-  spdef: 90
-  spe: 35
+  hp: 45
+  atk: 38
+  def: 48
+  spatk: 97
+  spdef: 88
+  spe: 34
   ability: ABILITY_SERENE_GRACE
-  ability: ABILITY_SHELL_ARMOR
-  ability: ABILITY_TWISTED_DIMENSION
+  ability: ABILITY_FOREWARN
+  ability: ABILITY_PSYCHIC_MIND
   innate: ABILITY_MAGIC_GUARD
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_MYSTIC_POWER
-  innate: ABILITY_ARCHMAGE
   percent_female: 50
   tier: 1
   evo {
@@ -194568,17 +194568,17 @@ species {
   form_of: SPECIES_ARON
   type: TYPE_WATER
   type2: TYPE_ROCK
-  hp: 50
+  hp: 54
   atk: 70
-  def: 75
+  def: 76
   spatk: 40
-  spdef: 60
-  spe: 35
-  ability: ABILITY_WEAK_ARMOR
-  ability: ABILITY_SHEER_FORCE
+  spdef: 64
+  spe: 26
+  ability: ABILITY_HYDRATION
+  ability: ABILITY_TORRENT
   ability: ABILITY_LOOSE_ROCKS
   innate: ABILITY_WATER_VEIL
-  innate: ABILITY_ROCKHARD_WILL
+  innate: ABILITY_BULLETPROOF
   innate: ABILITY_SOLID_ROCK
   percent_female: 50
   tier: 4
@@ -194667,13 +194667,13 @@ species {
   form_of: SPECIES_LAIRON
   type: TYPE_WATER
   type2: TYPE_ROCK
-  hp: 60
-  atk: 95
-  def: 100
-  spatk: 40
-  spdef: 90
-  spe: 45
-  ability: ABILITY_WEAK_ARMOR
+  hp: 64
+  atk: 91
+  def: 98
+  spatk: 44
+  spdef: 86
+  spe: 47
+  ability: ABILITY_SHELL_ARMOR
   ability: ABILITY_SHEER_FORCE
   ability: ABILITY_LOOSE_ROCKS
   innate: ABILITY_WATER_VEIL
@@ -194929,16 +194929,16 @@ species {
   form_of: SPECIES_MAKUHITA
   type: TYPE_FIRE
   type2: TYPE_STEEL
-  hp: 50
-  atk: 55
-  def: 75
+  hp: 59
+  atk: 46
+  def: 74
   spatk: 27
-  spdef: 50
-  spe: 30
-  ability: ABILITY_ANCIENT_IDOL
-  ability: ABILITY_STAMINA
-  ability: ABILITY_AFTERSHOCK
-  innate: ABILITY_GROUNDED
+  spdef: 38
+  spe: 23
+  ability: ABILITY_POWER_CORE
+  ability: ABILITY_MAGMA_ARMOR
+  ability: ABILITY_FLASH_FIRE
+  innate: ABILITY_EARTHBOUND
   innate: ABILITY_SUPERHEAVY
   innate: ABILITY_HEAVY_METAL
   percent_female: 25
@@ -195328,16 +195328,16 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_FLYING
-  hp: 95
+  hp: 60
   atk: 45
-  def: 40
-  spatk: 65
-  spdef: 45
-  spe: 60
-  ability: ABILITY_LIGHTNING_ROD
+  def: 55
+  spatk: 60
+  spdef: 65
+  spe: 65
+  ability: ABILITY_DRIZZLE
   ability: ABILITY_NEUTRALIZING_FOG
-  ability: ABILITY_WATER_COMPACTION
-  innate: ABILITY_DRIZZLE
+  ability: ABILITY_WIND_RIDER
+  innate: ABILITY_STATIC
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_FLUFFY
   percent_female: 50
@@ -195705,15 +195705,15 @@ species {
   hp: 42
   atk: 27
   def: 27
-  spatk: 53
-  spdef: 42
-  spe: 42
+  spatk: 57
+  spdef: 32
+  spe: 48
   ability: ABILITY_RUN_AWAY
   ability: ABILITY_COWARD
-  ability: ABILITY_HYDRATION
+  ability: ABILITY_WATER_VEIL
   innate: ABILITY_TORRENT
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_WATER_VEIL
+  innate: ABILITY_NATURAL_CURE
+  innate: ABILITY_LIQUID_OOZE
   percent_female: 50
   tier: 4
   evo {
@@ -195776,17 +195776,17 @@ species {
   form_of: SPECIES_KIRLIA
   type: TYPE_WATER
   hp: 58
-  atk: 46
+  atk: 36
   def: 37
-  spatk: 67
-  spdef: 59
-  spe: 64
+  spatk: 77
+  spdef: 49
+  spe: 74
   ability: ABILITY_RUN_AWAY
-  ability: ABILITY_CHEAP_TACTICS
-  ability: ABILITY_HYDRATION
+  ability: ABILITY_WATER_ABSORB
+  ability: ABILITY_WATER_GALE_WINGS
   innate: ABILITY_TORRENT
   innate: ABILITY_PREDATOR
-  innate: ABILITY_WATER_VEIL
+  innate: ABILITY_STATIC
   percent_female: 50
   evo {
     to: SPECIES_GARDEVOIR_REDUX
@@ -196190,17 +196190,17 @@ species {
   }
   type: TYPE_FIRE
   type2: TYPE_FAIRY
-  hp: 20
+  hp: 40
   atk: 15
   def: 15
-  spatk: 35
+  spatk: 55
   spdef: 20
-  spe: 100
-  ability: ABILITY_FLASH_FIRE
+  spe: 60
+  ability: ABILITY_BLAZE
   ability: ABILITY_SOUNDPROOF
   ability: ABILITY_WIND_RIDER
   innate: ABILITY_LEVITATE
-  innate: ABILITY_AIR_BLOWER
+  innate: ABILITY_AERILATE
   innate: ABILITY_FESTIVITIES
   percent_female: 50
   tier: 3
@@ -197116,17 +197116,17 @@ species {
   type: TYPE_DRAGON
   type2: TYPE_POISON
   hp: 50
-  atk: 70
-  def: 43
+  atk: 61
+  def: 53
   spatk: 39
-  spdef: 41
-  spe: 77
-  ability: ABILITY_REGENERATOR
-  ability: ABILITY_RATTLED
-  ability: ABILITY_SLUDGE_SPIT
+  spdef: 42
+  spe: 70
+  ability: ABILITY_UNAWARE
+  ability: ABILITY_DRAGONS_MAW
+  ability: ABILITY_MERCILESS
   innate: ABILITY_AMPHIBIOUS
   innate: ABILITY_POISON_TOUCH
-  innate: ABILITY_ROUGH_SKIN
+  innate: ABILITY_OWN_TEMPO
   percent_female: 50
   tier: 3
   evo {
@@ -197235,18 +197235,18 @@ species {
   }
   type: TYPE_DRAGON
   type2: TYPE_POISON
-  hp: 75
-  atk: 95
-  def: 55
+  hp: 65
+  atk: 85
+  def: 65
   spatk: 45
-  spdef: 53
+  spdef: 63
   spe: 97
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_RATTLED
-  ability: ABILITY_SLUDGE_SPIT
+  ability: ABILITY_BIOFILM
+  ability: ABILITY_UNAWARE
   innate: ABILITY_AMPHIBIOUS
   innate: ABILITY_POISON_TOUCH
-  innate: ABILITY_ROUGH_SKIN
+  innate: ABILITY_RATTLED
   percent_female: 50
   evo {
     to: SPECIES_SWAMPAGE
@@ -198021,16 +198021,16 @@ species {
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 50
-  atk: 40
+  atk: 30
   def: 40
-  spatk: 50
-  spdef: 40
+  spatk: 55
+  spdef: 45
   spe: 80
-  ability: ABILITY_PERMAFROST
-  ability: ABILITY_OVERCOAT
-  ability: ABILITY_WHITEOUT
-  innate: ABILITY_TECHNICIAN
+  ability: ABILITY_PASTEL_VEIL
+  ability: ABILITY_COMPETITIVE
+  ability: ABILITY_GUILT_TRIP
   innate: ABILITY_FREEZING_POINT
+  innate: ABILITY_ARCTIC_FUR
   innate: ABILITY_SERENE_GRACE
   percent_female: 75
   tier: 1
@@ -198529,16 +198529,16 @@ species {
   form_of: SPECIES_SINISTEA
   type: TYPE_GHOST
   type2: TYPE_DRAGON
-  hp: 55
-  atk: 94
-  def: 40
+  hp: 45
+  atk: 74
+  def: 60
   spatk: 30
-  spdef: 54
+  spdef: 64
   spe: 35
   ability: ABILITY_DRACO_MORALE
   ability: ABILITY_OVERCOAT
-  ability: ABILITY_LONG_REACH
-  innate: ABILITY_WARMONGER
+  ability: ABILITY_VENGEANCE
+  innate: ABILITY_CURSED_BODY
   innate: ABILITY_LIMBER
   innate: ABILITY_FIGHT_SPIRIT
   genderless: true
@@ -199028,18 +199028,18 @@ species {
   id: SPECIES_CETODDLE_REDUX
   form_of: SPECIES_CETODDLE
   type: TYPE_STEEL
-  hp: 108
-  atk: 68
-  def: 45
+  hp: 60
+  atk: 58
+  def: 78
   spatk: 30
-  spdef: 40
-  spe: 43
-  ability: ABILITY_SLUSH_RUSH
-  ability: ABILITY_CUTE_CHARM
-  ability: ABILITY_LETS_ROLL
-  innate: ABILITY_THICK_FAT
-  innate: ABILITY_FREEZING_POINT
-  innate: ABILITY_SCAVENGER
+  spdef: 46
+  spe: 62
+  ability: ABILITY_PREDATOR
+  ability: ABILITY_LUMBERJACK
+  ability: ABILITY_HYPER_CUTTER
+  innate: ABILITY_MONSTER_HUNTER
+  innate: ABILITY_STEELWORKER
+  innate: ABILITY_CHAINSAW
   percent_female: 50
   tier: 1
   evo {
@@ -202093,18 +202093,18 @@ species {
   form_of: SPECIES_DRILBUR
   type: TYPE_DRAGON
   type2: TYPE_ROCK
-  hp: 63
-  atk: 65
-  def: 50
-  spatk: 25
-  spdef: 55
-  spe: 70
-  ability: ABILITY_EARTHBOUND
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_BATTLE_ARMOR
-  innate: ABILITY_GROUNDED
-  innate: ABILITY_THICK_FAT
-  innate: ABILITY_ROCKHARD_WILL
+  hp: 73
+  atk: 63
+  def: 59
+  spatk: 32
+  spdef: 59
+  spe: 42
+  ability: ABILITY_HYPER_CUTTER
+  ability: ABILITY_OBLIVIOUS
+  ability: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_MINERALIZE
+  innate: ABILITY_PERMAFROST_CLONE
+  innate: ABILITY_RATTLED
   percent_female: 50
   tier: 3
   evo {
@@ -202209,7 +202209,7 @@ species {
   id: SPECIES_EXCADRILL_REDUX
   form_of: SPECIES_EXCADRILL
   type: TYPE_DRAGON
-  type2: TYPE_ROCK
+  type2: TYPE_GROUND
   hp: 98
   atk: 105
   def: 85
@@ -202219,7 +202219,7 @@ species {
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_SOLID_ROCK
   ability: ABILITY_BATTLE_ARMOR
-  innate: ABILITY_GROUNDED
+  innate: ABILITY_ROCKY_EXTERIOR
   innate: ABILITY_THICK_FAT
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
@@ -202342,7 +202342,7 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DRAGON
-  type2: TYPE_ROCK
+  type2: TYPE_GROUND
   hp: 108
   atk: 135
   def: 85
@@ -202352,7 +202352,7 @@ species {
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_WEAK_ARMOR
-  innate: ABILITY_GROUNDED
+  innate: ABILITY_ROCKY_EXTERIOR
   innate: ABILITY_THICK_BLUBBER
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
@@ -202471,18 +202471,18 @@ species {
   form_of: SPECIES_SWINUB
   type: TYPE_GROUND
   type2: TYPE_GRASS
-  hp: 55
+  hp: 45
   atk: 55
-  def: 35
-  spatk: 35
-  spdef: 35
+  def: 45
+  spatk: 25
+  spdef: 45
   spe: 35
-  ability: ABILITY_EARTHBOUND
-  ability: ABILITY_GRASS_PELT
-  ability: ABILITY_RAW_WOOD
-  innate: ABILITY_FLUFFY
-  innate: ABILITY_THICK_FAT
-  innate: ABILITY_HARVEST
+  ability: ABILITY_SAP_SIPPER
+  ability: ABILITY_SOOTHING_AROMA
+  ability: ABILITY_HARVEST
+  innate: ABILITY_OVERCOAT
+  innate: ABILITY_OWN_TEMPO
+  innate: ABILITY_GLUTTONY
   percent_female: 50
   tier: 3
   evo {
@@ -202578,18 +202578,18 @@ species {
   form_of: SPECIES_PILOSWINE
   type: TYPE_GROUND
   type2: TYPE_GRASS
-  hp: 90
-  atk: 100
-  def: 65
-  spatk: 65
+  hp: 70
+  atk: 102
+  def: 84
+  spatk: 55
   spdef: 65
-  spe: 65
-  ability: ABILITY_EARTHBOUND
+  spe: 74
+  ability: ABILITY_SAP_SIPPER
   ability: ABILITY_GRASS_PELT
-  ability: ABILITY_RAW_WOOD
-  innate: ABILITY_OBLIVIOUS
-  innate: ABILITY_THICK_FAT
-  innate: ABILITY_HARVEST
+  ability: ABILITY_HARVEST
+  innate: ABILITY_OVERCOAT
+  innate: ABILITY_OWN_TEMPO
+  innate: ABILITY_NATURAL_CURE
   percent_female: 50
   tier: 3
   evo {
@@ -202807,7 +202807,7 @@ species {
   ability: ABILITY_RAW_WOOD
   innate: ABILITY_SEED_SOWER
   innate: ABILITY_THICK_FAT
-  innate: ABILITY_PURPLE_HAZE
+  innate: ABILITY_RESILIENCE
   percent_female: 50
   mega {
     from: SPECIES_MAMOSWINE_REDUX
@@ -203047,14 +203047,14 @@ species {
   type: TYPE_ICE
   type2: TYPE_FIRE
   hp: 51
-  atk: 75
-  def: 45
-  spatk: 45
-  spdef: 50
-  spe: 55
-  ability: ABILITY_WELL_BAKED_BODY
-  ability: ABILITY_HOSPITALITY
-  ability: ABILITY_SUGAR_RUSH
+  atk: 64
+  def: 55
+  spatk: 46
+  spdef: 44
+  spe: 61
+  ability: ABILITY_FLASH_FIRE
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_CRUST_COAT
   innate: ABILITY_SOLID_ROCK
   innate: ABILITY_MOLTEN_DOWN
   innate: ABILITY_CRISPY_CREAM
@@ -203155,16 +203155,16 @@ species {
   type: TYPE_ICE
   type2: TYPE_FIRE
   hp: 66
-  atk: 95
-  def: 60
-  spatk: 60
-  spdef: 65
-  spe: 65
+  atk: 84
+  def: 73
+  spatk: 50
+  spdef: 61
+  spe: 77
   ability: ABILITY_WELL_BAKED_BODY
-  ability: ABILITY_HOSPITALITY
-  ability: ABILITY_SUGAR_RUSH
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_CRUST_COAT
   innate: ABILITY_SOLID_ROCK
-  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_OWN_TEMPO
   innate: ABILITY_CRISPY_CREAM
   percent_female: 50
   tier: 3
@@ -203426,17 +203426,17 @@ species {
   form_of: SPECIES_LARVESTA
   type: TYPE_BUG
   type2: TYPE_DARK
-  hp: 35
-  atk: 55
-  def: 55
-  spatk: 70
-  spdef: 80
-  spe: 65
-  ability: ABILITY_MOON_SPIRIT
-  ability: ABILITY_LUNAR_AFFINITY
+  hp: 45
+  atk: 43
+  def: 52
+  spatk: 78
+  spdef: 92
+  spe: 50
+  ability: ABILITY_ILLUMINATE
+  ability: ABILITY_SCARE
   ability: ABILITY_WANDERING_SPIRIT
   innate: ABILITY_PHANTOM
-  innate: ABILITY_PRISM_ARMOR
+  innate: ABILITY_OVERCOAT
   innate: ABILITY_NOCTURNAL
   percent_female: 50
   tier: 3
@@ -203933,17 +203933,17 @@ species {
   type: TYPE_GRASS
   type2: TYPE_ICE
   hp: 66
-  atk: 56
+  atk: 46
   def: 62
   spatk: 46
-  spdef: 48
+  spdef: 58
   spe: 42
-  ability: ABILITY_ICE_BODY
+  ability: ABILITY_SNOW_CLOAK
   ability: ABILITY_SAP_SIPPER
-  ability: ABILITY_PREDATOR
-  innate: ABILITY_SAP_TRAP
-  innate: ABILITY_STICKY_HOLD
-  innate: ABILITY_BARK_SKIN
+  ability: ABILITY_FOG_MACHINE
+  innate: ABILITY_PHANTOM
+  innate: ABILITY_OVERGROW
+  innate: ABILITY_PERMAFROST
   percent_female: 50
   tier: 3
   evo {
@@ -204044,16 +204044,16 @@ species {
   form_of: SPECIES_WEEPINBELL
   type: TYPE_GRASS
   type2: TYPE_ICE
-  hp: 81
-  atk: 76
-  def: 82
-  spatk: 56
+  hp: 91
+  atk: 70
+  def: 91
+  spatk: 47
   spdef: 69
-  spe: 46
+  spe: 42
   ability: ABILITY_ICE_BODY
   ability: ABILITY_SAP_SIPPER
-  ability: ABILITY_PREDATOR
-  innate: ABILITY_SAP_TRAP
+  ability: ABILITY_SWEET_VEIL
+  innate: ABILITY_FROSTMAW
   innate: ABILITY_STICKY_HOLD
   innate: ABILITY_BARK_SKIN
   percent_female: 50
@@ -204483,18 +204483,18 @@ species {
   form_of: SPECIES_LITWICK
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
-  hp: 65
-  atk: 30
-  def: 55
-  spatk: 75
-  spdef: 55
+  hp: 45
+  atk: 39
+  def: 64
+  spatk: 74
+  spdef: 58
   spe: 25
   ability: ABILITY_BACKUP_POWER
-  ability: ABILITY_DAZZLING
+  ability: ABILITY_VOLT_ABSORB
   ability: ABILITY_SHORT_CIRCUIT
   innate: ABILITY_ILLUMINATE
   innate: ABILITY_CURSED_BODY
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_STATIC
   percent_female: 50
   tier: 3
   evo {
@@ -204579,14 +204579,14 @@ species {
   form_of: SPECIES_LAMPENT
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
-  hp: 80
+  hp: 72
   atk: 40
-  def: 55
+  def: 64
   spatk: 95
-  spdef: 55
-  spe: 45
+  spdef: 64
+  spe: 35
   ability: ABILITY_BACKUP_POWER
-  ability: ABILITY_DAZZLING
+  ability: ABILITY_LIGHTNING_ROD
   ability: ABILITY_ELECTRIC_BURST
   innate: ABILITY_ILLUMINATE
   innate: ABILITY_CURSED_BODY
@@ -205066,16 +205066,16 @@ species {
   type2: TYPE_WATER
   hp: 46
   atk: 48
-  def: 52
-  spatk: 65
+  def: 62
+  spatk: 55
   spdef: 75
   spe: 54
-  ability: ABILITY_WATER_ABSORB
+  ability: ABILITY_OVERCOAT
   ability: ABILITY_WATER_VEIL
-  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_WEATHER_DOUBLE_BOOST
   innate: ABILITY_FLASH_FIRE
   innate: ABILITY_LEVITATE
-  innate: ABILITY_OVERCOAT
+  innate: ABILITY_WATER_ABSORB
   percent_female: 50
   tier: 3
   evo {
@@ -206263,17 +206263,17 @@ species {
   }
   type: TYPE_NORMAL
   hp: 55
-  atk: 50
+  atk: 40
   def: 65
-  spatk: 50
-  spdef: 65
-  spe: 5
-  ability: ABILITY_NORMALIZE
+  spatk: 40
+  spdef: 60
+  spe: 25
+  ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_IMMUNITY
   ability: ABILITY_SELF_SUFFICIENT
-  innate: ABILITY_STURDY
+  innate: ABILITY_SOUNDPROOF
   innate: ABILITY_DROP_BLOCKS
-  innate: ABILITY_PICKUP
+  innate: ABILITY_OVERCOAT
   percent_female: 50
   tier: 3
   evo {
@@ -206371,13 +206371,13 @@ species {
   hp: 65
   atk: 60
   def: 80
-  spatk: 60
-  spdef: 80
-  spe: 10
-  ability: ABILITY_NORMALIZE
+  spatk: 50
+  spdef: 75
+  spe: 25
+  ability: ABILITY_OVERCOAT
   ability: ABILITY_IMMUNITY
   ability: ABILITY_SELF_SUFFICIENT
-  innate: ABILITY_STURDY
+  innate: ABILITY_SOUNDPROOF
   innate: ABILITY_DROP_BLOCKS
   innate: ABILITY_PICKUP
   percent_female: 50
@@ -206618,12 +206618,12 @@ species {
   spatk: 52
   spdef: 52
   spe: 42
-  ability: ABILITY_WELL_BAKED_BODY
+  ability: ABILITY_INTOXICATE
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_NATURAL_CURE
-  innate: ABILITY_MASHED_POTATO
+  ability: ABILITY_STORM_DRAIN
+  innate: ABILITY_RAW_WOOD
   innate: ABILITY_EARTH_EATER
-  innate: ABILITY_SEED_SOWER
+  innate: ABILITY_NATURAL_CURE
   percent_female: 50
   tier: 3
   evo {
@@ -207523,18 +207523,18 @@ species {
   form_of: SPECIES_EXEGGCUTE
   type: TYPE_GRASS
   type2: TYPE_NORMAL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
+  hp: 60
+  atk: 56
+  def: 55
+  spatk: 54
   spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  spe: 20
+  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_PRANKSTER
+  innate: ABILITY_RAW_WOOD
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_EFFECT_SPORE
   percent_female: 50
   tier: 3
   evo {
@@ -207912,19 +207912,18 @@ species {
   id: SPECIES_SPEAROW_REDUX
   form_of: SPECIES_SPEAROW
   type: TYPE_FIGHTING
-  type2: TYPE_DARK
-  hp: 55
+  hp: 45
   atk: 62
-  def: 25
+  def: 29
   spatk: 26
-  spdef: 26
+  spdef: 32
   spe: 68
-  ability: ABILITY_VIOLENT_RUSH
+  ability: ABILITY_DEFIANT
   ability: ABILITY_SHARP_TALONS
-  ability: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_STRIKER
+  ability: ABILITY_SCARE
+  innate: ABILITY_FLOCK
+  innate: ABILITY_DEVIATE
   innate: ABILITY_MERCILESS
-  innate: ABILITY_SCARE
   percent_female: 50
   tier: 3
   evo {
@@ -208600,7 +208599,7 @@ species {
   ability: ABILITY_SAND_GUARD
   innate: ABILITY_MEGA_DRILL
   innate: ABILITY_STEELWORKER
-  innate: ABILITY_HEATPROOF
+  innate: ABILITY_AFTERSHOCK
   percent_female: 50
   mega {
     from: SPECIES_EXCADRILL
@@ -209246,18 +209245,18 @@ species {
   form_of: SPECIES_DRAMPA
   type: TYPE_NORMAL
   type2: TYPE_DRAGON
-  hp: 100
-  atk: 80
-  def: 100
-  spatk: 140
-  spdef: 118
-  spe: 70
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  ability: ABILITY_SWARM
-  innate: ABILITY_POLLINATE
-  innate: ABILITY_GIANT_WINGS
-  innate: ABILITY_MAGIC_GUARD
+  hp: 78
+  atk: 95
+  def: 110
+  spatk: 160
+  spdef: 126
+  spe: 36
+  ability: ABILITY_STORM_CLOUD
+  ability: ABILITY_STORM_CLOUD
+  ability: ABILITY_STORM_CLOUD
+  innate: ABILITY_THUNDER_CLOUDS
+  innate: ABILITY_OVERCOAT
+  innate: ABILITY_GOING_BERSERK
   percent_female: 50
   mega {
     from: SPECIES_DRAMPA
