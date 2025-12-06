@@ -5824,7 +5824,7 @@ ability {
 }
 ability {
   id: ABILITY_GOING_BERSERK
-  name: " Going Berserk (N)"
+  name: "Going Berserk"
   description: "Berserk + Rampage"
 }
 ability {
