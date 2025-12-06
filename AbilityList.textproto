@@ -5819,7 +5819,7 @@ ability {
 }
 ability {
   id: ABILITY_RESILIENCE
-  name: "Resilience (N)"
+  name: "Resilience"
   description: "Heal 1/4 of max HP whenever below 1/2 health"
 }
 ability {
