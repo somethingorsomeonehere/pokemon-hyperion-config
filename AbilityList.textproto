@@ -4889,7 +4889,7 @@ ability {
 }
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
-  name: "Madness Enhancement (N)"
+  name: "Madness Enhancement"
   description: "Confuses self in fog, halves damage when confused."
   expanded_description: "Forces self-confusion when entering fog. All incoming damage is reduced by 50% when the user is confused and it will never hurt itself."
 }
@@ -4985,8 +4985,8 @@ ability {
 }
 ability {
   id: ABILITY_HARUKAZE
-  name: "Harukaze (N)"
-  description: "Setting Grassy Terrain sets Tailwind an vice versa."
+  name: "Harukaze"
+  description: "Setting Grassy Terrain sets Tailwind and vice versa."
   expanded_description: "Sets Grassy Terrain when setting Tailwind, and sets Tailwind when setting Grassy Terrain. Does not refresh the duration in either case if one is already active."
 }
 ability {
@@ -5816,5 +5816,21 @@ ability {
 ability {
   id: ABILITY_POLARITY
   name: "Polarity"
-  description: "Plus + Minus"
+  description: "Increases the party's highest stat by 30%"
 }
+ability {
+  id: ABILITY_RESILIENCE
+  name: "Resilience"
+  description: "Heal 1/4 of max HP whenever below 1/2 health"
+}
+ability {
+  id: ABILITY_GOING_BERSERK
+  name: "Going Berserk"
+  description: "Berserk + Rampage"
+}
+ability {
+  id: ABILITY_THUNDER_CLOUDS
+  name: "Thunder Clouds"
+  description: "After using a special move, launch a 35 BP Thunderbolt"
+}
+
