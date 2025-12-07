@@ -5759,8 +5759,9 @@ ability {
 }
 ability {
   id: ABILITY_HOLLOW_ICE_ZONE
-  name: "Hollow Ice Zone (N)"
-  description: "Foe's non-contact moves are Ice-type if user hasn't acted."
+  name: "Hollow Ice Zone"
+  description: "Ice-type moves apply Ice Statue and then make the user switch."
+  expanded_description: "The user's Ice-type moves apply the Ice Statue status to the target, making them Ice-type with no resistances or frostbite immunity. If Ice Statue is applied the user switches."
 }
 ability {
   id: ABILITY_OVERCAST
