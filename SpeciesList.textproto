@@ -109731,12 +109731,12 @@ species {
   form_of: SPECIES_BASCULEGION
   type: TYPE_WATER
   type2: TYPE_GHOST
-  hp: 130
-  atk: 75
-  def: 65
+  hp: 120
+  atk: 80
+  def: 68
   spatk: 112
   spdef: 75
-  spe: 73
+  spe: 75
   ability: ABILITY_RAPID_RESPONSE
   ability: ABILITY_GUILT_TRIP
   ability: ABILITY_SPECTRALIZE
