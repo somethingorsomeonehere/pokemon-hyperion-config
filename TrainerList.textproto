@@ -112276,14 +112276,83 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_COOL
   ace {
     mon {
-      nonstandard: "Missing item"
-      species: SPECIES_BULBASAUR
-      nature: NATURE_IMPISH
-      ability: ABILITY_CHLOROPLAST
-      spatk_ev: 252
-      spdef_ev: 4
+      species: SPECIES_DEWGONG_REDUX
+      item: ITEM_EVIOLITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_SLUSH_RUSH
+      hp_ev: 4
+      def_ev: 128
+      spdef_ev: 124
       spe_ev: 252
-      move: MOVE_TACKLE
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_FREEZE_DRY
+      move: MOVE_WAVE_CRASH
+      move: MOVE_ICICLE_IMPALE
+    }
+    mon {
+      species: SPECIES_KYUREM_BLACK
+      item: ITEM_LIFE_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_BEAST_BOOST
+      hp_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_BOLT_STRIKE
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_ICE_FANG
+    }
+    mon {
+      species: SPECIES_IRON_BUNDLE
+      item: ITEM_BOOSTER_ENERGY
+      nature: NATURE_TIMID
+      ability: ABILITY_MOUNTAINEER
+      hp_ev: 124
+      def_ev: 132
+      spe_ev: 252
+      move: MOVE_AQUA_JET
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_BLIZZARD
+      move: MOVE_STEEL_WING
+    }
+    mon {
+      species: SPECIES_GLACEON
+      item: ITEM_CHOICE_SCARF
+      nature: NATURE_TIMID
+      ability: ABILITY_ICE_SCALES
+      def_ev: 128
+      spdef_ev: 128
+      spe_ev: 252
+      move: MOVE_FLAMETHROWER
+      move: MOVE_PSYSHOCK
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_BLIZZARD
+    }
+    mon {
+      species: SPECIES_EISCUE
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_SLUSH_RUSH
+      hp_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_JET
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_ICE_SHARD
+      move: MOVE_TRIPLE_DIVE
+    }
+    mon {
+      species: SPECIES_FROSLASS
+      item: ITEM_FROSLASSITE
+      nature: NATURE_TIMID
+      ability: ABILITY_CHILLING_PRESENCE
+      def_ev: 128
+      spdef_ev: 128
+      spe_ev: 252
+      move: MOVE_BLIZZARD
+      move: MOVE_BITTER_MALICE
+      move: MOVE_EARTHQUAKE
+      move: MOVE_HEAD_SMASH
     }
   }
 }
@@ -112385,7 +112454,7 @@ trainer {
   ace {
     mon {
       species: SPECIES_YVELTAL
-      item: ITEM_ASSAULT_VEST
+      item: ITEM_YVELTALITE
       nature: NATURE_MODEST
       ability: ABILITY_FEARMONGER
       hp_ev: 252
