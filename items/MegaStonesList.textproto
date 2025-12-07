@@ -1869,6 +1869,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "meteorite"
   palette: "meteorite"
+  unique_mega_location: "Defeat the Ghost Monotype Champion."
 }
 item {
   id: ITEM_YVELTALITE
@@ -1878,6 +1879,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Dark Monotype Champion."
 }
 item {
   id: ITEM_GALACTIC_ORB
@@ -1887,6 +1889,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "purple_orb"
   palette: "purple_orb"
+  unique_mega_location: "Defeat the Psychic Monotype Champion."
 }
 item {
   id: ITEM_CHIEN_PAOITE
@@ -1896,6 +1899,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Ice Monotype Champion."
 }
 item {
   id: ITEM_DRACOVISHITE
@@ -1905,6 +1909,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Water Monotype Champion."
 }
 item {
   id: ITEM_MAWILITE_R_B
@@ -1914,6 +1919,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Poison Monotype Champion."
 }
 item {
   id: ITEM_RIBOMBITE_R
@@ -1923,6 +1929,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Bug Monotype Champion."
 }
 item {
   id: ITEM_WEAVILEITE_R
@@ -1932,6 +1939,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Ground Monotype Champion."
 }
 item {
   id: ITEM_FLYGONITE_R_B
@@ -1941,6 +1949,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Electric Monotype Champion."
 }
 item {
   id: ITEM_SNORLAX_ORB
@@ -1950,6 +1959,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Normal Monotype Champion."
 }
 item {
   id: ITEM_VICTINI_ORB
@@ -1959,6 +1969,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Fire Monotype Champion."
 }
 item {
   id: ITEM_WIGGLITUFF_ORB
@@ -1968,6 +1979,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "tart_apple"
   palette: "tart_apple"
+  unique_mega_location: "Defeat the Fairy Monotype Champion."
 }
 item {
   id: ITEM_ABOMASITE_S
@@ -1975,6 +1987,9 @@ item {
   description: "Enables Abomasnow to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+  unique_mega_location: "Defeat the Grass Monotype Champion."
 }
 item {
   id: ITEM_ULTRANECROZIUM_Z
