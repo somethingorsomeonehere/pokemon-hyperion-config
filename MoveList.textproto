@@ -16917,17 +16917,17 @@ moves {
 }
 moves {
   id: MOVE_SEPTIC_SWITCH
-  name: "Septic Switch (N)"
+  name: "Septic Switch"
   short_name: "Sep Switch"
   description: "Supresses the targets abilities then switches out."
   short_description: "Supress abilities then switch."
+  effect: EFFECT_SEPTIC_SWITCH
   split: STATUS
   type: TYPE_POISON
   target: SELECTED
   accuracy: 100
-  pp: 5
+  pp: 20
   mirror_move_affected: true
-  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_WATERLOG
@@ -17395,19 +17395,4 @@ moves {
   mirror_move_affected: true
   striker: true
   uses_animation: MOVE_MEGA_KICK
-}
-moves {
-  id: MOVE_SLUDGE_SPIT
-  name: "Sludge Spit"
-  short_name: "Sludge Spit"
-  description: "Suppresses the target\'s abilities, then switches out."
-  short_description: "Suppresses the target\'s abilities, then switches out."
-  effect: EFFECT_SLUDGE_SPIT
-  split: STATUS
-  type: TYPE_POISON
-  target: SELECTED
-  accuracy: 100
-  pp: 10
-  magic_coat_affected: true
-  mirror_move_affected: true
 }
