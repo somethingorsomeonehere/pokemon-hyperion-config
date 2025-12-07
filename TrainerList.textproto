@@ -5909,17 +5909,17 @@ trainer {
       move: MOVE_VOLT_BOLT
     }
     mon {
-      species: SPECIES_BLASTOISE
-      item: ITEM_BLASTOISINITE_X
-      nature: NATURE_ADAMANT
-      ability: ABILITY_FIREFIGHTER
-      hp_ev: 252
+      species: SPECIES_STARMIE
+      item: ITEM_STARMINITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_SWIFT_SWIM
       atk_ev: 252
-      spe_ev: 4
-      move: MOVE_BARRAGE
-      move: MOVE_POWER_UP_PUNCH
-      move: MOVE_SPIKE_CANNON
-      move: MOVE_HYDRO_CANNON
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_LIQUIDATION
+      move: MOVE_PSYCHO_CUT
+      move: MOVE_BULK_UP
+      move: MOVE_SUPERPOWER
     }
   }
   hell {
@@ -48364,17 +48364,17 @@ trainer {
       move: MOVE_LOW_KICK
     }
     mon {
-      species: SPECIES_INTELEON
-      item: ITEM_INTELEONITE
-      nature: NATURE_TIMID
-      ability: ABILITY_DUAL_WIELD
-      spatk_ev: 252
-      spdef_ev: 4
+      species: SPECIES_STARMIE
+      item: ITEM_STARMINITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_RAGING_STORM
+      atk_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_SNIPE_SHOT
-      move: MOVE_ICE_BEAM
-      move: MOVE_HYDRO_CANNON
-      move: MOVE_FOCUS_BLAST
+      move: MOVE_SUPERPOWER
+      move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_AQUA_JET
+      move: MOVE_WAVE_CRASH
     }
   }
   hell {
@@ -112453,7 +112453,7 @@ trainer {
   ace {
     mon {
       species: SPECIES_YVELTAL
-      item: ITEM_ASSAULT_VEST
+      item: ITEM_YVELTALITE
       nature: NATURE_MODEST
       ability: ABILITY_FEARMONGER
       hp_ev: 252
