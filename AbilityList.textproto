@@ -5396,7 +5396,7 @@ ability {
 }
 ability {
   id: ABILITY_TURF_WAR
-  name: "Turf War (N)"
+  name: "Turf War"
   description: "Destroys terrain and boosts highest stat on entry."
 }
 ability {
