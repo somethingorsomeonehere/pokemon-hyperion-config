@@ -5598,7 +5598,7 @@ ability {
 ability {
   id: ABILITY_I_AM_STEVE
   name: "I Am Steve"
-  description: "dude what even is this game anymore"
+  description: "Uses No Retreat on entry."
 }
 ability {
   id: ABILITY_TANGLED_TAILS
