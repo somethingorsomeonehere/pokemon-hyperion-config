@@ -5781,7 +5781,7 @@ ability {
 }
 ability {
   id: ABILITY_MEGA_DRILL
-  name: "Mega Drill (N)"
+  name: "Mega Drill"
   description: "Mighty Horn + all Drill moves are 30% stronger."
 }
 ability {
