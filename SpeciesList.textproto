@@ -104807,7 +104807,7 @@ species {
   ability: ABILITY_FOREWARN
   innate: ABILITY_LEVITATE
   innate: ABILITY_WONDER_SKIN
-  innate: ABILITY_DREAMCATCHER
+  innate: ABILITY_DREAMSCAPE
   percent_female: 50
   learnset {
     level {
