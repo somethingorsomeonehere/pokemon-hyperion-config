@@ -112385,7 +112385,7 @@ trainer {
   ace {
     mon {
       species: SPECIES_YVELTAL
-      item: ITEM_ASSAULT_VEST
+      item: ITEM_YVELTALITE
       nature: NATURE_MODEST
       ability: ABILITY_FEARMONGER
       hp_ev: 252
