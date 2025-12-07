@@ -5839,3 +5839,13 @@ ability {
   name: "Unrelenting"
   description: "All attacking moves can hit 2-5 times"
 }
+ability {
+  id: ABILITY_ELEMENTAL_AEGIS
+  name: "Elemental Aegis"
+  description: "Takes 1/2 damage from Fire, Electric and Water-type attacks."
+}
+ability {
+  id: ABILITY_AEGIS_WARD
+  name: "Aegis Ward"
+  description: "Takes 1/2 damage from Dark, Ghost and Psychic-type attacks."
+}
