@@ -26039,7 +26039,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
     }
     mon {
-      species: SPECIES_DURALUDON_PARTNER
+      species: SPECIES_DURALUDON
       item: ITEM_DURALUDITE
       nature: NATURE_JOLLY
       ability: ABILITY_LIGHT_METAL
@@ -70898,7 +70898,7 @@ trainer {
       move: MOVE_VEEVEE_VOLLEY
     }
     mon {
-      species: SPECIES_DURALUDON_PARTNER
+      species: SPECIES_DURALUDON
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_DRACO_MORALE

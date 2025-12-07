@@ -2053,6 +2053,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "teal_mask"
   palette: "teal_mask"
+  adoption_center: true
 }
 item {
   id: ITEM_HEARTHFLAME_MASK
@@ -2062,6 +2063,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "hearthflame_mask"
   palette: "hearthflame_mask"
+  adoption_center: true
 }
 item {
   id: ITEM_WELLSPRING_MASK
@@ -2071,6 +2073,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "wellspring_mask"
   palette: "wellspring_mask"
+  adoption_center: true
 }
 item {
   id: ITEM_CORNERSTONE_MASK
@@ -2080,6 +2083,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "cornerstone_mask"
   palette: "cornerstone_mask"
+  adoption_center: true
 }
 item {
   id: ITEM_TINKATITE_R
@@ -2480,7 +2484,7 @@ item {
 item {
   id: ITEM_EYE_OF_ENDER
   name: "Eye of Ender"
-  description: "Enables steve to become real."
+  description: "Enables Steve to become real."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
@@ -2594,6 +2598,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_MALAMARITE
@@ -2643,6 +2648,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DRAMPANITE

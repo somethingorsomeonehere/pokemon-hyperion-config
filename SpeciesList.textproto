@@ -401,6 +401,7 @@ species {
       move: MOVE_LEAF_STORM
       move: MOVE_MAGICAL_LEAF
       move: MOVE_VENOSHOCK
+      move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 46
@@ -32252,7 +32253,9 @@ species {
       move: MOVE_JUNGLE_HEALING
     }
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_COUNTER
+    tutor: MOVE_CURSE
     tutor: MOVE_CUT
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
@@ -32273,8 +32276,7 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CURSE
-    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -32388,9 +32390,11 @@ species {
       move: MOVE_PETAL_DANCE
     }
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CURSE
     tutor: MOVE_CUT
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_BALL
@@ -32416,8 +32420,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CURSE
-    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -32531,10 +32534,12 @@ species {
       move: MOVE_FRENZY_PLANT
     }
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CURSE
     tutor: MOVE_CUT
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DRAINING_KISS
@@ -32566,8 +32571,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CURSE
-    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -74460,8 +74464,8 @@ species {
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SPIKES
     tutor: MOVE_STONE_EDGE
-    tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_TAUNT
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
@@ -74796,9 +74800,10 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_SPITE
     tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TAUNT
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TAUNT
+    tutor: MOVE_NASTY_PLOT
   }
   visuals {
     icon {
@@ -106509,6 +106514,7 @@ species {
       level: 51
       move: MOVE_EXCALIBUR
       move: MOVE_FISSURE
+      move: MOVE_MEGAHORN
     }
     level {
       level: 61
@@ -108414,6 +108420,8 @@ species {
     tutor: MOVE_BUG_BITE
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_CURSE
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_HORN_ATTACK
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -108421,12 +108429,11 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_U_TURN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_HORN_ATTACK
-    tutor: MOVE_DRILL_RUN
-    tutor: MOVE_U_TURN
+    tutor: MOVE_GUNK_SHOT
   }
   visuals {
     icon {
@@ -108554,6 +108561,8 @@ species {
     tutor: MOVE_BUG_BITE
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_CURSE
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_HORN_ATTACK
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -108561,12 +108570,11 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_U_TURN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_HORN_ATTACK
-    tutor: MOVE_DRILL_RUN
-    tutor: MOVE_U_TURN
+    tutor: MOVE_GUNK_SHOT
   }
   visuals {
     icon {
@@ -108689,7 +108697,9 @@ species {
     tutor: MOVE_BUG_BITE
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_CURSE
+    tutor: MOVE_DRILL_RUN
     tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_HORN_ATTACK
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -108697,12 +108707,11 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_U_TURN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_HORN_ATTACK
-    tutor: MOVE_DRILL_RUN
-    tutor: MOVE_U_TURN
+    tutor: MOVE_GUNK_SHOT
   }
   visuals {
     icon {
@@ -131623,10 +131632,10 @@ species {
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -131754,10 +131763,10 @@ species {
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -133796,6 +133805,7 @@ species {
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PSYBEAM
@@ -133806,8 +133816,6 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_METRONOME
-    tutor: MOVE_MIND_BREAK
   }
   visuals {
     icon {
@@ -133947,6 +133955,7 @@ species {
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PSYBEAM
@@ -133961,8 +133970,10 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_SPIKES
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -135643,6 +135654,7 @@ species {
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PLUCK
@@ -135658,8 +135670,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_STEALTH_ROCK
   }
   visuals {
     icon {
@@ -135762,6 +135773,7 @@ species {
       move: MOVE_DRAIN_BRAIN
       move: MOVE_KOWTOW_CLEAVE
       move: MOVE_SLASH
+      move: MOVE_CLOSE_COMBAT
     }
     level {
       level: 46
@@ -135790,6 +135802,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PLUCK
@@ -135805,8 +135818,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_STEALTH_ROCK
   }
   visuals {
     icon {
@@ -135936,6 +135948,7 @@ species {
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_FALSE_SWIPE
     tutor: MOVE_FORCE_PALM
+    tutor: MOVE_JAGGED_HORNS
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_METAL_CLAW
@@ -135949,8 +135962,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TRICK
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_JAGGED_HORNS
+    tutor: MOVE_BULK_UP
   }
   visuals {
     icon {
@@ -136070,11 +136082,13 @@ species {
       level: 46
       move: MOVE_BEAT_UP
       move: MOVE_FLING
+      move: MOVE_SUPERPOWER
     }
     level {
       level: 51
       move: MOVE_ASSURANCE
       move: MOVE_SHELL_SMASH
+      move: MOVE_CLOSE_COMBAT
     }
     level {
       level: 56
@@ -136088,6 +136102,7 @@ species {
     tutor: MOVE_FORCE_PALM
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_JAGGED_HORNS
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_METAL_CLAW
@@ -136102,8 +136117,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_JAGGED_HORNS
+    tutor: MOVE_BULK_UP
   }
   visuals {
     icon {
@@ -167735,11 +167749,14 @@ species {
       level: 37
       move: MOVE_DRAGON_RAGE
       move: MOVE_SONIC_BOOM
+      move: MOVE_LIGHTNING_BULLET
+      move: MOVE_DEPLETION_BEAM
     }
     level {
       level: 46
       move: MOVE_METEOR_MASH
       move: MOVE_PRIMAL_BEAM
+      move: MOVE_AURA_FORCE
     }
     level {
       level: 51
@@ -167753,6 +167770,7 @@ species {
       move: MOVE_AUTOTOMIZE
       move: MOVE_STEEL_BEAM
       move: MOVE_ZAP_CANNON
+      move: MOVE_ROCKET_PUNCH
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BREAKING_SWIPE
@@ -167777,6 +167795,9 @@ species {
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_EARTHQUAKE
   }
   visuals {
     icon {
@@ -167800,7 +167821,7 @@ species {
   }
 }
 species {
-  id: SPECIES_DURALUDON_PARTNER
+  id: SPECIES_RAICHU_MEGA_Y
   form_of: SPECIES_DURALUDON
   type: TYPE_STEEL
   type2: TYPE_DRAGON
@@ -167909,7 +167930,7 @@ species {
   percent_female: 50
   tier: 4
   mega {
-    from: SPECIES_DURALUDON_PARTNER
+    from: SPECIES_DURALUDON
     item: ITEM_DURALUDITE
   }
   visuals {
@@ -184985,12 +185006,14 @@ species {
       move: MOVE_DRAGON_RAGE
       move: MOVE_SONIC_BOOM
       move: MOVE_LIGHTNING_BULLET
+      move: MOVE_DEPLETION_BEAM
     }
     level {
       level: 46
       move: MOVE_METEOR_MASH
       move: MOVE_PRIMAL_BEAM
       move: MOVE_ROCKET_PUNCH
+      move: MOVE_AURA_FORCE
     }
     level {
       level: 51
@@ -185024,6 +185047,7 @@ species {
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FOCUS_BLAST
@@ -185034,14 +185058,15 @@ species {
     tutor: MOVE_METAL_CLAW
     tutor: MOVE_METAL_SOUND
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_ROCK_SLIDE
-    tutor: MOVE_STONE_EDGE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_BULK_UP
   }
   visuals {
     icon {
@@ -193872,7 +193897,7 @@ species {
     name: "Slate"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1059
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -198254,7 +198279,7 @@ species {
     name: "Frostuccino"
     category: "Scarf"
     description: "Their white fur feels amazing to touch. Cinccino\'s body is coated in a special oil that repels dust and helps it deflect attacks, such as punches."
-    national_dex_num: 573
+    national_dex_num: 1089
     body_color: BODY_COLOR_GRAY
     egg_group: FIELD
     height: 5
@@ -198398,7 +198423,7 @@ species {
     name: "Iron Palette"
     category: "Color Swap"
     description: "A Pok\303\251mon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled."
-    national_dex_num: 352
+    national_dex_num: 1090
     hoenn_dex_num: 150
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
@@ -198774,7 +198799,7 @@ species {
     name: "Dedelibird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1091
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -198901,7 +198926,7 @@ species {
     name: "Krampird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1092
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -199370,7 +199395,7 @@ species {
     name: "Carbonix"
     category: "Rock Snake"
     description: "There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother."
-    national_dex_num: 95
+    national_dex_num: 1093
     body_color: BODY_COLOR_GRAY
     egg_group: MINERAL
     height: 88
@@ -199561,7 +199586,7 @@ species {
     name: "Grotom"
     category: "Plasma"
     description: "Research continues on this Pok\303\251mon. Its electric-like body can enter some kinds of machines and take control, in order to make mischief."
-    national_dex_num: 479
+    national_dex_num: 1094
     body_color: BODY_COLOR_RED
     egg_group: AMORPHOUS
     height: 3
@@ -200321,7 +200346,7 @@ species {
     name: "Wispywaspy"
     category: "Small Fry"
     description: "When it\'s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
-    national_dex_num: 746
+    national_dex_num: 1095
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_2
     height: 2
@@ -200490,8 +200515,7 @@ species {
   dex {
     name: "Iron Scythe"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1096
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200620,8 +200644,7 @@ species {
   dex {
     name: "Wooly Worm"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1097
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200753,8 +200776,7 @@ species {
   dex {
     name: "Heracreus"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1098
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200886,8 +200908,7 @@ species {
   dex {
     name: "Orchestot"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1099
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201006,8 +201027,7 @@ species {
   dex {
     name: "Queengambit"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1100
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201138,8 +201158,7 @@ species {
   dex {
     name: "Pentadug"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1101
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201272,7 +201291,6 @@ species {
 }
 species {
   id: SPECIES_HERACREUS_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HERACREUS
   type: TYPE_GRASS
   type2: TYPE_FAIRY
@@ -201295,7 +201313,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
@@ -201324,7 +201342,7 @@ species {
     name: "Crabruiser"
     category: "Woolly Crab"
     description: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pok\303\251mon evolved and grew thick fur."
-    national_dex_num: 740
+    national_dex_num: 1102
     body_color: BODY_COLOR_WHITE
     egg_group: WATER_3
     height: 17
@@ -201723,8 +201741,7 @@ species {
   dex {
     name: "Abyssand"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1103
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201849,8 +201866,7 @@ species {
   dex {
     name: "Pentawug"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1104
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -202329,8 +202345,7 @@ species {
   dex {
     name: "Rexcadrill"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1105
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -203672,8 +203687,7 @@ species {
   dex {
     name: "Selenumbra"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1106
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205342,8 +205356,7 @@ species {
   dex {
     name: "Ratiking"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1107
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205467,8 +205480,7 @@ species {
   dex {
     name: "Ratfioso"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1108
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205604,8 +205616,7 @@ species {
   dex {
     name: "Guardozel"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1109
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205737,8 +205748,7 @@ species {
   dex {
     name: "Beniccino"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1110
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205845,8 +205855,7 @@ species {
   dex {
     name: "Bewarden"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1111
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205973,8 +205982,7 @@ species {
   dex {
     name: "Torrentula"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1112
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206102,7 +206110,7 @@ species {
     name: "Spindaze"
     category: "Woozy Fighter"
     description: "Spindaze is always over it\'s head thinking it\'s the best at everything it does when in reality it\'s incapable of thinking properly due to mind toxins, thus making it dense."
-    national_dex_num: 1
+    national_dex_num: 1113
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206249,8 +206257,7 @@ species {
   dex {
     name: "Blocli"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1114
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206355,8 +206362,7 @@ species {
   dex {
     name: "Bloxtack"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1115
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206465,8 +206471,7 @@ species {
   dex {
     name: "Gargablox"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1116
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206598,8 +206603,7 @@ species {
   dex {
     name: "Hippopotato"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1117
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206721,8 +206725,7 @@ species {
   dex {
     name: "Hippotaton"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1118
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206848,8 +206851,7 @@ species {
   dex {
     name: "Harvesting Tyrant"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1119
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206983,8 +206985,7 @@ species {
   dex {
     name: "Iron Spirals"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1120
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207122,8 +207123,7 @@ species {
   dex {
     name: "Eraticate"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1121
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207247,8 +207247,7 @@ species {
   dex {
     name: "Iron Saber"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1122
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207384,8 +207383,7 @@ species {
   dex {
     name: "Hypnocroak"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1123
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207751,7 +207749,7 @@ species {
     name: "steve"
     category: "ough"
     description: "no this isn\'t canon go away."
-    national_dex_num: 1
+    national_dex_num: 1124
     body_color: BODY_COLOR_BLUE
     egg_group: UNDISCOVERED
     height: 7
@@ -208125,8 +208123,7 @@ species {
   dex {
     name: "Terrow"
     category: "???"
-    description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1125
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -208437,7 +208434,6 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_MEGA_Y
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -208534,7 +208530,6 @@ species {
 }
 species {
   id: SPECIES_FROSLASS_MEGA_Y
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FROSLASS
   type: TYPE_ICE
   type2: TYPE_GHOST
@@ -208558,11 +208553,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "froslass/mega_y/icon"
       palette: 4
     }
     front {
-      path: "question_mark/circled/front"
+      path: "froslass/mega_y/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -208570,20 +208565,19 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "froslass/mega_y/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "froslass/mega_y/normal"
+    shiny: "froslass/mega_y/shiny"
   }
 }
 species {
   id: SPECIES_EXCADRILL_MEGA
-  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_EXCADRILL
   type: TYPE_GROUND
   type2: TYPE_STEEL
@@ -208697,7 +208691,6 @@ species {
   mega {
     from: SPECIES_SCRAFTY
     item: ITEM_SCRAFTINITE
-    type: MEGA_Y
   }
   visuals {
     icon {
