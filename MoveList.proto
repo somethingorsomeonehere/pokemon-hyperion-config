@@ -191,6 +191,7 @@ message Move {
   bool hammer = 55 [(field_name) = "Hammer Based", (is_flag) = true, (flag_code_value) = "hammerBased"];
   bool throwing = 56 [(field_name) = "Throw Based", (is_flag) = true, (flag_code_value) = "throwingBased"];
   bool lunar = 57 [(field_name) = "Lunar Move", (is_flag) = true, (flag_code_value) = "lunar"];
+  bool drill = 65 [(field_name) = "Drill Based", (is_flag) = true, (flag_code_value) = "drill"];
 
   bool no_parental_bond = 58 [(field_name) = "Can't Multi-Hit", (is_flag) = true];
   bool metronome_banned = 59 [(field_name) = "No Metronome", (is_flag) = true, (flag_code_value) = "metronomeBanned"];
