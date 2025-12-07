@@ -112163,7 +112163,7 @@ trainer {
     }
     mon {
       species: SPECIES_FLYGON_REDUX_B
-      item: ITEM_FLYGONITE_R
+      item: ITEM_FLYGONITE_R_B
       nature: NATURE_TIMID
       ability: ABILITY_ENERGIZED
       hp_ev: 4
