@@ -5909,17 +5909,17 @@ trainer {
       move: MOVE_VOLT_BOLT
     }
     mon {
-      species: SPECIES_BLASTOISE
-      item: ITEM_BLASTOISINITE_X
-      nature: NATURE_ADAMANT
-      ability: ABILITY_FIREFIGHTER
-      hp_ev: 252
+      species: SPECIES_STARMIE
+      item: ITEM_STARMINITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_SWIFT_SWIM
       atk_ev: 252
-      spe_ev: 4
-      move: MOVE_BARRAGE
-      move: MOVE_POWER_UP_PUNCH
-      move: MOVE_SPIKE_CANNON
-      move: MOVE_HYDRO_CANNON
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_LIQUIDATION
+      move: MOVE_PSYCHO_CUT
+      move: MOVE_BULK_UP
+      move: MOVE_SUPERPOWER
     }
   }
   hell {
@@ -26039,7 +26039,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
     }
     mon {
-      species: SPECIES_DURALUDON
+      species: SPECIES_RAICHU_MEGA_Y
       item: ITEM_DURALUDITE
       nature: NATURE_JOLLY
       ability: ABILITY_LIGHT_METAL
@@ -38644,17 +38644,17 @@ trainer {
       move: MOVE_FOCUS_BLAST
     }
     mon {
-      species: SPECIES_KINGDRA
-      item: ITEM_KINGDRANITE_Y
-      nature: NATURE_TIMID
-      ability: ABILITY_SWIFT_SWIM
+      species: SPECIES_EELEKTROSS
+      item: ITEM_EELEKTROSSITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_NOSFERATU
       hp_ev: 4
-      spatk_ev: 252
+      atk_ev: 252
       spe_ev: 252
-      move: MOVE_ZAP_CANNON
-      move: MOVE_OCTAZOOKA
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_MUD_SHOT
+      move: MOVE_JET_PUNCH
+      move: MOVE_RAPID_RIVER
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_LIGHTNING_BULLET
     }
   }
   hell {
@@ -39143,7 +39143,6 @@ trainer {
       move: MOVE_SAPPY_SEED
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_WYRM_WIND]"
       species: SPECIES_CHARIZARD
       item: ITEM_CHARIZARDITE_Y
       nature: NATURE_TIMID
@@ -39178,7 +39177,7 @@ trainer {
       def_ev: 4
       spatk_ev: 252
       move: MOVE_ENERGY_WAVE
-      move: MOVE_HIDDEN_POWER
+      move: MOVE_ASTONISH
       move: MOVE_DRAINING_KISS
       move: MOVE_ICE_BEAM
     }
@@ -48365,17 +48364,17 @@ trainer {
       move: MOVE_LOW_KICK
     }
     mon {
-      species: SPECIES_INTELEON
-      item: ITEM_INTELEONITE
-      nature: NATURE_TIMID
-      ability: ABILITY_DUAL_WIELD
-      spatk_ev: 252
-      spdef_ev: 4
+      species: SPECIES_STARMIE
+      item: ITEM_STARMINITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_RAGING_STORM
+      atk_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_SNIPE_SHOT
-      move: MOVE_ICE_BEAM
-      move: MOVE_HYDRO_CANNON
-      move: MOVE_FOCUS_BLAST
+      move: MOVE_SUPERPOWER
+      move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_AQUA_JET
+      move: MOVE_WAVE_CRASH
     }
   }
   hell {
@@ -70898,7 +70897,7 @@ trainer {
       move: MOVE_VEEVEE_VOLLEY
     }
     mon {
-      species: SPECIES_DURALUDON
+      species: SPECIES_RAICHU_MEGA_Y
       item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_DRACO_MORALE
@@ -112342,17 +112341,17 @@ trainer {
       move: MOVE_TRIPLE_DIVE
     }
     mon {
-      species: SPECIES_FROSLASS
-      item: ITEM_FROSLASSITE
-      nature: NATURE_TIMID
-      ability: ABILITY_CHILLING_PRESENCE
-      def_ev: 128
-      spdef_ev: 128
+      species: SPECIES_CHIEN_PAO
+      item: ITEM_CHIEN_PAOITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_HYPER_AGGRESSIVE
+      hp_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_BLIZZARD
-      move: MOVE_BITTER_MALICE
-      move: MOVE_EARTHQUAKE
-      move: MOVE_HEAD_SMASH
+      move: MOVE_ICE_FANG
+      move: MOVE_BLEAKWIND_STORM
+      move: MOVE_CRUNCH
+      move: MOVE_SACRED_SWORD
     }
   }
 }
