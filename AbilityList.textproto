@@ -5401,7 +5401,7 @@ ability {
 }
 ability {
   id: ABILITY_GREEDY
-  name: "Greedy (N)"
+  name: "Greedy"
   description: "Uses Thief when it loses an item."
 }
 ability {
