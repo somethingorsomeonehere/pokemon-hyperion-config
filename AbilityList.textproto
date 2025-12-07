@@ -5427,7 +5427,7 @@ ability {
 }
 ability {
   id: ABILITY_STRIKEOUT
-  name: "Strikeout (N)"
+  name: "Strikeout"
   description: "Forces the foe out if they don't attack for 3 turns."
 }
 ability {
