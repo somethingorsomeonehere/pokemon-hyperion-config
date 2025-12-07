@@ -1829,8 +1829,8 @@ ability {
 ability {
   id: ABILITY_DREAMCATCHER
   name: "Dreamcatcher"
-  description: "Doubles damage if anyone is sleeping. Pursues sleeping foes."
-  expanded_description: "Dreamcatcher doubles the power of the user's moves when any Pokemon on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
+  description: "Doubles damage if an opponent is sleeping. Pursues sleeping foes."
+  expanded_description: "Dreamcatcher doubles the power of the user's moves when any opponent on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
 }
 ability {
   id: ABILITY_NOCTURNAL
@@ -2002,7 +2002,7 @@ ability {
 ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
-  description: "Foes can't crit, deal min damage, and have no effect chance."
+  description: "Foes can't crit, deal min damage, 5% less acc, & no effect chance."
   expanded_description: "Foes can not land critical hits, always roll minimum damage (85% instead of 85-100%), fail to inflict secondary effects that are not guaranteed, and have a 5% chance to miss a move."
 }
 ability {
@@ -5597,8 +5597,8 @@ ability {
 }
 ability {
   id: ABILITY_I_AM_STEVE
-  name: "i am steve"
-  description: "dude what even is this game anymore"
+  name: "I Am Steve"
+  description: "Uses No Retreat on entry."
 }
 ability {
   id: ABILITY_TANGLED_TAILS
@@ -5608,7 +5608,7 @@ ability {
 }
 ability {
   id: ABILITY_FOAMY_WEB
-  name: "Foamy Web (N)"
+  name: "Foamy Web"
   description: "Casts an unremovable Sticky Web on entry. Lasts 5 turns."
   expanded_description: "Sets Sticky Web on opponent's field when the user enters battle. Lasts 5 turns and lowers Speed by 1 stage for any grounded Pokemon switching in. Cannot activate if Sticky Web is already present on opponent's field."
 }
@@ -5781,7 +5781,7 @@ ability {
 }
 ability {
   id: ABILITY_MEGA_DRILL
-  name: "Mega Drill (N)"
+  name: "Mega Drill"
   description: "Mighty Horn + all Drill moves are 30% stronger."
 }
 ability {
@@ -5838,4 +5838,14 @@ ability {
   id: ABILITY_UNRELENTING
   name: "Unrelenting"
   description: "All attacking moves can hit 2-5 times"
+}
+ability {
+  id: ABILITY_ELEMENTAL_AEGIS
+  name: "Elemental Aegis"
+  description: "Takes 1/2 damage from Fire, Electric and Water-type attacks."
+}
+ability {
+  id: ABILITY_AEGIS_WARD
+  name: "Aegis Ward"
+  description: "Takes 1/2 damage from Dark, Ghost and Psychic-type attacks."
 }
