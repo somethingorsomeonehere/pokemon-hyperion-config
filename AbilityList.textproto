@@ -1829,8 +1829,8 @@ ability {
 ability {
   id: ABILITY_DREAMCATCHER
   name: "Dreamcatcher"
-  description: "Doubles damage if anyone is sleeping. Pursues sleeping foes."
-  expanded_description: "Dreamcatcher doubles the power of the user's moves when any Pokemon on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
+  description: "Doubles damage if an opponent is sleeping. Pursues sleeping foes."
+  expanded_description: "Dreamcatcher doubles the power of the user's moves when any opponent on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
 }
 ability {
   id: ABILITY_NOCTURNAL
@@ -2002,7 +2002,7 @@ ability {
 ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
-  description: "Foes can't crit, deal min damage, and have no effect chance."
+  description: "Foes can't crit, deal min damage, 5% less acc, & no effect chance."
   expanded_description: "Foes can not land critical hits, always roll minimum damage (85% instead of 85-100%), fail to inflict secondary effects that are not guaranteed, and have a 5% chance to miss a move."
 }
 ability {
@@ -4883,25 +4883,25 @@ ability {
 }
 ability {
   id: ABILITY_MENTAL_POLLUTION
-  name: "Mental Pollution (N)"
-  description: "Nulls abilities when confused except others with this ability."
-  expanded_description: "Nullifies all opposing Pokemon's abilities and innates while they are confused. Pokemon with Mental Pollution remain unaffected."
+  name: "Mental Pollution"
+  description: "Suppresses others' abilities when it becomes confused."
+  expanded_description: "Applies ability suppression to other Pokemon when it becomes confused. Suppression lasts while those Pokemon remain on the field. Pokemon with Mental Pollution are unaffected."
 }
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
-  name: "Madness Enhancement (N)"
+  name: "Madness Enhancement"
   description: "Confuses self in fog, halves damage when confused."
   expanded_description: "Forces self-confusion when entering fog. All incoming damage is reduced by 50% when the user is confused and it will never hurt itself."
 }
 ability {
   id: ABILITY_TENTALOCK
-  name: "Tentalock (N)"
+  name: "Tentalock"
   description: "Grappler + Serpent Bind."
   expanded_description: "Trapping moves last 6 turns instead of 4-5 turns and increases their damage at the end of the turn to 1/6 max HP per turn. Gives attacks a 50% chance to trap the target for 6 turns, preventing escape or switching. Once trapped, their speed drops by one stage each turn they remain on the field."
 }
 ability {
   id: ABILITY_SERPENT_BIND
-  name: "Serpent Bind (N)"
+  name: "Serpent Bind"
   description: "50% chance to trap, then drop the their speed by -1 each turn."
   expanded_description: "Gives attacks a 50% chance to trap the target for 4-5 turns, preventing escape or switching. Once trapped, their speed drops by one stage each turn they remain on the field."
 }
@@ -4962,14 +4962,14 @@ ability {
 ability {
   id: ABILITY_STAINLESS_STEEL
   name: "Stainless Steel"
-  description: "Fort Knox + Wonder Skin."
+  description: "Fort Knox + Steelworker."
   expanded_description: "Converts Normal-type moves to Steel-type and grants STAB for Steel moves regardless of typing. Additionally takes half damage from Dark and Ghost-type moves. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
 }
 ability {
   id: ABILITY_TEMPORAL_RUPTURE
-  name: "Temporal Rupture (N)"
+  name: "Temporal Rupture"
   description: "Roar of Time is altered drastically."
-  expanded_description: "Roar of Time becomes a 100 BP +0 Priority attack that changes the target's Ability to Slow Start (halves attacking stats and speed for 5 turns). It also no longer forces Pokemon out or is considered a sound move."
+  expanded_description: "Roar of Time becomes a 100 BP +0 Priority attack that changes the target's Ability to Slow Start (halves attacking stats and speed for 5 turns) but no longer forces the target to switch."
 }
 ability {
   id: ABILITY_GRASS_FLUTE
@@ -4985,8 +4985,8 @@ ability {
 }
 ability {
   id: ABILITY_HARUKAZE
-  name: "Harukaze (N)"
-  description: "Setting Grassy Terrain sets Tailwind an vice versa."
+  name: "Harukaze"
+  description: "Setting Grassy Terrain sets Tailwind and vice versa."
   expanded_description: "Sets Grassy Terrain when setting Tailwind, and sets Tailwind when setting Grassy Terrain. Does not refresh the duration in either case if one is already active."
 }
 ability {
@@ -5009,7 +5009,7 @@ ability {
 }
 ability {
   id: ABILITY_CHOKEHOLD
-  name: "Chokehold (N)"
+  name: "Chokehold"
   description: "Binding moves lower speed and paralyze."
   expanded_description: "When the user traps a target, they inflict paralysis and drop their speed by one stage once every turn while trapped."
 }
@@ -5075,7 +5075,7 @@ ability {
 }
 ability {
   id: ABILITY_SUPERHEAVY
-  name: "Superheavy (N)"
+  name: "Superheavy"
   description: "Steadfast + blocks phasing moves."
   expanded_description: "Getting flinched raises Speed by one stage. Prevents forced switching from moves and Red Card."
 }
@@ -5296,7 +5296,7 @@ ability {
 }
 ability {
   id: ABILITY_CRYSTALLINE_ARMOR
-  name: "Crystalline Armor (N)"
+  name: "Crystalline Armor"
   description: "Reflects stat drops and immune to critical hits."
 }
 ability {
@@ -5311,8 +5311,9 @@ ability {
 }
 ability {
   id: ABILITY_CRAVING
-  name: "Craving (N)"
+  name: "Craving"
   description: "Eat a random berry at the end of the turn."
+  expanded_description: "Eats one of the following berries at end of turn: Leppa, Sitrus, Liechi, Ganlon, Salac, Petaya, Apicot, Lansat, Starf, Custap, or a random pinch healing berry."
 }
 ability {
   id: ABILITY_RAT_KING
@@ -5381,7 +5382,7 @@ ability {
 }
 ability {
   id: ABILITY_STRONG_FOUNDATION
-  name: "Strong Foundation (P)"
+  name: "Strong Foundation"
   description: "Takes 1/2 Water and Ground dmg and can't be forced out."
 }
 ability {
@@ -5396,12 +5397,12 @@ ability {
 }
 ability {
   id: ABILITY_TURF_WAR
-  name: "Turf War (N)"
+  name: "Turf War"
   description: "Destroys terrain and boosts highest stat on entry."
 }
 ability {
   id: ABILITY_GREEDY
-  name: "Greedy (N)"
+  name: "Greedy"
   description: "Uses Thief when it loses an item."
 }
 ability {
@@ -5416,7 +5417,7 @@ ability {
 }
 ability {
   id: ABILITY_MUSICAL_NOTES
-  name: "Musical Notes (N)"
+  name: "Musical Notes"
   description: "Status moves become sound-based."
 }
 ability {
@@ -5431,8 +5432,8 @@ ability {
 }
 ability {
   id: ABILITY_HOME_RUN
-  name: "Home Run (N)"
-  description: "Landing a crit boosts your 3 lowest stats. RAW stat, not base."
+  name: "Home Run"
+  description: "Landing a crit boosts your 3 lowest stats."
 }
 ability {
   id: ABILITY_BRUISER
@@ -5441,7 +5442,7 @@ ability {
 }
 ability {
   id: ABILITY_NARCISSIST
-  name: "Narcissist (N)"
+  name: "Narcissist"
   description: "When a stat is lowered, sharply raise both offenses."
 }
 ability {
@@ -5491,12 +5492,12 @@ ability {
 }
 ability {
   id: ABILITY_RAINBOW_SCALES
-  name: "Rainbow Scales (N)"
+  name: "Rainbow Scales"
   description: "Fire Scales + Taste the Rainbow."
 }
 ability {
   id: ABILITY_TASTE_THE_RAINBOW
-  name: "Taste the Rainbow (N)"
+  name: "Taste the Rainbow"
   description: "Summons the Rainbow Pledge effect on entry."
 }
 ability {
@@ -5546,7 +5547,7 @@ ability {
 }
 ability {
   id: ABILITY_SUMO_WRESTLER
-  name: "Sumo Wrestler (N)"
+  name: "Sumo Wrestler"
   description: "Uses Circle throw at the end of each 2nd turn."
 }
 ability {
@@ -5596,18 +5597,18 @@ ability {
 }
 ability {
   id: ABILITY_I_AM_STEVE
-  name: "i am steve"
-  description: "dude what even is this game anymore"
+  name: "I Am Steve"
+  description: "Uses No Retreat on entry."
 }
 ability {
   id: ABILITY_TANGLED_TAILS
-  name: "Tangled Tails (N)"
+  name: "Tangled Tails"
   description: "Know Your Place + Grappler."
   expanded_description: "Landing contact moves causes the target to always move last regardless of priority, speed, or other effects for 5 turns. Effect does not stack or refresh on already afflicted targets. Trapping moves last 6 turns instead of 4-5 turns and increases their damage at the end of the turn to 1/6 max HP per turn."
 }
 ability {
   id: ABILITY_FOAMY_WEB
-  name: "Foamy Web (N)"
+  name: "Foamy Web"
   description: "Casts an unremovable Sticky Web on entry. Lasts 5 turns."
   expanded_description: "Sets Sticky Web on opponent's field when the user enters battle. Lasts 5 turns and lowers Speed by 1 stage for any grounded Pokemon switching in. Cannot activate if Sticky Web is already present on opponent's field."
 }
@@ -5649,12 +5650,12 @@ ability {
 }
 ability {
   id: ABILITY_CHESTNUT_AXE
-  name: "Chestnut Axe (N)"
+  name: "Chestnut Axe"
   description: "Keen edge + Grass moves become Keen Edge boosted."
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
-  name: "Giant Shuriken (N)"
+  name: "Giant Shuriken"
   description: "Water Shuriken hits once with 100BP and +1 crit."
 }
 ability {
@@ -5674,12 +5675,12 @@ ability {
 }
 ability {
   id: ABILITY_WRESTLE_SHOWMAN
-  name: "Wrestle Showman (N)"
+  name: "Wrestle Showman"
   description: "Flying Press gains +10BP and causes Taunt."
 }
 ability {
   id: ABILITY_FIRE_RULER
-  name: "Fire Ruler (N)"
+  name: "Fire Ruler"
   description: "King's Wrath + Flame Body"
 }
 ability {
@@ -5714,7 +5715,7 @@ ability {
 }
 ability {
   id: ABILITY_EMPERORS_WRATH
-  name: "Emperor's Wrath (N)"
+  name: "Emperor's Wrath"
   description: "King's Wrath + Queen's Mourning."
 }
 ability {
@@ -5754,17 +5755,18 @@ ability {
 }
 ability {
   id: ABILITY_NIHIL_BLASTER
-  name: "Nihil Blaster (N)"
+  name: "Nihil Blaster"
   description: "Aura Break + Mega Launcher."
 }
 ability {
   id: ABILITY_HOLLOW_ICE_ZONE
-  name: "Hollow Ice Zone (N)"
-  description: "Foe's non-contact moves are Ice-type if user hasn't acted."
+  name: "Hollow Ice Zone"
+  description: "Ice-type moves apply Ice Statue and then make the user switch."
+  expanded_description: "The user's Ice-type moves apply the Ice Statue status to the target, making them Ice-type with no resistances or frostbite immunity. If Ice Statue is applied the user switches."
 }
 ability {
   id: ABILITY_OVERCAST
-  name: "Overcast (N)"
+  name: "Overcast"
   description: "Low Visibility + Sets Mist on entry."
 }
 ability {
@@ -5775,25 +5777,75 @@ ability {
 ability {
   id: ABILITY_FLOWER_NECKLACE
   name: "Flower Necklace"
-  description: "Grassy Surge boosts Special Defense by 1 stage."
+  description: "This Pokémon's SpDef gets a 1.5x boost in Grassy Terrain."
 }
 ability {
   id: ABILITY_MEGA_DRILL
-  name: "Mega Drill (N)"
+  name: "Mega Drill"
   description: "Mighty Horn + all Drill moves are 30% stronger."
 }
 ability {
-  id: ABILITY_BOOGER_HEADS
-  name: "Booger Heads"
+  id: ABILITY_MUCUS_MEMBRANE
+  name: "Mucus Membrane"
   description: "Takes 30% less damage from attacks + Gooey"
 }
 ability {
   id: ABILITY_LUCHA_LIBRE
-  name: "Lucha Libre (N)"
+  name: "Lucha Libre"
   description: "Dazzling + Defiant."
 }
 ability {
   id: ABILITY_CURLIPEDE
   name: "Curlipede"
   description: "Let's Roll + Coil Up"
+}
+ability {
+  id: ABILITY_STORM_CLOUD
+  name: "Storm Cloud"
+  description: "Summon rain on entry for 8 turns. Gain Electric-type STAB."
+}
+ability {
+  id: ABILITY_WATERBORNE
+  name: "Waterborne"
+  description: "Aquatic + Adaptability"
+}
+ability {
+  id: ABILITY_DRAKELP_HEAD
+  name: "Drakelp Head"
+  description: "Weakens first move taken and drops opponent's attack."
+}
+ability {
+  id: ABILITY_POLARITY
+  name: "Polarity"
+  description: "Increases the party's highest stat by 30%"
+}
+ability {
+  id: ABILITY_RESILIENCE
+  name: "Resilience"
+  description: "Heal 1/4 of max HP whenever below 1/2 health"
+}
+ability {
+  id: ABILITY_GOING_BERSERK
+  name: "Going Berserk"
+  description: "Berserk + Rampage"
+}
+ability {
+  id: ABILITY_THUNDER_CLOUDS
+  name: "Thunder Clouds"
+  description: "After using a special move, launch a 35 BP Thunderbolt"
+}
+ability {
+  id: ABILITY_UNRELENTING
+  name: "Unrelenting"
+  description: "All attacking moves can hit 2-5 times"
+}
+ability {
+  id: ABILITY_ELEMENTAL_AEGIS
+  name: "Elemental Aegis"
+  description: "Takes 1/2 damage from Fire, Electric and Water-type attacks."
+}
+ability {
+  id: ABILITY_AEGIS_WARD
+  name: "Aegis Ward"
+  description: "Takes 1/2 damage from Dark, Ghost and Psychic-type attacks."
 }

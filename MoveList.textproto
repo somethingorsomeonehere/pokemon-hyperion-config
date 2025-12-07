@@ -583,6 +583,7 @@ moves {
   ignores_ability: true
   mirror_move_affected: true
   horn: true
+  drill: true
 }
 moves {
   id: MOVE_TACKLE
@@ -1142,6 +1143,7 @@ moves {
   mirror_move_affected: true
   horn: true
   tutor: TUTOR_ATTACK
+  drill: true
 }
 moves {
   id: MOVE_SUBMISSION
@@ -8729,6 +8731,7 @@ moves {
   mirror_move_affected: true
   horn: true
   tutor: TUTOR_ATTACK
+  drill: true
 }
 moves {
   id: MOVE_DUAL_CHOP
@@ -14847,6 +14850,7 @@ moves {
   mirror_move_affected: true
   horn: true
   uses_animation: MOVE_DRILL_RUN
+  drill: true
 }
 moves {
   id: MOVE_DOUBLE_SHOCK
@@ -16785,6 +16789,7 @@ moves {
   horn: true
   tutor: TUTOR_ATTACK
   uses_animation: MOVE_MEGAHORN
+  drill: true
 }
 moves {
   id: MOVE_ONI_FIST
@@ -16917,17 +16922,17 @@ moves {
 }
 moves {
   id: MOVE_SEPTIC_SWITCH
-  name: "Septic Switch (N)"
+  name: "Septic Switch"
   short_name: "Sep Switch"
   description: "Supresses the targets abilities then switches out."
   short_description: "Supress abilities then switch."
+  effect: EFFECT_SEPTIC_SWITCH
   split: STATUS
   type: TYPE_POISON
   target: SELECTED
   accuracy: 100
-  pp: 5
+  pp: 20
   mirror_move_affected: true
-  uses_animation: MOVE_NONE
 }
 moves {
   id: MOVE_WATERLOG
