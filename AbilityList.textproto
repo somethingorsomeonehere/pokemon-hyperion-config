@@ -2002,7 +2002,7 @@ ability {
 ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
-  description: "Foes can't crit, deal min damage, and have no effect chance."
+  description: "Foes can't crit, deal min damage, 5% less acc, & no effect chance."
   expanded_description: "Foes can not land critical hits, always roll minimum damage (85% instead of 85-100%), fail to inflict secondary effects that are not guaranteed, and have a 5% chance to miss a move."
 }
 ability {
