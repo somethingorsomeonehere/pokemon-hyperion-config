@@ -1829,8 +1829,8 @@ ability {
 ability {
   id: ABILITY_DREAMCATCHER
   name: "Dreamcatcher"
-  description: "Doubles damage if anyone is sleeping. Pursues sleeping foes."
-  expanded_description: "Dreamcatcher doubles the power of the user's moves when any Pokemon on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
+  description: "Doubles damage if an opponent is sleeping. Pursues sleeping foes."
+  expanded_description: "Dreamcatcher doubles the power of the user's moves when any opponent on the field is asleep. This includes the user, allies, or opponents. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Does not activate against Comatose."
 }
 ability {
   id: ABILITY_NOCTURNAL
