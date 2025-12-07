@@ -5834,4 +5834,8 @@ ability {
   name: "Thunder Clouds"
   description: "After using a special move, launch a 35 BP Thunderbolt"
 }
-
+ability {
+  id: ABILITY_UNRELENTING
+  name: "Unrelenting"
+  description: "All attacking moves can hit 2-5 times"
+}
