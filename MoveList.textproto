@@ -17396,3 +17396,18 @@ moves {
   striker: true
   uses_animation: MOVE_MEGA_KICK
 }
+moves {
+  id: MOVE_SLUDGE_SPIT
+  name: "Sludge Spit"
+  short_name: "Sludge Spit"
+  description: "Suppresses the target\'s abilities, then switches out."
+  short_description: "Suppresses the target\'s abilities, then switches out."
+  effect: EFFECT_SLUDGE_SPIT
+  split: STATUS
+  type: TYPE_POISON
+  target: SELECTED
+  accuracy: 100
+  pp: 10
+  magic_coat_affected: true
+  mirror_move_affected: true
+}
