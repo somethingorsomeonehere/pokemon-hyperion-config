@@ -167805,93 +167805,22 @@ species {
 }
 species {
   id: SPECIES_RAICHU_MEGA_Y
-  form_of: SPECIES_DURALUDON
-  type: TYPE_STEEL
-  type2: TYPE_DRAGON
-  hp: 70
-  atk: 120
-  def: 105
-  spatk: 100
-  spdef: 50
-  spe: 90
-  ability: ABILITY_MIRROR_ARMOR
-  ability: ABILITY_LIGHT_METAL
-  ability: ABILITY_DRACO_MORALE
-  innate: ABILITY_STEELWORKER
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_STALWART
+  form_of: SPECIES_RAICHU
+  type: TYPE_ELECTRIC
+  hp: 60
+  atk: 90
+  def: 55
+  spatk: 90
+  spdef: 80
+  spe: 115
+  ability: ABILITY_EARTHBOUND
+  ability: ABILITY_GENERATOR
+  ability: ABILITY_ELECTRIC_BURST
+  innate: ABILITY_SHORT_CIRCUIT
+  innate: ABILITY_STATIC
+  innate: ABILITY_GROUND_SHOCK
   percent_female: 50
-  tier: 4
-  learnset {
-    level {
-      level: 1
-      move: MOVE_GLARE
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 17
-      move: MOVE_BARRAGE
-      move: MOVE_CHARGE
-      move: MOVE_IRON_TAIL
-    }
-    level {
-      level: 24
-      move: MOVE_ION_DELUGE
-      move: MOVE_SNARL
-    }
-    level {
-      level: 37
-      move: MOVE_DRAGON_RAGE
-      move: MOVE_SONIC_BOOM
-      move: MOVE_LIGHTNING_BULLET
-    }
-    level {
-      level: 46
-      move: MOVE_AURA_FORCE
-      move: MOVE_METEOR_MASH
-      move: MOVE_PRIMAL_BEAM
-    }
-    level {
-      level: 51
-      move: MOVE_DRACO_METEOR
-      move: MOVE_METAL_BURST
-      move: MOVE_OUTBURST
-    }
-    level {
-      level: 56
-      move: MOVE_AUTOTOMIZE
-      move: MOVE_ROCKET_PUNCH
-      move: MOVE_ZAP_CANNON
-    }
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_BREAKING_SWIPE
-    tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_COUNTER
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_DISCHARGE
-    tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_DRAGON_CLAW
-    tutor: MOVE_DRAGON_PULSE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FLASH_CANNON
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_DEFENSE
-    tutor: MOVE_IRON_HEAD
-    tutor: MOVE_METAL_CLAW
-    tutor: MOVE_METAL_SOUND
-    tutor: MOVE_MIRROR_COAT
-    tutor: MOVE_ROCK_THROW
-    tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_CALTROPS
-    tutor: MOVE_REFLECT
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_BULK_UP
-  }
-  reuse_visuals: SPECIES_DURALUDON
+  reuse_visuals: SPECIES_RAICHU
 }
 species {
   id: SPECIES_DURALUDON_PARTNER_MEGA
