@@ -5850,6 +5850,11 @@ ability {
   description: "Takes 1/2 damage from Dark, Ghost and Psychic-type attacks."
 }
 ability {
+  id: ABILITY_SHATTERED_ARMOR
+  name: "Shattered Armor"
+  description: "Battle Armor + Scrapyard."
+}
+ability {
   id: ABILITY_ACID_REFLUX
   name: "Acid Reflux"
   description: "Uses 20BP Acid when it takes damage."
