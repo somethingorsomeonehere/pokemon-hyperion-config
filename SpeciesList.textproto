@@ -209283,3 +209283,131 @@ species {
     shiny: "falinks/mega/shiny"
   }
 }
+species {
+  id: SPECIES_PLUNDERTOW
+  dex {
+    name: "Plundertow"
+    category: "Sea Wanderer"
+    description: "Despite its daunting appearance, it coexists peacefully with other Pok\303\251mon. It has never been witnessed feeding."
+    national_dex_num: 1033
+    body_color: BODY_COLOR_GREEN
+    egg_group: MINERAL
+    height: 100
+    weight: 7000
+  }
+  type: TYPE_GHOST
+  type2: TYPE_GRASS
+  hp: 83
+  atk: 121
+  def: 77
+  spatk: 121
+  spdef: 77
+  spe: 121
+  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_RAGING_STORM
+  ability: ABILITY_VENGEFUL_SPIRIT
+  innate: ABILITY_METALLIC
+  innate: ABILITY_GHOST_FRENZY
+  innate: ABILITY_INFILTRATOR
+  genderless: true
+  tier: 2
+  no_flip: true
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ANCHOR_SHOT
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_SLAM
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_GYRO_BALL
+      move: MOVE_LEAF_BLADE
+    }
+    level {
+      level: 24
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_STEEL_ROLLER
+    }
+    level {
+      level: 37
+      move: MOVE_ASTONISH
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_POLTERGEIST
+      move: MOVE_SYNTHESIS
+    }
+    level {
+      level: 46
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_SPIN_OUT
+      move: MOVE_AQUA_FANG
+    }
+    level {
+      level: 51
+      move: MOVE_POWER_WHIP
+      move: MOVE_TRIPLE_DIVE
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_HEX
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIST
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TORMENT
+    tutor: MOVE_TRICK
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_AQUA_BASH
+    tutor: MOVE_CALTROPS
+  }
+  visuals {
+    icon {
+      path: "plundertow/icon"
+      palette: 1
+    }
+    front {
+      path: "plundertow/front"
+      coords {
+        size: 69
+        y_offset: 1
+      }
+    }
+    back {
+      path: "plundertow/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        size: 136
+      }
+    }
+    palette: "plundertow/normal"
+    shiny: "plundertow/shiny"
+  }
+}

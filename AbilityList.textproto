@@ -5859,3 +5859,8 @@ ability {
   name: "Acid Reflux"
   description: "Uses 20BP Acid when it takes damage."
 }
+ability {
+  id: ABILITY_GHOST_FRENZY
+  name: "Ghost Frenzy"
+  description: "Hyper Aggressive + Soul Eater."
+}
