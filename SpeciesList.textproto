@@ -49377,9 +49377,9 @@ species {
   spatk: 40
   spdef: 138
   spe: 68
-  ability: ABILITY_STEELWORKER
-  ability: ABILITY_LIGHT_METAL
-  ability: ABILITY_FLOCK
+  ability: ABILITY_SHATTERED_ARMOR
+  ability: ABILITY_SHATTERED_ARMOR
+  ability: ABILITY_SHATTERED_ARMOR
   innate: ABILITY_STEELWORKER
   innate: ABILITY_SELF_REPAIR
   innate: ABILITY_POWER_CORE
@@ -49387,6 +49387,7 @@ species {
   mega {
     from: SPECIES_SKARMORY
     item: ITEM_SKARMORITE
+    type: MEGA_X
   }
   uses_learnset: SPECIES_SKARMORY
   visuals {
@@ -74903,6 +74904,7 @@ species {
   mega {
     from: SPECIES_FROSLASS
     item: ITEM_FROSLASSITE
+    type: MEGA_X
   }
   visuals {
     icon {
@@ -167807,93 +167809,22 @@ species {
 }
 species {
   id: SPECIES_RAICHU_MEGA_Y
-  form_of: SPECIES_DURALUDON
-  type: TYPE_STEEL
-  type2: TYPE_DRAGON
-  hp: 70
-  atk: 120
-  def: 105
-  spatk: 100
-  spdef: 50
-  spe: 90
-  ability: ABILITY_MIRROR_ARMOR
-  ability: ABILITY_LIGHT_METAL
-  ability: ABILITY_DRACO_MORALE
-  innate: ABILITY_STEELWORKER
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_STALWART
+  form_of: SPECIES_RAICHU
+  type: TYPE_ELECTRIC
+  hp: 60
+  atk: 90
+  def: 55
+  spatk: 90
+  spdef: 80
+  spe: 115
+  ability: ABILITY_EARTHBOUND
+  ability: ABILITY_GENERATOR
+  ability: ABILITY_ELECTRIC_BURST
+  innate: ABILITY_SHORT_CIRCUIT
+  innate: ABILITY_STATIC
+  innate: ABILITY_GROUND_SHOCK
   percent_female: 50
-  tier: 4
-  learnset {
-    level {
-      level: 1
-      move: MOVE_GLARE
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 17
-      move: MOVE_BARRAGE
-      move: MOVE_CHARGE
-      move: MOVE_IRON_TAIL
-    }
-    level {
-      level: 24
-      move: MOVE_ION_DELUGE
-      move: MOVE_SNARL
-    }
-    level {
-      level: 37
-      move: MOVE_DRAGON_RAGE
-      move: MOVE_SONIC_BOOM
-      move: MOVE_LIGHTNING_BULLET
-    }
-    level {
-      level: 46
-      move: MOVE_AURA_FORCE
-      move: MOVE_METEOR_MASH
-      move: MOVE_PRIMAL_BEAM
-    }
-    level {
-      level: 51
-      move: MOVE_DRACO_METEOR
-      move: MOVE_METAL_BURST
-      move: MOVE_OUTBURST
-    }
-    level {
-      level: 56
-      move: MOVE_AUTOTOMIZE
-      move: MOVE_ROCKET_PUNCH
-      move: MOVE_ZAP_CANNON
-    }
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_BREAKING_SWIPE
-    tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_COUNTER
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_DISCHARGE
-    tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_DRAGON_CLAW
-    tutor: MOVE_DRAGON_PULSE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FLASH_CANNON
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_DEFENSE
-    tutor: MOVE_IRON_HEAD
-    tutor: MOVE_METAL_CLAW
-    tutor: MOVE_METAL_SOUND
-    tutor: MOVE_MIRROR_COAT
-    tutor: MOVE_ROCK_THROW
-    tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_CALTROPS
-    tutor: MOVE_REFLECT
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_BULK_UP
-  }
-  reuse_visuals: SPECIES_DURALUDON
+  reuse_visuals: SPECIES_RAICHU
 }
 species {
   id: SPECIES_DURALUDON_PARTNER_MEGA
@@ -197530,6 +197461,7 @@ species {
   mega {
     from: SPECIES_CHANDELURE
     item: ITEM_CHANDELURITE
+    type: MEGA_X
   }
   visuals {
     icon {
@@ -208362,7 +208294,7 @@ species {
   ability: ABILITY_POISON_ABSORB
   ability: ABILITY_SWEET_VEIL
   innate: ABILITY_TUMMYACHE
-  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_ACID_REFLUX
   innate: ABILITY_WONDER_SKIN
   percent_female: 50
   mega {
@@ -208637,6 +208569,7 @@ species {
 }
 species {
   id: SPECIES_SCOLIPEDE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_SCOLIPEDE
   type: TYPE_BUG
   type2: TYPE_POISON
@@ -208684,6 +208617,7 @@ species {
 }
 species {
   id: SPECIES_SCRAFTY_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_SCRAFTY
   type: TYPE_DARK
   type2: TYPE_FIGHTING
@@ -208703,7 +208637,6 @@ species {
   mega {
     from: SPECIES_SCRAFTY
     item: ITEM_SCRAFTINITE
-    type: MEGA_Y
   }
   visuals {
     icon {
@@ -208732,6 +208665,7 @@ species {
 }
 species {
   id: SPECIES_EELEKTROSS_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_EELEKTROSS
   type: TYPE_ELECTRIC
   hp: 85
@@ -208778,6 +208712,7 @@ species {
 }
 species {
   id: SPECIES_CHANDELURE_MEGA_Y
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_CHANDELURE
   type: TYPE_GHOST
   type2: TYPE_FIRE
@@ -208797,6 +208732,7 @@ species {
   mega {
     from: SPECIES_CHANDELURE
     item: ITEM_CHANDELURITE_Y
+    type: MEGA_Y
   }
   visuals {
     icon {
@@ -208825,6 +208761,7 @@ species {
 }
 species {
   id: SPECIES_CHESNAUGHT_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_CHESNAUGHT
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
@@ -208872,6 +208809,7 @@ species {
 }
 species {
   id: SPECIES_DELPHOX_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DELPHOX
   type: TYPE_FIRE
   type2: TYPE_PSYCHIC
@@ -208919,6 +208857,7 @@ species {
 }
 species {
   id: SPECIES_GRENINJA_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_GRENINJA
   type: TYPE_WATER
   type2: TYPE_DARK
@@ -208966,6 +208905,7 @@ species {
 }
 species {
   id: SPECIES_PYROAR_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_PYROAR
   type: TYPE_NORMAL
   type2: TYPE_FIRE
@@ -209013,6 +208953,7 @@ species {
 }
 species {
   id: SPECIES_FLOETTE_ETERNAL_FLOWER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FLOETTE
   type: TYPE_FAIRY
   hp: 74
@@ -209059,6 +209000,7 @@ species {
 }
 species {
   id: SPECIES_MALAMAR_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_MALAMAR
   type: TYPE_DARK
   type2: TYPE_PSYCHIC
@@ -209106,6 +209048,7 @@ species {
 }
 species {
   id: SPECIES_BARBARACLE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_BARBARACLE
   type: TYPE_ROCK
   type2: TYPE_FIGHTING
@@ -209153,6 +209096,7 @@ species {
 }
 species {
   id: SPECIES_HAWLUCHA_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HAWLUCHA
   type: TYPE_FIGHTING
   type2: TYPE_FLYING
@@ -209200,6 +209144,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_COMPLETE_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -209247,6 +209192,7 @@ species {
 }
 species {
   id: SPECIES_DRAMPA_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAMPA
   type: TYPE_NORMAL
   type2: TYPE_DRAGON
@@ -209294,6 +209240,7 @@ species {
 }
 species {
   id: SPECIES_FALINKS_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_FALINKS
   type: TYPE_FIGHTING
   hp: 65
