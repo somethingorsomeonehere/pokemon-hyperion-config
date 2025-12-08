@@ -83936,7 +83936,7 @@ species {
     name: "Luxzero"
     category: "Glacial Lion"
     description: "Rumored to have been a luxray that experienced years of cryosleep in a malfunctioned capsule."
-    national_dex_num: 405
+    national_dex_num: 1118
     body_color: BODY_COLOR_BLUE
     egg_group: FIELD
     height: 14
@@ -166750,6 +166750,7 @@ species {
   dex {
     name: "Morpekyll"
     body_color: BODY_COLOR_YELLOW
+    national_dex_num: 1119
     egg_group: FIELD
     egg_group_2: FAIRY
   }
@@ -190500,6 +190501,7 @@ species {
   dex {
     name: "Granitun"
     body_color: BODY_COLOR_GREEN
+    national_dex_num: 1120
     egg_group: GRASS
     egg_group_2: DRAGON
   }
@@ -190615,6 +190617,7 @@ species {
   dex {
     name: "Fujiflap"
     body_color: BODY_COLOR_GREEN
+    national_dex_num: 1121
     egg_group: GRASS
     egg_group_2: DRAGON
   }
@@ -192254,7 +192257,7 @@ species {
     name: "Seerkat"
     category: "Lookout"
     description: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents. Keen eyesight lets them see in the dark."
-    national_dex_num: 1066
+    national_dex_num: 1122
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
     height: 11
@@ -198192,7 +198195,7 @@ species {
     name: "Frostuccino"
     category: "Scarf"
     description: "Their white fur feels amazing to touch. Cinccino\'s body is coated in a special oil that repels dust and helps it deflect attacks, such as punches."
-    national_dex_num: 573
+    national_dex_num: 1123
     body_color: BODY_COLOR_GRAY
     egg_group: FIELD
     height: 5
@@ -198336,8 +198339,7 @@ species {
     name: "Iron Palette"
     category: "Color Swap"
     description: "A Pok\303\251mon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled."
-    national_dex_num: 352
-    hoenn_dex_num: 150
+    national_dex_num: 1124
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     height: 10
@@ -198712,7 +198714,7 @@ species {
     name: "Dedelibird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1125
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -198839,7 +198841,7 @@ species {
     name: "Krampird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1126
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -199308,7 +199310,7 @@ species {
     name: "Carbonix"
     category: "Rock Snake"
     description: "There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother."
-    national_dex_num: 95
+    national_dex_num: 1127
     body_color: BODY_COLOR_GRAY
     egg_group: MINERAL
     height: 88
@@ -199499,7 +199501,7 @@ species {
     name: "Grotom"
     category: "Plasma"
     description: "Research continues on this Pok\303\251mon. Its electric-like body can enter some kinds of machines and take control, in order to make mischief."
-    national_dex_num: 479
+    national_dex_num: 1128
     body_color: BODY_COLOR_RED
     egg_group: AMORPHOUS
     height: 3
@@ -200259,7 +200261,7 @@ species {
     name: "Wispywaspy"
     category: "Small Fry"
     description: "When it\'s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
-    national_dex_num: 746
+    national_dex_num: 1129
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_2
     height: 2
@@ -201262,7 +201264,7 @@ species {
     name: "Crabruiser"
     category: "Woolly Crab"
     description: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pok\303\251mon evolved and grew thick fur."
-    national_dex_num: 740
+    national_dex_num: 1130
     body_color: BODY_COLOR_WHITE
     egg_group: WATER_3
     height: 17
