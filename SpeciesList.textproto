@@ -208292,7 +208292,7 @@ species {
   ability: ABILITY_POISON_ABSORB
   ability: ABILITY_SWEET_VEIL
   innate: ABILITY_TUMMYACHE
-  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_ACID_REFLUX
   innate: ABILITY_WONDER_SKIN
   percent_female: 50
   mega {
