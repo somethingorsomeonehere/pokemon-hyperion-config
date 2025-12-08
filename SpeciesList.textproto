@@ -209299,7 +209299,7 @@ species {
     name: "Plundertow"
     category: "Sea Wanderer"
     description: "Despite its daunting appearance, it coexists peacefully with other Pok\303\251mon. It has never been witnessed feeding."
-    national_dex_num: 1033
+    national_dex_num: 1131
     body_color: BODY_COLOR_GREEN
     egg_group: MINERAL
     height: 100
