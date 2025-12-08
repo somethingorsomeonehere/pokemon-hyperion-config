@@ -61951,6 +61951,73 @@ trainer {
       move: MOVE_SUBSTITUTE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_TORRENTULA
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_FOAMY_WEB
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_AQUA_JET
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_ICE_FANG
+      move: MOVE_FURY_CUTTER
+    }
+    mon {
+      species: SPECIES_GOREBYSS
+      item: ITEM_SALAC_BERRY
+      nature: NATURE_TIMID
+      ability: ABILITY_MULTISCALE
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_HYDRO_PUMP
+      move: MOVE_DRAINING_KISS
+      move: MOVE_PSYCHIC
+      move: MOVE_SUBSTITUTE
+    }
+    mon {
+      species: SPECIES_LANTURN
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_DRIZZLE
+      hp_ev: 132
+      spatk_ev: 252
+      spe_ev: 124
+      move: MOVE_HYDRO_PUMP
+      move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_THUNDER_WAVE
+    }
+    mon {
+      species: SPECIES_BARRASKEWDA
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_PROPELLER_TAIL
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_AQUA_JET
+      move: MOVE_SUBMISSION
+      move: MOVE_WAVE_CRASH
+    }
+    mon {
+      species: SPECIES_FERALIGATR
+      item: ITEM_FERALIGITE_X
+      nature: NATURE_JOLLY
+      ability: ABILITY_INTIMIDATE
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_DEATHROLL
+      move: MOVE_ICE_FANG
+      move: MOVE_DRACONIC_FANGS
+      move: MOVE_PSYCHIC_FANGS
+    }
+  }
 }
 trainer {
   id: TRAINER_TANYA
@@ -112163,7 +112230,7 @@ trainer {
     }
     mon {
       species: SPECIES_FLYGON_REDUX_B
-      item: ITEM_FLYGONITE_R_B
+      item: ITEM_FLYGONITE_R
       nature: NATURE_TIMID
       ability: ABILITY_ENERGIZED
       hp_ev: 4
