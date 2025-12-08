@@ -49370,17 +49370,17 @@ species {
   type: TYPE_STEEL
   type2: TYPE_FLYING
   hp: 75
-  atk: 140
-  def: 140
+  atk: 100
+  def: 174
   spatk: 40
-  spdef: 70
-  spe: 130
+  spdef: 138
+  spe: 68
   ability: ABILITY_STEELWORKER
   ability: ABILITY_LIGHT_METAL
   ability: ABILITY_FLOCK
-  innate: ABILITY_TO_THE_BONE
-  innate: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_LIGHTNING_ROD
+  innate: ABILITY_STEELWORKER
+  innate: ABILITY_SELF_REPAIR
+  innate: ABILITY_POWER_CORE
   percent_female: 50
   mega {
     from: SPECIES_SKARMORY
@@ -108683,6 +108683,10 @@ species {
       move: MOVE_BATON_PASS
       move: MOVE_FURY_CUTTER
       move: MOVE_NOXIOUS_TORQUE
+    }
+    level {
+      level: 51
+      move: MOVE_KINGS_SHIELD
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BLOOD_SHOT
@@ -208869,12 +208873,12 @@ species {
   form_of: SPECIES_DELPHOX
   type: TYPE_FIRE
   type2: TYPE_PSYCHIC
-  hp: 100
-  atk: 80
-  def: 100
-  spatk: 140
-  spdef: 118
-  spe: 70
+  hp: 75
+  atk: 69
+  def: 73
+  spatk: 159
+  spdef: 125
+  spe: 134
   ability: ABILITY_DEADLY_PRECISION
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_FOREWARN
