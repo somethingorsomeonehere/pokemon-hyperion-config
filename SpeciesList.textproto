@@ -10909,6 +10909,7 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -10916,7 +10917,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_U_TURN
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -11061,6 +11062,7 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -11069,7 +11071,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_U_TURN
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -83934,7 +83936,7 @@ species {
     name: "Luxzero"
     category: "Glacial Lion"
     description: "Rumored to have been a luxray that experienced years of cryosleep in a malfunctioned capsule."
-    national_dex_num: 405
+    national_dex_num: 1118
     body_color: BODY_COLOR_BLUE
     egg_group: FIELD
     height: 14
@@ -106945,7 +106947,7 @@ species {
   ability: ABILITY_STAMINA
   innate: ABILITY_LONG_REACH
   innate: ABILITY_STEELWORKER
-  innate: ABILITY_VITAL_SPIRIT
+  innate: ABILITY_IMPENETRABLE
   percent_female: 25
   evo {
     to: SPECIES_CONKELDURR
@@ -166748,6 +166750,7 @@ species {
   dex {
     name: "Morpekyll"
     body_color: BODY_COLOR_YELLOW
+    national_dex_num: 1119
     egg_group: FIELD
     egg_group_2: FAIRY
   }
@@ -190498,6 +190501,7 @@ species {
   dex {
     name: "Granitun"
     body_color: BODY_COLOR_GREEN
+    national_dex_num: 1120
     egg_group: GRASS
     egg_group_2: DRAGON
   }
@@ -190613,6 +190617,7 @@ species {
   dex {
     name: "Fujiflap"
     body_color: BODY_COLOR_GREEN
+    national_dex_num: 1121
     egg_group: GRASS
     egg_group_2: DRAGON
   }
@@ -192252,7 +192257,7 @@ species {
     name: "Seerkat"
     category: "Lookout"
     description: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents. Keen eyesight lets them see in the dark."
-    national_dex_num: 1066
+    national_dex_num: 1122
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
     height: 11
@@ -193807,7 +193812,7 @@ species {
     name: "Slate"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1059
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -198190,7 +198195,7 @@ species {
     name: "Frostuccino"
     category: "Scarf"
     description: "Their white fur feels amazing to touch. Cinccino\'s body is coated in a special oil that repels dust and helps it deflect attacks, such as punches."
-    national_dex_num: 573
+    national_dex_num: 1123
     body_color: BODY_COLOR_GRAY
     egg_group: FIELD
     height: 5
@@ -198334,8 +198339,7 @@ species {
     name: "Iron Palette"
     category: "Color Swap"
     description: "A Pok\303\251mon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled."
-    national_dex_num: 352
-    hoenn_dex_num: 150
+    national_dex_num: 1124
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     height: 10
@@ -198710,7 +198714,7 @@ species {
     name: "Dedelibird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1125
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -198837,7 +198841,7 @@ species {
     name: "Krampird"
     category: "Delivery"
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food."
-    national_dex_num: 225
+    national_dex_num: 1126
     body_color: BODY_COLOR_RED
     egg_group: WATER_1
     egg_group_2: FIELD
@@ -199306,7 +199310,7 @@ species {
     name: "Carbonix"
     category: "Rock Snake"
     description: "There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother."
-    national_dex_num: 95
+    national_dex_num: 1127
     body_color: BODY_COLOR_GRAY
     egg_group: MINERAL
     height: 88
@@ -199497,7 +199501,7 @@ species {
     name: "Grotom"
     category: "Plasma"
     description: "Research continues on this Pok\303\251mon. Its electric-like body can enter some kinds of machines and take control, in order to make mischief."
-    national_dex_num: 479
+    national_dex_num: 1128
     body_color: BODY_COLOR_RED
     egg_group: AMORPHOUS
     height: 3
@@ -200257,7 +200261,7 @@ species {
     name: "Wispywaspy"
     category: "Small Fry"
     description: "When it\'s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
-    national_dex_num: 746
+    national_dex_num: 1129
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_2
     height: 2
@@ -200427,7 +200431,7 @@ species {
     name: "Iron Scythe"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1089
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200557,7 +200561,7 @@ species {
     name: "Wooly Worm"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1090
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200690,7 +200694,7 @@ species {
     name: "Heracreus"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1091
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200823,7 +200827,7 @@ species {
     name: "Orchestot"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1092
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -200943,7 +200947,7 @@ species {
     name: "Queengambit"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1093
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201075,7 +201079,7 @@ species {
     name: "Pentadug"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1094
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201099,6 +201103,7 @@ species {
   innate: ABILITY_EARTHBOUND
   innate: ABILITY_THICK_FAT
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -201260,7 +201265,7 @@ species {
     name: "Crabruiser"
     category: "Woolly Crab"
     description: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pok\303\251mon evolved and grew thick fur."
-    national_dex_num: 740
+    national_dex_num: 1130
     body_color: BODY_COLOR_WHITE
     egg_group: WATER_3
     height: 17
@@ -201625,6 +201630,7 @@ species {
   innate: ABILITY_SUNDAE
   innate: ABILITY_SLUSH_RUSH
   percent_female: 50
+  heads: 3
   mega {
     from: SPECIES_VANILLUXE
     item: ITEM_VANILLUXEITE
@@ -201660,7 +201666,7 @@ species {
     name: "Abyssand"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1095
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201786,7 +201792,7 @@ species {
     name: "Pentawug"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1096
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -201810,6 +201816,7 @@ species {
   innate: ABILITY_DEPTH_EXPLORER
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -201915,6 +201922,7 @@ species {
   innate: ABILITY_STEELY_SPIRIT
   innate: ABILITY_LOOSE_ROCKS
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -202266,7 +202274,7 @@ species {
     name: "Rexcadrill"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1097
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -203609,7 +203617,7 @@ species {
     name: "Selenumbra"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1098
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205279,7 +205287,7 @@ species {
     name: "Ratiking"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1099
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205404,7 +205412,7 @@ species {
     name: "Ratfioso"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1100
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205541,7 +205549,7 @@ species {
     name: "Guardozel"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1101
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205674,7 +205682,7 @@ species {
     name: "Beniccino"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1102
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205782,7 +205790,7 @@ species {
     name: "Bewarden"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1103
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -205910,7 +205918,7 @@ species {
     name: "Torrentula"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1104
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206038,7 +206046,7 @@ species {
     name: "Spindaze"
     category: "Woozy Fighter"
     description: "Spindaze is always over it\'s head thinking it\'s the best at everything it does when in reality it\'s incapable of thinking properly due to mind toxins, thus making it dense."
-    national_dex_num: 1
+    national_dex_num: 1105
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206186,7 +206194,7 @@ species {
     name: "Blocli"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1106
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206292,7 +206300,7 @@ species {
     name: "Bloxtack"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1107
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206402,7 +206410,7 @@ species {
     name: "Gargablox"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1108
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206535,7 +206543,7 @@ species {
     name: "Hippopotato"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1109
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206658,7 +206666,7 @@ species {
     name: "Hippotaton"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1110
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206785,7 +206793,7 @@ species {
     name: "Harvesting Tyrant"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1111
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -206920,7 +206928,7 @@ species {
     name: "Iron Spirals"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1112
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207059,7 +207067,7 @@ species {
     name: "Eraticate"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1113
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207184,7 +207192,7 @@ species {
     name: "Iron Saber"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1114
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207321,7 +207329,7 @@ species {
     name: "Hypnocroak"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1115
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -207471,6 +207479,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_EFFECT_SPORE
   percent_female: 50
+  heads: 3
   tier: 3
   evo {
     to: SPECIES_EXEGGUTOR_REDUX
@@ -207587,6 +207596,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_ABSORBANT
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -207687,7 +207697,7 @@ species {
     name: "steve"
     category: "ough"
     description: "no this isn\'t canon go away."
-    national_dex_num: 1
+    national_dex_num: 1116
     body_color: BODY_COLOR_BLUE
     egg_group: UNDISCOVERED
     height: 7
@@ -208062,7 +208072,7 @@ species {
     name: "Terrow"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1
+    national_dex_num: 1117
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
@@ -208292,7 +208302,7 @@ species {
   ability: ABILITY_POISON_ABSORB
   ability: ABILITY_SWEET_VEIL
   innate: ABILITY_TUMMYACHE
-  innate: ABILITY_GIANT_WINGS
+  innate: ABILITY_ACID_REFLUX
   innate: ABILITY_WONDER_SKIN
   percent_female: 50
   mega {
