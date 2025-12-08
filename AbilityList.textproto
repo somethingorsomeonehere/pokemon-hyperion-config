@@ -5548,7 +5548,7 @@ ability {
 ability {
   id: ABILITY_SUMO_WRESTLER
   name: "Sumo Wrestler"
-  description: "Uses Circle throw at the end of each 2nd turn."
+  description: "Uses 20BP Circle Throw at the end of each 2nd turn."
 }
 ability {
   id: ABILITY_COSMIC_WINGS
@@ -5848,4 +5848,9 @@ ability {
   id: ABILITY_AEGIS_WARD
   name: "Aegis Ward"
   description: "Takes 1/2 damage from Dark, Ghost and Psychic-type attacks."
+}
+ability {
+  id: ABILITY_ACID_REFLUX
+  name: "Acid Reflux"
+  description: "Uses 20BP Acid when it takes damage."
 }
