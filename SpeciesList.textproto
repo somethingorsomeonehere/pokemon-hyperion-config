@@ -10909,6 +10909,7 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -10916,7 +10917,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_U_TURN
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -11061,6 +11062,7 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -11069,7 +11071,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_U_TURN
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -106943,7 +106945,7 @@ species {
   ability: ABILITY_STAMINA
   innate: ABILITY_LONG_REACH
   innate: ABILITY_STEELWORKER
-  innate: ABILITY_VITAL_SPIRIT
+  innate: ABILITY_IMPENETRABLE
   percent_female: 25
   evo {
     to: SPECIES_CONKELDURR
