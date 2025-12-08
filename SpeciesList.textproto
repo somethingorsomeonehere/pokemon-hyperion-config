@@ -201103,6 +201103,7 @@ species {
   innate: ABILITY_EARTHBOUND
   innate: ABILITY_THICK_FAT
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -201629,6 +201630,7 @@ species {
   innate: ABILITY_SUNDAE
   innate: ABILITY_SLUSH_RUSH
   percent_female: 50
+  heads: 3
   mega {
     from: SPECIES_VANILLUXE
     item: ITEM_VANILLUXEITE
@@ -201814,6 +201816,7 @@ species {
   innate: ABILITY_DEPTH_EXPLORER
   innate: ABILITY_MULTI_HEADED
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -201919,6 +201922,7 @@ species {
   innate: ABILITY_STEELY_SPIRIT
   innate: ABILITY_LOOSE_ROCKS
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
@@ -207475,6 +207479,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_EFFECT_SPORE
   percent_female: 50
+  heads: 3
   tier: 3
   evo {
     to: SPECIES_EXEGGUTOR_REDUX
@@ -207591,6 +207596,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_ABSORBANT
   percent_female: 50
+  heads: 3
   tier: 3
   learnset {
     level {
