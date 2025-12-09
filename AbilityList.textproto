@@ -5864,3 +5864,13 @@ ability {
   name: "Ghost Frenzy"
   description: "Hyper Aggressive + Soul Eater."
 }
+ability {
+  id: ABILITY_SURVIVOR_BIAS
+  name: "Survivor Bias"
+  description: "Not very effective moves can't cause fainting."
+}
+ability {
+  id: ABILITY_BANDIT
+  name: "Bandit"
+  description: "Scavenger + Technician."
+}
