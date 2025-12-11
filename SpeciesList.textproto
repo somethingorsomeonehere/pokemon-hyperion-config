@@ -204913,18 +204913,18 @@ species {
   form_of: SPECIES_GOODRA
   type: TYPE_DRAGON
   type2: TYPE_STEEL
-  hp: 85
-  atk: 110
-  def: 65
-  spatk: 85
-  spdef: 80
-  spe: 125
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
+  hp: 80
+  atk: 130
+  def: 140
+  spatk: 130
+  spdef: 160
+  spe: 60
+  ability: ABILITY_GOOEY
+  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_MIRROR_ARMOR
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  innate: ABILITY_IMPENETRABLE
+  innate: ABILITY_BULLETPROOF
   percent_female: 50
   mega {
     from: SPECIES_GOODRA_HISUIAN

@@ -6369,7 +6369,7 @@ trainer {
     }
     mon {
       species: SPECIES_GARDEVOIR_REDUX
-      item: ITEM_GARDEVOIRITE
+      item: ITEM_GARDEVOIRITE_R
       nature: NATURE_JOLLY
       ability: ABILITY_ON_THE_PROWL
       hp_ev: 4
@@ -6618,7 +6618,7 @@ trainer {
     }
     mon {
       species: SPECIES_GARDEVOIR_REDUX
-      item: ITEM_GARDEVOIRITE
+      item: ITEM_GARDEVOIRITE_R
       nature: NATURE_JOLLY
       ability: ABILITY_ON_THE_PROWL
       hp_ev: 4
@@ -9047,6 +9047,291 @@ trainer {
       move: MOVE_TERROR_LOCKS
       move: MOVE_CUT
       move: MOVE_DIRE_CLAW
+    }
+  }
+}
+trainer {
+  id: MAY_TREECKO_METEOR_FALLS
+  name: "May"
+  gender: FEMALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_MAY
+  music: TRAINER_ENCOUNTER_MUSIC_FEMALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_POP_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_JOLLY
+      ability: ABILITY_PIXILATE
+      hp_ev: 252
+      atk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_SLAM
+      move: MOVE_THUNDER_PUNCH
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO_HISUIAN
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_BULLETPROOF
+      def_ev: 252
+      spatk_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_BODY_PRESS
+      move: MOVE_MUDDY_WATER
+      move: MOVE_SHELTER
+    }
+    mon {
+      species: SPECIES_SCEPTILE
+      item: ITEM_MIRACLE_SEED
+      nature: NATURE_JOLLY
+      ability: ABILITY_DETERMINATION
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_DETECT
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_LEAF_BLADE
+    }
+  }
+}
+trainer {
+  id: MAY_TORCHIC_METEOR_FALLS
+  name: "May"
+  gender: FEMALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_MAY
+  music: TRAINER_ENCOUNTER_MUSIC_FEMALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_POP_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_JOLLY
+      ability: ABILITY_PIXILATE
+      hp_ev: 252
+      atk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_SLAM
+      move: MOVE_THUNDER_PUNCH
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO_HISUIAN
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_BULLETPROOF
+      def_ev: 252
+      spatk_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_BODY_PRESS
+      move: MOVE_MUDDY_WATER
+      move: MOVE_SHELTER
+    }
+    mon {
+      species: SPECIES_BLAZIKEN
+      item: ITEM_CHARCOAL
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SPEED_BOOST
+      hp_ev: 128
+      atk_ev: 128
+      spe_ev: 252
+      move: MOVE_DETECT
+      move: MOVE_FRUSTRATION
+      move: MOVE_BLAZE_KICK
+      move: MOVE_DOUBLE_KICK
+    }
+  }
+}
+trainer {
+  id: MAY_MUDKIP_METEOR_FALLS
+  name: "May"
+  gender: FEMALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_MAY
+  music: TRAINER_ENCOUNTER_MUSIC_FEMALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_POP_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_JOLLY
+      ability: ABILITY_PIXILATE
+      hp_ev: 252
+      atk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_SLAM
+      move: MOVE_THUNDER_PUNCH
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO_HISUIAN
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_BULLETPROOF
+      def_ev: 252
+      spatk_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_BODY_PRESS
+      move: MOVE_MUDDY_WATER
+      move: MOVE_SHELTER
+    }
+    mon {
+      species: SPECIES_SWAMPERT
+      item: ITEM_MYSTIC_WATER
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SWIFT_SWIM
+      hp_ev: 4
+      atk_ev: 252
+      def_ev: 252
+      move: MOVE_TORRENT_FIST
+      move: MOVE_LIFE_DEW
+      move: MOVE_ROCK_SLIDE
+      move: MOVE_RAIN_DANCE
+    }
+  }
+}
+trainer {
+  id: BRENDAN_TREECKO_METEOR_FALLS
+  name: "Brendan"
+  gender: MALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_BRENDAN
+  music: TRAINER_ENCOUNTER_MUSIC_MALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_ROCK_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_MODEST
+      ability: ABILITY_ARMOR_TAIL
+      hp_ev: 252
+      spatk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_METALLIC_MELODY
+      move: MOVE_ELECTROWEB
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO
+      item: ITEM_TOXIC_ORB
+      nature: NATURE_CALM
+      ability: ABILITY_POISON_HEAL
+      spatk_ev: 252
+      spdef_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_HELPING_HAND
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_CHARM
+    }
+    mon {
+      species: SPECIES_SCEPTILE
+      item: ITEM_MIRACLE_SEED
+      nature: NATURE_JOLLY
+      ability: ABILITY_DETERMINATION
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_DETECT
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_LEAF_BLADE
+    }
+  }
+}
+trainer {
+  id: BRENDAN_TORCHIC_METEOR_FALLS
+  name: "Brendan"
+  gender: MALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_BRENDAN
+  music: TRAINER_ENCOUNTER_MUSIC_MALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_ROCK_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_MODEST
+      ability: ABILITY_ARMOR_TAIL
+      hp_ev: 252
+      spatk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_METALLIC_MELODY
+      move: MOVE_ELECTROWEB
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO
+      item: ITEM_TOXIC_ORB
+      nature: NATURE_CALM
+      ability: ABILITY_POISON_HEAL
+      spatk_ev: 252
+      spdef_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_HELPING_HAND
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_CHARM
+    }
+    mon {
+      species: SPECIES_BLAZIKEN
+      item: ITEM_CHARCOAL
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SPEED_BOOST
+      hp_ev: 128
+      atk_ev: 128
+      spe_ev: 252
+      move: MOVE_DETECT
+      move: MOVE_FRUSTRATION
+      move: MOVE_BLAZE_KICK
+      move: MOVE_DOUBLE_KICK
+    }
+  }
+}
+trainer {
+  id: BRENDAN_MUDKIP_METEOR_FALLS
+  name: "Brendan"
+  gender: MALE
+  class: TRAINER_CLASS_PKMN_TRAINER_3
+  pic: TRAINER_PIC_BRENDAN
+  music: TRAINER_ENCOUNTER_MUSIC_MALE
+  ace {
+    mon {
+      species: SPECIES_PIKACHU_ROCK_STAR
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_MODEST
+      ability: ABILITY_ARMOR_TAIL
+      hp_ev: 252
+      spatk_ev: 128
+      spe_ev: 128
+      move: MOVE_FAKE_OUT
+      move: MOVE_METALLIC_MELODY
+      move: MOVE_ELECTROWEB
+      move: MOVE_SPOTLIGHT
+    }
+    mon {
+      species: SPECIES_SLIGGOO
+      item: ITEM_TOXIC_ORB
+      nature: NATURE_CALM
+      ability: ABILITY_POISON_HEAL
+      spatk_ev: 252
+      spdef_ev: 252
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_HELPING_HAND
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_CHARM
+    }
+    mon {
+      species: SPECIES_SWAMPERT
+      item: ITEM_MYSTIC_WATER
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SWIFT_SWIM
+      atk_ev: 252
+      def_ev: 252
+      move: MOVE_TORRENT_FIST
+      move: MOVE_ROCK_SLIDE
+      move: MOVE_RAIN_DANCE
+      move: MOVE_LIFE_DEW
     }
   }
 }
