@@ -138967,10 +138967,6 @@ species {
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_FILTER
   percent_female: 50
-  evo {
-    to: SPECIES_SLIGGOO_HISUIAN
-    level: 45
-  }
   learnset {
     level {
       level: 1

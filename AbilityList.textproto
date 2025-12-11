@@ -2060,10 +2060,9 @@ ability {
   expanded_description: "Boosts the power of Psychic-type moves by 20%, or by 50% at 1/3 HP or lower."
 }
 ability {
-  id: ABILITY_POISON_ABSORB
   name: "Poison Absorb"
-  description: "Heals 25% of max HP when hit by a Poison-type move."
-  expanded_description: "Absorbs Poison-type moves to heal 25% max HP instead of taking damage. On Toxic Terrain, heals 1/8th of max HP per turn."
+  description: "Redirects Poison moves. Absorbs them, healing 25% HP."
+  expanded_description: "The user draws in Poison-type moves and gains immunity to them, healing for 1/4th of max HP instead. Additionally, heals 1/8th of max HP per turn on Toxic Terrain."
 }
 ability {
   id: ABILITY_SCAVENGER
