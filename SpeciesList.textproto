@@ -57072,7 +57072,7 @@ species {
   ability: ABILITY_BIOFILM
   ability: ABILITY_AERODYNAMICS
   innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_SHIELDS_DOWN
+  innate: ABILITY_SHIELD_DUST
   innate: ABILITY_LEVITATE
   percent_female: 50
   learnset {
