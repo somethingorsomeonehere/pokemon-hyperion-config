@@ -201235,7 +201235,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/mega/icon"
+      path: "question_mark/icon"
       palette: 4
     }
     front {
