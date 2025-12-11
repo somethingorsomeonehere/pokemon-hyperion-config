@@ -9178,6 +9178,19 @@ trainer {
       move: MOVE_MUDDY_WATER
       move: MOVE_SHELTER
     }
+    mon {
+      species: SPECIES_SWAMPERT
+      item: ITEM_MYSTIC_WATER
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SWIFT_SWIM
+      hp_ev: 4
+      atk_ev: 252
+      def_ev: 252
+      move: MOVE_TORRENT_FIST
+      move: MOVE_LIFE_DEW
+      move: MOVE_ROCK_SLIDE
+      move: MOVE_RAIN_DANCE
+    }
   }
 }
 trainer {
