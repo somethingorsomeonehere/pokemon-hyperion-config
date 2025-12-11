@@ -144193,10 +144193,6 @@ species {
     to: SPECIES_GOOSCHASE
     level: 36
   }
-  evo {
-    to: SPECIES_YUNGOOS
-    level: 20
-  }
   learnset {
     level {
       level: 1
