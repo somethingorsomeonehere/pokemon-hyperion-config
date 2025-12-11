@@ -209058,6 +209058,7 @@ species {
   innate: ABILITY_TOUGH_CLAWS
   innate: ABILITY_SOLID_ROCK
   percent_female: 50
+  heads: 3
   mega {
     from: SPECIES_BARBARACLE
     item: ITEM_BARBARACITE
