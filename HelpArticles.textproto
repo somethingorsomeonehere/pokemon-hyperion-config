@@ -18,12 +18,12 @@ help_category {
     page: "Almost every Pokemon has been improved for\nbetter balance and utility.\n\nNotable reworks:\nKecleon: Colour Change activates before an\nattack hits. It changes Kecleon's type to\nthe most favourable matchup. This makes it\nimmune to attacks with a type-based\nimmunity and resistant to all other attacks."
     page: "\nEeveelutions: All can devolve to Eevee,\npreserving movepools. All eight share\nmovepools, gaining unparalleled type\ncoverage and varied STAB moves.\n\nHatterene: Innate Pixilate, Magic Bounce,\nand Hyper Aggressive (Parental Bond clone).\nAbility Twisted Dimensions sets Trick Room"
     page: "for 3 turns on entry.\n\nDewgong: Abilities: Fur Coat, Ice Scales,\nArctic Fur (lesser version of both).\nInnate North Wind auto-sets Aurora Veil\nfor 3 turns on entry.\n\nGliscor: Has Poison Heal. Gets Rough Skin\nfor better physical defense. Tectonize"
-    page: "ability turns Facade into Ground-type.\n\nPyukumuku: 600 BST, innate Unaware.\nPressure (buffed: casts Haze on entry\nand its vanilla function).\n\nBraviary: Stacks Defiant, Flock (Flying\nOvergrow), buffed Big Pecks. Can have\nSheer Force or Gale Wings for immense power."
+    page: "ability turns Facade into Ground-type.\n\nPyukumuku: 600 BST, innate Unaware.\nPressure (buffed: casts Haze on entry\nand its vanilla function).\n\nBraviary: Stacks Defiant, Flock (Flying\nOvergrow), buffed Big Pecks. Can have\nGiant Wings or Gale Wings for immense power."
     page: "\nPhione: Innate High Tide: uses 50BP Surf\nafter any Water move. Field Explorer\nempowers 'field' moves (Headbutt, Surf).\nSoul-Heart ability option.\n\nCheck the Online Pokedex for details."
   }
   help_article {
     title: "Move Changes"
-    page: "Many moves have improved accuracy and power.\n\nOHKO moves (e.g. Fissure) now deal about120\ndamage with 80% accuracy.\n\nSome moves have new effects; others are\ncompletely reworked. Most moves have a\nusable niche.\n"
+    page: "Many moves have improved accuracy and power.\n\nOHKO moves (e.g. Fissure) now deal around 120\ndamage with 80% accuracy.\n\nSome moves have new effects; others are\ncompletely reworked. Most moves have a\nusable niche.\n"
     page: "Further details are in the Online Pokedex."
   }
   help_article {
@@ -42,8 +42,8 @@ help_category {
   }
   help_article {
     title: "Acquiring Pokemon"
-    page: "Get one of each Pokeball from Nurse Joy,\nall with 100% catch rate. Pokeballs are\nnot consumed on use.\n\nUpgraded DexNav+ auto-searches Pokemon\nin an area. Spend BP to get Pokemon\ndirectly without battling.\n\nShiny rates boostable to 1/5 in Options."
-    page: "All Gen 1-9 Pokemon are available.\n\nBuy Redux Pokemon for BP in Adoption\nCenter (more unlock with progress)."
+    page: "Get one of each Pokeball from Nurse Joy, all with 100% catch rate. Pokeballs are not consumed on use.\n\nUpgraded DexNav+ auto-searches Pokemon in an area.\n\nShiny rates boostable to 1/5 in Options."
+    page: "All Gen 1-9 Pokemon are available.\n\nBuy Redux Pokemon for BP in Adoption Center (more unlock with progress)."
   }
   help_article {
     title: "Switching Nature"
@@ -60,7 +60,7 @@ help_category {
   }
   help_article {
     title: "Learning Moves"
-    page: "Learn new moves easily in Party or Move\nmenu (press R).\n\nCertain moves still require leveling up.\nThese are in the Level list. Other lists\nshow moves by category.\n\nUnlock new moves after each gym in Elite\ncaps, until about2/3s into game. Some learn"
+    page: "Learn new moves easily in Party or Move\nmenu (press R).\n\nCertain moves still require leveling up.\nThese are in the Level list. Other lists\nshow moves by category.\n\nUnlock new moves after each gym in Elite\ncaps, until about 2/3s into game. Some learn"
     page: "moves faster/slower."
   }
   help_article {
