@@ -130272,10 +130272,6 @@ species {
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GALE_WINGS
   percent_female: 50
-  evo {
-    to: SPECIES_FLETCHINDER
-    level: 35
-  }
   learnset {
     level {
       level: 1
