@@ -149086,10 +149086,6 @@ species {
   innate: ABILITY_QUEENLY_MAJESTY
   percent_female: 100
   no_flip: true
-  evo {
-    to: SPECIES_STEENEE
-    level: 36
-  }
   learnset {
     level {
       level: 1
