@@ -45370,12 +45370,12 @@ species {
   spatk: 40
   spdef: 40
   spe: 50
-  ability: ABILITY_RATTLED
-  ability: ABILITY_QUICK_FEET
+  ability: ABILITY_CUTE_CHARM
+  ability: ABILITY_COWARD
   ability: ABILITY_DEVIATE
   innate: ABILITY_INTIMIDATE
   innate: ABILITY_STRONG_JAW
-  innate: ABILITY_GUTS
+  innate: ABILITY_OPPORTUNIST
   percent_female: 75
   tier: 1
   evo {
@@ -45512,7 +45512,7 @@ species {
   spatk: 60
   spdef: 60
   spe: 75
-  ability: ABILITY_RATTLED
+  ability: ABILITY_COWARD
   ability: ABILITY_QUICK_FEET
   ability: ABILITY_DEVIATE
   innate: ABILITY_INTIMIDATE
@@ -53391,8 +53391,8 @@ species {
   type2: TYPE_DARK
   hp: 100
   atk: 164
-  def: 150
-  spatk: 95
+  def: 140
+  spatk: 105
   spdef: 120
   spe: 71
   ability: ABILITY_SHEER_FORCE
