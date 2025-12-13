@@ -73726,7 +73726,7 @@ species {
   ability: ABILITY_HARVEST
   ability: ABILITY_AIR_BLOWER
   ability: ABILITY_SYMBIOSIS
-  innate: ABILITY_AERIALIST
+  innate: ABILITY_GIANT_WINGS
   innate: ABILITY_IMMUNITY
   innate: ABILITY_DRACONIZE
   percent_female: 50
@@ -73879,7 +73879,7 @@ species {
   ability: ABILITY_AIR_BLOWER
   innate: ABILITY_LEVITATE
   innate: ABILITY_SOUNDPROOF
-  innate: ABILITY_FAIRY_TALE
+  innate: ABILITY_STALWART
   percent_female: 50
   learnset {
     level {
@@ -130272,6 +130272,10 @@ species {
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_GALE_WINGS
   percent_female: 50
+  evo {
+    to: SPECIES_FLETCHINDER
+    level: 35
+  }
   learnset {
     level {
       level: 1
@@ -149082,6 +149086,10 @@ species {
   innate: ABILITY_QUEENLY_MAJESTY
   percent_female: 100
   no_flip: true
+  evo {
+    to: SPECIES_STEENEE
+    level: 36
+  }
   learnset {
     level {
       level: 1
