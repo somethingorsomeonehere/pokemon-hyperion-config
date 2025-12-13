@@ -203988,7 +203988,7 @@ species {
   ability: ABILITY_SAP_SIPPER
   ability: ABILITY_SWEET_VEIL
   innate: ABILITY_FROSTMAW
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_BAD_OMEN
   innate: ABILITY_BARK_SKIN
   percent_female: 50
   tier: 3
@@ -204106,7 +204106,7 @@ species {
   ability: ABILITY_SAP_SIPPER
   ability: ABILITY_PREDATOR
   innate: ABILITY_SAP_TRAP
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_BAD_LUCK
   innate: ABILITY_BARK_SKIN
   percent_female: 50
   tier: 3
