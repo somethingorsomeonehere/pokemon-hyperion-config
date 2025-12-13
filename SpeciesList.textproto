@@ -133889,9 +133889,9 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_PSYCHIC
-  hp: 94
+  hp: 84
   atk: 48
-  def: 76
+  def: 86
   spatk: 93
   spdef: 81
   spe: 104
