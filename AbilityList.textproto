@@ -2193,7 +2193,7 @@ ability {
 ability {
   id: ABILITY_SOLAR_FLARE
   name: "Solar Flare"
-  description: "Chloroplast + Immolate. Fire moves gain STAB."
+  description: "Chloroplast + Immolate."
   expanded_description: "Converts Normal-type moves to Fire-type and grants Fire-type STAB. Additionally activates any Sun related effects for the user's moves."
 }
 ability {
