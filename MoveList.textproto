@@ -897,7 +897,7 @@ moves {
   effect: EFFECT_ACID
   split: SPECIAL
   type: TYPE_POISON
-  target: SELECTED
+  target: BOTH
   power: 70
   accuracy: 100
   pp: 20
