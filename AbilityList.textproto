@@ -2374,7 +2374,7 @@ ability {
   id: ABILITY_STEEL_BARREL
   name: "Steel Barrel"
   description: "Immune to recoil damage, but not immune to Explosion/crash dmg."
-  expanded_description: "Sound-based moves receive a 1.2x power boost and Normal-type sound moves are converted to Water-type."
+  expanded_description: "Prevents all recoil damage from the user's moves and abilities. Also grants immunity to enrage recoil damage. Does not prevent crash damage or Explosion/Self-Destruct damage."
 }
 ability {
   id: ABILITY_PYRO_SHELLS
