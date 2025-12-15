@@ -16173,7 +16173,7 @@ moves {
   short_name: "SprklngBrrge"
   description: "The user shoots 3 beams of light at the target."
   short_description: "Hits 3 Times with light rays."
-  effect: EFFECT_TRIPLE_HIT
+  effect: EFFECT_DOUBLE_HIT
   split: PHYSICAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -17081,13 +17081,15 @@ moves {
   short_name: "Chiller"
   description: "Hits the foe with 3 explosive snowballs. 10% Frostbite."
   short_description: "Hits 3 times with snowballs."
-  effect: EFFECT_TRIPLE_HIT
+  effect: EFFECT_FROSTBITE_HIT
   split: PHYSICAL
   type: TYPE_ICE
   target: SELECTED
   power: 30
   accuracy: 100
   pp: 15
+  hit_count: 3
+  effect_chance: 10
   mirror_move_affected: true
   throwing: true
   uses_animation: MOVE_ICE_BALL
