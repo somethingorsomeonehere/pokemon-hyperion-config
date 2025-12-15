@@ -204914,7 +204914,7 @@ species {
   ability: ABILITY_GOOEY
   ability: ABILITY_CLOUD_NINE
   ability: ABILITY_MIRROR_ARMOR
-  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_BULLETPROOF
   percent_female: 50
