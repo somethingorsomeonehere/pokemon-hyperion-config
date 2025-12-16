@@ -1956,7 +1956,7 @@ item {
   name: "Dream Orb"
   description: "Enables Snorlax to Primal Reverse."
   grouping: POCKET_MEGA_STONES
-  hold_effect: HOLD_EFFECT_MEGA_STONE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "generic_megastone"
   palette: "hitmonchanite"
   unique_mega_location: "Defeat the Normal Monotype Champion."
@@ -1966,7 +1966,7 @@ item {
   name: "Lucky Orb"
   description: "Enables Victini to Primal Reverse."
   grouping: POCKET_MEGA_STONES
-  hold_effect: HOLD_EFFECT_MEGA_STONE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "generic_megastone"
   palette: "hitmonchanite"
   unique_mega_location: "Defeat the Fire Monotype Champion."
