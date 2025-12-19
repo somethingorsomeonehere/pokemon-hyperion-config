@@ -6148,6 +6148,7 @@ species {
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HEX
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NATURE_POWER
@@ -6155,17 +6156,19 @@ species {
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SPITE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_SPITE
-    tutor: MOVE_MISTY_TERRAIN
-    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_CURSE
+    tutor: MOVE_EERIE_FOG
   }
   visuals {
     icon {
@@ -6259,7 +6262,7 @@ species {
   spdef: 100
   spe: 100
   ability: ABILITY_FLAMING_SOUL
-  ability: ABILITY_FAIRY_AURA
+  ability: ABILITY_VENGEANCE
   ability: ABILITY_DROUGHT
   innate: ABILITY_PYROMANCY
   innate: ABILITY_FLASH_FIRE
@@ -6338,6 +6341,7 @@ species {
     tutor: MOVE_HEX
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NATURE_POWER
@@ -6345,17 +6349,19 @@ species {
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SPITE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_SPITE
-    tutor: MOVE_MISTY_TERRAIN
-    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_CURSE
+    tutor: MOVE_EERIE_FOG
   }
   visuals {
     icon {
@@ -153280,6 +153286,7 @@ species {
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIGHT_SCREEN
@@ -153297,9 +153304,8 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
   }
   visuals {
     icon {
