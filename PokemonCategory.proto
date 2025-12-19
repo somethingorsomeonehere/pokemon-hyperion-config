@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+package er;
+
+import "google/protobuf/descriptor.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+extend google.protobuf.EnumValueOptions {
+  optional int32 count = 1002000;
+}
+
+enum PokemonCategory {
+  NONE = 0;
+  // Treeko
+  GRASS_STARTER = 1;
+  // Torchic
+  FIRE_STARTER = 2;
+  // Mudkip
+  WATER_STARTER = 3;
+  // Poochyena, Zigzagoon
+  COMMON_MAMMAL = 4 [(count) = 2];
+  // Wurmple
+  COMMON_BUG = 5 [(count) = 2];
+  // Lotad, Seedot, Oddish
+  COMMON_GRASS = 6 [(count) = 3];
+  // Taillow, Wingull
+  COMMON_BIRD = 7 [(count) = 2];
+  // Ralts, Abra
+  EARLY_RARE = 8 [(count) = 3];
+  // Whismur, Makuhita, Machop, Zubat
+  COMMON_CAVE = 10 [(count) = 4];
+  // Goldeen, Magikarp, Tentacool
+  EARLY_FISH = 11 [(count) = 3];
+  // Marill
+  COMMON_AMPHIBIOUS = 12;
+  // Geodude
+  COMMON_ROCK = 13;
+  // Nosepass
+  UNCOMMON_ROCK = 14;
+  // Sableye, Mawile, Aron, Spoink, Solrock
+  RARE_CAVE = 16 [(count) = 5];
+  // Electrike, Skitty
+  URBAN = 17 [(count) = 2];
+  // Plusle & Minun
+  PIKACHU = 18;
+  // Voltorb, Magnemite
+  POWER_PLANT = 19 [(count) = 2];
+  // Gulpin, Koffing, Grimer
+  COMMON_POISON = 20 [(count) = 3];
+  // Volbeat & Illumise, Spinda, Jigglypuff, Swablu
+  MIDGAME_FIELD = 21 [(count) = 4];
+  // Sandshrew, Trapinch, Cacnea, Baltoy
+  DESERT = 22 [(count) = 4];
+  // Numel, Slugma, Torkoal
+  FIRE = 23 [(count) = 3];
+  // Skarmory, Seviper
+  MID_RARE = 25 [(count) = 2];
+  // Doduo, Psyduck
+  SAFARI = 26;
+  // Carvanha, Feebas, Barboach, Corphish, Staryu, Luvdisc, Corsola, Horsea, Wailmer
+  LATE_FISH = 27 [(count) = 9];
+  // Lileep, Anorith
+  FOSSIL = 28 [(count) = 2];
+  // Castform
+  CASTFORM = 29;
+  // Kecleon
+  KECLEON = 30;
+  // Shuppet, Duskull
+  GHOST = 31;
+  // Tropius, Absol
+  RARE_LATE = 32 [(count) = 2];
+  // Vulpix, Chimecho
+  SPIRIT = 33 [(count) = 2];
+  // Beldum, Bagon
+  PSEUDO_LEGENDARY = 34 [(count) = 2];
+  // Wynaut
+  ULTRA_RARE = 35;
+  // Kyogre, Groudon
+  BOX_LEGENDARY_PAIR = 36;
+  // Rayquaza
+  BOX_LEGENDARY_SOLO = 37;
+  // Spheal, Snorunt, 1 additional for Seaspray Cave
+  ICE_CAVE = 38 [(count) = 3];
+  // Clamperl, Chinchou, Relicanth
+  DIVE = 39 [(count) = 3];
+  // Regirock/steel/ice
+  LEGENDARY_TRIO = 40 [(count) = 3];
+  // Latias & Latios
+  MYTHICAL = 41 [(count) = 2];
+  // 2 for Seaspray Cave B1F
+  EARLY_ICE = 42 [(count) = 2];
+  // Shroomish, Nincada, Slakoth
+  FOREST = 43 [(count) = 3];
+}
