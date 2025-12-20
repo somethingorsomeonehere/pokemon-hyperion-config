@@ -62978,11 +62978,11 @@ species {
   spdef: 120
   spe: 20
   ability: ABILITY_PRANKSTER
-  ability: ABILITY_COWARD
-  ability: ABILITY_STALL
-  innate: ABILITY_ANALYTIC
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_PRANKSTER
+  innate: ABILITY_HASTE_MAKES_WASTE
   innate: ABILITY_MAGIC_BOUNCE
-  innate: ABILITY_NOCTURNAL
+  innate: ABILITY_COWARD
   percent_female: 50
   mega {
     from: SPECIES_SABLEYE
@@ -153363,10 +153363,6 @@ species {
   no_flip: true
   evo {
     to: SPECIES_DREADNAUT
-    level: 55
-  }
-  evo {
-    to: SPECIES_PLUNDERTOW
     level: 55
   }
   learnset {
