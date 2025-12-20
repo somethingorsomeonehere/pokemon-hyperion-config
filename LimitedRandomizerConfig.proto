@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package er;
 
-import "SpeciesEnum.proto";
-
 option java_package = "er.proto";
 option java_multiple_files = true;
 
