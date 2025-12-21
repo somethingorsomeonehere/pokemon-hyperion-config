@@ -121,6 +121,7 @@ area {
   land_type: CLIMATE_TROPICAL
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
+  water_type: WATER_TROPICAL
 }
 area {
   name: "MAP_ROUTE106"
@@ -128,6 +129,7 @@ area {
   land_type: CLIMATE_TROPICAL
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
+  water_type: WATER_TROPICAL
   has_rock_smash: true
 }
 area {
@@ -168,6 +170,7 @@ area {
   name: "MAP_ROUTE107"
   region: REGION_DEWFORD
   water_type: WATER_OCEAN_COAST
+  water_type: WATER_TROPICAL
 }
 area {
   name: "MAP_ROUTE108"
@@ -177,12 +180,14 @@ area {
   region: REGION_DEWFORD_SURF_ONLY_ROUTES
   water_type: WATER_OCEAN
   water_type: WATER_GHOST_OUTSIDE
+  water_type: WATER_TROPICAL
 }
 area {
   name: "MAP_ROUTE109"
   region: REGION_SLATEPORT
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
+  water_type: WATER_TROPICAL
   has_rock_smash: true
 }
 area {

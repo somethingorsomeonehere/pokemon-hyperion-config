@@ -58,6 +58,7 @@ enum WaterType {
   WATER_SEAFLOOR_CAVERN = 13;
   WATER_SOOTOPOLIS = 14;
   WATER_VICTORY_ROAD = 15;
+  WATER_TROPICAL = 16;
 }
 
 enum RandomizerCategory {
