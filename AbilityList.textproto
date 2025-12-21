@@ -381,8 +381,8 @@ ability {
 ability {
   id: ABILITY_MARVEL_SCALE
   name: "Marvel Scale"
-  description: "Ups Def and Sp. Def by 1.5x when statused."
-  expanded_description: "Increases base Defense and Special Defense by 50% when afflicted with any status condition."
+  description: "Ups Def by 1.5x when statused."
+  expanded_description: "Increases base Defense by 50% when afflicted with any status condition."
 }
 ability {
   id: ABILITY_LIQUID_OOZE
@@ -5433,7 +5433,7 @@ ability {
 ability {
   id: ABILITY_HOME_RUN
   name: "Home Run"
-  description: "Landing a crit boosts your 3 lowest stats."
+  description: "Landing a crit boosts your 3 lowest stats once per turn."
 }
 ability {
   id: ABILITY_BRUISER
