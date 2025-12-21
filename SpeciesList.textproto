@@ -9161,6 +9161,7 @@ species {
     tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THIEF
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -9299,6 +9300,7 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_THIEF
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -69003,10 +69005,6 @@ species {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_FELL_STINGER
     }
-    level {
-      level: 51
-      move: MOVE_DESTINY_BOND
-    }
     tutor: MOVE_ABSORB
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_BLOOD_SHOT
@@ -69186,10 +69184,6 @@ species {
       level: 46
       move: MOVE_DRAIN_PUNCH
       move: MOVE_FELL_STINGER
-    }
-    level {
-      level: 51
-      move: MOVE_DESTINY_BOND
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BLACK_MAGIC
@@ -86830,12 +86824,12 @@ species {
   spatk: 100
   spdef: 78
   spe: 85
-  ability: ABILITY_LEAF_GUARD
-  ability: ABILITY_SOLAR_POWER
+  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_HARVEST
   ability: ABILITY_ANTICIPATION
   innate: ABILITY_FLOWER_GIFT
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_SUN_BASKING
+  innate: ABILITY_LEAF_GUARD
   percent_female: 50
   uses_learnset: SPECIES_CHERRIM
   visuals {
@@ -192086,7 +192080,7 @@ species {
   ability: ABILITY_TIPPING_POINT
   ability: ABILITY_UNAWARE
   innate: ABILITY_SUPER_LUCK
-  innate: ABILITY_LETS_ROLL
+  innate: ABILITY_OBLIVIOUS
   innate: ABILITY_SERENE_GRACE
   percent_female: 50
   learnset {
@@ -192115,7 +192109,6 @@ species {
     }
     level {
       level: 37
-      move: MOVE_AMNESIA
       move: MOVE_DRAGON_RAGE
       move: MOVE_STEAMROLLER
       move: MOVE_TRI_ATTACK
@@ -192128,7 +192121,6 @@ species {
       move: MOVE_FLAIL
       move: MOVE_SONIC_BOOM
       move: MOVE_TRUMP_CARD
-      move: MOVE_QUIVER_DANCE
     }
     level {
       level: 51
@@ -192145,10 +192137,6 @@ species {
     level {
       level: 61
       move: MOVE_SHED_TAIL
-    }
-    level {
-      level: 71
-      move: MOVE_SANDSEAR_STORM
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_BULLDOZE
@@ -192456,7 +192444,6 @@ species {
       move: MOVE_REFLECT_TYPE
       move: MOVE_CLAMP
       move: MOVE_QUASH
-      move: MOVE_WITHDRAW
     }
     level {
       level: 17
@@ -192493,7 +192480,6 @@ species {
       move: MOVE_SLUDGE_WAVE
       move: MOVE_TRIPLE_DIVE
       move: MOVE_VENOSHOCK
-      move: MOVE_STRENGTH_SAP
       move: MOVE_DRAIN_BRAIN
       move: MOVE_BANEFUL_BUNKER
       move: MOVE_PSYCHO_BOOST
@@ -192674,10 +192660,10 @@ species {
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
-    tutor: MOVE_DISABLE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEX
     tutor: MOVE_HYPER_BEAM
@@ -192705,7 +192691,6 @@ species {
     tutor: MOVE_VEXING_VOID
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
@@ -199327,7 +199312,7 @@ species {
   spdef: 200
   spe: 20
   ability: ABILITY_SAND_STREAM
-  ability: ABILITY_MAGIC_GUARD
+  ability: ABILITY_STALWART
   ability: ABILITY_EARTH_EATER
   innate: ABILITY_STURDY
   innate: ABILITY_ARCANE_FORCE
@@ -199383,6 +199368,7 @@ species {
     level {
       level: 56
       move: MOVE_DRAGON_ENERGY
+      move: MOVE_STEEL_BEAM
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURA_SPHERE
@@ -199458,7 +199444,7 @@ species {
   spatk: 145
   spdef: 230
   spe: 20
-  ability: ABILITY_OVERWHELM
+  ability: ABILITY_DESERT_CLOAK
   ability: ABILITY_IMPENETRABLE
   ability: ABILITY_EARTH_EATER
   innate: ABILITY_CRYSTALLINE_ARMOR
@@ -200968,7 +200954,7 @@ species {
   ability: ABILITY_QUEENS_MOURNING
   innate: ABILITY_SUPREME_OVERLORD
   innate: ABILITY_SUPER_LUCK
-  innate: ABILITY_MIRROR_ARMOR
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 50
   tier: 3
   learnset {
@@ -201088,10 +201074,10 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GROUND
-  hp: 95
+  hp: 90
   atk: 120
   def: 80
-  spatk: 55
+  spatk: 60
   spdef: 75
   spe: 100
   ability: ABILITY_STAMINA
@@ -201150,14 +201136,11 @@ species {
       move: MOVE_CLOSE_COMBAT
     }
     level {
-      level: 56
-      move: MOVE_NO_RETREAT
-    }
-    level {
       level: 100
       move: MOVE_HIGH_JUMP_KICK
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_DIG
     tutor: MOVE_EARTHQUAKE
@@ -201165,8 +201148,10 @@ species {
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_POISON_JAB
     tutor: MOVE_ROCK_SLIDE
@@ -201176,13 +201161,11 @@ species {
     tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
-    tutor: MOVE_THIEF
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_THIEF
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_FRUSTRATION
   }
   visuals {
     icon {
@@ -201727,11 +201710,6 @@ species {
     level {
       level: 51
       move: MOVE_SHORE_UP
-      move: MOVE_COMEUPPANCE
-    }
-    level {
-      level: 71
-      move: MOVE_SANDSEAR_STORM
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BULLDOZE
@@ -201807,7 +201785,7 @@ species {
   spdef: 75
   spe: 130
   ability: ABILITY_ACCELERATE
-  ability: ABILITY_IMPULSE
+  ability: ABILITY_ELUDE
   ability: ABILITY_STURDY
   innate: ABILITY_LIMBER
   innate: ABILITY_DEPTH_EXPLORER
@@ -201906,10 +201884,10 @@ species {
   form_of: SPECIES_PENTADUG
   type: TYPE_GROUND
   type2: TYPE_STEEL
-  hp: 105
+  hp: 95
   atk: 120
   def: 90
-  spatk: 45
+  spatk: 55
   spdef: 75
   spe: 90
   ability: ABILITY_COSTAR
@@ -204260,7 +204238,6 @@ species {
       level: 17
       move: MOVE_BRUTAL_SWING
       move: MOVE_SMASHIN_REALITIES
-      move: MOVE_DOUBLE_HIT
     }
     level {
       level: 24
@@ -204281,6 +204258,7 @@ species {
       level: 51
       move: MOVE_FEMUR_BREAKER
       move: MOVE_BATON_PASS
+      move: MOVE_DOUBLE_HIT
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
@@ -205064,29 +205042,29 @@ species {
       move: MOVE_FLARE_BLITZ
       move: MOVE_WAVE_CRASH
     }
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_FACADE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_BLIZZARD
     tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_WHIRLWIND
-    tutor: MOVE_WING_ATTACK
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_SURF
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
-    tutor: MOVE_DEFOG
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_AIR_SLASH
   }
   visuals {
     icon {
@@ -205182,29 +205160,29 @@ species {
       move: MOVE_WATER_SPOUT
       move: MOVE_ERUPTION
     }
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
     tutor: MOVE_BUBBLE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_FACADE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_BLIZZARD
     tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_WHIRLWIND
-    tutor: MOVE_WING_ATTACK
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_SURF
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
-    tutor: MOVE_DEFOG
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_AIR_SLASH
   }
   visuals {
     icon {
@@ -205353,6 +205331,7 @@ species {
       move: MOVE_NATURAL_GIFT
       move: MOVE_SNAP_TRAP
       move: MOVE_STOCKPILE
+      move: MOVE_SWALLOW
     }
     level {
       level: 46
@@ -205447,6 +205426,7 @@ species {
       move: MOVE_TACKLE
       move: MOVE_TAIL_WHIP
       move: MOVE_STUFF_CHEEKS
+      move: MOVE_FLING
     }
     level {
       level: 17
@@ -205690,16 +205670,16 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 95
-  atk: 135
-  def: 70
-  spatk: 55
-  spdef: 70
-  spe: 105
+  hp: 80
+  atk: 100
+  def: 85
+  spatk: 65
+  spdef: 85
+  spe: 115
   ability: ABILITY_PIXILATE
-  ability: ABILITY_PICKUP
+  ability: ABILITY_TECHNICIAN
   ability: ABILITY_PERFECTIONIST
-  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_OBLIVIOUS
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
   percent_female: 50

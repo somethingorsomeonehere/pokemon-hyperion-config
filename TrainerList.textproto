@@ -27814,17 +27814,18 @@ trainer {
       move: MOVE_SPIKE_CANNON
     }
     mon {
-      species: SPECIES_WUGTRIO
-      item: ITEM_CHOICE_BAND
+      species: SPECIES_PENTAWUG
+      item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_ACCELERATE
+      ability: ABILITY_IMPULSE
+      hp_ev: 4
       atk_ev: 252
-      def_ev: 4
       spe_ev: 252
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_DIVE
-      move: MOVE_ROCK_CLIMB
-      move: MOVE_ICE_SPINNER
+      move: MOVE_AQUA_JET
+      move: MOVE_SURF
+      move: MOVE_HIDDEN_POWER
+      move: MOVE_SUCKER_PUNCH
+      hidden_power_type: TYPE_ICE
     }
     mon {
       species: SPECIES_SAMUROTT_HISUIAN
@@ -108731,7 +108732,7 @@ trainer {
       hp_ev: 100
       atk_ev: 252
       spe_ev: 156
-      move: MOVE_NO_RETREAT
+      move: MOVE_BULK_UP
       move: MOVE_EARTHQUAKE
       move: MOVE_HIGH_JUMP_KICK
       move: MOVE_HEAD_SMASH
