@@ -208027,18 +208027,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-<<<<<<< HEAD
-  hp: 80
-  atk: 100
-  def: 85
-  spatk: 65
-  spdef: 85
-  spe: 115
-  ability: ABILITY_PIXILATE
-  ability: ABILITY_TECHNICIAN
-  ability: ABILITY_PERFECTIONIST
-  innate: ABILITY_OBLIVIOUS
-=======
   hp: 95
   atk: 125
   def: 65
@@ -208049,7 +208037,6 @@ species {
   ability: ABILITY_PICKUP
   ability: ABILITY_OBLIVIOUS
   innate: ABILITY_TECHNICIAN
->>>>>>> f3ad96c7bdaa657a1f9072d9259f4450204cbe8d
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
   percent_female: 50
