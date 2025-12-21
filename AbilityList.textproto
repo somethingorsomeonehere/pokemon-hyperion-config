@@ -5433,7 +5433,7 @@ ability {
 ability {
   id: ABILITY_HOME_RUN
   name: "Home Run"
-  description: "Landing a crit boosts your 3 lowest stats."
+  description: "Landing a crit boosts your 3 lowest stats once per turn."
 }
 ability {
   id: ABILITY_BRUISER
