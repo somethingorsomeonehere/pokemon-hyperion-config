@@ -298,7 +298,7 @@ ability {
   id: ABILITY_FLAME_BODY
   name: "Flame Body"
   description: "30% chance to burn on contact. Also works on offense."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict burn. Non-contact has a 30% chance. Works offensively and defensively."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict burn. Non-contact has a 20% chance. Works offensively and defensively."
 }
 ability {
   id: ABILITY_RUN_AWAY
@@ -2062,8 +2062,8 @@ ability {
 ability {
   id: ABILITY_POISON_ABSORB
   name: "Poison Absorb"
-  description: "Heals 25% of max HP when hit by a Poison-type move."
-  expanded_description: "Absorbs Poison-type moves to heal 25% max HP instead of taking damage. On Toxic Terrain, heals 1/8th of max HP per turn."
+  description: "Redirects Poison moves. Absorbs them, healing 25% HP."
+  expanded_description: "The user draws in Poison-type moves and gains immunity to them, healing for 1/4th of max HP instead. Additionally, heals 1/8th of max HP per turn on Toxic Terrain."
 }
 ability {
   id: ABILITY_SCAVENGER
@@ -2193,7 +2193,7 @@ ability {
 ability {
   id: ABILITY_SOLAR_FLARE
   name: "Solar Flare"
-  description: "Chloroplast + Immolate. Fire moves gain STAB."
+  description: "Chloroplast + Immolate."
   expanded_description: "Converts Normal-type moves to Fire-type and grants Fire-type STAB. Additionally activates any Sun related effects for the user's moves."
 }
 ability {
@@ -2374,7 +2374,7 @@ ability {
   id: ABILITY_STEEL_BARREL
   name: "Steel Barrel"
   description: "Immune to recoil damage, but not immune to Explosion/crash dmg."
-  expanded_description: "Sound-based moves receive a 1.2x power boost and Normal-type sound moves are converted to Water-type."
+  expanded_description: "Prevents all recoil damage from the user's moves and abilities. Also grants immunity to enrage recoil damage. Does not prevent crash damage or Explosion/Self-Destruct damage."
 }
 ability {
   id: ABILITY_PYRO_SHELLS
@@ -2949,13 +2949,13 @@ ability {
   id: ABILITY_FREEZING_POINT
   name: "Freezing Point"
   description: "30% chance to get frostbitten on contact."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict frostbite. Non-contact has a 30% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict frostbite. Non-contact has a 20% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
 }
 ability {
   id: ABILITY_CRYO_PROFICIENCY
   name: "Cryo Proficiency"
-  description: "Triggers hail when hit. 30% chance to frostbite on contact."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict frostbite. Non-contact has a 30% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved.  Sets hail after receiving a hit. Immune to hail damage."
+  description: "Freezing Point + triggers hail when hit."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict frostbite. Non-contact has a 20% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved.  Sets hail after receiving a hit. Immune to hail damage."
 }
 ability {
   id: ABILITY_ARCANE_FORCE
@@ -5538,7 +5538,7 @@ ability {
 ability {
   id: ABILITY_RAGING_STORM
   name: "Raging Storm"
-  description: "Ups highest attacking stat by 1.5x in sun."
+  description: "Ups highest attacking stat by 1.5x in rain."
 }
 ability {
   id: ABILITY_SUMO_GUARD

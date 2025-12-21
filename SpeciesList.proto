@@ -8,6 +8,7 @@ import "AbilityEnum.proto";
 import "Types.proto";
 import "Anims.proto";
 import "ItemEnum.proto";
+import "LimitedRandomizerConfig.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -125,6 +126,23 @@ message Species {
     REDUX= 5;
   }
 
+  message RandomizerData {
+    Region min_region = 1;
+    Region max_region = 2;
+    repeated Region other_region = 3;
+    repeated LandType land = 4;
+    repeated WaterType water = 5;
+    repeated LandType exclude_land = 11;
+    repeated WaterType exclude_water = 12;
+    bool fishing = 6;
+    bool rock_smash = 7;
+    bool sand_pile = 8;
+    bool cut = 9;
+    bool berries = 10;
+    bool amphibious = 13;
+    bool require_all = 14;
+  }
+
   SpeciesEnum id = 1;
   RandomizeBanned randomizer_banned = 2;
   oneof base_species_info {
@@ -167,6 +185,11 @@ message Species {
     SpeciesEnum reuse_visuals = 29;
     Visuals visuals = 30;
   }
+  RandomizerCategory randomizer_category = 35;
+  RandomizerData preferred_climate = 36;
+  RandomizerData allowed_climate = 37;
+  SpeciesEnum randomizer_alt_gender = 38;
+  repeated SpeciesEnum linked_species = 39;
 }
 
 message Visuals {

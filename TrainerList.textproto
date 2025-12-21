@@ -6369,7 +6369,7 @@ trainer {
     }
     mon {
       species: SPECIES_GARDEVOIR_REDUX
-      item: ITEM_GARDEVOIRITE
+      item: ITEM_GARDEVOIRITE_R
       nature: NATURE_JOLLY
       ability: ABILITY_ON_THE_PROWL
       hp_ev: 4
@@ -6618,7 +6618,7 @@ trainer {
     }
     mon {
       species: SPECIES_GARDEVOIR_REDUX
-      item: ITEM_GARDEVOIRITE
+      item: ITEM_GARDEVOIRITE_R
       nature: NATURE_JOLLY
       ability: ABILITY_ON_THE_PROWL
       hp_ev: 4
@@ -111513,7 +111513,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_NORMAL
-  name: "Normal"
+  name: "Paperclip"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -111689,7 +111689,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_FIGHTING
-  name: "Fighting"
+  name: "Arty"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -111857,7 +111857,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_FLYING
-  name: "Flying"
+  name: "mixolx"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -111946,7 +111946,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_POISON
-  name: "Poison"
+  name: "Krypto"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112034,7 +112034,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_GROUND
-  name: "Ground"
+  name: "Maskninja"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112125,7 +112125,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_ROCK
-  name: "Rock"
+  name: "Pesialg"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112213,7 +112213,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_BUG
-  name: "Bug"
+  name: "Sidharth"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112301,7 +112301,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_GHOST
-  name: "Ghost"
+  name: "Vodakhun"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112391,7 +112391,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_STEEL
-  name: "Steel"
+  name: "denis"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112481,7 +112481,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_FIRE
-  name: "Fire"
+  name: "Dread"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112569,7 +112569,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_WATER
-  name: "Water"
+  name: "juno"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112657,7 +112657,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_GRASS
-  name: "Grass"
+  name: "leafy"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112748,7 +112748,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_ELECTRIC
-  name: "Electric"
+  name: "DRToden"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112837,7 +112837,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_PSYCHIC
-  name: "Psychic"
+  name: "thegamer457"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -112926,7 +112926,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_ICE
-  name: "Ice"
+  name: "roo"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -113015,7 +113015,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_DRAGON
-  name: "Dragon"
+  name: "dragontamer5"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -113103,7 +113103,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_DARK
-  name: "Dark"
+  name: "furius2"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -113191,7 +113191,7 @@ trainer {
 }
 trainer {
   id: TRAINER_MONOCHAMP_FAIRY
-  name: "Fairy"
+  name: "Tuff"
   gender: MALE
   class: TRAINER_CLASS_MONOTYPE_CHAMPION
   pic: TRAINER_PIC_COOLTRAINER_M
@@ -117547,17 +117547,17 @@ trainer {
       move: MOVE_SOIL_DRAIN
     }
     mon {
-      species: SPECIES_DREADNAUT
+      species: SPECIES_PLUNDERTOW
       item: ITEM_CHOICE_BAND
-      nature: NATURE_ADAMANT
-      ability: ABILITY_STEELY_SPIRIT
-      hp_ev: 252
+      nature: NATURE_JOLLY
+      ability: ABILITY_SWIFT_SWIM
+      hp_ev: 4
       atk_ev: 252
-      def_ev: 4
+      spe_ev: 252
       move: MOVE_ANCHOR_SHOT
-      move: MOVE_POLTERGEIST
-      move: MOVE_TRIPLE_DIVE
       move: MOVE_POWER_WHIP
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_POLTERGEIST
     }
     mon {
       species: SPECIES_GOODRA_HISUIAN

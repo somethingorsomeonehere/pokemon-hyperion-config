@@ -634,6 +634,7 @@ item {
   hold_effect_type: TYPE_BUG
   image: "tanga_berry"
   palette: "tanga_berry"
+  talk_to_nurse_joy: true
   natural_gift {
     power: 95
     type: TYPE_BUG
