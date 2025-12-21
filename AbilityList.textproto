@@ -298,7 +298,7 @@ ability {
   id: ABILITY_FLAME_BODY
   name: "Flame Body"
   description: "30% chance to burn on contact. Also works on offense."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict burn. Non-contact has a 30% chance. Works offensively and defensively."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict burn. Non-contact has a 20% chance. Works offensively and defensively."
 }
 ability {
   id: ABILITY_RUN_AWAY
@@ -381,8 +381,8 @@ ability {
 ability {
   id: ABILITY_MARVEL_SCALE
   name: "Marvel Scale"
-  description: "Ups Def and Sp. Def by 1.5x when statused."
-  expanded_description: "Increases base Defense and Special Defense by 50% when afflicted with any status condition."
+  description: "Ups Def by 1.5x when statused."
+  expanded_description: "Increases base Defense by 50% when afflicted with any status condition."
 }
 ability {
   id: ABILITY_LIQUID_OOZE
@@ -2949,13 +2949,13 @@ ability {
   id: ABILITY_FREEZING_POINT
   name: "Freezing Point"
   description: "30% chance to get frostbitten on contact."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict frostbite. Non-contact has a 30% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict frostbite. Non-contact has a 20% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
 }
 ability {
   id: ABILITY_CRYO_PROFICIENCY
   name: "Cryo Proficiency"
-  description: "Triggers hail when hit. 30% chance to frostbite on contact."
-  expanded_description: "Contact with this Pokemon has a 20% chance to inflict frostbite. Non-contact has a 30% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved.  Sets hail after receiving a hit. Immune to hail damage."
+  description: "Freezing Point + triggers hail when hit."
+  expanded_description: "Contact with this Pokemon has a 30% chance to inflict frostbite. Non-contact has a 20% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved.  Sets hail after receiving a hit. Immune to hail damage."
 }
 ability {
   id: ABILITY_ARCANE_FORCE
@@ -5433,7 +5433,7 @@ ability {
 ability {
   id: ABILITY_HOME_RUN
   name: "Home Run"
-  description: "Landing a crit boosts your 3 lowest stats."
+  description: "Landing a crit boosts your 3 lowest stats once per turn."
 }
 ability {
   id: ABILITY_BRUISER
@@ -5538,7 +5538,7 @@ ability {
 ability {
   id: ABILITY_RAGING_STORM
   name: "Raging Storm"
-  description: "Ups highest attacking stat by 1.5x in sun."
+  description: "Ups highest attacking stat by 1.5x in rain."
 }
 ability {
   id: ABILITY_SUMO_GUARD

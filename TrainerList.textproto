@@ -7449,13 +7449,69 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_BULBASAUR
-      nature: NATURE_IMPISH
+      species: SPECIES_MEOWSCARADA
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_MAGIC_BOUNCE
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_FLOWER_TRICK
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_KNOCK_OFF
+      move: MOVE_TRIPLE_AXEL
+    }
+    mon {
+      species: SPECIES_LURANTIS
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_CONTRARY
+      hp_ev: 156
+      atk_ev: 252
+      spdef_ev: 100
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SUPERPOWER
+      move: MOVE_LEECH_LIFE
+      move: MOVE_DUAL_CHOP
+    }
+    mon {
+      species: SPECIES_GRANITUN
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_UNAWARE
+      hp_ev: 252
+      def_ev: 4
+      spatk_ev: 252
+      move: MOVE_ASTONISH
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_RECOVER
+      move: MOVE_APPLE_ACID
+    }
+    mon {
+      species: SPECIES_VENUSAUR
+      item: ITEM_LIFE_ORB
+      nature: NATURE_TIMID
       ability: ABILITY_CHLOROPLAST
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SOLAR_BEAM
+      move: MOVE_WEATHER_BALL
+      move: MOVE_SLUDGE_BOMB
+      move: MOVE_EARTH_POWER
+    }
+    mon {
+      species: SPECIES_ROSERADE
+      item: ITEM_LOADED_DICE
+      nature: NATURE_JOLLY
+      ability: ABILITY_TECHNICIAN
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_BULLET_SEED
+      move: MOVE_SLEEP_POWDER
+      move: MOVE_VICTORY_DANCE
     }
   }
   hell {
@@ -46372,13 +46428,13 @@ trainer {
     }
     mon {
       species: SPECIES_KADABRA
-      item: ITEM_EVIOLITE
+      item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
       ability: ABILITY_HYPNOTIST
       hp_ev: 5
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_HYPNOSIS
+      move: MOVE_FLAMETHROWER
       move: MOVE_PSYCHIC
       move: MOVE_AURA_SPHERE
       move: MOVE_NIGHTMARE
@@ -46398,7 +46454,7 @@ trainer {
     }
     mon {
       species: SPECIES_KADABRA_REDUX
-      item: ITEM_LIFE_ORB
+      item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
       ability: ABILITY_INTIMIDATE
       atk_ev: 252
@@ -109119,13 +109175,82 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_BULBASAUR
-      nature: NATURE_IMPISH
-      ability: ABILITY_CHLOROPLAST
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
+      species: SPECIES_FLUTTER_MANE
+      item: ITEM_BOOSTER_ENERGY
+      nature: NATURE_MODEST
+      ability: ABILITY_VENGEFUL_SPIRIT
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_ASTONISH
+      move: MOVE_SHADOW_BALL
+      move: MOVE_MOONBLAST
+      move: MOVE_MYSTICAL_FIRE
+    }
+    mon {
+      species: SPECIES_SPIRITOMB
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_HYPNOTIST
+      def_ev: 124
+      spatk_ev: 132
+      spdef_ev: 252
+      move: MOVE_DREAM_EATER
+      move: MOVE_DARK_PULSE
+      move: MOVE_NIGHTMARE
+      move: MOVE_HYPNOSIS
+    }
+    mon {
+      species: SPECIES_BASCULEGION_F
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_TIMID
+      ability: ABILITY_RAPID_RESPONSE
+      hp_ev: 96
+      spatk_ev: 160
+      spe_ev: 252
+      move: MOVE_CHILLING_WATER
+      move: MOVE_SHADOW_BALL
+      move: MOVE_SHEER_COLD
+      move: MOVE_FINAL_GAMBIT
+    }
+    mon {
+      species: SPECIES_GUZZLORD
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_DEVOURER
+      hp_ev: 252
+      atk_ev: 252
+      spdef_ev: 4
+      move: MOVE_CRUNCH
+      move: MOVE_DRACONIC_FANGS
+      move: MOVE_JAW_LOCK
+      move: MOVE_POISON_FANG
+    }
+    mon {
+      species: SPECIES_AEGISLASH
+      item: ITEM_SHELL_BELL
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SHADOW_SHIELD
+      hp_ev: 252
+      atk_ev: 252
+      spdef_ev: 4
+      move: MOVE_EXCALIBUR
+      move: MOVE_SHADOW_CLAW
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_KINGS_SHIELD
+    }
+    mon {
+      species: SPECIES_CROBAT
+      item: ITEM_CROBATITE
+      nature: NATURE_TIMID
+      ability: ABILITY_TINTED_LENS
+      spatk_ev: 252
+      spdef_ev: 4
+      spe_ev: 252
+      move: MOVE_BOOMBURST
+      move: MOVE_HURRICANE
+      move: MOVE_SLUDGE_BOMB
+      move: MOVE_GUST
     }
   }
   hell {
