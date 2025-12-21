@@ -14927,15 +14927,7 @@ species {
 }
 species {
   id: SPECIES_TENTACOOL
-  preferred_climate {
-    water: WATER_OCEAN_COAST
-    water: WATER_OCEAN
-    fishing: true
-  }
-  allowed_climate {
-    water: WATER_OCEAN
-    water: WATER_DEEP_OCEAN
-  }
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Tentacool"
     category: "Jellyfish"
@@ -141615,6 +141607,7 @@ species {
 }
 species {
   id: SPECIES_PHANTUMP
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Phantump"
     category: "Stump"
@@ -141910,6 +141903,7 @@ species {
 }
 species {
   id: SPECIES_PUMPKABOO
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Pumpkaboo"
     category: "Pumpkin"
@@ -146746,6 +146740,7 @@ species {
 }
 species {
   id: SPECIES_CHARJABUG
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Charjabug"
     category: "Battery"
@@ -155703,6 +155698,7 @@ species {
 }
 species {
   id: SPECIES_DHELMISE
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Dhelmise"
     category: "Sea Creeper"
