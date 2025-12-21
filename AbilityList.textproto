@@ -5538,7 +5538,7 @@ ability {
 ability {
   id: ABILITY_RAGING_STORM
   name: "Raging Storm"
-  description: "Ups highest attacking stat by 1.5x in sun."
+  description: "Ups highest attacking stat by 1.5x in rain."
 }
 ability {
   id: ABILITY_SUMO_GUARD
