@@ -179641,6 +179641,7 @@ species {
       move: MOVE_DRACO_METEOR
       move: MOVE_INSTRUCT
       move: MOVE_WAVE_CRASH
+      move: MOVE_RAIN_FLUSH
     }
     level {
       level: 51
@@ -205694,14 +205695,14 @@ species {
   }
   type: TYPE_NORMAL
   hp: 95
-  atk: 135
-  def: 70
-  spatk: 55
-  spdef: 70
+  atk: 125
+  def: 65
+  spatk: 65
+  spdef: 75
   spe: 105
   ability: ABILITY_PIXILATE
   ability: ABILITY_PICKUP
-  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_OBLIVIOUS
   innate: ABILITY_TECHNICIAN
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
