@@ -155737,6 +155737,10 @@ species {
     to: SPECIES_DREADNAUT
     level: 55
   }
+  evo {
+    to: SPECIES_PLUNDERTOW
+    level: 55
+  }
   learnset {
     level {
       level: 1
