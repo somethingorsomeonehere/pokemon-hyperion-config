@@ -4,7 +4,7 @@
 area {
   name: "MAP_LITTLEROOT_TOWN"
   name: "MAP_ROUTE101"
-  region: 1
+  region: REGION_LITTLEROOT
   land_type: CLIMATE_TEMPERATE
 }
 area {
@@ -13,29 +13,29 @@ area {
 }
 area {
   name: "MAP_ROUTE103"
-  region: 1
-  region: 5
+  region: REGION_LITTLEROOT
+  region: REGION_SLATEPORT
   land_type: CLIMATE_TEMPERATE
   water_type: WATER_OCEAN_COAST
   has_berries: true
 }
 area {
   name: "MAP_ROUTE102"
-  region: 1
+  region: REGION_LITTLEROOT
   land_type: CLIMATE_TEMPERATE
   water_type: WATER_POND
   has_berries: true
 }
 area {
   name: "MAP_PETALBURG_CITY"
-  region: 1
+  region: REGION_LITTLEROOT
   adoption_center_id: 2
   water_type: WATER_POND
 }
 area {
   name: "MAP_ROUTE104"
-  region: 1
-  region: 2
+  region: REGION_LITTLEROOT
+  region: REGION_RUSTBORO
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_FOREST_ENTRANCE
   land_type: CLIMATE_URBAN
@@ -45,21 +45,21 @@ area {
 }
 area {
   name: "MAP_PETALBURG_WOODS"
-  region: 2
+  region: REGION_RUSTBORO
   land_type: CLIMATE_FOREST
   has_cut: true
 }
 area {
   name: "MAP_PETALBURG_WOODS_2"
-  region: 2
-  region: 3
+  region: REGION_RUSTBORO
+  region: REGION_POST_ROXANNE
   land_type: CLIMATE_FOREST
   has_cut: true
 }
 area {
   name: "MAP_PETALBURG_WOODS_3"
-  region: 2
-  region: 3
+  region: REGION_RUSTBORO
+  region: REGION_POST_ROXANNE
   land_type: CLIMATE_FOREST
   water_type: WATER_POND
   has_cut: true
@@ -70,8 +70,8 @@ area {
 }
 area {
   name: "MAP_ROUTE115"
-  region: 2
-  region: 8
+  region: REGION_RUSTBORO
+  region: REGION_METEOR_FALLS
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_URBAN
   water_type: WATER_OCEAN_COAST
@@ -80,19 +80,20 @@ area {
 }
 area {
   name: "MAP_SEASPRAY_CAVE"
-  region: 2
+  region: REGION_RUSTBORO
   land_type: CLIMATE_CAVE
+  land_type: CLIMATE_COLD_CAVE
   water_type: WATER_COLD_CAVE
   has_rock_smash: true
 }
 area {
   name: "MAP_SEASPRAY_CAVE_B1F"
-  region: 2
+  region: REGION_RUSTBORO
   land_type: CLIMATE_ICE
 }
 area {
   name: "MAP_ROUTE116"
-  region: 2
+  region: REGION_RUSTBORO
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_CAVE_ENTRANCE
   land_type: CLIMATE_URBAN
@@ -101,29 +102,29 @@ area {
 }
 area {
   name: "MAP_RUSTURF_TUNNEL"
-  region: 3
+  region: REGION_POST_ROXANNE
   land_type: CLIMATE_CAVE
   land_type: CLIMATE_GHOST
   has_rock_smash: true
 }
 area {
   name: "MAP_RUSTURF_TUNNEL_2F"
-  region: 3
+  region: REGION_POST_ROXANNE
   land_type: CLIMATE_DEEP_CAVE
   land_type: CLIMATE_GHOST
   water_type: WATER_CAVE
 }
 area {
   name: "MAP_ROUTE105"
-  region: 4
-  region: 11
+  region: REGION_DEWFORD
+  region: REGION_DEWFORD_SURF_ONLY_ROUTES
   land_type: CLIMATE_TROPICAL
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
 }
 area {
   name: "MAP_ROUTE106"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_TROPICAL
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
@@ -131,69 +132,69 @@ area {
 }
 area {
   name: "MAP_DEWFORD_TOWN"
-  region: 4
+  region: REGION_DEWFORD
   adoption_center_id: 4
   water_type: WATER_OCEAN_COAST
 }
 area {
   name: "MAP_DEWFORD_MEADOW"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_MEADOW
   land_type: CLIMATE_OUTSIDE_GHOST
 }
 area {
   name: "MAP_DEWFORD_MANOR_1F"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_GHOST
 }
 area {
   name: "MAP_GRANITE_CAVE_1F"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_CAVE
 }
 area {
   name: "MAP_GRANITE_CAVE_STEVENS_ROOM"
   name: "MAP_GRANITE_CAVE_B1F"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_DEEP_CAVE
 }
 area {
   name: "MAP_GRANITE_CAVE_B2F"
-  region: 4
+  region: REGION_DEWFORD
   land_type: CLIMATE_DEEP_CAVE
   has_rock_smash: true
 }
 area {
   name: "MAP_ROUTE107"
-  region: 4
+  region: REGION_DEWFORD
   water_type: WATER_OCEAN_COAST
 }
 area {
   name: "MAP_ROUTE108"
   name: "MAP_ABANDONED_SHIP_ROOMS_B1F"
-  region: 4
-  region: 5
-  region: 11
+  region: REGION_DEWFORD
+  region: REGION_SLATEPORT
+  region: REGION_DEWFORD_SURF_ONLY_ROUTES
   water_type: WATER_OCEAN
   water_type: WATER_GHOST_OUTSIDE
 }
 area {
   name: "MAP_ROUTE109"
-  region: 5
+  region: REGION_SLATEPORT
   land_type: CLIMATE_BEACH
   water_type: WATER_OCEAN_COAST
   has_rock_smash: true
 }
 area {
   name: "MAP_SLATEPORT_CITY"
-  region: 5
+  region: REGION_SLATEPORT
   adoption_center_id: 5
   water_type: WATER_OCEAN_COAST
 }
 area {
   name: "MAP_ROUTE110"
-  region: 5
-  region: 6
+  region: REGION_SLATEPORT
+  region: REGION_MAUVILLE
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_URBAN
   water_type: WATER_OCEAN_COAST
@@ -205,7 +206,7 @@ area {
 }
 area {
   name: "MAP_ROUTE117"
-  region: 6
+  region: REGION_MAUVILLE
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_URBAN
   water_type: WATER_POND
@@ -218,12 +219,12 @@ area {
 }
 area {
   name: "MAP_VERDANTURF_MEADOW"
-  region: 6
+  region: REGION_MAUVILLE
   land_type: CLIMATE_MEADOW
 }
 area {
   name: "MAP_ROUTE111"
-  region: 7
+  region: REGION_POST_WATTSON
   land_type: CLIMATE_ARID
   water_type: WATER_POND
   has_rock_smash: true
@@ -231,20 +232,20 @@ area {
 }
 area {
   name: "MAP_ROUTE112"
-  region: 7
+  region: REGION_POST_WATTSON
   land_type: CLIMATE_ARID
   has_berries: true
 }
 area {
   name: "MAP_FIERY_PATH"
-  region: 7
+  region: REGION_POST_WATTSON
   land_type: CLIMATE_HOT_CAVE
   has_rock_smash: true
 }
 area {
   name: "MAP_ROUTE113"
-  region: 7
-  region: 8
+  region: REGION_POST_WATTSON
+  region: REGION_METEOR_FALLS
   land_type: CLIMATE_ASH
 }
 area {
@@ -253,14 +254,14 @@ area {
 }
 area {
   name: "MAP_ROUTE114"
-  region: 8
+  region: REGION_METEOR_FALLS
   land_type: CLIMATE_ARID
   water_type: WATER_POND
   has_rock_smash: true
 }
 area {
   name: "MAP_METEOR_FALLS_1F_1R"
-  region: 8
+  region: REGION_METEOR_FALLS
   land_type: CLIMATE_CAVE
   water_type: WATER_CAVE
 }
@@ -268,29 +269,29 @@ area {
   name: "MAP_METEOR_FALLS_B1F_2R"
   name: "MAP_METEOR_FALLS_1F_2R"
   name: "MAP_METEOR_FALLS_B1F_1R"
-  region: 20
+  region: REGION_POST_JUAN
   land_type: CLIMATE_DEEP_CAVE
   water_type: WATER_CAVE
 }
 area {
   name: "MAP_METEOR_FALLS_STEVENS_CAVE"
-  region: 22
+  region: REGION_POSTGAME
   land_type: CLIMATE_DEEP_CAVE
 }
 area {
   name: "MAP_JAGGED_PASS"
-  region: 9
+  region: REGION_JAGGED_PASS
   land_type: CLIMATE_ASH
 }
 area {
   name: "MAP_EMBER_PATH"
-  region: 9
+  region: REGION_JAGGED_PASS
   land_type: CLIMATE_HOT_CAVE
 }
 area {
   name: "MAP_ASHEN_WOODS"
-  region: 9
-  region: 10
+  region: REGION_JAGGED_PASS
+  region: REGION_SUNHOME
   land_type: CLIMATE_ASH
 }
 area {
@@ -299,51 +300,51 @@ area {
 }
 area {
   name: "MAP_ROUTE111_DESERT_ENTRANCE"
-  region: 10
+  region: REGION_SUNHOME
   land_type: CLIMATE_DESERT_CAVE
 }
 area {
   name: "MAP_ROUTE111_DESERT"
-  region: 10
+  region: REGION_SUNHOME
   land_type: CLIMATE_DESERT
 }
 area {
   name: "MAP_ROUTE111_TUNNEL"
-  region: 10
+  region: REGION_SUNHOME
   land_type: CLIMATE_DESERT_CAVE
 }
 area {
   name: "MAP_ROUTE111_DESERT"
-  region: 10
+  region: REGION_SUNHOME
   land_type: CLIMATE_DESERT
   land_type: CLIMATE_DEEP_DESERT
 }
 area {
   name: "MAP_ROUTE111_TUNNEL2"
-  region: 10
+  region: REGION_SUNHOME
   land_type: CLIMATE_DESERT_CAVE
   land_type: CLIMATE_DEEP_DESERT
 }
 area {
   name: "MAP_NEW_MAUVILLE_ENTRANCE"
-  region: 12
+  region: REGION_POWER_PLANT
   land_type: CLIMATE_POWER_PLANT
 }
 area {
   name: "MAP_NEW_MAUVILLE_INSIDE"
-  region: 12
+  region: REGION_POWER_PLANT
   land_type: CLIMATE_POWER_PLANT_INSIDE
 }
 area {
   name: "MAP_ROUTE118"
-  region: 13
+  region: REGION_FORTREE
   land_type: CLIMATE_TEMPERATE
   water_type: WATER_RIVER
   has_berries: true
 }
 area {
   name: "MAP_ROUTE119"
-  region: 13
+  region: REGION_FORTREE
   land_type: CLIMATE_JUNGLE
   water_type: WATER_RIVER
   has_berries: true
@@ -354,8 +355,8 @@ area {
 }
 area {
   name: "MAP_ROUTE120"
-  region: 13
-  region: 14
+  region: REGION_FORTREE
+  region: REGION_MT_PYRE
   land_type: CLIMATE_JUNGLE
   water_type: WATER_POND
   has_berries: true
@@ -363,36 +364,36 @@ area {
 }
 area {
   name: "MAP_SCORCHED_SLAB"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_CAVE
   water_type: WATER_CAVE
 }
 area {
   name: "MAP_SCORCHED_SLAB_B1F"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_DEEP_CAVE
   water_type: WATER_CAVE
 }
 area {
   name: "MAP_SCORCHED_SLAB_B2F"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_DEEP_CAVE
   land_type: CLIMATE_HOT_CAVE
 }
 area {
   name: "MAP_SCORCHED_SLAB_HEATRANS_ROOM"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_HOT_CAVE
 }
 area {
   name: "MAP_ROUTE121"
-  region: 14
+  region: REGION_MT_PYRE
   water_type: WATER_OCEAN_COAST
   water_type: WATER_GHOST_OUTSIDE
 }
 area {
   name: "MAP_ROUTE122"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_TEMPERATE
   land_type: CLIMATE_OUTSIDE_GHOST
   water_type: WATER_OCEAN_COAST
@@ -407,20 +408,21 @@ area {
   name: "MAP_MT_PYRE_4F"
   name: "MAP_MT_PYRE_5F"
   name: "MAP_MT_PYRE_6F"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_GHOST
 }
 area {
   name: "MAP_MT_PYRE_EXTERIOR"
   name: "MAP_MT_PYRE_SUMMIT"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_PYRE_SUMMIT
 }
 area {
   name: "MAP_ROUTE123"
-  region: 14
+  region: REGION_MT_PYRE
   land_type: CLIMATE_OUTSIDE_GHOST
   land_type: CLIMATE_TEMPERATE
+  land_type: CLIMATE_URBAN
   water_type: WATER_OCEAN_COAST
   has_berries: true
   has_cut: true
@@ -434,124 +436,126 @@ area {
   name: "MAP_MAGMA_HIDEOUT_4F"
   name: "MAP_MAGMA_HIDEOUT_3F_3R"
   name: "MAP_MAGMA_HIDEOUT_2F_3R"
-  region: 15
+  region: REGION_MAGMA_HIDEOUT
   land_type: CLIMATE_MAGMA_HIDEOUT
 }
 area {
   name: "MAP_LILYCOVE_CITY"
-  region: 14
+  region: REGION_MT_PYRE
   adoption_center_id: 11
   water_type: WATER_OCEAN_COAST
 }
 area {
   name: "MAP_ROUTE124"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_TEMPERATE
   water_type: WATER_OCEAN
 }
 area {
   name: "MAP_UNDERWATER_ROUTE126"
   name: "MAP_UNDERWATER_ROUTE124"
-  region: 18
+  region: REGION_DIVE
   land_type: CLIMATE_DIVE
 }
 area {
   name: "MAP_MOSSDEEP_CITY"
-  region: 16
+  region: REGION_MOSSDEEP
   adoption_center_id: 12
   water_type: WATER_ARCTIC
 }
 area {
   name: "MAP_ROUTE125"
-  region: 16
+  region: REGION_MOSSDEEP
   water_type: WATER_ARCTIC
 }
 area {
   name: "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_CAVE
+  land_type: CLIMATE_COLD_CAVE
 }
 area {
   name: "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM"
   name: "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM"
   name: "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_DEEP_CAVE
+  land_type: CLIMATE_COLD_CAVE
 }
 area {
   name: "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_ICE
 }
 area {
   name: "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_CAVE
   water_type: WATER_COLD_CAVE
 }
 area {
   name: "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_DEEP_CAVE
   water_type: WATER_COLD_CAVE
 }
 area {
   name: "MAP_ROUTE127"
-  region: 16
+  region: REGION_MOSSDEEP
   land_type: CLIMATE_ARCTIC
   water_type: WATER_ARCTIC
 }
 area {
   name: "MAP_ROUTE128"
-  region: 16
-  region: 17
+  region: REGION_MOSSDEEP
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_ARCTIC
 }
 area {
   name: "MAP_ROUTE127"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_OCEAN
 }
 area {
   name: "MAP_ROUTE129"
   name: "MAP_ROUTE131"
   name: "MAP_ROUTE132"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_DEEP_OCEAN
 }
 area {
   name: "MAP_EVER_GRANDE_CITY"
   adoption_center_id: 15
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_EVER_GRANDE
 }
 area {
   name: "MAP_ROUTE130"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   land_type: CLIMATE_MIRAGE_ISLAND
   water_type: WATER_DEEP_OCEAN
 }
 area {
   name: "MAP_PACIFIDLOG_TOWN"
   adoption_center_id: 13
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_DEEP_OCEAN
 }
 area {
   name: "MAP_ROUTE133"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_DEEP_OCEAN
   water_type: WATER_RAPIDS
 }
 area {
   name: "MAP_ROUTE134"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_OCEAN
   water_type: WATER_RAPIDS
 }
 area {
   name: "MAP_SEAFLOOR_CAVERN_ENTRANCE"
-  region: 17
+  region: REGION_POST_MOSDEEP_OCEAN
   water_type: WATER_DIVE
 }
 area {
@@ -561,19 +565,19 @@ area {
   name: "MAP_SEAFLOOR_CAVERN_ROOM4"
   name: "MAP_SEAFLOOR_CAVERN_ROOM5"
   name: "MAP_SEAFLOOR_CAVERN_ROOM8"
-  region: 18
+  region: REGION_DIVE
   land_type: CLIMATE_SEAFLOOR_CAVERN
 }
 area {
   name: "MAP_SEAFLOOR_CAVERN_ROOM6"
   name: "MAP_SEAFLOOR_CAVERN_ROOM7"
-  region: 18
+  region: REGION_DIVE
   land_type: CLIMATE_SEAFLOOR_CAVERN
   water_type: WATER_SEAFLOOR_CAVERN
 }
 area {
   name: "MAP_SOOTOPOLIS"
-  region: 18
+  region: REGION_DIVE
   adoption_center_id: 14
   water_type: WATER_SOOTOPOLIS
 }
@@ -581,7 +585,7 @@ area {
   name: "MAP_SKY_PILLAR_1F"
   name: "MAP_SKY_PILLAR_3F"
   name: "MAP_SKY_PILLAR_5F"
-  region: 19
+  region: REGION_SKY_PILLAR
   land_type: CLIMATE_SKY_PILLAR
 }
 area {
@@ -591,18 +595,18 @@ area {
   name: "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2"
   name: "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3"
   name: "MAP_CAVE_OF_ORIGIN_DIANCIES_ROOM"
-  region: 20
+  region: REGION_POST_JUAN
   land_type: CLIMATE_CAVE_OF_ORIGIN
 }
 area {
   name: "MAP_VICTORY_ROAD_FROOM"
   name: "MAP_VICTORY_ROAD_CROOM"
-  region: 21
+  region: REGION_VICTORY_ROAD
   land_type: CLIMATE_VICTORY_ROAD
 }
 area {
   name: "MAP_VICTORY_ROAD_REWORK"
-  region: 21
+  region: REGION_VICTORY_ROAD
   land_type: CLIMATE_VICTORY_ROAD
   water_type: WATER_VICTORY_ROAD
 }
