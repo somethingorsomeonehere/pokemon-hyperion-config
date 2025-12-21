@@ -45371,14 +45371,7 @@ species {
 }
 species {
   id: SPECIES_DUNSPARCE
-  preferred_climate {
-    land: CLIMATE_DEEP_CAVE
-  }
-  allowed_climate {
-    land: CLIMATE_SKY_PILLAR
-    land: CLIMATE_MIRAGE_ISLAND
-    land: CLIMATE_DESERT_CAVE
-  }
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Dunsparce"
     category: "Land Snake"
