@@ -209218,43 +209218,45 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_FROST_BRAND
+      move: MOVE_HEAL_BELL
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_BULLET_SEED
+      move: MOVE_BARRAGE
+      move: MOVE_MEDITATE
+      move: MOVE_HARDEN
     }
     level {
       level: 17
-      move: MOVE_SKETCH
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_EXPLOSION
+      move: MOVE_GRASS_PLEDGE
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_TRANSMUTE
     }
     level {
       level: 24
-      move: MOVE_BIND
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_SELF_DESTRUCT
+      move: MOVE_BERRY_SMASH
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_SPEED_SWAP
     }
     level {
       level: 37
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_SYNTHESIS
+      move: MOVE_EXPANDING_FORCE
+      move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_OUTBURST
+      move: MOVE_YGGDRASIL_FORCE
     }
     level {
       level: 46
-      move: MOVE_TRIPLE_AXEL
-    }
-    level {
-      level: 51
-      move: MOVE_GIGATON_HAMMER
-    }
-    level {
-      level: 56
-      move: MOVE_DRAGON_HAMMER
-    }
-    level {
-      level: 61
-      move: MOVE_KOWTOW_CLEAVE
-    }
-    level {
-      level: 71
-      move: MOVE_SCRATCH
-    }
-    level {
-      level: 81
-      move: MOVE_TACKLE
+      move: MOVE_LEAF_STORM
+      move: MOVE_TELEPORT
+      move: MOVE_MIRAGE_SLAM
+      move: MOVE_MEMENTO
     }
     tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
@@ -209277,7 +209279,6 @@ species {
     tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYSHOCK
-    tutor: MOVE_EERIE_SPELL
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_CALM_MIND
     tutor: MOVE_PSYCHIC_NOISE
