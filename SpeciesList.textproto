@@ -144862,6 +144862,7 @@ species {
 }
 species {
   id: SPECIES_ROWLET
+  randomizer_category: RANDOMIZER_GRASS_STARTER
   dex {
     name: "Rowlet"
     category: "Grass Quill"
@@ -145432,6 +145433,7 @@ species {
 }
 species {
   id: SPECIES_LITTEN
+  randomizer_category: RANDOMIZER_FIRE_STARTER
   dex {
     name: "Litten"
     category: "Fire Cat"
@@ -145822,6 +145824,7 @@ species {
 }
 species {
   id: SPECIES_POPPLIO
+  randomizer_category: RANDOMIZER_WATER_STARTER
   dex {
     name: "Popplio"
     category: "Sea Lion"
@@ -146234,6 +146237,15 @@ species {
 }
 species {
   id: SPECIES_PIKIPEK
+  preferred_climate {
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_JUNGLE
+    cut: true
+  }
+  allowed_climate {
+    land: CLIMATE_FOREST
+    berries: true
+  }
   dex {
     name: "Pikipek"
     category: "Woodpecker"
@@ -146626,6 +146638,15 @@ species {
 }
 species {
   id: SPECIES_YUNGOOS
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TROPICAL
+  }
+  allowed_climate {
+    land: CLIMATE_CAVE
+  }
   dex {
     name: "Yungoos"
     category: "Loitering"
@@ -146840,6 +146861,7 @@ species {
 }
 species {
   id: SPECIES_GRUBBIN
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Grubbin"
     category: "Larva"
@@ -146938,7 +146960,6 @@ species {
 }
 species {
   id: SPECIES_CHARJABUG
-  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Charjabug"
     category: "Battery"
@@ -147171,6 +147192,14 @@ species {
 }
 species {
   id: SPECIES_CRABRAWLER
+  preferred_climate {
+    land: CLIMATE_BEACH
+    amphibious: true
+  }
+  allowed_climate {
+    water: WATER_OCEAN_COAST
+    land: CLIMATE_ARCTIC
+  }
   dex {
     name: "Crabrawler"
     category: "Boxing"
@@ -147408,6 +147437,12 @@ species {
 }
 species {
   id: SPECIES_CRABRAWLER_REDUX
+  preferred_climate {
+    land: CLIMATE_CAVE
+  }
+  allowed_climate {
+    land: CLIMATE_PYRE_SUMMIT
+  }
   form_of: SPECIES_CRABRAWLER
   type: TYPE_FIGHTING
   type2: TYPE_DARK
@@ -147644,6 +147679,12 @@ species {
 }
 species {
   id: SPECIES_ORICORIO
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_TROPICAL
+  }
   dex {
     name: "Oricorio"
     category: "Dancing"
@@ -147962,6 +148003,14 @@ species {
 }
 species {
   id: SPECIES_CUTIEFLY
+  preferred_climate {
+    land: CLIMATE_MEADOW
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    berries: true
+    require_all: true
+  }
   dex {
     name: "Cutiefly"
     category: "Bee Fly"
@@ -148396,6 +148445,16 @@ species {
 }
 species {
   id: SPECIES_ROCKRUFF
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_ARID
+    land: CLIMATE_ASH
+    land: CLIMATE_DESERT
+  }
+  allowed_climate {
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TEMPERATE
+  }
   dex {
     name: "Rockruff"
     category: "Puppy"
@@ -149090,6 +149149,16 @@ species {
 }
 species {
   id: SPECIES_WISHIWASHI
+  preferred_climate {
+    water: WATER_OCEAN
+    water: WATER_DEEP_OCEAN
+    water: WATER_RAPIDS
+    fishing: true
+  }
+  allowed_climate {
+    water: WATER_OCEAN_COAST
+    water: WATER_TROPICAL
+  }
   dex {
     name: "Wishiwashi"
     category: "Small Fry"
@@ -149254,6 +149323,16 @@ species {
 }
 species {
   id: SPECIES_MAREANIE
+  preferred_climate {
+    water: WATER_TROPICAL
+    water: WATER_RAPIDS
+    amphibious: true
+    fishing: true
+  }
+  allowed_climate {
+    land: CLIMATE_BEACH
+    water: WATER_OCEAN_COAST
+  }
   dex {
     name: "Mareanie"
     category: "Brutal Star"
@@ -149451,6 +149530,16 @@ species {
 }
 species {
   id: SPECIES_MUDBRAY
+  preferred_climate {
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_ARID
+    land: CLIMATE_ASH
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_JUNGLE
+  }
   dex {
     name: "Mudbray"
     category: "Donkey"
@@ -149677,6 +149766,14 @@ species {
 }
 species {
   id: SPECIES_DEWPIDER
+  preferred_climate {
+    water: WATER_POND
+    amphibious: true
+  }
+  allowed_climate {
+    land: CLIMATE_BEACH
+    water: WATER_RIVER
+  }
   dex {
     name: "Dewpider"
     category: "Water Bubble"
@@ -149917,6 +150014,13 @@ species {
 }
 species {
   id: SPECIES_DEWPIDER_REDUX
+  preferred_climate {
+    land: CLIMATE_ICE
+    land: CLIMATE_COLD_CAVE
+  }
+  allowed_climate {
+    land: CLIMATE_ARCTIC
+  }
   form_of: SPECIES_DEWPIDER
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -150129,6 +150233,13 @@ species {
 }
 species {
   id: SPECIES_FOMANTIS
+  preferred_climate {
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_JUNGLE
+  }
+  allowed_climate {
+    land: CLIMATE_FOREST
+  }
   dex {
     name: "Fomantis"
     category: "Sickle Grass"
@@ -150351,6 +150462,14 @@ species {
 }
 species {
   id: SPECIES_MORELULL
+  preferred_climate {
+    land: CLIMATE_FOREST
+    exclude_land: CLIMATE_FOREST_ENTRANCE
+    cut: true
+  }
+  allowed_climate {
+    land: CLIMATE_MEADOW
+  }
   dex {
     name: "Morelull"
     category: "Illuminate"
@@ -150570,6 +150689,13 @@ species {
 }
 species {
   id: SPECIES_SALANDIT
+  preferred_climate {
+    land: CLIMATE_HOT_CAVE
+  }
+  allowed_climate {
+    land: CLIMATE_ASH
+    land: CLIMATE_PYRE_SUMMIT
+  }
   dex {
     name: "Salandit"
     category: "Toxic Lizard"
@@ -150830,6 +150956,15 @@ species {
 }
 species {
   id: SPECIES_STUFFUL
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TROPICAL
+    cut: true
+  }
   dex {
     name: "Stufful"
     category: "Flailing"
@@ -151204,6 +151339,12 @@ species {
 }
 species {
   id: SPECIES_STUFFUL_REDUX
+  preferred_climate {
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_MEADOW
+  }
   form_of: SPECIES_STUFFUL
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
@@ -151432,6 +151573,15 @@ species {
 }
 species {
   id: SPECIES_BOUNSWEET
+  preferred_climate {
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_JUNGLE
+    berries: true
+    cut: true
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+  }
   dex {
     name: "Bounsweet"
     category: "Fruit"
@@ -151752,6 +151902,12 @@ species {
 }
 species {
   id: SPECIES_BOUNSWEET_REDUX
+  preferred_climate {
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_MEADOW
+  }
   form_of: SPECIES_BOUNSWEET
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -152111,6 +152267,12 @@ species {
 }
 species {
   id: SPECIES_COMFEY
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_URBAN
+  }
   dex {
     name: "Comfey"
     category: "Posy Picker"
@@ -152235,6 +152397,13 @@ species {
 }
 species {
   id: SPECIES_ORANGURU
+  preferred_climate {
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TROPICAL
+  }
+  allowed_climate {
+    land: CLIMATE_PYRE_SUMMIT
+  }
   dex {
     name: "Oranguru"
     category: "Sage"
@@ -152366,6 +152535,14 @@ species {
 }
 species {
   id: SPECIES_PASSIMIAN
+  preferred_climate {
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_JUNGLE
+  }
+  allowed_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_TEMPERATE
+  }
   dex {
     name: "Passimian"
     category: "Teamwork"
@@ -152495,6 +152672,17 @@ species {
 }
 species {
   id: SPECIES_WIMPOD
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_JUNGLE
+    berries: true
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TROPICAL
+    cut: true
+  }
   dex {
     name: "Wimpod"
     category: "Turn Tail"
@@ -152753,6 +152941,15 @@ species {
 }
 species {
   id: SPECIES_SANDYGAST
+  preferred_climate {
+    land: CLIMATE_BEACH
+    sand_pile: true
+  }
+  allowed_climate {
+    water: WATER_GHOST_OUTSIDE
+    land: CLIMATE_TROPICAL
+    amphibious: true
+  }
   dex {
     name: "Sandygast"
     category: "Sand Heap"
@@ -152988,6 +153185,7 @@ species {
 }
 species {
   id: SPECIES_PYUKUMUKU
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Pyukumuku"
     category: "Sea Cucumber"
@@ -153082,6 +153280,7 @@ species {
 }
 species {
   id: SPECIES_TYPE_NULL
+  randomizer_category: RANDOMIZER_MYTHICAL
   randomizer_banned: LEGENDARY
   dex {
     name: "Type: Null"
@@ -154368,6 +154567,13 @@ species {
 }
 species {
   id: SPECIES_MINIOR
+  preferred_climate {
+    land: CLIMATE_PYRE_SUMMIT
+    land: CLIMATE_SKY_PILLAR
+  }
+  allowed_climate {
+    rock_smash: true
+  }
   dex {
     name: "Minior"
     category: "Meteor"
