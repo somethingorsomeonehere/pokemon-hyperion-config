@@ -130520,6 +130520,7 @@ species {
 }
 species {
   id: SPECIES_CHESPIN
+  randomizer_category: RANDOMIZER_GRASS_STARTER
   dex {
     name: "Chespin"
     category: "Spiny Nut"
@@ -131030,6 +131031,7 @@ species {
 }
 species {
   id: SPECIES_FENNEKIN
+  randomizer_category: RANDOMIZER_FIRE_STARTER
   dex {
     name: "Fennekin"
     category: "Fox"
@@ -131506,6 +131508,7 @@ species {
 }
 species {
   id: SPECIES_FROAKIE
+  randomizer_category: RANDOMIZER_WATER_STARTER
   dex {
     name: "Froakie"
     category: "Bubble Frog"
@@ -132018,6 +132021,14 @@ species {
 }
 species {
   id: SPECIES_BUNNELBY
+  preferred_climate {
+    land: CLIMATE_CAVE
+    land: CLIMATE_FOREST
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_ARID
+  }
   dex {
     name: "Bunnelby"
     category: "Digging"
@@ -132284,6 +132295,15 @@ species {
 }
 species {
   id: SPECIES_FLETCHLING
+  preferred_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_FOREST
+  }
+  allowed_climate {
+    land: CLIMATE_MEADOW
+    land: CLIMATE_ARID
+    land: CLIMATE_URBAN
+  }
   dex {
     name: "Fletchling"
     category: "Tiny Robin"
@@ -132781,6 +132801,15 @@ species {
 }
 species {
   id: SPECIES_SCATTERBUG
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_JUNGLE
+    land: CLIMATE_TROPICAL
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_ARCTIC
+  }
   dex {
     name: "Scatterbug"
     category: "Scatterdust"
@@ -133905,6 +133934,13 @@ species {
 }
 species {
   id: SPECIES_LITLEO
+  preferred_climate {
+    land: CLIMATE_ARID
+    land: CLIMATE_ASH
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+  }
   dex {
     name: "Litleo"
     category: "Lion Cub"
@@ -134177,6 +134213,12 @@ species {
 }
 species {
   id: SPECIES_FLABEBE
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_URBAN
+  }
   dex {
     name: "Flab\303\251b\303\251"
     category: "Single Bloom"
@@ -134616,6 +134658,7 @@ species {
 }
 species {
   id: SPECIES_FLOETTE_ETERNAL_FLOWER
+  randomizer_category: RANDOMIZER_TBD
   form_of: SPECIES_FLOETTE
   type: TYPE_FAIRY
   hp: 74
@@ -135010,6 +135053,15 @@ species {
 }
 species {
   id: SPECIES_SKIDDO
+  preferred_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_ARID
+    land: CLIMATE_ASH
+    land: CLIMATE_JUNGLE
+  }
   dex {
     name: "Skiddo"
     category: "Mount"
@@ -135262,6 +135314,13 @@ species {
 }
 species {
   id: SPECIES_PANCHAM
+  preferred_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_JUNGLE
+  }
+  allowed_climate {
+    land: CLIMATE_CAVE
+  }
   dex {
     name: "Pancham"
     category: "Playful"
@@ -135570,6 +135629,12 @@ species {
 }
 species {
   id: SPECIES_FURFROU
+  preferred_climate {
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+  }
   dex {
     name: "Furfrou"
     category: "Poodle"
@@ -136089,6 +136154,13 @@ species {
 }
 species {
   id: SPECIES_ESPURR
+  preferred_climate {
+    land: CLIMATE_PYRE_SUMMIT
+  }
+  allowed_climate {
+    land: CLIMATE_TEMPERATE
+    land: CLIMATE_URBAN
+  }
   dex {
     name: "Espurr"
     category: "Restraint"
@@ -136486,6 +136558,13 @@ species {
 }
 species {
   id: SPECIES_HONEDGE
+  preferred_climate {
+    land: CLIMATE_CAVE_OF_ORIGIN
+    land: CLIMATE_SKY_PILLAR
+  }
+  allowed_climate {
+    land: CLIMATE_GHOST
+  }
   dex {
     name: "Honedge"
     category: "Sword"
@@ -136988,6 +137067,12 @@ species {
   }
 }
 species {
+  preferred_climate {
+    land: CLIMATE_PYRE_SUMMIT
+  }
+  allowed_climate {
+    land: CLIMATE_GHOST
+  }
   id: SPECIES_HONEDGE_REDUX
   form_of: SPECIES_HONEDGE
   type: TYPE_FIGHTING
@@ -137394,6 +137479,13 @@ species {
 }
 species {
   id: SPECIES_SPRITZEE
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_URBAN
+    land: CLIMATE_FOREST
+  }
   dex {
     name: "Spritzee"
     category: "Perfume"
@@ -137658,6 +137750,13 @@ species {
 }
 species {
   id: SPECIES_SWIRLIX
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_URBAN
+    land: CLIMATE_FOREST
+  }
   dex {
     name: "Swirlix"
     category: "Cotton Candy"
@@ -137933,6 +138032,14 @@ species {
 }
 species {
   id: SPECIES_INKAY
+  preferred_climate {
+    water: WATER_OCEAN_COAST
+    water: WATER_CAVE
+    fishing: true
+  }
+  allowed_climate {
+    land: CLIMATE_DIVE
+  }
   dex {
     name: "Inkay"
     category: "Revolving"
@@ -138224,6 +138331,14 @@ species {
 }
 species {
   id: SPECIES_BINACLE
+  preferred_climate {
+    land: CLIMATE_BEACH
+    rock_smash: true
+    amphibious: true
+  }
+  allowed_climate {
+    water: WATER_CAVE
+  }
   dex {
     name: "Binacle"
     category: "Two-Handed"
@@ -138511,6 +138626,17 @@ species {
 }
 species {
   id: SPECIES_SKRELP
+  preferred_climate {
+    water: WATER_RAPIDS
+    land: CLIMATE_DIVE
+    fishing: true
+  }
+  allowed_climate {
+    water: WATER_OCEAN
+    water: WATER_DEEP_OCEAN
+    fishing: true
+    require_all: true
+  }
   dex {
     name: "Skrelp"
     category: "Mock Kelp"
@@ -138808,6 +138934,14 @@ species {
 }
 species {
   id: SPECIES_CLAUNCHER
+  preferred_climate {
+    water: WATER_RAPIDS
+    water: WATER_TROPICAL
+    fishing: true
+  }
+  allowed_climate {
+    water: WATER_OCEAN_COAST
+  }
   dex {
     name: "Clauncher"
     category: "Water Gun"
@@ -139207,6 +139341,13 @@ species {
 }
 species {
   id: SPECIES_HELIOPTILE
+  preferred_climate {
+    land: CLIMATE_DESERT
+    land: CLIMATE_DESERT_CAVE
+  }
+  allowed_climate {
+    land: CLIMATE_POWER_PLANT
+  }
   dex {
     name: "Helioptile"
     category: "Generator"
@@ -139478,6 +139619,7 @@ species {
 }
 species {
   id: SPECIES_TYRUNT
+  randomizer_category: RANDOMIZER_FOSSIL
   dex {
     name: "Tyrunt"
     category: "Royal Heir"
@@ -139751,6 +139893,7 @@ species {
 }
 species {
   id: SPECIES_AMAURA
+  randomizer_category: RANDOMIZER_FOSSIL
   dex {
     name: "Amaura"
     category: "Tundra"
@@ -140304,6 +140447,14 @@ species {
 }
 species {
   id: SPECIES_HAWLUCHA
+  preferred_climate {
+    land: CLIMATE_TEMPERATE
+  }
+  allowed_climate {
+    land: CLIMATE_TROPICAL
+    land: CLIMATE_FOREST
+    land: CLIMATE_JUNGLE
+  }
   dex {
     name: "Hawlucha"
     category: "Wrestling"
@@ -140454,6 +140605,12 @@ species {
 }
 species {
   id: SPECIES_DEDENNE
+  preferred_climate {
+    land: CLIMATE_MEADOW
+  }
+  allowed_climate {
+    land: CLIMATE_URBAN
+  }
   dex {
     name: "Dedenne"
     category: "Antenna"
@@ -140597,6 +140754,13 @@ species {
 }
 species {
   id: SPECIES_CARBINK
+  preferred_climate {
+    land: CLIMATE_CAVE_OF_ORIGIN
+    rock_smash: true
+  }
+  allowed_climate {
+    land: CLIMATE_DEEP_CAVE
+  }
   dex {
     name: "Carbink"
     category: "Jewel"
@@ -140762,6 +140926,7 @@ species {
 }
 species {
   id: SPECIES_GOOMY
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   dex {
     name: "Goomy"
     category: "Soft Tissue"
@@ -141435,6 +141600,13 @@ species {
 }
 species {
   id: SPECIES_KLEFKI
+  preferred_climate {
+    land: CLIMATE_URBAN
+  }
+  allowed_climate {
+    land: CLIMATE_MIRAGE_ISLAND
+    land: CLIMATE_PYRE_SUMMIT
+  }
   dex {
     name: "Klefki"
     category: "Key Ring"
@@ -142437,6 +142609,16 @@ species {
 }
 species {
   id: SPECIES_BERGMITE
+  preferred_climate {
+    land: CLIMATE_ARCTIC
+    land: CLIMATE_ICE
+    amphibious: true
+  }
+  allowed_climate {
+    water: WATER_ARCTIC
+    water: WATER_COLD_CAVE
+    land: CLIMATE_COLD_CAVE
+  }
   dex {
     name: "Bergmite"
     category: "Ice Chunk"
@@ -142850,6 +143032,14 @@ species {
 }
 species {
   id: SPECIES_NOIBAT
+  preferred_climate {
+    land: CLIMATE_CAVE
+    amphibious: true
+  }
+  allowed_climate {
+    land: CLIMATE_FOREST
+    land: CLIMATE_JUNGLE
+  }
   dex {
     name: "Noibat"
     category: "Sound Wave"
@@ -143146,6 +143336,13 @@ species {
 }
 species {
   id: SPECIES_NOIBAT_REDUX
+  preferred_climate {
+    land: CLIMATE_CAVE
+    rock_smash: true
+  }
+  allowed_climate {
+    land: CLIMATE_GHOST
+  }
   form_of: SPECIES_NOIBAT
   type: TYPE_ROCK
   type2: TYPE_GHOST
@@ -143371,6 +143568,8 @@ species {
 }
 species {
   id: SPECIES_XERNEAS
+  randomizer_category: RANDOMIZER_BOX_LEGENDARY_PAIR
+  linked_species: SPECIES_YVELTAL
   randomizer_banned: LEGENDARY
   dex {
     name: "Xerneas"
@@ -143778,6 +143977,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE
+  randomizer_category: RANDOMIZER_TBD
   randomizer_banned: LEGENDARY
   dex {
     name: "Zygarde"
@@ -143929,6 +144129,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_10
+  randomizer_category: RANDOMIZER_TBD
   randomizer_banned: LEGENDARY
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
@@ -143989,6 +144190,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_10_POWER_CONSTRUCT
+  randomizer_category: RANDOMIZER_TBD
   randomizer_banned: LEGENDARY
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
@@ -144095,6 +144297,7 @@ species {
 }
 species {
   id: SPECIES_DIANCIE
+  randomizer_category: RANDOMIZER_MYTHICAL
   randomizer_banned: LEGENDARY
   dex {
     name: "Diancie"
@@ -144287,6 +144490,7 @@ species {
 }
 species {
   id: SPECIES_HOOPA
+  randomizer_category: RANDOMIZER_BOX_LEGENDARY_SOLO
   randomizer_banned: LEGENDARY
   dex {
     name: "Hoopa"
@@ -144523,6 +144727,7 @@ species {
 }
 species {
   id: SPECIES_VOLCANION
+  randomizer_category: RANDOMIZER_MYTHICAL
   randomizer_banned: LEGENDARY
   dex {
     name: "Volcanion"
