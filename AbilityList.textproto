@@ -5936,7 +5936,7 @@ ability {
 }
 ability {
   id: ABILITY_MOB_BOSS
-  name: "Mob Boss (N)"
+  name: "Mob Boss"
   description: "Terrify + Deviate."
 }
 ability {
