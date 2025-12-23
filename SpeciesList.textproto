@@ -2506,16 +2506,6 @@ species {
 }
 species {
   id: SPECIES_WEEDLE_REDUX
-  preferred_climate {
-    land: CLIMATE_ARCTIC
-    berries: true
-    cut: true
-  }
-  allowed_climate {
-    land: CLIMATE_COLD_CAVE
-    land: CLIMATE_ICE
-    rock_smash: true
-  }
   form_of: SPECIES_WEEDLE
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -137095,12 +137085,6 @@ species {
   }
 }
 species {
-  preferred_climate {
-    land: CLIMATE_PYRE_SUMMIT
-  }
-  allowed_climate {
-    land: CLIMATE_GHOST
-  }
   id: SPECIES_HONEDGE_REDUX
   form_of: SPECIES_HONEDGE
   type: TYPE_FIGHTING
