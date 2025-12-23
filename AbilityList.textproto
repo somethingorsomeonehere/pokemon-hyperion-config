@@ -5876,17 +5876,17 @@ ability {
 }
 ability {
   id: ABILITY_FORTRESS
-  name: "Fortress (N)"
+  name: "Fortress"
   description: "Filter + Shell Armor."
 }
 ability {
   id: ABILITY_BIRD_OF_PREY
-  name: "Bird of Prey (N)"
+  name: "Bird of Prey"
   description: "Big Pecks + Scrappy."
 }
 ability {
   id: ABILITY_FEATHERCOAT
-  name: "Feathercoat (N)"
+  name: "Feathercoat"
   description: "Takes 10% less damage from attacks, 20% if resisted."
   expanded_description: "Takes 10% less damage from all attacks. Takes 20% less damage from resisted attacks."
 }
@@ -5898,33 +5898,33 @@ ability {
 }
 ability {
   id: ABILITY_ELECTRO_BOOSTER
-  name: "Electro Booster (N)"
+  name: "Electro Booster"
   description: "Uses Magnet Rise on entry."
 }
 ability {
   id: ABILITY_CURRENT_CRASH
-  name: "Current Crash (N)"
+  name: "Current Crash"
   description: "Reckless + Thundercall."
 }
 ability {
   id: ABILITY_DAREDEVIL
-  name: "Daredevil (N)"
+  name: "Daredevil"
   description: "+1 Atk after using recoil move. 1/2 recoil damage."
   expanded_description: "Boosts Attack stat by +1 after using a move that causes recoil damage. Takes 1/2 recoil damage."
 }
 ability {
   id: ABILITY_FROST_DRAGON
-  name: "Frost Dragon (N)"
+  name: "Frost Dragon"
   description: "Triggers 50 BP Blizzard after using a Dragon or Ice-type move."
 }
 ability {
   id: ABILITY_THERMAL_ENTROPY
-  name: "Thermal Entropy (N)"
+  name: "Thermal Entropy"
   description: "Thermal Exchange + Heatproof."
 }
 ability {
   id: ABILITY_SINISTER_CLAWS
-  name: "Sinister Claws (N)"
+  name: "Sinister Claws"
   description: "Mystic Blades + Keen Edge moves lower SpDef."
   expanded_description: "Keen Edge attacks deal 1.3x damage and become special moves, using Special Attack and hitting Special Defense. They also lower the target's Special Defense by 1 stage (max once per turn per target)."
 }
@@ -5941,12 +5941,12 @@ ability {
 }
 ability {
   id: ABILITY_GHOST_PEPPER
-  name: "Ghost Pepper (N)"
+  name: "Ghost Pepper"
   description: "Grass moves have a 30% to cause burn."
 }
 ability {
   id: ABILITY_DROIDEKA
-  name: "Droideka (N)"
+  name: "Droideka"
   description: "Heatproof + Shell Armor."
 }
 ability {
@@ -5956,28 +5956,28 @@ ability {
 }
 ability {
   id: ABILITY_ABOMINABLE_MONSTER
-  name: "Abominable Monster (N)"
-  description: ""
+  name: "Icicle Fist"
+  description: "Iron Fist + 30% chance to cause frostbite with punches."
 }
 ability {
   id: ABILITY_ICICLE_FIST
-  name: "Icicle Fist (N)"
+  name: "Abominable Monster"
   description: "Ups SpDef by 1.5x in hail."
   expanded_description: "Increases the user's Special Defense by 50% while affected by hail. This increase applies to all effects that scale with Defense."
 }
 ability {
   id: ABILITY_WIND_CHIMES
-  name: "Wind Chimes (N)"
+  name: "Wind Chimes"
   description: "Amplifier + attacks with 30 BP Hyper Voice when hit."
 }
 ability {
   id: ABILITY_UNSTABLE_CORE
-  name: "Unstable Core (N)"
+  name: "Unstable Core"
   description: "Power Core + Aftermath."
 }
 ability {
   id: ABILITY_AURA_ARMOR
-  name: "Aura Armor (N)"
+  name: "Aura Armor"
   description: "Takes 35% reduced damage."
 }
 ability {
@@ -5987,31 +5987,31 @@ ability {
 }
 ability {
   id: ABILITY_OVERWHELMING_MIND
-  name: "Overwhelming Mind (N)"
+  name: "Overwhelming Mind"
   description: "Boosts Psychic-type moves by 1.3x, or 1.8x when below 1/3 HP."
 }
 ability {
   id: ABILITY_DUALITY
-  name: "Duality (N)"
+  name: "Duality"
   description: "Infiltrator + Competitive."
 }
 ability {
   id: ABILITY_REAPERS_EMBARCE
-  name: "Reaper's Embarce (N)"
+  name: "Reaper's Embarce"
   description: "Tough Claws + Foul Energy."
 }
 ability {
   id: ABILITY_FOUL_ENERGY
-  name: "Foul Energy (N)"
+  name: "Foul Energy"
   description: "Boosts Dark-type moves by 1.2x, or 1.5x when under 1/3 HP."
 }
 ability {
   id: ABILITY_JUNGLE_FEVER
-  name: "Jungle Fever (N)"
+  name: "Jungle Fever"
   description: "Increases Speed by 10% and gets +1 crit in Grassy Terrain."
 }
 ability {
   id: ABILITY_KING_OF_THE_JUNGLE
-  name: "King of the Jungle (N)"
+  name: "King of the Jungle"
   description: "Infiltrator + deals 1.5x more damage to Grass-types."
 }
