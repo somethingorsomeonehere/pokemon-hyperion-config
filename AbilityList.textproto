@@ -2392,7 +2392,7 @@ ability {
   id: ABILITY_PARRY
   name: "Parry"
   description: "Counters contact with Mach Punch. Takes 20% less damage."
-  expanded_description: "Reduces all damage by 20%. Multiplicative with other damage reduction sources. Counters contact moves with Mach Punch (40 BP Fighting-type, +1 priority)."
+  expanded_description: "Reduces all damage by 20%. Multiplicative with other damage reduction sources. Counters contact moves with Mach Punch at 20 BP."
 }
 ability {
   id: ABILITY_SCRAPYARD
@@ -3953,8 +3953,8 @@ ability {
 ability {
   id: ABILITY_ULTRA_INSTINCT
   name: "Ultra Instinct"
-  description: "Counters contact with Vacuum Wave. Takes 20% less damage."
-  expanded_description: "Reduces all damage by 20%. Multiplicative with other damage reduction sources. Counters contact moves with Vacuum Wave (40 BP Fighting-type, Special, +1 priority)."
+  description: "Counters contact with 20BP Vacuum Wave. Takes .8x damage."
+  expanded_description: "Reduces all damage by 20%. Multiplicative with other damage reduction sources. Counters contact moves with Vacuum Wave at 20 BP."
 }
 ability {
   id: ABILITY_UNLOCKED_POTENTIAL
@@ -5982,7 +5982,7 @@ ability {
 }
 ability {
   id: ABILITY_DEFLECT
-  name: "Deflect (N)"
+  name: "Deflect"
   description: "Counters with 20 BP Vacuum Wave when hit. Takes 20% less damage."
 }
 ability {
