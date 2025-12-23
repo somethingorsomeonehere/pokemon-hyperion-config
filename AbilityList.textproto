@@ -5874,3 +5874,144 @@ ability {
   name: "Bandit"
   description: "Scavenger + Technician."
 }
+ability {
+  id: ABILITY_FORTRESS
+  name: "Fortress (N)"
+  description: "Filter + Shell Armor."
+}
+ability {
+  id: ABILITY_BIRD_OF_PREY
+  name: "Bird of Prey (N)"
+  description: "Big Pecks + Scrappy."
+}
+ability {
+  id: ABILITY_FEATHERCOAT
+  name: "Feathercoat (N)"
+  description: "Takes 10% less damage from attacks, 20% if resisted."
+  expanded_description: "Takes 10% less damage from all attacks. Takes 20% less damage from resisted attacks."
+}
+ability {
+  id: ABILITY_POWER_OUTAGE
+  name: "Power Outage (N)"
+  description: "First Electric attack deals 2x damage. Afterwards lose Electric STAB."
+  expanded_description: "The first Electric Move will double in damage, but once used will lose Electric-Type STAB."
+}
+ability {
+  id: ABILITY_ELECTRO_BOOSTER
+  name: "Electro Booster (N)"
+  description: "Uses Magnet Rise on entry."
+}
+ability {
+  id: ABILITY_CURRENT_CRASH
+  name: "Current Crash (N)"
+  description: "Reckless + Thundercall."
+}
+ability {
+  id: ABILITY_DAREDEVIL
+  name: "Daredevil (N)"
+  description: "+1 Atk after using recoil move. 1/2 recoil damage."
+  expanded_description: "Boosts Attack stat by +1 after using a move that causes recoil damage. Takes 1/2 recoil damage."
+}
+ability {
+  id: ABILITY_FROST_DRAGON
+  name: "Frost Dragon (N)"
+  description: "Triggers 50 BP Blizzard after using a Dragon or Ice-type move."
+}
+ability {
+  id: ABILITY_THERMAL_ENTROPY
+  name: "Thermal Entropy (N)"
+  description: "Thermal Exchange + Heatproof."
+}
+ability {
+  id: ABILITY_SINISTER_CLAWS
+  name: "Sinister Claws (N)"
+  description: "Mystic Blades + Keen Edge moves lower SpDef."
+  expanded_description: "Keen Edge attacks deal 1.3x damage and become special moves, using Special Attack and hitting Special Defense. They also lower the target's Special Defense by 1 stage (max once per turn per target)."
+}
+ability {
+  id: ABILITY_PETAL_SHIELD
+  name: "Petal Shield (N)"
+  description: "Maxes Def on entry. -1 Def when hit."
+  expanded_description: "Sets Defense to +6 when it enters. After it is hit lowers its Defense by 1 stage. Multi-hit attacks lower Defense multiple times."
+}
+ability {
+  id: ABILITY_MOB_BOSS
+  name: "Mob Boss (N)"
+  description: "Terrify + Deviate."
+}
+ability {
+  id: ABILITY_GHOST_PEPPER
+  name: "Ghost Pepper (N)"
+  description: "Grass moves have a 30% to cause burn."
+}
+ability {
+  id: ABILITY_DROIDEKA
+  name: "Droideka (N)"
+  description: "Heatproof + Shell Armor."
+}
+ability {
+  id: ABILITY_3_GT_1
+  name: "3 > 1 (N)"
+  description: "TBD"
+}
+ability {
+  id: ABILITY_ABOMINABLE_MONSTER
+  name: "Abominable Monster (N)"
+  description: ""
+}
+ability {
+  id: ABILITY_ICICLE_FIST
+  name: "Icicle Fist (N)"
+  description: "Ups SpDef by 1.5x in hail."
+  expanded_description: "Increases the user's Special Defense by 50% while affected by hail. This increase applies to all effects that scale with Defense."
+}
+ability {
+  id: ABILITY_WIND_CHIMES
+  name: "Wind Chimes (N)"
+  description: "Amplifier + attacks with 30 BP Hyper Voice when hit."
+}
+ability {
+  id: ABILITY_UNSTABLE_CORE
+  name: "Unstable Core (N)"
+  description: "Power Core + Aftermath."
+}
+ability {
+  id: ABILITY_AURA_ARMOR
+  name: "Aura Armor (N)"
+  description: "Takes 35% reduced damage."
+}
+ability {
+  id: ABILITY_DEFLECT
+  name: "Deflect (N)"
+  description: "Counters with 20 BP Vacuum Wave when hit. Takes 20% less damage."
+}
+ability {
+  id: ABILITY_OVERWHELMING_MIND
+  name: "Overwhelming Mind (N)"
+  description: "Boosts Psychic-type moves by 1.3x, or 1.8x when below 1/3 HP."
+}
+ability {
+  id: ABILITY_DUALITY
+  name: "Duality (N)"
+  description: "Infiltrator + Competitive."
+}
+ability {
+  id: ABILITY_REAPERS_EMBARCE
+  name: "Reaper's Embarce (N)"
+  description: "Tough Claws + Foul Energy."
+}
+ability {
+  id: ABILITY_FOUL_ENERGY
+  name: "Foul Energy (N)"
+  description: "Boosts Dark-type moves by 1.2x, or 1.5x when under 1/3 HP."
+}
+ability {
+  id: ABILITY_JUNGLE_FEVER
+  name: "Jungle Fever (N)"
+  description: "While in Grassy Terrain, user has +1 Crit Chance and 1.1x Speed Increase."
+}
+ability {
+  id: ABILITY_KING_OF_THE_JUNGLE
+  name: "King of the Jungle (N)"
+  description: "Infiltrator + deals 1.5x more damage to Grass-types."
+}
