@@ -1356,7 +1356,7 @@ moves {
   id: MOVE_STUN_SPORE
   name: "Stun Spore"
   short_name: "Stun Spore"
-  description: "Paralyzing dust is scattered wildly, paralyzing the foe. Can paralyze Electric-types."
+  description: "Wildly scatters powder that paralyzes the foe. Can paralyze Electric-types."
   short_description: "Scatters a powder that may paralyze the foe."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
@@ -2294,7 +2294,7 @@ moves {
   id: MOVE_GLARE
   name: "Glare"
   short_name: "Glare"
-  description: "The user intimidates the foe with the design on its belly to cause paralysis. Can paralyze Electric-types."
+  description: "An intense gaze frightens the foe into paralysis. Can paralyze Electric-types."
   short_description: "Intimidates and frightens the foe into paralysis."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
