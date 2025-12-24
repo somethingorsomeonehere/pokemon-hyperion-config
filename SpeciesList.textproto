@@ -29083,7 +29083,7 @@ species {
   innate: ABILITY_FOREWARN
   innate: ABILITY_TINTED_LENS
   innate: ABILITY_MAGIC_BOUNCE
-  percent_female: 50
+  percent_female: 12.5
   primal {
     from: SPECIES_ESPEON
     item: ITEM_GALACTIC_ORB
@@ -143968,7 +143968,7 @@ species {
   innate: ABILITY_OPPORTUNIST
   innate: ABILITY_GIANT_WINGS
   innate: ABILITY_SHADOW_SHIELD
-  percent_female: 50
+  genderless: true
   mega {
     from: SPECIES_YVELTAL
     item: ITEM_YVELTALITE
@@ -151130,7 +151130,7 @@ species {
   innate: ABILITY_FLUFFY
   innate: ABILITY_UNAWARE
   innate: ABILITY_LUMBERJACK
-  percent_female: 5
+  percent_female: 50
   evo {
     to: SPECIES_BEWARDEN
     level: 50
@@ -201096,7 +201096,7 @@ species {
   innate: ABILITY_FIRE_ASPECT
   innate: ABILITY_MOLTEN_CORE
   innate: ABILITY_MAJESTIC_BIRD
-  percent_female: 100
+  genderless: true
   mega {
     from: SPECIES_MOLTRES_EX
     item: ITEM_MOLTRESITE
@@ -208476,7 +208476,7 @@ species {
   innate: ABILITY_COSMIC_WINGS
   innate: ABILITY_COSMIC_DUST
   innate: ABILITY_MOON_SPIRIT
-  percent_female: 50
+  percent_female: 75
   mega {
     from: SPECIES_CLEFABLE
     item: ITEM_CLEFABLITE
@@ -208523,7 +208523,7 @@ species {
   innate: ABILITY_EMPRESS
   innate: ABILITY_STRIKER
   innate: ABILITY_DEADLY_PRECISION
-  percent_female: 50
+  percent_female: 100
   mega {
     from: SPECIES_TSAREENA
     item: ITEM_TSAREENITE
@@ -208616,7 +208616,7 @@ species {
   innate: ABILITY_SUMO_GUARD
   innate: ABILITY_SUMO_WRESTLER
   innate: ABILITY_VITAL_SPIRIT
-  percent_female: 50
+  percent_female: 25
   mega {
     from: SPECIES_HARIYAMA
     item: ITEM_HARIYAMITE
@@ -209360,7 +209360,7 @@ species {
   innate: ABILITY_TECHNICIAN
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
-  percent_female: 50
+  percent_female: 75
   tier: 3
   learnset {
     level {
@@ -211901,7 +211901,7 @@ species {
   innate: ABILITY_POLLINATE
   innate: ABILITY_GIANT_WINGS
   innate: ABILITY_MAGIC_GUARD
-  percent_female: 50
+  percent_female: 75
   mega {
     from: SPECIES_CLEFABLE
     item: ITEM_CLEFABLITE_Y
@@ -212043,7 +212043,7 @@ species {
   innate: ABILITY_BREAK_IT_DOWN
   innate: ABILITY_SPITEFUL
   innate: ABILITY_MYSTIC_POWER
-  percent_female: 50
+  genderless: true
   mega {
     from: SPECIES_STARMIE
     item: ITEM_STARMINITE
@@ -212186,7 +212186,7 @@ species {
   innate: ABILITY_YUKI_ONNA
   innate: ABILITY_WHITEOUT
   innate: ABILITY_GLACIAL_GHOST
-  percent_female: 50
+  percent_female: 100
   mega {
     from: SPECIES_FROSLASS
     item: ITEM_FROSLASSITE_Y
@@ -212656,7 +212656,7 @@ species {
   innate: ABILITY_ETERNAL_FLOWER
   innate: ABILITY_MAGIC_GUARD
   innate: ABILITY_FAIRY_AURA
-  percent_female: 50
+  percent_female: 100
   mega {
     from: SPECIES_FLOETTE_ETERNAL_FLOWER
     item: ITEM_FLOETTITE
@@ -212845,7 +212845,7 @@ species {
   innate: ABILITY_PRIMAL_ARMOR
   innate: ABILITY_EARTHBOUND
   innate: ABILITY_POWER_CORE
-  percent_female: 50
+  genderless: true
   mega {
     from: SPECIES_ZYGARDE_COMPLETE
     item: ITEM_ZYGARDITE
@@ -212938,7 +212938,7 @@ species {
   innate: ABILITY_VOLTRON
   innate: ABILITY_STEELWORKER
   innate: ABILITY_DISCIPLINE
-  percent_female: 50
+  genderless: true
   mega {
     from: SPECIES_FALINKS
     item: ITEM_FALINKSITE
