@@ -1356,7 +1356,7 @@ moves {
   id: MOVE_STUN_SPORE
   name: "Stun Spore"
   short_name: "Stun Spore"
-  description: "Paralyzing dust is scattered wildly. It paralyzes the foe. Can paralyze Electric-types."
+  description: "Paralyzing dust is scattered wildly, paralyzing the foe. Can paralyze Electric-types."
   short_description: "Scatters a powder that may paralyze the foe."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
@@ -9664,6 +9664,7 @@ moves {
   pp: 5
   mirror_move_affected: true
   sound: true
+  reckless: true
 }
 moves {
   id: MOVE_FAIRY_LOCK
@@ -15752,6 +15753,7 @@ moves {
   mirror_move_affected: true
   hammer: true
   uses_animation: MOVE_GIGATON_HAMMER
+  reckless: true
 }
 moves {
   id: MOVE_BONK
