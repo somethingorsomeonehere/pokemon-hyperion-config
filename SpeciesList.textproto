@@ -212610,7 +212610,7 @@ species {
   innate: ABILITY_EMPERORS_WRATH
   innate: ABILITY_RIVALRY
   innate: ABILITY_PREDATOR
-  percent_female: 50
+  percent_female: 87.5
   mega {
     from: SPECIES_PYROAR
     item: ITEM_PYROARITE
