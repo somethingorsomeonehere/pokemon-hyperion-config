@@ -4878,8 +4878,8 @@ ability {
 ability {
   id: ABILITY_OVERRULE
   name: "Overrule"
-  description: "Crits ignore resists and bypass abilities"
-  expanded_description: "When this Pokemon's moves land critical hits, they ignore type resistances (any amount of resists, but not immunities) and defensive abilities that would normally reduce damage."
+  description: "Crits bypass abilities and do 2x damage vs resists."
+  expanded_description: "When this Pokemon's moves land critical hits, they ignore defensive abilities that would normally reduce damage and their attacks deal double damage if they are resisted. For multi-hit attacks abilities are either ignored for all hits if the first is a crit or no hits otherwise."
 }
 ability {
   id: ABILITY_MENTAL_POLLUTION
@@ -6008,7 +6008,8 @@ ability {
 ability {
   id: ABILITY_JUNGLE_FEVER
   name: "Jungle Fever"
-  description: "Increases Speed by 10% and gets +1 crit in Grassy Terrain."
+  description: "If Grassy Terrain is active, gets a 1.5x Speed boost."
+  expanded_description: "Jungle Fever boosts the Pokemon's Speed by 50% when Grassy Terrain is active. The boost applies immediately and disappears when it ends."
 }
 ability {
   id: ABILITY_KING_OF_THE_JUNGLE
