@@ -5892,7 +5892,7 @@ ability {
 }
 ability {
   id: ABILITY_POWER_OUTAGE
-  name: "Power Outage (N)"
+  name: "Power Outage"
   description: "Boosts first Electric attack by 2x then loses Electric STAB."
   expanded_description: "The first Electric Move will double in damage, but once used will lose Electric-Type STAB."
 }
