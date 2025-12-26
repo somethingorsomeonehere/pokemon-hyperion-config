@@ -5930,7 +5930,7 @@ ability {
 }
 ability {
   id: ABILITY_PETAL_SHIELD
-  name: "Petal Shield (N)"
+  name: "Petal Shield"
   description: "Maxes Def on entry. -1 Def when hit."
   expanded_description: "Sets Defense to +6 when it enters. After it is hit lowers its Defense by 1 stage. Multi-hit attacks lower Defense multiple times."
 }
