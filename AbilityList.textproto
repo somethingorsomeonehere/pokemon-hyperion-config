@@ -297,7 +297,7 @@ ability {
 ability {
   id: ABILITY_FLAME_BODY
   name: "Flame Body"
-  description: "30% chance to burn on contact. Also works on offense."
+  description: "30% chance to burn on contact, 20% non. Also works on offense."
   expanded_description: "Contact with this Pokemon has a 30% chance to inflict burn. Non-contact has a 20% chance. Works offensively and defensively."
 }
 ability {
@@ -2948,8 +2948,8 @@ ability {
 ability {
   id: ABILITY_FREEZING_POINT
   name: "Freezing Point"
-  description: "30% chance to get frostbitten on contact."
-  expanded_description: "Contact with this Pokemon has a 30% chance to inflict frostbite. Non-contact has a 20% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
+  description: "20% chance to get frostbitten on contact and 30% non-contact."
+  expanded_description: "Contact with this Pokemon has a 20% chance to inflict frostbite. Non-contact has a 30% chance. Works offensively and defensively. Frostbitten Pokemon lose 1/8th of their max HP each turn and have their Special Attack halved."
 }
 ability {
   id: ABILITY_CRYO_PROFICIENCY
