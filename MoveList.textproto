@@ -1454,9 +1454,9 @@ moves {
   id: MOVE_THUNDER_SHOCK
   name: "Thunder Shock"
   short_name: "ThunderShock"
-  description: "An electric shock attack with a 30% paralyze chance."
-  short_description: "An electrical attack that may paralyze the foe."
-  effect: EFFECT_FLINCH_STATUS
+  description: "An electric shock attack with a 30% flinch chance."
+  short_description: "An electrical attack that may flinch the foe."
+  effect: EFFECT_FLINCH_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -1464,11 +1464,6 @@ moves {
   accuracy: 100
   pp: 15
   effect_chance: 30
-  argument {
-    effect {
-      effect: MOVE_EFFECT_PARALYSIS
-    }
-  }
   mirror_move_affected: true
 }
 moves {
