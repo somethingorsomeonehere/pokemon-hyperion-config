@@ -2493,7 +2493,7 @@ moves {
   id: MOVE_PSYWAVE
   name: "Psywave"
   short_name: "Psywave"
-  description: "A quick wave of psychic energy. +1 priority. 30% confusion chance."
+  description: "A quick wave of psychic energy. +1 priority. 10% confusion chance."
   short_description: "Quick wave of psychic energy. Has +1 priority."
   effect: EFFECT_CONFUSE_HIT
   split: SPECIAL
