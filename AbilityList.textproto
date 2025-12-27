@@ -1469,8 +1469,8 @@ ability {
 ability {
   id: ABILITY_SAND_SPIT
   name: "Sand Spit"
-  description: "If hit, summons a sandstorm that lasts 8 turns."
-  expanded_description: "Sand Spit activates when taking damage from an attack. Summons an 8-turn sandstorm (12 turns with Smooth Rock) that deals 1/16 max HP damage each turn to non-Ground, Rock, and Steel types. The user gains immunity to sandstorm damage. Does not activate if the user faints from the attack."
+  description: "If hit, summons a sandstorm that lasts 8 turns and ground the attacker."
+  expanded_description: "When damaged by an attack summons an 8-turn sandstorm if one isn't present. If a sandstorm is summoned the attacker is knocked to the ground. The user gains immunity to sandstorm damage. Does not activate if the user faints from the attack."
 }
 ability {
   id: ABILITY_ICE_SCALES
