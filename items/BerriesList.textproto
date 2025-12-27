@@ -871,6 +871,7 @@ item {
   hold_effect_strength: 4
   image: "starf_berry"
   palette: "starf_berry"
+  talk_to_nurse_joy: true
   natural_gift {
     power: 80
     type: TYPE_FAIRY
@@ -887,6 +888,7 @@ item {
   hold_effect_strength: 4
   image: "micle_berry"
   palette: "micle_berry"
+  talk_to_nurse_joy: true
   natural_gift {
     power: 80
     type: TYPE_BUG
