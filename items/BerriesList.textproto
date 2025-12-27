@@ -936,6 +936,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "kee_berry"
   palette: "kee_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MARANGA_BERRY
@@ -945,6 +946,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "maranga_berry"
   palette: "maranga_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ENIGMA_BERRY
