@@ -1451,8 +1451,8 @@ ability {
 ability {
   id: ABILITY_STALWART
   name: "Stalwart"
-  description: "Isn't affected by target redirection."
-  expanded_description: "Stalwart prevents the Pokemon from being affected by target redirection effects."
+  description: "Isn't affected by redirection, crits, or ability suppression."
+  expanded_description: "Can't have its moves redirected, can't be critically hit, and can't have its abilities suppressed. Ability suppression includes effects such as Mold Breaker, Gastro Acid, Neutralizing Gas, and Mycelium Might."
 }
 ability {
   id: ABILITY_STEAM_ENGINE
