@@ -459,8 +459,8 @@ ability {
 ability {
   id: ABILITY_AIR_LOCK
   name: "Air Lock"
-  description: "Clears weather and prevents its effects."
-  expanded_description: "Clears all weather upon switch-in and nullifies weather effects while user remains on field. Weather can still be set but provides no benefits. Works on all weather including primal conditions."
+  description: "Cloud Nine + Air Blower."
+  expanded_description: "Sets Tailwind for 3 turns and clears all weather effects on entry. Primal weathers are suppressed. Weather can still be set while the user is on the field, but will have no effect until the user switches."
 }
 ability {
   id: ABILITY_TANGLED_FEET
