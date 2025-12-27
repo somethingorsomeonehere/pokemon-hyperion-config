@@ -637,7 +637,7 @@ ability {
 ability {
   id: ABILITY_AFTERMATH
   name: "Aftermath"
-  description: "If faints by a contact move, attacker takes 25% of max HP."
+  description: "After fainting uses 100 BP Explosion or Outburst."
   expanded_description: "Uses a 100 BP Explosion or Outburst (whichever is higher) when knocked out. Using explosion moves will always Flinch the target."
 }
 ability {
