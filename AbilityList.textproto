@@ -1505,8 +1505,8 @@ ability {
 ability {
   id: ABILITY_SCREEN_CLEANER
   name: "Screen Cleaner"
-  description: "Clears screens and Aurora Veil from both sides on entry."
-  expanded_description: "Screen Cleaner removes all protective screens from both sides of the battlefield when the Pokemon enters battle. This eliminates Reflect, Light Screen, Aurora Veil, and Smokescreen from both your team and the opponent's team immediately upon switching in."
+  description: "Clears screens from both sides on entry. Can reset screens."
+  expanded_description: "Screen Cleaner removes all protective screens from both sides of the battlefield when the Pokemon enters battle. This eliminates Reflect, Light Screen, Aurora Veil, and Smokescreen from both your team and the opponent's team immediately upon switching in. It also allows the Pokemon to set screens while they are already active, refreshing their duration."
 }
 ability {
   id: ABILITY_STEELY_SPIRIT
