@@ -1506,7 +1506,7 @@ ability {
   id: ABILITY_SCREEN_CLEANER
   name: "Screen Cleaner"
   description: "Clears screens from both sides on entry. Can reset screens."
-  expanded_description: "Screen Cleaner removes all protective screens from both sides of the battlefield when the Pokemon enters battle. This eliminates Reflect, Light Screen, Aurora Veil, and Smokescreen from both your team and the opponent's team immediately upon switching in. It also allows the Pokemon to set screens while they are already active, refreshing their duration."
+  expanded_description: "Screen Cleaner removes all protective screens from both sides of the battlefield - Reflect, Light Screen, Aurora Veil, and Smokescreen - when the Pokemon enters battle. It also allows the Pokemon to set screens while they are already active, refreshing their duration."
 }
 ability {
   id: ABILITY_STEELY_SPIRIT
@@ -1823,8 +1823,8 @@ ability {
 ability {
   id: ABILITY_MAGICAL_DUST
   name: "Magical Dust"
-  description: "If hit by a contact move, gives Psychic type to the attacker."
-  expanded_description: "When the user is hit by a contact move, adds Psychic-type to the attacker's existing typing. Triggers immediately after the attack lands, including the first hit of a mutiihit attack. Removed when switching out."
+  description: "Makes foe Psychic-type on contact. Also works on offense."
+  expanded_description: "If the user makes contact with another Pokemon, offensively or defensively, the other Pokemon's type is changed to pure Psychic. This happens immediately for multihit or priority moves and can remove STAB in the middle of an enemy's multihit move."
 }
 ability {
   id: ABILITY_DREAMCATCHER
