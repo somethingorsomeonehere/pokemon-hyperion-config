@@ -1274,7 +1274,7 @@ moves {
   id: MOVE_LEECH_SEED
   name: "Leech Seed"
   short_name: "Leech Seed"
-  description: "A seed is planted on the foe to steal some HP for the user on every turn."
+  description: "Plants a seed that steals HP every turn. Never misses if user is Grass-type."
   short_description: "Plants a seed on the foe to steal HP on every turn."
   effect: EFFECT_LEECH_SEED
   split: STATUS
@@ -1487,7 +1487,7 @@ moves {
   id: MOVE_THUNDER_WAVE
   name: "Thunder Wave"
   short_name: "Thunder Wave"
-  description: "A weak electric shock that is sure to cause paralysis if it hits."
+  description: "A weak shock paralyzes the foe. Never misses if user is Electric-type."
   short_description: "A weak jolt of electricity that paralyzes the foe."
   effect: EFFECT_PARALYZE
   split: STATUS
@@ -1588,7 +1588,7 @@ moves {
   id: MOVE_TOXIC
   name: "Toxic"
   short_name: "Toxic"
-  description: "A move that badly poisons the foe. Its poison damage worsens every turn."
+  description: "Inflicts a poison that gets worse every turn. Never misses if user is Poison-type."
   short_description: "Poisons the foe with an intensifying toxin."
   effect: EFFECT_TOXIC
   split: STATUS
@@ -4283,7 +4283,7 @@ moves {
   id: MOVE_WILL_O_WISP
   name: "Will-O-Wisp"
   short_name: "Will-O-Wisp"
-  description: "A sinister, bluish white flame is shot at the foe to inflict a burn."
+  description: "A blueish-white flame burns the target. Never misses if user is Fire-type."
   short_description: "Inflicts a burn on the foe with intense fire."
   effect: EFFECT_WILL_O_WISP
   split: STATUS
@@ -7090,7 +7090,7 @@ moves {
   id: MOVE_ROCK_CLIMB
   name: "Rock Climb"
   short_name: "Rock Climb"
-  description: "A charging attack. 20% confusion chance. Field-based."
+  description: "A charging attack. 30% confusion chance. Field-based."
   short_description: "A charging attack that may confuse the foe."
   effect: EFFECT_SEMI_INVULNERABLE
   split: PHYSICAL
@@ -13403,7 +13403,7 @@ moves {
   name: "Blood Shot"
   short_name: "Blood Shot"
   description: "Hurls a sphere of cursed blood magic. Causes the foe to bleed profusely."
-  short_description: "Not done yet."
+  short_description: "Makes the target bleed with black magic."
   effect: EFFECT_BLEED
   split: STATUS
   type: TYPE_DARK
@@ -13418,8 +13418,8 @@ moves {
   id: MOVE_FLASH_FREEZE
   name: "Flash Freeze"
   short_name: "Flash Freeze"
-  description: "Multiple ice cubes are shot at the foe. 100% chance to cause frostbite."
-  short_description: "Not done yet."
+  description: "Rapidly chills the foe, causing frostbite. Never misses if user is Ice-type."
+  short_description: "Drains the heat from the target, causing frostbite."
   effect: EFFECT_FROSTBITE
   split: STATUS
   type: TYPE_ICE
