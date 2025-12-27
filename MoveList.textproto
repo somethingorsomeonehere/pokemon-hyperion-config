@@ -4791,15 +4791,15 @@ moves {
   id: MOVE_CAMOUFLAGE
   name: "Camouflage"
   short_name: "Camouflage"
-  description: "Alters the user\'s type depending on the location\'s terrain."
-  short_description: "Alters the Pok\303\251mon\'s type depending on the location."
-  effect: EFFECT_CAMOUFLAGE
+  description: "Protects against attacks and copies their types. May fail if used in succession."
+  short_description: "Shields the user from an attack and becomes that type."
+  effect: EFFECT_PROTECT
   split: STATUS
   type: TYPE_NORMAL
   target: USER
-  accuracy: 100
-  pp: 20
-  snatch_affected: true
+  pp: 10
+  priority: 4
+  is_protection: true
 }
 moves {
   id: MOVE_TAIL_GLOW
