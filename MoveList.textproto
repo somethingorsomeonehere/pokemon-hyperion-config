@@ -6216,8 +6216,8 @@ moves {
   id: MOVE_GASTRO_ACID
   name: "Gastro Acid"
   short_name: "Gastro Acid"
-  description: "Stomach acids are spewed at the foe, negating the effect of its Ability."
-  short_description: "Stomach acid suppresses the foe\'s ability."
+  description: "Spews stomach acid at the foe, negating its abilities and poisoning it."
+  short_description: "Suppresses the foe's ability and poisons it."
   effect: EFFECT_GASTRO_ACID
   split: STATUS
   type: TYPE_POISON

@@ -2445,8 +2445,8 @@ ability {
 ability {
   id: ABILITY_FEARMONGER
   name: "Fearmonger"
-  description: "Intimidate + Scare; 10% para chance on contact moves."
-  expanded_description: "Fearmonger lowers both Attack and Special Attack of opposing Pokemon upon entry by one stage. Additionally provides a 10% chance to inflict paralysis when landing contact moves."
+  description: "Intimidate + Scare; 10% chance to fear with contact moves."
+  expanded_description: "Fearmonger lowers both Attack and Special Attack of opposing Pokemon upon entry by one stage. Additionally provides a 10% chance to inflict fear when landing contact moves."
 }
 ability {
   id: ABILITY_KINGS_WRATH
