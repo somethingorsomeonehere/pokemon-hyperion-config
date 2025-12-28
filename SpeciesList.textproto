@@ -142416,6 +142416,7 @@ species {
 species {
   id: SPECIES_GOURGEIST_SMALL
   form_of: SPECIES_GOURGEIST
+  long_name: "Gourgeist Small"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 55
@@ -142431,6 +142432,7 @@ species {
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
   percent_female: 50
+  form_shift_of: SPECIES_GOURGEIST
   uses_learnset: SPECIES_GOURGEIST
   visuals {
     reuse_icon: SPECIES_GOURGEIST
