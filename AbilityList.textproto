@@ -932,7 +932,7 @@ ability {
   id: ABILITY_RATTLED
   name: "Rattled"
   description: "If hit by Bug, Dark or Ghost move, or flinches: +1 Speed."
-  expanded_description: "Boosts Speed by one stage when hit by Bug, Dark, or Ghost-type moves. Activates multiple times against multihit moves."
+  expanded_description: "Boosts Speed by one stage when hit by Bug, Dark, or Ghost-type moves or when the user flinches. Activates multiple times against multihit moves."
 }
 ability {
   id: ABILITY_MAGIC_BOUNCE
