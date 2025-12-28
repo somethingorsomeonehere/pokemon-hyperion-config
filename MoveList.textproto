@@ -8428,8 +8428,8 @@ moves {
   id: MOVE_REFLECT_TYPE
   name: "Reflect Type"
   short_name: "Reflect Type"
-  description: "The user reflects the foe\'s type, making it the same type as the foe."
-  short_description: "The user reflects the foe\'s type, copying it."
+  description: "The user projects its type onto the foe, making it the same type."
+  short_description: "The user makes the foe reflect the user's type."
   effect: EFFECT_REFLECT_TYPE
   split: STATUS
   type: TYPE_NORMAL
