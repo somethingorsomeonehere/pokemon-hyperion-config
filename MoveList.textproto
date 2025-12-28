@@ -1269,6 +1269,7 @@ moves {
     int: 75
   }
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_LEECH_SEED
@@ -3349,6 +3350,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_ENDURE
@@ -11566,6 +11568,7 @@ moves {
   mirror_move_affected: true
   metronome_banned: true
   uses_animation: MOVE_FLOWER_SHIELD
+  contact: true
 }
 moves {
   id: MOVE_DRUM_BEATING
@@ -12061,6 +12064,7 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_BURNING_JEALOUSY
@@ -13950,6 +13954,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_RAPID_SPIN
+  contact: true
 }
 moves {
   id: MOVE_GEM_MISSILE
@@ -14552,6 +14557,7 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_ORDER_UP
@@ -14794,6 +14800,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_AURA_WHEEL
+  contact: true
 }
 moves {
   id: MOVE_POUNCE
@@ -15780,7 +15787,7 @@ moves {
   short_name: "MoltenStrike"
   description: "Lowers the user\'s speed. Iron fist boost. Hammer-based."
   short_description: "Slams the foe like a molten hammer, but lowers Speed."
-  effect: EFFECT_HAMMER_ARM
+  effect: EFFECT_HIT
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -16084,6 +16091,7 @@ moves {
   mirror_move_affected: true
   tutor: TUTOR_ATTACK
   uses_animation: MOVE_FACADE
+  contact: true
 }
 moves {
   id: MOVE_TERROR_CHARGE
@@ -16315,6 +16323,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_PSYCHIC
+  contact: true
 }
 moves {
   id: MOVE_CLEAR_SKIES
