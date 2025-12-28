@@ -7683,7 +7683,7 @@ moves {
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
-  power: 60
+  power: 55
   accuracy: 100
   pp: 5
   effect_chance: 10
