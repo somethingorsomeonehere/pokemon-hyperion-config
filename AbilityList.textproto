@@ -710,6 +710,7 @@ ability {
   id: ABILITY_HONEY_GATHER
   name: "Honey Gather"
   description: "Has a 50% chance to find Honey each turn."
+  expanded_description: "Has a 50% chance to get Honey each turn if it had no item. Honey heals 1/16 HP per turn and can be eaten in a pinch to heal 1/4 HP. Works even if the user didn't start with Honey as its item."
 }
 ability {
   id: ABILITY_FRISK
