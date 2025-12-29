@@ -212137,9 +212137,9 @@ species {
   ability: ABILITY_TALON_TRAP
   ability: ABILITY_TALON_TRAP
   ability: ABILITY_TALON_TRAP
-  innate: ABILITY_SHARP_TALONS
-  innate: ABILITY_GOOD_AS_GOLD
+  innate: ABILITY_TO_THE_BONE
   innate: ABILITY_LIGHT_METAL
+  innate: ABILITY_HYPER_AGGRESSIVE
   percent_female: 50
   mega {
     from: SPECIES_SKARMORY

@@ -5732,7 +5732,8 @@ ability {
 ability {
   id: ABILITY_TALON_TRAP
   name: "Talon Trap"
-  description: "75% chance to trap when using a Striker move."
+  description: "50% chance to trap on contact. 100% if entered this turn."
+  expanded_description: "Has a 50% chance to trap the foe when making contact, on either offense or defense. If the user is switching in or gained the ability this turn, such as by mega evolving, the chance is increased to 100%."
 }
 ability {
   id: ABILITY_BACKSTREET_BOY
