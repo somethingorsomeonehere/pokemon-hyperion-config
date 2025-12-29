@@ -5708,7 +5708,7 @@ ability {
 ability {
   id: ABILITY_VOLTRON
   name: "Voltron"
-  description: "Battle Armor + Mighty Horn."
+  description: "Metallic + Battle Armor."
 }
 ability {
   id: ABILITY_FIRES_WRATH
