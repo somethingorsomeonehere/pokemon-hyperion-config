@@ -3429,8 +3429,8 @@ moves {
   id: MOVE_SWAGGER
   name: "Swagger"
   short_name: "Swagger"
-  description: "A move that makes the foe confused, but also sharply raises its Attack."
-  short_description: "Confuses the foe, but also sharply raises Attack."
+  description: "A move that makes the foe enraged, but also sharply raises its Attack."
+  short_description: "Enrages the foe, but also sharply raises Attack."
   effect: EFFECT_SWAGGER
   split: STATUS
   type: TYPE_NORMAL
@@ -4270,8 +4270,8 @@ moves {
   id: MOVE_FLATTER
   name: "Flatter"
   short_name: "Flatter"
-  description: "Flattery is used to confuse the foe, but its Sp. Atk also rises."
-  short_description: "Confuses the foe, but raises its SpAtk"
+  description: "Flattery is used to enrage the foe, but its Sp. Atk also rises."
+  short_description: "Enrages the foe, but raises its SpAtk"
   effect: EFFECT_FLATTER
   split: STATUS
   type: TYPE_DARK

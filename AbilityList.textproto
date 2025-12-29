@@ -465,7 +465,7 @@ ability {
 ability {
   id: ABILITY_TANGLED_FEET
   name: "Tangled Feet"
-  description: "Doubles Evasion when confused."
+  description: "Uses Speed as defensive stat when confused or enraged."
   expanded_description: "When the user is confused or enraged, the Pokemon uses its Speed stat instead of Defense or Special Defense for damage calculations. Choice Scarf does not affect this ability."
 }
 ability {
@@ -722,7 +722,7 @@ ability {
   id: ABILITY_RECKLESS
   name: "Reckless"
   description: "Moves causing recoil damage deal 1.2x more damage."
-  expanded_description: "Increases the damage of moves that cause recoil by 20%. While enraged, this boost applies to all moves. Also grants Mold Breaker effects to these moves, allowing them to ignore abilities and innates that block effects or reduce damage. Does not bypass abilities that modify base stats."
+  expanded_description: "Increases the damage of moves that cause recoil by 20%. This bonus also applies when moves gain recoil through other means, such as madness or abilities."
 }
 ability {
   id: ABILITY_MULTITYPE
@@ -3171,7 +3171,8 @@ ability {
 ability {
   id: ABILITY_BERSERK_DNA
   name: "Berserk DNA"
-  description: "Sharply ups highest attacking stat but confuses on entry."
+  description: "Sharply ups highest attacking stat but enrages on entry."
+  expanded_description: "Raises the user's highest attacking stat by 2 stages when it enters, but becomes enraged, adding 33% recoil to all attacks. Boost applies even if it can't become enraged."
 }
 ability {
   id: ABILITY_CROWNED_KING
@@ -3200,8 +3201,8 @@ ability {
 ability {
   id: ABILITY_COSMIC_DAZE
   name: "Cosmic Daze"
-  description: "2x damage vs confused. Enemies take 2x confusion damage."
-  expanded_description: "Attacks against confused targets deal double damage. Additionally, confused enemies hurt themselves for double damage when hitting themselves in confusion."
+  description: "Deals 2x damage vs confused and enraged foes."
+  expanded_description: "Attacks against confused and enraged targets deal double damage. Additionally, confused and enraged enemies take twice as much damage when they hurt themselves from those statuses."
 }
 ability {
   id: ABILITY_MINDS_EYE
@@ -4891,8 +4892,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Confuses self in fog, halves damage when confused."
-  expanded_description: "Forces self-confusion when entering fog. All incoming damage is reduced by 50% when the user is confused and it will never hurt itself."
+  description: "Enrages in fog, halves damage when enraged."
+  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged and it takes no damage from enrage."
 }
 ability {
   id: ABILITY_TENTALOCK
