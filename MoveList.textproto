@@ -955,7 +955,7 @@ moves {
   id: MOVE_WATER_GUN
   name: "Water Gun"
   short_name: "Water Gun"
-  description: "The foe is struck with a lot of water. +1 priority. Mega Launcher boost."
+  description: "A quick quirt of water. 10% drench chance. +1 priority. Mega Launcher boost."
   short_description: "Squirts water to attack the foe."
   split: SPECIAL
   type: TYPE_WATER
@@ -967,28 +967,42 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_HYDRO_PUMP
   name: "Hydro Pump"
   short_name: "Hydro Pump"
-  description: "A high volume of water is blasted at with high pressure. Mega Launcher boost"
+  description: "Blasts with a massive amount of water. 30% drench chance. Mega Launcher boost"
   short_description: "Blasts water at high power to strike the foe."
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 110
-  accuracy: 80
+  accuracy: 85
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_ATTACK
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 30
 }
 moves {
   id: MOVE_SURF
   name: "Surf"
   short_name: "Surf"
-  description: "A big wave crashes down on the foe. Field-based."
+  description: "A big wave crashes down on the foe. 20% drench chance. Field-based."
   short_description: "Creates a huge wave, then crashes it down on the foe."
   split: SPECIAL
   type: TYPE_WATER
@@ -1000,6 +1014,13 @@ moves {
   hits_underwater: true
   field: true
   tutor: TUTOR_ATTACK
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 20
 }
 moves {
   id: MOVE_ICE_BEAM
@@ -2511,7 +2532,7 @@ moves {
   id: MOVE_SPLASH
   name: "Splash"
   short_name: "Splash"
-  description: "The user slams the foe with its heavy body. Heavier users are stronger."
+  description: "The user slams the foe. 20% drench chance. Heavier users are stronger."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
   split: PHYSICAL
@@ -2521,6 +2542,12 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 20
 }
 moves {
   id: MOVE_ACID_ARMOR
@@ -4113,9 +4140,9 @@ moves {
   id: MOVE_WHIRLPOOL
   name: "Whirlpool"
   short_name: "Whirlpool"
-  description: "The foe is trapped for four or five turns. Field-based."
+  description: "The foe is trapped for four or five turns. 30% drench chance. Field-based."
   short_description: "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
-  effect: EFFECT_TRAP
+  effect: EFFECT_WHIRLPOOL
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -4758,7 +4785,7 @@ moves {
   id: MOVE_DIVE
   name: "Dive"
   short_name: "Dive"
-  description: "The user dives underwater and hits next turn. Field-based."
+  description: "The user dives underwater and hits next turn. 10% drench chance. Field-based."
   short_description: "Dives underwater the first turn and strikes next turn."
   effect: EFFECT_SEMI_INVULNERABLE
   split: PHYSICAL
@@ -4771,6 +4798,12 @@ moves {
   mirror_move_affected: true
   field: true
   tutor: TUTOR_ATTACK
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_ARM_THRUST
@@ -5279,7 +5312,7 @@ moves {
   id: MOVE_WATER_SPOUT
   name: "Water Spout"
   short_name: "Water Spout"
-  description: "The higher the user\'s HP, the more powerful it is. Mega Launcher boost"
+  description: "Does more damage at high HP. 10% drench chance. Mega Launcher boost"
   short_description: "Inflicts more damage if the user\'s HP is high."
   effect: EFFECT_ERUPTION
   split: SPECIAL
@@ -5290,6 +5323,12 @@ moves {
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_SIGNAL_BEAM
@@ -12458,7 +12497,7 @@ moves {
   id: MOVE_WAVE_CRASH
   name: "Wave Crash"
   short_name: "Wave Crash"
-  description: "Slams the whole body into the target with lots of water. 33% recoil."
+  description: "Slams into the target on a giant wave. 10% drench chance. 33% recoil."
   short_description: "A life-risking tackle that with 33% recoil damage."
   effect: EFFECT_RECOIL_33
   split: PHYSICAL
@@ -12470,6 +12509,12 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_SMITE
@@ -15877,9 +15922,10 @@ moves {
   id: MOVE_RAPID_RIVER
   name: "Rapid River"
   short_name: "Rapid River"
-  description: "A powerful surge of water that hits twice. Mega Launcher boost."
+  description: "A surge of water that hits twice. 10% drench chance. Mega Launcher boost."
   short_description: "Hits twice. Mega Launcher boost."
-  effect: EFFECT_DOUBLE_HIT
+  effect: EFFECT_ARGUMENT_HIT
+  hit_count: 2
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -15890,6 +15936,12 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   uses_animation: MOVE_WATERFALL
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_TOXIC_NEEDLES
