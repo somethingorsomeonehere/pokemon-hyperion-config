@@ -5954,8 +5954,8 @@ ability {
 }
 ability {
   id: ABILITY_3_GT_1
-  name: "3 > 1 (N)"
-  description: "TBD"
+  name: "3 > 1"
+  description: "Multiheaded + Riptide"
 }
 ability {
   id: ABILITY_ABOMINABLE_MONSTER
