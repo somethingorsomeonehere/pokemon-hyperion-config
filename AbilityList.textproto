@@ -2309,7 +2309,7 @@ ability {
   id: ABILITY_NOSFERATU
   name: "Nosferatu"
   description: "Contact moves do +20% damage and heal 1/2 of damage dealt."
-  expanded_description: "Clears weather on switch-in. While active, blocks all weather effects: no damage modifiers, no chip damage, no accuracy changes, prevents Aurora Veil, etc. Weather can be set but provides no benefits. Works on primal weather."
+  expanded_description: "Moves that make contact deal an additional 20% damage and heal the user to heal for 1/2 of the damage dealt. This healing applies after all hits of multi-hit moves and after recoil is applied."
 }
 ability {
   id: ABILITY_SPECTRALIZE
