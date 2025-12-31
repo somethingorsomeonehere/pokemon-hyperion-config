@@ -1977,6 +1977,7 @@ species {
       coords {
         size: 118
         y_offset: 10
+        elevation: 10
       }
     }
     back {
@@ -2078,6 +2079,7 @@ species {
       coords {
         size: 136
         y_offset: 10
+        elevation: 10
       }
     }
     back {
@@ -2424,6 +2426,7 @@ species {
       coords {
         size: 134
         y_offset: 5
+        elevation: 9
       }
     }
     back {
@@ -2492,6 +2495,7 @@ species {
     front {
       path: "beedrill/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -2744,6 +2748,7 @@ species {
     front {
       path: "beedrill/redux/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -2786,6 +2791,7 @@ species {
     front {
       path: "beedrill/mega_redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -3086,6 +3092,7 @@ species {
       coords {
         size: 103
         y_offset: 6
+        elevation: 5
       }
     }
     back {
@@ -3293,6 +3300,7 @@ species {
     front {
       path: "pidgeot/mega/front"
       coords {
+        elevation: 8
       }
     }
     back {
@@ -4159,6 +4167,7 @@ species {
       anim: ANIM_FIGURE_8
       coords {
         size: 120
+        elevation: 6
       }
     }
     back {
@@ -7614,6 +7623,7 @@ species {
       coords {
         size: 103
         y_offset: 16
+        elevation: 16
       }
     }
     back {
@@ -7811,6 +7821,7 @@ species {
       coords {
         size: 136
         y_offset: 7
+        elevation: 10
       }
     }
     back {
@@ -7960,6 +7971,7 @@ species {
       coords {
         size: 136
         y_offset: 6
+        elevation: 9
       }
     }
     back {
@@ -8079,6 +8091,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 8
       }
     }
     back {
@@ -9225,6 +9238,7 @@ species {
       coords {
         size: 136
         y_offset: 9
+        elevation: 16
       }
     }
     back {
@@ -11794,7 +11808,7 @@ species {
     front {
       path: "growlithe/redux/front"
       coords {
-        y_offset: 11
+        y_offset: 0
       }
     }
     back {
@@ -12070,6 +12084,7 @@ species {
       path: "growlithe/hisuian/front"
       anim: ANIM_BACK_AND_LUNGE
       coords {
+        y_offset: 11
       }
     }
     back {
@@ -13151,6 +13166,7 @@ species {
     front {
       path: "alakazam/mega/front"
       coords {
+        elevation: 7
       }
     }
     back {
@@ -13479,6 +13495,7 @@ species {
       path: "alakazam/redux/front"
       coords {
         y_offset: 3
+        elevation: 3
       }
     }
     back {
@@ -15360,6 +15377,7 @@ species {
       coords {
         size: 84
         y_offset: 19
+        elevation: 16
       }
     }
     back {
@@ -17167,6 +17185,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 2
       }
     }
     back {
@@ -17673,6 +17692,7 @@ species {
       coords {
         size: 67
         y_offset: 20
+        elevation: 17
       }
     }
     back {
@@ -17832,6 +17852,7 @@ species {
       coords {
         size: 118
         y_offset: 7
+        elevation: 9
       }
     }
     back {
@@ -17992,6 +18013,7 @@ species {
       coords {
         size: 119
         y_offset: 4
+        elevation: 4
       }
     }
     back {
@@ -18061,6 +18083,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 5
       }
     }
     back {
@@ -20777,6 +20800,7 @@ species {
       coords {
         size: 119
         y_offset: 13
+        elevation: 10
       }
     }
     back {
@@ -20941,6 +20965,7 @@ species {
       coords {
         size: 119
         y_offset: 13
+        elevation: 11
       }
     }
     back {
@@ -22393,6 +22418,7 @@ species {
       coords {
         size: 68
         y_offset: 15
+        elevation: 11
       }
     }
     back {
@@ -22541,6 +22567,7 @@ species {
       coords {
         size: 85
         y_offset: 11
+        elevation: 12
       }
     }
     back {
@@ -23921,6 +23948,7 @@ species {
       coords {
         size: 102
         y_offset: 10
+        elevation: 14
       }
     }
     back {
@@ -24091,6 +24119,7 @@ species {
       anim: ANIM_V_SLIDE
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -24239,6 +24268,7 @@ species {
       path: "weezing/galarian/front"
       coords {
         size: 136
+        elevation: 3
       }
     }
     back {
@@ -25681,6 +25711,7 @@ species {
       path: "kingdra/mega_y/front"
       coords {
         size: 135
+        elevation: 3
       }
     }
     back {
@@ -27296,6 +27327,7 @@ species {
       path: "pinsir/mega/front"
       coords {
         y_offset: 4
+        elevation: 4
       }
     }
     back {
@@ -28246,6 +28278,7 @@ species {
       path: "gyaradeath/front"
       coords {
         size: 136
+        elevation: 4
       }
     }
     back {
@@ -28290,6 +28323,7 @@ species {
       path: "gyarados/mega/front"
       coords {
         y_offset: 1
+        elevation: 6
       }
     }
     back {
@@ -28334,6 +28368,7 @@ species {
       path: "gyaradeath/mega_x/front"
       coords {
         size: 136
+        elevation: 3
       }
     }
     back {
@@ -28377,6 +28412,7 @@ species {
       path: "gyarados/mega_y/front"
       coords {
         size: 135
+        elevation: 5
       }
     }
     back {
@@ -28421,6 +28457,7 @@ species {
       path: "gyaradeath/mega_y/front"
       coords {
         size: 136
+        elevation: 4
       }
     }
     back {
@@ -30519,6 +30556,7 @@ species {
       coords {
         size: 136
         y_offset: 4
+        elevation: 9
       }
     }
     back {
@@ -30584,6 +30622,7 @@ species {
     front {
       path: "aerodactyl/mega/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -30994,6 +31033,7 @@ species {
       coords {
         size: 135
         y_offset: 4
+        elevation: 8
       }
     }
     back {
@@ -32011,6 +32051,7 @@ species {
       path: "dragonite/delivery/front"
       anim: ANIM_V_SHAKE
       coords {
+        elevation: 4
       }
     }
     back {
@@ -32420,6 +32461,7 @@ species {
     front {
       path: "mewtwo/mega_y/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -32811,6 +32853,7 @@ species {
       coords {
         size: 85
         y_offset: 9
+        elevation: 11
       }
     }
     back {
@@ -35256,6 +35299,7 @@ species {
       coords {
         size: 103
         y_offset: 6
+        elevation: 10
       }
     }
     back {
@@ -35390,6 +35434,7 @@ species {
       path: "ledian/paradox/front"
       anim: ANIM_V_SLIDE_WOBBLE
       coords {
+        elevation: 4
       }
     }
     back {
@@ -36738,6 +36783,7 @@ species {
       coords {
         size: 103
         y_offset: 3
+        elevation: 4
       }
     }
     back {
@@ -41257,6 +41303,7 @@ species {
       coords {
         size: 102
         y_offset: 14
+        elevation: 15
       }
     }
     back {
@@ -41416,6 +41463,7 @@ species {
       coords {
         size: 85
         y_offset: 15
+        elevation: 15
       }
     }
     back {
@@ -41586,6 +41634,7 @@ species {
       coords {
         size: 119
         y_offset: 9
+        elevation: 9
       }
     }
     back {
@@ -42149,6 +42198,7 @@ species {
       coords {
         size: 134
         y_offset: 14
+        elevation: 13
       }
     }
     back {
@@ -42877,6 +42927,7 @@ species {
       coords {
         size: 102
         y_offset: 15
+        elevation: 12
       }
     }
     back {
@@ -43027,6 +43078,7 @@ species {
       coords {
         size: 85
         y_offset: 13
+        elevation: 12
       }
     }
     back {
@@ -43157,6 +43209,7 @@ species {
       coords {
         size: 53
         y_offset: 15
+        elevation: 8
       }
     }
     back {
@@ -43223,6 +43276,7 @@ species {
       path: "unown/revelation/front"
       coords {
         size: 136
+        elevation: 5
       }
     }
     back {
@@ -43267,6 +43321,7 @@ species {
       coords {
         size: 52
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -43325,6 +43380,7 @@ species {
       coords {
         size: 68
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -43383,6 +43439,7 @@ species {
       coords {
         size: 68
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -43441,6 +43498,7 @@ species {
       coords {
         size: 68
         y_offset: 17
+        elevation: 8
       }
     }
     back {
@@ -43499,6 +43557,7 @@ species {
       coords {
         size: 68
         y_offset: 17
+        elevation: 8
       }
     }
     back {
@@ -43557,6 +43616,7 @@ species {
       coords {
         size: 53
         y_offset: 14
+        elevation: 8
       }
     }
     back {
@@ -43615,6 +43675,7 @@ species {
       coords {
         size: 68
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -43673,6 +43734,7 @@ species {
       coords {
         size: 52
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -43731,6 +43793,7 @@ species {
       coords {
         size: 52
         y_offset: 17
+        elevation: 8
       }
     }
     back {
@@ -43789,6 +43852,7 @@ species {
       coords {
         size: 68
         y_offset: 17
+        elevation: 8
       }
     }
     back {
@@ -43847,6 +43911,7 @@ species {
       coords {
         size: 52
         y_offset: 19
+        elevation: 8
       }
     }
     back {
@@ -43904,6 +43969,7 @@ species {
       coords {
         size: 68
         y_offset: 19
+        elevation: 8
       }
     }
     back {
@@ -43962,6 +44028,7 @@ species {
       coords {
         size: 67
         y_offset: 20
+        elevation: 8
       }
     }
     back {
@@ -44019,6 +44086,7 @@ species {
       coords {
         size: 68
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -44077,6 +44145,7 @@ species {
       coords {
         size: 52
         y_offset: 19
+        elevation: 8
       }
     }
     back {
@@ -44135,6 +44204,7 @@ species {
       coords {
         size: 67
         y_offset: 21
+        elevation: 8
       }
     }
     back {
@@ -44193,6 +44263,7 @@ species {
       coords {
         size: 52
         y_offset: 19
+        elevation: 8
       }
     }
     back {
@@ -44251,6 +44322,7 @@ species {
       coords {
         size: 69
         y_offset: 12
+        elevation: 8
       }
     }
     back {
@@ -44308,6 +44380,7 @@ species {
       coords {
         size: 52
         y_offset: 18
+        elevation: 8
       }
     }
     back {
@@ -44365,6 +44438,7 @@ species {
       coords {
         size: 68
         y_offset: 18
+        elevation: 8
       }
     }
     back {
@@ -44423,6 +44497,7 @@ species {
       coords {
         size: 68
         y_offset: 18
+        elevation: 8
       }
     }
     back {
@@ -44480,6 +44555,7 @@ species {
       coords {
         size: 68
         y_offset: 19
+        elevation: 8
       }
     }
     back {
@@ -44537,6 +44613,7 @@ species {
       coords {
         size: 51
         y_offset: 21
+        elevation: 8
       }
     }
     back {
@@ -44594,6 +44671,7 @@ species {
       coords {
         size: 52
         y_offset: 17
+        elevation: 8
       }
     }
     back {
@@ -44652,6 +44730,7 @@ species {
       coords {
         size: 52
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -44709,6 +44788,7 @@ species {
       coords {
         size: 53
         y_offset: 15
+        elevation: 8
       }
     }
     back {
@@ -44767,6 +44847,7 @@ species {
       coords {
         size: 53
         y_offset: 13
+        elevation: 8
       }
     }
     back {
@@ -45805,6 +45886,7 @@ species {
       coords {
         size: 120
         y_offset: 4
+        elevation: 8
       }
     }
     back {
@@ -45957,6 +46039,7 @@ species {
       coords {
         size: 118
         y_offset: 7
+        elevation: 6
       }
     }
     back {
@@ -46079,6 +46162,7 @@ species {
       coords {
         size: 120
         y_offset: 4
+        elevation: 4
       }
     }
     back {
@@ -46197,6 +46281,7 @@ species {
       coords {
         size: 118
         y_offset: 7
+        elevation: 7
       }
     }
     back {
@@ -50403,6 +50488,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 6
       }
     }
     back {
@@ -50524,6 +50610,7 @@ species {
     front {
       path: "skarmory/redux/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -50566,6 +50653,7 @@ species {
     front {
       path: "skarmory/mega_redux/front"
       coords {
+        elevation: 6
       }
     }
     back {
@@ -54989,6 +55077,7 @@ species {
       anim: ANIM_GROW_IN_STAGES
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -55182,6 +55271,7 @@ species {
       anim: ANIM_GROW_VIBRATE
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -55339,6 +55429,7 @@ species {
       coords {
         size: 85
         y_offset: 12
+        elevation: 15
       }
     }
     back {
@@ -57881,6 +57972,7 @@ species {
       path: "cascoon/primal/front"
       coords {
         size: 136
+        elevation: 5
       }
     }
     back {
@@ -58091,6 +58183,7 @@ species {
       coords {
         size: 134
         y_offset: 9
+        elevation: 10
       }
     }
     back {
@@ -58257,6 +58350,7 @@ species {
       coords {
         size: 134
         y_offset: 12
+        elevation: 12
       }
     }
     back {
@@ -59724,6 +59818,7 @@ species {
       coords {
         size: 132
         y_offset: 11
+        elevation: 15
       }
     }
     back {
@@ -59869,6 +59964,7 @@ species {
       coords {
         size: 119
         y_offset: 2
+        elevation: 8
       }
     }
     back {
@@ -60891,6 +60987,7 @@ species {
       coords {
         size: 136
         y_offset: 4
+        elevation: 10
       }
     }
     back {
@@ -62088,6 +62185,7 @@ species {
       coords {
         size: 102
         y_offset: 10
+        elevation: 8
       }
     }
     back {
@@ -62157,6 +62255,7 @@ species {
       path: "shedinja/mega/front"
       coords {
         size: 135
+        elevation: 6
       }
     }
     back {
@@ -62279,6 +62378,7 @@ species {
       coords {
         size: 134
         y_offset: 11
+        elevation: 10
       }
     }
     back {
@@ -67881,6 +67981,7 @@ species {
     front {
       path: "sharpedo/mega/front"
       coords {
+        elevation: 1
       }
     }
     back {
@@ -69175,7 +69276,7 @@ species {
       anim: ANIM_H_JUMPS
       coords {
         size: 104
-        y_offset: 8
+        y_offset: 3
       }
     }
     back {
@@ -69653,6 +69754,7 @@ species {
       coords {
         size: 136
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -69797,6 +69899,7 @@ species {
     front {
       path: "flygon/redux_B/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -69840,6 +69943,7 @@ species {
     front {
       path: "flygon/redux_B_mega/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -69885,6 +69989,7 @@ species {
       coords {
         size: 136
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -70105,6 +70210,7 @@ species {
       coords {
         size: 134
         y_offset: 10
+        elevation: 10
       }
     }
     back {
@@ -70218,6 +70324,7 @@ species {
     front {
       path: "flygon/redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -70262,6 +70369,7 @@ species {
     front {
       path: "flygon/redux_mega/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -71016,6 +71124,7 @@ species {
     front {
       path: "altaria/mega/front"
       coords {
+        elevation: 6
       }
     }
     back {
@@ -71469,6 +71578,7 @@ species {
       coords {
         size: 102
         y_offset: 9
+        elevation: 13
       }
     }
     back {
@@ -71655,6 +71765,7 @@ species {
       anim: ANIM_ROTATE_TO_SIDES_TWICE
       coords {
         size: 136
+        elevation: 4
       }
     }
     back {
@@ -71857,6 +71968,7 @@ species {
     front {
       path: "solrock/system/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -72738,6 +72850,7 @@ species {
       coords {
         size: 85
         y_offset: 8
+        elevation: 1
       }
     }
     back {
@@ -72929,6 +73042,7 @@ species {
       coords {
         size: 120
         y_offset: 3
+        elevation: 10
       }
     }
     back {
@@ -74032,6 +74146,7 @@ species {
       coords {
         size: 52
         y_offset: 17
+        elevation: 16
       }
     }
     back {
@@ -74072,6 +74187,7 @@ species {
     front {
       path: "castform/sandy/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -74113,6 +74229,7 @@ species {
       path: "castform/sunny/anim_front"
       coords {
         size: 52
+        elevation: 4
       }
     }
     back {
@@ -74154,6 +74271,7 @@ species {
       path: "castform/rainy/anim_front"
       coords {
         size: 52
+        elevation: 5
       }
     }
     back {
@@ -74195,6 +74313,7 @@ species {
       path: "castform/snowy/anim_front"
       coords {
         size: 52
+        elevation: 5
       }
     }
     back {
@@ -74237,6 +74356,7 @@ species {
       path: "castform/foggy/front"
       coords {
         size: 52
+        elevation: 6
       }
     }
     back {
@@ -74537,6 +74657,7 @@ species {
       coords {
         size: 86
         y_offset: 13
+        elevation: 14
       }
     }
     back {
@@ -74719,6 +74840,7 @@ species {
       coords {
         size: 85
         y_offset: 7
+        elevation: 8
       }
     }
     back {
@@ -74794,6 +74916,7 @@ species {
     front {
       path: "banette/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -74925,6 +75048,7 @@ species {
       coords {
         size: 102
         y_offset: 12
+        elevation: 13
       }
     }
     back {
@@ -75429,6 +75553,7 @@ species {
       coords {
         size: 55
         y_offset: 11
+        elevation: 16
       }
     }
     back {
@@ -76101,6 +76226,7 @@ species {
       coords {
         size: 118
         y_offset: 8
+        elevation: 12
       }
     }
     back {
@@ -76332,6 +76458,7 @@ species {
       path: "glalie/mega/front"
       coords {
         y_offset: 4
+        elevation: 8
       }
     }
     back {
@@ -76375,6 +76502,7 @@ species {
     front {
       path: "froslass/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -76626,6 +76754,7 @@ species {
       coords {
         size: 118
         y_offset: 8
+        elevation: 12
       }
     }
     back {
@@ -76801,6 +76930,7 @@ species {
       path: "glalie/redux_mega/front"
       coords {
         y_offset: 4
+        elevation: 10
       }
     }
     back {
@@ -76845,6 +76975,7 @@ species {
       path: "froslass/redux_mega/front"
       coords {
         y_offset: 3
+        elevation: 3
       }
     }
     back {
@@ -78662,6 +78793,7 @@ species {
       coords {
         size: 85
         y_offset: 15
+        elevation: 8
       }
     }
     back {
@@ -79061,6 +79193,7 @@ species {
     front {
       path: "metagross/mega/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -79712,6 +79845,7 @@ species {
       coords {
         size: 136
         y_offset: 8
+        elevation: 12
       }
     }
     back {
@@ -79799,6 +79933,7 @@ species {
     front {
       path: "latias/mega/front"
       coords {
+        elevation: 8
       }
     }
     back {
@@ -79938,6 +80073,7 @@ species {
       anim: ANIM_CIRCLE_C_CLOCKWISE_SLOW
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -80023,6 +80159,7 @@ species {
     front {
       path: "latios/mega/front"
       coords {
+        elevation: 8
       }
     }
     back {
@@ -80237,6 +80374,7 @@ species {
       path: "kyogre/primal/front"
       coords {
         size: 135
+        elevation: 3
       }
     }
     back {
@@ -80586,6 +80724,7 @@ species {
       anim: ANIM_H_SHAKE
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -80672,6 +80811,7 @@ species {
     front {
       path: "rayquaza/mega/front"
       coords {
+        elevation: 6
       }
     }
     back {
@@ -80800,6 +80940,7 @@ species {
       coords {
         size: 102
         y_offset: 13
+        elevation: 14
       }
     }
     back {
@@ -81885,6 +82026,7 @@ species {
       coords {
         size: 69
         y_offset: 11
+        elevation: 15
       }
     }
     back {
@@ -81985,6 +82127,7 @@ species {
       coords {
         size: 86
         y_offset: 7
+        elevation: 10
       }
     }
     back {
@@ -82100,6 +82243,7 @@ species {
       path: "torterra/redux/front"
       coords {
         size: 136
+        elevation: 5
       }
     }
     back {
@@ -82147,6 +82291,7 @@ species {
       path: "torterra/redux_mega/front"
       coords {
         size: 136
+        elevation: 5
       }
     }
     back {
@@ -87083,6 +87228,7 @@ species {
       coords {
         size: 118
         y_offset: 12
+        elevation: 10
       }
     }
     back {
@@ -87215,6 +87361,7 @@ species {
       coords {
         size: 69
         y_offset: 16
+        elevation: 8
       }
     }
     back {
@@ -87390,6 +87537,7 @@ species {
       coords {
         size: 102
         y_offset: 4
+        elevation: 4
       }
     }
     back {
@@ -88094,6 +88242,7 @@ species {
       path: "floatzel/redux/front"
       coords {
         y_offset: 3
+        elevation: 9
       }
     }
     back {
@@ -89180,6 +89329,7 @@ species {
       coords {
         size: 69
         y_offset: 7
+        elevation: 5
       }
     }
     back {
@@ -89342,6 +89492,7 @@ species {
       coords {
         size: 103
         y_offset: 7
+        elevation: 7
       }
     }
     back {
@@ -89816,6 +89967,7 @@ species {
       coords {
         size: 69
         y_offset: 3
+        elevation: 3
       }
     }
     back {
@@ -91059,6 +91211,7 @@ species {
       coords {
         size: 117
         y_offset: 6
+        elevation: 4
       }
     }
     back {
@@ -92189,6 +92342,7 @@ species {
       path: "happiny/redux/front"
       coords {
         size: 136
+        y_offset: 6
       }
     }
     back {
@@ -97317,6 +97471,7 @@ species {
       coords {
         size: 118
         y_offset: 10
+        elevation: 14
       }
     }
     back {
@@ -97462,6 +97617,7 @@ species {
       coords {
         size: 102
         y_offset: 5
+        elevation: 6
       }
     }
     back {
@@ -98533,6 +98689,7 @@ species {
       coords {
         size: 119
         y_offset: 11
+        elevation: 10
       }
     }
     back {
@@ -98618,6 +98775,7 @@ species {
       coords {
         size: 119
         y_offset: 11
+        elevation: 8
       }
     }
     back {
@@ -98678,6 +98836,7 @@ species {
       coords {
         size: 119
         y_offset: 11
+        elevation: 7
       }
     }
     back {
@@ -98738,6 +98897,7 @@ species {
       coords {
         size: 119
         y_offset: 9
+        elevation: 10
       }
     }
     back {
@@ -98793,6 +98953,7 @@ species {
       coords {
         size: 119
         y_offset: 11
+        elevation: 12
       }
     }
     back {
@@ -98852,6 +99013,7 @@ species {
       coords {
         size: 119
         y_offset: 11
+        elevation: 4
       }
     }
     back {
@@ -99012,6 +99174,7 @@ species {
       coords {
         size: 119
         y_offset: 6
+        elevation: 6
       }
     }
     back {
@@ -99147,6 +99310,7 @@ species {
     front {
       path: "uxie/redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -99285,6 +99449,7 @@ species {
       coords {
         size: 120
         y_offset: 4
+        elevation: 6
       }
     }
     back {
@@ -99437,6 +99602,7 @@ species {
     front {
       path: "mesprit/redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -99582,6 +99748,7 @@ species {
       coords {
         size: 135
         y_offset: 6
+        elevation: 6
       }
     }
     palette: "azelf/normal"
@@ -99706,6 +99873,7 @@ species {
     front {
       path: "azelf/redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -100580,6 +100748,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 7
       }
     }
     back {
@@ -100765,6 +100934,7 @@ species {
       coords {
         size: 135
         y_offset: 2
+        elevation: 3
       }
     }
     back {
@@ -101204,6 +101374,7 @@ species {
       coords {
         size: 118
         y_offset: 3
+        elevation: 4
       }
     }
     back {
@@ -101259,6 +101430,7 @@ species {
     front {
       path: "darkrai/nightmare/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -102386,6 +102558,7 @@ species {
       path: "victini/primal/front"
       coords {
         y_offset: 2
+        elevation: 4
       }
     }
     back {
@@ -108047,6 +108220,7 @@ species {
       coords {
         size: 69
         y_offset: 16
+        elevation: 19
       }
     }
     back {
@@ -108189,6 +108363,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 12
       }
     }
     back {
@@ -111160,6 +111335,7 @@ species {
       coords {
         size: 69
         y_offset: 12
+        elevation: 7
       }
     }
     back {
@@ -113295,6 +113471,7 @@ species {
       path: "darmanitan/redux/front"
       coords {
         size: 120
+        y_offset: 3
       }
     }
     back {
@@ -113338,6 +113515,7 @@ species {
       path: "darmanitan/redux/aura_mode/front"
       coords {
         size: 120
+        elevation: 4
       }
     }
     back {
@@ -114375,6 +114553,7 @@ species {
       anim: ANIM_FIGURE_8
       coords {
         size: 69
+        elevation: 7
       }
     }
     back {
@@ -114540,6 +114719,7 @@ species {
       coords {
         size: 69
         y_offset: 15
+        elevation: 10
       }
     }
     back {
@@ -114679,6 +114859,7 @@ species {
       coords {
         size: 101
         y_offset: 13
+        elevation: 4
       }
     }
     back {
@@ -115411,6 +115592,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 8
       }
     }
     back {
@@ -117180,6 +117362,7 @@ species {
       coords {
         size: 69
         y_offset: 17
+        elevation: 14
       }
     }
     back {
@@ -117321,6 +117504,7 @@ species {
       coords {
         size: 69
         y_offset: 12
+        elevation: 7
       }
     }
     back {
@@ -117475,6 +117659,7 @@ species {
       coords {
         size: 69
         y_offset: 11
+        elevation: 3
       }
     }
     back {
@@ -117645,6 +117830,7 @@ species {
       path: "solosis/redux/front"
       coords {
         y_offset: 3
+        elevation: 3
       }
     }
     back {
@@ -117745,6 +117931,7 @@ species {
       path: "duosion/redux/front"
       coords {
         y_offset: 1
+        elevation: 3
       }
     }
     back {
@@ -117845,6 +118032,7 @@ species {
       path: "reuniclus/redux/front"
       coords {
         y_offset: 3
+        elevation: 5
       }
     }
     back {
@@ -117888,6 +118076,7 @@ species {
     front {
       path: "reuniclus/redux_mega/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -119193,6 +119382,7 @@ species {
       coords {
         size: 69
         y_offset: 17
+        elevation: 19
       }
     }
     back {
@@ -121426,6 +121616,7 @@ species {
       coords {
         size: 69
         y_offset: 22
+        elevation: 16
       }
     }
     back {
@@ -121632,6 +121823,7 @@ species {
       coords {
         size: 69
         y_offset: 6
+        elevation: 8
       }
     }
     back {
@@ -122420,6 +122612,7 @@ species {
       coords {
         size: 69
         y_offset: 8
+        elevation: 5
       }
     }
     back {
@@ -122559,6 +122752,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 6
       }
     }
     back {
@@ -123656,6 +123850,7 @@ species {
       anim: ANIM_SHRINK_GROW
       coords {
         size: 69
+        elevation: 4
       }
     }
     back {
@@ -126197,6 +126392,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 8
       }
     }
     back {
@@ -126333,6 +126529,7 @@ species {
     front {
       path: "braviary/hisuian/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -127341,6 +127538,7 @@ species {
       anim: ANIM_RISING_WOBBLE
       coords {
         size: 69
+        elevation: 3
       }
     }
     back {
@@ -127715,6 +127913,7 @@ species {
     front {
       path: "hydreigon/redux/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -128044,6 +128243,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 8
       }
     }
     back {
@@ -128703,6 +128903,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -128922,6 +129123,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -128979,6 +129181,7 @@ species {
       anim: ANIM_RISING_WOBBLE
       coords {
         size: 135
+        elevation: 7
       }
     }
     back {
@@ -129459,6 +129662,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -131451,7 +131655,6 @@ species {
       path: "delphox/back"
       coords {
         size: 136
-        y_offset: 3
       }
     }
     palette: "delphox/normal"
@@ -132558,6 +132761,7 @@ species {
       coords {
         size: 69
         y_offset: 8
+        elevation: 9
       }
     }
     back {
@@ -132762,6 +132966,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -133120,6 +133325,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133193,6 +133399,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133234,6 +133441,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133276,6 +133484,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133318,6 +133527,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133359,6 +133569,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133400,6 +133611,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133442,6 +133654,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133483,6 +133696,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133524,6 +133738,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133565,6 +133780,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133607,6 +133823,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133649,6 +133866,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133690,6 +133908,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133731,6 +133950,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133772,6 +133992,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133813,6 +134034,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133854,6 +134076,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133896,6 +134119,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -133938,6 +134162,7 @@ species {
       anim: ANIM_ZIGZAG_SLOW
       coords {
         size: 69
+        elevation: 9
       }
     }
     back {
@@ -136672,6 +136897,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 6
       }
     }
     back {
@@ -136809,6 +137035,7 @@ species {
       coords {
         size: 69
         y_offset: 5
+        elevation: 3
       }
     }
     back {
@@ -136977,6 +137204,7 @@ species {
       anim: ANIM_H_VIBRATE
       coords {
         size: 69
+        elevation: 3
       }
     }
     back {
@@ -137044,6 +137272,7 @@ species {
       coords {
         size: 135
         y_offset: 1
+        elevation: 3
       }
     }
     back {
@@ -137156,6 +137385,7 @@ species {
     front {
       path: "honedge/redux/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -137248,6 +137478,7 @@ species {
     front {
       path: "doublade/redux/front"
       coords {
+        elevation: 1
       }
     }
     back {
@@ -137349,6 +137580,7 @@ species {
     front {
       path: "aegislash/redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -137389,6 +137621,7 @@ species {
     front {
       path: "aegislash/blade_redux/front"
       coords {
+        elevation: 3
       }
     }
     back {
@@ -137435,6 +137668,7 @@ species {
     front {
       path: "aegislash/redux_mega/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -137479,6 +137713,7 @@ species {
     front {
       path: "aegislash/blade_redux_mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -139344,6 +139579,7 @@ species {
       path: "clawitzer/redux/front"
       coords {
         size: 135
+        elevation: 4
       }
     }
     back {
@@ -140433,7 +140669,7 @@ species {
       anim: ANIM_SHRINK_GROW
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 8
       }
     }
     back {
@@ -141728,6 +141964,7 @@ species {
       coords {
         size: 69
         y_offset: 4
+        elevation: 5
       }
     }
     back {
@@ -142908,7 +143145,7 @@ species {
       anim: ANIM_V_SHAKE
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 9
       }
     }
     back {
@@ -143156,6 +143393,7 @@ species {
       coords {
         size: 69
         y_offset: 8
+        elevation: 8
       }
     }
     back {
@@ -143451,6 +143689,7 @@ species {
       path: "noibat/redux/front"
       coords {
         size: 136
+        elevation: 10
       }
     }
     back {
@@ -143920,6 +144159,7 @@ species {
       anim: ANIM_FRONT_FLIP
       coords {
         size: 69
+        elevation: 4
       }
     }
     back {
@@ -143983,6 +144223,7 @@ species {
     front {
       path: "yveltal/mega/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -144496,6 +144737,7 @@ species {
     front {
       path: "diancie/mega/front"
       coords {
+        elevation: 2
       }
     }
     back {
@@ -144637,6 +144879,7 @@ species {
       coords {
         size: 69
         y_offset: 11
+        elevation: 13
       }
     }
     back {
@@ -147197,6 +147440,7 @@ species {
       coords {
         size: 69
         y_offset: 6
+        elevation: 8
       }
     }
     back {
@@ -148125,6 +148369,7 @@ species {
       coords {
         size: 69
         y_offset: 16
+        elevation: 10
       }
     }
     back {
@@ -148365,6 +148610,7 @@ species {
     front {
       path: "ribombee/redux/front"
       coords {
+        elevation: 7
       }
     }
     back {
@@ -148408,6 +148654,7 @@ species {
     front {
       path: "ribombee/redux_mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -148451,6 +148698,7 @@ species {
     front {
       path: "ribombee/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -150120,6 +150368,7 @@ species {
       path: "dewpider/redux/front"
       coords {
         size: 136
+        y_offset: 7
       }
     }
     back {
@@ -150237,6 +150486,7 @@ species {
       path: "araquanid/redux/front"
       coords {
         size: 136
+        y_offset: 12
       }
     }
     back {
@@ -154692,6 +154942,7 @@ species {
       coords {
         size: 69
         y_offset: 14
+        elevation: 17
       }
     }
     back {
@@ -154885,6 +155136,7 @@ species {
       coords {
         size: 135
         y_offset: 9
+        elevation: 11
       }
     }
     back {
@@ -154921,7 +155173,28 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/orange/icon"
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/orange/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_ORANGE
   }
@@ -154946,7 +155219,28 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/yellow/icon"
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/yellow/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_YELLOW
   }
@@ -154971,7 +155265,29 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/green/icon"
+      palette: 1
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/green/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_GREEN
   }
@@ -154996,7 +155312,28 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/blue/icon"
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/blue/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_BLUE
   }
@@ -155021,7 +155358,28 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/indigo/icon"
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/indigo/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_INDIGO
   }
@@ -155046,7 +155404,29 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
-  reuse_visuals: SPECIES_MINIOR_CORE_RED
+  visuals {
+    icon {
+      path: "minior/core/violet/icon"
+      palette: 2
+    }
+    front {
+      path: "minior/core/front"
+      coords {
+        size: 135
+        y_offset: 9
+        elevation: 11
+      }
+    }
+    back {
+      path: "minior/core/back"
+      coords {
+        size: 102
+        y_offset: 15
+      }
+    }
+    palette: "minior/core/violet/normal"
+    shiny: "minior/core/shiny"
+  }
   battle_form {
     of: SPECIES_MINIOR_METEOR_VIOLET
   }
@@ -156773,6 +157153,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 4
       }
     }
     back {
@@ -156924,6 +157305,7 @@ species {
       coords {
         size: 69
         y_offset: 6
+        elevation: 4
       }
     }
     back {
@@ -157061,6 +157443,7 @@ species {
       anim: ANIM_V_SHAKE_TWICE
       coords {
         size: 69
+        elevation: 3
       }
     }
     back {
@@ -157206,6 +157589,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 4
       }
     }
     back {
@@ -157375,6 +157759,7 @@ species {
       coords {
         size: 69
         y_offset: 9
+        elevation: 4
       }
     }
     back {
@@ -157691,6 +158076,7 @@ species {
       anim: ANIM_CIRCULAR_VIBRATE
       coords {
         size: 69
+        elevation: 4
       }
     }
     back {
@@ -157818,6 +158204,7 @@ species {
       coords {
         size: 69
         y_offset: 3
+        elevation: 4
       }
     }
     back {
@@ -158843,6 +159230,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 5
       }
     }
     back {
@@ -158886,6 +159274,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 6
       }
     }
     back {
@@ -159461,6 +159850,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 6
       }
     }
     back {
@@ -161705,6 +162095,7 @@ species {
       coords {
         size: 135
         y_offset: 5
+        elevation: 6
       }
     }
     back {
@@ -164124,6 +164515,7 @@ species {
       coords {
         size: 118
         y_offset: 9
+        elevation: 9
       }
     }
     back {
@@ -164524,6 +164916,7 @@ species {
       path: "sandaconda/mega/front"
       coords {
         size: 133
+        elevation: 1
       }
     }
     back {
@@ -169179,6 +169572,7 @@ species {
       coords {
         size: 135
         y_offset: 5
+        elevation: 3
       }
     }
     back {
@@ -171389,6 +171783,7 @@ species {
       coords {
         size: 136
         y_offset: 2
+        elevation: 3
       }
     }
     back {
@@ -171865,6 +172260,7 @@ species {
       path: "eternatus/eternamax/front"
       coords {
         size: 134
+        elevation: 4
       }
     }
     back {
@@ -173212,6 +173608,7 @@ species {
       coords {
         size: 104
         y_offset: 2
+        elevation: 2
       }
     }
     back {
@@ -173329,6 +173726,7 @@ species {
     front {
       path: "calyrex/cloud_rider/front"
       coords {
+        elevation: 2
       }
     }
     back {
@@ -174171,6 +174569,7 @@ species {
       path: "enamorus/anim_front"
       anim: ANIM_FIGURE_8
       coords {
+        elevation: 6
       }
     }
     back {
@@ -181144,6 +181543,7 @@ species {
     front {
       path: "bombirdier/front"
       coords {
+        elevation: 7
       }
     }
     back {
@@ -182034,7 +182434,8 @@ species {
     front {
       path: "glimmet/front"
       coords {
-        y_offset: 8
+        y_offset: 9
+        elevation: 1
       }
     }
     back {
@@ -182145,6 +182546,7 @@ species {
       path: "glimmora/front"
       coords {
         y_offset: 2
+        elevation: 2
       }
     }
     back {
@@ -184097,6 +184499,7 @@ species {
     front {
       path: "flutter_mane/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -184870,6 +185273,7 @@ species {
     front {
       path: "iron_jugulis/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -184985,6 +185389,7 @@ species {
       path: "iron_moth/front"
       coords {
         y_offset: 7
+        elevation: 7
       }
     }
     back {
@@ -186432,6 +186837,7 @@ species {
     front {
       path: "roaring_moon/front"
       coords {
+        elevation: 6
       }
     }
     back {
@@ -186828,6 +187234,7 @@ species {
     front {
       path: "miraidon/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -188657,6 +189064,7 @@ species {
     front {
       path: "gouging_fire/front"
       coords {
+        y_offset: 3
       }
     }
     back {
@@ -189134,6 +189542,7 @@ species {
     front {
       path: "terapagos/front"
       coords {
+        elevation: 2
       }
     }
     back {
@@ -189175,6 +189584,7 @@ species {
     front {
       path: "terapagos/stellar/front"
       coords {
+        elevation: 1
       }
     }
     back {
@@ -189315,6 +189725,7 @@ species {
       path: "pecharunt/front"
       coords {
         y_offset: 5
+        elevation: 5
       }
     }
     back {
@@ -190616,6 +191027,7 @@ species {
       path: "beefender/front"
       coords {
         size: 134
+        elevation: 4
       }
     }
     back {
@@ -191553,6 +191965,7 @@ species {
       coords {
         size: 135
         y_offset: 5
+        elevation: 13
       }
     }
     back {
@@ -191665,6 +192078,7 @@ species {
       coords {
         size: 135
         y_offset: 3
+        elevation: 12
       }
     }
     back {
@@ -191707,6 +192121,9 @@ species {
     }
     front {
       path: "cormoth/mega/front"
+      coords {
+        elevation: 8
+      }
     }
     back {
       path: "cormoth/mega/back"
@@ -191752,6 +192169,7 @@ species {
       coords {
         size: 135
         y_offset: 5
+        elevation: 11
       }
     }
     back {
@@ -192267,6 +192685,7 @@ species {
       path: "magmenous/front"
       coords {
         size: 118
+        elevation: 4
       }
     }
     back {
@@ -192710,6 +193129,7 @@ species {
       coords {
         size: 117
         y_offset: 6
+        elevation: 10
       }
     }
     palette: "marbeep/normal"
@@ -192801,6 +193221,7 @@ species {
       coords {
         size: 120
         y_offset: 7
+        elevation: 11
       }
     }
     back {
@@ -192914,6 +193335,7 @@ species {
       coords {
         size: 120
         y_offset: 2
+        elevation: 8
       }
     }
     back {
@@ -192959,6 +193381,7 @@ species {
       path: "amphybuzz/mega/front"
       coords {
         y_offset: 2
+        elevation: 7
       }
     }
     back {
@@ -193188,6 +193611,7 @@ species {
       path: "crabruiser/redux/front"
       coords {
         size: 85
+        y_offset: 5
       }
     }
     back {
@@ -193538,6 +193962,9 @@ species {
     }
     front {
       path: "velozel/front"
+      coords {
+        elevation: 5
+      }
     }
     back {
       path: "velozel/back"
@@ -194192,6 +194619,7 @@ species {
       path: "fujiflap/front"
       coords {
         size: 118
+        elevation: 4
       }
     }
     back {
@@ -194744,7 +195172,7 @@ species {
       path: "luminositeon/front"
       coords {
         size: 119
-        y_offset: 6
+        y_offset: 2
       }
     }
     back {
@@ -195117,6 +195545,7 @@ species {
       path: "frostula/front"
       coords {
         size: 136
+        y_offset: 5
       }
     }
     back {
@@ -195723,6 +196152,7 @@ species {
       coords {
         size: 136
         y_offset: 4
+        elevation: 6
       }
     }
     back {
@@ -196736,7 +197166,7 @@ species {
       anim: ANIM_CIRCLE_C_CLOCKWISE_SLOW
       coords {
         size: 69
-        y_offset: 10
+        y_offset: 3
       }
     }
     back {
@@ -196834,7 +197264,7 @@ species {
     front {
       path: "knaiver/redux/front"
       coords {
-        y_offset: 5
+        y_offset: 10
       }
     }
     back {
@@ -197287,7 +197717,7 @@ species {
       palette: 1
     }
     front {
-      path: "scyther/redux/mega/front"
+      path: "scyther/redux/mega/front" # Palette broken
       anim: ANIM_H_VIBRATE
       coords {
         size: 136
@@ -197494,7 +197924,7 @@ species {
       anim: ANIM_H_SLIDE
       coords {
         size: 101
-        y_offset: 14
+        y_offset: 10
       }
     }
     back {
@@ -198488,7 +198918,7 @@ species {
       path: "makuhita/redux/front"
       coords {
         size: 101
-        y_offset: 8
+        y_offset: 4
       }
     }
     back {
@@ -198903,6 +199333,7 @@ species {
       coords {
         size: 102
         y_offset: 10
+        elevation: 10
       }
     }
     back {
@@ -199026,6 +199457,7 @@ species {
       anim: ANIM_V_SLIDE
       coords {
         size: 136
+        elevation: 9
       }
     }
     back {
@@ -199145,6 +199577,7 @@ species {
       anim: ANIM_V_SLIDE
       coords {
         size: 136
+        elevation: 6
       }
     }
     back {
@@ -199729,6 +200162,7 @@ species {
       coords {
         size: 103
         y_offset: 8
+        elevation: 1
       }
     }
     back {
@@ -199864,6 +200298,7 @@ species {
       coords {
         size: 136
         y_offset: 3
+        elevation: 3
       }
     }
     back {
@@ -199983,7 +200418,7 @@ species {
       anim: ANIM_H_JUMPS_V_STRETCH
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 1
       }
     }
     back {
@@ -200576,6 +201011,7 @@ species {
       coords {
         size: 136
         y_offset: 3
+        elevation: 5
       }
     }
     back {
@@ -201027,6 +201463,7 @@ species {
       path: "chandelure/mega/front"
       coords {
         y_offset: 4
+        elevation: 9
       }
     }
     back {
@@ -201068,6 +201505,7 @@ species {
     front {
       path: "zapdos/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -201111,13 +201549,14 @@ species {
     front {
       path: "moltres/ex/mega/front"
       coords {
+        elevation: 5
       }
     }
     back {
       path: "moltres/ex/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 3
       }
     }
     palette: "moltres/ex/mega/normal"
@@ -201154,13 +201593,14 @@ species {
     front {
       path: "articuno/mega/front"
       coords {
+        elevation: 6
       }
     }
     back {
       path: "articuno/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 5
       }
     }
     palette: "articuno/mega/normal"
@@ -201262,6 +201702,7 @@ species {
     front {
       path: "zapdos/ex/front"
       coords {
+        elevation: 5
       }
     }
     back {
@@ -201377,13 +201818,14 @@ species {
     front {
       path: "moltres/ex/front"
       coords {
+        elevation: 6
       }
     }
     back {
       path: "moltres/ex/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 4
+        y_offset: 10
       }
     }
     palette: "moltres/ex/normal"
@@ -201495,6 +201937,7 @@ species {
     front {
       path: "articuno/ex/front"
       coords {
+        elevation: 4
       }
     }
     back {
@@ -201880,7 +202323,7 @@ species {
       anim: ANIM_V_SLIDE
       coords {
         size: 69
-        y_offset: 7
+        y_offset: 2
       }
     }
     back {
@@ -202389,7 +202832,7 @@ species {
       path: "dedelibird/front"
       coords {
         size: 86
-        y_offset: 7
+        y_offset: 3
       }
     }
     back {
@@ -202397,7 +202840,7 @@ species {
       anim: BACK_ANIM_TRIANGLE_DOWN
       coords {
         size: 119
-        y_offset: 6
+        y_offset: 3
       }
     }
     palette: "dedelibird/normal"
@@ -202517,7 +202960,7 @@ species {
       path: "krampird/front"
       coords {
         size: 86
-        y_offset: 7
+        y_offset: 4
       }
     }
     back {
@@ -202867,6 +203310,7 @@ species {
       coords {
         size: 69
         y_offset: 1
+        elevation: 6
       }
     }
     back {
@@ -203569,7 +204013,7 @@ species {
       anim: ANIM_GLOW_YELLOW
       coords {
         size: 119
-        y_offset: 11
+        y_offset: 6
       }
     }
     back {
@@ -203993,7 +204437,7 @@ species {
       anim: ANIM_V_SLIDE_WOBBLE_SMALL
       coords {
         size: 69
-        y_offset: 15
+        y_offset: 3
       }
     }
     back {
@@ -204403,7 +204847,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 1
       }
     }
     back {
@@ -204654,7 +205098,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -204662,7 +205106,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 1
       }
     }
     palette: "queengambit/normal"
@@ -204836,7 +205280,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -204844,7 +205288,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "heracreus/mega/normal"
@@ -205004,6 +205447,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
+        elevation: 4
       }
     }
     back {
@@ -205191,6 +205635,7 @@ species {
       coords {
         size: 69
         y_offset: 5
+        elevation: 7
       }
     }
     back {
@@ -205237,7 +205682,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 5
       }
     }
     back {
@@ -205245,7 +205690,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "vanilluxe/mega/normal"
@@ -205727,7 +206171,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 11
       }
     }
     back {
@@ -205847,7 +206291,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 8
+        y_offset: 4
       }
     }
     back {
@@ -205988,7 +206432,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 2
       }
     }
     back {
@@ -206695,7 +207139,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 12
       }
     }
     back {
@@ -206967,7 +207411,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 6
+        y_offset: 4
       }
     }
     back {
@@ -207214,6 +207658,7 @@ species {
       coords {
         size: 69
         y_offset: 7
+        elevation: 10
       }
     }
     back {
@@ -207357,6 +207802,7 @@ species {
       coords {
         size: 69
         y_offset: 5
+        elevation: 9
       }
     }
     back {
@@ -207480,6 +207926,7 @@ species {
       coords {
         size: 69
         y_offset: 13
+        elevation: 13
       }
     }
     back {
@@ -207599,7 +208046,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 11
       }
     }
     back {
@@ -207717,7 +208164,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 9
       }
     }
     back {
@@ -207850,7 +208297,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 7
+        y_offset: 4
       }
     }
     back {
@@ -208150,6 +208597,7 @@ species {
       coords {
         size: 69
         y_offset: 7
+        elevation: 9
       }
     }
     back {
@@ -208248,6 +208696,7 @@ species {
       coords {
         size: 69
         y_offset: 18
+        elevation: 18
       }
     }
     back {
@@ -208357,6 +208806,7 @@ species {
       coords {
         size: 69
         y_offset: 3
+        elevation: 8
       }
     }
     back {
@@ -208403,6 +208853,7 @@ species {
       coords {
         size: 69
         y_offset: 3
+        elevation: 6
       }
     }
     back {
@@ -208448,7 +208899,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 8
+        y_offset: 3
       }
     }
     back {
@@ -208494,6 +208945,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 6
       }
     }
     back {
@@ -208540,7 +208992,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -208548,7 +209000,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 2
       }
     }
     palette: "tsareena/mega/normal"
@@ -208587,7 +209039,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -208595,7 +209047,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "goodra/hisuian/mega/normal"
@@ -208756,7 +209207,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 12
       }
     }
     back {
@@ -208764,7 +209215,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 7
       }
     }
     palette: "swablu/redux/normal"
@@ -208874,7 +209325,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 6
       }
     }
     back {
@@ -208882,7 +209333,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "altaria/redux/normal"
@@ -208921,7 +209371,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 6
       }
     }
     back {
@@ -208929,7 +209379,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "altaria/redux/redux_mega/normal"
@@ -209047,7 +209496,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 5
       }
     }
     back {
@@ -209055,7 +209504,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 7
       }
     }
     palette: "ratiking/normal"
@@ -209318,7 +209767,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -209326,7 +209775,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "guardozel/normal"
@@ -209426,7 +209875,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 5
       }
     }
     back {
@@ -209434,7 +209883,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 7
       }
     }
     palette: "dunkaccino/normal"
@@ -209682,7 +210131,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
@@ -209690,7 +210139,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 6
       }
     }
     palette: "torrentula/normal"
@@ -209942,7 +210391,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 9
+        y_offset: 8
       }
     }
     back {
@@ -210325,7 +210774,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 14
       }
     }
     palette: "hippopotato/normal"
@@ -210444,7 +210893,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
@@ -210846,7 +211295,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 8
+        y_offset: 1
       }
     }
     back {
@@ -210984,7 +211433,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 4
+        y_offset: 1
       }
     }
     back {
@@ -211475,7 +211924,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 0
       }
     }
     back {
@@ -211483,7 +211932,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "steve/normal"
@@ -211522,7 +211971,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 0
       }
     }
     back {
@@ -211530,7 +211979,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "steve/real/normal"
@@ -211633,7 +212082,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 11
       }
     }
     back {
@@ -211641,7 +212090,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "spearow/redux/normal"
@@ -211738,14 +212187,14 @@ species {
   visuals {
     icon {
       path: "fearow/redux/icon"
-      palette: 4
+      palette: 4 # Bad
     }
     front {
       path: "fearow/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -211753,7 +212202,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "fearow/redux/normal"
@@ -211864,14 +212313,14 @@ species {
   visuals {
     icon {
       path: "fearow/redux/evo/icon"
-      palette: 4
+      palette: 4 # Bad
     }
     front {
       path: "fearow/redux/evo/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -211879,7 +212328,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 0
       }
     }
     palette: "fearow/redux/evo/normal"
@@ -211920,6 +212369,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 6
       }
     }
     back {
@@ -212021,7 +212471,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
       }
     }
     palette: "victreebel/mega/normal"
@@ -212060,7 +212509,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 2
+        y_offset: 5
       }
     }
     back {
@@ -212068,7 +212517,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 4
       }
     }
     palette: "starmie/mega/normal"
@@ -212109,6 +212558,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 7
       }
     }
     back {
@@ -212157,6 +212607,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 7
       }
     }
     back {
@@ -212164,7 +212615,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 1
       }
     }
     palette: "skarmory/mega_y/normal"
@@ -212353,7 +212804,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 5
       }
     }
     palette: "scrafty/mega/normal"
@@ -212392,6 +212843,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 4
       }
     }
     back {
@@ -212399,7 +212851,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 0
       }
     }
     palette: "eelektross/mega/normal"
@@ -212439,7 +212891,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 2
+        y_offset: 1
+        elevation: 7
       }
     }
     back {
@@ -212447,7 +212900,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 0
       }
     }
     palette: "chandelure/mega_y/normal"
@@ -212541,7 +212994,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 0
       }
     }
     palette: "delphox/mega/normal"
@@ -212588,7 +213041,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 11
       }
     }
     palette: "greninja/mega/normal"
@@ -212635,7 +213088,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 3
       }
     }
     palette: "pyroar/mega/normal"
@@ -212728,7 +213181,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 3
       }
     }
     palette: "malamar/mega/normal"
@@ -212776,7 +213229,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
       }
     }
     palette: "barbaracle/mega/normal"
@@ -212963,7 +213415,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 10
+        y_offset: 5
       }
     }
     palette: "falinks/mega/normal"
