@@ -2607,7 +2607,7 @@ moves {
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
-  power: 20
+  power: 25
   accuracy: 100
   pp: 15
   contact: true
