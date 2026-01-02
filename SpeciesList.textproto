@@ -193678,7 +193678,6 @@ species {
     }
     level {
       level: 24
-      move: MOVE_ASTONISH
       move: MOVE_POWER_TRIP
       move: MOVE_PAIN_SPLIT
       move: MOVE_SPEED_SWAP
@@ -193811,7 +193810,6 @@ species {
     }
     level {
       level: 24
-      move: MOVE_ASTONISH
       move: MOVE_POWER_TRIP
       move: MOVE_PAIN_SPLIT
       move: MOVE_SPEED_SWAP
@@ -193929,7 +193927,6 @@ species {
     }
     level {
       level: 24
-      move: MOVE_ASTONISH
       move: MOVE_POWER_TRIP
       move: MOVE_PAIN_SPLIT
       move: MOVE_SPEED_SWAP
