@@ -108416,7 +108416,7 @@ species {
   }
   type: TYPE_STEEL
   type2: TYPE_FAIRY
-  hp: 57
+  hp: 87
   atk: 80
   def: 91
   spatk: 80
@@ -194020,11 +194020,11 @@ species {
   form_of: SPECIES_KLEFKI
   type: TYPE_ELECTRIC
   type2: TYPE_POISON
-  hp: 57
+  hp: 77
   atk: 95
   def: 71
   spatk: 95
-  spdef: 67
+  spdef: 77
   spe: 85
   ability: ABILITY_VOLT_ABSORB
   ability: ABILITY_PICKPOCKET
@@ -202455,12 +202455,12 @@ species {
   type2: TYPE_STEEL
   hp: 70
   atk: 50
-  def: 70
-  spatk: 135
-  spdef: 95
+  def: 75
+  spatk: 125
+  spdef: 100
   spe: 80
   ability: ABILITY_MIND_CRUSH
-  ability: ABILITY_BERSERK
+  ability: ABILITY_CHROME_COAT
   ability: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_HALF_DRAKE
   innate: ABILITY_ENVENOM
