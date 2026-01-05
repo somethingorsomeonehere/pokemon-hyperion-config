@@ -170428,7 +170428,7 @@ species {
 species {
   id: SPECIES_GRENINJA_ASH
   form_of: SPECIES_GRENINJA
-  long_name: "Greninja-Ash"
+  long_name: "Ash-Greninja"
   type: TYPE_WATER
   type2: TYPE_DARK
   hp: 72
@@ -180264,7 +180264,7 @@ species {
 species {
   id: SPECIES_CHESNAUGHT_CLEMONT
   form_of: SPECIES_CHESNAUGHT
-  long_name: "Chesnaught-Clemont"
+  long_name: "Clemont-Chesnaught"
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
   hp: 88
@@ -180331,7 +180331,7 @@ species {
 species {
   id: SPECIES_DELPHOX_SERENA
   form_of: SPECIES_DELPHOX
-  long_name: "Delphox-Serena"
+  long_name: "Serena-Delphox"
   type: TYPE_FIRE
   type2: TYPE_PSYCHIC
   hp: 75
@@ -208837,6 +208837,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX_BLUNDER
+  long_name: "Blunder-Darmanitan"
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
