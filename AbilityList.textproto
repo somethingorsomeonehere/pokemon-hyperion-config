@@ -6019,3 +6019,8 @@ ability {
   name: "King of the Jungle"
   description: "Infiltrator + deals 1.5x more damage to Grass-types."
 }
+ability {
+  id: ABILITY_WARRIORS_SPEAR
+  name: "Warrior's Spear"
+  description: "Mighty Horn + Fighting Spirit"
+}
