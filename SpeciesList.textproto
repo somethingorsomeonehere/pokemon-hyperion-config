@@ -137779,7 +137779,7 @@ species {
   spdef: 100
   spe: 70
   ability: ABILITY_POISON_HEAL
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_COWARD
   ability: ABILITY_ARENA_TRAP
   innate: ABILITY_STALL
   innate: ABILITY_ABSORBANT
@@ -137909,7 +137909,7 @@ species {
   spdef: 120
   spe: 100
   ability: ABILITY_POISON_HEAL
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_COWARD
   ability: ABILITY_ARENA_TRAP
   innate: ABILITY_STALL
   innate: ABILITY_ABSORBANT
