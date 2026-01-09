@@ -67205,7 +67205,7 @@ species {
   spatk: 42
   spdef: 37
   spe: 85
-  ability: ABILITY_FELINE_PROWESS
+  ability: ABILITY_PURE_POWER
   ability: ABILITY_OWN_TEMPO
   ability: ABILITY_ILL_WILL
   innate: ABILITY_HYPNOTIST
@@ -187545,7 +187545,7 @@ species {
   ability: ABILITY_SCRAPPY
   innate: ABILITY_ON_THE_PROWL
   innate: ABILITY_MYSTIC_POWER
-  innate: ABILITY_FELINE_PROWESS
+  innate: ABILITY_PURE_POWER
   percent_female: 50
   tier: 3
   bp_cost: 10
@@ -203948,9 +203948,9 @@ species {
   spatk: 100
   spdef: 135
   spe: 135
-  ability: ABILITY_FELINE_PROWESS
-  ability: ABILITY_FELINE_PROWESS
-  ability: ABILITY_FELINE_PROWESS
+  ability: ABILITY_PURE_POWER
+  ability: ABILITY_PURE_POWER
+  ability: ABILITY_PURE_POWER
   innate: ABILITY_FOREWARN
   innate: ABILITY_TINTED_LENS
   innate: ABILITY_MAGIC_BOUNCE
