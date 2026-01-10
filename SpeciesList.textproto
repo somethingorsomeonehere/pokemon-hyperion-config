@@ -189836,7 +189836,6 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAILWIND
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
   }
@@ -189963,7 +189962,6 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAILWIND
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
   }
