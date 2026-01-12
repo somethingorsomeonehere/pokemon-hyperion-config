@@ -187578,6 +187578,7 @@ species {
 }
 species {
   id: SPECIES_DURALUDON_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DURALUDON
   type: TYPE_STEEL
   type2: TYPE_DRAGON
