@@ -156764,10 +156764,10 @@ species {
   }
   type: TYPE_NORMAL
   hp: 95
-  atk: 135
+  atk: 125
   def: 60
-  spatk: 65
-  spdef: 70
+  spatk: 70
+  spdef: 75
   spe: 105
   ability: ABILITY_PIXILATE
   ability: ABILITY_PICKUP
