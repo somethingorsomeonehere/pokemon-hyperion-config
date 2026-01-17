@@ -181114,10 +181114,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "dragalge/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "dragalge/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181125,15 +181125,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "dragalge/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "dragalge/mega/normal"
+    shiny: "dragalge/mega/shiny"
   }
 }
 species {
@@ -181303,10 +181303,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "excadrill/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "excadrill/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181314,15 +181314,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "excadrill/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "excadrill/mega/normal"
+    shiny: "excadrill/mega/shiny"
   }
 }
 species {
@@ -181349,10 +181349,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "scolipede/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "scolipede/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181360,15 +181360,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "scolipede/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "scolipede/mega/normal"
+    shiny: "scolipede/mega/shiny"
   }
 }
 species {
@@ -181581,10 +181581,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "drampa/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "drampa/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181592,15 +181592,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "drampa/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "drampa/mega/normal"
+    shiny: "drampa/mega/shiny"
   }
 }
 species {
@@ -181723,10 +181723,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "froslass/mega_y/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "froslass/mega_y/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181734,15 +181734,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "froslass/mega_y/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "froslass/mega_y/normal"
+    shiny: "froslass/mega_y/shiny"
   }
 }
 species {
