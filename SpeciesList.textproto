@@ -67205,7 +67205,7 @@ species {
   spatk: 42
   spdef: 37
   spe: 85
-  ability: ABILITY_FELINE_PROWESS
+  ability: ABILITY_PURE_POWER
   ability: ABILITY_OWN_TEMPO
   ability: ABILITY_ILL_WILL
   innate: ABILITY_HYPNOTIST
@@ -137779,7 +137779,7 @@ species {
   spdef: 100
   spe: 70
   ability: ABILITY_POISON_HEAL
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_COWARD
   ability: ABILITY_ARENA_TRAP
   innate: ABILITY_STALL
   innate: ABILITY_ABSORBANT
@@ -137909,7 +137909,7 @@ species {
   spdef: 120
   spe: 100
   ability: ABILITY_POISON_HEAL
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_COWARD
   ability: ABILITY_ARENA_TRAP
   innate: ABILITY_STALL
   innate: ABILITY_ABSORBANT
@@ -187545,7 +187545,7 @@ species {
   ability: ABILITY_SCRAPPY
   innate: ABILITY_ON_THE_PROWL
   innate: ABILITY_MYSTIC_POWER
-  innate: ABILITY_FELINE_PROWESS
+  innate: ABILITY_PURE_POWER
   percent_female: 50
   tier: 3
   bp_cost: 10
@@ -187578,6 +187578,7 @@ species {
 }
 species {
   id: SPECIES_DURALUDON_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DURALUDON
   type: TYPE_STEEL
   type2: TYPE_DRAGON
@@ -189836,7 +189837,6 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAILWIND
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
   }
@@ -189963,7 +189963,6 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAILWIND
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
   }
@@ -192859,7 +192858,7 @@ species {
   id: SPECIES_DRILBUR_REDUX
   form_of: SPECIES_DRILBUR
   type: TYPE_DRAGON
-  type2: TYPE_ROCK
+  type2: TYPE_GROUND
   hp: 73
   atk: 63
   def: 59
@@ -193115,12 +193114,12 @@ species {
   }
   type: TYPE_DRAGON
   type2: TYPE_GROUND
-  hp: 108
+  hp: 118
   atk: 135
   def: 85
   spatk: 50
   spdef: 105
-  spe: 85
+  spe: 75
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_WEAK_ARMOR
@@ -194847,7 +194846,7 @@ species {
   ability: ABILITY_GOOEY
   ability: ABILITY_CLOUD_NINE
   ability: ABILITY_MIRROR_ARMOR
-  innate: ABILITY_SHELL_ARMOR
+  innate: ABILITY_FORTRESS
   innate: ABILITY_IMPENETRABLE
   innate: ABILITY_BULLETPROOF
   percent_female: 50
@@ -203948,9 +203947,9 @@ species {
   spatk: 100
   spdef: 135
   spe: 135
-  ability: ABILITY_FELINE_PROWESS
-  ability: ABILITY_FELINE_PROWESS
-  ability: ABILITY_FELINE_PROWESS
+  ability: ABILITY_PURE_POWER
+  ability: ABILITY_PURE_POWER
+  ability: ABILITY_PURE_POWER
   innate: ABILITY_FOREWARN
   innate: ABILITY_TINTED_LENS
   innate: ABILITY_MAGIC_BOUNCE

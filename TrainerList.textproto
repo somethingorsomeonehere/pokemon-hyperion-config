@@ -114025,13 +114025,13 @@ trainer {
       species: SPECIES_PENTAWUG
       item: ITEM_LIFE_ORB
       nature: NATURE_NAIVE
-      ability: ABILITY_IMPULSE
+      ability: ABILITY_ACCELERATE
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
       move: MOVE_AQUA_JET
-      move: MOVE_SURF
-      move: MOVE_ICE_BEAM
+      move: MOVE_DIVE
+      move: MOVE_ROCK_CLIMB
       move: MOVE_SUCKER_PUNCH
     }
     mon {
@@ -117165,7 +117165,7 @@ trainer {
     }
     mon {
       species: SPECIES_KLEAVOR
-      item: ITEM_KLEAVITE_R
+      item: ITEM_KLEAVITE
       nature: NATURE_JOLLY
       ability: ABILITY_CUTTHROAT
       atk_ev: 252
@@ -117192,7 +117192,7 @@ trainer {
       species: SPECIES_BARBARACLE
       item: ITEM_RINDO_BERRY
       nature: NATURE_JOLLY
-      ability: ABILITY_ANTICIPATION
+      ability: ABILITY_PICKPOCKET
       hp_ev: 252
       atk_ev: 252
       def_ev: 4
