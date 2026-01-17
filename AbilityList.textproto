@@ -1044,8 +1044,8 @@ ability {
 ability {
   id: ABILITY_REFRIGERATE
   name: "Refrigerate"
-  description: "Normal-type moves become Ice and Ice gains STAB."
-  expanded_description: "Converts all Normal-type moves to Ice-type and grants STAB for Ice moves, regardless of the user's type."
+  description: "Normal moves become Ice. Ice moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Ice-type. If the user is Ice-type its Ice-type moves have a 10% frostbite chance, otherwise it gains Ice STAB."
 }
 ability {
   id: ABILITY_SWEET_VEIL
@@ -1092,8 +1092,8 @@ ability {
 ability {
   id: ABILITY_PIXILATE
   name: "Pixilate"
-  description: "Normal-type moves become Fairy and Fairy gains STAB."
-  expanded_description: "Normal-type moves become Fairy-type and they receive STAB regardless of the Pokemon's type."
+  description: "Normal moves become Fairy. Fairy moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Fairy-type. If the user is Fairy-type its Fairy-type moves have a 10% infatuate chance, otherwise it gains Fairy STAB."
 }
 ability {
   id: ABILITY_GOOEY
@@ -1104,8 +1104,8 @@ ability {
 ability {
   id: ABILITY_AERILATE
   name: "Aerilate"
-  description: "Normal-type moves become Flying and Flying gains STAB."
-  expanded_description: "Normal-type moves become Flying-type and they receive STAB regardless of the Pokemon's type."
+  description: "Normal moves become Flying. Flying moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Flying-type. If the user is Flying-type its Flying-type moves are 10% faster, otherwise it gains Flying STAB."
 }
 ability {
   id: ABILITY_PARENTAL_BOND
@@ -1200,8 +1200,8 @@ ability {
 ability {
   id: ABILITY_STEELWORKER
   name: "Steelworker"
-  description: "Normal becomes Steel + Steel gains STAB. Resists Ghost/Dark."
-  expanded_description: "Steelworker converts Normal-type moves to Steel-type and grants STAB for Steel moves regardless of typing. Additionally takes half damage from Dark and Ghost-type moves."
+  description: "Normal moves become Steel. Steel resists Ghost and Dark."
+  expanded_description: "Changes the user's Normal-type moves to Steel-type. If the user is Steel-type it resists Ghost and Steel, otherwise it gains Steel STAB."
 }
 ability {
   id: ABILITY_BERSERK
@@ -1236,8 +1236,8 @@ ability {
 ability {
   id: ABILITY_GALVANIZE
   name: "Galvanize"
-  description: "Normal-type moves become Electric and Electric gains STAB."
-  expanded_description: "Galvanize converts all Normal-type moves into Electric-type and Electric moves gain STAB."
+  description: "Normal moves become Electric. Electric moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Electric-type. If the user is Electric-type its Electric-type moves have a 10% chance to paralyze, otherwise it gains Electric STAB."
 }
 ability {
   id: ABILITY_SURGE_SURFER
@@ -1674,8 +1674,8 @@ ability {
 ability {
   id: ABILITY_IMMOLATE
   name: "Immolate"
-  description: "Normal-type moves become Fire and Fire gains STAB."
-  expanded_description: "Immolate converts all Normal-type moves to Fire-type and grants STAB for Fire moves, regardless of the user's type."
+  description: "Normal moves become Fire. Fire moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Fire-type. If the user is Fire-type its Fire-type moves have a 10% chance to burn, otherwise it gains Fire STAB."
 }
 ability {
   id: ABILITY_CRYSTALLIZE
@@ -1800,8 +1800,8 @@ ability {
 ability {
   id: ABILITY_FIGHT_SPIRIT
   name: "Fighting Spirit"
-  description: "Normal-type moves become Fighting and Fighting gains STAB."
-  expanded_description: "Fighting Spirit converts all Normal-type moves into Fighting-type moves and grants STAB on Fighting-type attacks."
+  description: "Normal moves become Fighting. Fighting moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Fighting-type. If the user is Fighting-type its Fighting-type moves break screens, otherwise it gains Fighting STAB."
 }
 ability {
   id: ABILITY_FELINE_PROWESS
@@ -1847,8 +1847,8 @@ ability {
 ability {
   id: ABILITY_TECTONIZE
   name: "Tectonize"
-  description: "Normal-type moves become Ground and Ground gains STAB."
-  expanded_description: "Tectonize converts all Normal-type moves into Ground-type moves and grants STAB for Ground-type moves, regardless of the user's typing."
+  description: "Normal moves becomes Ground. Might ignore hazards."
+  expanded_description: "Changes the user's Normal-type moves to Ground-type. If the user is Ground-type it is immune to Stealth Rocks and Spikes, otherwise it gains Ground STAB."
 }
 ability {
   id: ABILITY_ICE_AGE
@@ -1889,8 +1889,8 @@ ability {
 ability {
   id: ABILITY_HYDRATE
   name: "Hydrate"
-  description: "Normal-type moves become Water and Water gains STAB."
-  expanded_description: "Converts all Normal-type moves to Water-type and grants STAB for all Water moves, regardless of the user's typing."
+  description: "Normal moves become Water. Water moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Water-type. If the user is Water-type its Water-type moves have a 10% chance to drench, otherwise it gains Water STAB."
 }
 ability {
   id: ABILITY_METALLIC
@@ -1949,8 +1949,8 @@ ability {
 ability {
   id: ABILITY_INTOXICATE
   name: "Intoxicate"
-  description: "Normal-type moves become Poison and Poison gains STAB."
-  expanded_description: "Converts all Normal-type moves into Poison-type moves and grants STAB for Poison-type moves, regardless of the user's typing."
+  description: "Normal moves become Poison. Poison moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Poison-type. If the user is Poison-type its Poison-type moves have a 10% chance to badly poison, otherwise it gains Poison STAB."
 }
 ability {
   id: ABILITY_IMPENETRABLE
@@ -2195,7 +2195,7 @@ ability {
   id: ABILITY_SOLAR_FLARE
   name: "Solar Flare"
   description: "Chloroplast + Immolate."
-  expanded_description: "Converts Normal-type moves to Fire-type and grants Fire-type STAB. Additionally activates any Sun related effects for the user's moves."
+  expanded_description: "Converts Normal-type moves to Fire-type and grants Fire-type STAB. If the user is Fire-type their Fire-type moves get 10% burn chance. Additionally activates any Sun related effects for the user's moves."
 }
 ability {
   id: ABILITY_POWER_CORE
@@ -2284,8 +2284,8 @@ ability {
 ability {
   id: ABILITY_POLLINATE
   name: "Pollinate"
-  description: "Normal-type moves become Bug and Bug gains STAB."
-  expanded_description: "Normal-type moves become Bug-type and they receive STAB regardless of the Pokemon's type."
+  description: "Normal moves becomes Bug. Immune to powder if Bug-type."
+  expanded_description: "Changes the user's Normal-type moves to Bug-type. If the user is Bug-type it is immune to powder moves, otherwise it gains Bug STAB."
 }
 ability {
   id: ABILITY_VOLCANO_RAGE
@@ -2314,14 +2314,14 @@ ability {
 ability {
   id: ABILITY_SPECTRALIZE
   name: "Spectralize"
-  description: "Normal-type moves become Ghost and Ghost gains STAB."
-  expanded_description: "Converts all Normal-type moves into Ghost-type moves and grants STAB for Ghost-type moves, regardless of the user's typing. All Ghost-type moves have a 30% chance to badly poison targets after dealing damage."
+  description: "Normal moves become Ghost. Ghost moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Ghost-type. If the user is Ghost-type its Ghost-type moves have a 10% fear chance, otherwise it gains Ghost STAB."
 }
 ability {
   id: ABILITY_SPECTRAL_SHROUD
   name: "Spectral Shroud"
   description: "Spectralize + 30% chance to badly poison the foe."
-  expanded_description: "Prevents confusion and grants immunity to Intimidation effects. When using rampage moves like Thrash or Outrage, allows switching out during the lock period instead of being forced to continue."
+  expanded_description: "Changes the user's Normal-type moves to Ghost-type. If the user is Ghost-type its Ghost-type moves have a 10% fear chance, otherwise it gains Ghost STAB. Its moves, including status moves, have a 30% chance to badly poison the target."
 }
 ability {
   id: ABILITY_DISCIPLINE
@@ -2422,8 +2422,8 @@ ability {
 ability {
   id: ABILITY_MINERALIZE
   name: "Mineralize"
-  description: "Normal-type moves become Rock and Rock gains STAB."
-  expanded_description: "Converts all Normal-type moves into Rock-type moves and grants STAB for Rock-type moves, regardless of the user's typing."
+  description: "Normal moves become Rock. Rock moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Rock-type. If the user is Rock-type its Rock-type moves have a 10% bleed chance, otherwise it gains Rock STAB."
 }
 ability {
   id: ABILITY_LOOSE_ROCKS
@@ -2476,8 +2476,8 @@ ability {
 ability {
   id: ABILITY_DRACONIZE
   name: "Draconize"
-  description: "Normal-type moves become Dragon and Dragon gains STAB."
-  expanded_description: "Converts all Normal-type moves into Dragon-type moves and grants STAB for Dragon-type moves, regardless of the user's typing."
+  description: "Normal moves become Dragon. Dragon moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Dragon-type. If the user is Dragon-type its Dragon-type moves deal neutal damage vs Fairy, otherwise it gains Dragon STAB."
 }
 ability {
   id: ABILITY_PRETTY_PRINCESS
@@ -2495,7 +2495,7 @@ ability {
   id: ABILITY_ATOMIC_BURST
   name: "Atomic Burst"
   description: "Electromorphosis + Galvanize."
-  expanded_description: "When hit by any move, the user becomes charged up, doubling the power of the next Electric-type move used. Converts all Normal-type moves into Electric-type moves and grants STAB for Electric-type moves, regardless of the user's typing. Charged status is consumed after one Electric move use."
+  expanded_description: "When hit by any move, the user becomes charged up, doubling the power of the next Electric-type move used. Converts all Normal-type moves into Electric-type moves and grants STAB for Electric-type moves. If they are Electric-type their Electric moves have a 10% paralysis chance."
 }
 ability {
   id: ABILITY_HELLBLAZE
@@ -2752,8 +2752,8 @@ ability {
 ability {
   id: ABILITY_EMANATE
   name: "Emanate"
-  description: "Normal-type moves become Psychic and Psychic gains STAB."
-  expanded_description: "Converts all Normal-type moves to Psychic-type and grants STAB for Psychic moves, regardless of the user's type."
+  description: "Normal moves become Psychic. Psychic moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Psychic-type. If the user is Psychic-type its Psychic-type moves have a 10% confusion chance, otherwise it gains Psychic STAB."
 }
 ability {
   id: ABILITY_KUNOICHI_BLADE
@@ -3039,8 +3039,8 @@ ability {
 ability {
   id: ABILITY_FERTILIZE
   name: "Fertilize"
-  description: "Normal-type moves become Grass and Grass gains STAB."
-  expanded_description: "Converts all Normal-type moves to Grass-type and grants STAB for Grass moves, regardless of the user's type."
+  description: "Normal moves become Grass. Grass moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Grass-type. If the user is Grass-type its Grass-type moves heal for 10% of damage dealt, otherwise it gains Grass STAB."
 }
 ability {
   id: ABILITY_PURE_LOVE
@@ -3878,7 +3878,7 @@ ability {
   id: ABILITY_UNICORN
   name: "Unicorn"
   description: "Mighty Horn + Pixilate."
-  expanded_description: "Boosts the power of horn and drill-based attacks by 30%. Converts Normal-type moves to Fairy-type and grants STAB for Fairy moves regardless of typing."
+  expanded_description: "Boosts the power of horn and drill-based attacks by 30%. Converts Normal-type moves to Fairy-type and Fairy STAB. If the user is Fairy-type its Fairy moves have a 10% infatuate chance."
 }
 ability {
   id: ABILITY_ON_THE_PROWL
@@ -4199,7 +4199,7 @@ ability {
   id: ABILITY_STEEL_BEETLE
   name: "Steel Beetle"
   description: "Raging Boxer + Pollinate."
-  expanded_description: "Causes punching moves to hit twice, with the first hit at 100% power and second hit at 40% power. Both attacks independently roll secondary effect chances (except flinch). Normal-type moves become Bug-type and they receive STAB regardless of the Pokemon's type."
+  expanded_description: "Causes punching moves to hit twice, with the first hit at 100% power and second hit at 40% power. Normal-type moves become Bug-type and gain STAB. If the user is Bug-type it is immune to powder moves."
 }
 ability {
   id: ABILITY_FROM_THE_SHADOWS
@@ -4349,7 +4349,7 @@ ability {
   id: ABILITY_SLUDGY_MIX
   name: "Sludgy Mix"
   description: "Intoxicate + Punk Rock."
-  expanded_description: "Converts all Normal-type moves into Poison-type moves and grants STAB for Poison-type moves, regardless of the user's typing. Amplifies the user's sound moves by 30% and reduces incoming sound move damage by 50%. Damage reduction is multiplicative with other sources."
+  expanded_description: "Converts all Normal-type moves into Poison-type moves and grants STAB for Poison-type moves. If the user is Poison-type their Poison moves have 10% toxic chance. Amplifies the user's sound moves by 30% and reduces incoming sound move damage by 50%. Damage reduction is multiplicative with other sources."
 }
 ability {
   id: ABILITY_OVERWATCH
@@ -4528,7 +4528,7 @@ ability {
   id: ABILITY_STRIKER_PIXILATE
   name: "Twinkle Toes"
   description: "Boosts the power of kicking moves by 1.3x + Pixilate."
-  expanded_description: "Increases the power of all kicking moves by 30%. Includes Pyro Ball. Normal-type moves become Fairy-type and they receive STAB regardless of the Pokemon's type."
+  expanded_description: "Increases the power of all kicking moves by 30%. Normal-type moves become Fairy-type and the user gains Fairy STAB. If the user is Fairy-type their Fairy-type moves get 10% infatuate chance."
 }
 ability {
   id: ABILITY_DOOM_BLAST
@@ -4564,7 +4564,7 @@ ability {
   id: ABILITY_QIGONG
   name: "Qigong"
   description: "Always hits. Fighting Spirit + Rampage."
-  expanded_description: "The user always lands their moves. Converts all Normal-type moves into Fighting-type moves and grants STAB on Fighting-type attacks. Eliminates recharge turns when the user successfully KOs an opponent with a direct attack."
+  expanded_description: "The user always lands their moves. Converts all Normal-type moves into Fighting-type moves and grants STAB on Fighting-type attacks. If the user is Fighting-type their Fighting-type moves break screens. Eliminates recharge turns when the user successfully KOs an opponent with a direct attack."
 }
 ability {
   id: ABILITY_CONJOURER_OF_DECEIT
@@ -4790,8 +4790,8 @@ ability {
 ability {
   id: ABILITY_DEVIATE
   name: "Deviate"
-  description: "Normal-type moves become Dark and Dark gains STAB."
-  expanded_description: "Converts all Normal-type moves to Dark-type and grants STAB for Dark moves, regardless of the user's type."
+  description: "Normal moves become Dark. Dark moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Dark-type. If the user is Dark-type its Dark-type moves have a 10% enrage chance, otherwise it gains Dark STAB."
 }
 ability {
   id: ABILITY_SUNS_BOUNTY
@@ -4965,7 +4965,7 @@ ability {
   id: ABILITY_STAINLESS_STEEL
   name: "Stainless Steel"
   description: "Fort Knox + Steelworker."
-  expanded_description: "Converts Normal-type moves to Steel-type and grants STAB for Steel moves regardless of typing. Additionally takes half damage from Dark and Ghost-type moves. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
+  expanded_description: "The user ignores most abilities that increase damage or hit additional times. Changes the user's Normal-type moves to Steel-type. If the user is Steel-type it resists Ghost and Steel, otherwise it gains Steel STAB."
 }
 ability {
   id: ABILITY_TEMPORAL_RUPTURE
@@ -5037,7 +5037,7 @@ ability {
   id: ABILITY_DRACONIC_MIGHT
   name: "Draconic Might"
   description: "Draconize + Half Drake."
-  expanded_description: "Converts all Normal-type moves into Dragon-type moves and grants STAB for Dragon-type moves, regardless of the user's typing. On entry, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out."
+  expanded_description: "Converts all Normal-type moves into Dragon-type moves and grants STAB for Dragon-type moves. If the user is Dragon-type their Dragon moves deal neutral damage vs Fairy. On entry, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out."
 }
 ability {
   id: ABILITY_FESTIVITIES
@@ -5941,6 +5941,7 @@ ability {
   id: ABILITY_MOB_BOSS
   name: "Mob Boss"
   description: "Terrify + Deviate."
+  expanded_description: "Lowers the SpAtk of foes by 2 stages on entry. Changes the user's Normal-type moves to Dark-type. If the user is Dark-type its Dark-type moves have a 10% enrage chance, otherwise it gains Dark STAB."
 }
 ability {
   id: ABILITY_GHOST_PEPPER
