@@ -193114,12 +193114,12 @@ species {
   }
   type: TYPE_DRAGON
   type2: TYPE_GROUND
-  hp: 108
+  hp: 118
   atk: 135
   def: 85
   spatk: 50
   spdef: 105
-  spe: 85
+  spe: 75
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_WEAK_ARMOR
