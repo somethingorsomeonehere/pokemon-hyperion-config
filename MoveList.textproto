@@ -955,7 +955,7 @@ moves {
   id: MOVE_WATER_GUN
   name: "Water Gun"
   short_name: "Water Gun"
-  description: "The foe is struck with a lot of water. +1 priority. Mega Launcher boost."
+  description: "A quick quirt of water. 10% drench chance. +1 priority. Mega Launcher boost."
   short_description: "Squirts water to attack the foe."
   split: SPECIAL
   type: TYPE_WATER
@@ -967,28 +967,42 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_HYDRO_PUMP
   name: "Hydro Pump"
   short_name: "Hydro Pump"
-  description: "A high volume of water is blasted at with high pressure. Mega Launcher boost"
+  description: "Blasts with a massive amount of water. 30% drench chance. Mega Launcher boost"
   short_description: "Blasts water at high power to strike the foe."
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 110
-  accuracy: 80
+  accuracy: 85
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_ATTACK
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 30
 }
 moves {
   id: MOVE_SURF
   name: "Surf"
   short_name: "Surf"
-  description: "A big wave crashes down on the foe. Field-based."
+  description: "A big wave crashes down on the foe. 20% drench chance. Field-based."
   short_description: "Creates a huge wave, then crashes it down on the foe."
   split: SPECIAL
   type: TYPE_WATER
@@ -1000,6 +1014,13 @@ moves {
   hits_underwater: true
   field: true
   tutor: TUTOR_ATTACK
+  effect: EFFECT_ARGUMENT_HIT
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 20
 }
 moves {
   id: MOVE_ICE_BEAM
@@ -1269,12 +1290,13 @@ moves {
     int: 75
   }
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_LEECH_SEED
   name: "Leech Seed"
   short_name: "Leech Seed"
-  description: "A seed is planted on the foe to steal some HP for the user on every turn."
+  description: "Plants a seed that steals HP every turn. Never misses if user is Grass-type."
   short_description: "Plants a seed on the foe to steal HP on every turn."
   effect: EFFECT_LEECH_SEED
   split: STATUS
@@ -1356,7 +1378,7 @@ moves {
   id: MOVE_STUN_SPORE
   name: "Stun Spore"
   short_name: "Stun Spore"
-  description: "Paralyzing dust is scattered wildly. It paralyzes the foe."
+  description: "Wildly scatters powder that paralyzes the foe. Can paralyze Electric-types."
   short_description: "Scatters a powder that may paralyze the foe."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
@@ -1454,9 +1476,9 @@ moves {
   id: MOVE_THUNDER_SHOCK
   name: "Thunder Shock"
   short_name: "ThunderShock"
-  description: "An electric shock attack with a 30% paralyze chance."
-  short_description: "An electrical attack that may paralyze the foe."
-  effect: EFFECT_FLINCH_STATUS
+  description: "An electric shock attack with a 30% flinch chance."
+  short_description: "An electrical attack that may flinch the foe."
+  effect: EFFECT_FLINCH_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -1464,11 +1486,6 @@ moves {
   accuracy: 100
   pp: 15
   effect_chance: 30
-  argument {
-    effect {
-      effect: MOVE_EFFECT_PARALYSIS
-    }
-  }
   mirror_move_affected: true
 }
 moves {
@@ -1492,7 +1509,7 @@ moves {
   id: MOVE_THUNDER_WAVE
   name: "Thunder Wave"
   short_name: "Thunder Wave"
-  description: "A weak electric shock that is sure to cause paralysis if it hits."
+  description: "A weak shock paralyzes the foe. Never misses if user is Electric-type."
   short_description: "A weak jolt of electricity that paralyzes the foe."
   effect: EFFECT_PARALYZE
   split: STATUS
@@ -1593,7 +1610,7 @@ moves {
   id: MOVE_TOXIC
   name: "Toxic"
   short_name: "Toxic"
-  description: "A move that badly poisons the foe. Its poison damage worsens every turn."
+  description: "Inflicts a poison that gets worse every turn. Never misses if user is Poison-type."
   short_description: "Poisons the foe with an intensifying toxin."
   effect: EFFECT_TOXIC
   split: STATUS
@@ -2294,7 +2311,7 @@ moves {
   id: MOVE_GLARE
   name: "Glare"
   short_name: "Glare"
-  description: "The user intimidates the foe with the design on its belly to cause paralysis."
+  description: "An intense gaze frightens the foe into paralysis. Can paralyze Electric-types."
   short_description: "Intimidates and frightens the foe into paralysis."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
@@ -2498,7 +2515,7 @@ moves {
   id: MOVE_PSYWAVE
   name: "Psywave"
   short_name: "Psywave"
-  description: "A quick wave of psychic energy. +1 priority. 30% confusion chance."
+  description: "A quick wave of psychic energy. +1 priority. 10% confusion chance."
   short_description: "Quick wave of psychic energy. Has +1 priority."
   effect: EFFECT_CONFUSE_HIT
   split: SPECIAL
@@ -2515,7 +2532,7 @@ moves {
   id: MOVE_SPLASH
   name: "Splash"
   short_name: "Splash"
-  description: "The user slams the foe with its heavy body. Heavier users are stronger."
+  description: "The user slams the foe. 20% drench chance. Heavier users are stronger."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
   split: PHYSICAL
@@ -2525,6 +2542,12 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 20
 }
 moves {
   id: MOVE_ACID_ARMOR
@@ -2584,7 +2607,7 @@ moves {
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
-  power: 20
+  power: 25
   accuracy: 100
   pp: 15
   contact: true
@@ -3354,6 +3377,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_ENDURE
@@ -3432,8 +3456,8 @@ moves {
   id: MOVE_SWAGGER
   name: "Swagger"
   short_name: "Swagger"
-  description: "A move that makes the foe confused, but also sharply raises its Attack."
-  short_description: "Confuses the foe, but also sharply raises Attack."
+  description: "A move that makes the foe enraged, but also sharply raises its Attack."
+  short_description: "Enrages the foe, but also sharply raises Attack."
   effect: EFFECT_SWAGGER
   split: STATUS
   type: TYPE_NORMAL
@@ -4116,9 +4140,9 @@ moves {
   id: MOVE_WHIRLPOOL
   name: "Whirlpool"
   short_name: "Whirlpool"
-  description: "The foe is trapped for four or five turns. Field-based."
+  description: "The foe is trapped for four or five turns. 30% drench chance. Field-based."
   short_description: "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
-  effect: EFFECT_TRAP
+  effect: EFFECT_WHIRLPOOL
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -4273,8 +4297,8 @@ moves {
   id: MOVE_FLATTER
   name: "Flatter"
   short_name: "Flatter"
-  description: "Flattery is used to confuse the foe, but its Sp. Atk also rises."
-  short_description: "Confuses the foe, but raises its SpAtk"
+  description: "Flattery is used to enrage the foe, but its Sp. Atk also rises."
+  short_description: "Enrages the foe, but raises its SpAtk"
   effect: EFFECT_FLATTER
   split: STATUS
   type: TYPE_DARK
@@ -4288,7 +4312,7 @@ moves {
   id: MOVE_WILL_O_WISP
   name: "Will-O-Wisp"
   short_name: "Will-O-Wisp"
-  description: "A sinister, bluish white flame is shot at the foe to inflict a burn."
+  description: "A blueish-white flame burns the target. Never misses if user is Fire-type."
   short_description: "Inflicts a burn on the foe with intense fire."
   effect: EFFECT_WILL_O_WISP
   split: STATUS
@@ -4761,7 +4785,7 @@ moves {
   id: MOVE_DIVE
   name: "Dive"
   short_name: "Dive"
-  description: "The user dives underwater and hits next turn. Field-based."
+  description: "The user dives underwater and hits next turn. 10% drench chance. Field-based."
   short_description: "Dives underwater the first turn and strikes next turn."
   effect: EFFECT_SEMI_INVULNERABLE
   split: PHYSICAL
@@ -4774,6 +4798,12 @@ moves {
   mirror_move_affected: true
   field: true
   tutor: TUTOR_ATTACK
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_ARM_THRUST
@@ -4796,15 +4826,15 @@ moves {
   id: MOVE_CAMOUFLAGE
   name: "Camouflage"
   short_name: "Camouflage"
-  description: "Alters the user\'s type depending on the location\'s terrain."
-  short_description: "Alters the Pok\303\251mon\'s type depending on the location."
-  effect: EFFECT_CAMOUFLAGE
+  description: "Protects against attacks and copies their types. May fail if used in succession."
+  short_description: "Shields the user from an attack and becomes that type."
+  effect: EFFECT_PROTECT
   split: STATUS
   type: TYPE_NORMAL
   target: USER
-  accuracy: 100
-  pp: 20
-  snatch_affected: true
+  pp: 10
+  priority: 4
+  is_protection: true
 }
 moves {
   id: MOVE_TAIL_GLOW
@@ -5282,7 +5312,7 @@ moves {
   id: MOVE_WATER_SPOUT
   name: "Water Spout"
   short_name: "Water Spout"
-  description: "The higher the user\'s HP, the more powerful it is. Mega Launcher boost"
+  description: "Does more damage at high HP. 10% drench chance. Mega Launcher boost"
   short_description: "Inflicts more damage if the user\'s HP is high."
   effect: EFFECT_ERUPTION
   split: SPECIAL
@@ -5293,6 +5323,12 @@ moves {
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_SIGNAL_BEAM
@@ -6221,8 +6257,8 @@ moves {
   id: MOVE_GASTRO_ACID
   name: "Gastro Acid"
   short_name: "Gastro Acid"
-  description: "Stomach acids are spewed at the foe, negating the effect of its Ability."
-  short_description: "Stomach acid suppresses the foe\'s ability."
+  description: "Spews stomach acid at the foe, negating its abilities and poisoning it."
+  short_description: "Suppresses the foe's ability and poisons it."
   effect: EFFECT_GASTRO_ACID
   split: STATUS
   type: TYPE_POISON
@@ -7095,7 +7131,7 @@ moves {
   id: MOVE_ROCK_CLIMB
   name: "Rock Climb"
   short_name: "Rock Climb"
-  description: "A charging attack. 20% confusion chance. Field-based."
+  description: "A charging attack. 30% confusion chance. Field-based."
   short_description: "A charging attack that may confuse the foe."
   effect: EFFECT_SEMI_INVULNERABLE
   split: PHYSICAL
@@ -7688,7 +7724,7 @@ moves {
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
-  power: 60
+  power: 55
   accuracy: 100
   pp: 5
   effect_chance: 10
@@ -8433,8 +8469,8 @@ moves {
   id: MOVE_REFLECT_TYPE
   name: "Reflect Type"
   short_name: "Reflect Type"
-  description: "The user reflects the foe\'s type, making it the same type as the foe."
-  short_description: "The user reflects the foe\'s type, copying it."
+  description: "The user projects its type onto the foe, making it the same type."
+  short_description: "The user makes the foe reflect the user's type."
   effect: EFFECT_REFLECT_TYPE
   split: STATUS
   type: TYPE_NORMAL
@@ -9664,6 +9700,7 @@ moves {
   pp: 5
   mirror_move_affected: true
   sound: true
+  reckless: true
 }
 moves {
   id: MOVE_FAIRY_LOCK
@@ -11570,6 +11607,7 @@ moves {
   mirror_move_affected: true
   metronome_banned: true
   uses_animation: MOVE_FLOWER_SHIELD
+  contact: true
 }
 moves {
   id: MOVE_DRUM_BEATING
@@ -12065,6 +12103,7 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_BURNING_JEALOUSY
@@ -12458,7 +12497,7 @@ moves {
   id: MOVE_WAVE_CRASH
   name: "Wave Crash"
   short_name: "Wave Crash"
-  description: "Slams the whole body into the target with lots of water. 33% recoil."
+  description: "Slams into the target on a giant wave. 10% drench chance. 33% recoil."
   short_description: "A life-risking tackle that with 33% recoil damage."
   effect: EFFECT_RECOIL_33
   split: PHYSICAL
@@ -12470,6 +12509,12 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_SMITE
@@ -13407,7 +13452,7 @@ moves {
   name: "Blood Shot"
   short_name: "Blood Shot"
   description: "Hurls a sphere of cursed blood magic. Causes the foe to bleed profusely."
-  short_description: "Not done yet."
+  short_description: "Makes the target bleed with black magic."
   effect: EFFECT_BLEED
   split: STATUS
   type: TYPE_DARK
@@ -13422,8 +13467,8 @@ moves {
   id: MOVE_FLASH_FREEZE
   name: "Flash Freeze"
   short_name: "Flash Freeze"
-  description: "Multiple ice cubes are shot at the foe. 100% chance to cause frostbite."
-  short_description: "Not done yet."
+  description: "Rapidly chills the foe, causing frostbite. Never misses if user is Ice-type."
+  short_description: "Drains the heat from the target, causing frostbite."
   effect: EFFECT_FROSTBITE
   split: STATUS
   type: TYPE_ICE
@@ -13954,6 +13999,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_RAPID_SPIN
+  contact: true
 }
 moves {
   id: MOVE_GEM_MISSILE
@@ -14556,6 +14602,7 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
+  contact: true
 }
 moves {
   id: MOVE_ORDER_UP
@@ -14798,6 +14845,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_AURA_WHEEL
+  contact: true
 }
 moves {
   id: MOVE_POUNCE
@@ -15752,6 +15800,7 @@ moves {
   mirror_move_affected: true
   hammer: true
   uses_animation: MOVE_GIGATON_HAMMER
+  reckless: true
 }
 moves {
   id: MOVE_BONK
@@ -15783,7 +15832,7 @@ moves {
   short_name: "MoltenStrike"
   description: "Lowers the user\'s speed. Iron fist boost. Hammer-based."
   short_description: "Slams the foe like a molten hammer, but lowers Speed."
-  effect: EFFECT_HAMMER_ARM
+  effect: EFFECT_HIT
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -15873,9 +15922,10 @@ moves {
   id: MOVE_RAPID_RIVER
   name: "Rapid River"
   short_name: "Rapid River"
-  description: "A powerful surge of water that hits twice. Mega Launcher boost."
+  description: "A surge of water that hits twice. 10% drench chance. Mega Launcher boost."
   short_description: "Hits twice. Mega Launcher boost."
-  effect: EFFECT_DOUBLE_HIT
+  effect: EFFECT_ARGUMENT_HIT
+  hit_count: 2
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -15886,6 +15936,12 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   uses_animation: MOVE_WATERFALL
+  argument {
+    effect {
+      effect: MOVE_EFFECT_DRENCH
+    }
+  }
+  effect_chance: 10
 }
 moves {
   id: MOVE_TOXIC_NEEDLES
@@ -16087,6 +16143,7 @@ moves {
   mirror_move_affected: true
   tutor: TUTOR_ATTACK
   uses_animation: MOVE_FACADE
+  contact: true
 }
 moves {
   id: MOVE_TERROR_CHARGE
@@ -16318,6 +16375,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_PSYCHIC
+  contact: true
 }
 moves {
   id: MOVE_CLEAR_SKIES

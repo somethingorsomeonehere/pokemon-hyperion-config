@@ -1038,7 +1038,7 @@ item {
 }
 item {
   id: ITEM_FROSLASSITE
-  name: "Froslassite"
+  name: "Froslassite X"
   description: "Enables Froslass to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE

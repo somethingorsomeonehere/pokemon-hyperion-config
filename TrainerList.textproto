@@ -27870,17 +27870,18 @@ trainer {
       move: MOVE_SPIKE_CANNON
     }
     mon {
-      species: SPECIES_WUGTRIO
-      item: ITEM_CHOICE_BAND
+      species: SPECIES_PENTAWUG
+      item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_ACCELERATE
+      ability: ABILITY_IMPULSE
+      hp_ev: 4
       atk_ev: 252
-      def_ev: 4
       spe_ev: 252
-      move: MOVE_TRIPLE_DIVE
-      move: MOVE_DIVE
-      move: MOVE_ROCK_CLIMB
-      move: MOVE_ICE_SPINNER
+      move: MOVE_AQUA_JET
+      move: MOVE_SURF
+      move: MOVE_HIDDEN_POWER
+      move: MOVE_SUCKER_PUNCH
+      hidden_power_type: TYPE_ICE
     }
     mon {
       species: SPECIES_SAMUROTT_HISUIAN
@@ -37937,83 +37938,81 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_ONIX
-      item: ITEM_LAGGING_TAIL
-      nature: NATURE_SASSY
+      species: SPECIES_SANDYGAST
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
       ability: ABILITY_SAND_STREAM
-      hp_ev: 180
-      def_ev: 252
-      spdef_ev: 76
-      iron_pill: true
-      move: MOVE_JAGGED_FANGS
-      move: MOVE_DRAGON_BREATH
-      move: MOVE_EARTHQUAKE
-      move: MOVE_HEAVY_SLAM
+      hp_ev: 252
+      def_ev: 96
+      spatk_ev: 160
+      move: MOVE_ABSORB
+      move: MOVE_SCORCHING_SANDS
+      move: MOVE_SHORE_UP
+      move: MOVE_HEX
     }
     mon {
       species: SPECIES_LAIRON_REDUX
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_SHEER_FORCE
-      hp_ev: 244
-      atk_ev: 252
-      def_ev: 12
-      move: MOVE_BULK_UP
-      move: MOVE_LOTUS_SHOWER
-      move: MOVE_ROCK_SLIDE
-      move: MOVE_AQUA_BASH
-    }
-    mon {
-      species: SPECIES_NACLSTACK
-      item: ITEM_EVIOLITE
-      nature: NATURE_CAREFUL
-      ability: ABILITY_SALT_CIRCLE
+      ability: ABILITY_SHELL_ARMOR
       hp_ev: 252
-      def_ev: 128
-      spdef_ev: 128
-      move: MOVE_HEAVY_SLAM
-      move: MOVE_BODY_PRESS
-      move: MOVE_SALT_CURE
-      move: MOVE_FISSURE
+      atk_ev: 160
+      def_ev: 96
+      move: MOVE_STONE_EDGE
+      move: MOVE_BULK_UP
+      move: MOVE_LIQUIDATION
+      move: MOVE_HORN_LEECH
     }
     mon {
-      species: SPECIES_BOMBIRDIER
-      item: ITEM_KINGS_ROCK
+      species: SPECIES_HERDIER
+      item: ITEM_EVIOLITE
       nature: NATURE_JOLLY
-      ability: ABILITY_UNBURDEN
-      hp_ev: 76
-      atk_ev: 200
-      spe_ev: 232
-      move: MOVE_ROCK_SLIDE
-      move: MOVE_PARTING_SHOT
-      move: MOVE_FLING
-      move: MOVE_DUAL_WINGBEAT
-    }
-    mon {
-      species: SPECIES_MAGCARGO
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_TIMID
-      ability: ABILITY_SIMPLE
-      hp_ev: 4
-      spatk_ev: 252
+      ability: ABILITY_SAND_RUSH
+      atk_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_BURN_UP
-      move: MOVE_POWER_GEM
-      move: MOVE_EARTH_POWER
-      move: MOVE_SHELL_SMASH
+      move: MOVE_YAWN
+      move: MOVE_PLAY_ROUGH
+      move: MOVE_REVERSAL
+      move: MOVE_FACADE
     }
     mon {
-      species: SPECIES_WHISCASH
-      item: ITEM_RINDO_BERRY
+      species: SPECIES_GLIGAR
+      item: ITEM_EVIOLITE
+      nature: NATURE_IMPISH
+      ability: ABILITY_SAND_VEIL
+      hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_EARTHQUAKE
+      move: MOVE_U_TURN
+      move: MOVE_BARB_BARRAGE
+      move: MOVE_PLUCK
+    }
+    mon {
+      species: SPECIES_NOSEPASS
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_STALL
+      hp_ev: 252
+      def_ev: 180
+      spatk_ev: 76
+      move: MOVE_POWER_GEM
+      move: MOVE_BODY_PRESS
+      move: MOVE_SANDSTORM
+      move: MOVE_VOLT_SWITCH
+    }
+    mon {
+      species: SPECIES_CACTURNE
+      item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_WATER_ABSORB
-      hp_ev: 4
+      ability: ABILITY_SAND_RUSH
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_ZEN_HEADBUTT
-      move: MOVE_WATERFALL
-      move: MOVE_EARTHQUAKE
-      move: MOVE_DRAGON_DANCE
+      move: MOVE_NEEDLE_ARM
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_KNOCK_OFF
+      move: MOVE_DRAIN_PUNCH
     }
   }
   hell {
@@ -108787,7 +108786,7 @@ trainer {
       hp_ev: 100
       atk_ev: 252
       spe_ev: 156
-      move: MOVE_NO_RETREAT
+      move: MOVE_BULK_UP
       move: MOVE_EARTHQUAKE
       move: MOVE_HIGH_JUMP_KICK
       move: MOVE_HEAD_SMASH
@@ -114026,13 +114025,13 @@ trainer {
       species: SPECIES_PENTAWUG
       item: ITEM_LIFE_ORB
       nature: NATURE_NAIVE
-      ability: ABILITY_IMPULSE
+      ability: ABILITY_ACCELERATE
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
       move: MOVE_AQUA_JET
-      move: MOVE_SURF
-      move: MOVE_ICE_BEAM
+      move: MOVE_DIVE
+      move: MOVE_ROCK_CLIMB
       move: MOVE_SUCKER_PUNCH
     }
     mon {
@@ -117166,7 +117165,7 @@ trainer {
     }
     mon {
       species: SPECIES_KLEAVOR
-      item: ITEM_KLEAVITE_R
+      item: ITEM_KLEAVITE
       nature: NATURE_JOLLY
       ability: ABILITY_CUTTHROAT
       atk_ev: 252
@@ -117193,7 +117192,7 @@ trainer {
       species: SPECIES_BARBARACLE
       item: ITEM_RINDO_BERRY
       nature: NATURE_JOLLY
-      ability: ABILITY_ANTICIPATION
+      ability: ABILITY_PICKPOCKET
       hp_ev: 252
       atk_ev: 252
       def_ev: 4
