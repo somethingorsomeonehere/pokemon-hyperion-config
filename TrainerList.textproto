@@ -40033,7 +40033,7 @@ trainer {
       atk_ev: 252
       spdef_ev: 132
       move: MOVE_CUTSIE_SLAP
-      move: MOVE_DYNAMIC_PUNCH
+      move: MOVE_FIRE_PUNCH
       move: MOVE_AXE_KICK
       move: MOVE_DIZZY_PUNCH
     }
