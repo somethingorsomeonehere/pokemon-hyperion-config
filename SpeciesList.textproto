@@ -116394,7 +116394,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -116405,8 +116404,6 @@ species {
     level {
       level: 24
       move: MOVE_GIGA_DRAIN
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -116496,16 +116493,16 @@ species {
   type2: TYPE_GROUND
   hp: 85
   atk: 75
-  def: 120
+  def: 110
   spatk: 100
-  spdef: 85
+  spdef: 75
   spe: 35
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_ARENA_TRAP
   ability: ABILITY_SAND_STREAM
   innate: ABILITY_WATER_COMPACTION
-  innate: ABILITY_SAND_GUARD
-  innate: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_ILL_WILL
+  innate: ABILITY_NATURAL_CURE
   percent_female: 50
   evo {
     to: SPECIES_ABYSSAND
@@ -116518,7 +116515,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -116529,8 +116525,6 @@ species {
     level {
       level: 24
       move: MOVE_BRINE
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -136999,10 +136993,6 @@ species {
       move: MOVE_RAZOR_WIND
     }
     level {
-      level: 51
-      move: MOVE_ELECTRO_SHOT
-    }
-    level {
       level: 56
       move: MOVE_BOLT_BEAK
     }
@@ -156145,16 +156135,16 @@ species {
   type2: TYPE_GROUND
   hp: 105
   atk: 55
-  def: 85
+  def: 75
   spatk: 135
-  spdef: 125
+  spdef: 115
   spe: 45
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_EARTH_EATER
   ability: ABILITY_SAND_STREAM
   innate: ABILITY_WATER_COMPACTION
   innate: ABILITY_DUNE_VEIL
-  innate: ABILITY_SCARE
+  innate: ABILITY_VENGEANCE
   percent_female: 50
   tier: 3
   learnset {
@@ -156164,7 +156154,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -156176,8 +156165,6 @@ species {
       level: 24
       move: MOVE_BRINE
       move: MOVE_GIGA_DRAIN
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -156777,15 +156764,15 @@ species {
   }
   type: TYPE_NORMAL
   hp: 95
-  atk: 125
-  def: 65
+  atk: 135
+  def: 60
   spatk: 65
-  spdef: 75
+  spdef: 70
   spe: 105
   ability: ABILITY_PIXILATE
   ability: ABILITY_PICKUP
-  ability: ABILITY_OBLIVIOUS
-  innate: ABILITY_TECHNICIAN
+  ability: ABILITY_PERFECTIONIST
+  innate: ABILITY_MASSIVE_PELT
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
   percent_female: 75
@@ -193122,7 +193109,7 @@ species {
   spe: 75
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
-  ability: ABILITY_WEAK_ARMOR
+  ability: ABILITY_LOOSE_ROCKS
   innate: ABILITY_ROCKY_EXTERIOR
   innate: ABILITY_THICK_BLUBBER
   innate: ABILITY_DRAGONS_MAW
@@ -212501,7 +212488,6 @@ species {
     level {
       level: 46
       move: MOVE_SEARING_SHOT
-      move: MOVE_QUIVER_DANCE
       move: MOVE_WYRM_WIND
       move: MOVE_REVELATION_DANCE
       move: MOVE_FAIRY_WIND
@@ -212515,10 +212501,6 @@ species {
       level: 56
       move: MOVE_DRACO_METEOR
       move: MOVE_FLEUR_CANNON
-    }
-    level {
-      level: 71
-      move: MOVE_NO_RETREAT
     }
     level {
       level: 100
