@@ -155495,11 +155495,11 @@ species {
   spdef: 87
   spe: 136
   ability: ABILITY_SCAVENGER
-  ability: ABILITY_GRAPPLER
-  ability: ABILITY_GOOEY
+  ability: ABILITY_NEUROTOXIN
+  ability: ABILITY_SPEED_FORCE
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CORROSION
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -190778,10 +190778,10 @@ species {
   spe: 71
   ability: ABILITY_DOUBLE_IRON_BARBS
   ability: ABILITY_DEEP_CUTS
-  ability: ABILITY_GOOEY
+  ability: ABILITY_UNBURDEN
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CLEAR_BODY
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -190903,10 +190903,10 @@ species {
   spe: 71
   ability: ABILITY_INFLATABLE
   ability: ABILITY_SPEED_BOOST
-  ability: ABILITY_GOOEY
+  ability: ABILITY_DUST_CLOUD
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LETS_ROLL
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -191027,10 +191027,10 @@ species {
   spe: 71
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_FULL_METAL_BODY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_JUGGERNAUT
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LEAD_COAT
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -191152,7 +191152,7 @@ species {
   spe: 71
   ability: ABILITY_ROUNDHOUSE
   ability: ABILITY_SCRAPPY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_QUICK_FEET
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_STRIKER
   innate: ABILITY_STICKY_HOLD
@@ -191209,6 +191209,10 @@ species {
       move: MOVE_ROCKET_PUNCH
       move: MOVE_COMEUPPANCE
       move: MOVE_MIGHTY_CLEAVE
+    }
+    level {
+      level: 51
+      move: MOVE_AXE_KICK
     }
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_CURSE
@@ -191277,10 +191281,10 @@ species {
   spe: 71
   ability: ABILITY_INNARDS_OUT
   ability: ABILITY_GLUTTONY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_STENCH
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_OVERCOAT
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
