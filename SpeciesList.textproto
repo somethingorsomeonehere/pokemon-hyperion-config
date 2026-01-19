@@ -34783,6 +34783,8 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LASER_FOCUS
@@ -34796,9 +34798,7 @@ species {
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_FIRE_SPIN
   }
   visuals {
     icon {
@@ -34894,6 +34894,10 @@ species {
       move: MOVE_RAPID_RIVER
     }
     level {
+      level: 21
+      move: MOVE_FLAME_BURST
+    }
+    level {
       level: 24
       move: MOVE_MUD_BOMB
       move: MOVE_MUD_SHOT
@@ -34918,10 +34922,10 @@ species {
       level: 51
       move: MOVE_WRING_OUT
       move: MOVE_WATER_SPOUT
+      move: MOVE_ERUPTION
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_BUBBLE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DIVE
     tutor: MOVE_EARTH_POWER
@@ -34930,6 +34934,8 @@ species {
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LASER_FOCUS
@@ -34943,9 +34949,7 @@ species {
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_FIRE_SPIN
   }
   visuals {
     icon {
@@ -210313,7 +210317,7 @@ species {
   def: 80
   spatk: 150
   spdef: 145
-  spe: 65
+  spe: 60
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_GIFTED_MIND
   ability: ABILITY_TWISTED_DIMENSION

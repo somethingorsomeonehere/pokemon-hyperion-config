@@ -38470,17 +38470,17 @@ trainer {
       move: MOVE_SEISMIC_BLADE
     }
     mon {
-      species: SPECIES_PRIMARINA
-      item: ITEM_THROAT_SPRAY
-      nature: NATURE_MODEST
-      ability: ABILITY_AMPLIFIER
-      hp_ev: 188
-      def_ev: 68
+      species: SPECIES_LUCARIO
+      item: ITEM_PUNCHING_GLOVE
+      nature: NATURE_TIMID
+      ability: ABILITY_MAGICAL_FISTS
+      hp_ev: 4
       spatk_ev: 252
-      move: MOVE_ICE_BEAM
-      move: MOVE_SYNCHRONOISE
-      move: MOVE_REQUIEM
-      move: MOVE_ECHOED_VOICE
+      spe_ev: 252
+      move: MOVE_METEOR_MASH
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_THUNDER_PUNCH
     }
     mon {
       species: SPECIES_DUELUMBER
@@ -38496,17 +38496,17 @@ trainer {
       move: MOVE_THUNDER_PUNCH
     }
     mon {
-      species: SPECIES_ELECTIVIRE
-      item: ITEM_ASSAULT_VEST
-      nature: NATURE_ADAMANT
-      ability: ABILITY_WHIPLASH
-      hp_ev: 252
+      species: SPECIES_FLAMIGO
+      item: ITEM_FROST_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_QUICK_FEET
+      hp_ev: 4
       atk_ev: 252
-      spe_ev: 4
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_PLASMA_FISTS
-      move: MOVE_METEOR_MASH
-      move: MOVE_MACH_PUNCH
+      spe_ev: 252
+      move: MOVE_WHIRLING_STRIKES
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_FAKE_OUT
+      move: MOVE_TRIPLE_KICK
     }
     mon {
       species: SPECIES_HITMONCHAN
