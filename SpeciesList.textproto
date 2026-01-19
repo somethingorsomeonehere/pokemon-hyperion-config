@@ -181248,8 +181248,8 @@ species {
   }
   visuals {
     icon {
-      path: "dragonite/mega/icon"
-      palette: 4
+      path: "dragonite/mega_y/icon"
+      palette: 2
     }
     front {
       path: "dragonite/mega_y/front"
