@@ -116398,7 +116398,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -116409,8 +116408,6 @@ species {
     level {
       level: 24
       move: MOVE_GIGA_DRAIN
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -116500,16 +116497,16 @@ species {
   type2: TYPE_GROUND
   hp: 85
   atk: 75
-  def: 120
+  def: 110
   spatk: 100
-  spdef: 85
+  spdef: 75
   spe: 35
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_ARENA_TRAP
   ability: ABILITY_SAND_STREAM
   innate: ABILITY_WATER_COMPACTION
-  innate: ABILITY_SAND_GUARD
-  innate: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_ILL_WILL
+  innate: ABILITY_NATURAL_CURE
   percent_female: 50
   evo {
     to: SPECIES_ABYSSAND
@@ -116522,7 +116519,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -116533,8 +116529,6 @@ species {
     level {
       level: 24
       move: MOVE_BRINE
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -137003,10 +136997,6 @@ species {
       move: MOVE_RAZOR_WIND
     }
     level {
-      level: 51
-      move: MOVE_ELECTRO_SHOT
-    }
-    level {
       level: 56
       move: MOVE_BOLT_BEAK
     }
@@ -155509,11 +155499,11 @@ species {
   spdef: 87
   spe: 136
   ability: ABILITY_SCAVENGER
-  ability: ABILITY_GRAPPLER
-  ability: ABILITY_GOOEY
+  ability: ABILITY_NEUROTOXIN
+  ability: ABILITY_SPEED_FORCE
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CORROSION
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -156149,16 +156139,16 @@ species {
   type2: TYPE_GROUND
   hp: 105
   atk: 55
-  def: 85
+  def: 75
   spatk: 135
-  spdef: 125
+  spdef: 115
   spe: 45
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_EARTH_EATER
   ability: ABILITY_SAND_STREAM
   innate: ABILITY_WATER_COMPACTION
   innate: ABILITY_DUNE_VEIL
-  innate: ABILITY_SCARE
+  innate: ABILITY_VENGEANCE
   percent_female: 50
   tier: 3
   learnset {
@@ -156168,7 +156158,6 @@ species {
       move: MOVE_RECYCLE
       move: MOVE_SAND_ATTACK
       move: MOVE_SCORCHING_SANDS
-      move: MOVE_STOCKPILE
     }
     level {
       level: 17
@@ -156180,8 +156169,6 @@ species {
       level: 24
       move: MOVE_BRINE
       move: MOVE_GIGA_DRAIN
-      move: MOVE_SPIT_UP
-      move: MOVE_SWALLOW
     }
     level {
       level: 37
@@ -156199,6 +156186,12 @@ species {
     level {
       level: 51
       move: MOVE_SHORE_UP
+    }
+    level {
+      level: 71
+      move: MOVE_STOCKPILE
+      move: MOVE_SWALLOW
+      move: MOVE_SPIT_UP
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BULLDOZE
@@ -156782,14 +156775,14 @@ species {
   type: TYPE_NORMAL
   hp: 95
   atk: 125
-  def: 65
-  spatk: 65
+  def: 60
+  spatk: 70
   spdef: 75
   spe: 105
   ability: ABILITY_PIXILATE
   ability: ABILITY_PICKUP
-  ability: ABILITY_OBLIVIOUS
-  innate: ABILITY_TECHNICIAN
+  ability: ABILITY_PERFECTIONIST
+  innate: ABILITY_MASSIVE_PELT
   innate: ABILITY_SKILL_LINK
   innate: ABILITY_OVERCOAT
   percent_female: 75
@@ -181195,7 +181188,7 @@ species {
   atk: 80
   def: 95
   spatk: 135
-  spdef: 100
+  spdef: 110
   spe: 88
   ability: ABILITY_LEPIDOPTERAN
   ability: ABILITY_LEPIDOPTERAN
@@ -181259,8 +181252,8 @@ species {
   }
   visuals {
     icon {
-      path: "dragonite/mega/icon"
-      palette: 4
+      path: "dragonite/mega_y/icon"
+      palette: 2
     }
     front {
       path: "dragonite/mega_y/front"
@@ -181336,7 +181329,7 @@ species {
   type2: TYPE_POISON
   hp: 90
   atk: 140
-  def: 149
+  def: 159
   spatk: 75
   spdef: 99
   spe: 62
@@ -190795,10 +190788,10 @@ species {
   spe: 71
   ability: ABILITY_DOUBLE_IRON_BARBS
   ability: ABILITY_DEEP_CUTS
-  ability: ABILITY_GOOEY
+  ability: ABILITY_UNBURDEN
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CLEAR_BODY
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -190920,10 +190913,10 @@ species {
   spe: 71
   ability: ABILITY_INFLATABLE
   ability: ABILITY_SPEED_BOOST
-  ability: ABILITY_GOOEY
+  ability: ABILITY_DUST_CLOUD
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LETS_ROLL
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -191044,10 +191037,10 @@ species {
   spe: 71
   ability: ABILITY_FORT_KNOX
   ability: ABILITY_FULL_METAL_BODY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_JUGGERNAUT
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LEAD_COAT
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -191169,7 +191162,7 @@ species {
   spe: 71
   ability: ABILITY_ROUNDHOUSE
   ability: ABILITY_SCRAPPY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_QUICK_FEET
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_STRIKER
   innate: ABILITY_STICKY_HOLD
@@ -191226,6 +191219,10 @@ species {
       move: MOVE_ROCKET_PUNCH
       move: MOVE_COMEUPPANCE
       move: MOVE_MIGHTY_CLEAVE
+    }
+    level {
+      level: 51
+      move: MOVE_AXE_KICK
     }
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_CURSE
@@ -191294,10 +191291,10 @@ species {
   spe: 71
   ability: ABILITY_INNARDS_OUT
   ability: ABILITY_GLUTTONY
-  ability: ABILITY_GOOEY
+  ability: ABILITY_STENCH
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_OVERCOAT
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -193126,7 +193123,7 @@ species {
   spe: 75
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
-  ability: ABILITY_WEAK_ARMOR
+  ability: ABILITY_LOOSE_ROCKS
   innate: ABILITY_ROCKY_EXTERIOR
   innate: ABILITY_THICK_BLUBBER
   innate: ABILITY_DRAGONS_MAW
@@ -212505,7 +212502,6 @@ species {
     level {
       level: 46
       move: MOVE_SEARING_SHOT
-      move: MOVE_QUIVER_DANCE
       move: MOVE_WYRM_WIND
       move: MOVE_REVELATION_DANCE
       move: MOVE_FAIRY_WIND
@@ -212519,10 +212515,6 @@ species {
       level: 56
       move: MOVE_DRACO_METEOR
       move: MOVE_FLEUR_CANNON
-    }
-    level {
-      level: 71
-      move: MOVE_NO_RETREAT
     }
     level {
       level: 100
