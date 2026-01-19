@@ -181184,7 +181184,7 @@ species {
   atk: 80
   def: 95
   spatk: 135
-  spdef: 100
+  spdef: 110
   spe: 88
   ability: ABILITY_LEPIDOPTERAN
   ability: ABILITY_LEPIDOPTERAN
