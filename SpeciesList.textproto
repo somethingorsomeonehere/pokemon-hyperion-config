@@ -155591,6 +155591,7 @@ species {
   visuals {
     icon {
       path: "grotom/icon"
+      palette: 1
     }
     front {
       path: "grotom/front"
@@ -190877,6 +190878,7 @@ species {
   visuals {
     icon {
       path: "grotom/glass/icon"
+      palette: 3
     }
     front {
       path: "grotom/glass/front"
@@ -191002,6 +191004,7 @@ species {
   visuals {
     icon {
       path: "grotom/roll/icon"
+      palette: 5
     }
     front {
       path: "grotom/roll/front"
@@ -191255,6 +191258,7 @@ species {
   visuals {
     icon {
       path: "grotom/kick/icon"
+      palette: 5
     }
     front {
       path: "grotom/kick/front"
@@ -191380,6 +191384,7 @@ species {
   visuals {
     icon {
       path: "grotom/fill/icon"
+      palette: 3
     }
     front {
       path: "grotom/fill/front"
