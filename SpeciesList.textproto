@@ -155042,7 +155042,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "wispywaspy/icon"
     }
     front {
       path: "wispywaspy/front"
@@ -191471,7 +191471,7 @@ species {
   tier: 3
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "wispywaspy/hivemind/icon"
     }
     front {
       path: "wispywaspy/hivemind/front"
