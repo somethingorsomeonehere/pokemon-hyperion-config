@@ -155444,7 +155444,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "heracreus/icon"
     }
     front {
       path: "heracreus/front"
@@ -191429,7 +191429,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "heracreus/mega/icon"
     }
     front {
       path: "heracreus/mega/front"
