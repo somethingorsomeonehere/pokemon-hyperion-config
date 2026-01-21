@@ -210200,7 +210200,7 @@ species {
   type: TYPE_PSYCHIC
   hp: 85
   atk: 50
-  def: 70
+  def: 75
   spatk: 115
   spdef: 115
   spe: 60
