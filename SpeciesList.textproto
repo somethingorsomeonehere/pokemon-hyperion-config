@@ -34783,8 +34783,6 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LASER_FOCUS
@@ -34798,7 +34796,9 @@ species {
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METRONOME
+    tutor: MOVE_GUNK_SHOT
   }
   visuals {
     icon {
@@ -34894,10 +34894,6 @@ species {
       move: MOVE_RAPID_RIVER
     }
     level {
-      level: 21
-      move: MOVE_FLAME_BURST
-    }
-    level {
       level: 24
       move: MOVE_MUD_BOMB
       move: MOVE_MUD_SHOT
@@ -34922,10 +34918,10 @@ species {
       level: 51
       move: MOVE_WRING_OUT
       move: MOVE_WATER_SPOUT
-      move: MOVE_ERUPTION
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BUBBLE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DIVE
     tutor: MOVE_EARTH_POWER
@@ -34934,8 +34930,6 @@ species {
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LASER_FOCUS
@@ -34949,7 +34943,9 @@ species {
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METRONOME
+    tutor: MOVE_GUNK_SHOT
   }
   visuals {
     icon {
@@ -154918,6 +154914,7 @@ species {
   visuals {
     icon {
       path: "carbonix/icon"
+      palette: 2
     }
     front {
       path: "carbonix/front"
@@ -155042,7 +155039,7 @@ species {
   }
   visuals {
     icon {
-      path: "wispywaspy/icon"
+      path: "question_mark/icon"
     }
     front {
       path: "wispywaspy/front"
@@ -155444,7 +155441,7 @@ species {
   }
   visuals {
     icon {
-      path: "heracreus/icon"
+      path: "question_mark/icon"
     }
     front {
       path: "heracreus/front"
@@ -155591,7 +155588,6 @@ species {
   visuals {
     icon {
       path: "grotom/icon"
-      palette: 1
     }
     front {
       path: "grotom/front"
@@ -156222,7 +156218,7 @@ species {
   visuals {
     icon {
       path: "abyssand/icon"
-      palette: 5
+      palette: 4
     }
     front {
       path: "abyssand/front"
@@ -156842,6 +156838,7 @@ species {
   visuals {
     icon {
       path: "dunkaccino/icon"
+      palette: 4
     }
     front {
       path: "dunkaccino/front"
@@ -157244,7 +157241,7 @@ species {
   visuals {
     icon {
       path: "spindaze/icon"
-      palette: 1
+      palette: 4
     }
     front {
       path: "spindaze/front"
@@ -157869,7 +157866,7 @@ species {
       }
     }
     back {
-      path: "hippotaton/back"
+      path: "question_mark/circled/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
@@ -188406,9 +188403,9 @@ species {
   type2: TYPE_PSYCHIC
   hp: 95
   atk: 70
-  def: 150
+  def: 110
   spatk: 135
-  spdef: 110
+  spdef: 150
   spe: 30
   ability: ABILITY_POISON_ABSORB
   ability: ABILITY_ANALYTIC
@@ -190753,6 +190750,7 @@ species {
   visuals {
     icon {
       path: "carbonix/mega/icon"
+      palette: 2
     }
     front {
       path: "carbonix/mega/front"
@@ -190878,7 +190876,6 @@ species {
   visuals {
     icon {
       path: "grotom/glass/icon"
-      palette: 3
     }
     front {
       path: "grotom/glass/front"
@@ -191004,7 +191001,6 @@ species {
   visuals {
     icon {
       path: "grotom/roll/icon"
-      palette: 5
     }
     front {
       path: "grotom/roll/front"
@@ -191258,7 +191254,6 @@ species {
   visuals {
     icon {
       path: "grotom/kick/icon"
-      palette: 5
     }
     front {
       path: "grotom/kick/front"
@@ -191384,7 +191379,6 @@ species {
   visuals {
     icon {
       path: "grotom/fill/icon"
-      palette: 3
     }
     front {
       path: "grotom/fill/front"
@@ -191429,7 +191423,7 @@ species {
   }
   visuals {
     icon {
-      path: "heracreus/mega/icon"
+      path: "question_mark/icon"
     }
     front {
       path: "heracreus/mega/front"
@@ -191471,7 +191465,7 @@ species {
   tier: 3
   visuals {
     icon {
-      path: "wispywaspy/hivemind/icon"
+      path: "question_mark/icon"
     }
     front {
       path: "wispywaspy/hivemind/front"
@@ -192571,7 +192565,7 @@ species {
   }
   visuals {
     icon {
-      path: "litwick/redux/icon"
+      path: "litwick/icon"
       palette: 2
     }
     front {
@@ -192677,7 +192671,7 @@ species {
   }
   visuals {
     icon {
-      path: "lampent/redux/icon"
+      path: "lampent/icon"
       palette: 2
     }
     front {
@@ -192787,7 +192781,7 @@ species {
   }
   visuals {
     icon {
-      path: "chandelure/redux/icon"
+      path: "chandelure/icon"
       palette: 2
     }
     front {
@@ -192834,7 +192828,7 @@ species {
   }
   visuals {
     icon {
-      path: "chandelure/redux/mega/icon"
+      path: "chandelure/mega/icon"
       palette: 2
     }
     front {
@@ -194222,6 +194216,7 @@ species {
   visuals {
     icon {
       path: "bellsprout/redux/icon"
+      palette: 4
     }
     front {
       path: "bellsprout/redux/front"
@@ -194347,6 +194342,7 @@ species {
   visuals {
     icon {
       path: "weepinbell/redux/icon"
+      palette: 4
     }
     front {
       path: "weepinbell/redux/front"
@@ -194479,6 +194475,7 @@ species {
   visuals {
     icon {
       path: "victreebel/redux/icon"
+      palette: 4
     }
     front {
       path: "victreebel/redux/front"
@@ -207012,7 +207009,6 @@ species {
   visuals {
     icon {
       path: "cleffa/redux/icon"
-      palette: 4
     }
     front {
       path: "cleffa/redux/front"
@@ -207109,7 +207105,6 @@ species {
   visuals {
     icon {
       path: "clefairy/redux/icon"
-      palette: 4
     }
     front {
       path: "clefairy/redux/front"
@@ -207229,7 +207224,6 @@ species {
   visuals {
     icon {
       path: "clefable/redux/icon"
-      palette: 4
     }
     front {
       path: "clefable/redux/front"
@@ -210316,7 +210310,7 @@ species {
   def: 80
   spatk: 150
   spdef: 145
-  spe: 60
+  spe: 65
   ability: ABILITY_MYSTIC_POWER
   ability: ABILITY_GIFTED_MIND
   ability: ABILITY_TWISTED_DIMENSION
