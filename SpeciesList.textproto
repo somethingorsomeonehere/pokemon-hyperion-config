@@ -49541,7 +49541,7 @@ species {
   spdef: 45
   spe: 105
   ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_RAIN_SHROUD
   ability: ABILITY_SPEED_BOOST
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_HYPER_AGGRESSIVE
@@ -125922,7 +125922,7 @@ species {
   spdef: 50
   spe: 136
   ability: ABILITY_PROPELLER_TAIL
-  ability: ABILITY_DEADLY_PRECISION
+  ability: ABILITY_RAIN_SHROUD
   ability: ABILITY_ACCELERATE
   innate: ABILITY_SPEED_BOOST
   innate: ABILITY_SPEED_FORCE
