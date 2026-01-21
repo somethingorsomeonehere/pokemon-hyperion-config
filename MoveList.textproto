@@ -17252,7 +17252,7 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
-  throwing: true
+  keen_edge: true
   uses_animation: MOVE_FIRE_LASH
 }
 moves {
