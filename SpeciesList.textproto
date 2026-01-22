@@ -157880,7 +157880,7 @@ species {
 species {
   id: SPECIES_HARVESTING_TYRANT
   dex {
-    name: "Harvesting Tyrant"
+    name: "Corn Tyrant"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1111
