@@ -191161,7 +191161,7 @@ species {
   ability: ABILITY_QUICK_FEET
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_STRIKER
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
