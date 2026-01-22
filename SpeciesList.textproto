@@ -183596,7 +183596,6 @@ species {
   visuals {
     icon {
       path: "dragonite/mega/icon"
-      palette: 2
     }
     front {
       path: "dragonite/mega/front"
@@ -189293,7 +189292,7 @@ species {
   visuals {
     icon {
       path: "zapdos/mega/icon"
-      palette: 4
+      palette: 2
     }
     front {
       path: "zapdos/mega/front"
@@ -189337,7 +189336,6 @@ species {
   visuals {
     icon {
       path: "articuno/mega/icon"
-      palette: 4
     }
     front {
       path: "articuno/mega/front"
@@ -189489,7 +189487,7 @@ species {
   visuals {
     icon {
       path: "zapdos/ex/icon"
-      palette: 4
+      palette: 2
     }
     front {
       path: "zapdos/ex/front"
@@ -191750,7 +191748,6 @@ species {
   visuals {
     icon {
       path: "vanilluxe/mega/icon"
-      palette: 4
     }
     front {
       path: "vanilluxe/mega/front"
@@ -194806,7 +194803,7 @@ species {
   visuals {
     icon {
       path: "tsareena/mega/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "tsareena/mega/front"
@@ -195424,7 +195421,7 @@ species {
   visuals {
     icon {
       path: "exeggcute/redux/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "exeggcute/redux/front"
@@ -195592,6 +195589,7 @@ species {
   visuals {
     icon {
       path: "luxray/redux/mega/icon"
+      palette: 4
     }
     front {
       path: "luxray/redux/mega/front"
@@ -203659,7 +203657,7 @@ species {
   visuals {
     icon {
       path: "weavile/redux/icon"
-      palette: 2
+      palette: 5
     }
     front {
       path: "weavile/redux/front"
@@ -203702,7 +203700,7 @@ species {
   visuals {
     icon {
       path: "weavile/redux_mega/icon"
-      palette: 2
+      palette: 5
     }
     front {
       path: "weavile/redux_mega/front"
