@@ -210904,7 +210904,7 @@ species {
   }
   visuals {
     icon {
-      path: "lairon/icon"
+      path: "lairon/redux/icon"
       palette: 2
     }
     front {
