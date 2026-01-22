@@ -154288,7 +154288,7 @@ species {
 species {
   id: SPECIES_JAGGED_CHUNGULIS
   dex {
-    name: "Jagged Chungulus"
+    name: "Crag Chungus"
     category: "Paradox"
     description: "With its powerful ears it reduces dense bedrock to rubble. It can be a big help at construction sites. When it\'s finished digging, it lounges about lazily."
     national_dex_num: 1085
