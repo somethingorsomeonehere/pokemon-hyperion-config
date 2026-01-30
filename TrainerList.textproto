@@ -37967,9 +37967,10 @@ trainer {
       item: ITEM_EVIOLITE
       nature: NATURE_JOLLY
       ability: ABILITY_SAND_RUSH
+      hp_ev: 128
       atk_ev: 252
       def_ev: 4
-      spe_ev: 252
+      spe_ev: 124
       move: MOVE_YAWN
       move: MOVE_PLAY_ROUGH
       move: MOVE_REVERSAL

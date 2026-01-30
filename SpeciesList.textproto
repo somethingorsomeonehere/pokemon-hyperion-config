@@ -31728,17 +31728,17 @@ species {
   type: TYPE_NORMAL
   type2: TYPE_PSYCHIC
   hp: 70
-  atk: 100
+  atk: 80
   def: 65
   spatk: 90
   spdef: 65
-  spe: 105
+  spe: 85
+  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_HUBRIS
   ability: ABILITY_SCARE
-  ability: ABILITY_CONTRARY
-  ability: ABILITY_SAP_SIPPER
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_NOCTURNAL
-  innate: ABILITY_STRONG_JAW
+  innate: ABILITY_SAP_SIPPER
   percent_female: 50
   tier: 4
   heads: 2
@@ -154288,7 +154288,7 @@ species {
 species {
   id: SPECIES_JAGGED_CHUNGULIS
   dex {
-    name: "Jagged Chungulus"
+    name: "Crag Chungus"
     category: "Paradox"
     description: "With its powerful ears it reduces dense bedrock to rubble. It can be a big help at construction sites. When it\'s finished digging, it lounges about lazily."
     national_dex_num: 1085
@@ -154914,7 +154914,6 @@ species {
   visuals {
     icon {
       path: "carbonix/icon"
-      palette: 2
     }
     front {
       path: "carbonix/front"
@@ -155039,7 +155038,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "wispywaspy/icon"
     }
     front {
       path: "wispywaspy/front"
@@ -155441,7 +155440,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "heracreus/icon"
     }
     front {
       path: "heracreus/front"
@@ -155588,6 +155587,7 @@ species {
   visuals {
     icon {
       path: "grotom/icon"
+      palette: 1
     }
     front {
       path: "grotom/front"
@@ -156218,7 +156218,7 @@ species {
   visuals {
     icon {
       path: "abyssand/icon"
-      palette: 4
+      palette: 5
     }
     front {
       path: "abyssand/front"
@@ -156838,7 +156838,6 @@ species {
   visuals {
     icon {
       path: "dunkaccino/icon"
-      palette: 4
     }
     front {
       path: "dunkaccino/front"
@@ -157241,7 +157240,7 @@ species {
   visuals {
     icon {
       path: "spindaze/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "spindaze/front"
@@ -157866,7 +157865,7 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "hippotaton/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
@@ -157880,7 +157879,7 @@ species {
 species {
   id: SPECIES_HARVESTING_TYRANT
   dex {
-    name: "Harvesting Tyrant"
+    name: "Corn Tyrant"
     category: "???"
     description: "Hi i use this for implementing."
     national_dex_num: 1111
@@ -183597,7 +183596,6 @@ species {
   visuals {
     icon {
       path: "dragonite/mega/icon"
-      palette: 2
     }
     front {
       path: "dragonite/mega/front"
@@ -189294,7 +189292,7 @@ species {
   visuals {
     icon {
       path: "zapdos/mega/icon"
-      palette: 4
+      palette: 2
     }
     front {
       path: "zapdos/mega/front"
@@ -189338,7 +189336,6 @@ species {
   visuals {
     icon {
       path: "articuno/mega/icon"
-      palette: 4
     }
     front {
       path: "articuno/mega/front"
@@ -189490,7 +189487,7 @@ species {
   visuals {
     icon {
       path: "zapdos/ex/icon"
-      palette: 4
+      palette: 2
     }
     front {
       path: "zapdos/ex/front"
@@ -190750,7 +190747,6 @@ species {
   visuals {
     icon {
       path: "carbonix/mega/icon"
-      palette: 2
     }
     front {
       path: "carbonix/mega/front"
@@ -190876,6 +190872,7 @@ species {
   visuals {
     icon {
       path: "grotom/glass/icon"
+      palette: 3
     }
     front {
       path: "grotom/glass/front"
@@ -191001,6 +190998,7 @@ species {
   visuals {
     icon {
       path: "grotom/roll/icon"
+      palette: 5
     }
     front {
       path: "grotom/roll/front"
@@ -191161,7 +191159,7 @@ species {
   ability: ABILITY_QUICK_FEET
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_STRIKER
-  innate: ABILITY_STICKY_HOLD
+  innate: ABILITY_GOOEY
   genderless: true
   tier: 3
   learnset {
@@ -191254,6 +191252,7 @@ species {
   visuals {
     icon {
       path: "grotom/kick/icon"
+      palette: 5
     }
     front {
       path: "grotom/kick/front"
@@ -191379,6 +191378,7 @@ species {
   visuals {
     icon {
       path: "grotom/fill/icon"
+      palette: 3
     }
     front {
       path: "grotom/fill/front"
@@ -191423,7 +191423,7 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "heracreus/mega/icon"
     }
     front {
       path: "heracreus/mega/front"
@@ -191465,7 +191465,7 @@ species {
   tier: 3
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "wispywaspy/hivemind/icon"
     }
     front {
       path: "wispywaspy/hivemind/front"
@@ -191748,7 +191748,6 @@ species {
   visuals {
     icon {
       path: "vanilluxe/mega/icon"
-      palette: 4
     }
     front {
       path: "vanilluxe/mega/front"
@@ -192565,7 +192564,7 @@ species {
   }
   visuals {
     icon {
-      path: "litwick/icon"
+      path: "litwick/redux/icon"
       palette: 2
     }
     front {
@@ -192671,7 +192670,7 @@ species {
   }
   visuals {
     icon {
-      path: "lampent/icon"
+      path: "lampent/redux/icon"
       palette: 2
     }
     front {
@@ -192781,7 +192780,7 @@ species {
   }
   visuals {
     icon {
-      path: "chandelure/icon"
+      path: "chandelure/redux/icon"
       palette: 2
     }
     front {
@@ -192828,7 +192827,7 @@ species {
   }
   visuals {
     icon {
-      path: "chandelure/mega/icon"
+      path: "chandelure/redux/mega/icon"
       palette: 2
     }
     front {
@@ -194216,7 +194215,6 @@ species {
   visuals {
     icon {
       path: "bellsprout/redux/icon"
-      palette: 4
     }
     front {
       path: "bellsprout/redux/front"
@@ -194342,7 +194340,6 @@ species {
   visuals {
     icon {
       path: "weepinbell/redux/icon"
-      palette: 4
     }
     front {
       path: "weepinbell/redux/front"
@@ -194475,7 +194472,6 @@ species {
   visuals {
     icon {
       path: "victreebel/redux/icon"
-      palette: 4
     }
     front {
       path: "victreebel/redux/front"
@@ -194807,7 +194803,7 @@ species {
   visuals {
     icon {
       path: "tsareena/mega/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "tsareena/mega/front"
@@ -195425,7 +195421,7 @@ species {
   visuals {
     icon {
       path: "exeggcute/redux/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "exeggcute/redux/front"
@@ -195593,6 +195589,7 @@ species {
   visuals {
     icon {
       path: "luxray/redux/mega/icon"
+      palette: 4
     }
     front {
       path: "luxray/redux/mega/front"
@@ -203660,7 +203657,7 @@ species {
   visuals {
     icon {
       path: "weavile/redux/icon"
-      palette: 2
+      palette: 5
     }
     front {
       path: "weavile/redux/front"
@@ -203703,7 +203700,7 @@ species {
   visuals {
     icon {
       path: "weavile/redux_mega/icon"
-      palette: 2
+      palette: 5
     }
     front {
       path: "weavile/redux_mega/front"
@@ -207009,6 +207006,7 @@ species {
   visuals {
     icon {
       path: "cleffa/redux/icon"
+      palette: 4
     }
     front {
       path: "cleffa/redux/front"
@@ -207105,6 +207103,7 @@ species {
   visuals {
     icon {
       path: "clefairy/redux/icon"
+      palette: 4
     }
     front {
       path: "clefairy/redux/front"
@@ -207224,6 +207223,7 @@ species {
   visuals {
     icon {
       path: "clefable/redux/icon"
+      palette: 4
     }
     front {
       path: "clefable/redux/front"
@@ -210904,7 +210904,7 @@ species {
   }
   visuals {
     icon {
-      path: "lairon/icon"
+      path: "lairon/redux/icon"
       palette: 2
     }
     front {
