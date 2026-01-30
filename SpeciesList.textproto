@@ -19069,7 +19069,7 @@ species {
   spatk: 105
   spdef: 85
   spe: 115
-  ability: ABILITY_SWIFT_SWIM
+  ability: ABILITY_RAIN_SHROUD
   ability: ABILITY_RAGING_STORM
   ability: ABILITY_STORM_DRAIN
   innate: ABILITY_NATURAL_CURE
