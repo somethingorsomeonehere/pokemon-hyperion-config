@@ -31728,17 +31728,17 @@ species {
   type: TYPE_NORMAL
   type2: TYPE_PSYCHIC
   hp: 70
-  atk: 100
+  atk: 80
   def: 65
   spatk: 90
   spdef: 65
-  spe: 105
+  spe: 85
+  ability: ABILITY_STRONG_JAW
+  ability: ABILITY_HUBRIS
   ability: ABILITY_SCARE
-  ability: ABILITY_CONTRARY
-  ability: ABILITY_SAP_SIPPER
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_NOCTURNAL
-  innate: ABILITY_STRONG_JAW
+  innate: ABILITY_SAP_SIPPER
   percent_female: 50
   tier: 4
   heads: 2
