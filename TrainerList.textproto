@@ -40452,7 +40452,7 @@ trainer {
 trainer {
   id: TRAINER_WINONA_1
   name: "Winona"
-  forced_double: true
+  forced_double: false
   gender: FEMALE
   class: TRAINER_CLASS_LEADER
   pic: TRAINER_PIC_LEADER_WINONA
