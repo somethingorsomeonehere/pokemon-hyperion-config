@@ -40452,7 +40452,6 @@ trainer {
 trainer {
   id: TRAINER_WINONA_1
   name: "Winona"
-  forced_double: false
   gender: FEMALE
   class: TRAINER_CLASS_LEADER
   pic: TRAINER_PIC_LEADER_WINONA
@@ -67073,7 +67072,7 @@ trainer {
       species: SPECIES_MOLTRES
       item: ITEM_HEAT_ROCK
       nature: NATURE_TIMID
-      ability: ABILITY_AIR_BLOWER
+      ability: ABILITY_DROUGHT
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
