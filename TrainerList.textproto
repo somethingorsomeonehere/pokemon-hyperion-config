@@ -5925,82 +5925,83 @@ trainer {
   }
   hell {
     mon {
-      species: SPECIES_BLASTOISE
-      item: ITEM_WISE_GLASSES
-      nature: NATURE_MODEST
-      ability: ABILITY_STAMINA
-      hp_ev: 252
-      spatk_ev: 252
-      spdef_ev: 4
-      move: MOVE_HYDRO_CANNON
-      move: MOVE_BUBBLE_BEAM
-      move: MOVE_ICE_BEAM
-      move: MOVE_FAKE_OUT
-    }
-    mon {
-      species: SPECIES_CARNIVINE
-      item: ITEM_LIFE_ORB
-      nature: NATURE_JOLLY
-      ability: ABILITY_OPPORTUNIST
-      hp_ev: 252
-      atk_ev: 252
-      spe_ev: 4
-      move: MOVE_FERTILE_FANGS
-      move: MOVE_CRUNCH
-      move: MOVE_SNAP_TRAP
-      move: MOVE_LEAFAGE
-    }
-    mon {
-      species: SPECIES_MACHAMP_REDUX
-      item: ITEM_SHELL_BELL
+      species: SPECIES_LATIOS
+      item: ITEM_LATIOSITE
       nature: NATURE_TIMID
-      ability: ABILITY_MULTISCALE
-      hp_ev: 4
-      atk_ev: 252
+      ability: ABILITY_AVENGER
       def_ev: 252
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_DUAL_CHOP
-      move: MOVE_HARD_PRESS
-      move: MOVE_REVENGE
-    }
-    mon {
-      species: SPECIES_MUK_ALOLAN
-      item: ITEM_ASSAULT_VEST
-      nature: NATURE_ADAMANT
-      ability: ABILITY_REGENERATOR
-      hp_ev: 252
-      atk_ev: 252
-      spdef_ev: 4
-      move: MOVE_KNOCK_OFF
-      move: MOVE_GUNK_SHOT
-      move: MOVE_DIAMOND_ARROW
-      move: MOVE_FORCE_PALM
-    }
-    mon {
-      species: SPECIES_CORVIKNIGHT
-      item: ITEM_LIFE_ORB
-      nature: NATURE_MODEST
-      ability: ABILITY_IMPENETRABLE
-      def_ev: 4
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_STEEL_BEAM
-      move: MOVE_HURRICANE
-      move: MOVE_OMINOUS_WIND
-      move: MOVE_TAKE_FLIGHT
+      move: MOVE_FLASH_CANNON
+      move: MOVE_LUSTER_PURGE
+      move: MOVE_DRAGON_PULSE
+      move: MOVE_AURA_SPHERE
     }
     mon {
-      species: SPECIES_BARBARACLE
-      item: ITEM_BARBARACITE
-      nature: NATURE_ADAMANT
-      ability: ABILITY_ANTICIPATION
+      species: SPECIES_ELECTIVIRE
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_JOLLY
+      ability: ABILITY_TRANSISTOR
       hp_ev: 252
       atk_ev: 252
-      spe_ev: 4
-      move: MOVE_RAZOR_SHELL
-      move: MOVE_JAGGED_HORNS
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_HEADLONG_RUSH
       move: MOVE_ICE_PUNCH
-      move: MOVE_ACCELEROCK
+    }
+    mon {
+      species: SPECIES_FLUTTER_MANE
+      item: ITEM_BOOSTER_ENERGY
+      nature: NATURE_TIMID
+      ability: ABILITY_SOUL_EATER
+      def_ev: 252
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SHADOW_BALL
+      move: MOVE_MOONBLAST
+      move: MOVE_EARTH_POWER
+      move: MOVE_PSYCHIC_NOISE
+    }
+    mon {
+      species: SPECIES_URSHIFU_RAPID_STRIKE_STYLE
+      item: ITEM_URSHIFITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_PRETENTIOUS
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SURGING_STRIKES
+      move: MOVE_JET_PUNCH
+      move: MOVE_TRIPLE_KICK
+    }
+    mon {
+      species: SPECIES_SCEPTILE
+      item: ITEM_LIFE_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_PROTEAN
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_BULLET_SEED
+      move: MOVE_SCALE_SHOT
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_ARM_THRUST
+    }
+    mon {
+      species: SPECIES_BARRASKEWDA
+      item: ITEM_MYSTIC_WATER
+      nature: NATURE_JOLLY
+      ability: ABILITY_RAIN_SHROUD
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_VOLT_BOLT
+      move: MOVE_AQUA_JET
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_ZEPHYR_RUSH
     }
   }
 }
