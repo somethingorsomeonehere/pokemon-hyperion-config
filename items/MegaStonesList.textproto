@@ -1146,13 +1146,13 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_SENZU
-  name: "Senzu Bean"
-  description: "This bean enables Lucario to Mega Evolve."
+  id: ITEM_LUCARIONITE_Z
+  name: "Lucarionite Z"
+  description: "Enables Lucario to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
-  image: "senzu"
-  palette: "senzu"
+  image: "lucarionite"
+  palette: "lucarionite"
   adoption_center: true
 }
 item {
@@ -1246,8 +1246,8 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_GOLISOPODITE
-  name: "Golisopodite"
+  id: ITEM_GOLISOPITE
+  name: "Golisopite"
   description: "Enables Golisopod to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -1849,16 +1849,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
-  adoption_center: true
-}
-item {
-  id: ITEM_KINGDRANITE_Y
-  name: "Kingdranite Y"
-  description: "Enables Kingdra to Mega Evolve."
-  grouping: POCKET_MEGA_STONES
-  hold_effect: HOLD_EFFECT_MEGA_STONE
-  image: "kingdranite"
-  palette: "kingdranite"
   adoption_center: true
 }
 item {
@@ -2734,9 +2724,157 @@ item {
   adoption_center: true
 }
 item {
-  id: ITEM_VICTREEBELITE
-  name: "Victreebelite"
-  description: "Enables Victreebel to Mega Evolve."
+  id: ITEM_CHIMECHITE
+  name: "Chimechite"
+  description: "Enables Chimecho to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_ABSOLITE_Z
+  name: "Absolite Z"
+  description: "Enables Absol to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GARCHOMPITE_Z
+  name: "Garchompite Z"
+  description: "Enables Garchomp to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_STARAPTITE
+  name: "Staraptite"
+  description: "Enables Staraptor to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_HEATRANITE
+  name: "Heatranite"
+  description: "Enables Heatran to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_DARKRANITE
+  name: "Darkranite"
+  description: "Enables Darkrai to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_GOLURKITE
+  name: "Golurkite"
+  description: "Enables Golurk to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_MEOWSTICITE
+  name: "Meowsticite"
+  description: "Enables Meowstic to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_CRABOMINITE
+  name: "Crabominite"
+  description: "Enables Crabominable to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GOLISOPITE_Y
+  name: "Golisopite Y"
+  description: "Enables Golisopod to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_MAGEARNITE
+  name: "Magearnite"
+  description: "Enables Magearna to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_ZERAORITE
+  name: "Zeraorite"
+  description: "Enables Zeraora to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_SCOVILLAINITE
+  name: "Scovillainite"
+  description: "Enables Scovillain to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_GLIMMORANITE
+  name: "Glimmoranite"
+  description: "Enables Glimmora to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_TATSUGIRINITE
+  name: "Tatsugirinite"
+  description: "Enables Tatsugiri to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
+  id: ITEM_BAXCALIBRITE
+  name: "Baxcalibrite"
+  description: "Enables Baxcalibur to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"

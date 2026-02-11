@@ -5158,14 +5158,14 @@ trainer {
     }
     mon {
       species: SPECIES_KINGDRA
-      item: ITEM_KINGDRANITE_Y
+      item: ITEM_KINGDRANITE
       nature: NATURE_NAIVE
       ability: ABILITY_RAGING_STORM
       atk_ev: 252
       spatk_ev: 4
       spe_ev: 252
       move: MOVE_RAPID_RIVER
-      move: MOVE_ZAP_CANNON
+      move: MOVE_DRACO_METEOR
       move: MOVE_GUNK_SHOT
       move: MOVE_BREAKING_SWIPE
     }
@@ -16781,14 +16781,14 @@ trainer {
     }
     mon {
       species: SPECIES_KINGDRA
-      item: ITEM_KINGDRANITE_Y
+      item: ITEM_KINGDRANITE
       nature: NATURE_TIMID
       ability: ABILITY_SWIFT_SWIM
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_ZAP_CANNON
-      move: MOVE_OCTAZOOKA
+      move: MOVE_DRACO_METEOR
+      move: MOVE_HYDRO_PUMP
       move: MOVE_DRAGON_PULSE
       move: MOVE_WATER_GUN
     }
@@ -28015,7 +28015,7 @@ trainer {
     }
     mon {
       species: SPECIES_GOLISOPOD
-      item: ITEM_GOLISOPODITE
+      item: ITEM_GOLISOPITE_Y
       nature: NATURE_ADAMANT
       ability: ABILITY_TOUGH_CLAWS
       hp_ev: 252
@@ -41931,8 +41931,8 @@ trainer {
       move: MOVE_RETURN
     }
     mon {
-      species: SPECIES_CRABRUISER
-      item: ITEM_ASSAULT_VEST
+      species: SPECIES_CRABOMINABLE
+      item: ITEM_CRABOMINITE
       nature: NATURE_ADAMANT
       ability: ABILITY_SUPER_SLAMMER
       hp_ev: 252
@@ -67296,7 +67296,7 @@ trainer {
     }
     mon {
       species: SPECIES_GOLISOPOD
-      item: ITEM_GOLISOPODITE
+      item: ITEM_GOLISOPITE_Y
       nature: NATURE_JOLLY
       ability: ABILITY_PREDATOR
       hp_ev: 252
@@ -81417,13 +81417,13 @@ trainer {
     }
     mon {
       species: SPECIES_KINGDRA
-      item: ITEM_KINGDRANITE_Y
+      item: ITEM_KINGDRANITE
       nature: NATURE_TIMID
       ability: ABILITY_SKILL_LINK
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_ZAP_CANNON
+      move: MOVE_DRACO_METEOR
       move: MOVE_SNIPE_SHOT
       move: MOVE_ICE_BEAM
       move: MOVE_WYRM_WIND
@@ -81993,19 +81993,6 @@ trainer {
   }
   hell {
     mon {
-      species: SPECIES_KNAIVER
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_POLLINATE
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_ACROBATICS
-      move: MOVE_QUICK_ATTACK
-      move: MOVE_PURSUIT
-      move: MOVE_SLASH
-    }
-    mon {
       species: SPECIES_RAICHU
       item: ITEM_LIGHT_BALL
       nature: NATURE_JOLLY
@@ -82403,7 +82390,7 @@ trainer {
     }
     mon {
       species: SPECIES_GOLISOPOD
-      item: ITEM_GOLISOPODITE
+      item: ITEM_GOLISOPITE_Y
       nature: NATURE_ADAMANT
       ability: ABILITY_TOUGH_CLAWS
       hp_ev: 252
@@ -82946,21 +82933,8 @@ trainer {
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
       move: MOVE_BUBBLE
+      }
     }
-    mon {
-      species: SPECIES_KNAIVER
-      item: ITEM_BUG_GEM
-      nature: NATURE_JOLLY
-      ability: ABILITY_POLLINATE
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_POUNCE
-      move: MOVE_ACROBATICS
-      move: MOVE_SHARPEN
-      move: MOVE_QUICK_ATTACK
-    }
-  }
   elite {
     mon {
       species: SPECIES_SPIDOPS
@@ -82987,19 +82961,6 @@ trainer {
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
       move: MOVE_BUBBLE
-    }
-    mon {
-      species: SPECIES_KNAIVER
-      item: ITEM_BUG_GEM
-      nature: NATURE_JOLLY
-      ability: ABILITY_POLLINATE
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_SLASH
-      move: MOVE_ACROBATICS
-      move: MOVE_SHARPEN
-      move: MOVE_QUICK_ATTACK
     }
   }
   hell {
@@ -95252,7 +95213,7 @@ trainer {
     }
     mon {
       species: SPECIES_GOLISOPOD
-      item: ITEM_GOLISOPODITE
+      item: ITEM_GOLISOPITE_Y
       nature: NATURE_ADAMANT
       ability: ABILITY_TOUGH_CLAWS
       hp_ev: 252
@@ -104856,7 +104817,7 @@ trainer {
     }
     mon {
       species: SPECIES_LUCARIO
-      item: ITEM_SENZU
+      item: ITEM_LUCARIONITE_Z
       nature: NATURE_TIMID
       ability: ABILITY_JUSTIFIED
       hp_ev: 4
@@ -115896,7 +115857,7 @@ trainer {
       move: MOVE_CRUNCH
     }
     mon {
-      species: SPECIES_CRABRUISER
+      species: SPECIES_CRABOMINABLE
       item: ITEM_SITRUS_BERRY
       nature: NATURE_ADAMANT
       ability: ABILITY_RAGING_BOXER
@@ -116259,7 +116220,7 @@ trainer {
       move: MOVE_MAKE_IT_RAIN
     }
     mon {
-      species: SPECIES_CRABRUISER
+      species: SPECIES_CRABOMINABLE
       item: ITEM_PUNCHING_GLOVE
       nature: NATURE_BRAVE
       ability: ABILITY_RAGING_BOXER

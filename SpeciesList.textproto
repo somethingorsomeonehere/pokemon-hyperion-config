@@ -104202,9 +104202,9 @@ species {
   spatk: 93
   spdef: 81
   spe: 104
-  ability: ABILITY_PSYCHIC_SURGE
   ability: ABILITY_PRANKSTER
   ability: ABILITY_SAGE_POWER
+  ability: ABILITY_PSYCHIC_SURGE
   innate: ABILITY_PSYCHIC_MIND
   innate: ABILITY_INFILTRATOR
   innate: ABILITY_SOUL_HEART
@@ -112858,10 +112858,6 @@ species {
   innate: ABILITY_ANGER_POINT
   innate: ABILITY_PERMAFROST
   percent_female: 50
-  evo {
-    to: SPECIES_CRABRUISER
-    level: 55
-  }
   learnset {
     level {
       level: 1
@@ -151199,7 +151195,13 @@ species {
 }
 species {
   id: SPECIES_CRABRUISER_REDUX
-  form_of: SPECIES_CRABRUISER
+  dex {
+    name: "Crabruiser"
+    national_dex_num: 1059
+    body_color: BODY_COLOR_WHITE
+    egg_group: WATER_1
+    egg_group_2: FIELD
+  }
   type: TYPE_FIGHTING
   type2: TYPE_DARK
   hp: 107
@@ -152330,129 +152332,6 @@ species {
     }
     palette: "burmy/eterna/normal"
     shiny: "burmy/eterna/shiny"
-  }
-}
-species {
-  id: SPECIES_KNAIVER
-  dex {
-    name: "Knaiver"
-    category: "Hatchling"
-    description: "An elusive Pok\303\251mon, it adapts to almost any surroundings, scavenging until it reaches its incredible potential."
-    national_dex_num: 1071
-    body_color: BODY_COLOR_GREEN
-    egg_group: BUG
-    height: 4
-    weight: 40
-  }
-  type: TYPE_BUG
-  hp: 50
-  atk: 80
-  def: 60
-  spatk: 45
-  spdef: 60
-  spe: 75
-  ability: ABILITY_POLLINATE
-  ability: ABILITY_HYPER_CUTTER
-  ability: ABILITY_INTIMIDATE
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_SWARM
-  innate: ABILITY_TECHNICIAN
-  percent_female: 50
-  tier: 3
-  evo {
-    to: SPECIES_SCYTHER
-    level: 28
-  }
-  evo {
-    to: SPECIES_SCIZOR
-    level: 28
-  }
-  evo {
-    to: SPECIES_KLEAVOR
-    level: 28
-  }
-  learnset {
-    level {
-      level: 1
-      move: MOVE_POUNCE
-      move: MOVE_QUICK_ATTACK
-      move: MOVE_QUICK_GUARD
-      move: MOVE_SCRATCH
-      move: MOVE_SHARPEN
-    }
-    level {
-      level: 17
-      move: MOVE_LUNGE
-      move: MOVE_SILVER_WIND
-    }
-    level {
-      level: 24
-      move: MOVE_SLASH
-    }
-    level {
-      level: 37
-      move: MOVE_STRUGGLE_BUG
-    }
-    level {
-      level: 46
-      move: MOVE_BATON_PASS
-    }
-    level {
-      level: 51
-      move: MOVE_GUILLOTINE
-    }
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_AGILITY
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_BUG_BITE
-    tutor: MOVE_BUG_BUZZ
-    tutor: MOVE_COUNTER
-    tutor: MOVE_CUT
-    tutor: MOVE_DEFOG
-    tutor: MOVE_FALSE_SWIPE
-    tutor: MOVE_FEINT
-    tutor: MOVE_NIGHT_SLASH
-    tutor: MOVE_PURSUIT
-    tutor: MOVE_RETALIATE
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_U_TURN
-    tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_ROOST
-  }
-  visuals {
-    icon {
-      path: "knaiver/icon"
-      palette: 4
-    }
-    front {
-      path: "knaiver/front"
-      coords {
-        y_offset: 5
-      }
-    }
-    back {
-      path: "knaiver/back"
-      coords {
-        size: 136
-        y_offset: 6
-      }
-    }
-    palette: "knaiver/normal"
-    shiny: "knaiver/shiny"
-  }
-  preferred_climate {
-    land: CLIMATE_FOREST
-    land: CLIMATE_JUNGLE
-    land: CLIMATE_TEMPERATE
-    cut: true
-    berries: true
-  }
-  allowed_climate {
-    land: CLIMATE_ARID
-    land: CLIMATE_TROPICAL
-    land: CLIMATE_ASH
-    land: CLIMATE_CAVE
   }
 }
 species {
@@ -155995,20 +155874,8 @@ species {
   }
 }
 species {
-  id: SPECIES_CRABRUISER
-  dex {
-    name: "Crabruiser"
-    category: "Woolly Crab"
-    description: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pok\303\251mon evolved and grew thick fur."
-    national_dex_num: 1130
-    body_color: BODY_COLOR_WHITE
-    egg_group: WATER_3
-    height: 17
-    weight: 1800
-    pokemon_scale: 356
-    trainer_scale: 256
-    pokemon_offset: 17
-  }
+  id: SPECIES_CRABOMINABLE_MEGA
+  form_of: SPECIES_CRABOMINABLE
   type: TYPE_FIGHTING
   type2: TYPE_ICE
   hp: 127
@@ -156024,81 +155891,17 @@ species {
   innate: ABILITY_ANGER_POINT
   innate: ABILITY_FRISK
   percent_female: 50
-  learnset {
-    level {
-      level: 1
-      move: MOVE_BUBBLE_BEAM
-      move: MOVE_CRABHAMMER
-      move: MOVE_ICE_SHARD
-      move: MOVE_ROCK_SMASH
-      move: MOVE_SLAM
-      move: MOVE_TORRENT_FIST
-      move: MOVE_ARM_THRUST
-    }
-    level {
-      level: 17
-      move: MOVE_BLOCK
-      move: MOVE_BRICK_BREAK
-      move: MOVE_DYNAMIC_PUNCH
-      move: MOVE_REVERSAL
-      move: MOVE_MEGATON_HAMMER
-    }
-    level {
-      level: 24
-      move: MOVE_AVALANCHE
-      move: MOVE_CHILLING_WATER
-      move: MOVE_SCARY_FACE
-      move: MOVE_SMASHIN_REALITIES
-    }
-    level {
-      level: 37
-      move: MOVE_AMNESIA
-      move: MOVE_SUPERPOWER
-    }
-    level {
-      level: 46
-      move: MOVE_DRAIN_PUNCH
-    }
-    level {
-      level: 51
-      move: MOVE_HAMMER_ARM
-      move: MOVE_ICE_HAMMER
-      move: MOVE_AURORA_VEIL
-    }
-    tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_BREAKING_SWIPE
-    tutor: MOVE_BUBBLE
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_CRUSH_CLAW
-    tutor: MOVE_DOUBLE_LARIAT
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_FOCUS_PUNCH
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_IRON_DEFENSE
-    tutor: MOVE_LIQUIDATION
-    tutor: MOVE_MIST
-    tutor: MOVE_POWER_UP_PUNCH
-    tutor: MOVE_SOAK
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_TAUNT
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_ONE_INCH_PUNCH
-    tutor: MOVE_WATER_PULSE
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_BLIZZARD
+  mega {
+    from: SPECIES_CRABOMINABLE
+    item: ITEM_CRABOMINITE
   }
   visuals {
     icon {
-      path: "crabruiser/icon"
+      path: "crabominable/mega/icon"
       palette: 2
     }
     front {
-      path: "crabruiser/front"
+      path: "crabominable/mega/front"
       anim: ANIM_SHRINK_GROW_VIBRATE_FAST
       coords {
         size: 69
@@ -156106,13 +155909,13 @@ species {
       }
     }
     back {
-      path: "crabruiser/back"
+      path: "crabominable/mega/back"
       coords {
         size: 136
       }
     }
-    palette: "crabruiser/normal"
-    shiny: "crabruiser/shiny"
+    palette: "crabominable/mega/normal"
+    shiny: "crabominable/mega/shiny"
   }
 }
 species {
@@ -172076,9 +171879,9 @@ species {
   spatk: 103
   spdef: 81
   spe: 104
+  ability: ABILITY_SAGE_POWER
   ability: ABILITY_SHEER_FORCE
   ability: ABILITY_PSYCHIC_SURGE
-  ability: ABILITY_SAGE_POWER
   innate: ABILITY_PSYCHIC_MIND
   innate: ABILITY_COMPETITIVE
   innate: ABILITY_HYPER_AGGRESSIVE
@@ -178701,6 +178504,10 @@ species {
   innate: ABILITY_HIGH_TIDE
   innate: ABILITY_OPPORTUNIST
   percent_female: 50
+  mega {
+    from: SPECIES_TATSUGIRI_CURLY
+    item: ITEM_TATSUGIRINITE
+  }
   form_shift_of: SPECIES_TATSUGIRI
   visuals {
     icon {
@@ -180091,19 +179898,39 @@ species {
   form_of: SPECIES_RAICHU
   type: TYPE_ELECTRIC
   hp: 60
-  atk: 90
-  def: 55
-  spatk: 90
+  atk: 100
+  def: 60
+  spatk: 160
   spdef: 80
-  spe: 115
+  spe: 130
   ability: ABILITY_EARTHBOUND
   ability: ABILITY_GENERATOR
   ability: ABILITY_ELECTRIC_BURST
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_STATIC
+  innate: ABILITY_GENERATOR
+  innate: ABILITY_SHINY_LIGHTNING
   innate: ABILITY_GROUND_SHOCK
   percent_female: 50
-  reuse_visuals: SPECIES_RAICHU
+  mega {
+    from: SPECIES_RAICHU
+    item: ITEM_RAICHUNITE_Y
+    type: MEGA_Y
+  }
+  visuals {
+    icon {
+      path: "raichu/mega_y/icon"
+    }
+    front {
+      path: "raichu/mega_y/front"
+    }
+    back {
+      path: "raichu/mega_y/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "raichu/mega_y/normal"
+    shiny: "raichu/mega_y/shiny"
+  }
 }
 species {
   id: SPECIES_CASTFORM_FOGGY
@@ -181480,10 +181307,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "zygarde/complete/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "zygarde/complete/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181491,15 +181318,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "zygarde/complete/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "zygarde/complete/mega/normal"
+    shiny: "zygarde/complete/mega/shiny"
   }
 }
 species {
@@ -181736,940 +181563,6 @@ species {
     palette: "froslass/mega_y/normal"
     shiny: "froslass/mega_y/shiny"
   }
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  hp: 80
-  atk: 105
-  def: 79
-  spatk: 35
-  spdef: 110
-  ability: ABILITY_PRECISE_FIST
-  ability: ABILITY_BLITZ_BOXER
-  ability: ABILITY_RAGING_BOXER
-  innate: ABILITY_INNER_FOCUS
-  innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_PERFECTIONIST
-  percent_female: 0
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  type2: TYPE_GROUND
-  hp: 80
-  atk: 145
-  def: 99
-  spatk: 35
-  spdef: 120
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  innate: ABILITY_RAGING_BOXER
-  innate: ABILITY_POWER_FISTS
-  innate: ABILITY_BLITZ_BOXER
-  percent_female: 0
-  mega {
-    from: SPECIES_HITMONCHAN_PARTNER
-    item: ITEM_HITMONCHANITE
-  }
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN_MEGA
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 75
-  def: 85
-  spatk: 115
-  spdef: 90
-  ability: ABILITY_GROUND_SHOCK
-  ability: ABILITY_LIGHTNING_ROD
-  ability: ABILITY_ELECTRIC_SURGE
-  innate: ABILITY_DAZZLING
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_OVERWHELM
-  percent_female: 50
-  uses_learnset: SPECIES_AMPHAROS
-  reuse_visuals: SPECIES_AMPHAROS
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 95
-  def: 105
-  spatk: 165
-  spdef: 110
-  ability: ABILITY_OVERWHELM
-  ability: ABILITY_DAZZLING
-  ability: ABILITY_MOLD_BREAKER
-  innate: ABILITY_FLUFFY
-  innate: ABILITY_OVERCHARGE
-  innate: ABILITY_TRANSISTOR
-  percent_female: 50
-  mega {
-    from: SPECIES_AMPHAROS_PARTNER
-    item: ITEM_AMPHAROSITE
-  }
-}
-species {
-  id: SPECIES_VOLCARONA_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_VOLCARONA
-  type: TYPE_BUG
-  type2: TYPE_FIRE
-  hp: 85
-  atk: 60
-  def: 65
-  spatk: 135
-  spdef: 105
-  ability: ABILITY_COMPOUND_EYES
-  ability: ABILITY_FLASH_FIRE
-  ability: ABILITY_DROUGHT
-  innate: ABILITY_SWARM
-  innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_LEVITATE
-  percent_female: 50
-  uses_learnset: SPECIES_VOLCARONA
-  reuse_visuals: SPECIES_VOLCARONA
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 95
-  def: 80
-  spatk: 40
-  spdef: 80
-  ability: ABILITY_IRON_FIST
-  ability: ABILITY_TECHNICIAN
-  ability: ABILITY_GUTS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  tier: 3
-  uses_learnset: SPECIES_KANGASKHAN
-  reuse_visuals: SPECIES_KANGASKHAN
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 125
-  def: 100
-  spatk: 60
-  spdef: 100
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  mega {
-    from: SPECIES_KANGASKHAN_PARTNER
-    item: ITEM_KANGASKHANITE
-    type: MEGA_X
-  }
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_FLYING
-  hp: 91
-  atk: 134
-  def: 95
-  spatk: 100
-  spdef: 100
-  ability: ABILITY_DRAGONS_MAW
-  ability: ABILITY_AERILATE
-  ability: ABILITY_PRISM_SCALES
-  innate: ABILITY_MULTISCALE
-  innate: ABILITY_OVERWHELM
-  innate: ABILITY_RAMPAGE
-  percent_female: 50
-  uses_learnset: SPECIES_DRAGONITE
-  reuse_visuals: SPECIES_DRAGONITE
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_ELECTRIC
-  hp: 91
-  atk: 159
-  def: 120
-  spatk: 125
-  spdef: 125
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  innate: ABILITY_GALVANIZE
-  innate: ABILITY_DISCIPLINE
-  innate: ABILITY_THUNDERCALL
-  percent_female: 50
-  mega {
-    from: SPECIES_DRAGONITE_PARTNER
-    item: ITEM_DRAGONINITE
-  }
-  uses_learnset: SPECIES_DRAGONITE
-}
-species {
-  id: SPECIES_REUNICLUS_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_REUNICLUS
-  type: TYPE_PSYCHIC
-  hp: 110
-  atk: 65
-  def: 75
-  spatk: 125
-  spdef: 85
-  ability: ABILITY_OVERCOAT
-  ability: ABILITY_NEUROFORCE
-  ability: ABILITY_TWISTED_DIMENSION
-  innate: ABILITY_REGENERATOR
-  innate: ABILITY_LIQUIFIED
-  innate: ABILITY_MAGIC_GUARD
-  percent_female: 50
-  uses_learnset: SPECIES_REUNICLUS
-  reuse_visuals: SPECIES_REUNICLUS
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 95
-  def: 95
-  spatk: 95
-  spdef: 95
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_HYDRATION
-  innate: ABILITY_PRISM_SCALES
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  uses_learnset: SPECIES_KINGDRA
-  reuse_visuals: SPECIES_KINGDRA
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER_MEGA
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 105
-  def: 100
-  spatk: 145
-  spdef: 100
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SNIPER
-  ability: ABILITY_ADAPTABILITY
-  innate: ABILITY_SEA_GUARDIAN
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  mega {
-    from: SPECIES_KINGDRA_PARTNER
-    item: ITEM_KINGDRANITE
-  }
-}
-species {
-  id: SPECIES_AMAURA_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMAURA
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 77
-  atk: 59
-  def: 50
-  spatk: 87
-  spdef: 63
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_FOSSILIZED
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  tier: 4
-  uses_learnset: SPECIES_AMAURA
-  reuse_visuals: SPECIES_AMAURA
-}
-species {
-  id: SPECIES_AURORUS_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AURORUS
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 123
-  atk: 77
-  def: 72
-  spatk: 119
-  spdef: 92
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_ICE_BODY
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  uses_learnset: SPECIES_AURORUS
-  reuse_visuals: SPECIES_AURORUS
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  hp: 80
-  atk: 105
-  def: 79
-  spatk: 35
-  spdef: 110
-  ability: ABILITY_PRECISE_FIST
-  ability: ABILITY_BLITZ_BOXER
-  ability: ABILITY_RAGING_BOXER
-  innate: ABILITY_INNER_FOCUS
-  innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_PERFECTIONIST
-  percent_female: 0
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER_MEGA_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  type2: TYPE_GROUND
-  hp: 80
-  atk: 145
-  def: 99
-  spatk: 35
-  spdef: 120
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  innate: ABILITY_RAGING_BOXER
-  innate: ABILITY_POWER_FISTS
-  innate: ABILITY_BLITZ_BOXER
-  percent_female: 0
-  mega {
-    from: SPECIES_HITMONCHAN_PARTNER_B
-    item: ITEM_HITMONCHANITE
-    type: MEGA_B
-  }
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN_MEGA
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 75
-  def: 85
-  spatk: 115
-  spdef: 90
-  ability: ABILITY_GROUND_SHOCK
-  ability: ABILITY_LIGHTNING_ROD
-  ability: ABILITY_ELECTRIC_SURGE
-  innate: ABILITY_DAZZLING
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_OVERWHELM
-  percent_female: 50
-  uses_learnset: SPECIES_AMPHAROS
-  reuse_visuals: SPECIES_AMPHAROS
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER_MEGA_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 95
-  def: 105
-  spatk: 165
-  spdef: 110
-  ability: ABILITY_OVERWHELM
-  ability: ABILITY_DAZZLING
-  ability: ABILITY_MOLD_BREAKER
-  innate: ABILITY_FLUFFY
-  innate: ABILITY_OVERCHARGE
-  innate: ABILITY_TRANSISTOR
-  percent_female: 50
-  mega {
-    from: SPECIES_AMPHAROS_PARTNER_B
-    item: ITEM_AMPHAROSITE
-    type: MEGA_B
-  }
-}
-species {
-  id: SPECIES_VOLCARONA_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_VOLCARONA
-  type: TYPE_BUG
-  type2: TYPE_FIRE
-  hp: 85
-  atk: 60
-  def: 65
-  spatk: 135
-  spdef: 105
-  ability: ABILITY_COMPOUND_EYES
-  ability: ABILITY_FLASH_FIRE
-  ability: ABILITY_DROUGHT
-  innate: ABILITY_SWARM
-  innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_LEVITATE
-  percent_female: 50
-  uses_learnset: SPECIES_VOLCARONA
-  reuse_visuals: SPECIES_VOLCARONA
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 95
-  def: 80
-  spatk: 40
-  spdef: 80
-  ability: ABILITY_IRON_FIST
-  ability: ABILITY_TECHNICIAN
-  ability: ABILITY_GUTS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  tier: 3
-  uses_learnset: SPECIES_KANGASKHAN
-  reuse_visuals: SPECIES_KANGASKHAN
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER_MEGA_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 125
-  def: 100
-  spatk: 60
-  spdef: 100
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  mega {
-    from: SPECIES_KANGASKHAN_PARTNER
-    item: ITEM_KANGASKHANITE
-    type: MEGA_B
-  }
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_FLYING
-  hp: 91
-  atk: 134
-  def: 95
-  spatk: 100
-  spdef: 100
-  ability: ABILITY_DRAGONS_MAW
-  ability: ABILITY_AERILATE
-  ability: ABILITY_PRISM_SCALES
-  innate: ABILITY_MULTISCALE
-  innate: ABILITY_OVERWHELM
-  innate: ABILITY_RAMPAGE
-  percent_female: 50
-  uses_learnset: SPECIES_DRAGONITE
-  reuse_visuals: SPECIES_DRAGONITE
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER_MEGA_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_ELECTRIC
-  hp: 91
-  atk: 159
-  def: 120
-  spatk: 125
-  spdef: 125
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  innate: ABILITY_GALVANIZE
-  innate: ABILITY_DISCIPLINE
-  innate: ABILITY_THUNDERCALL
-  percent_female: 50
-  mega {
-    from: SPECIES_DRAGONITE_PARTNER_B
-    item: ITEM_DRAGONINITE
-    type: MEGA_B
-  }
-  uses_learnset: SPECIES_DRAGONITE
-}
-species {
-  id: SPECIES_REUNICLUS_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_REUNICLUS
-  type: TYPE_PSYCHIC
-  hp: 110
-  atk: 65
-  def: 75
-  spatk: 125
-  spdef: 85
-  ability: ABILITY_OVERCOAT
-  ability: ABILITY_NEUROFORCE
-  ability: ABILITY_TWISTED_DIMENSION
-  innate: ABILITY_REGENERATOR
-  innate: ABILITY_LIQUIFIED
-  innate: ABILITY_MAGIC_GUARD
-  percent_female: 50
-  uses_learnset: SPECIES_REUNICLUS
-  reuse_visuals: SPECIES_REUNICLUS
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 95
-  def: 95
-  spatk: 95
-  spdef: 95
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_HYDRATION
-  innate: ABILITY_PRISM_SCALES
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  uses_learnset: SPECIES_KINGDRA
-  reuse_visuals: SPECIES_KINGDRA
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER_MEGA_B
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 105
-  def: 100
-  spatk: 145
-  spdef: 100
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SNIPER
-  ability: ABILITY_ADAPTABILITY
-  innate: ABILITY_SEA_GUARDIAN
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  mega {
-    from: SPECIES_KINGDRA_PARTNER_B
-    item: ITEM_KINGDRANITE
-    type: MEGA_B
-  }
-}
-species {
-  id: SPECIES_AMAURA_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMAURA
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 77
-  atk: 59
-  def: 50
-  spatk: 87
-  spdef: 63
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_FOSSILIZED
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  tier: 4
-  uses_learnset: SPECIES_AMAURA
-  reuse_visuals: SPECIES_AMAURA
-}
-species {
-  id: SPECIES_AURORUS_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AURORUS
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 123
-  atk: 77
-  def: 72
-  spatk: 119
-  spdef: 92
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_ICE_BODY
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  uses_learnset: SPECIES_AURORUS
-  reuse_visuals: SPECIES_AURORUS
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  hp: 80
-  atk: 105
-  def: 79
-  spatk: 35
-  spdef: 110
-  ability: ABILITY_PRECISE_FIST
-  ability: ABILITY_BLITZ_BOXER
-  ability: ABILITY_RAGING_BOXER
-  innate: ABILITY_INNER_FOCUS
-  innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_PERFECTIONIST
-  percent_female: 0
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN
-}
-species {
-  id: SPECIES_HITMONCHAN_PARTNER_MEGA_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_HITMONCHAN
-  type: TYPE_FIGHTING
-  type2: TYPE_GROUND
-  hp: 80
-  atk: 145
-  def: 99
-  spatk: 35
-  spdef: 120
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  ability: ABILITY_PARRY
-  innate: ABILITY_RAGING_BOXER
-  innate: ABILITY_POWER_FISTS
-  innate: ABILITY_BLITZ_BOXER
-  percent_female: 0
-  mega {
-    from: SPECIES_HITMONCHAN_PARTNER_B
-    item: ITEM_HITMONCHANITE
-    type: MEGA_C
-  }
-  uses_learnset: SPECIES_HITMONCHAN
-  reuse_visuals: SPECIES_HITMONCHAN_MEGA
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 75
-  def: 85
-  spatk: 115
-  spdef: 90
-  ability: ABILITY_GROUND_SHOCK
-  ability: ABILITY_LIGHTNING_ROD
-  ability: ABILITY_ELECTRIC_SURGE
-  innate: ABILITY_DAZZLING
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_OVERWHELM
-  percent_female: 50
-  uses_learnset: SPECIES_AMPHAROS
-  reuse_visuals: SPECIES_AMPHAROS
-}
-species {
-  id: SPECIES_AMPHAROS_PARTNER_MEGA_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMPHAROS
-  type: TYPE_ELECTRIC
-  type2: TYPE_DRAGON
-  hp: 110
-  atk: 95
-  def: 105
-  spatk: 165
-  spdef: 110
-  ability: ABILITY_OVERWHELM
-  ability: ABILITY_DAZZLING
-  ability: ABILITY_MOLD_BREAKER
-  innate: ABILITY_FLUFFY
-  innate: ABILITY_OVERCHARGE
-  innate: ABILITY_TRANSISTOR
-  percent_female: 50
-  mega {
-    from: SPECIES_AMPHAROS_PARTNER_B
-    item: ITEM_AMPHAROSITE
-    type: MEGA_C
-  }
-  reuse_visuals: SPECIES_AMPHAROS_MEGA
-}
-species {
-  id: SPECIES_VOLCARONA_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_VOLCARONA
-  type: TYPE_BUG
-  type2: TYPE_FIRE
-  hp: 85
-  atk: 60
-  def: 65
-  spatk: 135
-  spdef: 105
-  ability: ABILITY_COMPOUND_EYES
-  ability: ABILITY_FLASH_FIRE
-  ability: ABILITY_DROUGHT
-  innate: ABILITY_SWARM
-  innate: ABILITY_MAJESTIC_MOTH
-  innate: ABILITY_LEVITATE
-  percent_female: 50
-  uses_learnset: SPECIES_VOLCARONA
-  reuse_visuals: SPECIES_VOLCARONA
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 95
-  def: 80
-  spatk: 40
-  spdef: 80
-  ability: ABILITY_IRON_FIST
-  ability: ABILITY_TECHNICIAN
-  ability: ABILITY_GUTS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  tier: 3
-  uses_learnset: SPECIES_KANGASKHAN
-  reuse_visuals: SPECIES_KANGASKHAN
-}
-species {
-  id: SPECIES_KANGASKHAN_PARTNER_MEGA_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KANGASKHAN
-  type: TYPE_NORMAL
-  hp: 105
-  atk: 125
-  def: 100
-  spatk: 60
-  spdef: 100
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_PARENTAL_BOND
-  innate: ABILITY_SCRAPPY
-  innate: ABILITY_AVENGER
-  percent_female: 100
-  mega {
-    from: SPECIES_KANGASKHAN_PARTNER
-    item: ITEM_KANGASKHANITE
-    type: MEGA_C
-  }
-  reuse_visuals: SPECIES_KANGASKHAN_MEGA
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_FLYING
-  hp: 91
-  atk: 134
-  def: 95
-  spatk: 100
-  spdef: 100
-  ability: ABILITY_DRAGONS_MAW
-  ability: ABILITY_AERILATE
-  ability: ABILITY_PRISM_SCALES
-  innate: ABILITY_MULTISCALE
-  innate: ABILITY_OVERWHELM
-  innate: ABILITY_RAMPAGE
-  percent_female: 50
-  uses_learnset: SPECIES_DRAGONITE
-  reuse_visuals: SPECIES_DRAGONITE
-}
-species {
-  id: SPECIES_DRAGONITE_PARTNER_MEGA_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_DRAGONITE
-  type: TYPE_DRAGON
-  type2: TYPE_ELECTRIC
-  hp: 91
-  atk: 159
-  def: 120
-  spatk: 125
-  spdef: 125
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_MULTISCALE
-  innate: ABILITY_GALVANIZE
-  innate: ABILITY_DISCIPLINE
-  innate: ABILITY_THUNDERCALL
-  percent_female: 50
-  mega {
-    from: SPECIES_DRAGONITE_PARTNER_C
-    item: ITEM_DRAGONINITE
-    type: MEGA_C
-  }
-  uses_learnset: SPECIES_DRAGONITE
-  reuse_visuals: SPECIES_DRAGONITE_MEGA
-}
-species {
-  id: SPECIES_REUNICLUS_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_REUNICLUS
-  type: TYPE_PSYCHIC
-  hp: 110
-  atk: 65
-  def: 75
-  spatk: 125
-  spdef: 85
-  ability: ABILITY_OVERCOAT
-  ability: ABILITY_NEUROFORCE
-  ability: ABILITY_TWISTED_DIMENSION
-  innate: ABILITY_REGENERATOR
-  innate: ABILITY_LIQUIFIED
-  innate: ABILITY_MAGIC_GUARD
-  percent_female: 50
-  uses_learnset: SPECIES_REUNICLUS
-  reuse_visuals: SPECIES_REUNICLUS
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 95
-  def: 95
-  spatk: 95
-  spdef: 95
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_HYDRATION
-  innate: ABILITY_PRISM_SCALES
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  uses_learnset: SPECIES_KINGDRA
-  reuse_visuals: SPECIES_KINGDRA
-}
-species {
-  id: SPECIES_KINGDRA_PARTNER_MEGA_C
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 105
-  def: 100
-  spatk: 145
-  spdef: 100
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SNIPER
-  ability: ABILITY_ADAPTABILITY
-  innate: ABILITY_SEA_GUARDIAN
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  mega {
-    from: SPECIES_KINGDRA_PARTNER_C
-    item: ITEM_KINGDRANITE
-    type: MEGA_C
-  }
-  reuse_visuals: SPECIES_KINGDRA_MEGA
-}
-species {
-  id: SPECIES_AMAURA_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AMAURA
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 77
-  atk: 59
-  def: 50
-  spatk: 87
-  spdef: 63
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_FOSSILIZED
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  tier: 4
-  evo {
-    to: SPECIES_AURORUS_PARTNER
-    level: 36
-  }
-  uses_learnset: SPECIES_AMAURA
-  reuse_visuals: SPECIES_AMAURA
-}
-species {
-  id: SPECIES_AURORUS_PARTNER
-  randomizer_banned: SPECIES_HIDDEN
-  form_of: SPECIES_AURORUS
-  type: TYPE_ROCK
-  type2: TYPE_ICE
-  hp: 123
-  atk: 77
-  def: 72
-  spatk: 119
-  spdef: 92
-  ability: ABILITY_REFRIGERATE
-  ability: ABILITY_SOLID_ROCK
-  ability: ABILITY_SNOW_WARNING
-  innate: ABILITY_PRIMAL_ARMOR
-  innate: ABILITY_ICE_BODY
-  innate: ABILITY_PERMAFROST
-  percent_female: 12.5
-  uses_learnset: SPECIES_AURORUS
-  reuse_visuals: SPECIES_AURORUS
 }
 species {
   id: SPECIES_MILOTIC_MEGA
@@ -184015,51 +182908,6 @@ species {
   }
 }
 species {
-  id: SPECIES_KINGDRA_MEGA_Y
-  form_of: SPECIES_KINGDRA
-  type: TYPE_WATER
-  type2: TYPE_DRAGON
-  hp: 75
-  atk: 105
-  def: 95
-  spatk: 125
-  spdef: 95
-  spe: 145
-  ability: ABILITY_SURGE_SURFER
-  ability: ABILITY_TERMINAL_VELOCITY
-  ability: ABILITY_RAPID_RESPONSE
-  innate: ABILITY_TRANSISTOR
-  innate: ABILITY_SUPER_SCOPE
-  innate: ABILITY_MULTISCALE
-  percent_female: 50
-  mega {
-    from: SPECIES_KINGDRA
-    item: ITEM_KINGDRANITE_Y
-    type: MEGA_Y
-  }
-  visuals {
-    icon {
-      path: "kingdra/mega_y/icon"
-    }
-    front {
-      path: "kingdra/mega_y/front"
-      coords {
-        size: 135
-        elevation: 3
-      }
-    }
-    back {
-      path: "kingdra/mega_y/back"
-      coords {
-        size: 135
-        y_offset: 2
-      }
-    }
-    palette: "kingdra/mega_y/normal"
-    shiny: "kingdra/mega_y/shiny"
-  }
-}
-species {
   id: SPECIES_MEGANIUM_MEGA
   form_of: SPECIES_MEGANIUM
   type: TYPE_GRASS
@@ -185236,7 +184084,7 @@ species {
   }
 }
 species {
-  id: SPECIES_LUCARIO_MEGA_Y
+  id: SPECIES_LUCARIO_MEGA_Z
   form_of: SPECIES_LUCARIO
   type: TYPE_FIGHTING
   type2: TYPE_ELECTRIC
@@ -185255,8 +184103,8 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_LUCARIO
-    item: ITEM_SENZU
-    type: MEGA_Y
+    item: ITEM_LUCARIONITE_Z
+    type: MEGA_Z
   }
   visuals {
     icon {
@@ -185453,7 +184301,7 @@ species {
   region_prefix: REDUX
 }
 species {
-  id: SPECIES_GOLISOPOD_MEGA
+  id: SPECIES_GOLISOPOD_MEGA_Y
   form_of: SPECIES_GOLISOPOD
   type: TYPE_BUG
   type2: TYPE_WATER
@@ -185472,7 +184320,8 @@ species {
   percent_female: 50
   mega {
     from: SPECIES_GOLISOPOD
-    item: ITEM_GOLISOPODITE
+    item: ITEM_GOLISOPITE_Y
+    type: MEGA_Y
   }
   visuals {
     icon {
@@ -187588,7 +186437,7 @@ species {
   percent_female: 50
   tier: 4
   mega {
-    from: SPECIES_RAICHU_MEGA_Y
+    from: SPECIES_DURALUDON
     item: ITEM_DURALUDITE
   }
   visuals {
@@ -209646,105 +208495,6 @@ species {
   }
 }
 species {
-  id: SPECIES_KNAIVER_REDUX
-  form_of: SPECIES_KNAIVER
-  type: TYPE_POISON
-  type2: TYPE_DRAGON
-  hp: 50
-  atk: 75
-  def: 50
-  spatk: 70
-  spdef: 50
-  spe: 75
-  ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_SPEED_BOOST
-  ability: ABILITY_RAPID_RESPONSE
-  innate: ABILITY_MERCILESS
-  innate: ABILITY_ENVENOM
-  innate: ABILITY_TAG
-  percent_female: 50
-  tier: 3
-  evo {
-    to: SPECIES_SCYTHER_REDUX
-    level: 28
-  }
-  evo {
-    to: SPECIES_SCIZOR_REDUX
-    level: 28
-  }
-  evo {
-    to: SPECIES_KLEAVOR_REDUX
-    level: 28
-  }
-  learnset {
-    level {
-      level: 1
-      move: MOVE_POISON_GAS
-      move: MOVE_QUICK_ATTACK
-      move: MOVE_QUICK_GUARD
-      move: MOVE_SCRATCH
-      move: MOVE_SHARPEN
-    }
-    level {
-      level: 17
-      move: MOVE_SLUDGE
-      move: MOVE_DRACONIC_FANGS
-    }
-    level {
-      level: 24
-      move: MOVE_SLASH
-    }
-    level {
-      level: 37
-      move: MOVE_DUAL_CHOP
-    }
-    level {
-      level: 51
-      move: MOVE_DRACO_METEOR
-    }
-    tutor: MOVE_TOXIC
-    tutor: MOVE_TOXIC_TERRAIN
-    tutor: MOVE_DRAGON_CLAW
-    tutor: MOVE_DRAGON_PULSE
-    tutor: MOVE_DRAGON_CHEER
-    tutor: MOVE_DRAGON_JAB
-    tutor: MOVE_SLUDGE_BOMB
-    tutor: MOVE_POISON_JAB
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_NASTY_PLOT
-  }
-  visuals {
-    icon {
-      path: "knaiver/redux/icon"
-      palette: 5
-    }
-    front {
-      path: "knaiver/redux/front"
-      coords {
-        y_offset: 10
-      }
-    }
-    back {
-      path: "knaiver/redux/back"
-      coords {
-        size: 136
-        y_offset: 6
-      }
-    }
-    palette: "knaiver/redux/normal"
-    shiny: "knaiver/redux/shiny"
-  }
-  preferred_climate {
-    land: CLIMATE_DEEP_CAVE
-  }
-  allowed_climate {
-    land: CLIMATE_HOT_CAVE
-    land: CLIMATE_DESERT_CAVE
-    land: CLIMATE_SKY_PILLAR
-  }
-}
-species {
   id: SPECIES_SCYTHER_REDUX
   form_of: SPECIES_SCYTHER
   type: TYPE_POISON
@@ -212828,6 +211578,630 @@ species {
   }
 }
 species {
+  id: SPECIES_RAICHU_MEGA_X
+  form_of: SPECIES_RAICHU
+  type: TYPE_ELECTRIC
+  type2: TYPE_FIGHTING
+  hp: 60
+  atk: 135
+  def: 95
+  spatk: 90
+  spdef: 95
+  spe: 115
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_GROUND_SHOCK
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_RAICHU
+    item: ITEM_RAICHUNITE_X
+    type: MEGA_X
+  }
+  visuals {
+    icon {
+      path: "raichu/mega_x/icon"
+    }
+    front {
+      path: "raichu/mega_x/front"
+    }
+    back {
+      path: "raichu/mega_x/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "raichu/mega_x/normal"
+    shiny: "raichu/mega_x/shiny"
+  }
+}
+species {
+  id: SPECIES_CHIMECHO_MEGA
+  form_of: SPECIES_CHIMECHO
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_CHIMECHO
+    item: ITEM_CHIMECHITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_ABSOL_MEGA_Z
+  form_of: SPECIES_ABSOL
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_ABSOL
+    item: ITEM_ABSOLITE_Z
+    type: MEGA_Z
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_STARAPTOR_MEGA
+  form_of: SPECIES_STARAPTOR
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_STARAPTOR
+    item: ITEM_STARAPTITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_GARCHOMP_MEGA_Z
+  form_of: SPECIES_GARCHOMP
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_GARCHOMP
+    item: ITEM_GARCHOMPITE_Z
+    type: MEGA_Z
+  }
+  visuals {
+    icon {
+      path: "garchomp/mega_z/icon"
+    }
+    front {
+      path: "garchomp/mega_z/front"
+    }
+    back {
+      path: "garchomp/mega_z/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "garchomp/mega_z/normal"
+    shiny: "garchomp/mega_z/shiny"
+  }
+}
+species {
+  id: SPECIES_HEATRAN_MEGA
+  form_of: SPECIES_HEATRAN
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_HEATRAN
+    item: ITEM_HEATRANITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_DARKRAI_MEGA
+  form_of: SPECIES_DARKRAI
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  genderless: true
+  mega {
+    from: SPECIES_DARKRAI
+    item: ITEM_DARKRANITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_GOLURK_MEGA
+  form_of: SPECIES_GOLURK
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  genderless: true
+  mega {
+    from: SPECIES_GOLURK
+    item: ITEM_GOLURKITE
+  }
+  visuals {
+    icon {
+      path: "golurk/mega/icon"
+    }
+    front {
+      path: "golurk/mega/front"
+    }
+    back {
+      path: "golurk/mega/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "golurk/mega/normal"
+    shiny: "golurk/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_MEOWSTIC_MEGA
+  form_of: SPECIES_MEOWSTIC
+  type: TYPE_PSYCHIC
+  hp: 84
+  atk: 48
+  def: 86
+  spatk: 153
+  spdef: 101
+  spe: 124
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_HOVER
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 0
+  mega {
+    from: SPECIES_MEOWSTIC
+    item: ITEM_MEOWSTICITE
+  }
+  visuals {
+    icon {
+      path: "meowstic/mega/icon"
+    }
+    front {
+      path: "meowstic/mega/front"
+    }
+    back {
+      path: "meowstic/mega/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "meowstic/mega/normal"
+    shiny: "meowstic/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_GOLISOPOD_MEGA
+  form_of: SPECIES_GOLISOPOD
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_GOLISOPOD
+    item: ITEM_GOLISOPITE
+  }
+  visuals {
+    icon {
+      path: "golisopod/mega_y/icon"
+    }
+    front {
+      path: "golisopod/mega_y/front"
+    }
+    back {
+      path: "golisopod/mega_y/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "golisopod/mega_y/normal"
+    shiny: "golisopod/mega_y/shiny"
+  }
+}
+species {
+  id: SPECIES_MAGEARNA_MEGA
+  form_of: SPECIES_MAGEARNA
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  genderless: true
+  mega {
+    from: SPECIES_MAGEARNA
+    item: ITEM_MAGEARNITE
+  }
+  mega {
+    from: SPECIES_MAGEARNA_ORIGINAL_COLOR
+    item: ITEM_MAGEARNITE
+  }
+  visuals {
+    icon {
+      path: "magearna/mega/icon"
+    }
+    front {
+      path: "magearna/mega/front"
+    }
+    back {
+      path: "magearna/mega/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "magearna/mega/normal"
+    shiny: "magearna/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ZERAORA_MEGA
+  form_of: SPECIES_ZERAORA
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  genderless: true
+  mega {
+    from: SPECIES_ZERAORA
+    item: ITEM_ZERAORITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_SCOVILLAIN_MEGA
+  form_of: SPECIES_SCOVILLAIN
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_SCOVILLAIN
+    item: ITEM_SCOVILLAINITE
+  }
+  visuals {
+    icon {
+      path: "scovillain/mega/icon"
+    }
+    front {
+      path: "scovillain/mega/front"
+    }
+    back {
+      path: "scovillain/mega/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "scovillain/mega/normal"
+    shiny: "scovillain/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_GLIMMORA_MEGA
+  form_of: SPECIES_GLIMMORA
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_GLIMMORA
+    item: ITEM_GLIMMORANITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_TATSUGIRI_MEGA
+  form_of: SPECIES_TATSUGIRI
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_TATSUGIRI
+    item: ITEM_TATSUGIRINITE
+  }
+  mega {
+    from: SPECIES_TATSUGIRI_STRETCHY
+    item: ITEM_TATSUGIRINITE
+  }
+  mega {
+    from: SPECIES_TATSUGIRI_DROOPY
+    item: ITEM_TATSUGIRINITE
+  }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/front"
+    }
+    back {
+      path: "question_mark/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "question_mark/normal"
+    shiny: "question_mark/shiny"
+  }
+}
+species {
+  id: SPECIES_BAXCALIBUR_MEGA
+  form_of: SPECIES_BAXCALIBUR
+  type: TYPE_FIRE
+  hp: 79
+  atk: 94
+  def: 113
+  spatk: 144
+  spdef: 120
+  spe: 85
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  ability: ABILITY_WILDFIRE
+  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_FIRE_SCALES
+  innate: ABILITY_FLAME_SHIELD
+  percent_female: 50
+  mega {
+    from: SPECIES_BAXCALIBUR
+    item: ITEM_BAXCALIBRITE
+  }
+  visuals {
+    icon {
+      path: "baxcalibur/mega/icon"
+    }
+    front {
+      path: "baxcalibur/mega/front"
+    }
+    back {
+      path: "baxcalibur/mega/back"
+      coords {
+        y_offset: 1
+      }
+    }
+    palette: "baxcalibur/mega/normal"
+    shiny: "baxcalibur/mega/shiny"
+  }
+}
+species {
   id: SPECIES_STEVE
   dex {
     name: "steve"
@@ -213332,7 +212706,7 @@ species {
     name: "Slate"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1059
+    national_dex_num: 1222
     body_color: BODY_COLOR_GREEN
     egg_group: FIELD
     egg_group_2: FIELD
