@@ -178504,10 +178504,6 @@ species {
   innate: ABILITY_HIGH_TIDE
   innate: ABILITY_OPPORTUNIST
   percent_female: 50
-  mega {
-    from: SPECIES_TATSUGIRI_CURLY
-    item: ITEM_TATSUGIRINITE
-  }
   form_shift_of: SPECIES_TATSUGIRI
   visuals {
     icon {
