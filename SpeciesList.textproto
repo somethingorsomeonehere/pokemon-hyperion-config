@@ -19421,6 +19421,14 @@ species {
   innate: ABILITY_AERILATE
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_SCIZOR
+    level: 36
+  }
+  evo {
+    to: SPECIES_KLEAVOR
+    level: 36
+  }
   learnset {
     level {
       level: 1
@@ -56241,7 +56249,9 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COUNTER
     tutor: MOVE_CRUSH_CLAW
@@ -56252,11 +56262,14 @@ species {
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FALSE_SWIPE
     tutor: MOVE_FEINT
+    tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_HAIL
     tutor: MOVE_HURRICANE
+    tutor: MOVE_ICE_BEAM
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_NASTY_PLOT
@@ -56273,17 +56286,14 @@ species {
     tutor: MOVE_TAILWIND
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THIEF
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_BLIZZARD
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SHADOW_BALL
   }
   visuals {
     icon {
@@ -155878,18 +155888,18 @@ species {
   form_of: SPECIES_CRABOMINABLE
   type: TYPE_FIGHTING
   type2: TYPE_ICE
-  hp: 127
-  atk: 142
-  def: 117
-  spatk: 72
-  spdef: 107
-  spe: 23
-  ability: ABILITY_SUPER_SLAMMER
-  ability: ABILITY_HYPER_CUTTER
-  ability: ABILITY_RAGING_BOXER
-  innate: ABILITY_HAMMER_FIST
+  hp: 97
+  atk: 167
+  def: 132
+  spatk: 62
+  spdef: 127
+  spe: 33
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_ABOMINABLE_MONSTER
+  ability: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_ICICLE_FIST
   innate: ABILITY_ANGER_POINT
-  innate: ABILITY_FRISK
+  innate: ABILITY_ARCTIC_FUR
   percent_female: 50
   mega {
     from: SPECIES_CRABOMINABLE
@@ -179903,9 +179913,9 @@ species {
   spatk: 160
   spdef: 80
   spe: 130
-  ability: ABILITY_EARTHBOUND
-  ability: ABILITY_GENERATOR
-  ability: ABILITY_ELECTRIC_BURST
+  ability: ABILITY_POWER_OUTAGE
+  ability: ABILITY_POWER_OUTAGE
+  ability: ABILITY_POWER_OUTAGE
   innate: ABILITY_GENERATOR
   innate: ABILITY_SHINY_LIGHTNING
   innate: ABILITY_GROUND_SHOCK
@@ -184087,19 +184097,19 @@ species {
   id: SPECIES_LUCARIO_MEGA_Z
   form_of: SPECIES_LUCARIO
   type: TYPE_FIGHTING
-  type2: TYPE_ELECTRIC
+  type2: TYPE_STEEL
   hp: 70
-  atk: 142
-  def: 65
-  spatk: 142
-  spdef: 86
-  spe: 120
-  ability: ABILITY_IMPENETRABLE
-  ability: ABILITY_ANTICIPATION
-  ability: ABILITY_EQUINOX
-  innate: ABILITY_ULTRA_INSTINCT
-  innate: ABILITY_UNLOCKED_POTENTIAL
-  innate: ABILITY_SUPERCONDUCTOR
+  atk: 100
+  def: 70
+  spatk: 164
+  spdef: 70
+  spe: 151
+  ability: ABILITY_AURA_ARMOR
+  ability: ABILITY_AURA_ARMOR
+  ability: ABILITY_AURA_ARMOR
+  innate: ABILITY_DEFLECT
+  innate: ABILITY_MEGA_LAUNCHER
+  innate: ABILITY_INNER_FOCUS
   percent_female: 12.5
   mega {
     from: SPECIES_LUCARIO
@@ -189635,6 +189645,7 @@ species {
   innate: ABILITY_GOOEY
   genderless: true
   tier: 3
+  form_shift_of: SPECIES_GROTOM
   learnset {
     level {
       level: 1
@@ -189761,6 +189772,7 @@ species {
   innate: ABILITY_GOOEY
   genderless: true
   tier: 3
+  form_shift_of: SPECIES_GROTOM
   learnset {
     level {
       level: 1
@@ -189886,6 +189898,7 @@ species {
   innate: ABILITY_GOOEY
   genderless: true
   tier: 3
+  form_shift_of: SPECIES_GROTOM
   learnset {
     level {
       level: 1
@@ -190011,6 +190024,7 @@ species {
   innate: ABILITY_GOOEY
   genderless: true
   tier: 3
+  form_shift_of: SPECIES_GROTOM
   learnset {
     level {
       level: 1
@@ -190141,6 +190155,7 @@ species {
   innate: ABILITY_GOOEY
   genderless: true
   tier: 3
+  form_shift_of: SPECIES_GROTOM
   learnset {
     level {
       level: 1
@@ -208513,6 +208528,14 @@ species {
   innate: ABILITY_SPEED_BOOST
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_SCIZOR_REDUX
+    level: 36
+  }
+  evo {
+    to: SPECIES_KLEAVOR_REDUX
+    level: 36
+  }
   learnset {
     level {
       level: 1
@@ -211588,12 +211611,12 @@ species {
   spatk: 90
   spdef: 95
   spe: 115
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
+  ability: ABILITY_ELECTRO_BOOSTER
+  ability: ABILITY_ELECTRO_BOOSTER
+  ability: ABILITY_ELECTRO_BOOSTER
   innate: ABILITY_GROUND_SHOCK
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  innate: ABILITY_CURRENT_CRASH
+  innate: ABILITY_DAREDEVIL
   percent_female: 50
   mega {
     from: SPECIES_RAICHU
@@ -211620,19 +211643,20 @@ species {
 species {
   id: SPECIES_CHIMECHO_MEGA
   form_of: SPECIES_CHIMECHO
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_PSYCHIC
+  type2: TYPE_STEEL
+  hp: 85
+  atk: 50
+  def: 110
+  spatk: 150
+  spdef: 125
+  spe: 65
+  ability: ABILITY_WIND_CHIMES
+  ability: ABILITY_WIND_CHIMES
+  ability: ABILITY_WIND_CHIMES
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_STEELWORKER
+  innate: ABILITY_LOUD_BANG
   percent_female: 50
   mega {
     from: SPECIES_CHIMECHO
@@ -211658,19 +211682,20 @@ species {
 species {
   id: SPECIES_ABSOL_MEGA_Z
   form_of: SPECIES_ABSOL
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_DARK
+  type2: TYPE_GHOST
+  hp: 65
+  atk: 154
+  def: 75
+  spatk: 85
+  spdef: 70
+  spe: 151
+  ability: ABILITY_REAPERS_EMBARCE
+  ability: ABILITY_REAPERS_EMBARCE
+  ability: ABILITY_REAPERS_EMBARCE
+  innate: ABILITY_SCARE
+  innate: ABILITY_DEFIANT
+  innate: ABILITY_BAD_LUCK
   percent_female: 50
   mega {
     from: SPECIES_ABSOL
@@ -211697,19 +211722,20 @@ species {
 species {
   id: SPECIES_STARAPTOR_MEGA
   form_of: SPECIES_STARAPTOR
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_FIGHTING
+  type2: TYPE_FLYING
+  hp: 85
+  atk: 140 
+  def: 100
+  spatk: 60
+  spdef: 90
+  spe: 110
+  ability: ABILITY_BRUTEFORCE
+  ability: ABILITY_GIANT_WINGS
+  ability: ABILITY_BLUR
+  innate: ABILITY_BIRD_OF_PREY
+  innate: ABILITY_FEATHERCOAT
+  innate: ABILITY_ADRENALINE_RUSH
   percent_female: 50
   mega {
     from: SPECIES_STARAPTOR
@@ -211735,19 +211761,19 @@ species {
 species {
   id: SPECIES_GARCHOMP_MEGA_Z
   form_of: SPECIES_GARCHOMP
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_DRAGON
+  hp: 108
+  atk: 130
+  def: 85
+  spatk: 141
+  spdef: 85
+  spe: 151
+  ability: ABILITY_SINISTER_CLAWS
+  ability: ABILITY_SINISTER_CLAWS
+  ability: ABILITY_SINISTER_CLAWS
+  innate: ABILITY_TERMINAL_VELOCITY
+  innate: ABILITY_AERIALIST
+  innate: ABILITY_INNER_FOCUS
   percent_female: 50
   mega {
     from: SPECIES_GARCHOMP
@@ -211850,19 +211876,20 @@ species {
 species {
   id: SPECIES_GOLURK_MEGA
   form_of: SPECIES_GOLURK
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_GROUND
+  type2: TYPE_GHOST
+  hp: 89
+  atk: 169
+  def: 115
+  spatk: 70
+  spdef: 115
+  spe: 55
+  ability: ABILITY_UNSTABLE_CORE
+  ability: ABILITY_UNSTABLE_CORE
+  ability: ABILITY_UNSTABLE_CORE
+  innate: ABILITY_RELIC_STONE
+  innate: ABILITY_POWER_FISTS
+  innate: ABILITY_SHADOW_SHIELD
   genderless: true
   mega {
     from: SPECIES_GOLURK
@@ -211891,16 +211918,16 @@ species {
   type: TYPE_PSYCHIC
   hp: 84
   atk: 48
-  def: 86
+  def: 89
   spatk: 153
   spdef: 101
   spe: 124
   ability: ABILITY_PRANKSTER
   ability: ABILITY_SHEER_FORCE
   ability: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_HELLBLAZE
+  innate: ABILITY_OVERWHELMING_MIND
   innate: ABILITY_HOVER
-  innate: ABILITY_FLAME_SHIELD
+  innate: ABILITY_DUALITY
   percent_female: 0
   mega {
     from: SPECIES_MEOWSTIC
@@ -211926,19 +211953,20 @@ species {
 species {
   id: SPECIES_GOLISOPOD_MEGA
   form_of: SPECIES_GOLISOPOD
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
+  type: TYPE_BUG
+  type2: TYPE_STEEL
+  hp: 75
+  atk: 150
+  def: 175
+  spatk: 70
   spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  spe: 40
+  ability: ABILITY_DROIDEKA
+  ability: ABILITY_DROIDEKA
+  ability: ABILITY_DROIDEKA
+  innate: ABILITY_SKILL_LINK
+  innate: ABILITY_BULLETPROOF
+  innate: ABILITY_GALVANIZE
   percent_female: 50
   mega {
     from: SPECIES_GOLISOPOD
@@ -212044,19 +212072,20 @@ species {
 species {
   id: SPECIES_SCOVILLAIN_MEGA
   form_of: SPECIES_SCOVILLAIN
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_GRASS
+  type2: TYPE_FIRE
+  hp: 65
+  atk: 138
+  def: 85
+  spatk: 138
+  spdef: 85
+  spe: 75
+  ability: ABILITY_FLAMING_JAWS
+  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_BIG_LEAVES
+  innate: ABILITY_MOB_BOSS
+  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_GHOST_PEPPER
   percent_female: 50
   mega {
     from: SPECIES_SCOVILLAIN
@@ -212082,19 +212111,20 @@ species {
 species {
   id: SPECIES_GLIMMORA_MEGA
   form_of: SPECIES_GLIMMORA
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_ROCK
+  type2: TYPE_POISON
+  hp: 83
+  atk: 90
+  def: 105
+  spatk: 150
+  spdef: 96
+  spe: 101
+  ability: ABILITY_CORROSION
+  ability: ABILITY_TOXIC_SURGE
+  ability: ABILITY_LIGHTNING_ROD
+  innate: ABILITY_TOXIC_DEBRIS
+  innate: ABILITY_PETAL_SHIELD
+  innate: ABILITY_ACCELERATE
   percent_female: 50
   mega {
     from: SPECIES_GLIMMORA
@@ -212120,19 +212150,20 @@ species {
 species {
   id: SPECIES_TATSUGIRI_MEGA
   form_of: SPECIES_TATSUGIRI
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_DRAGON
+  type2: TYPE_WATER
+  hp: 68 
+  atk: 65
+  def: 90
+  spatk: 135
+  spdef: 125
+  spe: 92
+  ability: ABILITY_COMMANDER
+  ability: ABILITY_RESERVOIR
+  ability: ABILITY_EJECT_PACK_ABILITY
+  innate: ABILITY_MULTISCALE
+  innate: ABILITY_HIGH_TIDE
+  innate: ABILITY_3_GT_1
   percent_female: 50
   mega {
     from: SPECIES_TATSUGIRI
@@ -212166,19 +212197,20 @@ species {
 species {
   id: SPECIES_BAXCALIBUR_MEGA
   form_of: SPECIES_BAXCALIBUR
-  type: TYPE_FIRE
-  hp: 79
-  atk: 94
-  def: 113
-  spatk: 144
-  spdef: 120
-  spe: 85
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  ability: ABILITY_WILDFIRE
-  innate: ABILITY_HELLBLAZE
-  innate: ABILITY_FIRE_SCALES
-  innate: ABILITY_FLAME_SHIELD
+  type: TYPE_DRAGON
+  type2: TYPE_ICE
+  hp: 115
+  atk: 175
+  def: 105
+  spatk: 105
+  spdef: 101
+  spe: 87
+  ability: ABILITY_PERMAFROST
+  ability: ABILITY_SNOW_WARNING
+  ability: ABILITY_KEEN_EDGE
+  innate: ABILITY_THERMAL_ENTROPY
+  innate: ABILITY_FROST_DRAGON
+  innate: ABILITY_OVERWHELM
   percent_female: 50
   mega {
     from: SPECIES_BAXCALIBUR
