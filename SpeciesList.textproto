@@ -211700,19 +211700,19 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "absol/mega_z/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "absol/mega_z/front"
     }
     back {
-      path: "question_mark/back"
+      path: "absol/mega_z/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "absol/mega_z/normal"
+    shiny: "absol/mega_z/shiny"
   }
 }
 species {
@@ -212128,19 +212128,19 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "glimmora/mega/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "glimmora/mega/front"
     }
     back {
-      path: "question_mark/back"
+      path: "glimmora/mega//back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "glimmora/mega/normal"
+    shiny: "glimmora/mega/shiny"
   }
 }
 species {
