@@ -2724,6 +2724,16 @@ item {
   adoption_center: true
 }
 item {
+  id: ITEM_VICTREEBELITE
+  name: "Victreebelite"
+  description: "Enables Victreebel to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+  adoption_center: true
+}
+item {
   id: ITEM_CHIMECHITE
   name: "Chimechite"
   description: "Enables Chimecho to Mega Evolve."
