@@ -212083,6 +212083,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_GHOST_PEPPER
   percent_female: 50
+  heads: 2
   mega {
     from: SPECIES_SCOVILLAIN
     item: ITEM_SCOVILLAINITE
