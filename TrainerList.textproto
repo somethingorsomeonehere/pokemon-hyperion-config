@@ -35875,7 +35875,7 @@ trainer {
       move: MOVE_WICKED_BLOW
       move: MOVE_HIGH_JUMP_KICK
       move: MOVE_BULLET_PUNCH
-      move: MOVE_JAGGED_PUNCH
+      move: MOVE_POISON_JAB
     }
   }
   hell {
@@ -82934,8 +82934,8 @@ trainer {
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
       move: MOVE_BUBBLE
-      }
     }
+  }
   elite {
     mon {
       species: SPECIES_SPIDOPS
