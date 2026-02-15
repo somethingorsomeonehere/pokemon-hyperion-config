@@ -211721,7 +211721,7 @@ species {
   type: TYPE_FIGHTING
   type2: TYPE_FLYING
   hp: 85
-  atk: 140 
+  atk: 140
   def: 100
   spatk: 60
   spdef: 90
@@ -212148,7 +212148,7 @@ species {
   form_of: SPECIES_TATSUGIRI
   type: TYPE_DRAGON
   type2: TYPE_WATER
-  hp: 68 
+  hp: 68
   atk: 65
   def: 90
   spatk: 135

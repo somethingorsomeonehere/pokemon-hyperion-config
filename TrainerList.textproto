@@ -82934,8 +82934,8 @@ trainer {
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
       move: MOVE_BUBBLE
-      }
     }
+  }
   elite {
     mon {
       species: SPECIES_SPIDOPS
@@ -82961,7 +82961,21 @@ trainer {
       move: MOVE_WATER_PULSE
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
-      move: MOVE_BUBBLE
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_GRASS
+    }
+    mon {
+      species: SPECIES_SKORUPI
+      item: ITEM_EVIOLITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_GRIP_PINCER
+      hp_ev: 252
+      atk_ev: 252
+      spe_ev: 4
+      move: MOVE_KNOCK_OFF
+      move: MOVE_BUG_BITE
+      move: MOVE_CROSS_POISON
+      move: MOVE_FELL_STINGER
     }
   }
   hell {
