@@ -181850,7 +181850,7 @@ species {
   spe: 115
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_SNIPER
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_CLEAR_BODY
   innate: ABILITY_RAGING_STORM
   innate: ABILITY_MEGA_LAUNCHER
   innate: ABILITY_MULTISCALE
@@ -211663,16 +211663,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -211742,16 +211742,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -211819,16 +211819,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -211857,16 +211857,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -212053,16 +212053,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
@@ -212083,6 +212083,7 @@ species {
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_GHOST_PEPPER
   percent_female: 50
+  heads: 2
   mega {
     from: SPECIES_SCOVILLAIN
     item: ITEM_SCOVILLAINITE
@@ -212178,16 +212179,16 @@ species {
       path: "question_mark/icon"
     }
     front {
-      path: "question_mark/front"
+      path: "question_mark/circled/front"
     }
     back {
-      path: "question_mark/back"
+      path: "question_mark/circled/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/normal"
-    shiny: "question_mark/shiny"
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
