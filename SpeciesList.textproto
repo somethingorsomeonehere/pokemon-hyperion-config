@@ -29177,6 +29177,7 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -68371,6 +68372,7 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
