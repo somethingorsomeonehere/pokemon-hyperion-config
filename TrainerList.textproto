@@ -114927,7 +114927,7 @@ trainer {
       species: SPECIES_FURFROU_PHARAOH_TRIM
       item: ITEM_LEFTOVERS
       nature: NATURE_ADAMANT
-      ability: ABILITY_CURSED_BODY
+      ability: ABILITY_SAND_GUARD
       hp_ev: 252
       atk_ev: 252
       def_ev: 4

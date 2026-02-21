@@ -3831,6 +3831,7 @@ species {
       level: 51
       move: MOVE_VOLT_TACKLE
       move: MOVE_HEADLONG_RUSH
+      move: MOVE_SUBMISSION
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -116278,6 +116279,8 @@ species {
       move: MOVE_STRUGGLE_BUG
       move: MOVE_WATER_SPORT
       move: MOVE_WATER_GUN
+      move: MOVE_BARRAGE
+      move: MOVE_FURY_ATTACK
     }
     level {
       level: 17
@@ -116299,6 +116302,7 @@ species {
       move: MOVE_FIRST_IMPRESSION
       move: MOVE_PIN_MISSILE
       move: MOVE_RAZOR_SHELL
+      move: MOVE_SPIKE_CANNON
     }
     level {
       level: 46
@@ -138291,6 +138295,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_GRASS_PLEDGE
       move: MOVE_SPICY_EXTRACT
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 46
@@ -138299,6 +138304,7 @@ species {
       move: MOVE_SYNTHESIS
       move: MOVE_FLARE_BLITZ
       move: MOVE_WOOD_HAMMER
+      move: MOVE_DOUBLE_EDGE
     }
     level {
       level: 51
