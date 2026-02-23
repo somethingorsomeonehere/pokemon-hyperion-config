@@ -2752,12 +2752,12 @@ species {
     pokemon_offset: 18
   }
   type: TYPE_NORMAL
-  hp: 75
-  atk: 101
+  hp: 55
+  atk: 81
   def: 60
   spatk: 50
   spdef: 70
-  spe: 102
+  spe: 97
   ability: ABILITY_HUSTLE
   ability: ABILITY_NORMALIZE
   ability: ABILITY_LOOTER
@@ -18748,11 +18748,11 @@ species {
   }
   type: TYPE_WATER
   hp: 80
-  atk: 112
+  atk: 92
   def: 65
   spatk: 65
-  spdef: 100
-  spe: 98
+  spdef: 80
+  spe: 68
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_WATER_VEIL
   ability: ABILITY_MIGHTY_HORN
@@ -19580,7 +19580,7 @@ species {
   def: 35
   spatk: 115
   spdef: 95
-  spe: 115
+  spe: 95
   ability: ABILITY_PSYCHIC_MIND
   ability: ABILITY_DANCER
   ability: ABILITY_PSYCHIC_SURGE
@@ -25717,8 +25717,8 @@ species {
   type2: TYPE_FLYING
   hp: 100
   atk: 50
-  def: 70
-  spatk: 76
+  def: 50
+  spatk: 86
   spdef: 96
   spe: 70
   ability: ABILITY_TINTED_LENS
@@ -26308,12 +26308,12 @@ species {
   }
   type: TYPE_BUG
   type2: TYPE_POISON
-  hp: 80
-  atk: 110
-  def: 80
+  hp: 70
+  atk: 90
+  def: 70
   spatk: 60
-  spdef: 80
-  spe: 80
+  spdef: 70
+  spe: 40
   ability: ABILITY_SPIDER_LAIR
   ability: ABILITY_SNIPER
   ability: ABILITY_EXPLOIT_WEAKNESS
@@ -29097,8 +29097,8 @@ species {
   }
   type: TYPE_ROCK
   hp: 70
-  atk: 110
-  def: 125
+  atk: 100
+  def: 115
   spatk: 30
   spdef: 65
   spe: 30
@@ -32189,11 +32189,11 @@ species {
   }
   type: TYPE_NORMAL
   hp: 100
-  atk: 75
-  def: 80
-  spatk: 80
-  spdef: 75
-  spe: 55
+  atk: 70
+  def: 70
+  spatk: 65
+  spdef: 65
+  spe: 45
   ability: ABILITY_SERENE_GRACE
   ability: ABILITY_FIELD_EXPLORER
   ability: ABILITY_UNAWARE
@@ -33850,7 +33850,7 @@ species {
   def: 75
   spatk: 75
   spdef: 75
-  spe: 75
+  spe: 55
   ability: ABILITY_INTIMIDATE
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_PREDATOR
@@ -35018,12 +35018,13 @@ species {
     pokemon_offset: 11
   }
   type: TYPE_ICE
-  hp: 80
-  atk: 105
-  def: 55
-  spatk: 80
-  spdef: 55
-  spe: 95
+  type2: TYPE_FLYING
+  hp: 45
+  atk: 55
+  def: 45
+  spatk: 65
+  spdef: 45
+  spe: 75
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_PRANKSTER
   ability: ABILITY_SLUSH_RUSH
@@ -36407,11 +36408,11 @@ species {
   }
   type: TYPE_NORMAL
   hp: 73
-  atk: 115
+  atk: 95
   def: 62
   spatk: 85
   spdef: 65
-  spe: 95
+  spe: 85
   ability: ABILITY_INTIMIDATE
   ability: ABILITY_HYPNOTIST
   ability: ABILITY_FRISK
@@ -40828,11 +40829,11 @@ species {
   }
   type: TYPE_DARK
   hp: 70
-  atk: 110
+  atk: 90
   def: 70
   spatk: 60
-  spdef: 80
-  spe: 105
+  spdef: 60
+  spe: 70
   ability: ABILITY_MOXIE
   ability: ABILITY_INTIMIDATE
   ability: ABILITY_STRONG_JAW
@@ -50657,10 +50658,10 @@ species {
   type: TYPE_PSYCHIC
   hp: 80
   atk: 45
-  def: 55
-  spatk: 100
+  def: 65
+  spatk: 90
   spdef: 110
-  spe: 100
+  spe: 80
   ability: ABILITY_MAGICAL_FISTS
   ability: ABILITY_GLUTTONY
   ability: ABILITY_OWN_TEMPO
@@ -50818,12 +50819,12 @@ species {
     pokemon_offset: 4
   }
   type: TYPE_NORMAL
-  hp: 70
-  atk: 90
+  hp: 60
+  atk: 60
   def: 60
-  spatk: 90
+  spatk: 60
   spdef: 60
-  spe: 95
+  spe: 60
   ability: ABILITY_DEFIANT
   ability: ABILITY_COMPETITIVE
   ability: ABILITY_CONTRARY
@@ -55841,10 +55842,10 @@ species {
   type: TYPE_GRASS
   type2: TYPE_FLYING
   hp: 99
-  atk: 88
-  def: 93
-  spatk: 92
-  spdef: 97
+  atk: 68
+  def: 83
+  spatk: 72
+  spdef: 87
   spe: 51
   ability: ABILITY_HARVEST
   ability: ABILITY_AIR_BLOWER
@@ -65346,9 +65347,9 @@ species {
   }
   type: TYPE_WATER
   hp: 85
-  atk: 115
+  atk: 105
   def: 55
-  spatk: 100
+  spatk: 85
   spdef: 50
   spe: 115
   ability: ABILITY_WATER_VEIL
@@ -68737,9 +68738,9 @@ species {
   hp: 76
   atk: 65
   def: 45
-  spatk: 102
+  spatk: 92
   spdef: 42
-  spe: 101
+  spe: 91
   ability: ABILITY_OPPORTUNIST
   ability: ABILITY_PRANKSTER
   ability: ABILITY_CLOUD_NINE
@@ -71225,7 +71226,7 @@ species {
   hp: 69
   atk: 69
   def: 76
-  spatk: 94
+  spatk: 69
   spdef: 86
   spe: 91
   ability: ABILITY_SWIFT_SWIM
@@ -78720,11 +78721,11 @@ species {
   }
   type: TYPE_NORMAL
   hp: 75
-  atk: 95
-  def: 79
+  atk: 85
+  def: 69
   spatk: 60
-  spdef: 79
-  spe: 107
+  spdef: 69
+  spe: 77
   ability: ABILITY_STAKEOUT
   ability: ABILITY_ON_THE_PROWL
   ability: ABILITY_HYPNOTIST
@@ -86168,17 +86169,17 @@ species {
   }
   type: TYPE_GRASS
   hp: 75
-  atk: 56
-  def: 87
-  spatk: 96
-  spdef: 87
+  atk: 86
+  def: 67
+  spatk: 106
+  spdef: 67
   spe: 60
   ability: ABILITY_WATER_ABSORB
   ability: ABILITY_SELF_SUFFICIENT
   ability: ABILITY_STORM_DRAIN
   innate: ABILITY_ROUGH_SKIN
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_HUGE_POWER
+  innate: ABILITY_OVERCOAT
   percent_female: 50
   tier: 3
   evo {
@@ -86806,7 +86807,7 @@ species {
   def: 115
   spatk: 45
   spdef: 115
-  spe: 73
+  spe: 58
   ability: ABILITY_STRIKER
   ability: ABILITY_MOXIE
   ability: ABILITY_INTIMIDATE
@@ -94814,19 +94815,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_ICE
-  type2: TYPE_FIGHTING
   hp: 95
-  atk: 120
+  atk: 130
   def: 80
   spatk: 70
   spdef: 80
-  spe: 70
-  ability: ABILITY_QUICK_FEET
+  spe: 50
+  ability: ABILITY_SNOW_CLOAK
   ability: ABILITY_PREDATOR
   ability: ABILITY_INTIMIDATE
   innate: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_GUTS
-  innate: ABILITY_FUR_COAT
+  innate: ABILITY_IMMUNITY
+  innate: ABILITY_MOUNTAINEER
   percent_female: 50
   evo {
     to: SPECIES_POLARTIC
@@ -104937,9 +104937,9 @@ species {
   type: TYPE_FAIRY
   hp: 101
   atk: 72
-  def: 79
+  def: 72
   spatk: 99
-  spdef: 100
+  spdef: 89
   spe: 29
   ability: ABILITY_AROMA_VEIL
   ability: ABILITY_LINGERING_AROMA
@@ -105549,6 +105549,7 @@ species {
       move: MOVE_MIND_READER
       move: MOVE_POWER_TRIP
       move: MOVE_STORED_POWER
+      move: MOVE_DREAM_EATER
     }
     level {
       level: 56
@@ -106667,7 +106668,7 @@ species {
   hp: 62
   atk: 55
   def: 52
-  spatk: 119
+  spatk: 109
   spdef: 94
   spe: 109
   ability: ABILITY_SAND_RUSH
@@ -107659,8 +107660,8 @@ species {
   hp: 67
   atk: 58
   def: 57
-  spatk: 101
-  spdef: 87
+  spatk: 81
+  spdef: 67
   spe: 101
   ability: ABILITY_POWER_SPOT
   ability: ABILITY_GALVANIZE
@@ -108732,10 +108733,10 @@ species {
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 85
-  atk: 100
-  def: 86
-  spatk: 75
-  spdef: 92
+  atk: 110
+  def: 76
+  spatk: 65
+  spdef: 82
   spe: 56
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HAUNTED_SPIRIT
@@ -112299,9 +112300,9 @@ species {
   type: TYPE_NORMAL
   hp: 88
   atk: 110
-  def: 80
+  def: 60
   spatk: 55
-  spdef: 80
+  spdef: 60
   spe: 45
   ability: ABILITY_AMBUSH
   ability: ABILITY_ANALYTIC
@@ -114318,7 +114319,7 @@ species {
   type: TYPE_WATER
   type2: TYPE_BUG
   hp: 68
-  atk: 90
+  atk: 70
   def: 92
   spatk: 50
   spdef: 132
@@ -117891,8 +117892,8 @@ species {
   type2: TYPE_GRASS
   hp: 70
   atk: 131
-  def: 120
-  spatk: 76
+  def: 100
+  spatk: 86
   spdef: 90
   spe: 40
   ability: ABILITY_WATER_ABSORB
@@ -125195,9 +125196,9 @@ species {
   hp: 70
   atk: 110
   def: 80
-  spatk: 85
+  spatk: 95
   spdef: 60
-  spe: 95
+  spe: 70
   ability: ABILITY_HUSTLE
   ability: ABILITY_AERODYNAMICS
   ability: ABILITY_UNBURDEN
@@ -125323,11 +125324,11 @@ species {
   type: TYPE_GRASS
   type2: TYPE_DRAGON
   hp: 110
-  atk: 100
-  def: 90
+  atk: 85
+  def: 80
   spatk: 100
   spdef: 80
-  spe: 20
+  spe: 30
   ability: ABILITY_SOOTHING_AROMA
   ability: ABILITY_AROMA_VEIL
   ability: ABILITY_BULLETPROOF
@@ -129598,12 +129599,12 @@ species {
   }
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
-  hp: 67
-  atk: 101
-  def: 87
-  spatk: 58
-  spdef: 57
-  spe: 101
+  hp: 58
+  atk: 95
+  def: 58
+  spatk: 70
+  spdef: 58
+  spe: 97
   ability: ABILITY_ELECTRIC_BURST
   ability: ABILITY_NOCTURNAL
   ability: ABILITY_FRIEND_GUARD
@@ -141773,12 +141774,12 @@ species {
   }
   long_name: "Dudunsparce Two"
   type: TYPE_NORMAL
-  hp: 115
-  atk: 95
-  def: 75
-  spatk: 95
+  hp: 125
+  atk: 100
+  def: 80
+  spatk: 85
   spdef: 75
-  spe: 65
+  spe: 55
   ability: ABILITY_MIGHTY_HORN
   ability: ABILITY_SAND_GUARD
   ability: ABILITY_TECTONIZE
@@ -145426,7 +145427,7 @@ species {
   }
   type: TYPE_GRASS
   type2: TYPE_DRAGON
-  hp: 95
+  hp: 80
   atk: 80
   def: 110
   spatk: 95
@@ -160605,9 +160606,9 @@ species {
   form_of: SPECIES_RATICATE
   type: TYPE_DARK
   type2: TYPE_NORMAL
-  hp: 95
-  atk: 86
-  def: 80
+  hp: 75
+  atk: 71
+  def: 70
   spatk: 40
   spdef: 80
   spe: 77
@@ -178425,11 +178426,11 @@ species {
   form_of: SPECIES_DUDUNSPARCE
   long_name: "Dudunsparce Three"
   type: TYPE_NORMAL
-  hp: 115
-  atk: 90
+  hp: 125
+  atk: 100
   def: 80
-  spatk: 95
-  spdef: 85
+  spatk: 85
+  spdef: 75
   spe: 55
   ability: ABILITY_MIGHTY_HORN
   ability: ABILITY_NORMALIZE
@@ -180519,7 +180520,7 @@ species {
   def: 135
   spatk: 55
   spdef: 135
-  spe: 83
+  spe: 68
   ability: ABILITY_BACKSTREET_BOY
   ability: ABILITY_BACKSTREET_BOY
   ability: ABILITY_BACKSTREET_BOY
@@ -180890,7 +180891,7 @@ species {
   spe: 70
   ability: ABILITY_HYPER_AGGRESSIVE
   ability: ABILITY_POISON_ABSORB
-  ability: ABILITY_SWEET_VEIL
+  ability: ABILITY_AROMA_VEIL
   innate: ABILITY_TUMMYACHE
   innate: ABILITY_ACID_REFLUX
   innate: ABILITY_WONDER_SKIN
@@ -184837,7 +184838,7 @@ species {
   spe: 134
   ability: ABILITY_BLITZ_BOXER
   ability: ABILITY_WATER_GALE_WINGS
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_DEFIANT
   innate: ABILITY_NIKA
   innate: ABILITY_RAGING_BOXER
   innate: ABILITY_RIPTIDE
@@ -186618,7 +186619,7 @@ species {
   ability: ABILITY_FIRE_RULER
   innate: ABILITY_HELLBLAZE
   innate: ABILITY_EVAPORATE
-  innate: ABILITY_LONG_REACH
+  innate: ABILITY_BRUTEFORCE
   percent_female: 50
   no_flip: true
   mega {
@@ -190871,11 +190872,11 @@ species {
   type: TYPE_POISON
   type2: TYPE_FIGHTING
   hp: 70
-  atk: 107
+  atk: 86
   def: 80
   spatk: 40
   spdef: 55
-  spe: 106
+  spe: 82
   ability: ABILITY_HUSTLE
   ability: ABILITY_ANGER_POINT
   ability: ABILITY_LOOTER
@@ -191684,7 +191685,7 @@ species {
   spe: 80
   ability: ABILITY_BACKUP_POWER
   ability: ABILITY_DAZZLING
-  ability: ABILITY_ENERGIZED
+  ability: ABILITY_GENERATOR
   innate: ABILITY_RADIANCE
   innate: ABILITY_POWER_LEAK
   innate: ABILITY_LEVITATE
@@ -197380,11 +197381,11 @@ species {
   form_of: SPECIES_FLOATZEL
   type: TYPE_FLYING
   hp: 80
-  atk: 90
+  atk: 85
   def: 60
-  spatk: 90
+  spatk: 85
   spdef: 60
-  spe: 140
+  spe: 125
   ability: ABILITY_TECHNICIAN
   ability: ABILITY_SPEED_FORCE
   ability: ABILITY_AIR_BLOWER
@@ -207857,9 +207858,9 @@ species {
   type: TYPE_ICE
   type2: TYPE_BUG
   hp: 68
-  atk: 100
+  atk: 90
   def: 112
-  spatk: 60
+  spatk: 50
   spdef: 52
   spe: 82
   ability: ABILITY_ICE_BODY
