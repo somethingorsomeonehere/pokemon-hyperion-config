@@ -209211,33 +209211,35 @@ species {
       move: MOVE_SCARY_FACE
       move: MOVE_WOOD_HAMMER
     }
-    tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_FACADE
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_FLORAL_HEALING
-    tutor: MOVE_LEECH_SEED
-    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_ABSORB
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_COUNTER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HEADBUTT
     tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_AGILITY
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FLUTTERING_LEAF
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_ABSORB
-    tutor: MOVE_FORESIGHT
-    tutor: MOVE_COUNTER
-    tutor: MOVE_MIRROR_COAT
-    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_BITE
+    tutor: MOVE_PLUCK
   }
   visuals {
     icon {
@@ -209314,6 +209316,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_TRAILBLAZE
       move: MOVE_FLATTER
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 37
@@ -209325,33 +209328,35 @@ species {
       move: MOVE_SCARY_FACE
       move: MOVE_WOOD_HAMMER
     }
-    tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_FACADE
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_FLORAL_HEALING
-    tutor: MOVE_LEECH_SEED
-    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_ABSORB
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_COUNTER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HEADBUTT
     tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_AGILITY
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FLUTTERING_LEAF
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_ABSORB
-    tutor: MOVE_FORESIGHT
-    tutor: MOVE_COUNTER
-    tutor: MOVE_MIRROR_COAT
-    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_BITE
+    tutor: MOVE_PLUCK
   }
   visuals {
     icon {
@@ -209417,6 +209422,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_TRAILBLAZE
       move: MOVE_FLATTER
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 37
@@ -209430,41 +209436,44 @@ species {
       move: MOVE_WOOD_HAMMER
       move: MOVE_HEAD_SMASH
       move: MOVE_JAGGED_FANGS
+      move: MOVE_SUBMISSION
+      move: MOVE_CRUNCH
     }
     level {
       level: 51
       move: MOVE_GRASSY_GLIDE
+      move: MOVE_SEISMIC_SLAM
     }
-    tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_FACADE
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_FLORAL_HEALING
-    tutor: MOVE_LEECH_SEED
-    tutor: MOVE_RAZOR_LEAF
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_LEAF_TORNADO
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_WORRY_SEED
-    tutor: MOVE_AGILITY
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_FLUTTERING_LEAF
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_ACROBATICS
     tutor: MOVE_ABSORB
-    tutor: MOVE_FORESIGHT
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
+    tutor: MOVE_BRAVADO
     tutor: MOVE_COUNTER
-    tutor: MOVE_MIRROR_COAT
-    tutor: MOVE_RAGE_POWDER
-    tutor: MOVE_STONE_EDGE
-    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_FORESIGHT
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_WORRY_SEED
   }
   visuals {
     icon {
