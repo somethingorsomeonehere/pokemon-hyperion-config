@@ -156489,11 +156489,11 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_WATER
-  hp: 80
-  atk: 85
+  hp: 90
+  atk: 70
   def: 85
-  spatk: 85
-  spdef: 80
+  spatk: 70
+  spdef: 90
   spe: 145
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_HOSPITALITY
