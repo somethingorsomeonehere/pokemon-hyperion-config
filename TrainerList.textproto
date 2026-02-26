@@ -37964,44 +37964,44 @@ trainer {
       move: MOVE_HORN_LEECH
     }
     mon {
-      species: SPECIES_HERDIER
-      item: ITEM_EVIOLITE
-      nature: NATURE_JOLLY
-      ability: ABILITY_SAND_RUSH
-      hp_ev: 128
+      species: SPECIES_SUDOWOODO
+      item: ITEM_LEFTOVERS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_WATER_COMPACTION
+      hp_ev: 252
       atk_ev: 252
       def_ev: 4
-      spe_ev: 124
-      move: MOVE_YAWN
-      move: MOVE_PLAY_ROUGH
-      move: MOVE_REVERSAL
-      move: MOVE_FACADE
+      move: MOVE_BODY_PRESS
+      move: MOVE_TRAILBLAZE
+      move: MOVE_STONE_EDGE
+      move: MOVE_SEED_BOMB
     }
     mon {
       species: SPECIES_GLIGAR
       item: ITEM_EVIOLITE
-      nature: NATURE_IMPISH
+      nature: NATURE_ADAMANT
       ability: ABILITY_SAND_VEIL
       hp_ev: 252
       atk_ev: 192
       def_ev: 64
-      move: MOVE_EARTHQUAKE
-      move: MOVE_U_TURN
-      move: MOVE_BARB_BARRAGE
-      move: MOVE_PLUCK
+      move: MOVE_TECTONIC_FANGS
+      move: MOVE_DUAL_WINGBEAT
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_ROOST
     }
     mon {
-      species: SPECIES_NOSEPASS
+      species: SPECIES_ONIX
       item: ITEM_EVIOLITE
-      nature: NATURE_BOLD
-      ability: ABILITY_STALL
+      nature: NATURE_IMPISH
+      ability: ABILITY_SAND_STREAM
       hp_ev: 252
-      def_ev: 180
-      spatk_ev: 76
-      move: MOVE_POWER_GEM
+      atk_ev: 4
+      def_ev: 224
+      spdef_ev: 28
       move: MOVE_BODY_PRESS
-      move: MOVE_SANDSTORM
-      move: MOVE_VOLT_SWITCH
+      move: MOVE_STONE_EDGE
+      move: MOVE_FISSURE
+      move: MOVE_DRAGON_TAIL
     }
     mon {
       species: SPECIES_CACTURNE
@@ -82966,7 +82966,21 @@ trainer {
       move: MOVE_WATER_PULSE
       move: MOVE_PSYBEAM
       move: MOVE_DISABLE
-      move: MOVE_BUBBLE
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_GRASS
+    }
+    mon {
+      species: SPECIES_SKORUPI
+      item: ITEM_EVIOLITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_GRIP_PINCER
+      hp_ev: 252
+      atk_ev: 252
+      spe_ev: 4
+      move: MOVE_KNOCK_OFF
+      move: MOVE_BUG_BITE
+      move: MOVE_CROSS_POISON
+      move: MOVE_FELL_STINGER
     }
   }
   hell {
@@ -114918,7 +114932,7 @@ trainer {
       species: SPECIES_FURFROU_PHARAOH_TRIM
       item: ITEM_LEFTOVERS
       nature: NATURE_ADAMANT
-      ability: ABILITY_CURSED_BODY
+      ability: ABILITY_SAND_GUARD
       hp_ev: 252
       atk_ev: 252
       def_ev: 4

@@ -16389,6 +16389,7 @@ moves {
   target: ALL_BATTLERS
   pp: 15
   uses_animation: MOVE_DEFOG
+  tutor: TUTOR_GOOD_STATUS
 }
 moves {
   id: MOVE_READY_OR_NOT
