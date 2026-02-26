@@ -46270,6 +46270,7 @@ trainer {
   ace {
     mon {
       species: SPECIES_TINKATINK
+      item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
       ability: ABILITY_READIED_ACTION
       atk_ev: 4
@@ -46773,6 +46774,7 @@ trainer {
       item: ITEM_HEAT_ROCK
       nature: NATURE_TIMID
       ability: ABILITY_DROUGHT
+      spatk_ev: 128
       spe_ev: 128
       move: MOVE_FLAMETHROWER
       move: MOVE_BUG_BUZZ
@@ -46796,6 +46798,7 @@ trainer {
       item: ITEM_CHOICE_SCARF
       nature: NATURE_TIMID
       ability: ABILITY_SOLAR_POWER
+      spatk_ev: 68
       spe_ev: 196
       move: MOVE_THUNDERBOLT
       move: MOVE_HYPER_VOICE
@@ -48894,6 +48897,8 @@ trainer {
       item: ITEM_EVIOLITE
       nature: NATURE_MODEST
       ability: ABILITY_PRANKSTER
+      hp_ev: 128
+      spatk_ev: 128
       move: MOVE_TAUNT
       move: MOVE_THUNDER_WAVE
       move: MOVE_GROWL
@@ -81737,8 +81742,8 @@ trainer {
       item: ITEM_WACAN_BERRY
       nature: NATURE_TIMID
       ability: ABILITY_TINTED_LENS
-      spatk_ev: 252
-      spe_ev: 4
+      spatk_ev: 4
+      spe_ev: 252
       move: MOVE_DETECT
       move: MOVE_BUG_BUZZ
       move: MOVE_AIR_SLASH
