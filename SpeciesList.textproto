@@ -33152,7 +33152,7 @@ species {
       move: MOVE_DOUBLE_HIT
     }
     level {
-      level: 100
+      level: 101
       move: MOVE_DOUBLE_IRON_BASH
     }
     tutor: MOVE_ACROBATICS
