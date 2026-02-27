@@ -37959,9 +37959,9 @@ trainer {
       atk_ev: 160
       def_ev: 96
       move: MOVE_STONE_EDGE
-      move: MOVE_BULK_UP
-      move: MOVE_LIQUIDATION
-      move: MOVE_HORN_LEECH
+      move: MOVE_LEECH_SEED
+      move: MOVE_WAVE_CRASH
+      move: MOVE_PECK
     }
     mon {
       species: SPECIES_SUDOWOODO
@@ -107799,8 +107799,8 @@ trainer {
       spe_ev: 252
       move: MOVE_SLUDGE_BOMB
       move: MOVE_DRAGON_PULSE
-      move: MOVE_FLASH_CANNON
       move: MOVE_HIDDEN_POWER
+      move: MOVE_EARTH_POWER
       hidden_power_type: TYPE_FIRE
     }
   }
