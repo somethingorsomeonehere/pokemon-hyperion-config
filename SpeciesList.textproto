@@ -184178,6 +184178,7 @@ species {
   visuals {
     icon {
       path: "lucario/mega_z/icon"
+      palette: 5
     }
     front {
       path: "lucario/mega_z/front"
