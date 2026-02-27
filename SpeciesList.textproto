@@ -192176,50 +192176,49 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BULLET_SEED
+      move: MOVE_SWEET_SCENT
       move: MOVE_BERRY_SMASH
       move: MOVE_SOIL_DRAIN
       move: MOVE_MEGA_DRAIN
+      move: MOVE_GROWTH
+      move: MOVE_STUFF_CHEEKS
     }
     level {
       level: 17
       move: MOVE_LEAFAGE
-      move: MOVE_GIGA_DRAIN
-      move: MOVE_GRASS_KNOT
+      move: MOVE_GROWL
+      move: MOVE_PITFALL
+      move: MOVE_RECYCLE
     }
     level {
       level: 24
-      move: MOVE_TRAILBLAZE
-      move: MOVE_STUFF_CHEEKS
+      move: MOVE_PETAL_BLIZZARD
+      move: MOVE_LEAF_STORM
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_GRASS_PLEDGE
     }
     level {
       level: 37
-      move: MOVE_PETAL_BLIZZARD
-      move: MOVE_LEAF_STORM
-      move: MOVE_GRASSY_GLIDE
+      move: MOVE_LUNGE
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_JUNGLE_HEALING
     }
     level {
       level: 46
-      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SYNTHESIS
+      move: MOVE_FERTILE_FANGS
     }
     level {
       level: 51
-      move: MOVE_WOOD_HAMMER
-      move: MOVE_SEISMIC_SLAM
+      move: MOVE_STRENGTH_SAP
     }
-    level {
-      level: 56
-      move: MOVE_FISSURE
-    }
-    tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
     tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_BULLDOZE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_LEECH_SEED
@@ -192230,7 +192229,16 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_REFLECT
+    tutor: MOVE_COUNTER
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_LIGHT_SCREEN
   }
   visuals {
     icon {
@@ -192294,51 +192302,54 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BULLET_SEED
+      move: MOVE_SWEET_SCENT
       move: MOVE_BERRY_SMASH
       move: MOVE_SOIL_DRAIN
       move: MOVE_MEGA_DRAIN
+      move: MOVE_GROWTH
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_SMASHING_PUMPKINS
     }
     level {
       level: 17
       move: MOVE_LEAFAGE
-      move: MOVE_GIGA_DRAIN
-      move: MOVE_GRASS_KNOT
+      move: MOVE_GROWL
+      move: MOVE_PITFALL
+      move: MOVE_RECYCLE
     }
     level {
       level: 24
-      move: MOVE_TRAILBLAZE
-      move: MOVE_STUFF_CHEEKS
+      move: MOVE_PETAL_BLIZZARD
+      move: MOVE_LEAF_STORM
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_GRASS_PLEDGE
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SUBMISSION
     }
     level {
       level: 37
-      move: MOVE_PETAL_BLIZZARD
-      move: MOVE_LEAF_STORM
-      move: MOVE_GRASSY_GLIDE
+      move: MOVE_LUNGE
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_JUNGLE_HEALING
     }
     level {
       level: 46
-      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SYNTHESIS
+      move: MOVE_FERTILE_FANGS
     }
     level {
       level: 51
-      move: MOVE_WOOD_HAMMER
-      move: MOVE_SEISMIC_SLAM
-      move: MOVE_HEADLONG_RUSH
+      move: MOVE_STRENGTH_SAP
+      move: MOVE_CHLOROBLAST
     }
-    level {
-      level: 56
-      move: MOVE_FISSURE
-    }
-    tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
     tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_BULLDOZE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_LEECH_SEED
@@ -192349,7 +192360,19 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_REFLECT
+    tutor: MOVE_COUNTER
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_EARTHQUAKE
   }
   visuals {
     icon {
@@ -192398,68 +192421,86 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BULLET_SEED
+      move: MOVE_SWEET_SCENT
       move: MOVE_BERRY_SMASH
       move: MOVE_SOIL_DRAIN
       move: MOVE_MEGA_DRAIN
+      move: MOVE_GROWTH
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_SMASHING_PUMPKINS
+      move: MOVE_CONCOCTION
+      move: MOVE_FURY_ATTACK
     }
     level {
       level: 17
       move: MOVE_LEAFAGE
-      move: MOVE_GIGA_DRAIN
-      move: MOVE_GRASS_KNOT
+      move: MOVE_GROWL
+      move: MOVE_PITFALL
+      move: MOVE_RECYCLE
     }
     level {
       level: 24
-      move: MOVE_SYNTHESIS
-      move: MOVE_TRAILBLAZE
-      move: MOVE_STUFF_CHEEKS
-      move: MOVE_CONCOCTION
+      move: MOVE_PETAL_BLIZZARD
+      move: MOVE_LEAF_STORM
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_GRASS_PLEDGE
+      move: MOVE_HEADLONG_RUSH
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SUBMISSION
     }
     level {
       level: 37
-      move: MOVE_PETAL_BLIZZARD
-      move: MOVE_LEAF_STORM
-      move: MOVE_GRASSY_GLIDE
-      move: MOVE_SWALLOW
+      move: MOVE_LUNGE
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_JUNGLE_HEALING
     }
     level {
       level: 46
-      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_SYNTHESIS
+      move: MOVE_FERTILE_FANGS
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_SEISMIC_SLAM
+      move: MOVE_VITAL_THROW
     }
     level {
       level: 51
-      move: MOVE_WOOD_HAMMER
-      move: MOVE_SEISMIC_SLAM
-      move: MOVE_HEADLONG_RUSH
+      move: MOVE_STRENGTH_SAP
+      move: MOVE_CHLOROBLAST
+      move: MOVE_HORN_LEECH
     }
-    level {
-      level: 56
-      move: MOVE_SAPPY_SEED
-      move: MOVE_FISSURE
-      move: MOVE_STOCKPILE
-    }
-    tutor: MOVE_BRAVADO
     tutor: MOVE_FACADE
     tutor: MOVE_ENERGY_BALL
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_BULLDOZE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_GRASSY_TERRAIN
-    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_INGRAIN
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_SPIKES
-    tutor: MOVE_ABSORB
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_FLUTTERING_LEAF
-    tutor: MOVE_BULK_UP
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ABSORB
+    tutor: MOVE_REFLECT
+    tutor: MOVE_COUNTER
+    tutor: MOVE_FLORAL_HEALING
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_BULK_UP
   }
   visuals {
     icon {
