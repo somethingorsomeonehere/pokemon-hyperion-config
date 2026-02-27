@@ -181330,10 +181330,10 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "floette/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "floette/mega/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -181341,15 +181341,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "floette/mega/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 10
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "floette/mega/normal"
+    shiny: "floette/mega/shiny"
   }
 }
 species {
@@ -212099,19 +212099,19 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "staraptor/mega/icon"
     }
     front {
-      path: "question_mark/circled/front"
+      path: "staraptor/mega/front"
     }
     back {
-      path: "question_mark/circled/back"
+      path: "staraptor/mega/back"
       coords {
         y_offset: 1
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "staraptor/mega/normal"
+    shiny: "staraptor/mega/shiny"
   }
 }
 species {
