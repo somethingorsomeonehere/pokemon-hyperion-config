@@ -209112,46 +209112,73 @@ species {
       move: MOVE_KINESIS
       move: MOVE_SHOWTIME
       move: MOVE_MEDITATE
+      move: MOVE_TELEKINESIS
+      move: MOVE_FUTURE_SIGHT
+      move: MOVE_LUCKY_CHANT
     }
     level {
       level: 17
-      move: MOVE_PSYWAVE
+      move: MOVE_THUNDER_SHOCK
       move: MOVE_MYSTICAL_FIRE
-      move: MOVE_BARRIER
+      move: MOVE_FROST_BREATH
+      move: MOVE_SIMPLE_BEAM
+      move: MOVE_ENTRAINMENT
     }
     level {
       level: 24
-      move: MOVE_FOLLOW_ME
-      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_WISH
+      move: MOVE_HEAL_PULSE
       move: MOVE_TRANSMUTE
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 37
-      move: MOVE_TWIN_BEAM
-      move: MOVE_TELEPORT
+      move: MOVE_MAGIC_POWDER
+      move: MOVE_DRAIN_BRAIN
       move: MOVE_COSMIC_POWER
     }
     level {
       level: 46
-      move: MOVE_FUTURE_SIGHT
+      move: MOVE_MIND_READER
       move: MOVE_MYSTIC_DANCE
-      move: MOVE_PSYCHOKINETIC_SLAM
     }
-    tutor: MOVE_ICE_BEAM
+    level {
+      level: 51
+      move: MOVE_AROMATIC_MIST
+    }
     tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_THUNDER
-    tutor: MOVE_BLIZZARD
-    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_PSYCHO_CUT
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
-    tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_FLASH
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_DEFOG
+    tutor: MOVE_HAZE
+    tutor: MOVE_MIST
+    tutor: MOVE_CURSE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_HEX
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_TRICK
+    tutor: MOVE_SPITE
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_MIRACLE_EYE
   }
   visuals {
     icon {
@@ -209211,64 +209238,98 @@ species {
       move: MOVE_KINESIS
       move: MOVE_SHOWTIME
       move: MOVE_MEDITATE
+      move: MOVE_TELEKINESIS
+      move: MOVE_TERRAIN_PULSE
+      move: MOVE_WONDER_ROOM
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_MAGIC_ROOM
+      move: MOVE_FUTURE_SIGHT
+      move: MOVE_LUCKY_CHANT
     }
     level {
       level: 17
-      move: MOVE_PSYWAVE
+      move: MOVE_THUNDER_SHOCK
       move: MOVE_MYSTICAL_FIRE
+      move: MOVE_FROST_BREATH
+      move: MOVE_SIMPLE_BEAM
+      move: MOVE_ENTRAINMENT
       move: MOVE_BARRIER
     }
     level {
       level: 24
-      move: MOVE_FOLLOW_ME
-      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_WISH
+      move: MOVE_HEAL_PULSE
       move: MOVE_TRANSMUTE
+      move: MOVE_TRI_ATTACK
+      move: MOVE_TWIN_BEAM
     }
     level {
       level: 37
-      move: MOVE_TWIN_BEAM
-      move: MOVE_TELEPORT
+      move: MOVE_MAGIC_POWDER
+      move: MOVE_DRAIN_BRAIN
       move: MOVE_COSMIC_POWER
-      move: MOVE_MIRAGE_SLAM
+      move: MOVE_TELEPORT
     }
     level {
       level: 46
-      move: MOVE_FUTURE_SIGHT
+      move: MOVE_MIND_READER
       move: MOVE_MYSTIC_DANCE
-      move: MOVE_PSYCHOKINETIC_SLAM
-      move: MOVE_PYRO_BALL
+      move: MOVE_EXPANDING_FORCE
     }
     level {
       level: 51
-      move: MOVE_MYSTICAL_POWER
-      move: MOVE_PSYCHO_BOOST
+      move: MOVE_AROMATIC_MIST
+      move: MOVE_SEARING_SHOT
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_FREEZY_FROST
     }
     level {
-      level: 61
-      move: MOVE_PRISMATIC_LASER
+      level: 71
+      move: MOVE_REVIVAL_BLESSING
+      move: MOVE_PSYCHO_WAVE
     }
-    tutor: MOVE_ICE_BEAM
     tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_THUNDER
-    tutor: MOVE_BLIZZARD
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_PSYCHO_CUT
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
-    tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ICY_WIND
     tutor: MOVE_FLASH
-    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_DEFOG
+    tutor: MOVE_HAZE
+    tutor: MOVE_MIST
+    tutor: MOVE_CURSE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_HEX
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_FORESIGHT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_TRICK
+    tutor: MOVE_SPITE
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_GRASSY_TERRAIN
   }
   visuals {
     icon {
