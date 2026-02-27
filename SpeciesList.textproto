@@ -188740,70 +188740,62 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_DEFENSE_CURL
+      move: MOVE_PLAY_NICE
       move: MOVE_ICE_SHARD
-      move: MOVE_ICE_BALL
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_FAKE_TEARS
       move: MOVE_FAIRY_WIND
-      move: MOVE_MAGICAL_TORQUE
     }
     level {
       level: 17
-      move: MOVE_FROST_BREATH
-      move: MOVE_AVALANCHE
-      move: MOVE_TICKLE
-      move: MOVE_FLOATY_FALL
-      move: MOVE_BULLET_SEED
-      move: MOVE_ALLURING_VOICE
+      move: MOVE_GROWL
+      move: MOVE_ICICLE_SPEAR
     }
     level {
       level: 24
-      move: MOVE_ICE_SPINNER
-      move: MOVE_FAIRY_LOCK
-      move: MOVE_FREEZE_DRY
-      move: MOVE_ZEPHYR_RUSH
-      move: MOVE_TRAILBLAZE
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_FROST_BREATH
+      move: MOVE_DECORATE
     }
     level {
       level: 37
-      move: MOVE_GLACIER_CRASH
-      move: MOVE_BONK
+      move: MOVE_BOUNCE
+      move: MOVE_RAZOR_WIND
+      move: MOVE_FOLLOW_ME
     }
     level {
       level: 46
-      move: MOVE_STAR_CRASH
-      move: MOVE_TRIPLE_AXEL
+      move: MOVE_SQUEAKY_HAMMER
+    }
+    level{
+      level: 51
+      move: MOVE_SPIRIT_BREAK
+    }
+    level{
+      level: 56
+      move: MOVE_FREEZY_FROST
     }
     tutor: MOVE_ACROBATICS
-    tutor: MOVE_AIR_SLASH
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
-    tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
-    tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_MIST
-    tutor: MOVE_MISTY_TERRAIN
-    tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_REFRESH
-    tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
-    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_SWEET_KISS
   }
   visuals {
     icon {
@@ -188861,75 +188853,72 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_DEFENSE_CURL
+      move: MOVE_PLAY_NICE
       move: MOVE_ICE_SHARD
-      move: MOVE_ICE_BALL
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_CHILLING_WATER
+      move: MOVE_FAKE_TEARS
       move: MOVE_FAIRY_WIND
-      move: MOVE_MAGICAL_TORQUE
     }
     level {
       level: 17
-      move: MOVE_FROST_BREATH
-      move: MOVE_AVALANCHE
-      move: MOVE_TICKLE
-      move: MOVE_FLOATY_FALL
-      move: MOVE_BULLET_SEED
-      move: MOVE_ALLURING_VOICE
+      move: MOVE_GROWL
+      move: MOVE_ICICLE_SPEAR
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 24
-      move: MOVE_ICE_SPINNER
-      move: MOVE_FAIRY_LOCK
-      move: MOVE_FREEZE_DRY
-      move: MOVE_ZEPHYR_RUSH
-      move: MOVE_TRAILBLAZE
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_FROST_BREATH
+      move: MOVE_DECORATE
+      move: MOVE_CLOSE_COMBAT
     }
     level {
       level: 37
-      move: MOVE_GLACIER_CRASH
-      move: MOVE_BONK
+      move: MOVE_BOUNCE
+      move: MOVE_RAZOR_WIND
+      move: MOVE_FOLLOW_ME
     }
     level {
       level: 46
-      move: MOVE_STAR_CRASH
+      move: MOVE_SQUEAKY_HAMMER
+      move: MOVE_CHILLY_RECEPTION
+    }
+    level{
+      level: 51
       move: MOVE_TRIPLE_AXEL
       move: MOVE_WHIRLING_STRIKES
+      move: MOVE_SPIRIT_BREAK
     }
-    level {
-      level: 51
-      move: MOVE_SHEER_COLD
+    level{
+      level: 56
+      move: MOVE_FREEZY_FROST
     }
     tutor: MOVE_ACROBATICS
-    tutor: MOVE_AIR_SLASH
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
-    tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
-    tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_MIST
-    tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_REFRESH
-    tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPOTLIGHT
-    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_ENERGY_WAVE
   }
   visuals {
     icon {
@@ -188988,92 +188977,76 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_DEFENSE_CURL
+      move: MOVE_PLAY_NICE
       move: MOVE_ICE_SHARD
-      move: MOVE_ICE_BALL
-      move: MOVE_ICICLE_SPEAR
+      move: MOVE_CHILLING_WATER
+      move: MOVE_FAKE_TEARS
       move: MOVE_FAIRY_WIND
-      move: MOVE_MAGICAL_TORQUE
     }
     level {
       level: 17
-      move: MOVE_FROST_BREATH
-      move: MOVE_AVALANCHE
-      move: MOVE_TICKLE
-      move: MOVE_FLOATY_FALL
-      move: MOVE_BULLET_SEED
-      move: MOVE_ALLURING_VOICE
+      move: MOVE_GROWL
+      move: MOVE_ICICLE_SPEAR
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_ICE_SPINNER
     }
     level {
       level: 24
-      move: MOVE_ENCORE
-      move: MOVE_ICE_SPINNER
-      move: MOVE_FAIRY_LOCK
-      move: MOVE_FREEZE_DRY
-      move: MOVE_ZEPHYR_RUSH
-      move: MOVE_TRAILBLAZE
-      move: MOVE_ICE_WALL
-      move: MOVE_PARTY_FAVORS
+      move: MOVE_STUFF_CHEEKS
+      move: MOVE_FROST_BREATH
+      move: MOVE_DECORATE
+      move: MOVE_CLOSE_COMBAT
     }
     level {
       level: 37
-      move: MOVE_COTTON_GUARD
-      move: MOVE_GLACIER_CRASH
-      move: MOVE_MOUNTAIN_GALE
-      move: MOVE_GIANT_GALE
-      move: MOVE_BONK
-      move: MOVE_CHILLY_RECEPTION
+      move: MOVE_BOUNCE
+      move: MOVE_RAZOR_WIND
+      move: MOVE_FOLLOW_ME
+      move: MOVE_FAIRY_SPHERES
     }
     level {
       level: 46
-      move: MOVE_STAR_CRASH
-      move: MOVE_TRIPLE_AXEL
-      move: MOVE_FREEZY_FROST
-      move: MOVE_WHIRLING_STRIKES
+      move: MOVE_SQUEAKY_HAMMER
+      move: MOVE_CHILLY_RECEPTION
     }
-    level {
+    level{
       level: 51
-      move: MOVE_SHEER_COLD
-      move: MOVE_SLACK_OFF
-      move: MOVE_SPARKLY_SWIRL
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_WHIRLING_STRIKES
+      move: MOVE_SPIRIT_BREAK
     }
-    level {
+    level{
       level: 56
-      move: MOVE_TIDY_UP
+      move: MOVE_FREEZY_FROST
+      move: MOVE_COTTON_GUARD
     }
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_CHARM
-    tutor: MOVE_COVET
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DEFOG
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_MIST
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_REFRESH
-    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_POWDER_SNOW
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_TAUNT
     tutor: MOVE_WORK_UP
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_ICE_BEAM
-    tutor: MOVE_BLIZZARD
-    tutor: MOVE_ICICLE_CRASH
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_CALM_MIND
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_MISTY_TERRAIN
-    tutor: MOVE_HAZE
-    tutor: MOVE_HAIL
-    tutor: MOVE_MOONBLAST
-    tutor: MOVE_PIXIE_BEAM
-    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_SKY_DROP
     tutor: MOVE_SWEET_KISS
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_DEFOG
-    tutor: MOVE_TAILWIND
-    tutor: MOVE_TAKE_FLIGHT
-    tutor: MOVE_MIST
-    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
