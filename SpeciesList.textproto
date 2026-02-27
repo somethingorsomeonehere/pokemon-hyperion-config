@@ -184177,21 +184177,21 @@ species {
   }
   visuals {
     icon {
-      path: "lucario/mega_y/icon"
+      path: "lucario/mega_z/icon"
     }
     front {
-      path: "lucario/mega_y/front"
+      path: "lucario/mega_z/front"
       coords {
       }
     }
     back {
-      path: "lucario/mega_y/back"
+      path: "lucario/mega_z/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
       }
     }
-    palette: "lucario/mega_y/normal"
-    shiny: "lucario/mega_y/shiny"
+    palette: "lucario/mega_z/normal"
+    shiny: "lucario/mega_z/shiny"
   }
 }
 species {
@@ -192995,76 +192995,83 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_ZING_ZAP
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_CHARGE
       move: MOVE_THUNDER_SHOCK
-      move: MOVE_BAD_EGG
+      move: MOVE_CHARGE
+      move: MOVE_ACID
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_BARRAGE
     }
     level {
       level: 17
-      move: MOVE_EERIE_IMPULSE
       move: MOVE_SHOCK_WAVE
-      move: MOVE_POISON_STING
-      move: MOVE_SPARK
+      move: MOVE_SHARPEN
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_SLUDGE
+      move: MOVE_INFESTATION
     }
     level {
       level: 24
-      move: MOVE_NUZZLE
-      move: MOVE_SUPERCELL_SLAM
-      move: MOVE_ACID_SPRAY
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_UNSCREW
       move: MOVE_KARMA
-      move: MOVE_TOXIC_PLUNGE
-    }
-    level {
-      level: 37
-      move: MOVE_GEAR_UP
-      move: MOVE_SHIFT_GEAR
-      move: MOVE_NOXIOUS_TORQUE
       move: MOVE_SLUDGE_WAVE
     }
     level {
-      level: 46
-      move: MOVE_ZAP_CANNON
+      level: 37
+      move: MOVE_SPARK
+      move: MOVE_SEPTIC_SWITCH
       move: MOVE_PARABOLIC_CHARGE
-      move: MOVE_MALIGNANT_CHAIN
+    }
+    level {
+      level: 46
+      move: MOVE_THUNDER_CAGE
+      move: MOVE_GEAR_GRIND
+      move: MOVE_LIGHTNING_STRIKE
     }
     level {
       level: 51
+      move: MOVE_KILOBITE
       move: MOVE_RISING_VOLTAGE
-      move: MOVE_AURA_WHEEL
+      move: MOVE_NUZZLE
     }
     level {
       level: 56
-      move: MOVE_VOLT_TACKLE
+      move: MOVE_GEAR_UP
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_SHIFT_GEAR
     }
-    level {
-      level: 71
-      move: MOVE_ELECTRO_DRIFT
-    }
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_BUG_BUZZ
     tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_CURSE
+    tutor: MOVE_CLEAR_SMOG
+    tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_DARK_PULSE
-    tutor: MOVE_DISABLE
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
-    tutor: MOVE_FACADE
-    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_METAL_CLAW
     tutor: MOVE_POISON_JAB
+    tutor: MOVE_SAFEGUARD
     tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPOTLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_FLASH
+    tutor: MOVE_CUT
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_MIRROR_SHOT
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_REFRESH
   }
   visuals {
     icon {
