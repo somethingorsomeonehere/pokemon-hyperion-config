@@ -212877,55 +212877,57 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SNARL
+      move: MOVE_DETECT
+      move: MOVE_FURY_ATTACK
       move: MOVE_LASH_OUT
-      move: MOVE_BEATDOWN
-      move: MOVE_BEAT_UP
+      move: MOVE_PECK
       move: MOVE_STOMP
-      move: MOVE_HONE_CLAWS
     }
     level {
       level: 17
-      move: MOVE_RUMBLE_KICK
-      move: MOVE_UPPER_HAND
-      move: MOVE_MUD_SHOT
+      move: MOVE_ASSURANCE
       move: MOVE_DOUBLE_KICK
-      move: MOVE_SHARPEN
+      move: MOVE_ASTONISH
     }
     level {
       level: 24
-      move: MOVE_THROAT_CHOP
-      move: MOVE_SMACK_DOWN
-      move: MOVE_QUASH
+      move: MOVE_HONE_CLAWS
+      move: MOVE_AIR_CUTTER
+      move: MOVE_INCITE
+      move: MOVE_JUMP_KICK
+      move: MOVE_FINAL_GAMBIT
     }
     level {
       level: 37
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_SUBMISSION
+      move: MOVE_ROLLING_KICK
     }
     level {
       level: 46
-      move: MOVE_JUMP_KICK
-      move: MOVE_RAGE
-      move: MOVE_SUPERPOWER
-    }
-    level {
-      level: 51
+      move: MOVE_HIGH_JUMP_KICK
       move: MOVE_AXE_KICK
     }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
+    tutor: MOVE_PLUCK
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_FRUSTRATION
     tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_DARK_PULSE
-    tutor: MOVE_ROLLING_KICK
-    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_PURSUIT
-    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_CURSE
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LOW_KICK
   }
   visuals {
@@ -212985,68 +212987,69 @@ species {
     level: 40
   }
   learnset {
-    level {
+    level{
       level: 1
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SNARL
+      move: MOVE_DETECT
+      move: MOVE_FURY_ATTACK
       move: MOVE_LASH_OUT
-      move: MOVE_BEATDOWN
-      move: MOVE_BEAT_UP
+      move: MOVE_PECK
       move: MOVE_STOMP
-      move: MOVE_HONE_CLAWS
     }
     level {
       level: 17
-      move: MOVE_RUMBLE_KICK
-      move: MOVE_UPPER_HAND
-      move: MOVE_MUD_SHOT
+      move: MOVE_ASSURANCE
       move: MOVE_DOUBLE_KICK
-      move: MOVE_SHARPEN
+      move: MOVE_ASTONISH
     }
     level {
       level: 24
-      move: MOVE_THROAT_CHOP
-      move: MOVE_SMACK_DOWN
-      move: MOVE_MEGA_KICK
-      move: MOVE_QUASH
+      move: MOVE_HONE_CLAWS
+      move: MOVE_AIR_CUTTER
+      move: MOVE_INCITE
+      move: MOVE_JUMP_KICK
+      move: MOVE_FINAL_GAMBIT
     }
     level {
       level: 37
       move: MOVE_HIGH_HORSEPOWER
-      move: MOVE_POWER_TRIP
       move: MOVE_SUBMISSION
+      move: MOVE_ROLLING_KICK
     }
     level {
       level: 46
-      move: MOVE_JUMP_KICK
-      move: MOVE_RAGE
-      move: MOVE_SUPERPOWER
-      move: MOVE_STRENGTH
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_AXE_KICK
     }
     level {
       level: 51
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_HEADLONG_RUSH
-      move: MOVE_AXE_KICK
-      move: MOVE_HEAD_SMASH
+      move: MOVE_PARTING_SHOT
     }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
+    level {
+      level: 56
+      move: MOVE_THUNDEROUS_KICK
+    }
+    tutor: MOVE_PLUCK
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_FRUSTRATION
     tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_DARK_PULSE
-    tutor: MOVE_AURA_SPHERE
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_ROLLING_KICK
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_BLOOD_SHOT
-    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_PURSUIT
-    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_CURSE
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LOW_KICK
+    tutor: MOVE_HORN_ATTACK
   }
   visuals {
     icon {
@@ -213106,71 +213109,80 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SNARL
+      move: MOVE_DETECT
+      move: MOVE_FURY_ATTACK
       move: MOVE_LASH_OUT
-      move: MOVE_BEATDOWN
-      move: MOVE_BEAT_UP
+      move: MOVE_PECK
       move: MOVE_STOMP
-      move: MOVE_HONE_CLAWS
     }
     level {
       level: 17
-      move: MOVE_RUMBLE_KICK
-      move: MOVE_UPPER_HAND
-      move: MOVE_MUD_SHOT
+      move: MOVE_ASSURANCE
       move: MOVE_DOUBLE_KICK
-      move: MOVE_SHARPEN
+      move: MOVE_ASTONISH
     }
     level {
       level: 24
-      move: MOVE_THROAT_CHOP
-      move: MOVE_SMACK_DOWN
-      move: MOVE_MEGA_KICK
-      move: MOVE_QUASH
+      move: MOVE_HONE_CLAWS
+      move: MOVE_AIR_CUTTER
+      move: MOVE_INCITE
+      move: MOVE_JUMP_KICK
+      move: MOVE_FINAL_GAMBIT
     }
     level {
       level: 37
       move: MOVE_HIGH_HORSEPOWER
-      move: MOVE_POWER_TRIP
       move: MOVE_SUBMISSION
-      move: MOVE_PARTING_SHOT
+      move: MOVE_ROLLING_KICK
+      move: MOVE_SCARY_FACE
     }
     level {
       level: 46
-      move: MOVE_JUMP_KICK
-      move: MOVE_RAGE
-      move: MOVE_SUPERPOWER
-      move: MOVE_STRENGTH
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_AXE_KICK
+      move: MOVE_BRAVE_BIRD
+      move: MOVE_HORN_DRILL
+    }
+    level{
+      level: 51
+      move: MOVE_PARTING_SHOT
+      move: MOVE_POWER_TRIP
     }
     level {
-      level: 51
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_HEADLONG_RUSH
-      move: MOVE_AXE_KICK
-      move: MOVE_HIGH_JUMP_KICK
-      move: MOVE_HEAD_SMASH
+      level: 56
+      move: MOVE_THUNDEROUS_KICK
     }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
+    level {
+      level: 71
+      move: MOVE_WHIRLING_STRIKES
+      move: MOVE_TRIPLE_KICK
+    }
+    tutor: MOVE_PLUCK
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_FRUSTRATION
-    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_ROCK_SLIDE
-    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_DARK_PULSE
-    tutor: MOVE_AURA_SPHERE
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_ROLLING_KICK
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_BLOOD_SHOT
-    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_AIR_SLASH
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_PURSUIT
-    tutor: MOVE_LOW_SWEEP
+    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_CURSE
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LOW_KICK
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_CRUSH_CLAW
   }
   visuals {
     icon {
