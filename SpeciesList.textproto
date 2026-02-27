@@ -2767,7 +2767,7 @@ species {
   percent_female: 50
   evo {
     to: SPECIES_RATIKING
-    level: 37
+    level: 46
   }
   learnset {
     level {
@@ -160675,7 +160675,7 @@ species {
   percent_female: 50
   evo {
     to: SPECIES_RATFIOSO
-    level: 37
+    level: 46
   }
   learnset {
     level {
@@ -190867,52 +190867,63 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_POISON_STING
-      move: MOVE_SMOG
-      move: MOVE_BRICK_BREAK
+      move: MOVE_INFESTATION
+      move: MOVE_CROSS_POISON
+      move: MOVE_SHARPEN
       move: MOVE_DEFENSE_CURL
-      move: MOVE_QUASH
+      move: MOVE_POUNCE
+      move: MOVE_HYPER_FANG
+      move: MOVE_ACID_SPRAY
+      move: MOVE_ME_FIRST
     }
     level {
       level: 17
-      move: MOVE_SLUDGE
-      move: MOVE_ACID
-      move: MOVE_UPPER_HAND
-      move: MOVE_BEAT_UP
-      move: MOVE_THROAT_CHOP
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 24
-      move: MOVE_CRUNCH
-      move: MOVE_COACHING
-      move: MOVE_POWER_TRIP
-      move: MOVE_TRAILBLAZE
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_SCREECH
+      move: MOVE_POISON_STING
     }
     level {
       level: 37
       move: MOVE_TOXIC_PLUNGE
-      move: MOVE_SLUDGE_WAVE
-      move: MOVE_REVENGE
-      move: MOVE_CHEAP_SHOT
+      move: MOVE_BELCH
+      move: MOVE_REVERSAL
     }
-    tutor: MOVE_AGILITY
-    tutor: MOVE_BITE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_FOCUS_PUNCH
-    tutor: MOVE_FORCE_PALM
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_KNOCK_OFF
-    tutor: MOVE_MACH_PUNCH
-    tutor: MOVE_ONE_INCH_PUNCH
+    level {
+      level: 46
+      move: MOVE_REVENGE
+    }
     tutor: MOVE_POISON_JAB
-    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_BULK_UP
     tutor: MOVE_SLUDGE_BOMB
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_TAUNT
+    tutor: MOVE_LEECH_LIFE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_FACADE
+    tutor: MOVE_DIG
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_CLEAR_SMOG
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_TORMENT
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_COVET
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -190965,67 +190976,78 @@ species {
   tier: 3
   evo {
     to: SPECIES_ERATICATE
-    level: 37
+    level: 46
   }
   learnset {
     level {
       level: 1
-      move: MOVE_POISON_STING
-      move: MOVE_SMOG
-      move: MOVE_BRICK_BREAK
+      move: MOVE_INFESTATION
+      move: MOVE_CROSS_POISON
+      move: MOVE_SHARPEN
       move: MOVE_DEFENSE_CURL
-      move: MOVE_QUASH
+      move: MOVE_POUNCE
+      move: MOVE_HYPER_FANG
+      move: MOVE_ACID_SPRAY
+      move: MOVE_ME_FIRST
     }
     level {
       level: 17
-      move: MOVE_SLUDGE
-      move: MOVE_ACID
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_NEEDLES
       move: MOVE_UPPER_HAND
-      move: MOVE_BEAT_UP
-      move: MOVE_THROAT_CHOP
+      move: MOVE_BRICK_BREAK
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 24
-      move: MOVE_CRUNCH
-      move: MOVE_COACHING
-      move: MOVE_POWER_TRIP
-      move: MOVE_TRAILBLAZE
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_SCREECH
+      move: MOVE_POISON_STING
     }
     level {
       level: 37
       move: MOVE_TOXIC_PLUNGE
-      move: MOVE_SLUDGE_WAVE
-      move: MOVE_CROSS_POISON
-      move: MOVE_REVENGE
-      move: MOVE_CHEAP_SHOT
+      move: MOVE_BELCH
+      move: MOVE_REVERSAL
+      move: MOVE_NOXIOUS_TORQUE
     }
     level {
       level: 46
+      move: MOVE_REVENGE
       move: MOVE_SUBMISSION
     }
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
     }
-    tutor: MOVE_AGILITY
-    tutor: MOVE_BITE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_FACADE
-    tutor: MOVE_FOCUS_PUNCH
-    tutor: MOVE_FORCE_PALM
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_KNOCK_OFF
-    tutor: MOVE_MACH_PUNCH
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_CIRCLE_THROW
+    tutor: MOVE_COUNTER
     tutor: MOVE_POISON_JAB
-    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_BULK_UP
     tutor: MOVE_SLUDGE_BOMB
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_TAUNT
+    tutor: MOVE_LEECH_LIFE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_FACADE
+    tutor: MOVE_DIG
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_CLEAR_SMOG
+    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_TORMENT
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_COVET
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -194253,71 +194275,81 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_POISON_STING
-      move: MOVE_SMOG
-      move: MOVE_BRICK_BREAK
+      move: MOVE_INFESTATION
+      move: MOVE_CROSS_POISON
+      move: MOVE_SHARPEN
       move: MOVE_DEFENSE_CURL
-      move: MOVE_QUASH
+      move: MOVE_POUNCE
+      move: MOVE_HYPER_FANG
+      move: MOVE_ACID_SPRAY
+      move: MOVE_ME_FIRST
     }
     level {
       level: 17
-      move: MOVE_SLUDGE
-      move: MOVE_ACID
+      move: MOVE_POISON_FANG
+      move: MOVE_TOXIC_NEEDLES
       move: MOVE_UPPER_HAND
-      move: MOVE_BEAT_UP
-      move: MOVE_THROAT_CHOP
+      move: MOVE_BRICK_BREAK
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 24
-      move: MOVE_CRUNCH
-      move: MOVE_COACHING
-      move: MOVE_POWER_TRIP
-      move: MOVE_TRAILBLAZE
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_SCREECH
+      move: MOVE_POISON_STING
     }
     level {
       level: 37
       move: MOVE_TOXIC_PLUNGE
-      move: MOVE_SLUDGE_WAVE
-      move: MOVE_CROSS_POISON
-      move: MOVE_REVENGE
-      move: MOVE_STOCKPILE
-      move: MOVE_CHEAP_SHOT
+      move: MOVE_BELCH
+      move: MOVE_REVERSAL
+      move: MOVE_NOXIOUS_TORQUE
     }
     level {
       level: 46
-      move: MOVE_DIRE_CLAW
+      move: MOVE_REVENGE
       move: MOVE_SUBMISSION
-      move: MOVE_MAT_BLOCK
-      move: MOVE_SHED_TAIL
     }
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
-      move: MOVE_OBSTRUCT
+      move: MOVE_HEADLONG_RUSH
     }
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
+    level{
+      level: 56
+      move: MOVE_SCARY_FACE
+      move: MOVE_FIRST_IMPRESSION
+    }
+    tutor: MOVE_CIRCLE_THROW
+    tutor: MOVE_COUNTER
     tutor: MOVE_POISON_JAB
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_BULK_UP
-    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_LEECH_LIFE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TOXIC_SPIKES
-    tutor: MOVE_FOCUS_PUNCH
-    tutor: MOVE_FORCE_PALM
+    tutor: MOVE_FACADE
+    tutor: MOVE_DIG
     tutor: MOVE_BODY_PRESS
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_POISON_TAIL
-    tutor: MOVE_BITE
+    tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_TAUNT
-    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_AGILITY
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_TORMENT
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_COVET
+    tutor: MOVE_U_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_BEAM
   }
   visuals {
     icon {
