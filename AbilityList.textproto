@@ -9,8 +9,8 @@ ability {
 ability {
   id: ABILITY_STENCH
   name: "Stench"
-  description: "Attacks have a 10% chance to cause enemy to flinch."
-  expanded_description: "Attacks gain +10% flinch chance. Stacks additively with other flinch sources. Multihits roll the activation chance on each hit. Outside of battle, wild Pokemon appear half as often when this Pokemon leads the party. Toxic Terrain active turns do not decrease while the user is present."
+  description: "10% chance to flinch targets. Toxic terrain is permanent."
+  expanded_description: "Attacks gain +10% flinch chance. Chance is rolled separately on multi-hit attacks. Toxic Terrain turns do not decrease while the user is present."
 }
 ability {
   id: ABILITY_DRIZZLE
@@ -1218,8 +1218,8 @@ ability {
 ability {
   id: ABILITY_LONG_REACH
   name: "Long Reach"
-  description: "Doesn't make contact. Boosts Phys. non-contact moves by 1.2x."
-  expanded_description: "Long Reach prevents the user from making contact with targets when using contact moves. Additionally, physical non-contact moves receive a 1.2x damage boost. Only applies damage boost to physical moves that were originally non-contact."
+  description: "Physical moves get a 1.2x bonus and don't make contact."
+  expanded_description: "Long Reach prevents the user from making contact with targets when using contact moves. Additionally, physical moves receive a 1.2x damage boost."
 }
 ability {
   id: ABILITY_LIQUID_VOICE
@@ -3266,8 +3266,8 @@ ability {
 ability {
   id: ABILITY_PARROTING
   name: "Parroting"
-  description: "Copies sound moves used by others. Immune to sound."
-  expanded_description: "When any Pokemon on the field uses a sound move, this Pokemon immediately uses the same move after. Triggers once per move. Also grants immunity to sound moves."
+  description: "Copies sound moves used by others."
+  expanded_description: "When any Pokemon on the field uses a sound move, this Pokemon immediately uses the same move after. Triggers once per move."
 }
 ability {
   id: ABILITY_SALT_CIRCLE
@@ -5685,7 +5685,8 @@ ability {
 ability {
   id: ABILITY_FIRE_RULER
   name: "Fire Ruler"
-  description: "King's Wrath + Flame Body"
+  description: "King's Wrath + Flame Shield"
+  expanded_description: "Boosts Attack and Defense when the user or their ally's stats are lowered. Reduces damage from super-effective attacks by 35%. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_CHANDELIER
