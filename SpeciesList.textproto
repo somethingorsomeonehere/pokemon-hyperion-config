@@ -155426,7 +155426,7 @@ species {
   ability: ABILITY_SPEED_FORCE
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CORROSION
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   learnset {
@@ -183771,10 +183771,10 @@ species {
   spe: 130
   ability: ABILITY_SCARE
   ability: ABILITY_FERTILIZE
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_RAW_WOOD
+  ability: ABILITY_HUSTLE
+  innate: ABILITY_SMOLDERING_WOOD
   innate: ABILITY_STENCH
-  innate: ABILITY_FLAME_BODY
+  innate: ABILITY_IMMUNITY
   percent_female: 25
   mega {
     from: SPECIES_ARCANINE_REDUX
@@ -188766,11 +188766,11 @@ species {
       level: 46
       move: MOVE_SQUEAKY_HAMMER
     }
-    level{
+    level {
       level: 51
       move: MOVE_SPIRIT_BREAK
     }
-    level{
+    level {
       level: 56
       move: MOVE_FREEZY_FROST
     }
@@ -188884,13 +188884,13 @@ species {
       move: MOVE_SQUEAKY_HAMMER
       move: MOVE_CHILLY_RECEPTION
     }
-    level{
+    level {
       level: 51
       move: MOVE_TRIPLE_AXEL
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_SPIRIT_BREAK
     }
-    level{
+    level {
       level: 56
       move: MOVE_FREEZY_FROST
     }
@@ -189009,13 +189009,13 @@ species {
       move: MOVE_SQUEAKY_HAMMER
       move: MOVE_CHILLY_RECEPTION
     }
-    level{
+    level {
       level: 51
       move: MOVE_TRIPLE_AXEL
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_SPIRIT_BREAK
     }
-    level{
+    level {
       level: 56
       move: MOVE_FREEZY_FROST
       move: MOVE_COTTON_GUARD
@@ -189725,7 +189725,7 @@ species {
   ability: ABILITY_UNBURDEN
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_CLEAR_BODY
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   form_shift_of: SPECIES_GROTOM
@@ -189852,7 +189852,7 @@ species {
   ability: ABILITY_DUST_CLOUD
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LETS_ROLL
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   form_shift_of: SPECIES_GROTOM
@@ -190104,7 +190104,7 @@ species {
   ability: ABILITY_QUICK_FEET
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_STRIKER
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   form_shift_of: SPECIES_GROTOM
@@ -190235,7 +190235,7 @@ species {
   ability: ABILITY_STENCH
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_OVERCOAT
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   form_shift_of: SPECIES_GROTOM
@@ -191097,7 +191097,7 @@ species {
     level: 23
   }
   learnset {
-     level {
+    level {
       level: 1
       move: MOVE_ICE_SPINNER
       move: MOVE_ICE_BALL
@@ -191502,7 +191502,7 @@ species {
   }
   learnset {
     level {
-    level: 1
+      level: 1
       move: MOVE_EERIE_IMPULSE
       move: MOVE_THUNDER_SHOCK
       move: MOVE_CHARGE
@@ -192120,7 +192120,7 @@ species {
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_HARDENED_SHEATH
   ability: ABILITY_LOOSE_ROCKS
-  innate: ABILITY_ROCKY_EXTERIOR
+  innate: ABILITY_ROCK_ARMOR
   innate: ABILITY_THICK_BLUBBER
   innate: ABILITY_DRAGONS_MAW
   percent_female: 50
@@ -193433,7 +193433,7 @@ species {
       move: MOVE_MUDDY_WATER
       move: MOVE_WRING_OUT
     }
-    level{
+    level {
       level: 56
       move: MOVE_LAST_RESPECTS
     }
@@ -194333,7 +194333,7 @@ species {
       move: MOVE_CLOSE_COMBAT
       move: MOVE_HEADLONG_RUSH
     }
-    level{
+    level {
       level: 56
       move: MOVE_SCARY_FACE
       move: MOVE_FIRST_IMPRESSION
@@ -211151,6 +211151,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_SOAK
     tutor: MOVE_DIVE
+    tutor: MOVE_AQUA_FANG
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_HAZE
     tutor: MOVE_HEAL_BLOCK
@@ -211268,6 +211269,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_SOAK
     tutor: MOVE_DIVE
+    tutor: MOVE_AQUA_FANG
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_HAZE
     tutor: MOVE_HEAL_BLOCK
@@ -212331,7 +212333,7 @@ species {
   ability: ABILITY_SINISTER_CLAWS
   innate: ABILITY_TERMINAL_VELOCITY
   innate: ABILITY_AERIALIST
-  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_SLEEK_SCALES
   percent_female: 50
   mega {
     from: SPECIES_GARCHOMP
@@ -213083,7 +213085,7 @@ species {
     level: 40
   }
   learnset {
-    level{
+    level {
       level: 1
       move: MOVE_DETECT
       move: MOVE_FURY_ATTACK
@@ -213239,7 +213241,7 @@ species {
       move: MOVE_BRAVE_BIRD
       move: MOVE_HORN_DRILL
     }
-    level{
+    level {
       level: 51
       move: MOVE_PARTING_SHOT
       move: MOVE_POWER_TRIP
