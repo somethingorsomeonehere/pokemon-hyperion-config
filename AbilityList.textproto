@@ -5728,7 +5728,7 @@ ability {
 ability {
   id: ABILITY_BREAK_IT_DOWN
   name: "Break it Down"
-  description: "After using a dance move, follow up with a 20BP Rapid Spin."
+  description: "After using an attack, follow up with a 20BP Rapid Spin."
 }
 ability {
   id: ABILITY_TALON_TRAP
