@@ -57,8 +57,8 @@ ability {
 ability {
   id: ABILITY_STATIC
   name: "Static"
-  description: "30% chance to paralyze on contact. Also works on offense."
-  expanded_description: "30% chance to paralyze on any contact move (both offense and defense in Elite Redux). Halves foe's Speed to 50% with 25% full paralysis chance per turn. Makes Wild Charge/Spark deadly threats. Severely punishes U-turn/Fake Out users. Electric-types and Limber immune. Bypassed by Mold Breaker."
+  description: "30% chance to paralyze on contact, 10% on non-contact."
+  expanded_description: "Has a chance to paralyze when attacking or when hit by a move. Has a 10% chance to paralyze on non-contact attacks and a 30% chance to paralyze on contact attacks."
 }
 ability {
   id: ABILITY_VOLT_ABSORB
@@ -3920,7 +3920,7 @@ ability {
   id: ABILITY_WHITE_NOISE
   name: "White Noise"
   description: "Static + Rest in Peace."
-  expanded_description: "The user has a 30% chance to inflict paralysis on contact moves, both when attacking and being attacked. Restores 1/8 of the user's maximum HP at the end of each turn while in fog."
+  expanded_description: ""Has a chance to paralyze when attacking or when hit by a move. Has a 10% chance to paralyze on non-contact attacks and a 30% chance to paralyze on contact attacks. Restores 1/8 of the user's maximum HP at the end of each turn while in fog."
 }
 ability {
   id: ABILITY_SMOKEY_MANEUVERS
@@ -5380,7 +5380,8 @@ ability {
 ability {
   id: ABILITY_DUNE_VEIL
   name: "Dune Veil"
-  description: "Sand Guard + Self Sufficient."
+  description: "Desert Cloak + Self Sufficient."
+  expanded_description: "All allies become immune to status conditions and secondary effects from enemy moves while sand is active. Restores 1/16 of the Pokemon's maximum HP at the end of each turn."
 }
 ability {
   id: ABILITY_STRONG_FOUNDATION
