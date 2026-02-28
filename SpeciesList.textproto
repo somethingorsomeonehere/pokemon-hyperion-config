@@ -212183,6 +212183,7 @@ species {
   visuals {
     icon {
       path: "raichu/mega_x/icon"
+      palette: 2
     }
     front {
       path: "raichu/mega_x/front"
@@ -212340,6 +212341,7 @@ species {
   visuals {
     icon {
       path: "garchomp/mega_z/icon"
+      palette: 2
     }
     front {
       path: "garchomp/mega_z/front"
@@ -212493,6 +212495,7 @@ species {
   visuals {
     icon {
       path: "meowstic/mega/icon"
+      palette: 1
     }
     front {
       path: "meowstic/mega/front"
@@ -212652,6 +212655,7 @@ species {
   visuals {
     icon {
       path: "scovillain/mega/icon"
+      palette: 1
     }
     front {
       path: "scovillain/mega/front"
