@@ -191097,8 +191097,7 @@ species {
     level: 23
   }
   learnset {
-    level {
-      level {
+     level {
       level: 1
       move: MOVE_ICE_SPINNER
       move: MOVE_ICE_BALL
@@ -191502,6 +191501,7 @@ species {
     level: 23
   }
   learnset {
+    level {
     level: 1
       move: MOVE_EERIE_IMPULSE
       move: MOVE_THUNDER_SHOCK
