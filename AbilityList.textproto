@@ -805,8 +805,8 @@ ability {
 ability {
   id: ABILITY_HEAVY_METAL
   name: "Heavy Metal"
-  description: "Doubles this Pokémon's weight."
-  expanded_description: "Doubles the Pokemon's weight. Makes weight-based attacks such as Low Kick deal more damage against this Pokemon. However, it also increases damage from the user's Heavy Slam and similar weight-based moves."
+  description: "Doubles this Pokémon's weight. Take half damage from Ghost and Dark."
+  expanded_description: "Doubles the Pokemon's weight, which affects some moves. Takes half damage from Ghost and Dark-type attacks."
 }
 ability {
   id: ABILITY_LIGHT_METAL
