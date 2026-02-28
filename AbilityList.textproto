@@ -6025,3 +6025,23 @@ ability {
   name: "Warrior's Spear"
   description: "Mighty Horn + Fighting Spirit"
 }
+ability {
+  id: ABILITY_SLEEK_SCALES
+  name: "Sleek Scales"
+  description: "The Pokémon uses +15% of its Speed when defending."
+}
+ability {
+  id: ABILITY_ROCK_ARMOR
+  name: "Rock Armor"
+  description: "Rocky Exterior + takes 10% less damage from attacks."
+}
+ability {
+  id: ABILITY_SMOLDERING_WOOD
+  name: "Smoldering Wood"
+  description: "Raw Wood + Flame Body."
+}
+ability {
+  id: ABILITY_SLIME_MOLD
+  name: "Slime Mold"
+  description: "Sticky Hold + Gooey."
+}
