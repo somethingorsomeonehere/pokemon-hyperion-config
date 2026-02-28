@@ -211151,7 +211151,6 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_SOAK
     tutor: MOVE_DIVE
-    tutor: MOVE_AQUA_FANG
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_HAZE
     tutor: MOVE_HEAL_BLOCK
@@ -211269,7 +211268,6 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_SOAK
     tutor: MOVE_DIVE
-    tutor: MOVE_AQUA_FANG
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_HAZE
     tutor: MOVE_HEAL_BLOCK

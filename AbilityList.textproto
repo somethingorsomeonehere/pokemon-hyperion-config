@@ -805,8 +805,8 @@ ability {
 ability {
   id: ABILITY_HEAVY_METAL
   name: "Heavy Metal"
-  description: "Doubles this Pokémon's weight. Take half damage from Ghost and Dark."
-  expanded_description: "Doubles the Pokemon's weight, which affects some moves. Takes half damage from Ghost and Dark-type attacks."
+  description: "Take half damage from Ghost and Dark."
+  expanded_description: "Takes half damage from Ghost and Dark-type attacks. Doubles the Pokemon's weight, which affects some moves."
 }
 ability {
   id: ABILITY_LIGHT_METAL
@@ -884,7 +884,7 @@ ability {
   id: ABILITY_WONDER_SKIN
   name: "Wonder Skin"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
 }
 ability {
   id: ABILITY_ANALYTIC
@@ -2046,7 +2046,7 @@ ability {
   id: ABILITY_FORT_KNOX
   name: "Fort Knox"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
 }
 ability {
   id: ABILITY_SEAWEED
@@ -2079,7 +2079,7 @@ ability {
 }
 ability {
   id: ABILITY_MULTI_HEADED
-  name: "Multi Headed"
+  name: "Multi-Headed"
   description: "Hits as many times, as it has heads."
   expanded_description: "Attack 2-3 times per move based on number of heads. Two-headed Pokemon strike twice (1st hit does 100%, 2nd does 25%), three-headed hit thrice (1st hit does 100%, 2nd does 20%, 3rd does 15%). Each hit rolls secondary effects independently (except flinch). Bypasses Fort Knox/Wonder Skin."
 }
@@ -2914,7 +2914,7 @@ ability {
   id: ABILITY_PRIM_AND_PROPER
   name: "Prim and Proper"
   description: "Wonder Skin + Cute Charm."
-  expanded_description: "When hit by making contact (offensively or defensively), has a 50% chance to infatuate the attacker (cuts their Attack and Special Attack in half). Only works on Pokemon of the opposite gender. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
+  expanded_description: "When hit by making contact (offensively or defensively), has a 50% chance to infatuate the attacker (cuts their Attack and Special Attack in half). Only works on Pokemon of the opposite gender. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
 }
 ability {
   id: ABILITY_SUPER_STRAIN
@@ -3920,7 +3920,7 @@ ability {
   id: ABILITY_WHITE_NOISE
   name: "White Noise"
   description: "Static + Rest in Peace."
-  expanded_description: ""Has a chance to paralyze when attacking or when hit by a move. Has a 10% chance to paralyze on non-contact attacks and a 30% chance to paralyze on contact attacks. Restores 1/8 of the user's maximum HP at the end of each turn while in fog."
+  expanded_description: "Has a chance to paralyze when attacking or when hit by a move. Has a 10% chance to paralyze on non-contact attacks and a 30% chance to paralyze on contact attacks. Restores 1/8 of the user's maximum HP at the end of each turn while in fog."
 }
 ability {
   id: ABILITY_SMOKEY_MANEUVERS
@@ -4953,7 +4953,7 @@ ability {
   id: ABILITY_WONDER_SCALE
   name: "Wonder Scale"
   description: "Shed Skin + Wonder Skin"
-  expanded_description: "At the end of each turn, there's a 30% chance for the user to cure status conditions afflicted on them. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi Headed."
+  expanded_description: "At the end of each turn, there's a 30% chance for the user to cure status conditions afflicted on them. Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
 }
 ability {
   id: ABILITY_OVERZEALOUS
@@ -5511,7 +5511,8 @@ ability {
 ability {
   id: ABILITY_HYDRA
   name: "Hydra"
-  description: "Multiheaded + Beast Boost."
+  description: "Multi-Headed + Hubris."
+  expanded_description: "Boosts the user's Special Attack by one stage whenever it knocks out an opponent with a direct hit. Attack 2-3 times per move based on number of heads. 1.25x total for 2 heads, 1.35x total for 3 heads."
 }
 ability {
   id: ABILITY_WINGS_OF_PESTILENCE
@@ -5957,7 +5958,7 @@ ability {
 ability {
   id: ABILITY_3_GT_1
   name: "3 > 1"
-  description: "Multiheaded + Riptide"
+  description: "Multi-Headed + Riptide"
 }
 ability {
   id: ABILITY_ABOMINABLE_MONSTER
