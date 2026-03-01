@@ -1054,6 +1054,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_MAWILITE_R
@@ -2683,6 +2684,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
+  adoption_center: true
 }
 item {
   id: ITEM_RAICHUNITE_Y
@@ -2692,6 +2694,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
+  adoption_center: true
 }
 item {
   id: ITEM_PYROARITE
@@ -2839,7 +2842,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
-  adoption_center: true
 }
 item {
   id: ITEM_ZERAORITE
@@ -2849,7 +2851,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
-  adoption_center: true
 }
 item {
   id: ITEM_SCOVILLAINITE
