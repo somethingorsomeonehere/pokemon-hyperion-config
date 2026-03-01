@@ -212546,7 +212546,7 @@ species {
   innate: ABILITY_OVERWHELMING_MIND
   innate: ABILITY_HOVER
   innate: ABILITY_DUALITY
-  percent_female: 0
+  percent_female: 50
   mega {
     from: SPECIES_MEOWSTIC
     item: ITEM_MEOWSTICITE
