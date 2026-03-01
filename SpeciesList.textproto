@@ -203283,9 +203283,65 @@ species {
   percent_female: 50
   learnset {
     level {
-      level: 10
-      move: MOVE_EMBER
+      level: 1
+      move: MOVE_TACKLE
+      move: MOVE_LEER
+      move: MOVE_SILVER_WIND
     }
+    level{
+      level: 17
+      move: MOVE_GUST
+      move: MOVE_FAIRY_WIND
+      move: MOVE_GIANT_GALE
+    }
+    level {
+      level: 24
+      move: MOVE_BOUNCE
+      move: MOVE_RAZOR_WIND
+    }
+    level {
+      level: 37
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_TWISTER
+      move: MOVE_SUPERSONIC
+    }
+    level {
+      level: 45
+      move: MOVE_JETSTREAM_BURST
+      move: MOVE_FEATHER_DANCE
+      move: MOVE_WHIRLING_STRIKES
+    }
+    level {
+      level: 51
+      move: MOVE_GODSPEED
+      move: MOVE_AEROBLAST
+    }
+    level {
+      level: 81
+      move: MOVE_BLEAKWIND_STORM
+      move: MOVE_WILDBOLT_STORM
+    }
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_AGILITY
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_ROOST
+    tutor: MOVE_FLY
+    tutor: MOVE_DEFOG
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_SAFEGUARD
   }
   visuals {
     icon {
