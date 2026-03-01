@@ -212495,6 +212495,10 @@ species {
     from: SPECIES_MEOWSTIC
     item: ITEM_MEOWSTICITE
   }
+  mega {
+    from: SPECIES_MEOWSTIC_FEMALE
+    item: ITEM_MEOWSTICITE
+  }
   visuals {
     icon {
       path: "meowstic/mega/icon"
