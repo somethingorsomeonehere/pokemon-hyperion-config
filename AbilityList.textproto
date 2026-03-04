@@ -5226,7 +5226,7 @@ ability {
 ability {
   id: ABILITY_AURORAS_GALE
   name: "Aurora's Gale"
-  description: "Majestic Bird + Aurora Veil."
+  description: "Majestic Bird + North Wind."
   expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
