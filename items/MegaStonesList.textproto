@@ -1644,15 +1644,6 @@ item {
   talk_to_legendary_sage: true
 }
 item {
-  id: ITEM_FIDOUGHITE
-  name: "Fidoughite"
-  description: "Enables FidoughP. to Mega Evolve."
-  grouping: POCKET_MEGA_STONES
-  hold_effect: HOLD_EFFECT_MEGA_STONE
-  image: "generic_megastone"
-  palette: "hitmonchanite"
-}
-item {
   id: ITEM_WIGGLYTUFFITE_X
   name: "Wigglytuffite X"
   description: "Enables Wigglytuff to Mega Evolve."

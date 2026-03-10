@@ -180063,82 +180063,6 @@ species {
   }
 }
 species {
-  id: SPECIES_FIDOUGH_PARTNER
-  form_of: SPECIES_FIDOUGH
-  type: TYPE_FAIRY
-  hp: 80
-  atk: 75
-  def: 70
-  spatk: 50
-  spdef: 85
-  spe: 75
-  ability: ABILITY_SHARING_IS_CARING
-  ability: ABILITY_SOOTHING_AROMA
-  ability: ABILITY_CUTE_ANTECEDENCE
-  innate: ABILITY_WELL_BAKED_BODY
-  innate: ABILITY_REGENERATOR
-  innate: ABILITY_PICKUP
-  percent_female: 50
-  tier: 2
-  learnset {
-    level {
-      level: 1
-      move: MOVE_GROWL
-      move: MOVE_LOVELY_BITE
-    }
-    level {
-      level: 17
-      move: MOVE_BODY_SLAM
-      move: MOVE_FIRE_FANG
-      move: MOVE_PRESENT
-      move: MOVE_SYRUP_BOMB
-    }
-    level {
-      level: 24
-      move: MOVE_BATON_PASS
-      move: MOVE_ENCORE
-      move: MOVE_FERTILE_FANGS
-      move: MOVE_GROWTH
-      move: MOVE_PSYCHIC_FANGS
-    }
-    level {
-      level: 37
-      move: MOVE_CRUNCH
-    }
-    level {
-      level: 46
-      move: MOVE_SPARKLY_SWIRL
-      move: MOVE_WISH
-    }
-    level {
-      level: 51
-      move: MOVE_PYRO_BALL
-    }
-    level {
-      level: 61
-      move: MOVE_SLACK_OFF
-    }
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_COPYCAT
-    tutor: MOVE_COVET
-    tutor: MOVE_DAZZLING_GLEAM
-    tutor: MOVE_DRAINING_KISS
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_MISTY_TERRAIN
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_RAGE_POWDER
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_WORK_UP
-    tutor: MOVE_BITE
-  }
-  reuse_visuals: SPECIES_FIDOUGH
-}
-species {
   id: SPECIES_CHESNAUGHT_BATTLE_BOND
   form_of: SPECIES_CHESNAUGHT
   type: TYPE_GRASS
@@ -186544,48 +186468,6 @@ species {
     }
     palette: "duraludon/partner/mega/normal"
     shiny: "duraludon/partner/mega/shiny"
-  }
-}
-species {
-  id: SPECIES_FIDOUGH_PARTNER_MEGA
-  form_of: SPECIES_FIDOUGH
-  type: TYPE_FAIRY
-  hp: 80
-  atk: 110
-  def: 110
-  spatk: 55
-  spdef: 110
-  spe: 70
-  ability: ABILITY_MISTY_SURGE
-  ability: ABILITY_SPIDER_LAIR_UPGRADE
-  ability: ABILITY_CUTE_ANTECEDENCE
-  innate: ABILITY_WELL_BAKED_BODY
-  innate: ABILITY_NATURAL_RECOVERY
-  innate: ABILITY_CRUST_COAT
-  percent_female: 50
-  tier: 2
-  mega {
-    from: SPECIES_FIDOUGH_PARTNER
-    item: ITEM_FIDOUGHITE
-  }
-  visuals {
-    icon {
-      path: "fidough/mega/icon"
-      palette: 3
-    }
-    front {
-      path: "fidough/mega/front"
-      coords {
-      }
-    }
-    back {
-      path: "fidough/mega/back"
-      anim: BACK_ANIM_H_SLIDE
-      coords {
-      }
-    }
-    palette: "fidough/mega/normal"
-    shiny: "fidough/mega/shiny"
   }
 }
 species {
