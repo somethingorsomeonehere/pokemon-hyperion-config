@@ -107825,7 +107825,7 @@ trainer {
       spe_ev: 252
       move: MOVE_AERIAL_ACE
       move: MOVE_ROCK_SLIDE
-      move: MOVE_DRACONIC_FANGS
+      move: MOVE_TECTONIC_FANGS
       move: MOVE_TAKE_FLIGHT
     }
     mon {

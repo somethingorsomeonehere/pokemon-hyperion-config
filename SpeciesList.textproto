@@ -12626,7 +12626,7 @@ species {
   tier: 3
   evo {
     to: SPECIES_MAGNETON
-    level: 23
+    level: 30
   }
   learnset {
     level {
@@ -18952,6 +18952,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHO_CUT
@@ -18959,6 +18960,7 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFRESH
+    tutor: MOVE_ROCK_THROW
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SURF
@@ -18968,8 +18970,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_LIQUIDATION
-    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -19118,10 +19119,21 @@ species {
       move: MOVE_STORED_POWER
       move: MOVE_WAVE_CRASH
       move: MOVE_PSYCHOKINETIC_SLAM
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_CLOSE_COMBAT
+    }
+    level {
+      level: 61
+      move: MOVE_ICE_SPINNER
+    }
+    level {
+      level: 71
+      move: MOVE_TRIPLE_AXEL
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BULK_UP
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_ENERGY_WAVE
@@ -19130,6 +19142,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC
@@ -19138,6 +19151,7 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFRESH
+    tutor: MOVE_ROCK_THROW
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SURF
@@ -19146,10 +19160,8 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_BULK_UP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_LIQUIDATION
-    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -181510,7 +181522,7 @@ species {
   ability: ABILITY_HUGE_POWER
   ability: ABILITY_HUGE_POWER
   innate: ABILITY_BREAK_IT_DOWN
-  innate: ABILITY_SPITEFUL
+  innate: ABILITY_BLUR
   innate: ABILITY_MYSTIC_POWER
   genderless: true
   mega {
