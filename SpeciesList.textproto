@@ -6599,6 +6599,78 @@ species {
           image: 1
           duration: 5
         }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
       }
     }
   }
@@ -7756,11 +7828,87 @@ species {
           duration: 4
         }
         frame {
-          image: 1
+          image: 0
           duration: 4
         }
         frame {
           image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 10
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 10
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
           duration: 4
         }
       }
