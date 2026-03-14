@@ -1627,11 +1627,12 @@ item {
 item {
   id: ITEM_DURALUDITE
   name: "Duraludite"
-  description: "Enables DuraludonP. to Mega Evolve."
+  description: "Enables Duraludon to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_ULTRANECROZIUM_P
