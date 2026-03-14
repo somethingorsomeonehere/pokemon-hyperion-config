@@ -209524,7 +209524,7 @@ species {
   innate: ABILITY_STRONG_JAW
   percent_female: 50
   evo {
-    to: SPECIES_LUXRAY_REDUX_B
+    to: SPECIES_LUXRAY_REDUX
     level: 30
   }
   learnset {
@@ -209617,7 +209617,7 @@ species {
   }
 }
 species {
-  id: SPECIES_LUXRAY_REDUX_B
+  id: SPECIES_LUXRAY_REDUX
   form_of: SPECIES_LUXRAY
   type: TYPE_GRASS
   hp: 80
@@ -209733,7 +209733,7 @@ species {
   }
 }
 species {
-  id: SPECIES_LUXRAY_REDUX_B_MEGA
+  id: SPECIES_LUXRAY_REDUX_MEGA
   form_of: SPECIES_LUXRAY
   type: TYPE_GRASS
   hp: 80
@@ -209750,7 +209750,7 @@ species {
   innate: ABILITY_GRASSY_SURGE
   percent_female: 50
   mega {
-    from: SPECIES_LUXRAY_REDUX_B
+    from: SPECIES_LUXRAY_REDUX
     item: ITEM_LUXRAYNITE_R
   }
   visuals {

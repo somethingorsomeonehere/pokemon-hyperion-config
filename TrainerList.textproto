@@ -3125,7 +3125,7 @@ trainer {
       move: MOVE_AIR_CUTTER
     }
     mon {
-      species: SPECIES_LUXRAY_REDUX_B
+      species: SPECIES_LUXRAY_REDUX
       item: ITEM_FLAME_ORB
       nature: NATURE_JOLLY
       ability: ABILITY_GUTS
@@ -98913,7 +98913,7 @@ trainer {
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_LUXRAY_REDUX_B
+      species: SPECIES_LUXRAY_REDUX
       item: ITEM_LUXRAYNITE_R
       nature: NATURE_ADAMANT
       ability: ABILITY_AMBUSH
