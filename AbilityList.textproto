@@ -1201,7 +1201,7 @@ ability {
   id: ABILITY_STEELWORKER
   name: "Steelworker"
   description: "Normal moves become Steel. Steel resists Ghost and Dark."
-  expanded_description: "Changes the user's Normal-type moves to Steel-type. If the user is Steel-type it resists Ghost and Steel, otherwise it gains Steel STAB."
+  expanded_description: "Changes the user's Normal-type moves to Steel-type. If the user is Steel-type it resists Ghost and Dark, otherwise it gains Steel STAB."
 }
 ability {
   id: ABILITY_BERSERK
