@@ -180303,7 +180303,7 @@ species {
     shiny: "chesnaught/clemont/shiny"
   }
   battle_form {
-    of: SPECIES_CHESNAUGHT
+    of: SPECIES_CHESNAUGHT_BATTLE_BOND
     keep_on_switch: true
   }
 }
