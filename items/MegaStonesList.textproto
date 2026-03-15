@@ -2670,7 +2670,7 @@ item {
 }
 item {
   id: ITEM_RAICHUNITE_X
-  name: "Raichu"
+  name: "Raichunite X"
   description: "Enables Raichu to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
