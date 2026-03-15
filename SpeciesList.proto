@@ -190,6 +190,7 @@ message Species {
   RandomizerData allowed_climate = 37;
   SpeciesEnum randomizer_alt_gender = 38;
   repeated SpeciesEnum linked_species = 39;
+  optional int32 adoption_center_badge = 40;
 }
 
 message Visuals {

@@ -131471,6 +131471,7 @@ species {
 }
 species {
   id: SPECIES_KUBFU
+  adoption_center_badge: 8
   randomizer_banned: LEGENDARY
   dex {
     name: "Kubfu"
@@ -188785,6 +188786,7 @@ species {
 }
 species {
   id: SPECIES_MINCCINO_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_MINCCINO
   type: TYPE_ICE
   type2: TYPE_FAIRY
@@ -189142,6 +189144,7 @@ species {
 }
 species {
   id: SPECIES_SINISTEA_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_SINISTEA
   type: TYPE_GHOST
   type2: TYPE_DRAGON
@@ -189400,6 +189403,7 @@ species {
 }
 species {
   id: SPECIES_CETODDLE_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_CETODDLE
   type: TYPE_STEEL
   hp: 60
@@ -190913,6 +190917,7 @@ species {
 }
 species {
   id: SPECIES_RATTATA_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_RATTATA
   type: TYPE_POISON
   hp: 35
@@ -191144,6 +191149,7 @@ species {
 }
 species {
   id: SPECIES_VANILLITE_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_VANILLITE
   type: TYPE_ICE
   type2: TYPE_FIRE
@@ -191548,6 +191554,7 @@ species {
 }
 species {
   id: SPECIES_LITWICK_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_LITWICK
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
@@ -191964,6 +191971,7 @@ species {
 }
 species {
   id: SPECIES_DRILBUR_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_DRILBUR
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -192291,6 +192299,7 @@ species {
 }
 species {
   id: SPECIES_SWINUB_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_SWINUB
   type: TYPE_GROUND
   type2: TYPE_GRASS
@@ -192844,6 +192853,7 @@ species {
 }
 species {
   id: SPECIES_LARVESTA_REDUX
+  adoption_center_badge: 7
   form_of: SPECIES_LARVESTA
   type: TYPE_BUG
   type2: TYPE_DARK
@@ -193043,6 +193053,7 @@ species {
 }
 species {
   id: SPECIES_KLEFKI_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_KLEFKI
   type: TYPE_ELECTRIC
   type2: TYPE_POISON
@@ -193176,6 +193187,7 @@ species {
 }
 species {
   id: SPECIES_BELLSPROUT_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_BELLSPROUT
   type: TYPE_GRASS
   type2: TYPE_ICE
@@ -193570,6 +193582,7 @@ species {
 }
 species {
   id: SPECIES_SAWK_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_SAWK
   type: TYPE_NORMAL
   hp: 95
@@ -193681,6 +193694,7 @@ species {
 }
 species {
   id: SPECIES_THROH_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_THROH
   type: TYPE_NORMAL
   hp: 110
@@ -194017,6 +194031,7 @@ species {
 }
 species {
   id: SPECIES_SWABLU_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_SWABLU
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -194461,6 +194476,7 @@ species {
 }
 species {
   id: SPECIES_EXEGGCUTE_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_EXEGGCUTE
   type: TYPE_GRASS
   type2: TYPE_NORMAL
@@ -195035,6 +195051,7 @@ species {
 }
 species {
   id: SPECIES_NOIBAT_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_NOIBAT
   type: TYPE_ROCK
   type2: TYPE_GHOST
@@ -195535,6 +195552,7 @@ species {
 }
 species {
   id: SPECIES_HONEDGE_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_HONEDGE
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -195860,6 +195878,7 @@ species {
 }
 species {
   id: SPECIES_ABRA_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_ABRA
   type: TYPE_DARK
   hp: 25
@@ -196191,6 +196210,7 @@ species {
 }
 species {
   id: SPECIES_WEEDLE_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_WEEDLE
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -196445,6 +196465,7 @@ species {
 }
 species {
   id: SPECIES_STUFFUL_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_STUFFUL
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
@@ -196679,6 +196700,7 @@ species {
 }
 species {
   id: SPECIES_PANPOUR_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_PANPOUR
   type: TYPE_PSYCHIC
   hp: 50
@@ -196886,6 +196908,7 @@ species {
 }
 species {
   id: SPECIES_PANSAGE_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_PANSAGE
   type: TYPE_FIGHTING
   hp: 44
@@ -197099,6 +197122,7 @@ species {
 }
 species {
   id: SPECIES_PANSEAR_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_PANSEAR
   type: TYPE_DARK
   hp: 50
@@ -197312,6 +197336,7 @@ species {
 }
 species {
   id: SPECIES_SLUGMA_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_SLUGMA
   type: TYPE_GRASS
   hp: 50
@@ -197541,6 +197566,7 @@ species {
 }
 species {
   id: SPECIES_BUIZEL_REDUX
+  adoption_center_badge: 4
   form_of: SPECIES_BUIZEL
   type: TYPE_FLYING
   hp: 50
@@ -197738,6 +197764,7 @@ species {
 }
 species {
   id: SPECIES_AZELF_REDUX
+  adoption_center_badge: 8
   form_of: SPECIES_AZELF
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -197854,6 +197881,7 @@ species {
 }
 species {
   id: SPECIES_MESPRIT_REDUX
+  adoption_center_badge: 8
   form_of: SPECIES_MESPRIT
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -197971,6 +197999,7 @@ species {
 }
 species {
   id: SPECIES_UXIE_REDUX
+  adoption_center_badge: 8
   form_of: SPECIES_UXIE
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -198091,6 +198120,7 @@ species {
 }
 species {
   id: SPECIES_MACHOP_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_MACHOP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
@@ -198415,6 +198445,7 @@ species {
 }
 species {
   id: SPECIES_SOLOSIS_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_SOLOSIS
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -198704,6 +198735,7 @@ species {
 }
 species {
   id: SPECIES_SKARMORY_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_SKARMORY
   type: TYPE_STEEL
   type2: TYPE_FIRE
@@ -198826,6 +198858,7 @@ species {
 }
 species {
   id: SPECIES_GROWLITHE_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_GROWLITHE
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -199066,6 +199099,7 @@ species {
 }
 species {
   id: SPECIES_WHISMUR_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_WHISMUR
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
@@ -199381,6 +199415,7 @@ species {
 }
 species {
   id: SPECIES_GIBLE_REDUX
+  adoption_center_badge: 5
   form_of: SPECIES_GIBLE
   type: TYPE_WATER
   type2: TYPE_GHOST
@@ -199726,6 +199761,7 @@ species {
 }
 species {
   id: SPECIES_DEINO_REDUX
+  adoption_center_badge: 5
   form_of: SPECIES_DEINO
   type: TYPE_FAIRY
   type2: TYPE_DRAGON
@@ -200065,6 +200101,7 @@ species {
 }
 species {
   id: SPECIES_PAWNIARD_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_PAWNIARD
   type: TYPE_FIGHTING
   type2: TYPE_STEEL
@@ -200260,6 +200297,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_MAWILE
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -200381,6 +200419,7 @@ species {
 }
 species {
   id: SPECIES_SABLEYE_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_SABLEYE
   type: TYPE_STEEL
   type2: TYPE_FAIRY
@@ -200510,6 +200549,7 @@ species {
 }
 species {
   id: SPECIES_HOUNDOUR_REDUX
+  adoption_center_badge: 4
   form_of: SPECIES_HOUNDOUR
   type: TYPE_GHOST
   hp: 45
@@ -200712,6 +200752,7 @@ species {
 }
 species {
   id: SPECIES_DODUO_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_DODUO
   type: TYPE_POISON
   type2: TYPE_DARK
@@ -201041,6 +201082,7 @@ species {
 }
 species {
   id: SPECIES_LARVITAR_REDUX
+  adoption_center_badge: 5
   form_of: SPECIES_LARVITAR
   type: TYPE_ROCK
   type2: TYPE_FIRE
@@ -204030,6 +204072,7 @@ species {
 }
 species {
   id: SPECIES_TURTWIG_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_TURTWIG
   type: TYPE_FLYING
   type2: TYPE_FAIRY
@@ -204345,6 +204388,7 @@ species {
 }
 species {
   id: SPECIES_CHIMCHAR_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_CHIMCHAR
   type: TYPE_WATER
   hp: 44
@@ -204651,6 +204695,7 @@ species {
 }
 species {
   id: SPECIES_PIPLUP_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_PIPLUP
   type: TYPE_FIRE
   type2: TYPE_ICE
@@ -204990,6 +205035,7 @@ species {
 }
 species {
   id: SPECIES_BOUNSWEET_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_BOUNSWEET
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -205307,6 +205353,7 @@ species {
 }
 species {
   id: SPECIES_TOXEL_REDUX
+  adoption_center_badge: 4
   form_of: SPECIES_TOXEL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -205576,6 +205623,7 @@ species {
 }
 species {
   id: SPECIES_TRAPINCH_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_TRAPINCH
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -205912,6 +205960,7 @@ species {
 }
 species {
   id: SPECIES_CRABRAWLER_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_CRABRAWLER
   type: TYPE_FIGHTING
   type2: TYPE_DARK
@@ -206154,6 +206203,7 @@ species {
 }
 species {
   id: SPECIES_CLEFFA_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_CLEFFA
   type: TYPE_ROCK
   hp: 50
@@ -206462,6 +206512,7 @@ species {
 }
 species {
   id: SPECIES_GLIGAR_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_GLIGAR
   type: TYPE_POISON
   type2: TYPE_FIRE
@@ -206685,6 +206736,7 @@ species {
 }
 species {
   id: SPECIES_PSYDUCK_REDUX
+  adoption_center_badge: 7
   form_of: SPECIES_PSYDUCK
   type: TYPE_DARK
   hp: 50
@@ -206777,6 +206829,7 @@ species {
 }
 species {
   id: SPECIES_SEEL_REDUX
+  adoption_center_badge: 6
   form_of: SPECIES_SEEL
   type: TYPE_ICE
   type2: TYPE_DRAGON
@@ -206979,6 +207032,7 @@ species {
 }
 species {
   id: SPECIES_SNORUNT_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_SNORUNT
   type: TYPE_DARK
   hp: 65
@@ -207662,6 +207716,7 @@ species {
 }
 species {
   id: SPECIES_HAPPINY_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_HAPPINY
   type: TYPE_FIGHTING
   hp: 15
@@ -207929,6 +207984,7 @@ species {
 }
 species {
   id: SPECIES_SPIRITOMB_REDUX
+  adoption_center_badge: 5
   form_of: SPECIES_SPIRITOMB
   type: TYPE_GHOST
   type2: TYPE_POISON
@@ -208089,6 +208145,7 @@ species {
 }
 species {
   id: SPECIES_DEWPIDER_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_DEWPIDER
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -208455,6 +208512,7 @@ species {
 }
 species {
   id: SPECIES_TINKATINK_REDUX
+  adoption_center_badge: 2
   form_of: SPECIES_TINKATINK
   type: TYPE_WATER
   type2: TYPE_POISON
@@ -208849,6 +208907,7 @@ species {
 }
 species {
   id: SPECIES_SCYTHER_REDUX
+  adoption_center_badge: 3
   form_of: SPECIES_SCYTHER
   type: TYPE_POISON
   type2: TYPE_GROUND
@@ -209248,6 +209307,7 @@ species {
 }
 species {
   id: SPECIES_KRABBY_REDUX
+  adoption_center_badge: 5
   form_of: SPECIES_KRABBY
   type: TYPE_PSYCHIC
   hp: 45
@@ -209562,6 +209622,7 @@ species {
 }
 species {
   id: SPECIES_SHINX_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_SHINX
   type: TYPE_GRASS
   hp: 45
@@ -209946,6 +210007,7 @@ species {
 }
 species {
   id: SPECIES_ARON_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_ARON
   type: TYPE_WATER
   type2: TYPE_ROCK
@@ -210369,6 +210431,7 @@ species {
 }
 species {
   id: SPECIES_MAKUHITA_REDUX
+  adoption_center_badge: 1
   form_of: SPECIES_MAKUHITA
   type: TYPE_FIRE
   type2: TYPE_STEEL
@@ -211209,6 +211272,7 @@ species {
 }
 species {
   id: SPECIES_RALTS_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_RALTS
   type: TYPE_WATER
   hp: 42
@@ -212021,6 +212085,7 @@ species {
 }
 species {
   id: SPECIES_MUNCHLAX_REDUX
+  adoption_center_badge: 4
   form_of: SPECIES_MUNCHLAX
   type: TYPE_WATER
   hp: 100
@@ -212927,6 +212992,7 @@ species {
 }
 species {
   id: SPECIES_SPEAROW_REDUX
+  adoption_center_badge: 0
   form_of: SPECIES_SPEAROW
   type: TYPE_FIGHTING
   hp: 45
