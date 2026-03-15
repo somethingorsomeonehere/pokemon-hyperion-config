@@ -5258,6 +5258,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
@@ -5276,7 +5277,8 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -5416,6 +5418,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIFE_DEW
@@ -5436,7 +5439,8 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -27411,6 +27415,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
@@ -27429,7 +27434,8 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -28782,7 +28788,7 @@ species {
   ability: ABILITY_SUN_BASKING
   ability: ABILITY_SUN_WORSHIP
   innate: ABILITY_FLOWER_VEIL
-  innate: ABILITY_HEALER
+  innate: ABILITY_POISON_ABSORB
   innate: ABILITY_TRIAGE
   percent_female: 50
   learnset {
@@ -177125,7 +177131,7 @@ species {
   ability: ABILITY_RAGING_STORM
   ability: ABILITY_MERCILESS
   innate: ABILITY_TORRENT
-  innate: ABILITY_BATTLE_ARMOR
+  innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_KEEN_EDGE
   percent_female: 50
   learnset {
