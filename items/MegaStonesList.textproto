@@ -1079,7 +1079,7 @@ item {
 item {
   id: ITEM_URSALUNITE
   name: "Ursalunite"
-  description: "Enables Ursaring to Mega Evolve."
+  description: "Enables Ursaluna to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
