@@ -3775,7 +3775,7 @@ ability {
 ability {
   id: ABILITY_MENACING_SITUATION
   name: "Menacing Situation"
-  description: "20% chance to Fear on contact. Also works on offense."
+  description: "30% chance to Fear on contact. Also works on offense."
   expanded_description: "Has a 30% chance to inflict Fear on contact moves, both when attacking and being attacked. Fear traps the target for 2 turns and they take 50% more damage. If forced out by moves like Whirlwind, the target loses Fear."
 }
 ability {
