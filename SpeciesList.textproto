@@ -188504,7 +188504,6 @@ species {
     level {
       level: 56
       move: MOVE_AEROBLAST
-      move: MOVE_TEMPEST_STORM
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURA_SPHERE
@@ -188735,7 +188734,6 @@ species {
     level {
       level: 56
       move: MOVE_AEROBLAST
-      move: MOVE_SUNSTRIKE
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
