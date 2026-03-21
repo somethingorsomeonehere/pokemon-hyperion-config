@@ -16348,6 +16348,7 @@ moves {
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
+  pp: 5
   ignores_protect: true
   uses_animation: MOVE_BATON_PASS
 }
