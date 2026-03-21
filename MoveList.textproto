@@ -16300,7 +16300,6 @@ moves {
   target: SELECTED
   accuracy: 85
   pp: 10
-  effect_chance: 100
   uses_animation: MOVE_WILL_O_WISP
 }
 moves {
