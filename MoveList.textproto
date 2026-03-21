@@ -17295,7 +17295,7 @@ moves {
   short_name: "Concoction"
   description: "Attacks and uses a random berry effect."
   short_description: "Damages and uses a berry."
-  effect: EFFECT_PLACEHOLDER
+  effect: EFFECT_CONCOCTION
   split: PHYSICAL
   type: TYPE_MYSTERY
   target: SELECTED
