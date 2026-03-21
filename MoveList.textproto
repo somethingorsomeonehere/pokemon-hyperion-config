@@ -17298,7 +17298,7 @@ moves {
   short_description: "Damages and uses a berry."
   effect: EFFECT_CONCOCTION
   split: PHYSICAL
-  type: TYPE_MYSTERY
+  type: TYPE_GRASS
   target: SELECTED
   power: 30
   accuracy: 100
