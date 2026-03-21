@@ -16999,6 +16999,7 @@ moves {
   short_name: "Waterlog (N)"
   description: "Makes the target move last. 20% drench chance, 50% in rain."
   short_description: "Target moves last and may be drenched."
+  effect: EFFECT_WATERLOG
   split: STATUS
   type: TYPE_WATER
   target: SELECTED
@@ -17099,18 +17100,18 @@ moves {
 }
 moves {
   id: MOVE_PRISM_BLAST
-  name: "Prism Blast (P)"
+  name: "Prism Blast"
   short_name: "Prism Shot"
-  description: "Fires an energy prism, lowers acc. of the foe by 1, 10% chance to confuse foe."
-  short_description: "Fires an energy prism, lowers acc./may confuse.."
-  effect: EFFECT_ACCURACY_DOWN_HIT
+  description: "Fires and energy prism that damages and reduces accuracy. 10% chance to confuse."
+  short_description: "Deals damage, lowers accuracy, and may confuse."
+  effect: EFFECT_PRISM_BLAST
   split: SPECIAL
   type: TYPE_ROCK
   target: SELECTED
   power: 95
   accuracy: 90
   pp: 5
-  effect_chance: 100
+  effect_chance: 10
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
