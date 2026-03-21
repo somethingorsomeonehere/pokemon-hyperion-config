@@ -11483,7 +11483,7 @@ moves {
   short_name: "Teatime"
   description: "All Pok\303\251mon in the battle have teatime, and eat their held Berry."
   short_description: "All Pok\303\251mon have teatime and eat their Berries."
-  effect: EFFECT_PLACEHOLDER
+  effect: EFFECT_TEATIME
   split: STATUS
   type: TYPE_NORMAL
   target: ALL_BATTLERS
