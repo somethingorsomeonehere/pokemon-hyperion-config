@@ -16301,6 +16301,7 @@ moves {
   accuracy: 85
   pp: 10
   uses_animation: MOVE_WILL_O_WISP
+  magic_coat_affected: true
 }
 moves {
   id: MOVE_TREPIDATION
@@ -17003,6 +17004,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   uses_animation: MOVE_WATER_GUN
+  magic_coat_affected: true
 }
 moves {
   id: MOVE_INCITE
