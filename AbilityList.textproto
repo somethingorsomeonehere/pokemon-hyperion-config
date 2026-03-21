@@ -4886,8 +4886,8 @@ ability {
 ability {
   id: ABILITY_MENTAL_POLLUTION
   name: "Mental Pollution"
-  description: "Suppresses others' abilities when it becomes confused."
-  expanded_description: "Applies ability suppression to other Pokemon when it becomes confused. Suppression lasts while those Pokemon remain on the field. Pokemon with Mental Pollution are unaffected."
+  description: "Suppresses others' abilities when it becomes enraged."
+  expanded_description: "Applies ability suppression to other Pokemon when the user becomes enraged. Suppression lasts while those Pokemon remain on the field. Pokemon with Mental Pollution are unaffected."
 }
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
