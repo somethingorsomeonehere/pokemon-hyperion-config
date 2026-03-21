@@ -16294,7 +16294,7 @@ moves {
   short_name: "SpecterFlame"
   description: "Burns the target, including Fire types. Suppresses abilities in fog."
   short_description: "Emits a flame that moves as if alive and inflicts burn."
-  effect: EFFECT_PLACEHOLDER
+  effect: EFFECT_SPECTRAL_FLAME
   split: STATUS
   type: TYPE_GHOST
   target: SELECTED
