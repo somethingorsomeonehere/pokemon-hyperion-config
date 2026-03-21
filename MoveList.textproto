@@ -16344,7 +16344,7 @@ moves {
   short_name: "Fetch"
   description: "The user retrieves its lost item and switches to an ally."
   short_description: "The user runs off the field in search of its lost item."
-  effect: EFFECT_PLACEHOLDER
+  effect: EFFECT_FETCH
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
