@@ -9403,6 +9403,7 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
+  magic_coat_affected: true
 }
 moves {
   id: MOVE_NOBLE_ROAR
@@ -9464,6 +9465,7 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
+  magic_coat_affected: true
 }
 moves {
   id: MOVE_PETAL_BLIZZARD
@@ -17025,6 +17027,7 @@ moves {
   }
   mirror_move_affected: true
   uses_animation: MOVE_NONE
+  magic_coat_affected: true
 }
 moves {
   id: MOVE_JETSTREAM_BURST
