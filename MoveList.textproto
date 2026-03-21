@@ -17189,11 +17189,11 @@ moves {
 }
 moves {
   id: MOVE_PARTY_FAVORS
-  name: "Party Favors(P)"
+  name: "Party Favors"
   short_name: "PartyFavor"
   description: "Heals you and your ally by 25% and does damage."
-  short_description: "A ball attack. 20% flinch."
-  effect: EFFECT_PLACEHOLDER
+  short_description: "Damages the foe and heals allies."
+  effect: EFFECT_PARTY_FAVORS
   split: PHYSICAL
   type: TYPE_FAIRY
   target: SELECTED
