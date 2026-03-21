@@ -9402,9 +9402,6 @@ moves {
   target: SELECTED
   accuracy: 100
   pp: 20
-  argument {
-    type: TYPE_GHOST
-  }
   mirror_move_affected: true
 }
 moves {
@@ -9466,9 +9463,6 @@ moves {
   target: SELECTED
   accuracy: 100
   pp: 20
-  argument {
-    type: TYPE_GRASS
-  }
   mirror_move_affected: true
 }
 moves {
@@ -16996,23 +16990,25 @@ moves {
 moves {
   id: MOVE_WATERLOG
   name: "Waterlog"
-  short_name: "Waterlog (N)"
+  short_name: "Waterlog"
   description: "Makes the target move last. 20% drench chance, 50% in rain."
   short_description: "Target moves last and may be drenched."
   effect: EFFECT_WATERLOG
   split: STATUS
   type: TYPE_WATER
   target: SELECTED
+  priority: 3
   accuracy: 100
   pp: 15
+  effect_chance: 20
   mirror_move_affected: true
-  uses_animation: MOVE_NONE
+  uses_animation: MOVE_WATER_GUN
 }
 moves {
   id: MOVE_INCITE
   name: "Incite"
-  short_name: "Incite (P)"
-  description: "Adds dark type and enraged status to the target."
+  short_name: "Incite"
+  description: "Adds the Dark type to the target and enrages them."
   short_description: "Adds dark type and enrages foe."
   effect: EFFECT_THIRD_TYPE
   split: STATUS
@@ -17021,7 +17017,9 @@ moves {
   accuracy: 100
   pp: 10
   argument {
-    type: TYPE_DARK
+    effect {
+      effect: MOVE_EFFECT_DOUBLESLAP
+    }
   }
   mirror_move_affected: true
   uses_animation: MOVE_NONE
