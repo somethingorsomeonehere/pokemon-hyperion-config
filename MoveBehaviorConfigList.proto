@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package er;
+
+import "MoveBehavior.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+message MoveBehaviorConfigList {
+  repeated MoveBehaviorConfig config = 1;
+}
+
+message MoveBehaviorConfig {
+  MoveBehavior id = 1;
+  oneof config_type {
+    string legacy_config = 2;
+  }
+}
