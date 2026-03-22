@@ -4156,14 +4156,29 @@ moves {
   short_name: "Whirlpool"
   description: "The foe is trapped for four or five turns. 30% drench chance. Field-based."
   short_description: "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
-  effect: EFFECT_WHIRLPOOL
+  custom_behavior {
+    trapping_effect: true
+    attack {
+      effect {
+        chance: 100
+        move_effect {
+          effect: MOVE_EFFECT_WRAP
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DRENCH
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 50
   accuracy: 90
   pp: 10
-  effect_chance: 100
+  effect_chance: 30
   mirror_move_affected: true
   hits_underwater: true
   field: true
@@ -8254,7 +8269,20 @@ moves {
   short_name: "Chip Away"
   description: "40% chance to lower Attack and/or Defense. Ignores stat changes."
   short_description: "Chips away at the foe\'s attack and defense."
-  effect: EFFECT_CHIP_AWAY
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_ATK_MINUS_1
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DEF_MINUS_1
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -12176,7 +12204,16 @@ moves {
   short_name: "CorrosiveGas"
   description: "Highly acidic gas that melts items held by every surrounding Pok\303\251mon."
   short_description: "Highly acidic gas melts items held by surrounding Pok\303\251mon."
-  effect: EFFECT_CORROSIVE_GAS
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_KNOCK_OFF
+        }
+      }
+    }
+  }
+  no_sheer_force: true
   split: SPECIAL
   type: TYPE_POISON
   target: FOES_AND_ALLY
@@ -13881,7 +13918,22 @@ moves {
   short_name: "TripleArrow"
   description: "50% chance to drop Def. 30% chance to flinch. High crit. Arrow-based."
   short_description: "50% chance to lower Def. 30% chance to flinch. High-crit."
-  effect: EFFECT_TRIPLE_ARROWS
+  custom_behavior {
+    causes_flinch: true
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DEF_MINUS_1
+        }
+      }
+      effect {
+        chance: 30
+        move_effect {
+          effect: MOVE_EFFECT_FLINCH
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -16173,7 +16225,20 @@ moves {
   short_name: "TerrorCharge"
   description: "50% chance to bleed. 50% chance to fear. Double damage when switching in."
   short_description: "A frightening headbutt that may bleed or fear."
-  effect: EFFECT_TERROR_CHARGE
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BLEED
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_FEAR
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -17134,7 +17199,21 @@ moves {
   short_name: "Prism Shot"
   description: "Fires and energy prism that damages and reduces accuracy. 10% chance to confuse."
   short_description: "Deals damage, lowers accuracy, and may confuse."
-  effect: EFFECT_PRISM_BLAST
+  custom_behavior {
+    attack {
+      effect {
+        chance: 100
+        move_effect {
+          effect: MOVE_EFFECT_ACC_MINUS_1
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_CONFUSION
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_ROCK
   target: SELECTED

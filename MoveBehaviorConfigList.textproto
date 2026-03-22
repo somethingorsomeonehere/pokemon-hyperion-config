@@ -1817,10 +1817,6 @@ config {
   legacy_config: "BattleScript_EffectDrainBrain"
 }
 config {
-  id: EFFECT_TRIPLE_ARROWS
-  legacy_config: "BattleScript_EffectTripleArrows"
-}
-config {
   id: EFFECT_RECOIL_25_STATUS
   legacy_config: "BattleScript_EffectArgumentHit"
 }
@@ -1984,10 +1980,6 @@ config {
   legacy_config: "BattleScript_EffectSkyDrop"
 }
 config {
-  id: EFFECT_TERROR_CHARGE
-  legacy_config: "BattleScript_EffectTerrorCharge"
-}
-config {
   id: EFFECT_TAILWIND_HIT
   legacy_config: "BattleScript_EffectTailwindHit"
 }
@@ -2024,10 +2016,6 @@ config {
   legacy_config: "BattleScript_EffectTrepidation"
 }
 config {
-  id: EFFECT_CHIP_AWAY
-  legacy_config: "BattleScript_EffectChipAway"
-}
-config {
   id: EFFECT_MEDITATE
   legacy_config: "BattleScript_EffectMeditate"
 }
@@ -2038,10 +2026,6 @@ config {
 config {
   id: EFFECT_KINESIS
   legacy_config: "BattleScript_EffectKinesis"
-}
-config {
-  id: EFFECT_CORROSIVE_GAS
-  legacy_config: "BattleScript_EffectKnockOff"
 }
 config {
   id: EFFECT_CALTROPS
@@ -2076,16 +2060,8 @@ config {
   legacy_config: "BattleScript_SepticSwitch"
 }
 config {
-  id: EFFECT_WHIRLPOOL
-  legacy_config: "BattleScript_EffectWhirlpool"
-}
-config {
   id: EFFECT_PARTY_FAVORS
   legacy_config: "BattleScript_EffectPartyFavors"
-}
-config {
-  id: EFFECT_PRISM_BLAST
-  legacy_config: "BattleScript_EffectPrismBlast"
 }
 config {
   id: EFFECT_WATERLOG

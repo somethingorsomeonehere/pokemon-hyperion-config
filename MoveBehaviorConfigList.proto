@@ -14,7 +14,6 @@ message MoveBehaviorConfigList {
 }
 
 message MoveBehaviorConfig {
-
   message Attack {
     message AttackMoveEffect {
       MoveEffect effect = 1;
@@ -38,8 +37,10 @@ message MoveBehaviorConfig {
   }
 
   MoveBehavior id = 1;
+  bool causes_flinch = 2;
+  bool trapping_effect = 3;
   oneof config_type {
-    string legacy_config = 2;
-    Attack attack = 3;
+    string legacy_config = 4;
+    Attack attack = 5;
   }
 }
