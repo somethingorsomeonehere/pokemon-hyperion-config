@@ -7,6 +7,7 @@ import "MoveBehavior.proto";
 import "Types.proto";
 import "MoveEffect.proto";
 import "google/protobuf/descriptor.proto";
+import "MoveBehaviorConfigList.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -134,7 +135,10 @@ message Move {
   string short_name = 3;
   string description = 4;
   string short_description = 5;
-  MoveBehavior effect = 6;
+  oneof move_effect {
+    MoveBehavior effect = 6;
+    MoveBehaviorConfig custom_behavior = 66;
+  }
   optional MoveSplit split = 7;
   SplitFlag split_modifier = 8;
   optional Type type = 9;

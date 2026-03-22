@@ -228,16 +228,17 @@ moves {
   short_name: "Razor Wind"
   description: "super effective vs Rock. +1 priority in tailwind. High crit. keen edge boost."
   short_description: "Wind slices through Rock for super effective damage."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_ROCK
+    }
+  }
   split: SPECIAL
   type: TYPE_FLYING
   target: BOTH
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_ROCK
-  }
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
@@ -859,16 +860,17 @@ moves {
   short_name: "Sonic Boom"
   description: "The foe is hit with a shock wave that is super effective vs steel types."
   short_description: "Launches shock waves that are super effective vs rock."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: SPECIAL
   type: TYPE_NORMAL
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 20
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   sound: true
 }
@@ -894,7 +896,16 @@ moves {
   short_name: "Acid"
   description: "Super effective vs Steel. Hits both foes. 30% chance to lower SpDef."
   short_description: "Super effective vs Steel. May lower Defense."
-  effect: EFFECT_ACID
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_SP_DEF_MINUS_1
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: BOTH
@@ -967,12 +978,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 10
 }
 moves {
@@ -990,12 +996,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_ATTACK
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 30
 }
 moves {
@@ -1014,12 +1015,7 @@ moves {
   hits_underwater: true
   field: true
   tutor: TUTOR_ATTACK
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 20
 }
 moves {
@@ -2095,7 +2091,16 @@ moves {
   short_name: "Sludge"
   description: "Hurls toxic sludge at the foe. Super-effective on Water. 30% poison chance."
   short_description: "Super effective vs Water. May poison foes."
-  effect: EFFECT_SLUDGE
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_WATER
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_POISON
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: SELECTED
@@ -2343,7 +2348,16 @@ moves {
   short_name: "Poison Gas"
   description: "Super effective vs Flying. Hits both foes. 30% chance to poison."
   short_description: "Super effective vs Flying. gas that may poison."
-  effect: EFFECT_POISON_GAS
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_FLYING
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_TOXIC
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: BOTH
@@ -4142,14 +4156,29 @@ moves {
   short_name: "Whirlpool"
   description: "The foe is trapped for four or five turns. 30% drench chance. Field-based."
   short_description: "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
-  effect: EFFECT_WHIRLPOOL
+  custom_behavior {
+    trapping_effect: true
+    attack {
+      effect {
+        chance: 100
+        move_effect {
+          effect: MOVE_EFFECT_WRAP
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DRENCH
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 50
   accuracy: 90
   pp: 10
-  effect_chance: 100
+  effect_chance: 30
   mirror_move_affected: true
   hits_underwater: true
   field: true
@@ -5386,16 +5415,17 @@ moves {
   short_name: "Sky Uppercut"
   description: "The user attacks with an uppercut thrown skywards. Iron Fist boost."
   short_description: "An uppercut thrown as if leaping into the sky."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_FLYING
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 85
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_FLYING
-  }
   contact: true
   mirror_move_affected: true
   hits_air: HITS
@@ -5683,7 +5713,16 @@ moves {
   short_name: "Volt Tackle"
   description: "The user throws an electrified tackle. 25% recoil, 10% paralyze chance."
   short_description: "A life-risking tackle that slightly hurts the user."
-  effect: EFFECT_RECOIL_25_STATUS
+  custom_behavior {
+    attack {
+      recoil_fraction: 4
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_PARALYSIS
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -5691,11 +5730,6 @@ moves {
   accuracy: 100
   pp: 10
   effect_chance: 10
-  argument {
-    effect {
-      effect: MOVE_EFFECT_PARALYSIS
-    }
-  }
   contact: true
   mirror_move_affected: true
   reckless: true
@@ -5970,16 +6004,17 @@ moves {
   short_name: "Brine"
   description: "Deals Super Effective damage vs Water."
   short_description: "Deals Super Effective damage vs Water."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_WATER
+    }
+  }
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_WATER
-  }
   mirror_move_affected: true
 }
 moves {
@@ -6466,7 +6501,16 @@ moves {
   short_name: "Flare Blitz"
   description: "A ruthless, fiery charge which has 33% recoil. Has 10% burn chance."
   short_description: "A charge that may burn the foe. Also hurts the user."
-  effect: EFFECT_RECOIL_33_STATUS
+  custom_behavior {
+    attack {
+      recoil_fraction: 3
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BURN
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -6474,11 +6518,6 @@ moves {
   accuracy: 100
   pp: 10
   effect_chance: 10
-  argument {
-    effect {
-      effect: MOVE_EFFECT_BURN
-    }
-  }
   contact: true
   mirror_move_affected: true
   reckless: true
@@ -7342,15 +7381,16 @@ moves {
   short_name: "Magnet Bomb"
   description: "Launches a magnetic bomb that is Super Effective vs Steel. Never misses."
   short_description: "Launches a magnet that is Super Effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: SPECIAL
   type: TYPE_STEEL
   target: SELECTED
   power: 70
   pp: 20
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   ballistic: true
 }
@@ -8237,7 +8277,20 @@ moves {
   short_name: "Chip Away"
   description: "40% chance to lower Attack and/or Defense. Ignores stat changes."
   short_description: "Chips away at the foe\'s attack and defense."
-  effect: EFFECT_CHIP_AWAY
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_ATK_MINUS_1
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DEF_MINUS_1
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -8314,7 +8367,7 @@ moves {
   short_name: "Scald"
   description: "Boiling hot water is shot at the foe. 30% burn chance."
   short_description: "Shoots boiling water at the foe. May inflict a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -9778,7 +9831,7 @@ moves {
   short_name: "SteamErption"
   description: "30% burn chance. Deals normal damage in Harsh Sunlight. Mega Launcher boost"
   short_description: "Immerses the foe in heated steam. May inflict a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -10737,7 +10790,7 @@ moves {
   short_name: "Beak Blast"
   description: "The user strikes with its heated beak. Has 30% burn chance."
   short_description: "Heats up beak to attack. Burns foe on contact."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: PHYSICAL
   type: TYPE_FLYING
   target: SELECTED
@@ -12159,7 +12212,16 @@ moves {
   short_name: "CorrosiveGas"
   description: "Highly acidic gas that melts items held by every surrounding Pok\303\251mon."
   short_description: "Highly acidic gas melts items held by surrounding Pok\303\251mon."
-  effect: EFFECT_CORROSIVE_GAS
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_KNOCK_OFF
+        }
+      }
+    }
+  }
+  no_sheer_force: true
   split: SPECIAL
   type: TYPE_POISON
   target: FOES_AND_ALLY
@@ -12240,7 +12302,7 @@ moves {
   short_name: "ScorchngSnds"
   description: "Throws scorching sand at the target. 30% chance to burn the target."
   short_description: "Throws scorching sand at the target. May leave a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_GROUND
   target: SELECTED
@@ -12460,7 +12522,16 @@ moves {
   short_name: "Excalibur"
   description: "Double damage on Dragons. High critical ratio. Keen Edge boost."
   short_description: "Double damage on Dragon-types. High critical ratio."
-  effect: EFFECT_BLEED_HIT
+  custom_behavior {
+  attack {
+      super_effective_vs: TYPE_DRAGON
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BLEED
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -13183,16 +13254,17 @@ moves {
   short_name: "Clay Dart"
   description: "Super-effective on Flying-types. Arrow move. Archer boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_GROUND
+    }
+  }
   split: PHYSICAL
   type: TYPE_GROUND
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_FLYING
-  }
   mirror_move_affected: true
   arrow: true
   uses_animation: MOVE_THOUSAND_ARROWS
@@ -13258,16 +13330,17 @@ moves {
   short_name: "Fumi.Bomb"
   description: "Hurls a pesticide bomb. Super-effective on Bug-types. Mega Launcher boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_BUG
+    }
+  }
   split: PHYSICAL
   type: TYPE_POISON
   target: SELECTED
   power: 75
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_BUG
-  }
   mirror_move_affected: true
   mega_launcher: true
 }
@@ -13370,16 +13443,17 @@ moves {
   short_name: "Aura Force"
   description: "Imbues strikes with aura power. Super-effective on Ghost. Mega Launcher boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_GHOST
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_GHOST
-  }
   crit: HIGH
   mirror_move_affected: true
   mega_launcher: true
@@ -13852,7 +13926,22 @@ moves {
   short_name: "TripleArrow"
   description: "50% chance to drop Def. 30% chance to flinch. High crit. Arrow-based."
   short_description: "50% chance to lower Def. 30% chance to flinch. High-crit."
-  effect: EFFECT_TRIPLE_ARROWS
+  custom_behavior {
+    causes_flinch: true
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_DEF_MINUS_1
+        }
+      }
+      effect {
+        chance: 30
+        move_effect {
+          effect: MOVE_EFFECT_FLINCH
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -14296,16 +14385,17 @@ moves {
   short_name: "GigatonHammr"
   description: "Super effective vs Steel. Can\'t be used twice in a row. Hammer-based."
   short_description: "Super effective vs Steel. Can\'t be used twice in a row."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
   power: 140
   accuracy: 100
   pp: 5
-  argument {
-    type: TYPE_STEEL
-  }
   every_other_turn: true
   mirror_move_affected: true
   hammer: true
@@ -15666,16 +15756,17 @@ moves {
   short_name: "Crackle Slam"
   description: "Slams foes with lots of electricity. Super-effective against Steel. Hammer-based."
   short_description: "Strikes with a conductive hammer. Super-effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_STEEL
-  }
   contact: true
   mirror_move_affected: true
   hammer: true
@@ -15920,7 +16011,7 @@ moves {
   short_name: "Rapid River"
   description: "A surge of water that hits twice. 10% drench chance. Mega Launcher boost."
   short_description: "Hits twice. Mega Launcher boost."
-  effect: EFFECT_ARGUMENT_HIT
+  effect: EFFECT_DRENCH_HIT
   hit_count: 2
   split: PHYSICAL
   type: TYPE_WATER
@@ -15932,11 +16023,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   uses_animation: MOVE_WATERFALL
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
   effect_chance: 10
 }
 moves {
@@ -16147,7 +16233,20 @@ moves {
   short_name: "TerrorCharge"
   description: "50% chance to bleed. 50% chance to fear. Double damage when switching in."
   short_description: "A frightening headbutt that may bleed or fear."
-  effect: EFFECT_TERROR_CHARGE
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BLEED
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_FEAR
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -16960,16 +17059,17 @@ moves {
   short_name: "WaveHammer"
   description: "Super effective vs Poison. Can\'t be used twice in a row. Hammer-based."
   short_description: "Super effective vs Water. Can\'t be used twice in a row."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_POISON
+    }
+  }
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
   power: 125
   accuracy: 100
   pp: 5
-  argument {
-    type: TYPE_POISON
-  }
   contact: true
   every_other_turn: true
   mirror_move_affected: true
@@ -17107,7 +17207,21 @@ moves {
   short_name: "Prism Shot"
   description: "Fires and energy prism that damages and reduces accuracy. 10% chance to confuse."
   short_description: "Deals damage, lowers accuracy, and may confuse."
-  effect: EFFECT_PRISM_BLAST
+  custom_behavior {
+    attack {
+      effect {
+        chance: 100
+        move_effect {
+          effect: MOVE_EFFECT_ACC_MINUS_1
+        }
+      }
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_CONFUSION
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_ROCK
   target: SELECTED
@@ -17316,16 +17430,17 @@ moves {
   short_name: "Hacksaw"
   description: "Tampers with the target. Stronger vs Steel."
   short_description: "Super effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   uses_animation: MOVE_DISCHARGE
 }
