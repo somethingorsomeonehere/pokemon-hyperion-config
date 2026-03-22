@@ -978,12 +978,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 10
 }
 moves {
@@ -1001,12 +996,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_ATTACK
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 30
 }
 moves {
@@ -1025,12 +1015,7 @@ moves {
   hits_underwater: true
   field: true
   tutor: TUTOR_ATTACK
-  effect: EFFECT_ARGUMENT_HIT
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
+  effect: EFFECT_DRENCH_HIT
   effect_chance: 20
 }
 moves {
@@ -15966,7 +15951,7 @@ moves {
   short_name: "Rapid River"
   description: "A surge of water that hits twice. 10% drench chance. Mega Launcher boost."
   short_description: "Hits twice. Mega Launcher boost."
-  effect: EFFECT_ARGUMENT_HIT
+  effect: EFFECT_DRENCH_HIT
   hit_count: 2
   split: PHYSICAL
   type: TYPE_WATER
@@ -15978,11 +15963,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   uses_animation: MOVE_WATERFALL
-  argument {
-    effect {
-      effect: MOVE_EFFECT_DRENCH
-    }
-  }
   effect_chance: 10
 }
 moves {

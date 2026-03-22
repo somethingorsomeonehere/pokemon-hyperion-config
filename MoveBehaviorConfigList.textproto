@@ -2103,3 +2103,13 @@ config {
   id: EFFECT_FETCH
   legacy_config: "BattleScript_EffectFetch"
 }
+config {
+  id: EFFECT_DRENCH_HIT
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_DRENCH
+      }
+    }
+  }
+}

@@ -490,7 +490,5 @@ enum MoveBehavior {
   EFFECT_CONCOCTION = 482;
   EFFECT_FETCH = 483;
   EFFECT_TEATIME = 359;
-  // Deprecated effects removed to avoid accidental assignment.
-  // If using these enums the behavior goes in this location in the list:
-  // 383 -> EFFECT_SCALE_SHOT, 406 -> EFFECT_WYRM_WIND, 404 -> EFFECT_FREEZE
+  EFFECT_DRENCH_HIT = 5;
 }
