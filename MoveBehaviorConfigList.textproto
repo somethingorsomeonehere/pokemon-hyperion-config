@@ -1764,7 +1764,13 @@ config {
 }
 config {
   id: EFFECT_LEECH_SEED_HIT
-  legacy_config: "BattleScript_EffectLeechSeedHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_LEECH_SEED
+      }
+    }
+  }
 }
 config {
   id: EFFECT_STICKY_WEB_HIT
