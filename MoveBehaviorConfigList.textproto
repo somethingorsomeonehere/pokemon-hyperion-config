@@ -1754,7 +1754,13 @@ config {
 }
 config {
   id: EFFECT_STEALTH_ROCK_HIT
-  legacy_config: "BattleScript_EffectStealthRockHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_STEALTH_ROCK
+      }
+    }
+  }
 }
 config {
   id: EFFECT_LEECH_SEED_HIT
@@ -1762,7 +1768,13 @@ config {
 }
 config {
   id: EFFECT_STICKY_WEB_HIT
-  legacy_config: "BattleScript_EffectStickyWebHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_STICKY_WEB
+      }
+    }
+  }
 }
 config {
   id: EFFECT_BLEED_HIT
@@ -1917,7 +1929,13 @@ config {
 }
 config {
   id: EFFECT_SPIKE_HIT
-  legacy_config: "BattleScript_EffectSpikeHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SPIKES
+      }
+    }
+  }
 }
 config {
   id: EFFECT_VICTORY_DANCE
@@ -1993,7 +2011,13 @@ config {
 }
 config {
   id: EFFECT_CREEPING_THORNS_HIT
-  legacy_config: "BattleScript_EffectCreepingThornsHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_CREEPING_THORNS
+      }
+    }
+  }
 }
 config {
   id: EFFECT_TAKE_HEART
