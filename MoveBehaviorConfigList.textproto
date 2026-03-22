@@ -227,7 +227,9 @@ config {
 }
 config {
   id: EFFECT_RECOIL_25
-  legacy_config: "BattleScript_EffectHit"
+  attack {
+    recoil_fraction: 4
+  }
 }
 config {
   id: EFFECT_CONFUSE
@@ -906,7 +908,9 @@ config {
 }
 config {
   id: EFFECT_RECOIL_33
-  legacy_config: "BattleScript_EffectArgumentHit"
+  attack {
+    recoil_fraction: 3
+  }
 }
 config {
   id: EFFECT_TEETER_DANCE
@@ -1284,16 +1288,14 @@ config {
   legacy_config: "BattleScript_EffectLastResort"
 }
 config {
-  id: EFFECT_RECOIL_33_STATUS
-  legacy_config: "BattleScript_EffectArgumentHit"
-}
-config {
   id: EFFECT_FLINCH_STATUS
   legacy_config: "BattleScript_EffectFlinchWithStatus"
 }
 config {
   id: EFFECT_RECOIL_50
-  legacy_config: "BattleScript_EffectHit"
+  attack {
+    recoil_fraction: 2
+  }
 }
 config {
   id: EFFECT_SHELL_SMASH
@@ -1831,12 +1833,9 @@ config {
   legacy_config: "BattleScript_EffectDrainBrain"
 }
 config {
-  id: EFFECT_RECOIL_25_STATUS
-  legacy_config: "BattleScript_EffectArgumentHit"
-}
-config {
   id: EFFECT_WEATHER_BOOST
-  legacy_config: "BattleScript_EffectHit"
+  # Has unique interactions with weather. If non-trivial weather boost moves are needed please add a flag for it.
+  attack {}
 }
 config {
   id: EFFECT_MORTAL_SPIN

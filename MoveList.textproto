@@ -5713,7 +5713,16 @@ moves {
   short_name: "Volt Tackle"
   description: "The user throws an electrified tackle. 25% recoil, 10% paralyze chance."
   short_description: "A life-risking tackle that slightly hurts the user."
-  effect: EFFECT_RECOIL_25_STATUS
+  custom_behavior {
+    attack {
+      recoil_fraction: 4
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_PARALYSIS
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -5721,11 +5730,6 @@ moves {
   accuracy: 100
   pp: 10
   effect_chance: 10
-  argument {
-    effect {
-      effect: MOVE_EFFECT_PARALYSIS
-    }
-  }
   contact: true
   mirror_move_affected: true
   reckless: true
@@ -6497,7 +6501,16 @@ moves {
   short_name: "Flare Blitz"
   description: "A ruthless, fiery charge which has 33% recoil. Has 10% burn chance."
   short_description: "A charge that may burn the foe. Also hurts the user."
-  effect: EFFECT_RECOIL_33_STATUS
+  custom_behavior {
+    attack {
+      recoil_fraction: 3
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BURN
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -6505,11 +6518,6 @@ moves {
   accuracy: 100
   pp: 10
   effect_chance: 10
-  argument {
-    effect {
-      effect: MOVE_EFFECT_BURN
-    }
-  }
   contact: true
   mirror_move_affected: true
   reckless: true
