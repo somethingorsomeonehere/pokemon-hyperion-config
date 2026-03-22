@@ -11,7 +11,13 @@ config {
 }
 config {
   id: EFFECT_POISON_HIT
-  legacy_config: "BattleScript_EffectPoisonHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_POISON
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ABSORB
@@ -1682,7 +1688,9 @@ config {
 }
 config {
   id: EFFECT_EXCALIBUR
-  legacy_config: "BattleScript_EffectHit"
+  attack {
+    super_effective_vs: TYPE_DRAGON
+  }
 }
 config {
   id: EFFECT_FROSTBITE_HIT
@@ -1750,7 +1758,9 @@ config {
 }
 config {
   id: EFFECT_IGNORE_TYPE_IMMUNITY
-  legacy_config: "BattleScript_EffectHit"
+  attack {
+    ignore_type_immunity: true
+  }
 }
 config {
   id: EFFECT_SE_AGAINST_TYPE_HIT
@@ -1916,11 +1926,25 @@ config {
 }
 config {
   id: EFFECT_SLUDGE
-  legacy_config: "BattleScript_EffectPoisonHit"
+  attack {
+    super_effective_vs: TYPE_WATER
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_POISON
+      }
+    }
+  }
 }
 config {
   id: EFFECT_POISON_GAS
-  legacy_config: "BattleScript_EffectToxicHit"
+  attack {
+    super_effective_vs: TYPE_FLYING
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_TOXIC
+      }
+    }
+  }
 }
 config {
   id: EFFECT_PARALYZE_IGNORE_TYPE

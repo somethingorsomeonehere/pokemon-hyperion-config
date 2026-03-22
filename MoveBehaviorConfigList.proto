@@ -30,8 +30,11 @@ message MoveBehaviorConfig {
     }
 
     repeated AttackSecondaryEffect effect = 1;
-    Type super_effective_vs = 2;
-    int32 recoil_fraction = 3;
+    oneof resistance_modifier {
+      Type super_effective_vs = 2;
+      bool ignore_type_immunity = 3;
+    }
+    int32 recoil_fraction = 4;
   }
 
   MoveBehavior id = 1;
