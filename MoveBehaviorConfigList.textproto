@@ -610,10 +610,6 @@ config {
   legacy_config: "BattleScript_EffectRapidSpin"
 }
 config {
-  id: EFFECT_SONICBOOM
-  legacy_config: "BattleScript_EffectSonicboom"
-}
-config {
   id: EFFECT_CAPTIVATE
   legacy_config: "BattleScript_EffectHit"
 }
