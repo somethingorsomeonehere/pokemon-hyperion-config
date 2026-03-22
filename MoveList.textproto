@@ -228,16 +228,17 @@ moves {
   short_name: "Razor Wind"
   description: "super effective vs Rock. +1 priority in tailwind. High crit. keen edge boost."
   short_description: "Wind slices through Rock for super effective damage."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_ROCK
+    }
+  }
   split: SPECIAL
   type: TYPE_FLYING
   target: BOTH
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_ROCK
-  }
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
@@ -859,16 +860,17 @@ moves {
   short_name: "Sonic Boom"
   description: "The foe is hit with a shock wave that is super effective vs steel types."
   short_description: "Launches shock waves that are super effective vs rock."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: SPECIAL
   type: TYPE_NORMAL
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 20
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   sound: true
 }
@@ -5386,16 +5388,17 @@ moves {
   short_name: "Sky Uppercut"
   description: "The user attacks with an uppercut thrown skywards. Iron Fist boost."
   short_description: "An uppercut thrown as if leaping into the sky."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_FLYING
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 85
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_FLYING
-  }
   contact: true
   mirror_move_affected: true
   hits_air: HITS
@@ -5970,16 +5973,17 @@ moves {
   short_name: "Brine"
   description: "Deals Super Effective damage vs Water."
   short_description: "Deals Super Effective damage vs Water."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_WATER
+    }
+  }
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_WATER
-  }
   mirror_move_affected: true
 }
 moves {
@@ -7342,15 +7346,16 @@ moves {
   short_name: "Magnet Bomb"
   description: "Launches a magnetic bomb that is Super Effective vs Steel. Never misses."
   short_description: "Launches a magnet that is Super Effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: SPECIAL
   type: TYPE_STEEL
   target: SELECTED
   power: 70
   pp: 20
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   ballistic: true
 }
@@ -13183,16 +13188,17 @@ moves {
   short_name: "Clay Dart"
   description: "Super-effective on Flying-types. Arrow move. Archer boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_GROUND
+    }
+  }
   split: PHYSICAL
   type: TYPE_GROUND
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_FLYING
-  }
   mirror_move_affected: true
   arrow: true
   uses_animation: MOVE_THOUSAND_ARROWS
@@ -13258,16 +13264,17 @@ moves {
   short_name: "Fumi.Bomb"
   description: "Hurls a pesticide bomb. Super-effective on Bug-types. Mega Launcher boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_BUG
+    }
+  }
   split: PHYSICAL
   type: TYPE_POISON
   target: SELECTED
   power: 75
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_BUG
-  }
   mirror_move_affected: true
   mega_launcher: true
 }
@@ -13370,16 +13377,17 @@ moves {
   short_name: "Aura Force"
   description: "Imbues strikes with aura power. Super-effective on Ghost. Mega Launcher boost."
   short_description: "Not done yet."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_GHOST
+    }
+  }
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 10
-  argument {
-    type: TYPE_GHOST
-  }
   crit: HIGH
   mirror_move_affected: true
   mega_launcher: true
@@ -14296,16 +14304,17 @@ moves {
   short_name: "GigatonHammr"
   description: "Super effective vs Steel. Can\'t be used twice in a row. Hammer-based."
   short_description: "Super effective vs Steel. Can\'t be used twice in a row."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
   power: 140
   accuracy: 100
   pp: 5
-  argument {
-    type: TYPE_STEEL
-  }
   every_other_turn: true
   mirror_move_affected: true
   hammer: true
@@ -15666,16 +15675,17 @@ moves {
   short_name: "Crackle Slam"
   description: "Slams foes with lots of electricity. Super-effective against Steel. Hammer-based."
   short_description: "Strikes with a conductive hammer. Super-effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_STEEL
-  }
   contact: true
   mirror_move_affected: true
   hammer: true
@@ -16960,16 +16970,17 @@ moves {
   short_name: "WaveHammer"
   description: "Super effective vs Poison. Can\'t be used twice in a row. Hammer-based."
   short_description: "Super effective vs Water. Can\'t be used twice in a row."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_POISON
+    }
+  }
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
   power: 125
   accuracy: 100
   pp: 5
-  argument {
-    type: TYPE_POISON
-  }
   contact: true
   every_other_turn: true
   mirror_move_affected: true
@@ -17316,16 +17327,17 @@ moves {
   short_name: "Hacksaw"
   description: "Tampers with the target. Stronger vs Steel."
   short_description: "Super effective vs Steel."
-  effect: EFFECT_SE_AGAINST_TYPE_HIT
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 15
-  argument {
-    type: TYPE_STEEL
-  }
   mirror_move_affected: true
   uses_animation: MOVE_DISCHARGE
 }

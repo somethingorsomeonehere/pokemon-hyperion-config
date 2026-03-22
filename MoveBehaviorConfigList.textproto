@@ -1763,10 +1763,6 @@ config {
   }
 }
 config {
-  id: EFFECT_SE_AGAINST_TYPE_HIT
-  legacy_config: "BattleScript_EffectHit"
-}
-config {
   id: EFFECT_DOUBLE_DMG_IF_STATUS1
   legacy_config: "BattleScript_EffectHit"
 }

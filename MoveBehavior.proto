@@ -408,7 +408,6 @@ enum MoveBehavior {
   EFFECT_FLINCH_RECOIL_33 = 392 [(flinch_effect) = true];
   EFFECT_FLINCH_RECOIL_50 = 393 [(flinch_effect) = true];
   EFFECT_IGNORE_TYPE_IMMUNITY = 394;
-  EFFECT_SE_AGAINST_TYPE_HIT = 395;
   EFFECT_DOUBLE_DMG_IF_STATUS1 = 396;
   EFFECT_STEALTH_ROCK_HIT = 397 [(no_sheer_force) = true];
   EFFECT_LEECH_SEED_HIT = 398;
