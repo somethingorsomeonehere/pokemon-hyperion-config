@@ -1268,10 +1268,6 @@ config {
   legacy_config: "BattleScript_EffectElectrify"
 }
 config {
-  id: EFFECT_SCALD
-  legacy_config: "BattleScript_EffectBurnHit"
-}
-config {
   id: EFFECT_REFLECT_TYPE
   legacy_config: "BattleScript_EffectReflectType"
 }
@@ -1687,12 +1683,6 @@ config {
   legacy_config: "BattleScript_EffectHit"
 }
 config {
-  id: EFFECT_EXCALIBUR
-  attack {
-    super_effective_vs: TYPE_DRAGON
-  }
-}
-config {
   id: EFFECT_FROSTBITE_HIT
   attack {
     effect {
@@ -1908,39 +1898,6 @@ config {
 config {
   id: EFFECT_TIDY_UP
   legacy_config: "BattleScript_EffectTidyUp"
-}
-config {
-  id: EFFECT_ACID
-  attack {
-    super_effective_vs: TYPE_STEEL
-    effect {
-      move_effect {
-        effect: MOVE_EFFECT_SP_DEF_MINUS_1
-      }
-    }
-  }
-}
-config {
-  id: EFFECT_SLUDGE
-  attack {
-    super_effective_vs: TYPE_WATER
-    effect {
-      move_effect {
-        effect: MOVE_EFFECT_POISON
-      }
-    }
-  }
-}
-config {
-  id: EFFECT_POISON_GAS
-  attack {
-    super_effective_vs: TYPE_FLYING
-    effect {
-      move_effect {
-        effect: MOVE_EFFECT_TOXIC
-      }
-    }
-  }
 }
 config {
   id: EFFECT_PARALYZE_IGNORE_TYPE

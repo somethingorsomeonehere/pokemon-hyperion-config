@@ -896,7 +896,16 @@ moves {
   short_name: "Acid"
   description: "Super effective vs Steel. Hits both foes. 30% chance to lower SpDef."
   short_description: "Super effective vs Steel. May lower Defense."
-  effect: EFFECT_ACID
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_STEEL
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_SP_DEF_MINUS_1
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: BOTH
@@ -2097,7 +2106,16 @@ moves {
   short_name: "Sludge"
   description: "Hurls toxic sludge at the foe. Super-effective on Water. 30% poison chance."
   short_description: "Super effective vs Water. May poison foes."
-  effect: EFFECT_SLUDGE
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_WATER
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_POISON
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: SELECTED
@@ -2345,7 +2363,16 @@ moves {
   short_name: "Poison Gas"
   description: "Super effective vs Flying. Hits both foes. 30% chance to poison."
   short_description: "Super effective vs Flying. gas that may poison."
-  effect: EFFECT_POISON_GAS
+  custom_behavior {
+    attack {
+      super_effective_vs: TYPE_FLYING
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_TOXIC
+        }
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_POISON
   target: BOTH
@@ -8319,7 +8346,7 @@ moves {
   short_name: "Scald"
   description: "Boiling hot water is shot at the foe. 30% burn chance."
   short_description: "Shoots boiling water at the foe. May inflict a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -9783,7 +9810,7 @@ moves {
   short_name: "SteamErption"
   description: "30% burn chance. Deals normal damage in Harsh Sunlight. Mega Launcher boost"
   short_description: "Immerses the foe in heated steam. May inflict a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -10742,7 +10769,7 @@ moves {
   short_name: "Beak Blast"
   description: "The user strikes with its heated beak. Has 30% burn chance."
   short_description: "Heats up beak to attack. Burns foe on contact."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: PHYSICAL
   type: TYPE_FLYING
   target: SELECTED
@@ -12245,7 +12272,7 @@ moves {
   short_name: "ScorchngSnds"
   description: "Throws scorching sand at the target. 30% chance to burn the target."
   short_description: "Throws scorching sand at the target. May leave a burn."
-  effect: EFFECT_SCALD
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_GROUND
   target: SELECTED
@@ -12465,7 +12492,16 @@ moves {
   short_name: "Excalibur"
   description: "Double damage on Dragons. High critical ratio. Keen Edge boost."
   short_description: "Double damage on Dragon-types. High critical ratio."
-  effect: EFFECT_BLEED_HIT
+  custom_behavior {
+  attack {
+      super_effective_vs: TYPE_DRAGON
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BLEED
+        }
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
