@@ -19,11 +19,13 @@ config {
 }
 config {
   id: EFFECT_BURN_HIT
-  legacy_config: "BattleScript_EffectBurnHit"
-}
-config {
-  id: EFFECT_FREEZE_HIT
-  legacy_config: "BattleScript_EffectFreezeHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_BURN
+      }
+    }
+  }
 }
 config {
   id: EFFECT_PARALYZE_HIT
@@ -127,7 +129,13 @@ config {
 }
 config {
   id: EFFECT_FLINCH_HIT
-  legacy_config: "BattleScript_EffectFlinchHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_FLINCH
+      }
+    }
+  }
 }
 config {
   id: EFFECT_RESTORE_HP
@@ -139,7 +147,13 @@ config {
 }
 config {
   id: EFFECT_PAY_DAY
-  legacy_config: "BattleScript_EffectPayDay"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_PAYDAY
+      }
+    }
+  }
 }
 config {
   id: EFFECT_LIGHT_SCREEN
@@ -147,7 +161,13 @@ config {
 }
 config {
   id: EFFECT_TRI_ATTACK
-  legacy_config: "BattleScript_EffectTriAttack"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_TRI_ATTACK
+      }
+    }
+  }
 }
 config {
   id: EFFECT_REST
@@ -171,7 +191,13 @@ config {
 }
 config {
   id: EFFECT_TRAP
-  legacy_config: "BattleScript_EffectTrap"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_WRAP
+      }
+    }
+  }
 }
 config {
   id: EFFECT_HEAL_BLOCK
@@ -275,27 +301,63 @@ config {
 }
 config {
   id: EFFECT_ATTACK_DOWN_HIT
-  legacy_config: "BattleScript_EffectAttackDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_ATK_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_DEFENSE_DOWN_HIT
-  legacy_config: "BattleScript_EffectDefenseDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_DEF_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SPEED_DOWN_HIT
-  legacy_config: "BattleScript_EffectSpeedDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SPD_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SPECIAL_ATTACK_DOWN_HIT
-  legacy_config: "BattleScript_EffectSpecialAttackDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_ATK_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
-  legacy_config: "BattleScript_EffectSpecialDefenseDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_DEF_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ACCURACY_DOWN_HIT
-  legacy_config: "BattleScript_EffectAccuracyDownHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_ACC_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_EVASION_DOWN_HIT
@@ -307,7 +369,13 @@ config {
 }
 config {
   id: EFFECT_CONFUSE_HIT
-  legacy_config: "BattleScript_EffectConfuseHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_CONFUSION
+      }
+    }
+  }
 }
 config {
   id: EFFECT_TWINEEDLE
@@ -387,7 +455,15 @@ config {
 }
 config {
   id: EFFECT_HAMMER_ARM
-  legacy_config: "BattleScript_EffectHammerArm"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SPD_MINUS_1
+        affects_user: true
+        certain: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SLEEP_TALK
@@ -423,7 +499,13 @@ config {
 }
 config {
   id: EFFECT_THIEF
-  legacy_config: "BattleScript_EffectThief"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_STEAL_ITEM
+      }
+    }
+  }
 }
 config {
   id: EFFECT_MEAN_LOOK
@@ -555,15 +637,36 @@ config {
 }
 config {
   id: EFFECT_DEFENSE_UP_HIT
-  legacy_config: "BattleScript_EffectDefenseUpHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_DEF_PLUS_1
+        affects_user: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ATTACK_UP_HIT
-  legacy_config: "BattleScript_EffectAttackUpHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_ATK_PLUS_1
+        affects_user: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ALL_STATS_UP_HIT
-  legacy_config: "BattleScript_EffectAllStatsUpHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_ALL_STATS_UP
+        affects_user: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_FELL_STINGER
@@ -755,7 +858,13 @@ config {
 }
 config {
   id: EFFECT_KNOCK_OFF
-  legacy_config: "BattleScript_EffectKnockOff"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_KNOCK_OFF
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ENDEAVOR
@@ -811,7 +920,13 @@ config {
 }
 config {
   id: EFFECT_POISON_FANG
-  legacy_config: "BattleScript_EffectPoisonFang"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_TOXIC
+      }
+    }
+  }
 }
 config {
   id: EFFECT_WEATHER_BALL
@@ -819,7 +934,15 @@ config {
 }
 config {
   id: EFFECT_OVERHEAT
-  legacy_config: "BattleScript_EffectOverheat"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_ATK_MINUS_2
+        affects_user: true
+        certain: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_TICKLE
@@ -1043,7 +1166,13 @@ config {
 }
 config {
   id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
-  legacy_config: "BattleScript_EffectSpecialDefenseDownHit2"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_ATK_MINUS_2
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SIMPLE_BEAM
@@ -1067,7 +1196,14 @@ config {
 }
 config {
   id: EFFECT_FREEZE_DRY
-  legacy_config: "BattleScript_EffectFrostbiteHit"
+  attack {
+    super_effective_vs: TYPE_WATER
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_FROSTBITE
+      }
+    }
+  }
 }
 config {
   id: EFFECT_TOPSY_TURVY
@@ -1299,7 +1435,14 @@ config {
 }
 config {
   id: EFFECT_SP_ATTACK_UP_HIT
-  legacy_config: "BattleScript_EffectSpAtkUpHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_ATK_PLUS_1
+        affects_user: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_BELCH
@@ -1543,7 +1686,13 @@ config {
 }
 config {
   id: EFFECT_FROSTBITE_HIT
-  legacy_config: "BattleScript_EffectFrostbiteHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_FROSTBITE
+      }
+    }
+  }
 }
 config {
   id: EFFECT_EXPANDING_FORCE
@@ -1559,19 +1708,45 @@ config {
 }
 config {
   id: EFFECT_ATTRACT_HIT
-  legacy_config: "BattleScript_EffectAttracttHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_ATTRACT
+      }
+    }
+  }
 }
 config {
   id: EFFECT_CURSE_HIT
-  legacy_config: "BattleScript_EffectCurseHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_CURSE
+      }
+    }
+  }
 }
 config {
   id: EFFECT_FLINCH_RECOIL_33
-  legacy_config: "BattleScript_EffectFlinchHit"
+  attack {
+    recoil_fraction: 3
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_FLINCH
+      }
+    }
+  }
 }
 config {
   id: EFFECT_FLINCH_RECOIL_50
-  legacy_config: "BattleScript_EffectFlinchHit"
+  attack {
+    recoil_fraction: 2
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_FLINCH
+      }
+    }
+  }
 }
 config {
   id: EFFECT_IGNORE_TYPE_IMMUNITY
@@ -1599,11 +1774,23 @@ config {
 }
 config {
   id: EFFECT_BLEED_HIT
-  legacy_config: "BattleScript_EffectBleedHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_BLEED
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SLEEP_HIT
-  legacy_config: "BattleScript_EffectSleepHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SLEEP
+      }
+    }
+  }
 }
 config {
   id: EFFECT_BLEED
@@ -1667,7 +1854,14 @@ config {
 }
 config {
   id: EFFECT_SPECIAL_ATTACK_UP_HIT
-  legacy_config: "BattleScript_EffectSpecialAttackUpHit"
+  attack {
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_ATK_PLUS_1
+        affects_user: true
+      }
+    }
+  }
 }
 config {
   id: EFFECT_ARGUMENT_HIT
@@ -1711,7 +1905,14 @@ config {
 }
 config {
   id: EFFECT_ACID
-  legacy_config: "BattleScript_EffectSpecialDefenseDownHit"
+  attack {
+    super_effective_vs: TYPE_STEEL
+    effect {
+      move_effect {
+        effect: MOVE_EFFECT_SP_DEF_MINUS_1
+      }
+    }
+  }
 }
 config {
   id: EFFECT_SLUDGE

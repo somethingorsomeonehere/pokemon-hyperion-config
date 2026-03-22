@@ -21,7 +21,6 @@ enum MoveBehavior {
   EFFECT_POISON_HIT = 2;
   EFFECT_ABSORB = 3;
   EFFECT_BURN_HIT = 4;
-  EFFECT_FREEZE_HIT = 5;
   EFFECT_PARALYZE_HIT = 6;
   EFFECT_EXPLOSION = 7 [(no_parental_bond) = true];
   EFFECT_DREAM_EATER = 8;
