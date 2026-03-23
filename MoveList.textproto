@@ -10119,6 +10119,7 @@ moves {
   power: 120
   accuracy: 100
   pp: 20
+  effect_chance: 50
   argument {
     effect {
       effect: MOVE_EFFECT_CONFUSION
@@ -12914,6 +12915,7 @@ moves {
   power: 80
   accuracy: 100
   pp: 20
+  effect_chance: 10
   contact: true
   mirror_move_affected: true
   keen_edge: true
