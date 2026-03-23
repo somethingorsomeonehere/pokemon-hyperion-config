@@ -12178,19 +12178,14 @@ moves {
   short_name: "BrningJelosy"
   description: "Attacks both foes jealously. Has 50% burn chance."
   short_description: "Attacks both foes with a 50% chance to burn them."
-  effect: EFFECT_ARGUMENT_HIT_IF_STAT_UP
+  effect: EFFECT_BURN_HIT
   split: SPECIAL
   type: TYPE_FIRE
   target: BOTH
   power: 70
   accuracy: 100
   pp: 5
-  effect_chance: 100
-  argument {
-    effect {
-      effect: MOVE_EFFECT_BURN
-    }
-  }
+  effect_chance: 50
   mirror_move_affected: true
 }
 moves {
@@ -13036,16 +13031,14 @@ moves {
   short_name: "LightStrike"
   description: "Leaps, strikes with a lightning bolt. 20% chance to raise Speed. Mega Launcher boost."
   short_description: "A rapid strike with a lightning bolt, maybe raising Speed."
-  effect: EFFECT_DOUBLE_DMG_IF_STATUS1
+  effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 20
-  argument {
-    status: STATUS1_PARALYSIS
-  }
+  effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
   arrow: true
@@ -13056,12 +13049,16 @@ moves {
   short_name: "Volt Bolt"
   description: "Doubles damage if foe is paralyzed. Arrow move. Archer boost."
   short_description: "Not done yet."
+  effect: EFFECT_DOUBLE_DMG_IF_STATUS1
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 20
+  argument {
+    status: STATUS1_PARALYSIS
+  }
   mirror_move_affected: true
   arrow: true
   uses_animation: MOVE_VOLT_TACKLE
