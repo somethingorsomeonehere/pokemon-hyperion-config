@@ -134,11 +134,7 @@ enum MoveBehavior {
   EFFECT_ENDURE = 116;
   EFFECT_ROLLOUT = 117;
   EFFECT_SWAGGER = 118;
-  EFFECT_FURY_CUTTER = 119;
   EFFECT_ATTRACT = 120;
-  EFFECT_RETURN = 121;
-  EFFECT_PRESENT = 122;
-  EFFECT_FRUSTRATION = 123;
   EFFECT_SAFEGUARD = 124;
   EFFECT_UNUSED_125 = 125;
   EFFECT_MAGNITUDE = 126;
@@ -232,7 +228,6 @@ enum MoveBehavior {
   EFFECT_FLING = 215 [(no_sheer_force) = true, (no_kings_rock) = true, (no_parental_bond) = true];
   EFFECT_NATURAL_GIFT = 216 [(no_kings_rock) = true, (no_parental_bond) = true, (no_sheer_force) = true];
   EFFECT_WAKE_UP_SLAP = 217 [(no_sheer_force) = true];
-  EFFECT_WRING_OUT = 218;
   EFFECT_HEX = 219;
   EFFECT_ASSURANCE = 220;
   EFFECT_TRUMP_CARD = 221;
@@ -368,7 +363,6 @@ enum MoveBehavior {
   EFFECT_LASH_OUT = 353;
   EFFECT_GRASSY_GLIDE = 354;
   EFFECT_REMOVE_TERRAIN = 355;
-  EFFECT_DYNAMAX_DOUBLE_DMG = 356;
   EFFECT_DECORATE = 357;
   EFFECT_SNIPE_SHOT = 358;
   EFFECT_RECOIL_HP_25 = 360;

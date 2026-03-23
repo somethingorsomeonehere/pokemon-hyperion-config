@@ -7760,7 +7760,25 @@ moves {
   short_name: "Ominous Wind"
   description: "10% chance to raise all user\'s stats. Deals double damage in fog."
   short_description: "A repulsive attack that may raise all stats."
-  effect: EFFECT_ALL_STATS_UP_HIT
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_ALL_STATS_UP
+          affects_user: true
+        }
+      }
+      damage {
+        condition {
+          weather {
+            weather: WEATHER_FOG_ANY
+            battler: BATTLER_ATTACKER
+          }
+        }
+        multiply: 2
+      }
+    }
+  }
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
@@ -16245,6 +16263,15 @@ moves {
           effect: MOVE_EFFECT_FEAR
         }
       }
+      damage {
+        condition {
+          status {
+            status: STATUS1_BLEED
+            battler: BATTLER_TARGET
+          }
+        }
+        multiply: 2.0
+      }
     }
   }
   split: PHYSICAL
@@ -16265,7 +16292,24 @@ moves {
   short_name: "Terror Locks"
   description: "30% chance to bleed. 50% more damage if the foe is bleeding. Keen Edge boost."
   short_description: "Cut the foe with long, black hair."
-  effect: EFFECT_BLEED_HIT
+  custom_behavior {
+    attack {
+      effect {
+        move_effect {
+          effect: MOVE_EFFECT_BLEED
+        }
+      }
+      damage {
+        condition {
+          status {
+            status: STATUS1_BLEED
+            battler: BATTLER_TARGET
+          }
+        }
+        multiply: 1.5
+      }
+    }
+  }
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
@@ -16273,9 +16317,6 @@ moves {
   accuracy: 100
   pp: 15
   effect_chance: 30
-  argument {
-    misc: MISC_EFFECT_50_PERCENT_PLUS_DAMAGE_VS_BLEEDING
-  }
   contact: true
   mirror_move_affected: true
   keen_edge: true

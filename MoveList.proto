@@ -8,6 +8,7 @@ import "Types.proto";
 import "MoveEffect.proto";
 import "google/protobuf/descriptor.proto";
 import "MoveBehaviorConfigList.proto";
+import "ScriptConditions.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -51,20 +52,6 @@ message MoveEffectArgument {
   MoveEffect effect = 1;
   bool affects_user = 2;
   bool certain = 3;
-}
-
-enum Status {
-  STATUS1_NONE = 0;
-  STATUS1_SLEEP = 1;
-  STATUS1_POISON = 2;
-  STATUS1_BURN = 3;
-  STATUS1_FREEZE = 4;
-  STATUS1_PARALYSIS = 5;
-  STATUS1_TOXIC_POISON = 6;
-  STATUS1_POISON_ANY = 7;
-  STATUS1_FROSTBITE = 8;
-  STATUS1_BLEED = 9;
-  STATUS1_ANY = 10;
 }
 
 enum MiscMoveEffect {
