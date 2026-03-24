@@ -12177,16 +12177,21 @@ moves {
   id: MOVE_BURNING_JEALOUSY
   name: "Burning Jealousy"
   short_name: "BrningJelosy"
-  description: "Attacks both foes jealously. Has 50% burn chance."
-  short_description: "Attacks both foes with a 50% chance to burn them."
-  effect: EFFECT_BURN_HIT
+  description: "Attacks both foes jealously. 50% burn chance if foe has stat boosts."
+  short_description: "Attacks both foes with a 50% chance to burn boosted foes."
+  effect: EFFECT_ARGUMENT_HIT_IF_STAT_UP
   split: SPECIAL
   type: TYPE_FIRE
   target: BOTH
   power: 70
   accuracy: 100
   pp: 5
-  effect_chance: 50
+  effect_chance: 100
+  argument {
+    effect {
+      effect: MOVE_EFFECT_BURN
+    }
+  }
   mirror_move_affected: true
 }
 moves {
