@@ -187747,7 +187747,7 @@ species {
   visuals {
     icon {
       path: "arcanine/hisuian/mega/icon"
-      palette: 1
+      palette: 5
     }
     front {
       path: "arcanine/hisuian/mega/front"
