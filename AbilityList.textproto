@@ -997,7 +997,7 @@ ability {
   id: ABILITY_FLOWER_VEIL
   name: "Flower Veil"
   description: "Protects Grass-type allies from status and stat drops."
-  expanded_description: "Prevents all status conditions and stat reductions for Grass-type allies. Includes self-stat drops."
+  expanded_description: "Prevents all status conditions and stat reductions for Grass-type allies."
 }
 ability {
   id: ABILITY_CHEEK_POUCH
