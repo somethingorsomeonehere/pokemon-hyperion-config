@@ -190731,8 +190731,6 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 5
-        elevation: 7
       }
     }
     back {
@@ -190740,7 +190738,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 11
+        y_offset: 2
       }
     }
     palette: "hydreigon/mega/normal"
