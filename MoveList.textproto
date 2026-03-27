@@ -13278,7 +13278,7 @@ moves {
   short_description: "Not done yet."
   custom_behavior {
     attack {
-      super_effective_vs: TYPE_GROUND
+      super_effective_vs: TYPE_FLYING
     }
   }
   split: PHYSICAL
