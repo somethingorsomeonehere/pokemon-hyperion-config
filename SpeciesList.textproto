@@ -212106,62 +212106,80 @@ species {
   bp_cost: 30
   evo {
     to: SPECIES_SNORLAX_REDUX
-    level: 22
+    level: 45
   }
   learnset {
     level {
       level: 1
       move: MOVE_BELCH
-      move: MOVE_BUBBLE_BEAM
-      move: MOVE_WITHDRAW
-      move: MOVE_SLUDGE
+      move: MOVE_GROWL
       move: MOVE_WATERLOG
-      move: MOVE_YAWN
+      move: MOVE_SLUDGE
+      move: MOVE_SPLASH
     }
     level {
       level: 17
-      move: MOVE_WAVE_CRASH
-      move: MOVE_PURIFY
+      move: MOVE_BODY_SLAM
+      move: MOVE_OUTBURST
       move: MOVE_GYRO_BALL
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 24
-      move: MOVE_BLOCK
-      move: MOVE_AQUA_JET
+      move: MOVE_WATER_SPORT
+      move: MOVE_BRINE
       move: MOVE_WATER_PLEDGE
+      move: MOVE_CAMOUFLAGE
     }
     level {
       level: 37
-      move: MOVE_SPLASH
-      move: MOVE_CHILLING_WATER
-      move: MOVE_OUTBURST
+      move: MOVE_STRANGE_STEAM
+      move: MOVE_SHARPEN
       move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 46
-      move: MOVE_AMNESIA
-      move: MOVE_TRIPLE_DIVE
+      move: MOVE_MAKE_IT_RAIN
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_WONDER_ROOM
     }
     level {
       level: 56
-      move: MOVE_RECOVER
+      move: MOVE_WATER_SPOUT
     }
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AQUA_RING
     tutor: MOVE_BUBBLE
     tutor: MOVE_FLASH_CANNON
-    tutor: MOVE_FLIP_TURN
     tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_HAZE
-    tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_IRON_HEAD
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_JAB
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SOAK
     tutor: MOVE_SURF
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_DIVE
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_TRICK
+    tutor: MOVE_DEFOG
+    tutor: MOVE_MIST
+    tutor: MOVE_HAZE
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LICK
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ABSORB
+    tutor: MOVE_REFRESH
+    tutor: MOVE_COVET
   }
   visuals {
     icon {
@@ -212209,67 +212227,78 @@ species {
     level {
       level: 1
       move: MOVE_BELCH
-      move: MOVE_BUBBLE_BEAM
-      move: MOVE_WITHDRAW
-      move: MOVE_SLUDGE
+      move: MOVE_GROWL
       move: MOVE_WATERLOG
-      move: MOVE_YAWN
+      move: MOVE_SLUDGE
+      move: MOVE_SPLASH
+      move: MOVE_TERRAIN_PULSE
     }
     level {
       level: 17
-      move: MOVE_WAVE_CRASH
-      move: MOVE_PURIFY
+      move: MOVE_BODY_SLAM
+      move: MOVE_OUTBURST
       move: MOVE_GYRO_BALL
+      move: MOVE_MUD_BOMB
     }
     level {
       level: 24
-      move: MOVE_BLOCK
-      move: MOVE_AQUA_JET
+      move: MOVE_WATER_SPORT
+      move: MOVE_BRINE
       move: MOVE_WATER_PLEDGE
+      move: MOVE_CAMOUFLAGE
+      move: MOVE_TOXIC_PLUNGE
     }
     level {
       level: 37
-      move: MOVE_GEM_MISSILE
-      move: MOVE_SPLASH
-      move: MOVE_CHILLING_WATER
-      move: MOVE_OUTBURST
+      move: MOVE_STRANGE_STEAM
+      move: MOVE_SHARPEN
       move: MOVE_SLUDGE_WAVE
     }
     level {
       level: 46
-      move: MOVE_AMNESIA
-      move: MOVE_KINGS_SHIELD
-      move: MOVE_TRIPLE_DIVE
-    }
-    level {
-      level: 51
-      move: MOVE_METEOR_BEAM
-      move: MOVE_WATER_SPOUT
+      move: MOVE_MAKE_IT_RAIN
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_WONDER_ROOM
     }
     level {
       level: 56
-      move: MOVE_RECOVER
+      move: MOVE_WATER_SPOUT
     }
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_SURF
-    tutor: MOVE_LIQUIDATION
-    tutor: MOVE_LIFE_DEW
-    tutor: MOVE_SOAK
-    tutor: MOVE_FLASH_CANNON
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_SLUDGE_BOMB
-    tutor: MOVE_HEAVY_SLAM
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_POISON_JAB
-    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AQUA_RING
     tutor: MOVE_BUBBLE
-    tutor: MOVE_ACID_ARMOR
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SOAK
+    tutor: MOVE_SURF
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_TAUNT
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_DIVE
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_TRICK
+    tutor: MOVE_DEFOG
+    tutor: MOVE_MIST
     tutor: MOVE_HAZE
-    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LICK
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ABSORB
+    tutor: MOVE_REFRESH
+    tutor: MOVE_COVET
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
