@@ -14077,9 +14077,6 @@ moves {
   power: 80
   accuracy: 100
   pp: 10
-  argument {
-    int: 50
-  }
   mirror_move_affected: true
   air: true
   contact: true
