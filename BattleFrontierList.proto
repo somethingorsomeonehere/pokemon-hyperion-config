@@ -6,6 +6,8 @@ import "SpeciesEnum.proto";
 import "MoveEnum.proto";
 import "TrainerList.proto";
 import "AbilityEnum.proto";
+import "ItemEnum.proto";
+import "Types.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -19,17 +21,19 @@ message BattleFrontierSet {
 
   DoublesSets allowed_formats = 1;
   bool restricted = 2;
-  optional Nature nature = 3;
-  AbilityEnum ability = 4;
-  repeated MoveEnum move = 5;
+  ItemEnum item = 3;
+  optional Nature nature = 4;
+  AbilityEnum ability = 5;
+  optional Type hp_type = 6;
+  repeated MoveEnum move = 7;
 
-  bool hp_up = 6;
-  bool atk_up = 7;
-  bool def_up = 8;
-  bool spatk_up = 9;
-  bool spdef_up = 10;
-  bool speed_up = 11;
-  string illegal = 12;
+  bool hp_up = 8;
+  bool atk_up = 9;
+  bool def_up = 10;
+  bool spatk_up = 11;
+  bool spdef_up = 12;
+  bool speed_up = 13;
+  repeated string illegal = 14;
 }
 
 message BattleFrontierList {
