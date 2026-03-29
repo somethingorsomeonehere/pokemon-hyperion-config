@@ -27270,7 +27270,7 @@ species {
     move: MOVE_ZING_ZAP
     hp_up: true
     atk_up: true
-    spe_up: true
+    speed_up: true
   }
   set {
     item: ITEM_WIDE_LENS
