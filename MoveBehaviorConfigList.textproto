@@ -1301,7 +1301,7 @@ config {
   attack {
     effect {
       move_effect {
-        effect: MOVE_EFFECT_SP_ATK_MINUS_2
+        effect: MOVE_EFFECT_SP_DEF_MINUS_2
       }
     }
   }
