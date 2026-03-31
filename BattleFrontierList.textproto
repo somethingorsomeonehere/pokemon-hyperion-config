@@ -21750,6 +21750,7 @@ species {
     move: MOVE_WILL_O_WISP
     spatk_up: true
     speed_up: true
+    illegal: "SPECIES_TYPHLOSION_HISUIAN does not have ability ABILITY_SOUL_DEVOURER"
   }
 }
 species {
