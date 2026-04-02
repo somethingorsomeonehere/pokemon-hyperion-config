@@ -189725,7 +189725,7 @@ species {
   visuals {
     icon {
       path: "talonflame/mega/icon"
-      palette: 3
+      palette: 0
     }
     front {
       path: "talonflame/mega/front"
