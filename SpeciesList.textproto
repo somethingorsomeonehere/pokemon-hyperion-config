@@ -186722,7 +186722,7 @@ species {
   visuals {
     icon {
       path: "serperior/mega/icon"
-      palette: 4
+      palette: 1
     }
     front {
       path: "serperior/mega/front"
