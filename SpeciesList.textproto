@@ -190588,7 +190588,6 @@ species {
   visuals {
     icon {
       path: "sandslash/alolan/mega/icon"
-      palette: 3
     }
     front {
       path: "sandslash/alolan/mega/front"
