@@ -51834,7 +51834,7 @@ species {
   def: 60
   spatk: 115
   spdef: 60
-  spe: 85
+  spe: 55
   ability: ABILITY_SAND_RUSH
   ability: ABILITY_SAND_VEIL
   ability: ABILITY_SCARE
@@ -189725,7 +189725,6 @@ species {
   visuals {
     icon {
       path: "talonflame/mega/icon"
-      palette: 0
     }
     front {
       path: "talonflame/mega/front"
