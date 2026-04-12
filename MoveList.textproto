@@ -17164,7 +17164,7 @@ moves {
   pp: 10
   argument {
     effect {
-      effect: MOVE_EFFECT_DOUBLESLAP
+      effect: MOVE_EFFECT_ENRAGE
     }
   }
   mirror_move_affected: true
