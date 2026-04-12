@@ -5221,13 +5221,13 @@ ability {
   id: ABILITY_MOLTEN_CORE
   name: "Molten Core"
   description: "Furnace + Absorbs Rock-moves/Stealth Rocks."
-  expanded_description: "Boosts the user's Special Attack stat by 50%. Multiplicative with other damage boosts. Sets up Aurora Veil on entry, cutting physical and special damage recieved by half for your allies. Lasts 5 turns, or 8 turns with Light Clay. Immune to Hail damage."
+  expanded_description: "Absorbs Rock-type attacks and Stealth Rocks, taking no damage and boosting speed by +2 instead."
 }
 ability {
   id: ABILITY_AURORAS_GALE
   name: "Aurora's Gale"
   description: "Majestic Bird + North Wind."
-  expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
+  expanded_description: "Boosts the user's Special Attack stat by 50%. Multiplicative with other damage boosts. Sets up Aurora Veil on entry, cutting physical and special damage recieved by half for your allies. Lasts 5 turns, or 8 turns with Light Clay. Immune to Hail damage."
 }
 ability {
   id: ABILITY_WINTER_THRONE
