@@ -448,7 +448,7 @@ ability {
   id: ABILITY_PURE_POWER
   name: "Pure Power"
   description: "Doubles own Sp.Atk stat. Boosts raw stat, not base stat."
-  expanded_description: "Increases the user's Attack stat by 2x. Multiplicative with other damage boosts."
+  expanded_description: "Increases the user's Special Attack stat by 2x. Multiplicative with other damage boosts."
 }
 ability {
   id: ABILITY_SHELL_ARMOR
