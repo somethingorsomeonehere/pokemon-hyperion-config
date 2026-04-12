@@ -173167,10 +173167,10 @@ species {
   spe: 99
   ability: ABILITY_FLARE_BOOST
   ability: ABILITY_HARVEST
-  ability: ABILITY_MOODY
-  innate: ABILITY_INSOMNIA
-  innate: ABILITY_CURSED_BODY
-  innate: ABILITY_HAUNTED_SPIRIT
+  ability: ABILITY_FRISK
+  innate: ABILITY_SCARE
+  innate: ABILITY_PICKUP
+  innate: ABILITY_MONSTER_MASH
   percent_female: 50
   form_shift_of: SPECIES_GOURGEIST
   uses_learnset: SPECIES_GOURGEIST
@@ -173209,10 +173209,10 @@ species {
   spe: 69
   ability: ABILITY_FLARE_BOOST
   ability: ABILITY_HARVEST
-  ability: ABILITY_MOODY
-  innate: ABILITY_INSOMNIA
-  innate: ABILITY_CURSED_BODY
-  innate: ABILITY_HAUNTED_SPIRIT
+  ability: ABILITY_FRISK
+  innate: ABILITY_SCARE
+  innate: ABILITY_PICKUP
+  innate: ABILITY_MONSTER_MASH
   percent_female: 50
   form_shift_of: SPECIES_GOURGEIST
   visuals {
@@ -173250,10 +173250,10 @@ species {
   spe: 54
   ability: ABILITY_FLARE_BOOST
   ability: ABILITY_HARVEST
-  ability: ABILITY_MOODY
-  innate: ABILITY_INSOMNIA
-  innate: ABILITY_CURSED_BODY
-  innate: ABILITY_HAUNTED_SPIRIT
+  ability: ABILITY_FRISK
+  innate: ABILITY_SCARE
+  innate: ABILITY_PICKUP
+  innate: ABILITY_MONSTER_MASH
   percent_female: 50
   form_shift_of: SPECIES_GOURGEIST
   visuals {
