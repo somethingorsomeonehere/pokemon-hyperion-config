@@ -4941,7 +4941,7 @@ ability {
   id: ABILITY_GLACIAL_GHOST
   name: "Glacial Ghost"
   description: "Slush Rush + Snow Cloak."
-  expanded_description: "Boosts the Pokemon's Speed by 50% and reduces opponent accuracy by 25% during hail. Immune to hail damage."
+  expanded_description: "Boosts the Pokemon's Speed by 50% and its evasion by 25% during hail. Immune to hail damage."
 }
 ability {
   id: ABILITY_TENDER_AFFECTION
