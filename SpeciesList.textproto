@@ -30607,11 +30607,87 @@ species {
           duration: 2
         }
         frame {
-          image: 1
+          image: 0
           duration: 2
         }
         frame {
           image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 20
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
           duration: 2
         }
       }
@@ -45439,6 +45515,70 @@ species {
         frame {
           image: 1
           duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 33
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 1
+        }
+        frame {
+          image: 1
+          duration: 1
+        }
+        frame {
+          image: 0
+          duration: 11
         }
       }
     }
@@ -78397,11 +78537,87 @@ species {
           duration: 4
         }
         frame {
-          image: 1
+          image: 0
           duration: 4
         }
         frame {
           image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 10
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 10
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
+          duration: 4
+        }
+        frame {
+          image: 1
+          duration: 4
+        }
+        frame {
+          image: 0
           duration: 4
         }
       }
@@ -82291,6 +82507,74 @@ species {
         frame {
           image: 1
           duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 5
+        }
+        frame {
+          image: 1
+          duration: 5
+        }
+        frame {
+          image: 0
+          duration: 1
         }
       }
     }
@@ -99242,11 +99526,87 @@ species {
           duration: 2
         }
         frame {
-          image: 1
+          image: 0
           duration: 2
         }
         frame {
           image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 20
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
           duration: 2
         }
       }
@@ -99396,11 +99756,87 @@ species {
           duration: 2
         }
         frame {
-          image: 1
+          image: 0
           duration: 2
         }
         frame {
           image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 20
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
           duration: 2
         }
       }
@@ -99824,11 +100260,87 @@ species {
           duration: 2
         }
         frame {
-          image: 1
+          image: 0
           duration: 2
         }
         frame {
           image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 20
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
+          duration: 2
+        }
+        frame {
+          image: 1
+          duration: 2
+        }
+        frame {
+          image: 0
           duration: 2
         }
       }
@@ -169048,6 +169560,98 @@ species {
         }
         frame {
           image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
           duration: 3
         }
       }
