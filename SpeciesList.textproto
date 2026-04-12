@@ -73335,6 +73335,98 @@ species {
           image: 1
           duration: 3
         }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
+        frame {
+          image: 1
+          duration: 3
+        }
+        frame {
+          image: 0
+          duration: 3
+        }
       }
     }
   }
