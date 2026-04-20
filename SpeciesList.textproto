@@ -117707,21 +117707,25 @@ species {
       level: 24
       move: MOVE_FLING
       move: MOVE_PIXIE_SLASH
+      move: MOVE_CRAFTY_SHIELD
     }
     level {
       level: 37
       move: MOVE_PAIN_SPLIT
       move: MOVE_SQUEAKY_HAMMER
       move: MOVE_WOOD_HAMMER
+      move: MOVE_SHADOW_HAMMER
     }
     level {
       level: 46
       move: MOVE_NIGHTMARE
       move: MOVE_PHANTOM_FORCE
+      move: MOVE_STAR_CRASH
     }
     level {
       level: 51
       move: MOVE_BONK
+      move: MOVE_VOLT_TACKLE
     }
     level {
       level: 56
@@ -148651,11 +148655,11 @@ species {
   def: 52
   spatk: 134
   spdef: 94
-  spe: 120
+  spe: 119
   ability: ABILITY_GENERATOR
   ability: ABILITY_DROUGHT
   ability: ABILITY_POWER_SPOT
-  innate: ABILITY_SOLAR_POWER
+  innate: ABILITY_SUN_BASKING
   innate: ABILITY_ELECTROCYTES
   innate: ABILITY_SHINY_LIGHTNING
   percent_female: 50
