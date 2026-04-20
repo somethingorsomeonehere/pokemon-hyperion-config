@@ -112916,10 +112916,9 @@ trainer {
       move: MOVE_REVIVAL_BLESSING
     }
     mon {
-      nonstandard: "Positive EV for negative nature"
       species: SPECIES_PORYGON_Z
       item: ITEM_LIFE_ORB
-      nature: NATURE_JOLLY
+      nature: NATURE_TIMID
       ability: ABILITY_INVERSE_ROOM
       hp_ev: 4
       spatk_ev: 252
@@ -112944,7 +112943,7 @@ trainer {
     }
     mon {
       species: SPECIES_FLYGON_REDUX_B
-      item: ITEM_FLYGONITE_R
+      item: ITEM_FLYGONITE_R_B
       nature: NATURE_TIMID
       ability: ABILITY_ENERGIZED
       hp_ev: 4

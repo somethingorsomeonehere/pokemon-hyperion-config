@@ -1729,6 +1729,9 @@ config {
       }
       multiply: 1.5
     }
+    effect {
+      argument_effect: true
+    }
   }
 }
 config {

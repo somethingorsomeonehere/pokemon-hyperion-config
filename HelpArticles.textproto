@@ -104,11 +104,11 @@ help_category {
     title: "New Status Effects"
     page: "Bleed\n  A unique, non-volatile status effect.\n  Mainly from Keen Edge boosted moves, but\n  not exclusive to them.\n\n  Deals 1/16 max HP damage per turn.\n  Prevents healing effects and negates\n  stat boosts. Rock and Ghost-types immune.\n"
     page: "  Healing moves cure Bleed but won't heal\n  HP that turn.\n\nFear\n  Traps the target for 2 turns.\n  Inflicted Pokemon take 50% more damage.\n\n  Moves: Scary Face, Terror Charge,\n  Worry Seed."
-    page: "\nFrostbite (replaces Freeze)\n  Deals 1/16 HP damage per turn to non-Ice\n  types. Halves user's special atk damage."
+    page: "Frostbite (replaces Freeze)\n  Deals 1/16 HP damage per turn to non-Ice\n  types. Halves user's special atk damage.\n\nEnraged\n  Takes 33% of damage it deals as recoil.\n  Stacks with other sources of recoil."
   }
   help_article {
     title: "Changed Status Effects"
-    page: "Confusion\n  No RNG. Confused Pokemon takes 33% of\n  damage it deals as recoil.\n\nInfatuation\n  Reworked: Infatuated targets deal 50%\n  less damage (physical and special)."
+    page: "Infatuation\n  Infatuated targets deal 50%\n  less damage (physical and special).\n  Not affected by gender."
   }
   help_article {
     title: "General Weather Information"

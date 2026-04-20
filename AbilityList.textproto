@@ -448,7 +448,7 @@ ability {
   id: ABILITY_PURE_POWER
   name: "Pure Power"
   description: "Doubles own Sp.Atk stat. Boosts raw stat, not base stat."
-  expanded_description: "Increases the user's Attack stat by 2x. Multiplicative with other damage boosts."
+  expanded_description: "Increases the user's Special Attack stat by 2x. Multiplicative with other damage boosts."
 }
 ability {
   id: ABILITY_SHELL_ARMOR
@@ -4941,7 +4941,7 @@ ability {
   id: ABILITY_GLACIAL_GHOST
   name: "Glacial Ghost"
   description: "Slush Rush + Snow Cloak."
-  expanded_description: "Boosts the Pokemon's Speed by 50% and reduces opponent accuracy by 25% during hail. Immune to hail damage."
+  expanded_description: "Boosts the Pokemon's Speed by 50% and its evasion by 25% during hail. Immune to hail damage."
 }
 ability {
   id: ABILITY_TENDER_AFFECTION
@@ -5221,13 +5221,13 @@ ability {
   id: ABILITY_MOLTEN_CORE
   name: "Molten Core"
   description: "Furnace + Absorbs Rock-moves/Stealth Rocks."
-  expanded_description: "Boosts the user's Special Attack stat by 50%. Multiplicative with other damage boosts. Sets up Aurora Veil on entry, cutting physical and special damage recieved by half for your allies. Lasts 5 turns, or 8 turns with Light Clay. Immune to Hail damage."
+  expanded_description: "Absorbs Rock-type attacks and Stealth Rocks, taking no damage and boosting speed by +2 instead."
 }
 ability {
   id: ABILITY_AURORAS_GALE
   name: "Aurora's Gale"
   description: "Majestic Bird + North Wind."
-  expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
+  expanded_description: "Boosts the user's Special Attack stat by 50%. Multiplicative with other damage boosts. Sets up Aurora Veil on entry, cutting physical and special damage recieved by half for your allies. Lasts 5 turns, or 8 turns with Light Clay. Immune to Hail damage."
 }
 ability {
   id: ABILITY_WINTER_THRONE
@@ -5893,8 +5893,8 @@ ability {
 ability {
   id: ABILITY_FEATHERCOAT
   name: "Feathercoat"
-  description: "Takes 10% less damage from attacks, 20% if resisted."
-  expanded_description: "Takes 10% less damage from all attacks. Takes 20% less damage from resisted attacks."
+  description: "Takes 15% less damage from attacks, 30% if resisted."
+  expanded_description: "Takes 15% less damage from all attacks. Takes 30% less damage from resisted attacks."
 }
 ability {
   id: ABILITY_POWER_OUTAGE
@@ -6021,7 +6021,8 @@ ability {
 ability {
   id: ABILITY_KING_OF_THE_JUNGLE
   name: "King of the Jungle"
-  description: "Infiltrator + deals 1.5x more damage to Grass-types."
+  description: "Grassy Surge + Infiltrator."
+  expanded_description: "Creates Grassy Terrain for 8 turns (12 with Terrain Extender) on entry. Moves bypass the effects of screens, Safeguard, Mist, and Substitute."
 }
 ability {
   id: ABILITY_WARRIORS_SPEAR

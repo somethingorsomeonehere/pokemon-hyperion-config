@@ -1049,7 +1049,7 @@ moves {
   power: 110
   accuracy: 85
   pp: 5
-  effect_chance: 30
+  effect_chance: 20
   mirror_move_affected: true
   weather: true
   air: true
@@ -2140,7 +2140,7 @@ moves {
   power: 110
   accuracy: 85
   pp: 5
-  effect_chance: 30
+  effect_chance: 20
   mirror_move_affected: true
   tutor: TUTOR_ATTACK
 }
@@ -5469,7 +5469,7 @@ moves {
   id: MOVE_MUDDY_WATER
   name: "Muddy Water"
   short_name: "Muddy Water"
-  description: "Ground-and Water-type at the same time. 30% chance to lower foe\'s accuracy."
+  description: "Ground and Water-type at the same time. 30% chance to lower foe\'s accuracy."
   short_description: "Attacks with muddy water. May lower accuracy."
   effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
@@ -17164,7 +17164,7 @@ moves {
   pp: 10
   argument {
     effect {
-      effect: MOVE_EFFECT_DOUBLESLAP
+      effect: MOVE_EFFECT_ENRAGE
     }
   }
   mirror_move_affected: true
