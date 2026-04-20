@@ -5893,8 +5893,8 @@ ability {
 ability {
   id: ABILITY_FEATHERCOAT
   name: "Feathercoat"
-  description: "Takes 10% less damage from attacks, 20% if resisted."
-  expanded_description: "Takes 10% less damage from all attacks. Takes 20% less damage from resisted attacks."
+  description: "Takes 15% less damage from attacks, 30% if resisted."
+  expanded_description: "Takes 15% less damage from all attacks. Takes 30% less damage from resisted attacks."
 }
 ability {
   id: ABILITY_POWER_OUTAGE
@@ -6021,7 +6021,8 @@ ability {
 ability {
   id: ABILITY_KING_OF_THE_JUNGLE
   name: "King of the Jungle"
-  description: "Infiltrator + deals 1.5x more damage to Grass-types."
+  description: "Grassy Surge + Infiltrator."
+  expanded_description: "Creates Grassy Terrain for 8 turns (12 with Terrain Extender) on entry. Moves bypass the effects of screens, Safeguard, Mist, and Substitute."
 }
 ability {
   id: ABILITY_WARRIORS_SPEAR
