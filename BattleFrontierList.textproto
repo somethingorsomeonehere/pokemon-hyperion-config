@@ -27492,7 +27492,7 @@ species {
     restricted: true
     item: ITEM_LEFTOVERS
     nature: NATURE_MODEST
-    ability: ABILITY_TERAVOLT
+    ability: ABILITY_ARTILLERY
     move: MOVE_ZAP_CANNON
     move: MOVE_MOONGEIST_BEAM
     move: MOVE_SUBSTITUTE

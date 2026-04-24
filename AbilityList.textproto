@@ -4916,8 +4916,8 @@ ability {
 ability { 
   id: ABILITY_SCARECROW
   name: "Scarecrow"
-  description: "Scare + Bad Luck."
-  expanded_description: "Upon entering battle, the user drops the Special Attack stat of all opposing Pokemon by one stage. Foes can not land critical hits, always roll minimum damage (85% instead of 85-100%), fail to inflict secondary effects that are not guaranteed, and have a 5% chance to miss a move."
+  description: "Scare + Cotton Down."
+  expanded_description: "Upon entering battle, the user drops the Special Attack stat of all opposing Pokemon by one stage. When the user is hit by any attack, it lowers the Speed of all opposing Pokemon by one stage. Activates multiple times against multihit moves."
 }
 ability {
   id: ABILITY_OMINOUS_SHROUD
@@ -5962,12 +5962,12 @@ ability {
   description: "Multi-Headed + Riptide"
 }
 ability {
-  id: ABILITY_ABOMINABLE_MONSTER
+  id: ABILITY_ICICLE_FIST
   name: "Icicle Fist"
   description: "Iron Fist + 30% chance to cause frostbite with punches."
 }
 ability {
-  id: ABILITY_ICICLE_FIST
+  id: ABILITY_ABOMINABLE_MONSTER
   name: "Abominable Monster"
   description: "Ups SpDef by 1.5x in hail."
   expanded_description: "Increases the user's Special Defense by 50% while affected by hail. This increase applies to all effects that scale with Defense."
