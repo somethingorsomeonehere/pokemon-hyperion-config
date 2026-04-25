@@ -11979,6 +11979,7 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
+      ability: ABILITY_ANGER_POINT
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -15518,7 +15519,7 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_TOXIC_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
+      ability: ABILITY_TOXIC_BOOST
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -15528,7 +15529,6 @@ trainer {
       move: MOVE_DIRE_CLAW
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_TRAILBLAZE]"
       species: SPECIES_DODRIO
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
@@ -24148,7 +24148,7 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_TOXIC_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
+      ability: ABILITY_TOXIC_BOOST
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -30818,7 +30818,7 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_TOXIC_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
+      ability: ABILITY_TOXIC_BOOST
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -68396,7 +68396,7 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_TOXIC_ORB
       nature: NATURE_ADAMANT
-      ability: ABILITY_ANGER_POINT
+      ability: ABILITY_TOXIC_BOOST
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -98130,7 +98130,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_RHYPERIOR
-      item: ITEM_WEAKNESS_POLICY
+      item: ITEM_PASSHO_BERRY
       nature: NATURE_ADAMANT
       ability: ABILITY_RAMPAGE
       hp_ev: 128
@@ -98146,20 +98146,20 @@ trainer {
       species: SPECIES_ZANGOOSE
       item: ITEM_TOXIC_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
+      ability: ABILITY_TOXIC_BOOST
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
       move: MOVE_DIRE_CLAW
       move: MOVE_SLASH
-      move: MOVE_CLOSE_COMBAT
+      move: MOVE_METAL_CLAW
       move: MOVE_PROTECT
     }
     mon {
       species: SPECIES_SCEPTILE
-      item: ITEM_SCEPTILITE
+      item: ITEM_SITRUS_BERRY
       nature: NATURE_JOLLY
-      ability: ABILITY_UNBURDEN
+      ability: ABILITY_PROTEAN
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -98173,7 +98173,7 @@ trainer {
       item: ITEM_ASSAULT_VEST
       nature: NATURE_CAREFUL
       ability: ABILITY_ANCIENT_IDOL
-      hp_ev: 4
+      atk_ev: 4
       def_ev: 252
       spdef_ev: 252
       move: MOVE_ASTONISH
