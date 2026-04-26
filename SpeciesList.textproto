@@ -155633,7 +155633,6 @@ species {
   visuals {
     icon {
       path: "dedelibird/icon"
-      palette: 1
     }
     front {
       path: "dedelibird/front"
