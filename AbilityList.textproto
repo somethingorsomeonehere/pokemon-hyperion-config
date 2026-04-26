@@ -6049,3 +6049,15 @@ ability {
   name: "Slime Mold"
   description: "Sticky Hold + Gooey."
 }
+ability {
+  id: ABILITY_BUTTERFLY_WINGS
+  name: "Butterfly Wings"
+  description: "Pollinate + Giant Wings"
+  expanded_description: "The user's Normal-type moves become Bug-type. If the user is Bug-type it is immune to powder moves, otherwise it gains Bug STAB. Boosts the power of all wing, wind, and air-based moves by 30%."
+}
+ability {
+  id: ABILITY_SAND_TITAN
+  name: "Sand Titan"
+  description: "Juggernaut + Sand Stream"
+  expanded_description: "Adds 20% of the user's Defense stat to attack calculations for contact moves. Prevents paralysis, immediately curing it if inflicted on the user. Summons a sandstorm for 8 turns (12 with Smooth Rock) on entry. Immune to sandstorm damage."
+}
