@@ -6049,3 +6049,9 @@ ability {
   name: "Slime Mold"
   description: "Sticky Hold + Gooey."
 }
+ability {
+  id: ABILITY_BUTTERFLY_WINGS
+  name: "Butterfly Wings"
+  description: "Pollinate + Giant Wings"
+  expanded_description: "The user's Normal-type moves become Bug-type. If the user is Bug-type it is immune to powder moves, otherwise it gains Bug STAB. Boosts the power of all wing, wind, and air-based moves by 30%."
+}
