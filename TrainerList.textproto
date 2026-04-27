@@ -555,7 +555,7 @@ trainer {
       species: SPECIES_KINGLER
       item: ITEM_KINGLERITE
       nature: NATURE_JOLLY
-      ability: ABILITY_HYDRATE
+      ability: ABILITY_GRIP_PINCER
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -3126,16 +3126,16 @@ trainer {
     }
     mon {
       species: SPECIES_LUXRAY_REDUX
-      item: ITEM_FLAME_ORB
+      item: ITEM_SITRUS_BERRY
       nature: NATURE_JOLLY
-      ability: ABILITY_GUTS
+      ability: ABILITY_JUNGLE_FEVER
       atk_ev: 252
       def_ev: 252
       spe_ev: 252
       move: MOVE_FLOWER_TRICK
       move: MOVE_JAGGED_FANGS
-      move: MOVE_PROTECT
-      move: MOVE_TECTONIC_FANGS
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_SEISMIC_SLAM
     }
   }
 }
