@@ -6067,3 +6067,9 @@ ability {
   description: "Moves hit twice. 1st hit at 100% power, 2nd hit at 50%."
   expanded_description: "All attacks hit twice in succession. The first hit deals 100%, while the second hit deals 50%. Each hit rolls secondary effects independently (except flinch)."
 }
+ability {
+  id: ABILITY_MEGA_SOL
+  name: "Mega Sol"
+  description: "Chloroplast + Grassy Surge"
+  expanded_description: "Moves used by the user act as if the weather is harsh sunlight. Creates Grassy Terrain for 8 turns (12 with Terrain Extender) on entry."
+}
