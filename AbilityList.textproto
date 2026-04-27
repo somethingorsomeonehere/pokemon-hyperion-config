@@ -884,7 +884,7 @@ ability {
   id: ABILITY_WONDER_SKIN
   name: "Wonder Skin"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond, Familia Bond, and Multi-Headed."
 }
 ability {
   id: ABILITY_ANALYTIC
@@ -2046,7 +2046,7 @@ ability {
   id: ABILITY_FORT_KNOX
   name: "Fort Knox"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond, Familia Bond, and Multi-Headed."
 }
 ability {
   id: ABILITY_SEAWEED
@@ -6065,7 +6065,7 @@ ability {
   id: ABILITY_FAMILIA_BOND
   name: "Familia Bond"
   description: "Moves hit twice. 1st hit at 100% power, 2nd hit at 50%."
-  expanded_description: "All attacks hit twice in succession. The first hit deals 100%, while the second hit deals 50%. Each hit rolls secondary effects independently (except flinch)."
+  expanded_description: "All attacks hit twice in succession. The first hit deals 100%, while the second hit deals 50%. Each hit rolls secondary effects independently (except flinch). Bypasses Fort Knox/Wonder Skin."
 }
 ability {
   id: ABILITY_MEGA_SOL
