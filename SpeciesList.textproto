@@ -69243,7 +69243,7 @@ species {
   ability: ABILITY_PRANKSTER
   ability: ABILITY_CLOUD_NINE
   innate: ABILITY_ADAPTABILITY
-  innate: ABILITY_AMPLIFIER
+  innate: ABILITY_FLOCK
   innate: ABILITY_PARROTING
   percent_female: 50
   tier: 2
@@ -92018,7 +92018,7 @@ species {
   spatk: 60
   spdef: 70
   spe: 15
-  ability: ABILITY_INFILTRATOR
+  ability: ABILITY_RAIN_DISH
   ability: ABILITY_MYCELIUM_MIGHT
   ability: ABILITY_ADAPTABILITY
   innate: ABILITY_REGENERATOR
@@ -184962,10 +184962,10 @@ species {
   spatk: 80
   spdef: 70
   spe: 140
-  ability: ABILITY_MOLTEN_BLADES
-  ability: ABILITY_MOLTEN_DOWN
+  ability: ABILITY_LEVITATE
+  ability: ABILITY_FULL_METAL_BODY
   ability: ABILITY_MOMENTUM
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_MOLTEN_BLADES
   innate: ABILITY_FLAME_BODY
   innate: ABILITY_SPEED_FORCE
   percent_female: 50
@@ -190641,9 +190641,9 @@ species {
   spe: 90
   ability: ABILITY_KEEN_EDGE
   ability: ABILITY_LUMBERJACK
-  ability: ABILITY_DEEP_CUTS
+  ability: ABILITY_BLOOD_PRICE
   innate: ABILITY_MONSTER_HUNTER
-  innate: ABILITY_BLOOD_PRICE
+  innate: ABILITY_DEEP_CUTS
   innate: ABILITY_CHAINSAW
   percent_female: 50
   learnset {
@@ -199928,10 +199928,6 @@ species {
       level: 51
       move: MOVE_SKY_ATTACK
       move: MOVE_TACHYON_CUTTER
-    }
-    level {
-      level: 56
-      move: MOVE_V_CREATE
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
