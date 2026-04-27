@@ -3341,10 +3341,12 @@ species {
       move: MOVE_VENOSHOCK
       move: MOVE_WRING_OUT
     }
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GUNK_SHOT
@@ -3363,9 +3365,8 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_DISABLE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
@@ -3451,11 +3452,11 @@ species {
   }
   type: TYPE_POISON
   type2: TYPE_DARK
-  hp: 90
-  atk: 105
-  def: 84
+  hp: 60
+  atk: 95
+  def: 69
   spatk: 65
-  spdef: 84
+  spdef: 69
   spe: 80
   ability: ABILITY_MERCILESS
   ability: ABILITY_AMBUSH
@@ -3464,6 +3465,10 @@ species {
   innate: ABILITY_SHED_SKIN
   innate: ABILITY_COIL_UP
   percent_female: 50
+  evo {
+    to: SPECIES_ASUDEM
+    level: 55
+  }
   learnset {
     level {
       level: 1
@@ -3517,10 +3522,12 @@ species {
       level: 61
       move: MOVE_BANEFUL_BUNKER
     }
+    tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_GASTRO_ACID
@@ -3540,9 +3547,8 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_DISABLE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
@@ -160108,7 +160114,7 @@ species {
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_PARENTAL_BOND
+  innate: ABILITY_FAMILIA_BOND
   innate: ABILITY_SCRAPPY
   innate: ABILITY_STALWART
   percent_female: 100
@@ -184309,9 +184315,9 @@ species {
   spatk: 143
   spdef: 115
   spe: 90
-  ability: ABILITY_GRASSY_SURGE
-  ability: ABILITY_GRASSY_SURGE
-  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_MEGA_SOL
+  ability: ABILITY_MEGA_SOL
+  ability: ABILITY_MEGA_SOL
   innate: ABILITY_FOREST_RAGE
   innate: ABILITY_FLOWER_NECKLACE
   innate: ABILITY_TRIAGE
@@ -185608,46 +185614,136 @@ species {
   }
 }
 species {
-  id: SPECIES_ARBOK_MEGA
-  form_of: SPECIES_ARBOK
+  id: SPECIES_ASUDEM
+  dex {
+    name: "Asudem"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1118
+    body_color: BODY_COLOR_PURPLE
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 200
+    weight: 200
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
   type: TYPE_POISON
   type2: TYPE_DARK
-  hp: 90
-  atk: 130
-  def: 94
-  spatk: 135
-  spdef: 94
-  spe: 65
+  hp: 108
+  atk: 73
+  def: 93
+  spatk: 130
+  spdef: 93
+  spe: 75
+  ability: ABILITY_MIND_CRUSH
   ability: ABILITY_PATTERN_CHANGE
-  ability: ABILITY_PETRIFY
   ability: ABILITY_NEUROTOXIN
-  innate: ABILITY_SNIPER
   innate: ABILITY_MERCILESS
+  innate: ABILITY_PETRIFY
   innate: ABILITY_SIDEWINDER
   percent_female: 50
-  mega {
-    from: SPECIES_ARBOK
-    item: ITEM_ARBOKITE
+  learnset {
+    level {
+      level: 1
+      move: MOVE_COIL
+      move: MOVE_GLARE
+      move: MOVE_POISON_FANG
+      move: MOVE_POISON_STING
+      move: MOVE_WRAP
+    }
+    level {
+      level: 17
+      move: MOVE_INFESTATION
+      move: MOVE_KARMA
+      move: MOVE_MUD_BOMB
+      move: MOVE_MUD_SHOT
+      move: MOVE_SLUDGE
+      move: MOVE_SNATCH
+      move: MOVE_SUPER_FANG
+    }
+    level {
+      level: 24
+      move: MOVE_ASSURANCE
+      move: MOVE_BRUTAL_SWING
+      move: MOVE_CRUNCH
+      move: MOVE_DRACONIC_FANGS
+      move: MOVE_SCALE_SHOT
+      move: MOVE_SCARY_FACE
+      move: MOVE_SUCKER_PUNCH
+    }
+    level {
+      level: 37
+      move: MOVE_ACID
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_JAW_LOCK
+      move: MOVE_MYSTIC_DANCE
+      move: MOVE_PAYBACK
+      move: MOVE_RECOVER
+      move: MOVE_SEPTIC_SWITCH
+    }
+    level {
+      level: 46
+      move: MOVE_BEAT_UP
+      move: MOVE_VENOSHOCK
+      move: MOVE_WRING_OUT
+    }
+    level {
+      level: 51
+      move: MOVE_RIP_AND_TEAR
+    }
+    level {
+      level: 61
+      move: MOVE_BANEFUL_BUNKER
+    }
+    tutor: MOVE_BITE
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DIG
+    tutor: MOVE_DISABLE
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAZE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_THIEF
+    tutor: MOVE_TORMENT
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TRICK
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
-      path: "arbok/mega/icon"
+      path: "arbok/asudem/icon"
     }
     front {
-      path: "arbok/mega/front"
+      path: "arbok/asudem/front"
       coords {
         size: 136
         y_offset: 1
       }
     }
     back {
-      path: "arbok/mega/back"
+      path: "arbok/asudem/back"
       coords {
         size: 136
       }
     }
-    palette: "arbok/mega/normal"
-    shiny: "arbok/mega/shiny"
+    palette: "arbok/asudem/normal"
+    shiny: "arbok/asudem/shiny"
   }
 }
 species {
@@ -214085,9 +214181,9 @@ species {
   spatk: 138
   spdef: 85
   spe: 75
-  ability: ABILITY_FLAMING_JAWS
+  ability: ABILITY_UNNERVE
   ability: ABILITY_SUN_BASKING
-  ability: ABILITY_BIG_LEAVES
+  ability: ABILITY_RITE_OF_SPRING
   innate: ABILITY_MOB_BOSS
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_GHOST_PEPPER

@@ -1174,7 +1174,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "arbokite"
   palette: "arbokite"
-  adoption_center: true
 }
 item {
   id: ITEM_CLEFABLITE_R
