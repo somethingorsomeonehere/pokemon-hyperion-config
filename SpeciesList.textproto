@@ -149560,18 +149560,18 @@ species {
     weight: 1060
   }
   type: TYPE_PSYCHIC
-  hp: 120
-  atk: 65
-  def: 65
-  spatk: 110
-  spdef: 130
-  spe: 60
-  ability: ABILITY_HEADSTRONG
-  ability: ABILITY_GLUTTONY
-  ability: ABILITY_MAGIC_BOUNCE
+  hp: 143
+  atk: 35
+  def: 75
+  spatk: 111
+  spdef: 132
+  spe: 54
+  ability: ABILITY_ENTRANCE
+  ability: ABILITY_TRICKSTER
+  ability: ABILITY_MAGIC_GUARD
   innate: ABILITY_POWER_CORE
   innate: ABILITY_THICK_FAT
-  innate: ABILITY_FUR_COAT
+  innate: ABILITY_DEVIATE
   percent_female: 50
   learnset {
     level {
@@ -153117,18 +153117,18 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_POISON
-  hp: 72
-  atk: 85
-  def: 69
-  spatk: 50
-  spdef: 48
-  spe: 52
-  ability: ABILITY_VIOLENT_RUSH
-  ability: ABILITY_ACCELERATE
-  ability: ABILITY_SCARE
+  hp: 63
+  atk: 69
+  def: 73
+  spatk: 54
+  spdef: 54
+  spe: 63
+  ability: ABILITY_NOCTURNAL
+  ability: ABILITY_MERCILESS
+  ability: ABILITY_STENCH
   innate: ABILITY_PREDATOR
-  innate: ABILITY_NOCTURNAL
-  innate: ABILITY_MOXIE
+  innate: ABILITY_FIELD_EXPLORER
+  innate: ABILITY_POISON_POINT
   percent_female: 87.5
   tier: 1
   evo {
@@ -153260,18 +153260,18 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_POISON
-  hp: 100
-  atk: 125
-  def: 85
-  spatk: 60
-  spdef: 60
-  spe: 87
+  hp: 106
+  atk: 129
+  def: 88
+  spatk: 57
+  spdef: 66
+  spe: 71
   ability: ABILITY_VIOLENT_RUSH
   ability: ABILITY_ACCELERATE
-  ability: ABILITY_TERRIFY
+  ability: ABILITY_MOXIE
   innate: ABILITY_PREDATOR
   innate: ABILITY_NOCTURNAL
-  innate: ABILITY_MOXIE
+  innate: ABILITY_POISON_POINT
   percent_female: 87.5
   learnset {
     level {
@@ -153920,18 +153920,18 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_DARK
-  hp: 86
-  atk: 160
-  def: 105
-  spatk: 75
-  spdef: 77
-  spe: 65
-  ability: ABILITY_SWIFT_SWIM
+  hp: 106
+  atk: 147
+  def: 147
+  spatk: 55
+  spdef: 65
+  spe: 48
+  ability: ABILITY_SEA_GUARDIAN
   ability: ABILITY_DAUNTLESS_SHIELD
   ability: ABILITY_ADAPTABILITY
-  innate: ABILITY_HYPER_CUTTER
+  innate: ABILITY_ROUGH_SKIN
   innate: ABILITY_SHELL_ARMOR
-  innate: ABILITY_GRIP_PINCER
+  innate: ABILITY_BULLETPROOF
   percent_female: 50
   learnset {
     level {
@@ -180896,18 +180896,18 @@ species {
   form_of: SPECIES_HYDROAR
   type: TYPE_WATER
   type2: TYPE_POISON
-  hp: 100
-  atk: 125
-  def: 85
-  spatk: 60
-  spdef: 60
-  spe: 87
+  hp: 106
+  atk: 129
+  def: 88
+  spatk: 57
+  spdef: 66
+  spe: 71
   ability: ABILITY_VIOLENT_RUSH
   ability: ABILITY_ACCELERATE
-  ability: ABILITY_TERRIFY
+  ability: ABILITY_MOXIE
   innate: ABILITY_PREDATOR
   innate: ABILITY_NOCTURNAL
-  innate: ABILITY_MOXIE
+  innate: ABILITY_POISON_POINT
   percent_female: 87.5
   uses_learnset: SPECIES_HYDROAR
   visuals {
@@ -183056,7 +183056,7 @@ species {
   spe: 75
   ability: ABILITY_RAGING_BOXER
   ability: ABILITY_ADRENALINE_RUSH
-  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_BATTLE_AURA
   innate: ABILITY_NO_GUARD
   innate: ABILITY_IRON_FIST
   innate: ABILITY_ANGER_POINT
@@ -183681,12 +183681,12 @@ species {
   type: TYPE_WATER
   type2: TYPE_STEEL
   hp: 84
-  atk: 80
-  def: 118
+  atk: 81
+  def: 111
   spatk: 136
-  spdef: 121
-  spe: 96
-  ability: ABILITY_NO_GUARD
+  spdef: 134
+  spe: 89
+  ability: ABILITY_AURORA_BOREALIS
   ability: ABILITY_COMPETITIVE
   ability: ABILITY_IMPENETRABLE
   innate: ABILITY_RIPTIDE
@@ -183816,15 +183816,15 @@ species {
   type: TYPE_NORMAL
   type2: TYPE_STEEL
   hp: 80
-  atk: 120
+  atk: 130
   def: 110
   spatk: 135
   spdef: 110
-  spe: 70
-  ability: ABILITY_STURDY
-  ability: ABILITY_FILTER
+  spe: 60
+  ability: ABILITY_COMBUSTION
+  ability: ABILITY_AERIALIST
   ability: ABILITY_SHEER_FORCE
-  innate: ABILITY_STEEL_BARREL
+  innate: ABILITY_STALL
   innate: ABILITY_IRON_BARRAGE
   innate: ABILITY_PYRO_SHELLS
   percent_female: 50
@@ -186960,7 +186960,7 @@ species {
   spatk: 95
   spdef: 160
   spe: 30
-  ability: ABILITY_RAW_WOOD
+  ability: ABILITY_CRAVING
   ability: ABILITY_FLOURISH
   ability: ABILITY_COMATOSE
   innate: ABILITY_SELF_REPAIR
@@ -187048,7 +187048,7 @@ species {
   spatk: 95
   spdef: 85
   spe: 140
-  ability: ABILITY_DEADEYE
+  ability: ABILITY_VICTORY_STAR
   ability: ABILITY_TURBOBLAZE
   ability: ABILITY_DEFIANT
   innate: ABILITY_HELLBLAZE
@@ -187299,9 +187299,9 @@ species {
   spdef: 109
   spe: 20
   ability: ABILITY_STALL
-  ability: ABILITY_SAP_SIPPER
+  ability: ABILITY_STEELY_SPIRIT
   ability: ABILITY_GROWING_TOOTH
-  innate: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_HEAVY_METAL
   innate: ABILITY_JUGGERNAUT
   innate: ABILITY_BATTLE_ARMOR
   percent_female: 50
@@ -187898,19 +187898,18 @@ species {
   id: SPECIES_SERPERIOR_MEGA
   form_of: SPECIES_SERPERIOR
   type: TYPE_GRASS
-  type2: TYPE_DRAGON
   hp: 83
-  atk: 87
-  def: 125
-  spatk: 90
-  spdef: 125
-  spe: 125
-  ability: ABILITY_SCARE
-  ability: ABILITY_DRAGONS_MAW
-  ability: ABILITY_CONTRARY
+  atk: 59
+  def: 127
+  spatk: 98
+  spdef: 127
+  spe: 141
+  ability: ABILITY_JUNGLES_GUARD
+  ability: ABILITY_MULTISCALE
+  ability: ABILITY_EGOIST
   innate: ABILITY_FOREST_RAGE
   innate: ABILITY_ROYAL_DECREE
-  innate: ABILITY_MULTISCALE
+  innate: ABILITY_TERMINAL_VELOCITY
   percent_female: 50
   mega {
     from: SPECIES_SERPERIOR
@@ -191777,11 +191776,11 @@ species {
   type: TYPE_ICE
   type2: TYPE_STEEL
   hp: 95
-  atk: 125
-  def: 135
+  atk: 124
+  def: 136
   spatk: 55
-  spdef: 75
-  spe: 85
+  spdef: 76
+  spe: 84
   ability: ABILITY_WHITEOUT
   ability: ABILITY_PERMAFROST
   ability: ABILITY_WATCH_YOUR_STEP
@@ -191916,11 +191915,11 @@ species {
   type: TYPE_DARK
   type2: TYPE_DRAGON
   hp: 92
-  atk: 115
+  atk: 114
   def: 123
-  spatk: 165
-  spdef: 90
-  spe: 115
+  spatk: 166
+  spdef: 91
+  spe: 114
   ability: ABILITY_WINGS_OF_PESTILENCE
   ability: ABILITY_WINGS_OF_PESTILENCE
   ability: ABILITY_WINGS_OF_PESTILENCE
@@ -192009,8 +192008,8 @@ species {
   type2: TYPE_STEEL
   hp: 95
   atk: 120
-  def: 90
-  spatk: 55
+  def: 80
+  spatk: 65
   spdef: 75
   spe: 90
   ability: ABILITY_COSTAR
@@ -207206,11 +207205,11 @@ species {
   spatk: 32
   spdef: 57
   spe: 53
-  ability: ABILITY_BULLETPROOF
+  ability: ABILITY_HYPER_AGGRESSIVE
   ability: ABILITY_MERCILESS
   ability: ABILITY_FIGHTER
   innate: ABILITY_SPIKE_ARMOR
-  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_BULLETPROOF
   innate: ABILITY_SHED_SKIN
   percent_female: 50
   tier: 2
@@ -207332,9 +207331,9 @@ species {
   spe: 33
   ability: ABILITY_MERCILESS
   ability: ABILITY_GRIP_PINCER
-  ability: ABILITY_RAGING_BOXER
+  ability: ABILITY_UNNERVE
   innate: ABILITY_SPIKE_ARMOR
-  innate: ABILITY_SUPER_SLAMMER
+  innate: ABILITY_HAMMER_FIST
   innate: ABILITY_SHED_SKIN
   percent_female: 50
   evo {

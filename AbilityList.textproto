@@ -5516,7 +5516,7 @@ ability {
 }
 ability {
   id: ABILITY_WINGS_OF_PESTILENCE
-  name: "Wings of Pestilence"
+  name: "Malediction"
   description: "Every attack has a 20% Bleed chance and 10% Curse chance."
 }
 ability {
