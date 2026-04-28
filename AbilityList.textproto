@@ -6073,3 +6073,9 @@ ability {
   description: "Chloroplast + Grassy Surge"
   expanded_description: "Moves used by the user act as if the weather is harsh sunlight. Creates Grassy Terrain for 8 turns (12 with Terrain Extender) on entry."
 }
+ability {
+  id: ABILITY_PETROLEUM_JELLY
+  name: "Petroleum Jelly"
+  description: "Hyper Cleanse + Liquified"
+  expanded_description: "Immune to status. Halves damage taken from Poison-type attacks and contact moves, but doubles damage taken from Water-type attacks."
+}
