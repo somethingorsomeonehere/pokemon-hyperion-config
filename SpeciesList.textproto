@@ -191754,7 +191754,7 @@ species {
   ability: ABILITY_GRASS_PELT
   innate: ABILITY_DRAGONFRUIT
   innate: ABILITY_EQUINOX
-  innate: ABILITY_MIGHTY_HORN
+  innate: ABILITY_CRIMSON_CROWN
   percent_female: 50
   mega {
     from: SPECIES_HERACREUS
@@ -213668,12 +213668,12 @@ species {
   spatk: 114
   spdef: 104
   spe: 56
-  ability: ABILITY_HYPER_CLEANSE
-  ability: ABILITY_HYPER_CLEANSE
-  ability: ABILITY_HYPER_CLEANSE
+  ability: ABILITY_PETROLEUM_JELLY
+  ability: ABILITY_PETROLEUM_JELLY
+  ability: ABILITY_PETROLEUM_JELLY
   innate: ABILITY_GOOEY
   innate: ABILITY_LIQUID_OOZE
-  innate: ABILITY_LIQUIFIED
+  innate: ABILITY_PICKUP
   percent_female: 12.5
   mega {
     from: SPECIES_SNORLAX_REDUX
