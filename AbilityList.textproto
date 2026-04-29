@@ -6079,3 +6079,9 @@ ability {
   description: "Hyper Cleanse + Liquified"
   expanded_description: "Immune to status. Halves damage taken from Poison-type attacks and contact moves, but doubles damage taken from Water-type attacks."
 }
+ability {
+  id: ABILITY_SPICY_SPRAY
+  name: "Spicy Spray"
+  description: "Taking damage from a move burns the attacker."
+  expanded_description: "When the user is hit by any damaging move, the attacker will become burned."
+}
