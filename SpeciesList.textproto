@@ -185618,7 +185618,7 @@ species {
     name: "Asudem"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1118
+    national_dex_num: 1130
     body_color: BODY_COLOR_PURPLE
     egg_group: FIELD
     egg_group_2: FIELD
