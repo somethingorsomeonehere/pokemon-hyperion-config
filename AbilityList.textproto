@@ -6091,3 +6091,9 @@ ability {
   description: "Spike Armor + Mighty Horn"
   expanded_description: "30% chance to inflict bleeding on contact moves, both when attacking and being attacked. Boosts the power of horn and drill-based attacks by 30%."
 }
+ability {
+  id: ABILITY_MANA_COAT
+  name: "Mana Coat"
+  description: "Physical attacks deal 30% more damage on Psychic Terrain."
+  expanded_description: "The user's physical attacks deal 30% increased damage while Psychic Terrain is active. Works even if the user is grounded."
+}
