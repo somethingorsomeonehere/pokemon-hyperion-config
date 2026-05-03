@@ -4892,8 +4892,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Enrages in fog, halves damage when enraged."
-  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged and it takes no damage from enrage."
+  description: "Enrages in fog, reduces damage taken by 20% when enraged."
+  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 20% when the user is enraged and it takes no damage from enrage."
 }
 ability {
   id: ABILITY_TENTALOCK
