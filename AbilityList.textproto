@@ -2380,8 +2380,8 @@ ability {
 ability {
   id: ABILITY_PYRO_SHELLS
   name: "Pyro Shells"
-  description: "Triggers 50 BP Outburst after using a Mega Launcher move."
-  expanded_description: "Pyro Shells triggers a 50 BP Normal-type Outburst after any Mega Launcher-boosted move. Outburst has no secondary effects and hits all surrounding Pokemon on the field."
+  description: "Uses 50BP Explosion or Outburst after using Mega Launcher move."
+  expanded_description: "Using a Mega Launcher move triggers a 50 BP Explosion if the move is physical or 50 BP Outburst if the move is special or status. Outburst and Explosion have no secondary effects and hit all surrounding Pokemon."
 }
 ability {
   id: ABILITY_FUNGAL_INFECTION
