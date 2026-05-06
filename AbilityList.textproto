@@ -5054,8 +5054,8 @@ ability {
 ability {
   id: ABILITY_BEST_OFFENSE
   name: "Best Offense"
-  description: "Mystic blades + use 20% of spdef during moves."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations."
+  description: "Keen Edge moves are special and use +20% Sp. Def."
+  expanded_description: "Keen Edge moves become special and use 20% of the user's Special Defense stat for attack calculations."
 }
 ability {
   id: ABILITY_IMPALER
@@ -5066,7 +5066,7 @@ ability {
 ability {
   id: ABILITY_MAGUS_BLADES
   name: "Magus Blades"
-  description: "Keen Edge moves are special, use 20% Sp. Def, hit twice for 60%."
+  description: "Best Offense + Keen Edge moves hit twice for 60%."
   expanded_description: "Keen Edge moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
