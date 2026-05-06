@@ -2380,8 +2380,8 @@ ability {
 ability {
   id: ABILITY_PYRO_SHELLS
   name: "Pyro Shells"
-  description: "Triggers 50 BP Outburst after using a Mega Launcher move."
-  expanded_description: "Pyro Shells triggers a 50 BP Normal-type Outburst after any Mega Launcher-boosted move. Outburst has no secondary effects and hits all surrounding Pokemon on the field."
+  description: "Uses 50BP Explosion or Outburst after using Mega Launcher move."
+  expanded_description: "Using a Mega Launcher move triggers a 50 BP Explosion if the move is physical or 50 BP Outburst if the move is special or status. Outburst and Explosion have no secondary effects and hit all surrounding Pokemon."
 }
 ability {
   id: ABILITY_FUNGAL_INFECTION
@@ -4892,8 +4892,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Enrages in fog, halves damage when enraged."
-  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged and it takes no damage from enrage."
+  description: "Enrages in fog, reduces damage taken by 20% when enraged."
+  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 20% when the user is enraged and it takes no damage from enrage."
 }
 ability {
   id: ABILITY_TENTALOCK
@@ -5054,8 +5054,8 @@ ability {
 ability {
   id: ABILITY_BEST_OFFENSE
   name: "Best Offense"
-  description: "Mystic blades + use 20% of spdef during moves."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations."
+  description: "Keen Edge moves are special and use +20% Sp. Def."
+  expanded_description: "Keen Edge moves become special and use 20% of the user's Special Defense stat for attack calculations."
 }
 ability {
   id: ABILITY_IMPALER
@@ -5066,8 +5066,8 @@ ability {
 ability {
   id: ABILITY_MAGUS_BLADES
   name: "Magus Blades"
-  description: "Dual Wield + Best Offense."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations. Also, Keen Edge moves hit twice, dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
+  description: "Best Offense + Keen Edge moves hit twice for 60%."
+  expanded_description: "Keen Edge moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
   id: ABILITY_LIGHTNING_BORN

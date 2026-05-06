@@ -17446,6 +17446,8 @@ moves {
   power: 40
   accuracy: 100
   pp: 20
+  effect_chance: 10
+  priority: 1
   mirror_move_affected: true
   throwing: true
   uses_animation: MOVE_SAND_ATTACK
