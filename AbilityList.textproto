@@ -5066,8 +5066,8 @@ ability {
 ability {
   id: ABILITY_MAGUS_BLADES
   name: "Magus Blades"
-  description: "Dual Wield + Best Offense."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations. Also, Keen Edge moves hit twice, dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
+  description: "Keen Edge moves are special, use 20% Sp. Def, hit twice for 60%."
+  expanded_description: "Keen Edge moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
   id: ABILITY_LIGHTNING_BORN
