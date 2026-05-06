@@ -11503,13 +11503,78 @@ trainer {
   }
   hell {
     mon {
-      species: SPECIES_BULBASAUR
-      nature: NATURE_IMPISH
-      ability: ABILITY_CHLOROPLAST
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
+      species: SPECIES_RAICHU
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_TIMID
+      ability: ABILITY_GENERATOR
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_FAKE_OUT
+      move: MOVE_EARTH_POWER
+      move: MOVE_THUNDERBOLT
+      move: MOVE_FOCUS_BLAST
+    }
+    mon {
+      species: SPECIES_LANTURN
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_DAZZLING
+      hp_ev: 252
+      def_ev: 64
+      spatk_ev: 192
+      move: MOVE_ICE_BEAM
+      move: MOVE_THUNDERBOLT
+      move: MOVE_WHIRLPOOL
+      move: MOVE_SCALD
+    }
+    mon {
+      species: SPECIES_VICTREEBEL
+      item: ITEM_LIFE_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_ARENA_TRAP
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_LEAF_BLADE
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_POISON_JAB
+    }
+    mon {
+      species: SPECIES_JUMPLUFF
+      item: ITEM_SWIRLY_GLASSES
+      nature: NATURE_JOLLY
+      ability: ABILITY_WIND_RIDER
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_ENERGY_BALL
+      move: MOVE_MOONBLAST
+      move: MOVE_AIR_SLASH
+      move: MOVE_TAKE_FLIGHT
+    }
+    mon {
+      species: SPECIES_TROPIUS
+      item: ITEM_EVIOLITE
+      nature: NATURE_TIMID
+      ability: ABILITY_AIR_BLOWER
+      move: MOVE_EARTH_POWER
+      move: MOVE_SOLAR_BEAM
+      move: MOVE_AIR_SLASH
+      move: MOVE_DRAGON_PULSE
+    }
+    mon {
+      species: SPECIES_MOTHIM
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_PROTEAN
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_VICTORY_DANCE
+      move: MOVE_RAZOR_LEAF
+      move: MOVE_LEECH_LIFE
+      move: MOVE_ZEPHYR_RUSH
     }
   }
 }
@@ -65980,6 +66045,8 @@ trainer {
       move: MOVE_AQUA_JET
       move: MOVE_DOUBLE_SLAP
       move: MOVE_FLIP_TURN
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_FIRE
     }
     mon {
       species: SPECIES_GRAPPLOCT
@@ -69101,6 +69168,99 @@ trainer {
       hidden_power_type: TYPE_FIRE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_ZUBAT
+      item: ITEM_SHARP_BEAK
+      nature: NATURE_JOLLY
+      ability: ABILITY_INFILTRATOR
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_FIRE_FANG
+      move: MOVE_TAKE_FLIGHT
+      move: MOVE_POISON_FANG
+      move: MOVE_DUAL_WINGBEAT
+    }
+    mon {
+      species: SPECIES_FRIGIBAX
+      item: ITEM_NEVER_MELT_ICE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_MOUNTAINEER
+      hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_AERIAL_ACE
+    }
+    mon {
+      species: SPECIES_TREECKO
+      item: ITEM_FLYING_GEM
+      nature: NATURE_ADAMANT
+      ability: ABILITY_UNBURDEN
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_SEED_BOMB
+      move: MOVE_ACROBATICS
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_ROCK
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_EEVEE_PARTNER
+      item: ITEM_LEFTOVERS
+      nature: NATURE_JOLLY
+      ability: ABILITY_PRANKSTER
+      hp_ev: 252
+      spe_ev: 252
+      move: MOVE_BOUNCY_BUBBLE
+      move: MOVE_VEEVEE_VOLLEY
+      move: MOVE_SAPPY_SEED
+      move: MOVE_SIZZLY_SLIDE
+    }
+    mon {
+      species: SPECIES_CROCONAW
+      item: ITEM_LIFE_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_PREDATOR
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_CRUNCH
+      move: MOVE_AQUA_FANG
+      move: MOVE_AGILITY
+      move: MOVE_SWORDS_DANCE
+    }
+    mon {
+      species: SPECIES_HOUNDOUR
+      item: ITEM_LIFE_ORB
+      nature: NATURE_TIMID
+      ability: ABILITY_SCARE
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SLUDGE
+      move: MOVE_OVERHEAT
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_SMOKESCREEN
+    }
+    mon {
+      species: SPECIES_GROVYLE
+      item: ITEM_WEAKNESS_POLICY
+      nature: NATURE_NAUGHTY
+      ability: ABILITY_KEEN_EDGE
+      atk_ev: 252
+      spatk_ev: 4
+      spe_ev: 252
+      move: MOVE_LEECH_BLADE
+      move: MOVE_RAZOR_WIND
+      move: MOVE_ACROBATICS
+      move: MOVE_SHARPEN
+    }
+  }
 }
 trainer {
   id: TRAINER_BRENDAN_ROUTE_110_MUDKIP
@@ -69455,13 +69615,13 @@ trainer {
     mon {
       species: SPECIES_TORCHIC
       item: ITEM_FIRE_GEM
-      nature: NATURE_HASTY
+      nature: NATURE_NAIVE
       ability: ABILITY_FLOCK
       atk_ev: 252
       spatk_ev: 4
       spe_ev: 252
       move: MOVE_FIRE_BLAST
-      move: MOVE_WING_ATTACK
+      move: MOVE_FEATHER_DANCE
       move: MOVE_QUICK_ATTACK
       move: MOVE_ENDURE
     }
@@ -69478,6 +69638,99 @@ trainer {
       move: MOVE_PROTECT
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_FIRE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_ZUBAT
+      item: ITEM_SHARP_BEAK
+      nature: NATURE_JOLLY
+      ability: ABILITY_INFILTRATOR
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_FIRE_FANG
+      move: MOVE_TAKE_FLIGHT
+      move: MOVE_POISON_FANG
+      move: MOVE_DUAL_WINGBEAT
+    }
+    mon {
+      species: SPECIES_FRIGIBAX
+      item: ITEM_NEVER_MELT_ICE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_MOUNTAINEER
+      hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_AERIAL_ACE
+    }
+    mon {
+      species: SPECIES_TORCHIC
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_SPEED_BOOST
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_FLAME_BURST
+      move: MOVE_TEMPER_FLARE
+      move: MOVE_WING_ATTACK
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_EEVEE_PARTNER
+      item: ITEM_LEFTOVERS
+      nature: NATURE_JOLLY
+      ability: ABILITY_UNAWARE
+      hp_ev: 252
+      spe_ev: 252
+      move: MOVE_BOUNCY_BUBBLE
+      move: MOVE_VEEVEE_VOLLEY
+      move: MOVE_SAPPY_SEED
+      move: MOVE_SIZZLY_SLIDE
+    }
+    mon {
+      species: SPECIES_BAYLEEF
+      item: ITEM_LEFTOVERS
+      nature: NATURE_IMPISH
+      ability: ABILITY_GRASSY_SURGE
+      hp_ev: 252
+      def_ev: 128
+      spdef_ev: 128
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_PROTECT
+      move: MOVE_LIGHT_SCREEN
+      move: MOVE_LEECH_SEED
+    }
+    mon {
+      species: SPECIES_COMBUSKEN
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_IRON_FIST
+      atk_ev: 252
+      def_ev: 172
+      spe_ev: 80
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_WING_ATTACK
+      move: MOVE_FRUSTRATION
+      move: MOVE_BLAZE_KICK
+    }
+    mon {
+      species: SPECIES_WOOPER
+      item: ITEM_LEFTOVERS
+      nature: NATURE_IMPISH
+      ability: ABILITY_UNAWARE
+      hp_ev: 252
+      def_ev: 4
+      spdef_ev: 252
+      move: MOVE_ACID_SPRAY
+      move: MOVE_TOXIC
+      move: MOVE_RECOVER
+      move: MOVE_SLAM
     }
   }
 }
@@ -69856,6 +70109,101 @@ trainer {
       move: MOVE_WATER_PULSE
       move: MOVE_PROTECT
       hidden_power_type: TYPE_FIRE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_ZUBAT
+      item: ITEM_SHARP_BEAK
+      nature: NATURE_JOLLY
+      ability: ABILITY_INFILTRATOR
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_FIRE_FANG
+      move: MOVE_TAKE_FLIGHT
+      move: MOVE_POISON_FANG
+      move: MOVE_DUAL_WINGBEAT
+    }
+    mon {
+      species: SPECIES_FRIGIBAX
+      item: ITEM_NEVER_MELT_ICE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_MOUNTAINEER
+      hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_AERIAL_ACE
+    }
+    mon {
+      species: SPECIES_MUDKIP
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_REGENERATOR
+      hp_ev: 252
+      atk_ev: 188
+      def_ev: 68
+      move: MOVE_DIG
+      move: MOVE_SECRET_POWER
+      move: MOVE_FLIP_TURN
+      move: MOVE_WATERFALL
+      hidden_power_type: TYPE_ICE
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_NUZLEAF
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_DEFIANT
+      hp_ev: 252
+      atk_ev: 68
+      spe_ev: 188
+      move: MOVE_SECRET_POWER
+      move: MOVE_ACROBATICS
+      move: MOVE_GRASS_WHISTLE
+      move: MOVE_PARTING_SHOT
+      hidden_power_type: TYPE_GROUND
+    }
+    mon {
+      species: SPECIES_QUILAVA
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_TIMID
+      ability: ABILITY_EARTHBOUND
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SWIFT
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_EMBER
+      move: MOVE_EARTH_POWER
+    }
+    mon {
+      species: SPECIES_MARSHTOMP
+      item: ITEM_LEFTOVERS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_STAMINA
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_WATERFALL
+      move: MOVE_EARTHQUAKE
+      move: MOVE_BULK_UP
+      move: MOVE_ICE_PUNCH
+    }
+    mon {
+      species: SPECIES_EEVEE_PARTNER
+      item: ITEM_LEFTOVERS
+      nature: NATURE_JOLLY
+      ability: ABILITY_UNAWARE
+      hp_ev: 252
+      spe_ev: 252
+      move: MOVE_BOUNCY_BUBBLE
+      move: MOVE_VEEVEE_VOLLEY
+      move: MOVE_SAPPY_SEED
+      move: MOVE_SIZZLY_SLIDE
     }
   }
 }
@@ -70237,6 +70585,102 @@ trainer {
       hidden_power_type: TYPE_FIRE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_TOGEPI
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_CUTE_CHARM
+      hp_ev: 252
+      def_ev: 160
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_HIDDEN_POWER
+      move: MOVE_YAWN
+      move: MOVE_DRAINING_KISS
+      hidden_power_type: TYPE_FIRE
+    }
+    mon {
+      species: SPECIES_DRATINI
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_JOLLY
+      ability: ABILITY_REGENERATOR
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_TAIL
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_BREAKING_SWIPE
+      move: MOVE_TAKE_FLIGHT
+    }
+    mon {
+      species: SPECIES_TREECKO
+      item: ITEM_FLYING_GEM
+      nature: NATURE_ADAMANT
+      ability: ABILITY_UNBURDEN
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_SEED_BOMB
+      move: MOVE_ACROBATICS
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_ROCK
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_GROVYLE
+      item: ITEM_CHOICE_SCARF
+      nature: NATURE_JOLLY
+      ability: ABILITY_KEEN_EDGE
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_SHED_TAIL
+      move: MOVE_AERIAL_ACE
+      move: MOVE_LEECH_BLADE
+      move: MOVE_FLUTTERING_LEAF
+    }
+    mon {
+      species: SPECIES_PONYTA
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_JOLLY
+      ability: ABILITY_RECKLESS
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_SUPERCELL_SLAM
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_BLAZE_KICK
+      move: MOVE_HIGH_HORSEPOWER
+    }
+    mon {
+      species: SPECIES_PIKACHU_PARTNER
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_NAIVE
+      ability: ABILITY_ELECTRIC_BURST
+      atk_ev: 100
+      spatk_ev: 156
+      spe_ev: 252
+      move: MOVE_SURF
+      move: MOVE_TRUMP_CARD
+      move: MOVE_VOLT_TACKLE
+      move: MOVE_FLY
+    }
+    mon {
+      species: SPECIES_CROCONAW
+      item: ITEM_CHOICE_BAND
+      nature: NATURE_JOLLY
+      ability: ABILITY_VIOLENT_RUSH
+      atk_ev: 244
+      def_ev: 12
+      spe_ev: 252
+      move: MOVE_DEATHROLL
+      move: MOVE_ICE_FANG
+      move: MOVE_RAGE
+      move: MOVE_FLIP_TURN
+    }
+  }
 }
 trainer {
   id: TRAINER_MAY_ROUTE_110_MUDKIP
@@ -70610,6 +71054,103 @@ trainer {
       hidden_power_type: TYPE_FIRE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_TOGEPI
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_CUTE_CHARM
+      hp_ev: 252
+      def_ev: 160
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_YAWN
+      move: MOVE_DRAINING_KISS
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_FIRE
+    }
+    mon {
+      species: SPECIES_DRATINI
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_JOLLY
+      ability: ABILITY_REGENERATOR
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_TAIL
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_BREAKING_SWIPE
+      move: MOVE_TAKE_FLIGHT
+    }
+    mon {
+      species: SPECIES_TORCHIC
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_SPEED_BOOST
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_WING_ATTACK
+      move: MOVE_FLAME_BURST
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_TEMPER_FLARE
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_COMBUSKEN
+      item: ITEM_RED_CARD
+      nature: NATURE_JOLLY
+      ability: ABILITY_SPEED_BOOST
+      hp_ev: 180
+      atk_ev: 252
+      spe_ev: 76
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_FIRE_SPIN
+      move: MOVE_WING_ATTACK
+      move: MOVE_DETECT
+    }
+    mon {
+      species: SPECIES_POLIWHIRL
+      item: ITEM_LEFTOVERS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_DAMP
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_SLEEP_TALK
+      move: MOVE_SMELLING_SALTS
+      move: MOVE_REST
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_ELECTRIC
+    }
+    mon {
+      species: SPECIES_PIKACHU_PARTNER
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_NAIVE
+      ability: ABILITY_ELECTRIC_BURST
+      atk_ev: 100
+      spatk_ev: 156
+      spe_ev: 252
+      move: MOVE_SURF
+      move: MOVE_TRUMP_CARD
+      move: MOVE_VOLT_TACKLE
+      move: MOVE_FLY
+    }
+    mon {
+      species: SPECIES_BAYLEEF
+      item: ITEM_LEFTOVERS
+      nature: NATURE_BOLD
+      ability: ABILITY_REGENERATOR
+      hp_ev: 252
+      def_ev: 128
+      spdef_ev: 128
+      move: MOVE_SYNTHESIS
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_POISON_POWDER
+      move: MOVE_LEECH_SEED
+    }
+  }
 }
 trainer {
   id: TRAINER_MAY_ROUTE_110_TREECKO
@@ -70981,6 +71522,102 @@ trainer {
       move: MOVE_WATER_PULSE
       move: MOVE_PROTECT
       hidden_power_type: TYPE_FIRE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_TOGEPI
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_CUTE_CHARM
+      hp_ev: 252
+      def_ev: 160
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_YAWN
+      move: MOVE_DRAINING_KISS
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_FIRE
+    }
+    mon {
+      species: SPECIES_DRATINI
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_JOLLY
+      ability: ABILITY_REGENERATOR
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_AQUA_TAIL
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_BREAKING_SWIPE
+      move: MOVE_TAKE_FLIGHT
+    }
+    mon {
+      species: SPECIES_MUDKIP
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_REGENERATOR
+      hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_DIG
+      move: MOVE_FLIP_TURN
+      move: MOVE_WATERFALL
+    }
+  }
+  hell {
+    mon {
+      species: SPECIES_PIKACHU_PARTNER
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_NAIVE
+      ability: ABILITY_ELECTRIC_BURST
+      atk_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SURF
+      move: MOVE_TRUMP_CARD
+      move: MOVE_SECRET_POWER
+      move: MOVE_PIKA_PAPOW
+      hidden_power_type: TYPE_FLYING
+    }
+    mon {
+      species: SPECIES_QUILAVA
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_TIMID
+      ability: ABILITY_EARTHBOUND
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_SWIFT
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_EMBER
+      move: MOVE_EARTH_POWER
+    }
+    mon {
+      species: SPECIES_MARSHTOMP
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_STAMINA
+      hp_ev: 252
+      atk_ev: 80
+      spdef_ev: 176
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_TORRENT_FIST
+      move: MOVE_MIRROR_COAT
+      move: MOVE_AVALANCHE
+    }
+    mon {
+      species: SPECIES_GLOOM
+      item: ITEM_BLACK_SLUDGE
+      nature: NATURE_BOLD
+      ability: ABILITY_GRASSY_SURGE
+      hp_ev: 252
+      def_ev: 176
+      spdef_ev: 80
+      move: MOVE_ACID
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_TOXIC
+      move: MOVE_FLUTTERING_LEAF
     }
   }
 }
@@ -78374,30 +79011,17 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
-    }
-    mon {
-      species: SPECIES_HYDROAR
-      item: ITEM_LIFE_ORB
+      species: SPECIES_GOLBAT
+      item: ITEM_EVIOLITE
       nature: NATURE_JOLLY
-      ability: ABILITY_VIOLENT_RUSH
+      ability: ABILITY_MOUNTAINEER
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_TOXIC_PLUNGE
-      move: MOVE_DIVE
-      move: MOVE_POISON_STING
-      move: MOVE_CHEAP_SHOT
+      move: MOVE_FIRE_FANG
+      move: MOVE_MEAN_LOOK
+      move: MOVE_AERIAL_ACE
+      move: MOVE_CROSS_POISON
     }
     mon {
       species: SPECIES_COMBUSKEN
@@ -78408,48 +79032,48 @@ trainer {
       spdef_ev: 4
       spe_ev: 252
       move: MOVE_CRUSH_CLAW
-      move: MOVE_AGILITY
+      move: MOVE_SWORDS_DANCE
       move: MOVE_BLAZE_KICK
       move: MOVE_DOUBLE_KICK
     }
     mon {
-      species: SPECIES_SLIGGOO_HISUIAN
+      species: SPECIES_CRAWDAUNT
       item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
+      nature: NATURE_ADAMANT
+      ability: ABILITY_ADAPTABILITY
       hp_ev: 252
+      atk_ev: 252
       def_ev: 4
-      spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_FLASH_CANNON
-      move: MOVE_MUDDY_WATER
-      move: MOVE_BODY_PRESS
+      move: MOVE_CRABHAMMER
+      move: MOVE_AQUA_JET
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_KNOCK_OFF
     }
     mon {
-      species: SPECIES_GROTLE_REDUX
-      item: ITEM_EVIOLITE
+      species: SPECIES_LUXIO_REDUX
+      item: ITEM_FLAME_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_FERTILIZE
-      hp_ev: 252
-      atk_ev: 252
-      spe_ev: 4
-      move: MOVE_HEADBUTT
-      move: MOVE_PLAY_ROUGH
-      move: MOVE_RAZOR_LEAF
-      move: MOVE_TAKE_FLIGHT
-    }
-    mon {
-      species: SPECIES_DOUBLADE
-      item: ITEM_EVIOLITE
-      nature: NATURE_BRAVE
-      ability: ABILITY_HYPER_CUTTER
-      hp_ev: 252
+      ability: ABILITY_QUICK_FEET
       atk_ev: 252
       def_ev: 4
-      move: MOVE_SHADOW_CLAW
-      move: MOVE_GYRO_BALL
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SHADOW_SNEAK
+      spe_ev: 252
+      move: MOVE_PLUCK
+      move: MOVE_PROTECT
+      move: MOVE_HYPER_FANG
+      move: MOVE_FERTILE_FANGS
+    }
+    mon {
+      species: SPECIES_ARCTIBAX
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_KEEN_EDGE
+      hp_ev: 252
+      atk_ev: 192
+      spe_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_SLASH
+      move: MOVE_DRAGON_CLAW
     }
   }
 }
@@ -78533,82 +79157,70 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
-    }
-    mon {
-      species: SPECIES_ARCANINE
-      item: ITEM_SHELL_BELL
-      nature: NATURE_ADAMANT
-      ability: ABILITY_DISCIPLINE
+      species: SPECIES_GOLBAT
+      item: ITEM_EVIOLITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_MOUNTAINEER
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_RAGING_FURY
-      move: MOVE_OUTRAGE
-      move: MOVE_THRASH
-      move: MOVE_DOUBLE_KICK
+      move: MOVE_FIRE_FANG
+      move: MOVE_MEAN_LOOK
+      move: MOVE_AERIAL_ACE
+      move: MOVE_CROSS_POISON
     }
     mon {
       species: SPECIES_GROVYLE
-      item: ITEM_MUSCLE_BAND
+      item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_UNBURDEN
-      hp_ev: 4
+      ability: ABILITY_KEEN_EDGE
       atk_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_LEECH_BLADE
       move: MOVE_DRAGON_CLAW
-      move: MOVE_X_SCISSOR
+      move: MOVE_AERIAL_ACE
+      move: MOVE_LEAF_BLADE
       move: MOVE_SHARPEN
     }
     mon {
-      species: SPECIES_SLIGGOO_HISUIAN
-      item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
-      hp_ev: 252
+      species: SPECIES_CHARCADET
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_COMPETITIVE
       def_ev: 4
       spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_FLASH_CANNON
-      move: MOVE_MUDDY_WATER
-      move: MOVE_BODY_PRESS
-    }
-    mon {
-      species: SPECIES_MONFERNO_REDUX
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_BLITZ_BOXER
-      hp_ev: 4
-      atk_ev: 252
       spe_ev: 252
-      move: MOVE_TORRENT_FIST
-      move: MOVE_POWER_UP_PUNCH
-      move: MOVE_ICE_PUNCH
-      move: MOVE_FLIP_TURN
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_FIRE_BLAST
+      move: MOVE_SMOG
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_PSYCHIC
     }
     mon {
-      species: SPECIES_DOUBLADE
+      species: SPECIES_LAIRON_REDUX
       item: ITEM_EVIOLITE
-      nature: NATURE_BRAVE
-      ability: ABILITY_HYPER_CUTTER
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SHELL_ARMOR
       hp_ev: 252
-      atk_ev: 252
-      def_ev: 4
-      move: MOVE_SHADOW_CLAW
-      move: MOVE_GYRO_BALL
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SHADOW_SNEAK
+      atk_ev: 224
+      def_ev: 32
+      move: MOVE_WAVE_CRASH
+      move: MOVE_LEECH_SEED
+      move: MOVE_STONE_EDGE
+      move: MOVE_RAGE
+    }
+    mon {
+      species: SPECIES_ARCTIBAX
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_KEEN_EDGE
+      hp_ev: 252
+      atk_ev: 192
+      spe_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_SLASH
+      move: MOVE_DRAGON_CLAW
     }
   }
 }
@@ -79356,82 +79968,70 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
-    }
-    mon {
-      species: SPECIES_BRELOOM
-      item: ITEM_TOXIC_ORB
-      nature: NATURE_ADAMANT
-      ability: ABILITY_POISON_HEAL
+      species: SPECIES_GOLBAT
+      item: ITEM_EVIOLITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_MOUNTAINEER
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_BULLET_SEED
-      move: MOVE_POISON_JAB
-      move: MOVE_ARM_THRUST
-      move: MOVE_PROTECT
+      move: MOVE_FIRE_FANG
+      move: MOVE_MEAN_LOOK
+      move: MOVE_AERIAL_ACE
+      move: MOVE_CROSS_POISON
     }
     mon {
       species: SPECIES_MARSHTOMP
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_STAMINA
+      ability: ABILITY_FIELD_EXPLORER
       hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_YAWN
+      move: MOVE_SECRET_POWER
+      move: MOVE_WATERFALL
+      move: MOVE_DIG
+      hidden_power_type: TYPE_ICE
+    }
+    mon {
+      species: SPECIES_VANILLISH_REDUX
+      item: ITEM_CHOICE_BAND
+      nature: NATURE_JOLLY
+      ability: ABILITY_CRUST_COAT
       atk_ev: 252
       def_ev: 4
-      move: MOVE_TORRENT_FIST
-      move: MOVE_STOMPING_TANTRUM
-      move: MOVE_ROCK_SLIDE
-      move: MOVE_ICE_PUNCH
-    }
-    mon {
-      species: SPECIES_SLIGGOO_HISUIAN
-      item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
-      hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_FLASH_CANNON
-      move: MOVE_MUDDY_WATER
-      move: MOVE_BODY_PRESS
-    }
-    mon {
-      species: SPECIES_PRINPLUP_REDUX
-      item: ITEM_EVIOLITE
-      nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
-      hp_ev: 4
-      spatk_ev: 252
       spe_ev: 252
-      move: MOVE_ICE_BEAM
-      move: MOVE_FLAMETHROWER
-      move: MOVE_AIR_SLASH
-      move: MOVE_SCALD
+      move: MOVE_MOUNTAIN_GALE
+      move: MOVE_BLAZING_TORQUE
+      move: MOVE_HEAD_SMASH
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_WATER
     }
     mon {
-      species: SPECIES_DOUBLADE
-      item: ITEM_EVIOLITE
-      nature: NATURE_BRAVE
-      ability: ABILITY_HYPER_CUTTER
-      hp_ev: 252
+      species: SPECIES_CACTURNE
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_ADAMANT
+      ability: ABILITY_SCARE
       atk_ev: 252
-      def_ev: 4
-      move: MOVE_SHADOW_CLAW
-      move: MOVE_GYRO_BALL
-      move: MOVE_BRICK_BREAK
-      move: MOVE_SHADOW_SNEAK
+      spe_ev: 252
+      move: MOVE_KNOCK_OFF
+      move: MOVE_SUCKER_PUNCH
+      move: MOVE_NEEDLE_ARM
+      move: MOVE_FELL_STINGER
+    }
+    mon {
+      species: SPECIES_ARCTIBAX
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_KEEN_EDGE
+      hp_ev: 252
+      atk_ev: 192
+      spe_ev: 64
+      move: MOVE_FROST_BRAND
+      move: MOVE_ICE_SHARD
+      move: MOVE_SLASH
+      move: MOVE_DRAGON_CLAW
     }
   }
 }
@@ -79514,82 +80114,69 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
+      species: SPECIES_TOGETIC
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_REGENERATOR
+      hp_ev: 252
+      def_ev: 96
+      spatk_ev: 64
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_AIR_SLASH
+      move: MOVE_TAKE_FLIGHT
+      move: MOVE_DRAINING_KISS
     }
     mon {
-      species: SPECIES_RAPIDASH
-      item: ITEM_LIFE_ORB
+      species: SPECIES_COMBUSKEN
+      item: ITEM_EVIOLITE
       nature: NATURE_JOLLY
-      ability: ABILITY_DEADLY_PRECISION
+      ability: ABILITY_SPEED_BOOST
       atk_ev: 252
-      def_ev: 4
+      spdef_ev: 4
       spe_ev: 252
+      move: MOVE_CRUSH_CLAW
+      move: MOVE_SWORDS_DANCE
       move: MOVE_BLAZE_KICK
-      move: MOVE_WILD_CHARGE
-      move: MOVE_HIGH_HORSEPOWER
-      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_DOUBLE_KICK
     }
     mon {
-      species: SPECIES_GROVYLE
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_UNBURDEN
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_BULLET_SEED
-      move: MOVE_BREAKING_SWIPE
-      move: MOVE_AERIAL_ACE
-      move: MOVE_FLUTTERING_LEAF
-    }
-    mon {
-      species: SPECIES_SLIGGOO
+      species: SPECIES_SEALEO
       item: ITEM_EVIOLITE
       nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
+      ability: ABILITY_TORRENT
       hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_SLUDGE_BOMB
-      move: MOVE_MUDDY_WATER
-      move: MOVE_ENERGY_BALL
+      def_ev: 64
+      spatk_ev: 192
+      move: MOVE_SURF
+      move: MOVE_FREEZE_DRY
+      move: MOVE_ICE_BEAM
+      move: MOVE_LIFE_DEW
     }
     mon {
-      species: SPECIES_MONFERNO_REDUX
-      item: ITEM_FOCUS_SASH
+      species: SPECIES_LUXIO_REDUX
+      item: ITEM_FLAME_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_BLITZ_BOXER
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_TORRENT_FIST
-      move: MOVE_POWER_UP_PUNCH
-      move: MOVE_ICE_PUNCH
-      move: MOVE_FLIP_TURN
-    }
-    mon {
-      species: SPECIES_GOLETT
-      item: ITEM_EVIOLITE
-      nature: NATURE_ADAMANT
-      ability: ABILITY_SHADOW_SHIELD
-      hp_ev: 252
+      ability: ABILITY_QUICK_FEET
       atk_ev: 252
       def_ev: 4
-      move: MOVE_SHADOW_PUNCH
-      move: MOVE_STOMPING_TANTRUM
-      move: MOVE_DOUBLE_LARIAT
-      move: MOVE_MEGA_PUNCH
+      spe_ev: 252
+      move: MOVE_PLUCK
+      move: MOVE_PROTECT
+      move: MOVE_HYPER_FANG
+      move: MOVE_FERTILE_FANGS
+    }
+    mon {
+      species: SPECIES_DRAGONAIR
+      item: ITEM_EJECT_PACK
+      nature: NATURE_TIMID
+      ability: ABILITY_WEATHER_CONTROL
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_FLAMETHROWER
+      move: MOVE_DRACO_METEOR
+      move: MOVE_ICE_BEAM
+      move: MOVE_THUNDERBOLT
     }
   }
 }
@@ -105553,82 +106140,70 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
-    }
-    mon {
-      species: SPECIES_STARMIE
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_TIMID
-      ability: ABILITY_STORM_DRAIN
-      hp_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_WATER_SHURIKEN
-      move: MOVE_ICE_BEAM
-      move: MOVE_DIAMOND_STORM
-      move: MOVE_PSYCHIC
-    }
-    mon {
-      species: SPECIES_COMBUSKEN
+      species: SPECIES_TOGETIC
       item: ITEM_EVIOLITE
-      nature: NATURE_JOLLY
-      ability: ABILITY_SPEED_BOOST
-      atk_ev: 252
-      spdef_ev: 4
-      spe_ev: 252
-      move: MOVE_CRUSH_CLAW
-      move: MOVE_AGILITY
-      move: MOVE_BLAZE_KICK
-      move: MOVE_DOUBLE_KICK
-    }
-    mon {
-      species: SPECIES_SLIGGOO
-      item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
+      nature: NATURE_BOLD
+      ability: ABILITY_REGENERATOR
       hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_SLUDGE_BOMB
-      move: MOVE_MUDDY_WATER
-      move: MOVE_ENERGY_BALL
-    }
-    mon {
-      species: SPECIES_GROTLE_REDUX
-      item: ITEM_EVIOLITE
-      nature: NATURE_JOLLY
-      ability: ABILITY_FERTILIZE
-      hp_ev: 252
-      atk_ev: 252
-      spe_ev: 4
-      move: MOVE_HEADBUTT
-      move: MOVE_PLAY_ROUGH
-      move: MOVE_RAZOR_LEAF
+      def_ev: 96
+      spatk_ev: 64
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_AIR_SLASH
       move: MOVE_TAKE_FLIGHT
+      move: MOVE_DRAINING_KISS
     }
     mon {
-      species: SPECIES_GOLETT
+      species: SPECIES_GROVYLE
+      item: ITEM_LIFE_ORB
+      nature: NATURE_JOLLY
+      ability: ABILITY_KEEN_EDGE
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_DRAGON_CLAW
+      move: MOVE_AERIAL_ACE
+      move: MOVE_LEAF_BLADE
+      move: MOVE_SHARPEN
+    }
+    mon {
+      species: SPECIES_CHARCADET
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_DEFIANT
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_FIRE_PLEDGE
+      move: MOVE_FLAME_CHARGE
+      move: MOVE_SECRET_POWER
+      move: MOVE_ZEN_HEADBUTT
+      hidden_power_type: TYPE_GHOST
+    }
+    mon {
+      species: SPECIES_LAIRON_REDUX
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_SHADOW_SHIELD
+      ability: ABILITY_SHELL_ARMOR
       hp_ev: 252
-      atk_ev: 252
-      def_ev: 4
-      move: MOVE_SHADOW_PUNCH
-      move: MOVE_STOMPING_TANTRUM
-      move: MOVE_DOUBLE_LARIAT
-      move: MOVE_MEGA_PUNCH
+      atk_ev: 224
+      def_ev: 32
+      move: MOVE_WAVE_CRASH
+      move: MOVE_LEECH_SEED
+      move: MOVE_STONE_EDGE
+      move: MOVE_RAGE
+    }
+    mon {
+      species: SPECIES_DRAGONAIR
+      item: ITEM_EJECT_PACK
+      nature: NATURE_TIMID
+      ability: ABILITY_WEATHER_CONTROL
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_FLAMETHROWER
+      move: MOVE_DRACO_METEOR
+      move: MOVE_ICE_BEAM
+      move: MOVE_THUNDERBOLT
     }
   }
 }
@@ -105711,82 +106286,69 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_SWELLOW
-      item: ITEM_FLAME_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_DETERMINATION
-      def_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_BOOMBURST
-      move: MOVE_PROTECT
-      move: MOVE_HEAT_WAVE
-      move: MOVE_HURRICANE
-    }
-    mon {
-      species: SPECIES_TSAREENA
-      item: ITEM_LIFE_ORB
-      nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
-      atk_ev: 252
-      spdef_ev: 4
-      spe_ev: 252
-      move: MOVE_TROP_KICK
-      move: MOVE_KNOCK_OFF
-      move: MOVE_HIGH_JUMP_KICK
-      move: MOVE_TRIPLE_AXEL
+      species: SPECIES_TOGETIC
+      item: ITEM_EVIOLITE
+      nature: NATURE_BOLD
+      ability: ABILITY_REGENERATOR
+      hp_ev: 252
+      def_ev: 96
+      spatk_ev: 64
+      spdef_ev: 96
+      move: MOVE_ENCORE
+      move: MOVE_AIR_SLASH
+      move: MOVE_TAKE_FLIGHT
+      move: MOVE_DRAINING_KISS
     }
     mon {
       species: SPECIES_MARSHTOMP
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_STAMINA
+      ability: ABILITY_FIELD_EXPLORER
       hp_ev: 252
+      atk_ev: 192
+      def_ev: 64
+      move: MOVE_YAWN
+      move: MOVE_SECRET_POWER
+      move: MOVE_WATERFALL
+      move: MOVE_DIG
+      hidden_power_type: TYPE_ICE
+    }
+    mon {
+      species: SPECIES_VANILLISH_REDUX
+      item: ITEM_CHOICE_BAND
+      nature: NATURE_JOLLY
+      ability: ABILITY_CRUST_COAT
       atk_ev: 252
       def_ev: 4
-      move: MOVE_TORRENT_FIST
-      move: MOVE_STOMPING_TANTRUM
-      move: MOVE_ROCK_SLIDE
-      move: MOVE_ICE_PUNCH
+      spe_ev: 252
+      move: MOVE_MOUNTAIN_GALE
+      move: MOVE_BLAZING_TORQUE
+      move: MOVE_HEAD_SMASH
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_WATER
     }
     mon {
-      species: SPECIES_SLIGGOO
-      item: ITEM_EVIOLITE
-      nature: NATURE_MODEST
-      ability: ABILITY_GOOEY
-      hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_SLUDGE_BOMB
-      move: MOVE_MUDDY_WATER
-      move: MOVE_ENERGY_BALL
-    }
-    mon {
-      species: SPECIES_PRINPLUP_REDUX
-      item: ITEM_EVIOLITE
+      species: SPECIES_ROSELIA
+      item: ITEM_FOCUS_SASH
       nature: NATURE_TIMID
-      ability: ABILITY_PYROMANCY
-      hp_ev: 4
+      ability: ABILITY_CORROSION
+      spe_ev: 252
+      move: MOVE_SHADOW_BALL
+      move: MOVE_DAZZLING_GLEAM
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_SLUDGE_BOMB
+    }
+    mon {
+      species: SPECIES_DRAGONAIR
+      item: ITEM_EJECT_PACK
+      nature: NATURE_TIMID
+      ability: ABILITY_WEATHER_CONTROL
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_ICE_BEAM
       move: MOVE_FLAMETHROWER
-      move: MOVE_AIR_SLASH
-      move: MOVE_CHILLING_WATER
-    }
-    mon {
-      species: SPECIES_GOLETT
-      item: ITEM_EVIOLITE
-      nature: NATURE_ADAMANT
-      ability: ABILITY_SHADOW_SHIELD
-      hp_ev: 252
-      atk_ev: 252
-      def_ev: 4
-      move: MOVE_SHADOW_PUNCH
-      move: MOVE_STOMPING_TANTRUM
-      move: MOVE_DOUBLE_LARIAT
-      move: MOVE_MEGA_PUNCH
+      move: MOVE_DRACO_METEOR
+      move: MOVE_ICE_BEAM
+      move: MOVE_THUNDERBOLT
     }
   }
 }

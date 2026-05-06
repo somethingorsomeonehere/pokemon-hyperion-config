@@ -27797,6 +27797,7 @@ species {
       move: MOVE_BATON_PASS
     }
     tutor: MOVE_CHARM
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_COVET
     tutor: MOVE_CURSE
     tutor: MOVE_DAZZLING_GLEAM
@@ -27818,8 +27819,6 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_CLEAR_SKIES
   }
   visuals {
     icon {
@@ -39742,7 +39741,6 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -68033,7 +68031,7 @@ species {
   ability: ABILITY_AMPLIFIER
   innate: ABILITY_LEVITATE
   innate: ABILITY_MAGIC_GUARD
-  innate: ABILITY_METALLIC
+  innate: ABILITY_CLEAR_BODY
   percent_female: 50
   tier: 2
   evo {
@@ -214193,7 +214191,7 @@ species {
   ability: ABILITY_RITE_OF_SPRING
   innate: ABILITY_MOB_BOSS
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_GHOST_PEPPER
+  innate: ABILITY_SPICY_SPRAY
   percent_female: 50
   heads: 2
   mega {
