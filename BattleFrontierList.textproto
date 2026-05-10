@@ -185,6 +185,7 @@ species {
     hp_up: true
     atk_up: true
     def_up: true
+    illegal: "SPECIES_HYDROAR does not have ABILITY_TERRIFY"
   }
 }
 species {
