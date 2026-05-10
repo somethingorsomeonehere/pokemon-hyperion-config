@@ -11477,7 +11477,7 @@ species {
   spdef: 100
   spe: 70
   ability: ABILITY_LIQUID_OOZE
-  ability: ABILITY_NEUROFORCE
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_WATER_VEIL
   innate: ABILITY_CLEAR_BODY
   innate: ABILITY_POISON_TOUCH
@@ -68213,7 +68213,7 @@ species {
   spatk: 77
   spdef: 41
   spe: 74
-  ability: ABILITY_POISON_POINT
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_ANTICIPATION
   ability: ABILITY_UNNERVE
   innate: ABILITY_AFTERMATH
@@ -92075,7 +92075,7 @@ species {
   spe: 15
   ability: ABILITY_RAIN_DISH
   ability: ABILITY_MYCELIUM_MIGHT
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_REGENERATOR
   innate: ABILITY_EFFECT_SPORE
   innate: ABILITY_DRY_SKIN
@@ -183826,7 +183826,7 @@ species {
   spe: 60
   ability: ABILITY_COMBUSTION
   ability: ABILITY_AERIALIST
-  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_STEEL_BARREL
   innate: ABILITY_STALL
   innate: ABILITY_IRON_BARRAGE
   innate: ABILITY_PYRO_SHELLS
