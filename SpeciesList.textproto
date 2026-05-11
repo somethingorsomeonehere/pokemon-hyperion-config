@@ -3365,8 +3365,6 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
   }
   visuals {
     icon {
@@ -3456,7 +3454,7 @@ species {
   atk: 95
   def: 69
   spatk: 65
-  spdef: 69
+  spdef: 79
   spe: 80
   ability: ABILITY_MERCILESS
   ability: ABILITY_AMBUSH
@@ -3531,8 +3529,10 @@ species {
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HAZE
+    tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEECH_LIFE
@@ -3547,8 +3547,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYPER_VOICE
   }
   visuals {
     icon {
@@ -11478,7 +11477,7 @@ species {
   spdef: 100
   spe: 70
   ability: ABILITY_LIQUID_OOZE
-  ability: ABILITY_NEUROFORCE
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_WATER_VEIL
   innate: ABILITY_CLEAR_BODY
   innate: ABILITY_POISON_TOUCH
@@ -27798,6 +27797,7 @@ species {
       move: MOVE_BATON_PASS
     }
     tutor: MOVE_CHARM
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_COVET
     tutor: MOVE_CURSE
     tutor: MOVE_DAZZLING_GLEAM
@@ -27819,8 +27819,6 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_CLEAR_SKIES
   }
   visuals {
     icon {
@@ -39743,7 +39741,6 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
   }
   visuals {
     icon {
@@ -68034,7 +68031,7 @@ species {
   ability: ABILITY_AMPLIFIER
   innate: ABILITY_LEVITATE
   innate: ABILITY_MAGIC_GUARD
-  innate: ABILITY_METALLIC
+  innate: ABILITY_CLEAR_BODY
   percent_female: 50
   tier: 2
   evo {
@@ -68216,7 +68213,7 @@ species {
   spatk: 77
   spdef: 41
   spe: 74
-  ability: ABILITY_POISON_POINT
+  ability: ABILITY_TOXIC_SURGE
   ability: ABILITY_ANTICIPATION
   ability: ABILITY_UNNERVE
   innate: ABILITY_AFTERMATH
@@ -92078,7 +92075,7 @@ species {
   spe: 15
   ability: ABILITY_RAIN_DISH
   ability: ABILITY_MYCELIUM_MIGHT
-  ability: ABILITY_ADAPTABILITY
+  ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_REGENERATOR
   innate: ABILITY_EFFECT_SPORE
   innate: ABILITY_DRY_SKIN
@@ -183828,7 +183825,7 @@ species {
   spe: 60
   ability: ABILITY_COMBUSTION
   ability: ABILITY_AERIALIST
-  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_STEEL_BARREL
   innate: ABILITY_STALL
   innate: ABILITY_IRON_BARRAGE
   innate: ABILITY_PYRO_SHELLS
@@ -185618,7 +185615,7 @@ species {
     name: "Asudem"
     category: "???"
     description: "Hi i use this for implementing."
-    national_dex_num: 1118
+    national_dex_num: 1130
     body_color: BODY_COLOR_PURPLE
     egg_group: FIELD
     egg_group_2: FIELD
@@ -185651,6 +185648,7 @@ species {
       move: MOVE_POISON_FANG
       move: MOVE_POISON_STING
       move: MOVE_WRAP
+      move: MOVE_SNARL
     }
     level {
       level: 17
@@ -185691,10 +185689,13 @@ species {
     level {
       level: 51
       move: MOVE_RIP_AND_TEAR
+      move: MOVE_SYNCHRONOISE
+      move: MOVE_ECLIPSE
     }
     level {
       level: 61
       move: MOVE_BANEFUL_BUNKER
+      move: MOVE_FICKLE_BEAM
     }
     tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
@@ -185705,8 +185706,10 @@ species {
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HAZE
+    tutor: MOVE_HYPER_BEAM
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEECH_LIFE
@@ -185721,8 +185724,10 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_VEXING_VOID
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_POWER_GEM
   }
   visuals {
     icon {
@@ -191746,7 +191751,7 @@ species {
   ability: ABILITY_GRASS_PELT
   innate: ABILITY_DRAGONFRUIT
   innate: ABILITY_EQUINOX
-  innate: ABILITY_MIGHTY_HORN
+  innate: ABILITY_CRIMSON_CROWN
   percent_female: 50
   mega {
     from: SPECIES_HERACREUS
@@ -213659,12 +213664,12 @@ species {
   spatk: 114
   spdef: 104
   spe: 56
-  ability: ABILITY_HYPER_CLEANSE
-  ability: ABILITY_HYPER_CLEANSE
-  ability: ABILITY_HYPER_CLEANSE
+  ability: ABILITY_PETROLEUM_JELLY
+  ability: ABILITY_PETROLEUM_JELLY
+  ability: ABILITY_PETROLEUM_JELLY
   innate: ABILITY_GOOEY
   innate: ABILITY_LIQUID_OOZE
-  innate: ABILITY_LIQUIFIED
+  innate: ABILITY_PICKUP
   percent_female: 12.5
   mega {
     from: SPECIES_SNORLAX_REDUX
@@ -214184,7 +214189,7 @@ species {
   ability: ABILITY_RITE_OF_SPRING
   innate: ABILITY_MOB_BOSS
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_GHOST_PEPPER
+  innate: ABILITY_SPICY_SPRAY
   percent_female: 50
   heads: 2
   mega {

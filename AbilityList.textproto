@@ -884,7 +884,7 @@ ability {
   id: ABILITY_WONDER_SKIN
   name: "Wonder Skin"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond, Familia Bond, and Multi-Headed."
 }
 ability {
   id: ABILITY_ANALYTIC
@@ -2046,7 +2046,7 @@ ability {
   id: ABILITY_FORT_KNOX
   name: "Fort Knox"
   description: "Blocks most damage boosting and multihit abilities."
-  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond and Multi-Headed."
+  expanded_description: "Immune to all damage boosting ability effects from opponents, other than Parental Bond, Familia Bond, and Multi-Headed."
 }
 ability {
   id: ABILITY_SEAWEED
@@ -2380,8 +2380,8 @@ ability {
 ability {
   id: ABILITY_PYRO_SHELLS
   name: "Pyro Shells"
-  description: "Triggers 50 BP Outburst after using a Mega Launcher move."
-  expanded_description: "Pyro Shells triggers a 50 BP Normal-type Outburst after any Mega Launcher-boosted move. Outburst has no secondary effects and hits all surrounding Pokemon on the field."
+  description: "Uses 50BP Explosion or Outburst after using Mega Launcher move."
+  expanded_description: "Using a Mega Launcher move triggers a 50 BP Explosion if the move is physical or 50 BP Outburst if the move is special or status. Outburst and Explosion have no secondary effects and hit all surrounding Pokemon."
 }
 ability {
   id: ABILITY_FUNGAL_INFECTION
@@ -4892,8 +4892,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Enrages in fog, halves damage when enraged."
-  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged and it takes no damage from enrage."
+  description: "Enrages in fog, reduces damage taken by 20% when enraged."
+  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 20% when the user is enraged and it takes no damage from enrage."
 }
 ability {
   id: ABILITY_TENTALOCK
@@ -5054,8 +5054,8 @@ ability {
 ability {
   id: ABILITY_BEST_OFFENSE
   name: "Best Offense"
-  description: "Mystic blades + use 20% of spdef during moves."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations."
+  description: "Keen Edge moves are special and use +20% Sp. Def."
+  expanded_description: "Keen Edge moves become special and use 20% of the user's Special Defense stat for attack calculations."
 }
 ability {
   id: ABILITY_IMPALER
@@ -5066,8 +5066,8 @@ ability {
 ability {
   id: ABILITY_MAGUS_BLADES
   name: "Magus Blades"
-  description: "Dual Wield + Best Offense."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations. Also, Keen Edge moves hit twice, dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
+  description: "Best Offense + Keen Edge moves hit twice for 60%."
+  expanded_description: "Keen Edge moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
   id: ABILITY_LIGHTNING_BORN
@@ -6065,11 +6065,35 @@ ability {
   id: ABILITY_FAMILIA_BOND
   name: "Familia Bond"
   description: "Moves hit twice. 1st hit at 100% power, 2nd hit at 50%."
-  expanded_description: "All attacks hit twice in succession. The first hit deals 100%, while the second hit deals 50%. Each hit rolls secondary effects independently (except flinch)."
+  expanded_description: "All attacks hit twice in succession. The first hit deals 100%, while the second hit deals 50%. Each hit rolls secondary effects independently (except flinch). Bypasses Fort Knox/Wonder Skin."
 }
 ability {
   id: ABILITY_MEGA_SOL
   name: "Mega Sol"
   description: "Chloroplast + Grassy Surge"
   expanded_description: "Moves used by the user act as if the weather is harsh sunlight. Creates Grassy Terrain for 8 turns (12 with Terrain Extender) on entry."
+}
+ability {
+  id: ABILITY_PETROLEUM_JELLY
+  name: "Petroleum Jelly"
+  description: "Hyper Cleanse + Liquified"
+  expanded_description: "Immune to status. Halves damage taken from Poison-type attacks and contact moves, but doubles damage taken from Water-type attacks."
+}
+ability {
+  id: ABILITY_SPICY_SPRAY
+  name: "Spicy Spray"
+  description: "Taking damage from a move burns the attacker."
+  expanded_description: "When the user is hit by any damaging move, the attacker will become burned."
+}
+ability {
+  id: ABILITY_CRIMSON_CROWN
+  name: "Crimson Crown"
+  description: "Spike Armor + Mighty Horn"
+  expanded_description: "30% chance to inflict bleeding on contact moves, both when attacking and being attacked. Boosts the power of horn and drill-based attacks by 30%."
+}
+ability {
+  id: ABILITY_MANA_COAT
+  name: "Mana Coat"
+  description: "Physical attacks deal 30% more damage on Psychic Terrain."
+  expanded_description: "The user's physical attacks deal 30% increased damage while Psychic Terrain is active. Works even if the user is grounded."
 }
