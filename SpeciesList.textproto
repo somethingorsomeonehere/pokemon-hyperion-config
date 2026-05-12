@@ -149032,6 +149032,7 @@ species {
   visuals {
     icon {
       path: "arachtres/icon"
+      palette: 5
     }
     front {
       path: "arachtres/front"
@@ -191849,7 +191850,7 @@ species {
   visuals {
     icon {
       path: "dragapult/mega/icon"
-      palette: 4
+      palette: 0
     }
     front {
       path: "dragapult/mega/front"
