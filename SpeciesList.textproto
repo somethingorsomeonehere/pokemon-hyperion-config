@@ -115966,7 +115966,6 @@ species {
     level {
       level: 37
       move: MOVE_DREAM_EATER
-      move: MOVE_NONE
     }
     level {
       level: 46
@@ -203034,6 +203033,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_FANGS
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
     tutor: MOVE_RETALIATE
@@ -203047,9 +203047,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
-    tutor: MOVE_IRON_FANGS
   }
   visuals {
     icon {
