@@ -6097,3 +6097,9 @@ ability {
   description: "Physical attacks deal 30% more damage on Psychic Terrain."
   expanded_description: "The user's physical attacks deal 30% increased damage while Psychic Terrain is active. Works even if the user is grounded."
 }
+ability {
+  id: ABILITY_HEMORRHAGE
+  name: "Hemorrhage"
+  description: "Supresses target's abilities when user inflicts bleeding."
+  expanded_description: "Negates the opponent's ability and innates when the user successfully inflicts bleed on them. Suppression wears off after they switch out."
+}
