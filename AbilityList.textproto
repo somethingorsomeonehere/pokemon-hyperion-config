@@ -6103,3 +6103,9 @@ ability {
   description: "Supresses target's abilities when user inflicts bleeding."
   expanded_description: "Negates the opponent's ability and innates when the user successfully inflicts bleed on them. Suppression wears off after they switch out."
 }
+ability {
+  id: ABILITY_OVERCLOCK
+  name: "Overclock"
+  description: "Ground Shock + Overcharge"
+  expanded_description: "The user's Electric-type moves hit Ground types for not very effective damage instead of no effect, and hit Electric types for super effective damage instead of not very effective. The user can paralyze Electric types."
+}
