@@ -5084,8 +5084,8 @@ ability {
 ability {
   id: ABILITY_WORLD_SERPENT
   name: "World Serpent"
-  description: "Long Reach + Grip Pincer."
-  expanded_description: "Physical non-contact moves deal 20% more damage. Contact moves have a 50% chance to trap the target for 4-5 turns."
+  description: "Serpent Bind + Grip Pincer."
+  expanded_description: "Contact moves have a 50% chance to wrap the target for 4-5 turns, preventing switches and dealing 1/8 max HP at end of turn. Targets wrapped by the user have their speed lowered one stage at the end of the turn, and the user's moves against the target ignore defensive stats changes and always hit."
 }
 ability {
   id: ABILITY_LUCKY_WINGS
