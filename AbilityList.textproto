@@ -2327,37 +2327,37 @@ ability {
   id: ABILITY_DISCIPLINE
   name: "Discipline"
   description: "Can switch while rampaging. Can't be confused or intimidated."
-  expanded_description: "After using any Electric-type move, Thundercall automatically triggers a follow-up Smite attack at 20% power (24 base power). This physical Electric attack has an 80% accuracy, can paralyze targets (20% chance), and applies the Smack Down effect - grounding Flying-types."
+  expanded_description: "While using a rampage move (like Outrage or Raging Fury), the user can switch out of battle during the rampage. Immune to confusion, Intimidate, and Scare. Immediately cures confusion when receiving this ability."
 }
 ability {
   id: ABILITY_THUNDERCALL
   name: "Thundercall"
   description: "Triggers Smite at 20% power when using an Electric move."
-  expanded_description: "Deal 1.5x damage to Water-type Pokemon and bypass defensive screens (Light Screen, Reflect, Aurora Veil)/Substitutes."
+  expanded_description: "After using any Electric-type move, Thundercall automatically triggers a follow-up Smite attack at 20% power (24 base power). This physical Electric attack has an 80% accuracy, can paralyze targets (20% chance), and applies the Smack Down effect - grounding Flying-types."
 }
 ability {
   id: ABILITY_MARINE_APEX
   name: "Marine Apex"
   description: "50% more damage to Water-types + Infiltrator."
-  expanded_description: "Mighty Horn boosts the power of horn and drill-based attacks by 30%."
+  expanded_description: "Deal 1.5x damage to Water-type Pokemon and bypass defensive screens (Light Screen, Reflect, Aurora Veil)/Substitutes."
 }
 ability {
   id: ABILITY_MIGHTY_HORN
   name: "Mighty Horn"
   description: "Boosts the power of horn and drill-based by 1.3x."
-  expanded_description: "Every successful horn-based attack raises Attack by one stage after it lands."
+  expanded_description: "Mighty Horn boosts the power of horn and drill-based attacks by 30%."
 }
 ability {
   id: ABILITY_HARDENED_SHEATH
   name: "Hardened Sheath"
   description: "Ups Attack by +1 when using horn moves."
-  expanded_description: "Reduces both physical and special damage by 35%. Multiplicative with other sources of damage reduction."
+  expanded_description: "Every successful horn-based attack raises Attack by one stage after it lands."
 }
 ability {
   id: ABILITY_ARCTIC_FUR
   name: "Arctic Fur"
   description: "Weakens incoming physical and special moves by 35%."
-  expanded_description: "Converts all Normal-type moves to Ghost-type and grants STAB for Ghost moves, regardless of the user's typing."
+  expanded_description: "Reduces both physical and special damage by 35%. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_LETHARGY
