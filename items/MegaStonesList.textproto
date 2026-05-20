@@ -2709,7 +2709,7 @@ item {
 }
 item {
   id: ITEM_SKARMORITE_Y
-  name: "Skarmorite"
+  name: "ITEM_SKARMORITE_Y"
   description: "Enables Skarmory to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
