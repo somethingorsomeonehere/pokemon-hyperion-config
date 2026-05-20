@@ -22166,7 +22166,7 @@ trainer {
     }
     mon {
       species: SPECIES_ABRA
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
       ability: ABILITY_MYSTIC_POWER
       hp_ev: 4
@@ -40568,17 +40568,17 @@ trainer {
       move: MOVE_SIZZLY_SLIDE
     }
     mon {
-      species: SPECIES_MIENSHAO
-      item: ITEM_MIENSHAOITE
-      nature: NATURE_JOLLY
-      ability: ABILITY_SCRAPPY
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
+      species: SPECIES_SKARMORY
+      item: ITEM_SKARMORITE
+      nature: NATURE_IMPISH
+      ability: ABILITY_MIRROR_ARMOR
+      hp_ev: 252
+      def_ev: 96
+      spdef_ev: 160
       move: MOVE_WHIRLING_STRIKES
-      move: MOVE_HIGH_JUMP_KICK
-      move: MOVE_JAGGED_PUNCH
-      move: MOVE_FAKE_OUT
+      move: MOVE_BODY_PRESS
+      move: MOVE_CUT
+      move: MOVE_IRON_DEFENSE
     }
     mon {
       species: SPECIES_AERODACTYL
@@ -42266,17 +42266,18 @@ trainer {
       hidden_power_type: TYPE_GRASS
     }
     mon {
-      species: SPECIES_LUCARIO
-      item: ITEM_FOCUS_SASH
+      species: SPECIES_TOXICROAK
+      item: ITEM_ASSAULT_VEST
       nature: NATURE_TIMID
-      ability: ABILITY_JUSTIFIED
-      hp_ev: 4
+      ability: ABILITY_HYPER_AGGRESSIVE
+      hp_ev: 156
+      def_ev: 4
       spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_VACUUM_WAVE
-      move: MOVE_FOCUS_BLAST
-      move: MOVE_FLASH_CANNON
-      move: MOVE_EXTRASENSORY
+      spe_ev: 96
+      move: MOVE_AURA_SPHERE
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_FAKE_OUT
+      move: MOVE_SCALD
     }
     mon {
       species: SPECIES_QUAGSIRE
@@ -46772,7 +46773,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_LARVESTA
-      item: ITEM_FOCUS_SASH
+      item: ITEM_FIRE_GEM
       nature: NATURE_TIMID
       ability: ABILITY_DROUGHT
       hp_ev: 4
@@ -46786,7 +46787,7 @@ trainer {
     }
     mon {
       species: SPECIES_NUZLEAF
-      item: ITEM_FOCUS_SASH
+      item: ITEM_MIRACLE_SEED
       nature: NATURE_JOLLY
       ability: ABILITY_DEFIANT
       hp_ev: 4
@@ -50757,9 +50758,9 @@ trainer {
   elite {
     mon {
       species: SPECIES_PELIPPER
-      item: ITEM_FOCUS_SASH
+      item: ITEM_DAMP_ROCK
       nature: NATURE_MODEST
-      ability: ABILITY_AIR_BLOWER
+      ability: ABILITY_DRIZZLE
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -50783,16 +50784,42 @@ trainer {
     }
     mon {
       species: SPECIES_BARRASKEWDA
-      item: ITEM_LIFE_ORB
+      item: ITEM_BRIGHT_POWDER
       nature: NATURE_JOLLY
-      ability: ABILITY_ACCELERATE
+      ability: ABILITY_RAIN_SHROUD
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_DIVE
+      move: MOVE_WAVE_CRASH
       move: MOVE_AQUA_JET
-      move: MOVE_DEVIOUS_SHOT
+      move: MOVE_VOLT_BOLT
       move: MOVE_DRILL_PECK
+    }
+    mon {
+      species: SPECIES_GOREBYSS
+      item: ITEM_WHITE_HERB
+      nature: NATURE_TIMID
+      ability: ABILITY_SWIFT_SWIM
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_DRAINING_KISS
+      move: MOVE_CHILLING_WATER
+      move: MOVE_SHELL_SMASH
+    }
+    mon {
+      species: SPECIES_PRINPLUP
+      item: ITEM_LIFE_ORB
+      nature: NATURE_TIMID
+      ability: ABILITY_COMPETITIVE
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_WEATHER_BALL
+      move: MOVE_ICE_BEAM
+      move: MOVE_WATER_GUN
+      move: MOVE_HURRICANE
     }
   }
   hell {
@@ -82332,7 +82359,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_VENONAT
-      item: ITEM_FOCUS_SASH
+      item: ITEM_EVIOLITE
       nature: NATURE_TIMID
       ability: ABILITY_TOXIC_DEBRIS
       hp_ev: 4
@@ -82397,7 +82424,7 @@ trainer {
     }
     mon {
       species: SPECIES_KRICKETUNE
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_ADAMANT
       ability: ABILITY_PERFECTIONIST
       hp_ev: 252
@@ -84972,17 +84999,17 @@ trainer {
       move: MOVE_BODY_SLAM
     }
     mon {
-      species: SPECIES_ARCHEN
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_OPPORTUNIST
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_JAGGED_FANGS
-      move: MOVE_ACROBATICS
-      move: MOVE_TAKE_FLIGHT
-      move: MOVE_DRAGON_CLAW
+      species: SPECIES_GROTOM_GLASS
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_ADAMANT
+      ability: ABILITY_UNBURDEN
+      hp_ev: 252
+      atk_ev: 128
+      def_ev: 128
+      move: MOVE_MIGHTY_CLEAVE
+      move: MOVE_CROSS_POISON
+      move: MOVE_FISSURE
+      move: MOVE_ACCELEROCK
     }
     mon {
       species: SPECIES_PROBOPASS
