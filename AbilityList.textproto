@@ -793,8 +793,8 @@ ability {
 ability {
   id: ABILITY_FRIEND_GUARD
   name: "Friend Guard"
-  description: "Reduces damage that ally takes by 50% in double battles."
-  expanded_description: "In a double battle, the user's ally receives 50% less damage. Multiplicative with other damage reduction sources."
+  description: "Reduces damage that ally takes by 25% in double battles."
+  expanded_description: "In a double battle, the user's ally receives 25% less damage. Multiplicative with other damage reduction sources."
 }
 ability {
   id: ABILITY_WEAK_ARMOR
@@ -4689,7 +4689,7 @@ ability {
   id: ABILITY_CARETAKER
   name: "Caretaker"
   description: "Healer + Friend Guard."
-  expanded_description: "Gives a 30% chance to cure status conditions at the end of each turn for both the user and their ally if they are out in a double battle. Makes 2 separate checks for each Pokemon. In a double battle, the user's ally receives 50% less damage. Multiplicative with other damage reduction sources."
+  expanded_description: "Gives a 30% chance to cure status conditions at the end of each turn for both the user and their ally if they are out in a double battle. Makes 2 separate checks for each Pokemon. In a double battle, the user's ally receives 25% less damage. Multiplicative with other damage reduction sources."
 }
 ability {
   id: ABILITY_POSEIDONS_DOMINION
@@ -5336,6 +5336,7 @@ ability {
   id: ABILITY_FOOD_LOVERS
   name: "Food Lovers"
   description: "Hospitality + Friend Guard."
+  expanded_description: "When the user switches in during a double battle, it heals its ally for 25% of their max HP. Additionally, the user's ally receives 25% less damage in double battles. Multiplicative with other damage reduction sources."
 }
 ability {
   id: ABILITY_LUNAR_WRATH
