@@ -13022,7 +13022,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_ELECTRO_SHOT
       move: MOVE_PARABOLIC_CHARGE
     }
     tutor: MOVE_BODY_PRESS
@@ -50538,12 +50537,13 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_SMOLDER_BASH
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_WILL_O_WISP
   }
   visuals {
     icon {
@@ -50701,13 +50701,14 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_SMOLDER_BASH
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_WILL_O_WISP
   }
   visuals {
     icon {
@@ -72546,7 +72547,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_ELECTRO_SHOT
       move: MOVE_PARABOLIC_CHARGE
     }
     tutor: MOVE_BODY_PRESS
@@ -149124,7 +149124,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_QUIVER_DANCE
       move: MOVE_REVELATION_DANCE
     }
     tutor: MOVE_AROMATHERAPY
@@ -154289,6 +154288,9 @@ species {
       move: MOVE_DOUBLE_SHOCK
       move: MOVE_SMITE
     }
+    tutor: MOVE_BITE
+    tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_FRUSTRATION
@@ -154310,9 +154312,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_BLACK_MAGIC
-    tutor: MOVE_BLOOD_SHOT
-    tutor: MOVE_BITE
+    tutor: MOVE_PLAY_ROUGH
   }
   visuals {
     icon {
@@ -155279,7 +155279,6 @@ species {
     }
     level {
       level: 51
-      move: MOVE_DESTINY_BOND
       move: MOVE_FIERY_WRATH
       move: MOVE_RAGING_SOULS
     }
@@ -176857,12 +176856,12 @@ species {
   form_of: SPECIES_MORPEKO
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
-  hp: 67
-  atk: 101
-  def: 87
-  spatk: 58
-  spdef: 57
-  spe: 101
+  hp: 58
+  atk: 95
+  def: 58
+  spatk: 70
+  spdef: 58
+  spe: 97
   ability: ABILITY_DOOM_BLAST
   ability: ABILITY_ELECTROCYTES
   ability: ABILITY_POWER_SPOT
@@ -189993,9 +189992,9 @@ species {
   type2: TYPE_FLYING
   hp: 90
   atk: 100
-  def: 90
+  def: 100
   spatk: 125
-  spdef: 85
+  spdef: 95
   spe: 90
   ability: ABILITY_AIR_BLOWER
   ability: ABILITY_FLAMING_SOUL
@@ -191850,7 +191849,6 @@ species {
   visuals {
     icon {
       path: "dragapult/mega/icon"
-      palette: 0
     }
     front {
       path: "dragapult/mega/front"
@@ -211268,8 +211266,6 @@ species {
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
-    tutor: MOVE_SEED_BOMB
-    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_WORRY_SEED
@@ -212316,7 +212312,7 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_FLYING
-  hp: 120
+  hp: 90
   atk: 70
   def: 60
   spatk: 95
