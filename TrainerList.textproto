@@ -13328,17 +13328,17 @@ trainer {
       move: MOVE_DUAL_CHOP
     }
     mon {
-      species: SPECIES_WEAVILE
-      item: ITEM_FOCUS_SASH
+      species: SPECIES_ZEBSTRIKA
+      item: ITEM_AIR_BALLOON
       nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
-      hp_ev: 128
-      atk_ev: 128
+      ability: ABILITY_ADRENALINE_RUSH
+      hp_ev: 4
+      atk_ev: 252
       spe_ev: 252
-      move: MOVE_TRIPLE_AXEL
-      move: MOVE_KNOCK_OFF
-      move: MOVE_ICE_SHARD
-      move: MOVE_NIGHT_SLASH
+      move: MOVE_ZIPPY_ZAP
+      move: MOVE_HIGH_JUMP_KICK
+      move: MOVE_AGILITY
+      move: MOVE_VOLT_TACKLE
     }
     mon {
       species: SPECIES_DARMANITAN_ZEN_MODE_GALARIAN
@@ -16066,7 +16066,7 @@ trainer {
       species: SPECIES_PIDGEOT
       item: ITEM_BRIGHT_POWDER
       nature: NATURE_TIMID
-      ability: ABILITY_MAJESTIC_BIRD
+      ability: ABILITY_DUST_CLOUD
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -24042,7 +24042,6 @@ trainer {
       move: MOVE_HEADLONG_RUSH
     }
     mon {
-      nonstandard: "Invalid EV total"
       species: SPECIES_LYCANROC
       item: ITEM_BRIGHT_POWDER
       nature: NATURE_JOLLY
@@ -24056,9 +24055,9 @@ trainer {
     }
     mon {
       species: SPECIES_DUGTRIO_ALOLAN
-      item: ITEM_FOCUS_SASH
+      item: ITEM_EXPERT_BELT
       nature: NATURE_JOLLY
-      ability: ABILITY_SAND_RUSH
+      ability: ABILITY_ARENA_TRAP
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
@@ -28107,7 +28106,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_KLINKLANG
-      item: ITEM_FOCUS_SASH
+      item: ITEM_TERRAIN_EXTENDER
       nature: NATURE_JOLLY
       ability: ABILITY_ELECTRIC_SURGE
       hp_ev: 4
@@ -28808,7 +28807,7 @@ trainer {
     }
     mon {
       species: SPECIES_SIMISEAR
-      item: ITEM_FOCUS_SASH
+      item: ITEM_MENTAL_HERB
       nature: NATURE_IMPISH
       ability: ABILITY_MONKEY_BUSINESS
       hp_ev: 252
@@ -29174,7 +29173,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_ORICORIO
-      item: ITEM_FOCUS_SASH
+      item: ITEM_EXPERT_BELT
       nature: NATURE_TIMID
       ability: ABILITY_DANCER
       hp_ev: 4
@@ -29435,7 +29434,7 @@ trainer {
     }
     mon {
       species: SPECIES_SALAZZLE
-      item: ITEM_FOCUS_SASH
+      item: ITEM_AIR_BALLOON
       nature: NATURE_TIMID
       ability: ABILITY_MERCILESS
       hp_ev: 4
@@ -29447,7 +29446,6 @@ trainer {
       move: MOVE_FLAMETHROWER
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SOLAR_BLADE, MOVE_WILD_CHARGE, MOVE_AQUA_FANG]"
       species: SPECIES_FLAREON
       item: ITEM_FROST_ORB
       nature: NATURE_JOLLY
@@ -32998,7 +32996,6 @@ trainer {
       move: MOVE_SLUDGE_BOMB
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_QUIVER_DANCE]"
       species: SPECIES_WORMADAM_TRASH_CLOAK
       item: ITEM_SITRUS_BERRY
       nature: NATURE_BOLD
@@ -47556,9 +47553,9 @@ trainer {
     }
     mon {
       species: SPECIES_EMOLGA
-      item: ITEM_FOCUS_SASH
+      item: ITEM_ASSAULT_VEST
       nature: NATURE_TIMID
-      ability: ABILITY_GENERATOR
+      ability: ABILITY_BLUR
       hp_ev: 4
       spatk_ev: 252
       spe_ev: 252
@@ -49887,7 +49884,7 @@ trainer {
     }
     mon {
       species: SPECIES_SHARPEDO
-      item: ITEM_FOCUS_SASH
+      item: ITEM_BRIGHT_POWDER
       nature: NATURE_JOLLY
       ability: ABILITY_RAIN_SHROUD
       hp_ev: 4
@@ -50187,7 +50184,7 @@ trainer {
     }
     mon {
       species: SPECIES_BARRASKEWDA
-      item: ITEM_FOCUS_SASH
+      item: ITEM_CHOICE_BAND
       nature: NATURE_JOLLY
       ability: ABILITY_ACCELERATE
       hp_ev: 4
@@ -59152,7 +59149,7 @@ trainer {
     }
     mon {
       species: SPECIES_GROTOM_ROLL
-      item: ITEM_FOCUS_SASH
+      item: ITEM_BLACK_SLUDGE
       nature: NATURE_JOLLY
       ability: ABILITY_SPEED_BOOST
       hp_ev: 4
@@ -63806,7 +63803,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_LIEPARD
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
       ability: ABILITY_ACCELERATE
       atk_ev: 252
@@ -64327,7 +64324,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHATOT
-      item: ITEM_FOCUS_SASH
+      item: ITEM_THROAT_SPRAY
       nature: NATURE_TIMID
       ability: ABILITY_OPPORTUNIST
       hp_ev: 4
@@ -67099,7 +67096,7 @@ trainer {
     }
     mon {
       species: SPECIES_CHANDELURE
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
       ability: ABILITY_SHADOW_TAG
       hp_ev: 4
@@ -75178,7 +75175,7 @@ trainer {
     }
     mon {
       species: SPECIES_BOLTUND
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
       ability: ABILITY_ROUSED_FANGS
       spatk_ev: 252
@@ -84729,9 +84726,9 @@ trainer {
     }
     mon {
       species: SPECIES_KLAWF
-      item: ITEM_FOCUS_SASH
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_ADAMANT
-      ability: ABILITY_REGENERATOR
+      ability: ABILITY_AMBUSH
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -85759,7 +85756,6 @@ trainer {
       move: MOVE_THUNDERBOLT
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_FIRE_PUNCH]"
       species: SPECIES_GOLEM_ALOLAN
       item: ITEM_ELECTRIC_GEM
       nature: NATURE_ADAMANT
@@ -85773,7 +85769,6 @@ trainer {
       move: MOVE_FIRE_PUNCH
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SEISMIC_FIST]"
       species: SPECIES_ANNIHILAPE
       item: ITEM_TACTICAL_VEST
       nature: NATURE_ADAMANT
@@ -85800,7 +85795,6 @@ trainer {
       move: MOVE_SHELL_SMASH
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SEED_BOMB, MOVE_CLOSE_COMBAT]"
       species: SPECIES_PERRSERKER
       item: ITEM_SITRUS_BERRY
       nature: NATURE_JOLLY
@@ -85814,7 +85808,6 @@ trainer {
       move: MOVE_SWORDS_DANCE
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SCALD]"
       species: SPECIES_QUAGSIRE
       item: ITEM_LEFTOVERS
       nature: NATURE_SASSY
@@ -85830,13 +85823,82 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_BULBASAUR
-      nature: NATURE_IMPISH
-      ability: ABILITY_CHLOROPLAST
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
-      move: MOVE_NONE
+      species: SPECIES_GIGALITH
+      item: ITEM_PASSHO_BERRY
+      nature: NATURE_MODEST
+      ability: ABILITY_SAND_STREAM
+      hp_ev: 252
+      spatk_ev: 252
+      spe_ev: 4
+      move: MOVE_WEATHER_BALL
+      move: MOVE_EARTH_POWER
+      move: MOVE_STEALTH_ROCK
+      move: MOVE_THUNDERBOLT
+    }
+    mon {
+      species: SPECIES_GOLEM_ALOLAN
+      item: ITEM_ELECTRIC_GEM
+      nature: NATURE_ADAMANT
+      ability: ABILITY_MEGA_LAUNCHER
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_EXPLOSION
+      move: MOVE_EARTHQUAKE
+      move: MOVE_STONE_EDGE
+      move: MOVE_FIRE_PUNCH
+    }
+    mon {
+      species: SPECIES_ANNIHILAPE
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_ADAMANT
+      ability: ABILITY_MENACING_SITUATION
+      hp_ev: 252
+      atk_ev: 228
+      spe_ev: 28
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_RAGE_FIST
+      move: MOVE_POWER_UP_PUNCH
+      move: MOVE_SEISMIC_FIST
+    }
+    mon {
+      species: SPECIES_OMASTAR
+      item: ITEM_AIR_BALLOON
+      nature: NATURE_TIMID
+      ability: ABILITY_WEAK_ARMOR
+      def_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_HYDRO_PUMP
+      move: MOVE_ICE_BEAM
+      move: MOVE_METEOR_BEAM
+      move: MOVE_SHELL_SMASH
+    }
+    mon {
+      species: SPECIES_PERRSERKER
+      item: ITEM_SITRUS_BERRY
+      nature: NATURE_JOLLY
+      ability: ABILITY_LOOTER
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_IRON_HEAD
+      move: MOVE_SEED_BOMB
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_SWORDS_DANCE
+    }
+    mon {
+      species: SPECIES_QUAGSIRE
+      item: ITEM_LEFTOVERS
+      nature: NATURE_SASSY
+      ability: ABILITY_WONDER_SKIN
+      hp_ev: 252
+      def_ev: 4
+      spdef_ev: 252
+      move: MOVE_SCALD
+      move: MOVE_BODY_SLAM
+      move: MOVE_RECOVER
+      move: MOVE_TOXIC
     }
   }
   hell {
@@ -86900,9 +86962,8 @@ trainer {
   }
   elite {
     mon {
-      nonstandard: "Invalid moves: [MOVE_FLAMETHROWER, MOVE_ICE_BEAM, MOVE_SCALD]"
       species: SPECIES_JOLTEON
-      item: ITEM_FOCUS_SASH
+      item: ITEM_CHOICE_SPECS
       nature: NATURE_TIMID
       ability: ABILITY_ELECTRIC_SURGE
       hp_ev: 4
@@ -92992,7 +93053,7 @@ trainer {
     }
     mon {
       species: SPECIES_ORICORIO_POM_POM
-      item: ITEM_FOCUS_SASH
+      item: ITEM_EXPERT_BELT
       nature: NATURE_TIMID
       ability: ABILITY_DANCER
       hp_ev: 4
@@ -93354,7 +93415,7 @@ trainer {
   elite {
     mon {
       species: SPECIES_LOKIX
-      item: ITEM_FOCUS_SASH
+      item: ITEM_SILVER_POWDER
       nature: NATURE_JOLLY
       ability: ABILITY_JUSTIFIED
       hp_ev: 4
@@ -93563,7 +93624,7 @@ trainer {
     }
     mon {
       species: SPECIES_JYNX
-      item: ITEM_FOCUS_SASH
+      item: ITEM_THROAT_SPRAY
       nature: NATURE_TIMID
       ability: ABILITY_PSYCHIC_MIND
       def_ev: 4
@@ -94022,7 +94083,7 @@ trainer {
     }
     mon {
       species: SPECIES_LYCANROC_ECLIPSE
-      item: ITEM_FOCUS_SASH
+      item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
       ability: ABILITY_STURDY
       hp_ev: 4
@@ -95679,7 +95740,7 @@ trainer {
     }
     mon {
       species: SPECIES_BRAMBLEGHAST
-      item: ITEM_FOCUS_SASH
+      item: ITEM_SHELL_BELL
       nature: NATURE_JOLLY
       ability: ABILITY_INFILTRATOR
       hp_ev: 4
@@ -95691,7 +95752,6 @@ trainer {
       move: MOVE_SHADOW_CLAW
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_HOMING_FLETCH]"
       species: SPECIES_DECIDUEYE_HISUIAN
       item: ITEM_SCOPE_LENS
       nature: NATURE_JOLLY
@@ -96082,7 +96142,6 @@ trainer {
   }
   elite {
     mon {
-      nonstandard: "Invalid moves: [MOVE_SPLISHY_SPLASH]"
       species: SPECIES_PINCURCHIN
       item: ITEM_ROCKY_HELMET
       nature: NATURE_MODEST
@@ -96096,7 +96155,6 @@ trainer {
       move: MOVE_VOLT_SWITCH
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SPIKY_SHIELD]"
       species: SPECIES_ARBOLIVA
       item: ITEM_BIG_ROOT
       nature: NATURE_MODEST
@@ -96123,7 +96181,6 @@ trainer {
       move: MOVE_SLUDGE_BOMB
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_TECTONIC_FANGS, MOVE_ICE_FANG]"
       species: SPECIES_DACHSBUN
       item: ITEM_TACTICAL_VEST
       nature: NATURE_JOLLY
@@ -96137,9 +96194,8 @@ trainer {
       move: MOVE_CRUNCH
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_JAGGED_FANGS]"
       species: SPECIES_CENTISKORCH
-      item: ITEM_FOCUS_SASH
+      item: ITEM_EXPERT_BELT
       nature: NATURE_JOLLY
       ability: ABILITY_COIL_UP
       hp_ev: 4
@@ -102278,9 +102334,9 @@ trainer {
     }
     mon {
       species: SPECIES_CHERRIM
-      item: ITEM_FOCUS_SASH
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_NAIVE
-      ability: ABILITY_RAIN_DISH
+      ability: ABILITY_AROMA_VEIL
       atk_ev: 128
       def_ev: 4
       spatk_ev: 124
