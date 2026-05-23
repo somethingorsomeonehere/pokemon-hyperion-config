@@ -73269,7 +73269,7 @@ species {
   spatk: 125
   spdef: 85
   spe: 93
-  ability: ABILITY_NOCTURNAL
+  ability: ABILITY_MOUNTAINEER
   ability: ABILITY_FLAMING_SOUL
   ability: ABILITY_PYRO_SHELLS
   innate: ABILITY_MOLTEN_DOWN
@@ -114651,7 +114651,7 @@ species {
   spdef: 65
   spe: 112
   ability: ABILITY_SPEED_FORCE
-  ability: ABILITY_ADRENALINE_RUSH
+  ability: ABILITY_RECKLESS
   ability: ABILITY_VIOLENT_RUSH
   innate: ABILITY_SAND_VEIL
   innate: ABILITY_SAND_RUSH
