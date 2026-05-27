@@ -32111,6 +32111,7 @@ species {
       level: 24
       move: MOVE_CONFUSION
       move: MOVE_DOUBLE_HIT
+      move: MOVE_TWIN_BEAM
     }
     level {
       level: 37
@@ -32123,7 +32124,9 @@ species {
       move: MOVE_CRUNCH
       move: MOVE_PSYCHO_BOOST
       move: MOVE_SKULL_BASH
+      move: MOVE_UPROAR
     }
+    tutor: MOVE_BITE
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CONFUSE_RAY
@@ -32147,7 +32150,8 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_BITE
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_ENERGY_WAVE
   }
   visuals {
     icon {
@@ -142979,12 +142983,14 @@ species {
       move: MOVE_PSYCHO_BOOST
       move: MOVE_SKULL_BASH
       move: MOVE_TWIN_BEAM
+      move: MOVE_UPROAR
     }
     level {
       level: 51
       move: MOVE_BATON_PASS
       move: MOVE_JAW_LOCK
     }
+    tutor: MOVE_BITE
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CONFUSE_RAY
@@ -143013,7 +143019,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_BITE
+    tutor: MOVE_PSYBEAM
   }
   visuals {
     icon {
