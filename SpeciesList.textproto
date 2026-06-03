@@ -43149,10 +43149,6 @@ species {
       move: MOVE_LEAF_STORM
       move: MOVE_WHIRLING_STRIKES
     }
-    level {
-      level: 71
-      move: MOVE_BLEAKWIND_STORM
-    }
     tutor: MOVE_ABSORB
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -138984,7 +138980,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_SANDSEAR_STORM
       move: MOVE_STRENGTH_SAP
     }
     tutor: MOVE_AIR_SLASH
@@ -152356,10 +152351,6 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_SIGNAL_BEAM
     }
-    level {
-      level: 51
-      move: MOVE_SPRINGTIDE_STORM
-    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BUG_BUZZ
@@ -152944,14 +152935,6 @@ species {
       level: 56
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_CHILLER
-    }
-    level {
-      level: 61
-      move: MOVE_AEROBLAST
-    }
-    level {
-      level: 71
-      move: MOVE_BLEAKWIND_STORM
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
