@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package er;
+
+import "BattleSkillEnum.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+message BattleSkillList {
+  repeated BattleSkill skill = 1;
+}
+
+message BattleSkill {
+  BattleSkillEnum id = 1;
+  string name = 2;
+}

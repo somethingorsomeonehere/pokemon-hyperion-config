@@ -1,0 +1,8 @@
+# proto-file: BattleSkillList.proto
+# proto-message: er.BattleSkillList
+
+skill {
+  id: BATTLE_SKILL_NONE
+  name: "---"
+}
+
