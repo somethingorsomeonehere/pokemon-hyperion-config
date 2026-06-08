@@ -154306,6 +154306,7 @@ species {
   visuals {
     icon {
       path: "morpekyll/icon"
+      palette: 2
     }
     front {
       path: "morpekyll/front"
@@ -181589,6 +181590,7 @@ species {
   visuals {
     icon {
       path: "morpekyll/hangry/icon"
+      palette: 2
     }
     front {
       path: "morpekyll/hangry/front"
