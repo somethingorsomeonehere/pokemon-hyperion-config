@@ -189022,17 +189022,17 @@ species {
   type: TYPE_FIRE
   type2: TYPE_ROCK
   hp: 90
-  atk: 140
-  def: 110
-  spatk: 110
-  spdef: 110
-  spe: 140
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_ROCK_HEAD
+  atk: 148
+  def: 136
+  spatk: 72
+  spdef: 112
+  spe: 142
+  ability: ABILITY_GUARDIAN_COAT
+  ability: ABILITY_INTIMIDATE
+  ability: ABILITY_MAGIC_BOUNCE
+  innate: ABILITY_BRUTEFORCE
   innate: ABILITY_MOLTEN_COAT
-  innate: ABILITY_RECKLESS
+  innate: ABILITY_GUARD_DOG
   percent_female: 25
   mega {
     from: SPECIES_ARCANINE_HISUIAN
