@@ -150686,7 +150686,7 @@ species {
   visuals {
     icon {
       path: "tortemple/icon"
-      paletee: 3
+      palette: 3
     }
     front {
       path: "tortemple/front"
