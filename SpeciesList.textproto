@@ -150686,6 +150686,7 @@ species {
   visuals {
     icon {
       path: "tortemple/icon"
+      paletee: 3
     }
     front {
       path: "tortemple/front"
@@ -185622,8 +185623,8 @@ species {
   atk: 73
   def: 93
   spatk: 130
-  spdef: 93
-  spe: 75
+  spdef: 88
+  spe: 70
   ability: ABILITY_MIND_CRUSH
   ability: ABILITY_PATTERN_CHANGE
   ability: ABILITY_NEUROTOXIN
