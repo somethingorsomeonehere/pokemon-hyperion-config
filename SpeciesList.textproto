@@ -3855,6 +3855,10 @@ species {
       move: MOVE_HEADLONG_RUSH
       move: MOVE_SUBMISSION
     }
+    level {
+      level: 56
+      move: MOVE_ZAP_CANNON
+    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_COVET
@@ -99997,6 +100001,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_HURRICANE
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_RAIN_DANCE
@@ -100009,8 +100014,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -155747,10 +155751,10 @@ species {
   spdef: 70
   spe: 125
   ability: ABILITY_SNOW_CLOAK
-  ability: ABILITY_SLUSH_RUSH
+  ability: ABILITY_CHRISTMAS_NIGHTMARE
   ability: ABILITY_POWER_SPOT
   innate: ABILITY_DEVIOUS_PRESENT
-  innate: ABILITY_CHRISTMAS_NIGHTMARE
+  innate: ABILITY_EARLY_BIRD
   innate: ABILITY_DEVIATE
   percent_female: 50
   tier: 1
@@ -160936,11 +160940,11 @@ species {
   spdef: 80
   spe: 155
   ability: ABILITY_GENERATOR
-  ability: ABILITY_VOLT_RUSH
-  ability: ABILITY_BLUR
-  innate: ABILITY_INTIMIDATE
-  innate: ABILITY_GROUND_SHOCK
-  innate: ABILITY_OVERCHARGE
+  ability: ABILITY_THUNDER_CLOUDS
+  ability: ABILITY_ROUSED_FANGS
+  innate: ABILITY_BLUR
+  innate: ABILITY_OVERCLOCK
+  innate: ABILITY_STATIC
   percent_female: 50
   mega {
     from: SPECIES_MANECTRIC
@@ -163795,7 +163799,7 @@ species {
   spatk: 105
   spdef: 75
   spe: 45
-  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_SUN_WORSHIP
   ability: ABILITY_SUPER_SLAMMER
   ability: ABILITY_GLUTTONY
   innate: ABILITY_LONG_REACH
@@ -185630,7 +185634,7 @@ species {
   ability: ABILITY_NEUROTOXIN
   innate: ABILITY_MERCILESS
   innate: ABILITY_PETRIFY
-  innate: ABILITY_SIDEWINDER
+  innate: ABILITY_COIL_UP
   percent_female: 50
   learnset {
     level {
@@ -185686,7 +185690,6 @@ species {
     }
     level {
       level: 61
-      move: MOVE_BANEFUL_BUNKER
       move: MOVE_FICKLE_BEAM
     }
     tutor: MOVE_BITE
