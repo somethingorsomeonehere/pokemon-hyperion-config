@@ -5413,7 +5413,7 @@ moves {
   id: MOVE_SKY_UPPERCUT
   name: "Sky Uppercut"
   short_name: "Sky Uppercut"
-  description: "The user attacks with an uppercut thrown skywards. Iron Fist boost."
+  description: "Attacks with an uppercut. Super-effective on Flying-types. Iron Fist boost."
   short_description: "An uppercut thrown as if leaping into the sky."
   custom_behavior {
     attack {
