@@ -1230,8 +1230,8 @@ ability {
 ability {
   id: ABILITY_TRIAGE
   name: "Triage"
-  description: "Moves that have a healing effect gain +3 priority."
-  expanded_description: "Triage grants +3 priority to most healing moves. Includes draining moves like Giga Drain, and delayed healing moves like Wish. Does not work with  Aqua Ring, Grassy Terrain, Ingrain, Leech Seed, Pain Split, Present, or Pollen Puff."
+  description: "Moves that restore HP gain +3 priority."
+  expanded_description: "Triage grants +3 priority to most HP healing moves. Includes draining moves like Giga Drain, and delayed healing moves like Wish. Does not work with Aqua Ring, Grassy Terrain, Ingrain, Leech Seed, Pain Split, Present, or Pollen Puff."
 }
 ability {
   id: ABILITY_GALVANIZE
