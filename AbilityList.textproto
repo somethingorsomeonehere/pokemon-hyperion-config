@@ -2312,12 +2312,6 @@ ability {
   expanded_description: "Moves that make contact deal an additional 20% damage and heal the user to heal for 1/2 of the damage dealt. This healing applies after all hits of multi-hit moves and after recoil is applied."
 }
 ability {
-  id: ABILITY_SPECTRALIZE
-  name: "Spectralize"
-  description: "Normal moves become Ghost. Ghost moves are empowered."
-  expanded_description: "Changes the user's Normal-type moves to Ghost-type. If the user is Ghost-type its Ghost-type moves have a 10% fear chance, otherwise it gains Ghost STAB."
-}
-ability {
   id: ABILITY_SPECTRAL_SHROUD
   name: "Spectral Shroud"
   description: "Spectralize + moves have 30% chance to badly poison the foe."
@@ -2358,6 +2352,12 @@ ability {
   name: "Arctic Fur"
   description: "Weakens incoming physical and special moves by 35%."
   expanded_description: "Reduces both physical and special damage by 35%. Multiplicative with other sources of damage reduction."
+}
+ability {
+  id: ABILITY_SPECTRALIZE
+  name: "Spectralize"
+  description: "Normal moves become Ghost. Ghost moves are empowered."
+  expanded_description: "Changes the user's Normal-type moves to Ghost-type. If the user is Ghost-type its Ghost-type moves have a 10% fear chance, otherwise it gains Ghost STAB."
 }
 ability {
   id: ABILITY_LETHARGY
