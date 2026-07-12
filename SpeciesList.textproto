@@ -149281,7 +149281,6 @@ species {
   visuals {
     icon {
       path: "polartic/icon"
-      palette: 3
     }
     front {
       path: "polartic/front"
@@ -180607,7 +180606,6 @@ species {
   visuals {
     icon {
       path: "polartic/bluemoon/icon"
-      palette: 3
     }
     front {
       path: "polartic/bluemoon/front"
