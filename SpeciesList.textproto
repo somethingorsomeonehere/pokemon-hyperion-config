@@ -188736,7 +188736,7 @@ species {
   visuals {
     icon {
       path: "roserade/mega/icon"
-      palette: 3
+      palette: 4
     }
     front {
       path: "roserade/mega/front"
