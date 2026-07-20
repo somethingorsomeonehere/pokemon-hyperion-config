@@ -1,0 +1,222 @@
+# proto-file: TrainerBattleSkillList.proto
+# proto-message: er.TrainerBattleSkillList
+
+# Made this a separate file rather than adding to the TrainerList protos for
+# ease of editing and separation of concerns, but can change in future maybe
+
+# ==== Route 103 ====
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_MUDKIP
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_TORCHIC
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_TREECKO
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_MUDKIP
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_TORCHIC
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_TREECKO
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+# ==== Route 102 ====
+trainer_skill {
+    trainer_id: TRAINER_CALVIN_1
+    skill {
+        skill_id: SKILL_NONE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_RICK
+    skill {
+        # Specifies permanent sticky web, but just gonna assume all hazards are permanent since it's Hell mode
+        skill_id: SKILL_STICKY_WEB
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ALLEN
+    skill {
+        skill_id: SKILL_SPIKES_1_LAYER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TIANA
+    skill {
+        skill_id: SKILL_ENTRY_LEECH_SEED
+        target { all {} }
+    }
+}
+# ==== Route 104 (South of Petalburg Woods) ====
+trainer_skill {
+    trainer_id: TRAINER_BILLY
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_UNNERVE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DARIAN
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_INNARDS_OUT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CINDY_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_CUTE_CHARM
+        target { all {} }
+    }
+}
+# ==== Petalburg Woods ====
+trainer_skill {
+    trainer_id: TRAINER_JAMES_1
+    skill {
+        skill_id: SKILL_TOXIC_SPIKES_2_LAYERS
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GRUNT_PETALBURG_WOODS
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_FILTER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_LYLE
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SWORD_OF_RUIN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BANEFUL_PETALBURG_WOODS
+    skill {
+        skill_id: SKILL_HAZARDS_ALL
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_MOVE_END_TURN_JUDGEMENT_60_BP
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SWARM
+        target { all {} }
+    }
+}
+# ==== Route 104 (North of Petalburg Woods) ====
+trainer_skill {
+    trainer_id: TRAINER_IVAN
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SUPER_LUCK
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_WINSTON_1
+    skill {
+        # Says "A mon switches", not sure if this is any mon switching or only when player or trainer mon switches
+        skill_id: SKILL_MOVE_ON_SWITCH_PAYDAY
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GINA_AND_MIA_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_FLASH_FIRE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HALEY_1
+    skill {
+        skill_id: SKILL_NO_CRIT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HALEY_1
+    skill {
+        skill_id: SKILL_NO_CRIT
+        target { all {} }
+    }
+}
+# ==== Rustboro Gym ====
+trainer_skill {
+    trainer_id: TRAINER_JOSH
+    # Skill description in doc says "+4 Def on entry for the lead & +1 Def every turn",
+    # not sure if +1 Def is only for lead or not
+    skill {
+        skill_id: SKILL_ENTRY_DEF_UP_4
+        target { first_n { n: 1 } }
+    }
+    skill {
+        skill_id: SKILL_END_TURN_DEF_UP_1
+        target { first_n { n: 1 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TOMMY
+    skill {
+        skill_id: SKILL_STEALTH_ROCKS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_BLEED
+        target { last_n { n: 2 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MARC
+    skill {
+        skill_id: SKILL_ENTRY_OMNIBOOST_2
+        target { last_n { n:2 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ROXANNE_1
+    skill {
+        skill_id: SKILL_LEFTOVERS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_PRESSURE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_END_TURN_HEAL_STATUS_30_PERCENT
+        target { all {} }
+    }
+}
