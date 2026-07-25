@@ -1,0 +1,974 @@
+# proto-file: TrainerBattleSkillList.proto
+# proto-message: er.TrainerBattleSkillList
+
+# Made this a separate file rather than adding to the TrainerList protos for
+# ease of editing and separation of concerns, but can change in future maybe
+
+# ==== Route 103 ====
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_MUDKIP
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_TORCHIC
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_ROUTE_103_TREECKO
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_MUDKIP
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_TORCHIC
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_ROUTE_103_TREECKO
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+# ==== Route 102 ====
+trainer_skill {
+    trainer_id: TRAINER_CALVIN_1
+    skill {
+        skill_id: SKILL_NONE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_RICK
+    skill {
+        skill_id: SKILL_PERMANENT_STICKY_WEB
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ALLEN
+    skill {
+        skill_id: SKILL_SPIKES_1_LAYER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TIANA
+    skill {
+        skill_id: SKILL_ON_ENTRY_LEECH_SEED
+        target { all {} }
+    }
+}
+# ==== Route 104 (South of Petalburg Woods) ====
+trainer_skill {
+    trainer_id: TRAINER_BILLY
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_UNNERVE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DARIAN
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_INNARDS_OUT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CINDY_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_CUTE_CHARM
+        target { all {} }
+    }
+}
+# ==== Petalburg Woods ====
+trainer_skill {
+    trainer_id: TRAINER_JAMES_1
+    skill {
+        skill_id: SKILL_TOXIC_SPIKES_2_LAYERS
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GRUNT_PETALBURG_WOODS
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_FILTER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_LYLE
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SWORD_OF_RUIN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BANEFUL_PETALBURG_WOODS
+    skill {
+        skill_id: SKILL_HAZARDS_ALL
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_TURN_MOVE_JUDGEMENT_60_BP
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SWARM
+        target { all {} }
+    }
+}
+# ==== Route 104 (North of Petalburg Woods) ====
+trainer_skill {
+    trainer_id: TRAINER_IVAN
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SUPER_LUCK
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_WINSTON_1
+    skill {
+        # Says "A mon switches", not sure if this is any mon switching or only when player or trainer mon switches
+        skill_id: SKILL_ON_SWITCH_MOVE_PAYDAY
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GINA_AND_MIA_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_FLASH_FIRE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HALEY_1
+    skill {
+        skill_id: SKILL_NO_CRIT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HALEY_1
+    skill {
+        skill_id: SKILL_NO_CRIT
+        target { all {} }
+    }
+}
+# ==== Rustboro Gym ====
+trainer_skill {
+    trainer_id: TRAINER_JOSH
+    # Skill description in doc says "+4 Def on entry for the lead & +1 Def every turn",
+    # not sure if +1 Def is only for lead or not
+    skill {
+        skill_id: SKILL_ON_ENTRY_DEF_UP_4
+        target { first_n { n: 1 } }
+    }
+    skill {
+        skill_id: SKILL_ON_END_TURN_DEF_UP_1
+        target { first_n { n: 1 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TOMMY
+    skill {
+        skill_id: SKILL_STEALTH_ROCKS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_BLEED
+        target { last_n { n: 2 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MARC
+    skill {
+        skill_id: SKILL_ON_ENTRY_OMNIBOOST_2
+        target { last_n { n: 2 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ROXANNE_1
+    skill {
+        skill_id: SKILL_LEFTOVERS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_PRESSURE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_TURN_HEAL_STATUS_30_PERCENT
+        target { all {} }
+    }
+}
+# ==== ROUTE 116 ====
+trainer_skill {
+    trainer_id: TRAINER_JOSE
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SHIELD_DUST
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JOSE
+    skill {
+        skill_id: SKILL_BURN_BOTH_SIDES
+        target { first_n { n: 3 } }
+        target { last_n { n: 3 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JERRY_1
+    skill {
+        skill_id: SKILL_ON_ENTRY_SPDEF_UP_1
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DAWSON
+    skill {
+        skill_id: SKILL_PERMANENT_SUN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_SARAH
+    skill {
+        skill_id: SKILL_PERMANENT_INVERSE_ROOM
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CLARK
+    skill {
+        skill_id: SKILL_EVIOLITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JANICE
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_KAREN_1
+    skill {
+        skill_id: SKILL_STICKY_WEB_BOTH_SIDES
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JOHNSON
+    skill {
+        skill_id: SKILL_PERMANENT_RAINBOW
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DEVAN
+    skill {
+        skill_id: SKILL_PERMANENT_SANDSTORM
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_NIDO_MEGAS_ROUTE116_RUSTURF
+    skill {
+        skill_id: SKILL_ON_END_TURN_MOVE_TICKLE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_EMPERORS_WRATH
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_FAINT_TAILWIND
+        target { all {} }
+    }
+}
+# ==== Rusturf Tunnel ====
+trainer_skill {
+    trainer_id: TRAINER_GRUNT_RUSTURF_TUNNEL
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SMOKEY_MANEUVERS
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MIKE_2
+    skill {
+        skill_id: SKILL_ON_ENTRY_POWER_TRICK_BOTH_SIDES
+        target { all {} }
+    }
+}
+# ==== Rival Fight (Rustboro) ====
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_RUSTBORO_TREECKO
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_RUSTBORO_TORCHIC
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BRENDAN_RUSTBORO_MUDKIP
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_RUSTBORO_TREECKO
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_RUSTBORO_TORCHIC
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MAY_RUSTBORO_MUDKIP
+    skill {
+        skill_id: SKILL_FOCUS_SASH
+        target { all {} }
+    }
+}
+# ==== ROUTE 105 ====
+trainer_skill {
+    trainer_id: TRAINER_IMANI
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_COMATOSE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SWEET_DREAMS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_HIT_DEFENDER_SLEEP_ATTACKER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DOMINIK
+    skill {
+        skill_id: SKILL_PERMANENT_SUN
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_CATASTROPHE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_SUN_WORSHIP
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_FOSTER
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_ACCELERATE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_ANALYTIC
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_ENTRY_OMNIBOOST_1
+        target { last_n { n: 1 } }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BEVERLY
+    skill {
+        skill_id: SKILL_DOUBLE_POWER_WATER
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_DISABLE_ABILITIES_AFTER_2_TURNS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_HALF_HP_SPEED_UP_1
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JOSUE
+    skill {
+        skill_id: SKILL_PERMANENT_RAINBOW
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ALLIES_SHARE_STAT_CHANGES
+        target { all {} }
+    }
+    skill {
+        # This was intended to be pre-nerf Friend Guard I assume?
+        skill_id: SKILL_ALLIES_50_PERCENT_DAMAGE_REDUCTION
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_LUIS
+    skill {
+        skill_id: SKILL_DOUBLE_POWER_FIGHTING
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_SPDEF_DEF_UP_4
+        target { last_n { n: 1 } }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_KNOW_YOUR_PLACE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ANDRES_1
+    skill {
+        skill_id: SKILL_FOLLOWUP_MOVE_PEBBLE_SHOWER
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_TURN_MOVE_ANCIENT_POWER
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_CONTACT_DEFENDER_SPEED_UP_2
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_FERALIGATRITEX_ROUTE105
+    skill {
+        skill_id: SKILL_PERMANENT_SWAMP
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_SUPER_EFFECTIVE_50_PERCENT_DAMAGE_REDUCTION
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_KO_HEAL_50_PERCENT_HP
+        target { all {} }
+    }
+}
+# ==== ROUTE 106 ====
+trainer_skill {
+    trainer_id: TRAINER_ELLIOT_1
+    skill {
+        skill_id: SKILL_ON_ENTRY_MOVE_MEAN_LOOK
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_NED
+    skill {
+        skill_id: SKILL_PERMANENT_RAIN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DOUGLAS
+    skill {
+        skill_id: SKILL_ON_END_TURN_MOVE_RECYCLE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_STICKY_HOLD
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_KYLA
+    skill {
+        skill_id: SKILL_PERMANENT_HAZARDS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_MYSTIC_POWER
+        target { all {} }
+    }
+}
+# ==== GRANITE CAVE ====
+trainer_skill {
+    trainer_id: TRAINER_STEVEN_GRANITE_CAVE
+    skill {
+        skill_id: SKILL_PERMANENT_PRIMORDIAL_SEA
+        target { all {} }
+    }
+}
+# TODO: Steven Stone Post-Brawly (not sure what the trainer ID is)
+# TODO: Trainer Hitmonstone (not sure what the trainer ID is, not sure how to implement the 3v6)
+# ==== ROUTE 107 ====
+trainer_skill {
+    trainer_id: TRAINER_DENISE
+    skill {
+        skill_id: SKILL_ROOM_ROULETTE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TONY_1
+    skill {
+        skill_id: SKILL_FOLLOWUP_MOVE_NIGHT_SHADE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PERMANENT_RAIN
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_EVERY_2_TURNS_MOVE_WATER_PLEDGE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_BETH
+    skill {
+        skill_id: SKILL_PERMANENT_MIST
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_ENTRY_MOVE_MAGNET_RISE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXPERT_BELT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CAMRON
+    skill {
+        skill_id: SKILL_QUICK_CLAW_100_PERCENT
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_STAB_MOVES_ARE_STATUS_MOVES
+        target { all {} }
+    }
+    skill {
+        # Should this be 1/16 instead?
+        skill_id: SKILL_ON_END_TURN_PLAYER_DAMAGE_ONE_EIGHTEENTH
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DARRIN
+    skill {
+        skill_id: SKILL_ON_END_TURN_MOVE_REFRESH
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_START_TURN_BADLY_POISON_BOTH_SIDES
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_ENTRY_PLAYER_HEAL_BLOCK
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_LISA_AND_RAY
+    skill {
+        skill_id: SKILL_ON_PLAYER_STAT_BOOSTING_MOVE_MOVE_SCRATCH
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_COPY_DANCE_MOVES_BOTH_SIDES
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_RING_TARGET
+        target { all {} }
+    }
+}
+# ==== ROUTE 108 ====
+trainer_skill {
+    trainer_id: TRAINER_MATTHEW
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_COMATOSE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_SUPPRESS_ABILITIES
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PERMANENT_TAILWIND
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_TARA
+    skill {
+        skill_id: SKILL_PLAYER_SALT_CURE_AND_CURSE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_ACCURATE_MOVE_25_PERCENT_LOWER_ACCURACY
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PLAYER_TORMENT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CAROLINA
+    skill {
+        skill_id: SKILL_NO_ITEM_50_PERCENT_DAMAGE_BOOST
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_SWITCH_RECOVER_ITEM
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_USE_ITEM_DOUBLE_SPEED
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JEROME
+    skill {
+        skill_id: SKILL_PERMANENT_ELECTRIC_TERRAIN
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_PERMANENT_PRIMORDIAL_SEA
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ELECTRIC_SUPER_EFFECTIVE_ON_GROUND
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MISSY
+    skill {
+        skill_id: SKILL_STAT_INCREASES_DOUBLED
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_STAT_DECREASES_RESTORED_INSTANTLY
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_HIT_LOWEST_DEF
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CORY_1
+    skill {
+        skill_id: SKILL_PERMANENT_SWAMP
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_FIRST_PLAYER_SUPER_EFFECTIVE_IMMUNE_UP_OFFENSE_1
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_RED_CARD
+        target { all {} }
+    }
+}
+# ==== ROUTE 108 ABANDONED SHIP ====
+trainer_skill {
+    trainer_id: TRAINER_THALIA_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_PURE_LOVE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_HIT_DEFENDER_MOVE_SWEET_KISS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_PIXIE_POWER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DEMETRIUS
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_ANGELS_WRATH
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_25_PERCENT_DAMAGE_BOOST_AND_HIT_LOWEST_DEF_VS_STATUSED
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_STATUS_MOVES_IGNORE_ABILITIES
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DUNCAN
+    skill {
+        skill_id: SKILL_BADLY_POISON_BOTH_SIDES
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_POISON_HEAL
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_SWITCH_PLAYER_MOVE_ANCHOR_SHOT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CHARLIE
+    skill {
+        skill_id: SKILL_ON_END_EVERY_2_TURNS_MOVE_WHIRLWIND
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_COSMIC_DAZE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_ENTRY_PLAYER_MOVE_CONFUSE_RAY
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GARRISON
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_BONE_ZONE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ALL_MOVES_ARE_BONE_MOVES
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_HAUNTING_FRENZY
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_JANI
+    skill {
+        skill_id: SKILL_ON_FAINT_MOVE_EXPLOSION_OR_OUTBURST_50_BP
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_INFLATABLE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_RED_CARD
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_LEVITATE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_KIRA_AND_DAN_1
+    skill {
+        skill_id: SKILL_PERMANENT_FIRE_SEA
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_EVERY_2_TURNS_MOVE_BURNING_JEALOUSY
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_FAINT_MOVE_RAGE_FIST
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_SHEDINJITE_ABANDONED_SHIP
+    skill {
+        skill_id: SKILL_ON_ENTRY_SUBSTITUTE
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_HEAVY_DUTY_BOOTS
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_TERA_SHELL
+        target { all {} }
+    }
+}
+# ==== ROUTE 109 ====
+trainer_skill {
+    trainer_id: TRAINER_LOLA_1
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_COMATOSE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CHANDLER
+    skill {
+        skill_id: SKILL_STEALTH_ROCKS
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ELIJAH
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_MOUNTAINEER
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_CARTER
+    skill {
+        # description says "uses substitute on switch in", surely it's ok to just give it a substitute instead of using the move
+        skill_id: SKILL_ON_ENTRY_SUBSTITUTE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_GWEN
+    skill {
+        skill_id: SKILL_PERMANENT_SUN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_AUSTINA
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_TECHNICIAN
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_EDMOND
+    skill {
+        skill_id: SKILL_ON_ENTRY_MOVE_BUBBLE_10_BP
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HUEY
+    skill {
+        skill_id: SKILL_TRAINER_FROSTBITE
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_HAILEY
+    skill {
+        skill_id: SKILL_FOCUS_BAND_30_PERCENT
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_RICKY_1
+    skill {
+        skill_id: SKILL_PLAYER_SOAK
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_MEL_AND_PAUL
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_VOLT_ABSORB
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_WATER_ABSORB
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_ALICE
+    skill {
+        skill_id: SKILL_PLAYER_LEECH_SEED
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_LEFTOVERS
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DAVID
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_REGENERATOR
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_ON_END_EVERY_2_TURNS_MOVE_TELEPORT
+        target { all {} }
+    }
+}
+# ==== ROUTE 109 SEAHOUSE ====
+# TODO: Trainer Simon (what is the "old" mud sport effect?)
+trainer_skill {
+    trainer_id: TRAINER_JOHANNA
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_CUTE_CHARM
+        target { all {} }
+    }
+}
+trainer_skill {
+    trainer_id: TRAINER_DWAYNE
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_MERCILESS
+        target { all {} }
+    }
+}
+# ==== DEWFORD MANOR ====
+trainer_skill {
+    trainer_id: TRAINER_CROBATITE_DEWFORD_MANOR
+    skill {
+        skill_id: SKILL_SPEED_FOR_DAMAGE_CALC
+        target { all {} }
+    }
+    skill {
+        skill_id: SKILL_EXTRA_ABILITY_PLAYER_NORMALIZE
+        target { all {} }
+    }
+    skill {
+        # could also use Trickster ability
+        skill_id: SKILL_ON_ENTRY_MOVE_DISABLE
+        target { all {} }
+    }
+}
+# ==== DEWFORD GYM ====

@@ -2,7 +2,7 @@
 # proto-message: er.BattleSkillList
 
 skill {
-  id: BATTLE_SKILL_NONE
+  id: SKILL_NONE
   name: "---"
 }
 
