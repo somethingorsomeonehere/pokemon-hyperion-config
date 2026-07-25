@@ -149803,7 +149803,6 @@ species {
   visuals {
     icon {
       path: "heliosunny/icon"
-      palette: 3
     }
     front {
       path: "heliosunny/front"
@@ -184516,7 +184515,7 @@ species {
   visuals {
     icon {
       path: "typhlosion/mega/icon"
-      palette: 3
+      palette: 4
     }
     front {
       path: "typhlosion/mega/front"
