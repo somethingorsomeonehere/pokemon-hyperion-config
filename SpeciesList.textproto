@@ -95028,7 +95028,6 @@ species {
       level: 24
       move: MOVE_ASTONISH
       move: MOVE_FLAME_BURST
-      move: MOVE_TRAILBLAZE
     }
     level {
       level: 37
@@ -188736,7 +188735,7 @@ species {
   visuals {
     icon {
       path: "roserade/mega/icon"
-      palette: 4
+      palette: 3
     }
     front {
       path: "roserade/mega/front"
@@ -213045,7 +213044,7 @@ species {
   spdef: 85
   spe: 130
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_MARINE_APEX
+  ability: ABILITY_MENACING_SITUATION
   ability: ABILITY_AMBUSH
   innate: ABILITY_PHANTOM
   innate: ABILITY_IMPALER

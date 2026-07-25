@@ -13747,7 +13747,7 @@ moves {
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
-  power: 60
+  power: 65
   accuracy: 100
   pp: 10
   effect_chance: 100
