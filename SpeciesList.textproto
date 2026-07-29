@@ -126687,8 +126687,28 @@ species {
       move: MOVE_SCATTER_BLAST
       move: MOVE_SHORE_UP
     }
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_COUNTER
+    tutor: MOVE_DIG
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_SPIKES
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_TOXIC
+    tutor: MOVE_WHIRLWIND
   }
   visuals {
     icon {
