@@ -5,4 +5,8 @@ skill {
   id: SKILL_NONE
   name: "---"
 }
-
+skill {
+  id: SKILL_EVIOLITE
+  name: "Eviolite"
+  announce_string: "{B_TRAINER1_NAME}'s team is protected by\\nEviolite."
+}

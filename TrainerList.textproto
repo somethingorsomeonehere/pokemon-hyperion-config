@@ -69206,6 +69206,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_EEVEE_PARTNER
       item: ITEM_LEFTOVERS
@@ -69658,6 +69659,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_EEVEE_PARTNER
       item: ITEM_LEFTOVERS
@@ -70112,6 +70114,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_NUZLEAF
       item: ITEM_FOCUS_SASH
@@ -70571,6 +70574,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_GROVYLE
       item: ITEM_CHOICE_SCARF
@@ -71026,6 +71030,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_COMBUSKEN
       item: ITEM_RED_CARD
@@ -71482,6 +71487,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_PIKACHU_PARTNER
       item: ITEM_LIGHT_BALL
@@ -84996,6 +85002,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_SUDOWOODO
       item: ITEM_CUSTAP_BERRY
