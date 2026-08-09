@@ -79160,6 +79160,87 @@ trainer {
       move: MOVE_ICE_FANG
     }
   }
+  hell {
+    skill: SKILL_PERMANENT_STICKY_WEB
+    mon {
+      species: SPECIES_CRABOMINABLE_REDUX
+      item: ITEM_EVIOLITE
+      nature: NATURE_IMPISH
+      ability: ABILITY_MERCILESS
+      hp_ev: 252
+      atk_ev: 252
+      def_ev: 252
+      move: MOVE_EARTHSPLITTER
+      move: MOVE_HAMMER_ARM
+      move: MOVE_SMASHIN_REALITIES
+      move: MOVE_SPINE_BREAKER
+    }
+    mon {
+      species: SPECIES_LURANTIS
+      item: ITEM_SHELL_BELL
+      nature: NATURE_JOLLY
+      ability: ABILITY_CONTRARY
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_YGGDRASIL_FORCE
+      move: MOVE_HAMMER_ARM
+      move: MOVE_DUAL_CHOP
+      move: MOVE_FURY_CUTTER
+    }
+    mon {
+      species: SPECIES_SALAZZLE
+      item: ITEM_EJECT_PACK
+      nature: NATURE_TIMID
+      ability: ABILITY_MERCILESS
+      spa_ev: 252
+      spd_ev: 252
+      spe_ev: 252
+      move: MOVE_DRACO_METEOR
+      move: MOVE_OVERHEAT
+      move: MOVE_ENCORE
+      move: MOVE_SLUDGE_WAVE
+    }
+    mon {
+      species: SPECIES_HAXORUS
+      item: ITEM_HAXORUSITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_KEEN_EDGE
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_SACRED_SWORD
+      move: MOVE_EXCALIBUR
+      move: MOVE_DUAL_CHOP
+      move: MOVE_DIAMOND_BLADE
+    }
+    mon {
+      species: SPECIES_WEAVILE_REDUX
+      item: ITEM_MUSCLE_BAND
+      nature: NATURE_JOLLY
+      ability: ABILITY_TECHNICIAN
+      hp_ev: 252
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_TRIPLE_TREMOR
+      move: MOVE_FAKE_OUT
+      move: MOVE_KNOCK_OFF
+      move: MOVE_DIRE_CLAW
+    }
+    mon {
+      species: SPECIES_LUXRAY
+      item: ITEM_LUXRAYNITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_FRISK
+      atk_ev: 252
+      def_ev: 252
+      spe_ev: 252
+      move: MOVE_THUNDER_FANG
+      move: MOVE_ICE_FANG
+      move: MOVE_SHARPEN
+      move: MOVE_RIP_AND_TEAR
+    }
+  }
 }
 trainer {
   id: TRAINER_ISABELLA
@@ -82207,6 +82288,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_STICKY_WEB
     mon {
       species: SPECIES_SWADLOON
       item: ITEM_EVIOLITE

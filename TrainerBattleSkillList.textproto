@@ -4,57 +4,7 @@
 # Made this a separate file rather than adding to the TrainerList protos for
 # ease of editing and separation of concerns, but can change in future maybe
 
-# ==== Route 103 Rival Fight ====
-trainer_skill {
-    trainer_id: TRAINER_BRENDAN_ROUTE_103_MUDKIP
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_BRENDAN_ROUTE_103_TORCHIC
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_BRENDAN_ROUTE_103_TREECKO
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_MAY_ROUTE_103_MUDKIP
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_MAY_ROUTE_103_TORCHIC
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_MAY_ROUTE_103_TREECKO
-    skill {
-        skill_id: SKILL_EVIOLITE
-        target { all {} }
-    }
-}
 # ==== Route 102 ====
-trainer_skill {
-    trainer_id: TRAINER_CALVIN_1
-    skill {
-        skill_id: SKILL_NONE
-        target { all {} }
-    }
-}
 trainer_skill {
     trainer_id: TRAINER_RICK
     skill {

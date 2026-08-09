@@ -10,3 +10,8 @@ skill {
   name: "Eviolite"
   announce_string: "{B_TRAINER1_NAME}'s team is protected by\\nEviolite."
 }
+skill {
+  id: SKILL_PERMANENT_STICKY_WEB
+  name: "Sticky Web"
+  announce_string: "A sticky web spreads out on the\nground around {B_PLAYER_NAME} team!"
+}
