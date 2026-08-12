@@ -79193,8 +79193,8 @@ trainer {
       item: ITEM_EJECT_PACK
       nature: NATURE_TIMID
       ability: ABILITY_MERCILESS
-      spa_ev: 252
-      spd_ev: 252
+      spatk_ev: 252
+      spdef_ev: 252
       spe_ev: 252
       move: MOVE_DRACO_METEOR
       move: MOVE_OVERHEAT
