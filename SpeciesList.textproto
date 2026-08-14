@@ -191359,7 +191359,7 @@ species {
   ability: ABILITY_JUGGERNAUT
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_LEAD_COAT
-  innate: ABILITY_GOOEY
+  innate: ABILITY_SLIME_MOLD
   genderless: true
   tier: 3
   form_shift_of: SPECIES_GROTOM
