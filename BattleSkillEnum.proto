@@ -5,6 +5,11 @@ package er;
 option java_package = "er.proto";
 option java_multiple_files = true;
 
+enum BattleSkillTemplateEnum {
+  SKILL_TEMPLATE_NONE = 0;
+  SKILL_TEMPLATE_EXTRA_ABILITY = 1;
+}
+
 enum BattleSkillEnum {
   SKILL_NONE = 0;
   SKILL_EVIOLITE = 1;

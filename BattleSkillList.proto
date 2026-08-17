@@ -9,10 +9,26 @@ option java_multiple_files = true;
 
 message BattleSkillList {
   repeated BattleSkill skill = 1;
+  repeated BattleSkillTemplate template = 2;
 }
 
 message BattleSkill {
   BattleSkillEnum id = 1;
   string name = 2;
   string announce_string = 3;
+}
+
+enum BattleSkillTemplateParam {
+  SKILL_PARAM_NONE = 0;
+  SKILL_PARAM_ABILITY = 1;
+}
+
+message BattleSkillTemplate {
+  message ParamStrings {
+    string announce = 1;
+    repeated BattleSkillTemplateParam param = 2;
+  }
+
+  BattleSkillTemplateEnum id = 1;
+  string name = 2;
 }

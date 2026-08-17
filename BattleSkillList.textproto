@@ -1,6 +1,11 @@
 # proto-file: BattleSkillList.proto
 # proto-message: er.BattleSkillList
 
+template {
+  id: SKILL_TEMPLATE_EXTRA_ABILITY
+  name: ""
+}
+
 skill {
   id: SKILL_NONE
   name: "---"
@@ -13,5 +18,5 @@ skill {
 skill {
   id: SKILL_PERMANENT_STICKY_WEB
   name: "Sticky Web"
-  announce_string: "A sticky web spreads out on the\nground around {B_PLAYER_NAME} team!"
+  announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME} team!"
 }
