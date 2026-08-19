@@ -18,5 +18,81 @@ skill {
 skill {
   id: SKILL_PERMANENT_STICKY_WEB
   name: "Sticky Web"
-  announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME} team!"
+  announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+}
+skill {
+  id: SKILL_SPIKES_1_LAYER
+  name: "Spikes 1x"
+  announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
+}
+skill {
+  id: SKILL_ON_ENTRY_LEECH_SEED
+  name: "Leech Seed"
+  announce_string: "A seed was planted on {B_DEF_NAME_WITH_PREFIX}!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_UNNERVE
+  name: "Extra Ability: Unnerve"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Unnerve ability!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_INNARDS_OUT
+  name: "Extra Ability: Innards Out"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Innards Out ability!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_CUTE_CHARM
+  name: "Extra Ability: Cute Charm"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Cute Charm ability!"
+}
+skill {
+  id: SKILL_TOXIC_SPIKES_2_LAYERS
+  name: "Toxic Spikes 2x"
+  announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME} team!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_FILTER
+  name: "Extra Ability: Filter"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Filter ability!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_SWORD_OF_RUIN
+  name: "Extra Ability: Sword of Ruin"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Sword of Ruin ability!"
+}
+skill {
+  id: SKILL_HAZARDS_ALL
+  name: "All Hazards"
+  # TODO: Come up with better announce string for this skill
+  announce_string: "All hazards were scattered around {B_PLAYER_NAME}'s team!"
+}
+skill {
+  id: SKILL_ON_END_TURN_MOVE_JUDGEMENT_60_BP
+  name: "Judgement on Turn End"
+  announce_string: "{B_TRAINER1_NAME}'s team uses 60 BP Judgement on turn end!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_SWARM
+  name: "Extra Ability: Swarm"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Swarm ability!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_SUPER_LUCK
+  name: "Extra Ability: Super Luck"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Super Luck ability!"
+}
+skill {
+  id: SKILL_ON_SWITCH_MOVE_PAYDAY
+  name: "Payday on Switch"
+  announce_string: "{B_TRAINER1_NAME}'s team uses Payday whenever \\na Pokémon switches!"
+}
+skill {
+  id: SKILL_EXTRA_ABILITY_FLASH_FIRE
+  name: "Extra Ability: Flash Fire"
+  announce_string: "{B_TRAINER1_NAME}'s team gains the Flash Fire ability!"
+}
+skill {
+  id: SKILL_NO_CRIT
+  name: "Critical Hit Immunity"
+  announce_string: "{B_TRAINER1_NAME}'s team is immune to critical hits!"
 }
