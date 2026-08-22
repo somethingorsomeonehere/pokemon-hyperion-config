@@ -34196,7 +34196,7 @@ species {
   def: 75
   spatk: 75
   spdef: 75
-  spe: 55
+  spe: 75
   ability: ABILITY_INTIMIDATE
   ability: ABILITY_TOUGH_CLAWS
   ability: ABILITY_PREDATOR
@@ -47646,12 +47646,12 @@ species {
   spatk: 40
   spdef: 40
   spe: 30
-  ability: ABILITY_SCRAPYARD
-  ability: ABILITY_ROCK_HEAD
+  ability: ABILITY_JUGGERNAUT
+  ability: ABILITY_HEATPROOF
   ability: ABILITY_IRON_BARBS
-  innate: ABILITY_STURDY
-  innate: ABILITY_BATTLE_ARMOR
   innate: ABILITY_LEAD_COAT
+  innate: ABILITY_FILTER
+  innate: ABILITY_IMPENETRABLE
   percent_female: 50
   tier: 4
   evo {
@@ -47816,11 +47816,11 @@ species {
   spatk: 50
   spdef: 50
   spe: 40
-  ability: ABILITY_STURDY
-  ability: ABILITY_SOUNDPROOF
+  ability: ABILITY_JUGGERNAUT
+  ability: ABILITY_HEATPROOF
   ability: ABILITY_IRON_BARBS
   innate: ABILITY_LEAD_COAT
-  innate: ABILITY_JUGGERNAUT
+  innate: ABILITY_FILTER
   innate: ABILITY_IMPENETRABLE
   percent_female: 50
   evo {
