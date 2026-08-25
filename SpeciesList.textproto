@@ -20784,6 +20784,7 @@ species {
     level {
       level: 46
       move: MOVE_DEATHROLL
+      move: MOVE_DRAGON_ASCENT
       move: MOVE_FLAIL
       move: MOVE_SCALE_SHOT
       move: MOVE_WRING_OUT
@@ -20791,17 +20792,10 @@ species {
     }
     level {
       level: 51
+      move: MOVE_DRACO_METEOR
       move: MOVE_OUTRAGE
       move: MOVE_POWER_TRIP
-    }
-    level {
-      level: 56
-      move: MOVE_DRACO_METEOR
       move: MOVE_TRUMP_CARD
-    }
-    level {
-      level: 61
-      move: MOVE_DRAGON_ASCENT
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
@@ -45248,7 +45242,7 @@ species {
     trainer_offset: 1
   }
   type: TYPE_NORMAL
-  hp: 130
+  hp: 150
   atk: 160
   def: 110
   spatk: 75
@@ -52960,9 +52954,9 @@ species {
   type2: TYPE_PSYCHIC
   hp: 90
   atk: 55
-  def: 65
+  def: 100
   spatk: 125
-  spdef: 115
+  spdef: 100
   spe: 70
   ability: ABILITY_SCARE
   ability: ABILITY_SAGE_POWER
@@ -53154,9 +53148,9 @@ species {
   type2: TYPE_PSYCHIC
   hp: 90
   atk: 125
-  def: 115
+  def: 100
   spatk: 55
-  spdef: 65
+  spdef: 100
   spe: 70
   ability: ABILITY_VICTORY_STAR
   ability: ABILITY_DROUGHT
@@ -53208,10 +53202,6 @@ species {
     level {
       level: 51
       move: MOVE_PSYCHOKINETIC_SLAM
-    }
-    level {
-      level: 56
-      move: MOVE_V_CREATE
     }
     tutor: MOVE_CALM_MIND
     tutor: MOVE_COUNTER
@@ -60493,10 +60483,6 @@ species {
       level: 56
       move: MOVE_PRECIPICE_BLADES
     }
-    level {
-      level: 81
-      move: MOVE_V_CREATE
-    }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
@@ -60658,6 +60644,7 @@ species {
       level: 46
       move: MOVE_AEROBLAST
       move: MOVE_DRACO_METEOR
+      move: MOVE_FLARE_BLITZ
     }
     level {
       level: 51
@@ -60667,10 +60654,6 @@ species {
     level {
       level: 56
       move: MOVE_DRAGON_ASCENT
-    }
-    level {
-      level: 81
-      move: MOVE_V_CREATE
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
@@ -76322,18 +76305,18 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  hp: 140
-  atk: 160
+  hp: 160
+  atk: 120
   def: 120
-  spatk: 70
+  spatk: 50
   spdef: 120
-  spe: 60
-  ability: ABILITY_ADAPTABILITY
-  ability: ABILITY_STALL
-  ability: ABILITY_RAGING_BOXER
-  innate: ABILITY_POWER_CORE
-  innate: ABILITY_IMPENETRABLE
-  innate: ABILITY_JUGGERNAUT
+  spe: 100
+  ability: ABILITY_ANCIENT_IDOL
+  ability: ABILITY_FORT_KNOX
+  ability: ABILITY_IMPENETRABLE
+  innate: ABILITY_GAIA_SHAPER
+  innate: ABILITY_SLOW_START
+  innate: ABILITY_MYSTIC_POWER
   genderless: true
   learnset {
     level {
@@ -76359,25 +76342,38 @@ species {
     }
     level {
       level: 37
+      move: MOVE_DYNAMIC_PUNCH
+      move: MOVE_FISSURE
       move: MOVE_GLACIER_CRASH
       move: MOVE_GYRO_BALL
       move: MOVE_HAMMER_ARM
+      move: MOVE_MOUNTAIN_CHUNK
       move: MOVE_SEISMIC_SLAM
     }
     level {
       level: 46
+      move: MOVE_CORE_ENFORCER
       move: MOVE_DOUBLE_EDGE
+      move: MOVE_DRAGON_ENERGY
+      move: MOVE_HEAD_SMASH
       move: MOVE_ICE_HAMMER
+      move: MOVE_ROCK_WRECKER
+      move: MOVE_SUBMISSION
     }
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
       move: MOVE_CRUSH_GRIP
+      move: MOVE_DYNAMAX_CANNON
+      move: MOVE_PLASMA_PULSE
+      move: MOVE_RISING_VOLTAGE
     }
     level {
       level: 56
-      move: MOVE_DOUBLE_IRON_BASH
-      move: MOVE_ROCK_WRECKER
+      move: MOVE_BLEAKWIND_STORM
+      move: MOVE_BOOMBURST
+      move: MOVE_FEMUR_BREAKER
+      move: MOVE_SANDSEAR_STORM
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
@@ -77437,6 +77433,7 @@ species {
       level: 51
       move: MOVE_DOUBLE_HIT
       move: MOVE_EXTREME_SPEED
+      move: MOVE_FLARE_BLITZ
       move: MOVE_TRUMP_CARD
     }
     level {
@@ -77453,7 +77450,6 @@ species {
       move: MOVE_DRAGON_ASCENT
       move: MOVE_ORIGIN_PULSE
       move: MOVE_PRECIPICE_BLADES
-      move: MOVE_V_CREATE
     }
     level {
       level: 81
@@ -100207,10 +100203,6 @@ species {
       move: MOVE_BLUE_FLARE
       move: MOVE_TORCH_SONG
     }
-    level {
-      level: 71
-      move: MOVE_V_CREATE
-    }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_CALM_MIND
     tutor: MOVE_DRAGON_CHEER
@@ -120354,7 +120346,6 @@ species {
       level: 71
       move: MOVE_BEHEMOTH_BASH
       move: MOVE_SACRED_FIRE
-      move: MOVE_V_CREATE
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BODY_PRESS
@@ -121505,6 +121496,7 @@ species {
     level {
       level: 51
       move: MOVE_DOOM_DESIRE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_MOONGEIST_BEAM
       move: MOVE_PSYSHIELD_BASH
       move: MOVE_SUNSTEEL_STRIKE
@@ -121527,7 +121519,6 @@ species {
     level {
       level: 71
       move: MOVE_ASTRAL_BARRAGE
-      move: MOVE_V_CREATE
     }
     level {
       level: 81
@@ -140854,11 +140845,13 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
@@ -140867,7 +140860,6 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
   }
   visuals {
     icon {
@@ -140920,7 +140912,7 @@ species {
   def: 72
   spatk: 53
   spdef: 62
-  spe: 100
+  spe: 150
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_WATER_GALE_WINGS
   ability: ABILITY_DAMP
@@ -140967,6 +140959,7 @@ species {
     }
     level {
       level: 56
+      move: MOVE_SURGING_STRIKES
       move: MOVE_WAVE_CRASH
     }
     tutor: MOVE_ACROBATICS
@@ -145913,10 +145906,6 @@ species {
       level: 56
       move: MOVE_MAGMA_STORM
     }
-    level {
-      level: 81
-      move: MOVE_V_CREATE
-    }
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_FIRE_BLAST
@@ -150537,9 +150526,7 @@ species {
     }
     level {
       level: 46
-      move: MOVE_BITTER_MALICE
       move: MOVE_FLAIL
-      move: MOVE_PYRO_BALL
       move: MOVE_REQUIEM
       move: MOVE_OVERHEAT
     }
@@ -150547,10 +150534,6 @@ species {
       level: 51
       move: MOVE_RAGING_SOULS
       move: MOVE_STORED_POWER
-    }
-    level {
-      level: 56
-      move: MOVE_LAST_RESPECTS
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BRAVADO
@@ -179830,17 +179813,17 @@ species {
   form_of: SPECIES_PALAFIN
   type: TYPE_WATER
   hp: 100
-  atk: 160
-  def: 97
-  spatk: 106
-  spdef: 87
+  atk: 180
+  def: 100
+  spatk: 90
+  spdef: 100
   spe: 100
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_AVENGER
   ability: ABILITY_DAMP
   innate: ABILITY_ZERO_TO_HERO
   innate: ABILITY_JUSTIFIED
-  innate: ABILITY_ADAPTABILITY
+  innate: ABILITY_IRON_FIST
   percent_female: 50
   uses_learnset: SPECIES_PALAFIN
   visuals {
@@ -181313,7 +181296,7 @@ species {
   form_of: SPECIES_SLAKING
   type: TYPE_NORMAL
   type2: TYPE_ICE
-  hp: 130
+  hp: 150
   atk: 210
   def: 110
   spatk: 85
@@ -183945,7 +183928,7 @@ species {
   form_of: SPECIES_SLAKING
   type: TYPE_NORMAL
   type2: TYPE_ICE
-  hp: 130
+  hp: 150
   atk: 210
   def: 110
   spatk: 85
@@ -200116,6 +200099,11 @@ species {
       move: MOVE_SKY_ATTACK
       move: MOVE_TACHYON_CUTTER
     }
+    level {
+      level: 56
+      move: MOVE_FINAL_GAMBIT
+      move: MOVE_V_CREATE
+    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -204540,10 +204528,10 @@ species {
   hp: 90
   atk: 125
   def: 115
-  spatk: 125
+  spatk: 75
   spdef: 115
   spe: 120
-  ability: ABILITY_PHANTOM
+  ability: ABILITY_EQUINOX
   ability: ABILITY_FEARMONGER
   ability: ABILITY_MYSTIC_POWER
   innate: ABILITY_DESOLATE_LAND
@@ -204614,10 +204602,7 @@ species {
     level {
       level: 56
       move: MOVE_DIAMOND_STORM
-      move: MOVE_V_CREATE
-    }
-    level {
-      level: 100
+      move: MOVE_OVERHEAT
       move: MOVE_SHELL_SMASH
     }
     tutor: MOVE_ACROBATICS
@@ -209759,7 +209744,6 @@ species {
     }
     level {
       level: 61
-      move: MOVE_V_CREATE
       move: MOVE_DRAGON_ASCENT
       move: MOVE_DRACO_METEOR
       move: MOVE_ASTRAL_BARRAGE

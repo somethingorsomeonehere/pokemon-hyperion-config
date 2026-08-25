@@ -673,8 +673,8 @@ ability {
 ability {
   id: ABILITY_SLOW_START
   name: "Slow Start"
-  description: "Halves Offenses and Speed during the first 5 turns out."
-  expanded_description: "Halves Attack, Special Attack, and Speed for the first 5 turns after switching in. The turn counter resets each time the Pokemon switches out."
+  description: "-50% dmg taken. 5 turns of -50% dmg and speed, but then +50%."
+  expanded_description: "Halves damage taken. Halves Attack, Special Attack, and Speed for the first 5 turns after switching in. But then +50% Attack, Special Attack and Speed afterwards. The turn counter resets each time the Pokemon switches out."
 }
 ability {
   id: ABILITY_SCRAPPY
@@ -1014,7 +1014,7 @@ ability {
 ability {
   id: ABILITY_FUR_COAT
   name: "Fur Coat"
-  description: "Halves damage taken by Physical moves. Does NOT double Defense."
+  description: "Doubles Defense."
   expanded_description: "Halves all incoming Attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
@@ -1476,7 +1476,7 @@ ability {
 ability {
   id: ABILITY_ICE_SCALES
   name: "Ice Scales"
-  description: "Halves damage taken by Special moves. Does NOT double SpDef."
+  description: "Doubles SpDef."
   expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
@@ -2350,7 +2350,7 @@ ability {
 ability {
   id: ABILITY_ARCTIC_FUR
   name: "Arctic Fur"
-  description: "Weakens incoming physical and special moves by 35%."
+  description: "1.5x Defense and Special Defense."
   expanded_description: "Reduces both physical and special damage by 35%. Multiplicative with other sources of damage reduction."
 }
 ability {
@@ -3422,7 +3422,7 @@ ability {
 ability {
   id: ABILITY_FIRE_SCALES
   name: "Fire Scales"
-  description: "Halves damage taken by Special moves. Does NOT double SpDef."
+  description: "Doubles SpDef."
   expanded_description: "Halves all incoming special attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
@@ -3973,7 +3973,7 @@ ability {
 ability {
   id: ABILITY_FUNERAL_PYRE
   name: "Funeral Pyre"
-  description: "Non-Ghost and Dark-types take 1/4 damage every turn."
+  description: "Non-Ghost and Dark-types take 1/8 damage every turn."
 }
 ability {
   id: ABILITY_FLAME_BUBBLE
@@ -4893,8 +4893,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Enrages in fog, reduces damage taken by 20% when enraged."
-  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 20% when the user is enraged and it takes no damage from enrage."
+  description: "Enrages in fog, reduces damage taken by 50% when enraged."
+  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged."
 }
 ability {
   id: ABILITY_TENTALOCK
@@ -5209,7 +5209,7 @@ ability {
 ability {
   id: ABILITY_ICE_PLUMES
   name: "Ice Plumes"
-  description: "Halves damage taken by Special moves. Does NOT double SpDef."
+  description: "Doubles SpDef."
   expanded_description: "Boosts Speed by +2 stages when hit by Rock-type moves or when switching in with Stealth Rock present. Also, absorbs any Rock-type or Stealth Rock damage and heals for 25% of their max HP."
 }
 ability {
@@ -6110,4 +6110,10 @@ ability {
   name: "Overclock"
   description: "Ground Shock + Overcharge"
   expanded_description: "The user's Electric-type moves hit Ground types for not very effective damage instead of no effect, and hit Electric types for super effective damage instead of not very effective. The user can paralyze Electric types."
+}
+ability {
+  id: ABILITY_GAIA_SHAPER
+  name: "Gaia Shaper"
+  description: "Atlas + Power Core + Immune to crits and paralysis."
+  expanded_description: "Sets Gravity on entry for 8 turns + Moves use +20% of Def or SpDef + Immune to critical hits and paralysis."
 }

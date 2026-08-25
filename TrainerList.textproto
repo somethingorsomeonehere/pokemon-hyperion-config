@@ -37460,7 +37460,7 @@ trainer {
       def_ev: 4
       spe_ev: 252
       move: MOVE_DRAGON_ASCENT
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_EXTREME_SPEED
       move: MOVE_DRACONIC_FANGS
     }
@@ -37509,7 +37509,7 @@ trainer {
       move: MOVE_EXTREME_SPEED
       move: MOVE_DRAGON_ASCENT
       move: MOVE_DRAGON_CLAW
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
     }
     mon {
       species: SPECIES_DRAGONITE_DELIVERY
@@ -37739,7 +37739,7 @@ trainer {
       def_ev: 4
       spe_ev: 252
       move: MOVE_DRAGON_ASCENT
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_EXTREME_SPEED
       move: MOVE_SWORDS_DANCE
     }
@@ -37776,7 +37776,7 @@ trainer {
       def_ev: 4
       spe_ev: 252
       move: MOVE_DRAGON_ASCENT
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_EXTREME_SPEED
       move: MOVE_SWORDS_DANCE
     }
@@ -40946,7 +40946,7 @@ trainer {
       def_ev: 4
       spe_ev: 252
       move: MOVE_DRAGON_ASCENT
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_EXTREME_SPEED
       move: MOVE_SWORDS_DANCE
     }
@@ -48157,7 +48157,7 @@ trainer {
       spdef_ev: 252
       spe_ev: 252
       move: MOVE_EXTREME_SPEED
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_DRAGON_ASCENT
       move: MOVE_DRACONIC_FANGS
     }
@@ -80269,7 +80269,7 @@ trainer {
       atk_ev: 252
       spdef_ev: 100
       move: MOVE_PRECIPICE_BLADES
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_DRAGON_HAMMER
       move: MOVE_SHORE_UP
     }
@@ -80349,7 +80349,7 @@ trainer {
       atk_ev: 252
       spdef_ev: 252
       move: MOVE_PRECIPICE_BLADES
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_DRAGON_HAMMER
       move: MOVE_SHORE_UP
     }
@@ -84834,7 +84834,7 @@ trainer {
       atk_ev: 252
       spe_ev: 252
       move: MOVE_SOLAR_BLADE
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_STONE_EDGE
       move: MOVE_EXPLOSION
     }
@@ -100244,7 +100244,7 @@ trainer {
       atk_ev: 252
       spdef_ev: 100
       move: MOVE_PRECIPICE_BLADES
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_STONE_EDGE
       move: MOVE_SHORE_UP
     }
@@ -107378,7 +107378,7 @@ trainer {
       move: MOVE_DRAGON_ASCENT
       move: MOVE_EARTHQUAKE
       move: MOVE_EXTREME_SPEED
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
     }
   }
 }
@@ -113246,7 +113246,7 @@ trainer {
       hp_ev: 252
       atk_ev: 252
       def_ev: 4
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
       move: MOVE_PRECIPICE_BLADES
       move: MOVE_DRAGON_HAMMER
       move: MOVE_SHORE_UP
@@ -113541,7 +113541,7 @@ trainer {
       move: MOVE_SHADOW_CLAW
       move: MOVE_DRAGON_DANCE
       move: MOVE_PLAY_ROUGH
-      move: MOVE_V_CREATE
+      move: MOVE_FLARE_BLITZ
     }
   }
 }
