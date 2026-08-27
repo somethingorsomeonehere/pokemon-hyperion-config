@@ -9415,7 +9415,7 @@ species {
   ability: ABILITY_IMMOLATE
   innate: ABILITY_GUARD_DOG
   innate: ABILITY_JUSTIFIED
-  innate: ABILITY_PREDATOR
+  innate: ABILITY_FUR_COAT
   percent_female: 25
   learnset {
     level {
@@ -25643,14 +25643,14 @@ species {
     pokemon_offset: 11
   }
   type: TYPE_NORMAL
-  hp: 85
-  atk: 86
-  def: 64
-  spatk: 40
+  hp: 100
+  atk: 90
+  def: 70
+  spatk: 35
   spdef: 70
-  spe: 115
+  spe: 135
   ability: ABILITY_MOMENTUM
-  ability: ABILITY_NORMALIZE
+  ability: ABILITY_ULTRA_INSTINCT
   ability: ABILITY_ADAPTABILITY
   innate: ABILITY_SCRAPPY
   innate: ABILITY_FIELD_EXPLORER
@@ -34057,9 +34057,9 @@ species {
   spatk: 50
   spdef: 50
   spe: 60
-  ability: ABILITY_SCRAPPY
+  ability: ABILITY_NORMALIZE
   ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_PICKUP
+  ability: ABILITY_FRISK
   innate: ABILITY_GUTS
   innate: ABILITY_QUICK_FEET
   innate: ABILITY_FUR_COAT
@@ -34191,9 +34191,9 @@ species {
   spatk: 75
   spdef: 75
   spe: 75
-  ability: ABILITY_INTIMIDATE
+  ability: ABILITY_NORMALIZE
   ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_PREDATOR
+  ability: ABILITY_FRISK
   innate: ABILITY_GUTS
   innate: ABILITY_QUICK_FEET
   innate: ABILITY_FUR_COAT
@@ -140914,10 +140914,10 @@ species {
   spdef: 62
   spe: 150
   ability: ABILITY_FRIEND_GUARD
-  ability: ABILITY_WATER_GALE_WINGS
   ability: ABILITY_DAMP
+  ability: ABILITY_WATER_GALE_WINGS
   innate: ABILITY_ZERO_TO_HERO
-  innate: ABILITY_JUSTIFIED
+  innate: ABILITY_SUPERHERO
   innate: ABILITY_WATER_VEIL
   percent_female: 50
   learnset {
@@ -140982,6 +140982,7 @@ species {
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_MACH_PUNCH
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
@@ -151924,7 +151925,6 @@ species {
       move: MOVE_CHEAP_SHOT
       move: MOVE_RAGE
       move: MOVE_SUPERPOWER
-      move: MOVE_KINESIS
     }
     level {
       level: 61
@@ -179812,17 +179812,17 @@ species {
   id: SPECIES_PALAFIN_HERO
   form_of: SPECIES_PALAFIN
   type: TYPE_WATER
-  hp: 100
-  atk: 180
+  hp: 150
+  atk: 200
   def: 100
-  spatk: 90
+  spatk: 20
   spdef: 100
   spe: 100
   ability: ABILITY_FRIEND_GUARD
   ability: ABILITY_AVENGER
-  ability: ABILITY_DAMP
+  ability: ABILITY_PARRY
   innate: ABILITY_ZERO_TO_HERO
-  innate: ABILITY_JUSTIFIED
+  innate: ABILITY_SUPERHERO
   innate: ABILITY_IRON_FIST
   percent_female: 50
   uses_learnset: SPECIES_PALAFIN
@@ -186524,7 +186524,7 @@ species {
   ability: ABILITY_TINTED_LENS
   innate: ABILITY_DRAGONFLY
   innate: ABILITY_SNOWY_WRATH
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_ARCTIC_FUR
   percent_female: 50
   mega {
     from: SPECIES_FLYGON_REDUX
@@ -190704,7 +190704,7 @@ species {
   ability: ABILITY_PREDATOR
   ability: ABILITY_LUMBERJACK
   ability: ABILITY_HYPER_CUTTER
-  innate: ABILITY_MONSTER_HUNTER
+  innate: ABILITY_PUNISHER
   innate: ABILITY_STEELWORKER
   innate: ABILITY_CHAINSAW
   percent_female: 50
@@ -190810,7 +190810,7 @@ species {
   ability: ABILITY_KEEN_EDGE
   ability: ABILITY_LUMBERJACK
   ability: ABILITY_BLOOD_PRICE
-  innate: ABILITY_MONSTER_HUNTER
+  innate: ABILITY_PUNISHER
   innate: ABILITY_DEEP_CUTS
   innate: ABILITY_CHAINSAW
   percent_female: 50
@@ -206944,7 +206944,7 @@ species {
   ability: ABILITY_REFRIGERATE
   ability: ABILITY_SNOW_WARNING
   innate: ABILITY_STRONG_JAW
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_ARCTIC_FUR
   innate: ABILITY_OVERCOAT
   percent_female: 50
   tier: 3
@@ -207054,7 +207054,7 @@ species {
   ability: ABILITY_FROZEN_SOUL
   ability: ABILITY_SNOW_WARNING
   innate: ABILITY_DRAGONFLY
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_ARCTIC_FUR
   innate: ABILITY_OVERCOAT
   percent_female: 50
   evo {
@@ -207168,7 +207168,7 @@ species {
   ability: ABILITY_FROZEN_SOUL
   ability: ABILITY_SNOW_WARNING
   innate: ABILITY_DRAGONFLY
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_ARCTIC_FUR
   innate: ABILITY_MOUNTAINEER
   percent_female: 50
   learnset {
@@ -211846,7 +211846,7 @@ species {
   spdef: 105
   spe: 70
   ability: ABILITY_ANCIENT_IDOL
-  ability: ABILITY_STAMINA
+  ability: ABILITY_SLOW_START
   ability: ABILITY_HEAVY_METAL
   innate: ABILITY_GROUNDED
   innate: ABILITY_SUPERHEAVY
@@ -211963,18 +211963,18 @@ species {
   }
   type: TYPE_FIRE
   type2: TYPE_STEEL
-  hp: 105
+  hp: 100
   atk: 90
-  def: 135
-  spatk: 55
-  spdef: 110
-  spe: 75
+  def: 140
+  spatk: 40
+  spdef: 140
+  spe: 90
   ability: ABILITY_ANCIENT_IDOL
-  ability: ABILITY_STAMINA
-  ability: ABILITY_PRESSURE
-  innate: ABILITY_GROUNDED
-  innate: ABILITY_FULL_METAL_BODY
-  innate: ABILITY_JUGGERNAUT
+  ability: ABILITY_SLOW_START
+  ability: ABILITY_NO_TURNING_BACK
+  innate: ABILITY_STEADFAST
+  innate: ABILITY_STALWART
+  innate: ABILITY_POWER_CORE
   percent_female: 25
   learnset {
     level {
@@ -212025,6 +212025,7 @@ species {
     }
     level {
       level: 56
+      move: MOVE_COSMIC_POWER
       move: MOVE_POWER_TRICK
       move: MOVE_MIND_READER
     }
@@ -212085,18 +212086,18 @@ species {
   form_of: SPECIES_KILOZUNA
   type: TYPE_STEEL
   type2: TYPE_FIRE
-  hp: 105
-  atk: 130
-  def: 150
-  spatk: 65
-  spdef: 120
-  spe: 100
+  hp: 100
+  atk: 120
+  def: 165
+  spatk: 40
+  spdef: 165
+  spe: 110
   ability: ABILITY_ANCIENT_IDOL
-  ability: ABILITY_STAMINA
-  ability: ABILITY_PRESSURE
-  innate: ABILITY_GROUNDED
-  innate: ABILITY_FULL_METAL_BODY
-  innate: ABILITY_JUGGERNAUT
+  ability: ABILITY_SLOW_START
+  ability: ABILITY_NO_TURNING_BACK
+  innate: ABILITY_STEADFAST
+  innate: ABILITY_STALWART
+  innate: ABILITY_UNSTABLE_CORE
   percent_female: 25
   mega {
     from: SPECIES_KILOZUNA

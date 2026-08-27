@@ -483,8 +483,8 @@ ability {
 ability {
   id: ABILITY_STEADFAST
   name: "Steadfast"
-  description: "Raises Speed by one stage if this Pokémon flinches."
-  expanded_description: "Getting flinched raises Speed by one stage."
+  description: "Unhindered by paralysis, flinch or forced switching."
+  expanded_description: "Steadfast Pokemon can't be paralyzed, flinched or forced to switch."
 }
 ability {
   id: ABILITY_SNOW_CLOAK
@@ -577,8 +577,8 @@ ability {
 ability {
   id: ABILITY_NORMALIZE
   name: "Normalize"
-  description: "Its moves become Normal-type, get 1.1x boost, ignore resists."
-  expanded_description: "Converts all damaging moves to Normal-type and grants a 10% power boost. Normal-type moves bypass resistances, but not immunities."
+  description: "All moves are Normal, 1.1x power, no resists or immunities."
+  expanded_description: "Converts all damaging moves to Normal-type and grants a 10% power boost. Normal-type moves bypass resistances and immunities."
 }
 ability {
   id: ABILITY_SNIPER
@@ -625,8 +625,8 @@ ability {
 ability {
   id: ABILITY_MOLD_BREAKER
   name: "Mold Breaker"
-  description: "Moves hit through abilities. Also affects innates."
-  expanded_description: "Allows moves to ignore the target's abilities and innates that interfere with effects or reduce damage. Does not bypass abilities that modify base stats such as Grass Pelt."
+  description: "Moves hit through most abilities and innates."
+  expanded_description: "Allows moves to ignore immunity-providing abilities and innates, as well as most damage-reducing abilities and innates. Does not bypass defense increases or unconventional effects of some abilities, such as Fur Coat, Ice Scales, Grass Pelt, Fae Hunter, Slow Start, Color Change, etc."
 }
 ability {
   id: ABILITY_SUPER_LUCK
@@ -673,7 +673,7 @@ ability {
 ability {
   id: ABILITY_SLOW_START
   name: "Slow Start"
-  description: "-50% dmg taken. 5 turns of -50% dmg and speed, but then +50%."
+  description: "2x defenses. 5 turns of -50% dmg and speed, but then +50%."
   expanded_description: "Halves damage taken. Halves Attack, Special Attack, and Speed for the first 5 turns after switching in. But then +50% Attack, Special Attack and Speed afterwards. The turn counter resets each time the Pokemon switches out."
 }
 ability {
@@ -709,14 +709,14 @@ ability {
 ability {
   id: ABILITY_HONEY_GATHER
   name: "Honey Gather"
-  description: "Has a 50% chance to find Honey each turn."
-  expanded_description: "Has a 50% chance to get Honey each turn if it had no item. Honey heals 1/16 HP per turn and can be eaten in a pinch to heal 1/4 HP. Works even if the user didn't start with Honey as its item."
+  description: "Finds Honey each turn."
+  expanded_description: "Gets Honey each turn if it had no item. Honey heals 1/16 HP per turn and can be eaten in a pinch to heal 1/4 HP. Works even if the user didn't start with Honey as its item."
 }
 ability {
   id: ABILITY_FRISK
   name: "Frisk"
-  description: "Checks foes' item and disables their items for two turns."
-  expanded_description: "Upon entering battle, reveals the opponents' items and prevents them from working for 2 turns. Does not prevent Mega Stones and other similar items from working."
+  description: "Checks foes' items, and disables them for eight turns."
+  expanded_description: "Upon entering battle, reveals the opponents' items and prevents them from working for 8 turns. Does not prevent Mega Stones and other similar items from working."
 }
 ability {
   id: ABILITY_RECKLESS
@@ -1776,8 +1776,8 @@ ability {
 ability {
   id: ABILITY_LEAD_COAT
   name: "Lead Coat"
-  description: "Take 40% less phys. dmg, but Speed x0.9. Triple user's weight."
-  expanded_description: "Lead Coat reduces physical damage by 40% but decreases Speed by 10%. Also triples the user's weight. The damage reduction is multiplicative with other sources."
+  description: "Take 40% less phys. dmg. Triple user's weight."
+  expanded_description: "Lead Coat reduces physical damage by 40%. Also triples the user's weight. The damage reduction is multiplicative with other sources."
 }
 ability {
   id: ABILITY_AMPHIBIOUS
@@ -1877,7 +1877,7 @@ ability {
 ability {
   id: ABILITY_DRAGONSLAYER
   name: "Dragonslayer"
-  description: "Deal 1.5x dmg to Dragon-types. Take 0.5x dmg from Dragon-types."
+  description: "Deal 1.5x dmg to Dragon-types. 2x defenses vs Dragon-types."
   expanded_description: "Deals 1.5x damage to Dragon-type Pokemon and takes 0.5x damage when attacked by Dragon-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
 ability {
@@ -2650,7 +2650,7 @@ ability {
 ability {
   id: ABILITY_FAE_HUNTER
   name: "Fae Hunter"
-  description: "Deals 1.5x damage to Fairy. Takes 0.5x damage from Fairy."
+  description: "Deals 1.5x damage to Fairy. 2x defenses vs Fairy-types."
   expanded_description: "Deals 1.5x damage to Fairy-type Pokemon and takes 0.5x damage when attacked by Fairy-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
 ability {
@@ -2668,7 +2668,7 @@ ability {
 ability {
   id: ABILITY_LUMBERJACK
   name: "Lumberjack"
-  description: "Deals 1.5x damage to Grass. Takes 0.5x damage from Grass."
+  description: "Deals 1.5x damage to Grass. 2x defenses vs Grass-types."
   expanded_description: "Deals 1.5x damage to Grass-type Pokemon and takes 0.5x damage when attacked by Grass-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
 ability {
@@ -3151,9 +3151,9 @@ ability {
   expanded_description: "Biting moves a 50% chance to inflict burn on hit. Multihits roll the activation chance on each hit."
 }
 ability {
-  id: ABILITY_MONSTER_HUNTER
-  name: "Monster Hunter"
-  description: "Deals 1.5x damage to Dark. Takes 0.5x damage from Dark."
+  id: ABILITY_PUNISHER
+  name: "Punisher"
+  description: "Deals 1.5x damage to Dark. 2x defenses vs Dark-types."
   expanded_description: "Deals 1.5x damage to Dark-type Pokemon and takes 0.5x damage when attacked by Dark-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
 ability {
@@ -3230,8 +3230,8 @@ ability {
 ability {
   id: ABILITY_CHROME_COAT
   name: "Chrome Coat"
-  description: "Take 40% less spec. dmg, but Speed x0.9. Triple user's weight."
-  expanded_description: "Chrome Coat reduces special damage by 40% but decreases Speed by 10%. Also triples the user's weight. The damage reduction is multiplicative with other sources."
+  description: "Take 40% less spec. dmg. Triple user's weight."
+  expanded_description: "Chrome Coat reduces special damage by 40%. Also triples the user's weight. The damage reduction is multiplicative with other sources."
 }
 ability {
   id: ABILITY_BANSHEE
@@ -3955,8 +3955,8 @@ ability {
 ability {
   id: ABILITY_ULTRA_INSTINCT
   name: "Ultra Instinct"
-  description: "Uses 20BP Vacuum Wave when hit by contact. Takes .8x damage."
-  expanded_description: "Reduces all damage by 20%. Multiplicative with other damage reduction sources. Counters contact moves with Vacuum Wave at 20 BP."
+  description: "Blur + Elude."
+  expanded_description: "When hit by any move, the Pokemon uses its Speed stat instead of Defense or Special Defense for damage calculations. Choice Scarf does not affect this ability."
 }
 ability {
   id: ABILITY_UNLOCKED_POTENTIAL
@@ -4001,8 +4001,8 @@ ability {
 ability {
   id: ABILITY_NO_TURNING_BACK
   name: "No Turning Back"
-  description: "Boosts all stats but can't retreat when below 1/2 max HP."
-  expanded_description: "When HP drops to half or below for the first time, all stats increase by one stage and the user becomes unable to switch out or flee. Normal ways to bypass this effects such as Eject Button or Shed Shell still allow switching out."
+  description: "Boosts all stats but can't retreat on entry."
+  expanded_description: "When entering, all stats increase by one stage and the user becomes unable to switch out or flee. Normal ways to bypass this effects such as Eject Button or Shed Shell still allow switching out."
 }
 ability {
   id: ABILITY_FLAMMABLE_COAT
@@ -4223,8 +4223,8 @@ ability {
 ability {
   id: ABILITY_TERASTAL_TREASURE
   name: "Terastal Treasure"
-  description: "Reduces damage taken by 40%, but lowers speed by 20%."
-  expanded_description: "Reduces incoming damage by 40% while lowering the Pokemon's Speed by 20%. Multiplicative with other sources of damage reduction."
+  description: "Reduces damage taken by 40%."
+  expanded_description: "Reduces incoming damage by 40%. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_SHOCKING_MAW
@@ -4815,7 +4815,7 @@ ability {
 ability {
   id: ABILITY_FIREFIGHTER
   name: "Firefighter"
-  description: "Deals 1.5x damage to Fire. Takes 0.5x damage from Fire."
+  description: "Deals 1.5x damage to Fire. 2x defenses vs Fire-types."
   expanded_description: "Deals 1.5x damage to Fire-type Pokemon and takes 0.5x damage when attacked by Fire-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
 ability {
@@ -5079,8 +5079,8 @@ ability {
 ability {
   id: ABILITY_SUPERHEAVY
   name: "Superheavy"
-  description: "Steadfast + can't be forced to switch out."
-  expanded_description: "Getting flinched raises Speed by one stage. Prevents forced switching from moves and Red Card."
+  description: "Unhindered by paralysis, flinch or forced switching."
+  expanded_description: "Superheavy Pokemon can't be paralyzed, flinched or forced to switch."
 }
 ability {
   id: ABILITY_WORLD_SERPENT
@@ -5310,7 +5310,7 @@ ability {
 ability {
   id: ABILITY_THICK_BLUBBER
   name: "Thick Blubber"
-  description: "Take 1/4 damage from Fire and Ice attacks. Speed is halved."
+  description: "Take 1/4 damage from Fire and Ice attacks."
 }
 ability {
   id: ABILITY_CRAVING
@@ -6116,4 +6116,10 @@ ability {
   name: "Gaia Shaper"
   description: "Atlas + Power Core + Immune to crits and paralysis."
   expanded_description: "Sets Gravity on entry for 8 turns + Moves use +20% of Def or SpDef + Immune to critical hits and paralysis."
+}
+ability {
+  id: ABILITY_SUPERHERO
+  name: "Superhero"
+  description: "Punisher + Justified."
+  expanded_description: "Immune to Dark and boosts highest attack when hit by it. 1.5x attack and 2x defense against Dark types."
 }
