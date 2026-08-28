@@ -2007,20 +2007,6 @@ config {
   }
 }
 config {
-  id: EFFECT_MISTY_TERRAIN_BOOST
-  attack {
-    damage {
-      condition {
-        terrain {
-          terrain: TERRAIN_MISTY
-          battler: BATTLER_ATTACKER
-        }
-      }
-      multiply: 1.3
-    }
-  }
-}
-config {
   id: EFFECT_BERRY_SMASH
   legacy_config: "BattleScript_EffectBerrySmash"
 }

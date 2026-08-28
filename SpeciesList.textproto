@@ -140376,7 +140376,6 @@ species {
     level {
       level: 24
       move: MOVE_BRUTAL_SWING
-      move: MOVE_CRACKLE_SLAM
       move: MOVE_FLING
       move: MOVE_SNATCH
     }
@@ -140394,7 +140393,6 @@ species {
     level {
       level: 51
       move: MOVE_BONK
-      move: MOVE_FEMUR_BREAKER
       move: MOVE_PARTING_SHOT
       move: MOVE_STAR_CRASH
     }
@@ -154596,7 +154594,7 @@ species {
   ability: ABILITY_UNAWARE
   innate: ABILITY_SUPER_LUCK
   innate: ABILITY_WORLD_SERPENT
-  innate: ABILITY_LUCKY_WINGS
+  innate: ABILITY_HEAVENS_GRACE
   percent_female: 50
   mega {
     from: SPECIES_DUDUDUNSPARCE
@@ -155198,16 +155196,16 @@ species {
   }
   type: TYPE_GRASS
   type2: TYPE_DARK
-  hp: 80
-  atk: 125
-  def: 80
-  spatk: 115
-  spdef: 80
-  spe: 75
-  ability: ABILITY_SHADOW_SHIELD
+  hp: 85
+  atk: 130
+  def: 85
+  spatk: 130
+  spdef: 85
+  spe: 85
+  ability: ABILITY_SHOWDOWN_MODE
   ability: ABILITY_PRANKSTER
-  ability: ABILITY_SOUL_TAP
-  innate: ABILITY_PHANTOM
+  ability: ABILITY_MALICIOUS
+  innate: ABILITY_OMINOUS_SHROUD
   innate: ABILITY_NOCTURNAL
   innate: ABILITY_SCARECROW
   percent_female: 50
@@ -155218,6 +155216,7 @@ species {
       move: MOVE_BULLET_SEED
       move: MOVE_COTTON_GUARD
       move: MOVE_GROWTH
+      move: MOVE_PARTING_SHOT
       move: MOVE_PAYBACK
       move: MOVE_PIN_MISSILE
       move: MOVE_POISON_STING
@@ -155269,16 +155268,30 @@ species {
       level: 51
       move: MOVE_FIERY_WRATH
       move: MOVE_RAGING_SOULS
+      move: MOVE_WICKED_BLOW
     }
     level {
       level: 56
-      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_ASTRAL_BARRAGE
+      move: MOVE_DARK_VOID
+      move: MOVE_GLARE
       move: MOVE_IVY_CUDGEL
+      move: MOVE_OBSTRUCT
       move: MOVE_SEED_FLARE
+      move: MOVE_SPECTRAL_SERENADE
+      move: MOVE_SPECTRAL_THIEF
     }
     level {
-      level: 81
+      level: 61
+      move: MOVE_BADDY_BAD
       move: MOVE_BANISHED_POWER
+      move: MOVE_BLEAKWIND_STORM
+      move: MOVE_CEASELESS_EDGE
+      move: MOVE_GHASTLY_ECHO
+      move: MOVE_HYPERSPACE_HOLE
+      move: MOVE_MOONGEIST_BEAM
+      move: MOVE_SAPPY_SEED
+      move: MOVE_VICTORY_DANCE
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BLACK_MAGIC
@@ -155414,10 +155427,6 @@ species {
     level {
       level: 61
       move: MOVE_SILK_TRAP
-    }
-    level {
-      level: 81
-      move: MOVE_ELECTRO_SHOT
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_AGILITY
@@ -195327,12 +195336,12 @@ species {
   spatk: 55
   spdef: 75
   spe: 54
-  ability: ABILITY_OVERCOAT
-  ability: ABILITY_WATER_VEIL
-  ability: ABILITY_WEATHER_DOUBLE_BOOST
-  innate: ABILITY_FLASH_FIRE
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_WATER_ABSORB
+  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_HEAVENS_GRACE
+  ability: ABILITY_WONDER_SKIN
+  innate: ABILITY_RAINBOW_SCALES
+  innate: ABILITY_AERIALIST
+  innate: ABILITY_FLUFFY
   percent_female: 50
   tier: 3
   evo {
@@ -195365,6 +195374,7 @@ species {
       move: MOVE_ENCORE
       move: MOVE_ME_FIRST
       move: MOVE_AFTER_YOU
+      move: MOVE_TAKE_FLIGHT
     }
     level {
       level: 37
@@ -195383,6 +195393,16 @@ species {
     level {
       level: 51
       move: MOVE_FOLLOW_ME
+      move: MOVE_SAFE_PASSAGE
+    }
+    level {
+      level: 56
+      move: MOVE_CHILLING_WATER
+      move: MOVE_SPLISHY_SPLASH
+    }
+    level {
+      level: 71
+      move: MOVE_FIERY_DANCE
     }
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_BRAVADO
@@ -195414,7 +195434,6 @@ species {
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_PLUCK
     tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_TAILWIND
     tutor: MOVE_SOAK
     tutor: MOVE_REFRESH
   }
@@ -195463,12 +195482,12 @@ species {
   spatk: 95
   spdef: 115
   spe: 78
-  ability: ABILITY_EVAPORATE
-  ability: ABILITY_WATER_VEIL
-  ability: ABILITY_SUN_BASKING
-  innate: ABILITY_TASTE_THE_RAINBOW
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_OVERCOAT
+  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_HEAVENS_GRACE
+  ability: ABILITY_WONDER_SKIN
+  innate: ABILITY_RAINBOW_SCALES
+  innate: ABILITY_AERIALIST
+  innate: ABILITY_FLUFFY
   percent_female: 50
   tier: 3
   learnset {
@@ -195497,6 +195516,7 @@ species {
       move: MOVE_ENCORE
       move: MOVE_ME_FIRST
       move: MOVE_AFTER_YOU
+      move: MOVE_TAKE_FLIGHT
     }
     level {
       level: 37
@@ -195516,6 +195536,12 @@ species {
     level {
       level: 51
       move: MOVE_FOLLOW_ME
+      move: MOVE_SAFE_PASSAGE
+    }
+    level {
+      level: 56
+      move: MOVE_CHILLING_WATER
+      move: MOVE_SPLISHY_SPLASH
     }
     level {
       level: 71
@@ -195551,7 +195577,6 @@ species {
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_PLUCK
     tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_TAILWIND
     tutor: MOVE_SOAK
     tutor: MOVE_MOONBLAST
     tutor: MOVE_HYPER_BEAM
@@ -195592,12 +195617,12 @@ species {
   spatk: 109
   spdef: 155
   spe: 88
-  ability: ABILITY_EVAPORATE
-  ability: ABILITY_REGENERATOR
-  ability: ABILITY_SOLAR_POWER
+  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_HEAVENS_GRACE
+  ability: ABILITY_WONDER_SKIN
   innate: ABILITY_RAINBOW_SCALES
   innate: ABILITY_AERIALIST
-  innate: ABILITY_SERENE_GRACE
+  innate: ABILITY_FLUFFIEST
   percent_female: 50
   mega {
     from: SPECIES_ALTARIA_REDUX

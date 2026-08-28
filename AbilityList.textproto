@@ -1015,7 +1015,6 @@ ability {
   id: ABILITY_FUR_COAT
   name: "Fur Coat"
   description: "Doubles Defense."
-  expanded_description: "Halves all incoming Attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_MAGICIAN
@@ -1369,7 +1368,7 @@ ability {
   id: ABILITY_MISTY_SURGE
   name: "Misty Surge"
   description: "Casts Misty Terrain on entry. Lasts 8 turns."
-  expanded_description: "Creates Misty Terrain on entry, lasting 8 turns (12 with Terrain Extender). Misty Terrain prevents all status conditions for grounded Pokemon and boosts Fairy-type moves by 30%. Overrides existing terrain."
+  expanded_description: "Creates Misty Terrain on entry, lasting 8 turns (12 with Terrain Extender). Misty Terrain prevents all status conditions for grounded Pokemon. Overrides existing terrain."
 }
 ability {
   id: ABILITY_GRASSY_SURGE
@@ -1477,7 +1476,6 @@ ability {
   id: ABILITY_ICE_SCALES
   name: "Ice Scales"
   description: "Doubles SpDef."
-  expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_RIPEN
@@ -2351,7 +2349,6 @@ ability {
   id: ABILITY_ARCTIC_FUR
   name: "Arctic Fur"
   description: "1.5x Defense and Special Defense."
-  expanded_description: "Reduces both physical and special damage by 35%. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_SPECTRALIZE
@@ -2639,7 +2636,7 @@ ability {
   id: ABILITY_PRISMATIC_FUR
   name: "Prismatic Fur"
   description: "Color Change + Protean + Fur Coat + Ice Scales."
-  expanded_description: "Changes type to resist attacks before getting hit, changes type to match moves before landing a hit, halves physical damage, and halves special damage. Damage reduction is multiplicative with other sources."
+  expanded_description: "Changes type to resist attacks before getting hit, changes type to match moves before landing a hit, doubles both defenses."
 }
 ability {
   id: ABILITY_SHOCKING_JAWS
@@ -3423,7 +3420,6 @@ ability {
   id: ABILITY_FIRE_SCALES
   name: "Fire Scales"
   description: "Doubles SpDef."
-  expanded_description: "Halves all incoming special attack damage. Multiplicative with other sources of damage reduction."
 }
 ability {
   id: ABILITY_WATCH_YOUR_STEP
@@ -3674,7 +3670,7 @@ ability {
   id: ABILITY_APPLE_ENLIGHTENMENT
   name: "Apple Enlightenment"
   description: "Fur coat + Magic Guard."
-  expanded_description: "Halves all incoming physical attack damage. Multiplicative with other sources of damage reduction. Also grants immunity to all non-attack damage sources including entry hazards, weather damage, status conditions, and recoil."
+  expanded_description: "Doubles Defense. Also grants immunity to all non-attack damage sources including entry hazards, weather damage, status conditions, and recoil."
 }
 ability {
   id: ABILITY_BALLOON_BOMBER
@@ -4917,14 +4913,14 @@ ability {
 ability { 
   id: ABILITY_SCARECROW
   name: "Scarecrow"
-  description: "Scare + Cotton Down."
-  expanded_description: "Upon entering battle, the user drops the Special Attack stat of all opposing Pokemon by one stage. When the user is hit by any attack, it lowers the Speed of all opposing Pokemon by one stage. Activates multiple times against multihit moves."
+  description: "Scare + Bad Luck."
+  expanded_description: "Special Attack -1 stage to foes on entry + Foes deal min damage. They also can't crit, nor land sub-100 chance effects or moves."
 }
 ability {
   id: ABILITY_OMINOUS_SHROUD
   name: "Ominous Shroud"
-  description: "Phantom + Shadow Shield."
-  expanded_description: "Upon entering battle, adds Ghost to user's current typing. Retains Ghost typing even upon losing the ability, going away only when switching out. Halves damage from all attacks when at full HP. Multiplicative with other damage reduction sources."
+  description: "Phantom + Low Visibility."
+  expanded_description: "Upon entering battle, adds Ghost to user's current typing. Retains Ghost typing even upon losing the ability, going away only when switching out. Also sets the Eerie Fog weather on entry."
 }
 ability {
   id: ABILITY_CHILLING_PRESENCE
@@ -5089,10 +5085,10 @@ ability {
   expanded_description: "Contact moves have a 50% chance to wrap the target for 4-5 turns, preventing switches and dealing 1/8 max HP at end of turn. Targets wrapped by the user have their speed lowered one stage at the end of the turn, and the user's moves against the target ignore defensive stats changes and always hit."
 }
 ability {
-  id: ABILITY_LUCKY_WINGS
-  name: "Lucky Wings"
-  description: "Serene Grace + Giant Wings."
-  expanded_description: "Doubles the activation chance of the user's secondary effects on their attacks. Boosts the power of all wing, wind, and air-based moves by 30%."
+  id: ABILITY_HEAVENS_GRACE
+  name: "Heaven's Grace"
+  description: "Serene Grace + Super Luck."
+  expanded_description: "Doubles the activation chance of the user's secondary effects on their attacks. Foes deal min damage. They also can't crit, nor land sub-100 chance effects or moves."
 }
 ability {
   id: ABILITY_KOMODO
@@ -5210,7 +5206,6 @@ ability {
   id: ABILITY_ICE_PLUMES
   name: "Ice Plumes"
   description: "Doubles SpDef."
-  expanded_description: "Boosts Speed by +2 stages when hit by Rock-type moves or when switching in with Stealth Rock present. Also, absorbs any Rock-type or Stealth Rock damage and heals for 25% of their max HP."
 }
 ability {
   id: ABILITY_BLISTERING_SUN

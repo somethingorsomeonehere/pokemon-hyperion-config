@@ -9677,7 +9677,7 @@ moves {
   id: MOVE_MISTY_TERRAIN
   name: "Misty Terrain"
   short_name: "MistyTerrain"
-  description: "Boosts Fairy-type moves for 8 turns, and prevents status conditions for all."
+  description: "Prevents status conditions for grounded battlers for 8 turns."
   short_description: "Covers the ground with mist for 8 turns. Blocks status."
   effect: EFFECT_MISTY_TERRAIN
   split: STATUS
@@ -15978,7 +15978,7 @@ moves {
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 90
+  power: 75
   accuracy: 100
   pp: 10
   effect_chance: 50
