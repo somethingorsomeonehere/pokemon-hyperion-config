@@ -14637,10 +14637,10 @@ trainer {
       move: MOVE_FAKE_OUT
     }
     mon {
-      species: SPECIES_ARTICUNO_EX
-      item: ITEM_ARTICUNITE
+      species: SPECIES_ANOMALY_ARTICUNO
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_NORTH_WIND
+      ability: ABILITY_AURORAS_GALE
       hp_ev: 252
       def_ev: 252
       spatk_ev: 252
@@ -16814,10 +16814,10 @@ trainer {
       move: MOVE_ACROBATICS
     }
     mon {
-      species: SPECIES_ZAPDOS_EX
-      item: ITEM_ZAPDOSITE
+      species: SPECIES_ANOMALY_ZAPDOS
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_OVERCHARGE
+      ability: ABILITY_SUPERCELL
       hp_ev: 252
       def_ev: 252
       spatk_ev: 252
@@ -36916,10 +36916,10 @@ trainer {
       move: MOVE_SACRED_SWORD
     }
     mon {
-      species: SPECIES_ARTICUNO_EX
-      item: ITEM_ARTICUNITE
+      species: SPECIES_ANOMALY_ARTICUNO
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_SNOW_WARNING
+      ability: ABILITY_AURORAS_GALE
       hp_ev: 192
       def_ev: 64
       spatk_ev: 252
@@ -36991,10 +36991,10 @@ trainer {
       move: MOVE_NO_RETREAT
     }
     mon {
-      species: SPECIES_ARTICUNO_EX
-      item: ITEM_ARTICUNITE
+      species: SPECIES_ANOMALY_ARTICUNO
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
-      ability: ABILITY_NORTH_WIND
+      ability: ABILITY_AURORAS_GALE
       hp_ev: 252
       def_ev: 252
       spatk_ev: 252
@@ -40593,40 +40593,39 @@ trainer {
   }
   hell {
     mon {
-      species: SPECIES_MOLTRES_EX
-      item: ITEM_MOLTRESITE
+      species: SPECIES_ANOMALY_MOLTRES
+      item: ITEM_LIFE_ORB
       nature: NATURE_TIMID
-      ability: ABILITY_FLAMING_SOUL
+      ability: ABILITY_BLISTERING_SUN
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
       move: MOVE_SUNSTRIKE
-      move: MOVE_FLAME_BURST
+      move: MOVE_TAKE_FLIGHT
       move: MOVE_AEROBLAST
       move: MOVE_SOLAR_BEAM
     }
     mon {
-      species: SPECIES_ZAPDOS_EX
-      item: ITEM_ZAPDOSITE
+      species: SPECIES_ANOMALY_ZAPDOS
+      item: ITEM_TACTICAL_VEST
       nature: NATURE_TIMID
-      ability: ABILITY_DRIZZLE
+      ability: ABILITY_SUPERCELL
       hp_ev: 252
       spatk_ev: 252
       spe_ev: 252
-      move: MOVE_ELECTRIC_TERRAIN
-      move: MOVE_AEROBLAST
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_TAKE_FLIGHT
       move: MOVE_TEMPEST_STORM
       move: MOVE_WEATHER_BALL
     }
     mon {
-      species: SPECIES_ARTICUNO_EX
-      item: ITEM_ARTICUNITE
+      species: SPECIES_ANOMALY_ARTICUNO
+      item: ITEM_LEFTOVERS
       nature: NATURE_MODEST
-      ability: ABILITY_SNOW_WARNING
+      ability: ABILITY_AURORAS_GALE
       hp_ev: 252
-      def_ev: 128
+      def_ev: 252
       spatk_ev: 252
-      spdef_ev: 128
       move: MOVE_FREEZY_FROST
       move: MOVE_AEROBLAST
       move: MOVE_CALM_MIND
@@ -61261,7 +61260,7 @@ trainer {
   }
   hell {
     mon {
-      species: SPECIES_ARTICUNO_EX
+      species: SPECIES_ARTICUNO
       item: ITEM_TACTICAL_VEST
       nature: NATURE_MODEST
       ability: ABILITY_ICE_SCALES

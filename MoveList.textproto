@@ -4676,7 +4676,7 @@ moves {
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
-  power: 65
+  power: 60
   accuracy: 100
   pp: 20
   effect_chance: 100
@@ -12134,7 +12134,7 @@ moves {
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
-  power: 70
+  power: 60
   accuracy: 100
   pp: 20
   mirror_move_affected: true

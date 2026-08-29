@@ -189614,151 +189614,33 @@ species {
   }
 }
 species {
-  id: SPECIES_ZAPDOS_EX_MEGA
-  form_of: SPECIES_ZAPDOS
+  id: SPECIES_ANOMALY_ZAPDOS
+  dex {
+    name: "Anomaly-Zap"
+    category: "Electric"
+    description: "Zapdos is a legendary bird Pok\303\251mon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts."
+    national_dex_num: 6001
+    body_color: BODY_COLOR_YELLOW
+    egg_group: UNDISCOVERED
+    height: 16
+    weight: 526
+    pokemon_scale: 256
+    trainer_scale: 318
+    trainer_offset: 3
+  }
   type: TYPE_ELECTRIC
   type2: TYPE_FLYING
-  hp: 90
-  atk: 110
-  def: 85
-  spatk: 155
-  spdef: 110
-  spe: 150
+  hp: 120
+  atk: 65
+  def: 120
+  spatk: 150
+  spdef: 145
+  spe: 200
   ability: ABILITY_SUPERCELL
   ability: ABILITY_SUPERCELL
   ability: ABILITY_SUPERCELL
   innate: ABILITY_LIGHTNING_ASPECT
   innate: ABILITY_GALE_WINGS
-  innate: ABILITY_STATIC
-  genderless: true
-  mega {
-    from: SPECIES_ZAPDOS_EX
-    item: ITEM_ZAPDOSITE
-  }
-  visuals {
-    icon {
-      path: "zapdos/mega/icon"
-      palette: 2
-    }
-    front {
-      path: "zapdos/mega/front"
-      coords {
-        elevation: 5
-      }
-    }
-    back {
-      path: "zapdos/mega/back"
-      anim: BACK_ANIM_H_SLIDE
-      coords {
-        y_offset: 14
-      }
-    }
-    palette: "zapdos/mega/normal"
-    shiny: "zapdos/mega/shiny"
-  }
-}
-species {
-  id: SPECIES_ARTICUNO_EX_MEGA
-  form_of: SPECIES_ARTICUNO
-  type: TYPE_ICE
-  type2: TYPE_FLYING
-  hp: 90
-  atk: 85
-  def: 130
-  spatk: 125
-  spdef: 150
-  spe: 120
-  ability: ABILITY_AURORAS_GALE
-  ability: ABILITY_AURORAS_GALE
-  ability: ABILITY_AURORAS_GALE
-  innate: ABILITY_ICE_PLUMES
-  innate: ABILITY_WINTER_THRONE
-  innate: ABILITY_ANTARCTIC_BIRD
-  percent_female: 100
-  mega {
-    from: SPECIES_ARTICUNO_EX
-    item: ITEM_ARTICUNITE
-  }
-  visuals {
-    icon {
-      path: "articuno/mega/icon"
-    }
-    front {
-      path: "articuno/mega/front"
-      coords {
-        elevation: 6
-      }
-    }
-    back {
-      path: "articuno/mega/back"
-      anim: BACK_ANIM_H_SLIDE
-      coords {
-        y_offset: 5
-      }
-    }
-    palette: "articuno/mega/normal"
-    shiny: "articuno/mega/shiny"
-  }
-}
-species {
-  id: SPECIES_MOLTRES_EX_MEGA
-  form_of: SPECIES_MOLTRES
-  type: TYPE_FIRE
-  type2: TYPE_FLYING
-  hp: 90
-  atk: 100
-  def: 95
-  spatk: 200
-  spdef: 95
-  spe: 120
-  ability: ABILITY_BLISTERING_SUN
-  ability: ABILITY_BLISTERING_SUN
-  ability: ABILITY_BLISTERING_SUN
-  innate: ABILITY_FIRE_ASPECT
-  innate: ABILITY_MOLTEN_CORE
-  innate: ABILITY_MAJESTIC_BIRD
-  genderless: true
-  mega {
-    from: SPECIES_MOLTRES_EX
-    item: ITEM_MOLTRESITE
-  }
-  visuals {
-    icon {
-      path: "moltres/ex/mega/icon"
-    }
-    front {
-      path: "moltres/ex/mega/front"
-      coords {
-        elevation: 5
-      }
-    }
-    back {
-      path: "moltres/ex/mega/back"
-      anim: BACK_ANIM_H_SLIDE
-      coords {
-        y_offset: 3
-      }
-    }
-    palette: "moltres/ex/mega/normal"
-    shiny: "moltres/ex/mega/shiny"
-  }
-}
-species {
-  id: SPECIES_ZAPDOS_EX
-  form_of: SPECIES_ZAPDOS
-  type: TYPE_ELECTRIC
-  type2: TYPE_FLYING
-  hp: 90
-  atk: 90
-  def: 85
-  spatk: 135
-  spdef: 90
-  spe: 110
-  ability: ABILITY_OVERCHARGE
-  ability: ABILITY_GALE_WINGS
-  ability: ABILITY_DRIZZLE
-  innate: ABILITY_VOLT_ABSORB
-  innate: ABILITY_GROUND_SHOCK
   innate: ABILITY_STATIC
   genderless: true
   learnset {
@@ -189831,43 +189713,55 @@ species {
   }
   visuals {
     icon {
-      path: "zapdos/ex/icon"
+      path: "zapdos/anomaly/icon"
       palette: 2
     }
     front {
-      path: "zapdos/ex/front"
+      path: "zapdos/anomaly/front"
       coords {
         elevation: 5
       }
     }
     back {
-      path: "zapdos/ex/back"
+      path: "zapdos/anomaly/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 14
       }
     }
-    palette: "zapdos/ex/normal"
-    shiny: "zapdos/ex/shiny"
+    palette: "zapdos/anomaly/normal"
+    shiny: "zapdos/anomaly/shiny"
   }
 }
 species {
-  id: SPECIES_ARTICUNO_EX
-  form_of: SPECIES_ARTICUNO
+  id: SPECIES_ANOMALY_ARTICUNO
+  dex {
+    name: "Anomaly-Atc"
+    category: "Freeze"
+    description: "Articuno is a legendary bird Pok\303\251mon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pok\303\251mon flies, snow will fall."
+    national_dex_num: 6002
+    body_color: BODY_COLOR_BLUE
+    egg_group: UNDISCOVERED
+    height: 17
+    weight: 554
+    pokemon_scale: 256
+    trainer_scale: 309
+    trainer_offset: 2
+  }
   type: TYPE_ICE
   type2: TYPE_FLYING
-  hp: 90
-  atk: 85
-  def: 110
-  spatk: 95
-  spdef: 135
-  spe: 85
-  ability: ABILITY_NORTH_WIND
-  ability: ABILITY_SNOW_WARNING
-  ability: ABILITY_ICE_SCALES
+  hp: 120
+  atk: 35
+  def: 200
+  spatk: 125
+  spdef: 200
+  spe: 120
+  ability: ABILITY_AURORAS_GALE
+  ability: ABILITY_AURORAS_GALE
+  ability: ABILITY_AURORAS_GALE
+  innate: ABILITY_ICE_PLUMES
+  innate: ABILITY_WINTER_THRONE
   innate: ABILITY_ANTARCTIC_BIRD
-  innate: ABILITY_MAJESTIC_BIRD
-  innate: ABILITY_PERMAFROST
   percent_female: 100
   learnset {
     level {
@@ -189950,42 +189844,54 @@ species {
   }
   visuals {
     icon {
-      path: "articuno/ex/icon"
+      path: "articuno/anomaly/icon"
     }
     front {
-      path: "articuno/ex/front"
+      path: "articuno/anomaly/front"
       coords {
-        elevation: 4
+        elevation: 6
       }
     }
     back {
-      path: "articuno/ex/back"
+      path: "articuno/anomaly/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 8
+        y_offset: 5
       }
     }
-    palette: "articuno/ex/normal"
-    shiny: "articuno/ex/shiny"
+    palette: "articuno/anomaly/normal"
+    shiny: "articuno/anomaly/shiny"
   }
 }
 species {
-  id: SPECIES_MOLTRES_EX
-  form_of: SPECIES_MOLTRES
+  id: SPECIES_ANOMALY_MOLTRES
+  dex {
+    name: "Anomaly-Mlt"
+    category: "Flame"
+    description: "Moltres is a legendary bird Pok\303\251mon that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself."
+    national_dex_num: 6003
+    body_color: BODY_COLOR_YELLOW
+    egg_group: UNDISCOVERED
+    height: 20
+    weight: 600
+    pokemon_scale: 270
+    trainer_scale: 387
+    trainer_offset: 8
+  }
   type: TYPE_FIRE
   type2: TYPE_FLYING
-  hp: 90
-  atk: 100
-  def: 100
-  spatk: 125
-  spdef: 95
-  spe: 90
-  ability: ABILITY_AIR_BLOWER
-  ability: ABILITY_FLAMING_SOUL
-  ability: ABILITY_DROUGHT
-  innate: ABILITY_FLASH_FIRE
-  innate: ABILITY_MOLTEN_DOWN
-  innate: ABILITY_PYROMANCY
+  hp: 120
+  atk: 65
+  def: 120
+  spatk: 255
+  spdef: 120
+  spe: 120
+  ability: ABILITY_BLISTERING_SUN
+  ability: ABILITY_BLISTERING_SUN
+  ability: ABILITY_BLISTERING_SUN
+  innate: ABILITY_FIRE_ASPECT
+  innate: ABILITY_MOLTEN_CORE
+  innate: ABILITY_MAJESTIC_BIRD
   genderless: true
   learnset {
     level {
@@ -190064,23 +189970,153 @@ species {
   }
   visuals {
     icon {
-      path: "moltres/ex/icon"
+      path: "moltres/anomaly/icon"
     }
     front {
-      path: "moltres/ex/front"
+      path: "moltres/anomaly/front"
+      coords {
+        elevation: 5
+      }
+    }
+    back {
+      path: "moltres/anomaly/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 3
+      }
+    }
+    palette: "moltres/anomaly/normal"
+    shiny: "moltres/anomaly/shiny"
+  }
+}
+species {
+  id: SPECIES_ZAPDOS_MEGA
+  form_of: SPECIES_ZAPDOS
+  type: TYPE_ELECTRIC
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 90
+  def: 85
+  spatk: 135
+  spdef: 90
+  spe: 110
+  ability: ABILITY_OVERCHARGE
+  ability: ABILITY_GALE_WINGS
+  ability: ABILITY_DRIZZLE
+  innate: ABILITY_VOLT_ABSORB
+  innate: ABILITY_GROUND_SHOCK
+  innate: ABILITY_STATIC
+  genderless: true
+  mega {
+    from: SPECIES_ZAPDOS
+    item: ITEM_ZAPDOSITE
+  }
+  visuals {
+    icon {
+      path: "zapdos/mega/icon"
+      palette: 2
+    }
+    front {
+      path: "zapdos/mega/front"
+      coords {
+        elevation: 5
+      }
+    }
+    back {
+      path: "zapdos/mega/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 14
+      }
+    }
+    palette: "zapdos/mega/normal"
+    shiny: "zapdos/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_ARTICUNO_MEGA
+  form_of: SPECIES_ARTICUNO
+  type: TYPE_ICE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 85
+  def: 110
+  spatk: 95
+  spdef: 135
+  spe: 85
+  ability: ABILITY_NORTH_WIND
+  ability: ABILITY_SNOW_WARNING
+  ability: ABILITY_ICE_SCALES
+  innate: ABILITY_ANTARCTIC_BIRD
+  innate: ABILITY_MAJESTIC_BIRD
+  innate: ABILITY_PERMAFROST
+  genderless: true
+  mega {
+    from: SPECIES_ARTICUNO
+    item: ITEM_ARTICUNITE
+  }
+  visuals {
+    icon {
+      path: "articuno/mega/icon"
+    }
+    front {
+      path: "articuno/mega/front"
+      coords {
+        elevation: 4
+      }
+    }
+    back {
+      path: "articuno/mega/back"
+      anim: BACK_ANIM_H_SLIDE
+      coords {
+        y_offset: 8
+      }
+    }
+    palette: "articuno/mega/normal"
+    shiny: "articuno/mega/shiny"
+  }
+}
+species {
+  id: SPECIES_MOLTRES_MEGA
+  form_of: SPECIES_MOLTRES
+  type: TYPE_FIRE
+  type2: TYPE_FLYING
+  hp: 90
+  atk: 100
+  def: 100
+  spatk: 125
+  spdef: 95
+  spe: 90
+  ability: ABILITY_AIR_BLOWER
+  ability: ABILITY_FLAMING_SOUL
+  ability: ABILITY_DROUGHT
+  innate: ABILITY_FLASH_FIRE
+  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_PYROMANCY
+  genderless: true
+  mega {
+    from: SPECIES_MOLTRES
+    item: ITEM_MOLTRESITE
+  }
+  visuals {
+    icon {
+      path: "moltres/mega/icon"
+    }
+    front {
+      path: "moltres/mega/front"
       coords {
         elevation: 6
       }
     }
     back {
-      path: "moltres/ex/back"
+      path: "moltres/mega/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
         y_offset: 10
       }
     }
-    palette: "moltres/ex/normal"
-    shiny: "moltres/ex/shiny"
+    palette: "moltres/mega/normal"
+    shiny: "moltres/mega/shiny"
   }
 }
 species {
