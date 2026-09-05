@@ -27,8 +27,8 @@ ability {
 ability {
   id: ABILITY_BATTLE_ARMOR
   name: "Battle Armor"
-  description: "Immune to critical hits. Takes 20% less damage from attacks."
-  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
+  description: "No critical hits or bleeding. Take 20% less from attacks."
+  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. No bleeding. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
 }
 ability {
   id: ABILITY_STURDY
@@ -453,8 +453,8 @@ ability {
 ability {
   id: ABILITY_SHELL_ARMOR
   name: "Shell Armor"
-  description: "Immune to critical hits. Takes 20% less damage from attacks."
-  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
+  description: "No critical hits or bleeding. Take 20% less from attacks."
+  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. No bleeding. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
 }
 ability {
   id: ABILITY_AIR_LOCK
@@ -601,8 +601,8 @@ ability {
 ability {
   id: ABILITY_STALL
   name: "Stall"
-  description: "Takes 30% less damage if it hasn't moved yet."
-  expanded_description: "Reduces damage by 30% if the user has not moved yet. Multiplicative with other damage reduction sources. Works when the user switches in mid-turn."
+  description: "Takes 35% less damage if it hasn't moved yet."
+  expanded_description: "Reduces damage by 35% if the user has not moved yet. Multiplicative with other damage reduction sources. Works when the user switches in mid-turn."
 }
 ability {
   id: ABILITY_TECHNICIAN
@@ -613,8 +613,8 @@ ability {
 ability {
   id: ABILITY_LEAF_GUARD
   name: "Leaf Guard"
-  description: "Cures own status at the end of every turn in sun."
-  expanded_description: "During sun, cures all status conditions at the end of the turn."
+  description: "Cures own status at the end of every turn in Grassy Terrain."
+  expanded_description: "During Grassy Terrain, cures all status conditions at the end of the turn."
 }
 ability {
   id: ABILITY_KLUTZ
@@ -626,13 +626,13 @@ ability {
   id: ABILITY_MOLD_BREAKER
   name: "Mold Breaker"
   description: "Moves hit through most abilities and innates."
-  expanded_description: "Allows moves to ignore immunity-providing abilities and innates, as well as most damage-reducing abilities and innates. Does not bypass defense increases or unconventional effects of some abilities, such as Fur Coat, Ice Scales, Grass Pelt, Fae Hunter, Slow Start, Color Change, etc."
+  expanded_description: "Allows moves to ignore immunity-providing abilities/innates, and most damage-reducing abilities/innates. Does not bypass defense increases or unconventional effects of some of them, such as Fur Coat, Ice Scales, Grass Pelt, Madness Enhancement, Slow Start, Color Change, etc."
 }
 ability {
   id: ABILITY_SUPER_LUCK
   name: "Super Luck"
-  description: "Raises critical-hit ratio of own moves by +1."
-  expanded_description: "Adds +1 to the critical hit stage of all the Pokemon's damaging moves."
+  description: "Your side has +1 crit ratio and gets hit with good luck."
+  expanded_description: "You and allies have +1 crit ratio. Foes also can't crit, nor land sub-100 chance effects or moves."
 }
 ability {
   id: ABILITY_AFTERMATH
@@ -715,8 +715,8 @@ ability {
 ability {
   id: ABILITY_FRISK
   name: "Frisk"
-  description: "Checks foes' items, and disables them for eight turns."
-  expanded_description: "Upon entering battle, reveals the opponents' items and prevents them from working for 8 turns. Does not prevent Mega Stones and other similar items from working."
+  description: "Checks foes' items, and disables them for five turns."
+  expanded_description: "Upon entering battle, reveals the opponents' items and prevents them from working for 5 turns. Does not prevent Mega Stones and other similar items from working."
 }
 ability {
   id: ABILITY_RECKLESS
@@ -781,8 +781,8 @@ ability {
 ability {
   id: ABILITY_CURSED_BODY
   name: "Cursed Body"
-  description: "30% chance to disable moves if enemy makes contact."
-  expanded_description: "The user has a 30% chance to disable the attacker's move for 4 turns when hit by contact moves. The disabled move cannot be selected until the effect wears off."
+  description: "Disables move when attacked by an enemy."
+  expanded_description: "The user disables the attacker's move for 4 turns when hit. The disabled move cannot be selected until the effect wears off."
 }
 ability {
   id: ABILITY_HEALER
@@ -793,8 +793,8 @@ ability {
 ability {
   id: ABILITY_FRIEND_GUARD
   name: "Friend Guard"
-  description: "Reduces damage that ally takes by 25% in double battles."
-  expanded_description: "In a double battle, the user's ally receives 25% less damage. Multiplicative with other damage reduction sources."
+  description: "Doubles ally's defenses in double battles."
+  expanded_description: "In a double battle, the user's ally receives double defenses."
 }
 ability {
   id: ABILITY_WEAK_ARMOR
@@ -835,8 +835,8 @@ ability {
 ability {
   id: ABILITY_HARVEST
   name: "Harvest"
-  description: "50% chance to recycle a used Berry every turn, 100% in sun."
-  expanded_description: "50% chance to restore berry on turn end, 100% in sun. Includes berries that were used for Fling, Natural Gift, or eaten."
+  description: "50% chance to recycle Berry, 100% in Grassy Terrain."
+  expanded_description: "50% chance to restore berry on turn end, 100% in Grassy Terrain. Includes berries that were used for Fling, Natural Gift, or eaten."
 }
 ability {
   id: ABILITY_TELEPATHY
@@ -907,8 +907,8 @@ ability {
 ability {
   id: ABILITY_INFILTRATOR
   name: "Infiltrator"
-  description: "Own moves bypass Substitutes and damage reduction screens."
-  expanded_description: "Allows moves to bypass the effects of screens, Safeguard, Mist, and Substitute."
+  description: "Bypass Protect, Substitute, screens, Mist and Safeguard."
+  expanded_description: "Allows moves to bypass the effects of Protect, Substitute, screens, Mist, and Safeguard."
 }
 ability {
   id: ABILITY_MUMMY
@@ -1451,8 +1451,8 @@ ability {
 ability {
   id: ABILITY_STALWART
   name: "Stalwart"
-  description: "Isn't affected by redirection, crits, or ability suppression."
-  expanded_description: "Can't have its moves redirected, can't be critically hit, and can't have its abilities suppressed. Ability suppression includes effects such as Mold Breaker, Gastro Acid, Neutralizing Gas, and Mycelium Might."
+  description: "-20% damage taken, immune to crits and ability suppression."
+  expanded_description: "-20% damage taken and can't be critically hit, nor have its abilities suppressed. Ability suppression includes effects such as Mold Breaker, Gastro Acid, Neutralizing Gas, and Mycelium Might."
 }
 ability {
   id: ABILITY_STEAM_ENGINE
@@ -1630,8 +1630,7 @@ ability {
 ability {
   id: ABILITY_PRISM_SCALES
   name: "Prism Scales"
-  description: "Takes 30% less damage from Special attacks."
-  expanded_description: "Prism Scales reduces damage from all Special attacks by 30%. Stacks multiplicatively with other damage reduction sources."
+  description: "1.5x Special Defense."
 }
 ability {
   id: ABILITY_POWER_FISTS
@@ -2002,7 +2001,7 @@ ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
   description: "Inaccurate moves never hit you. Others hit with bad luck."
-  expanded_description: "Foes deal min damage. They also can't crit, nor land sub-100 chance effects or moves."
+  expanded_description: "Foes deal min damage against you and allies. They also can't crit, nor land sub-100 chance effects or moves."
 }
 ability {
   id: ABILITY_HAUNTED_SPIRIT
@@ -2241,7 +2240,7 @@ ability {
   id: ABILITY_BIG_LEAVES
   name: "Big Leaves"
   description: "Chloroplast + Chlorophyll + Leaf Guard + Harvest + Solar Power."
-  expanded_description: "Activates any sun related effects for the user's moves. Boosts Speed stat by 50% in sun. Cures status in sun. 50% chance to restore berry on turn end, 100% in sun. Raises highest attacking stat by 50% in sun."
+  expanded_description: "Activates Sun and Grassy Terrain related effects for the user's moves. Boosts Speed stat by 50% in sun. Cures status in Grassy Terrain. 50% chance to restore berry on turn end, 100% in Grassy Terrain. Raises highest attacking stat by 50% in sun."
 }
 ability {
   id: ABILITY_PRECISE_FIST
@@ -2443,8 +2442,8 @@ ability {
 ability {
   id: ABILITY_FEARMONGER
   name: "Fearmonger"
-  description: "Intimidate + Scare; 10% chance to fear with contact moves."
-  expanded_description: "Fearmonger lowers both Attack and Special Attack of opposing Pokemon upon entry by one stage. Additionally provides a 10% chance to inflict fear when landing contact moves."
+  description: "Intimidate + Scare."
+  expanded_description: "Fearmonger lowers both Attack and Special Attack of opposing Pokemon upon entry by one stage."
 }
 ability {
   id: ABILITY_KINGS_WRATH
@@ -4243,8 +4242,8 @@ ability {
 ability {
   id: ABILITY_DREAM_STATE
   name: "Dream State"
-  description: "Immune to critical hits. Takes 20% less damage from attacks."
-  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
+  description: "No critical hits or bleeding. Take 20% less from attacks."
+  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. No bleeding. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
 }
 ability {
   id: ABILITY_DREAM_WHIMSY
@@ -4435,7 +4434,7 @@ ability {
   id: ABILITY_BREAKWATER
   name: "Breakwater"
   description: "Swift Swim + Stall."
-  expanded_description: "Boosts Speed by 50% during rain. Reduces damage by 30% when moving before the opponent. Works when the user switches in mid-turn."
+  expanded_description: "Boosts Speed by 50% during rain. Reduces damage by 35% when moving before the opponent. Works when the user switches in mid-turn."
 }
 ability {
   id: ABILITY_MAGICAL_FISTS
@@ -4506,8 +4505,8 @@ ability {
 ability {
   id: ABILITY_CRUST_COAT
   name: "Crust Coat"
-  description: "Immune to critical hits. Takes 20% less damage from attacks."
-  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
+  description: "No critical hits or bleeding. Take 20% less from attacks."
+  expanded_description: "Incoming damage is reduced by 20% (x0.8), multiplicative with other damage reduction. No bleeding. Additionally, critical hits are blocked, functioning as regular hits and not activating on-crit effects like To The Bone's bleed."
 }
 ability {
   id: ABILITY_PUFFY
@@ -4543,7 +4542,7 @@ ability {
   id: ABILITY_FARADAY_CAGE
   name: "Faraday Cage"
   description: "Shell Armor + 50BP Thunder Cage when hit by contact."
-  expanded_description: "Incoming damage is reduced by 20%, multiplicative with other damage reduction. Critical hits are blocked. Uses Thunder Cage when hit by contact moves, a 50 BP Electric-type Special move that traps the opponent for 4-5 turns. The target takes 1/8 max HP damage each turn and cannot switch out."
+  expanded_description: "Incoming damage is reduced by 20%, multiplicative with other damage reduction. No bleeding. Critical hits are blocked. Uses Thunder Cage when hit by contact moves, 50 BP Electric-type Special, traps 4-5 turns. Target takes 1/8 HP each turn and cannot switch out."
 }
 ability {
   id: ABILITY_ACIDIC_SLIME
@@ -4889,8 +4888,8 @@ ability {
 ability {
   id: ABILITY_MADNESS_ENHANCEMENT
   name: "Madness Enhancement"
-  description: "Enrages in fog, reduces damage taken by 50% when enraged."
-  expanded_description: "Becomes enraged when entering fog. All incoming damage is reduced by 50% when the user is enraged."
+  description: "Enrages in fog, doubles defenses enraged."
+  expanded_description: "Becomes enraged when entering fog. Doubles defenses when enraged."
 }
 ability {
   id: ABILITY_TENTALOCK
@@ -4913,8 +4912,8 @@ ability {
 ability { 
   id: ABILITY_SCARECROW
   name: "Scarecrow"
-  description: "Scare + Bad Luck."
-  expanded_description: "Special Attack -1 stage to foes on entry + Foes deal min damage. They also can't crit, nor land sub-100 chance effects or moves."
+  description: "Fearmonger + Bad Luck."
+  expanded_description: "Attack and Special Attack -1 stage to foes on entry + Foes deal min damage. They also can't crit, nor land sub-100 chance effects or moves."
 }
 ability {
   id: ABILITY_OMINOUS_SHROUD
@@ -5146,7 +5145,7 @@ ability {
   id: ABILITY_HASTE_MAKES_WASTE
   name: "Haste Makes Waste"
   description: "Stall + Analytic."
-  expanded_description: "Reduces damage by 30% if the user has not moved yet. Multiplicative with other damage reduction sources. Works when the user switches in mid-turn. Boosts damage by 30% if the target has already moved this turn."
+  expanded_description: "Reduces damage by 35% if the user has not moved yet. Multiplicative with other damage reduction sources. Works when the user switches in mid-turn. Boosts damage by 30% if the target has already moved this turn."
 }
 ability {
   id: ABILITY_HUNGRY_MAWS
@@ -5295,7 +5294,8 @@ ability {
 ability {
   id: ABILITY_CRYSTALLINE_ARMOR
   name: "Crystalline Armor"
-  description: "Reflects stat drops and immune to critical hits."
+  description: "Battle Armor + Bounces back any stat drops inflicted by an enemy."
+  expanded_description: "Damage is reduced by 20%. No bleeding. Additionally, critical hits are blocked, functioning as regular hits. Reflects all stat-lowering effects aimed at the user back to the attacker. The reflection bypasses immunities."
 }
 ability {
   id: ABILITY_SOUL_HARVEST
@@ -5713,7 +5713,7 @@ ability {
 ability {
   id: ABILITY_FIRES_WRATH
   name: "Fire's Wrath"
-  description: "Intimidate + Scare; 10% chance to inflict burn on non contact."
+  description: "Intimidate + Scare."
 }
 ability {
   id: ABILITY_EMPERORS_WRATH
@@ -5860,7 +5860,7 @@ ability {
 ability {
   id: ABILITY_ACID_REFLUX
   name: "Acid Reflux"
-  description: "Uses 20BP Acid when taking any damage."
+  description: "Corrosion + Counter attacks with Toxic."
 }
 ability {
   id: ABILITY_GHOST_FRENZY
@@ -6027,9 +6027,9 @@ ability {
   description: "Mighty Horn + Fighting Spirit"
 }
 ability {
-  id: ABILITY_SLEEK_SCALES
-  name: "Sleek Scales"
-  description: "The Pokémon uses +15% of its Speed when defending."
+  id: ABILITY_ELEGANT_MOVEMENTS
+  name: "Elegant Movements"
+  description: "The Pokémon uses +1/3 of its Speed when defending."
 }
 ability {
   id: ABILITY_ROCK_ARMOR
@@ -6117,4 +6117,22 @@ ability {
   name: "Superhero"
   description: "Punisher + Justified."
   expanded_description: "Immune to Dark and boosts highest attack when hit by it. 1.5x attack and 2x defense against Dark types."
+}
+ability {
+  id: ABILITY_MEASURED_STEPS
+  name: "Measured Steps"
+  description: "Immune to hazards and paralysis."
+  expanded_description: "User is immune to entry hazards and paralysis. Also cures paralysis if suddenly gaining this ability."
+}
+ability {
+  id: ABILITY_ESCAPE_ARTIST
+  name: "Escape Artist"
+  description: "Switching/pivoting attacks have +30% power and +2 priority."
+  expanded_description: "Attacks that switch the user out have +50% power and +2 priority."
+}
+ability {
+  id: ABILITY_DUBIOUS_LITTLE_CREATURE
+  name: "Dubious Little Creature"
+  description: "Frisk + Escape Artist."
+  expanded_description: "Upon entering battle, reveals the opponents' items and prevents them from working for 5 turns. Except Mega Stones and other similar items. Attacks that switch the user out have +50% power and +2 priority." 
 }

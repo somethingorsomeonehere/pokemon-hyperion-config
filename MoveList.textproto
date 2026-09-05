@@ -196,7 +196,7 @@ moves {
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
-  power: 120
+  power: 100
   accuracy: 85
   pp: 5
   contact: true
@@ -213,8 +213,8 @@ moves {
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
-  power: 120
-  accuracy: 80
+  power: 100
+  accuracy: 85
   pp: 5
   effect_chance: 20
   contact: true
@@ -6549,7 +6549,7 @@ moves {
   split: SPECIAL
   type: TYPE_FIGHTING
   target: SELECTED
-  power: 85
+  power: 100
   pp: 20
   mirror_move_affected: true
   mega_launcher: true
@@ -6805,16 +6805,14 @@ moves {
   id: MOVE_FOCUS_BLAST
   name: "Focus Blast"
   short_name: "Focus Blast"
-  description: "Mental power is un-leashed. 65% chance to lower foe\'s SpDef. Mega Launcher boost"
-  short_description: "Attacks at full power. May lower Sp. Def."
-  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
+  description: "Mental power is un-leashed. Mega Launcher boost"
+  short_description: "Attacks at full power, but inaccurate."
   split: SPECIAL
   type: TYPE_FIGHTING
   target: SELECTED
-  power: 120
-  accuracy: 75
+  power: 130
+  accuracy: 80
   pp: 5
-  effect_chance: 65
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
@@ -11268,7 +11266,7 @@ moves {
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
-  power: 60
+  power: 75
   accuracy: 100
   pp: 20
   argument {
@@ -11350,8 +11348,8 @@ moves {
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
-  power: 100
-  accuracy: 90
+  power: 90
+  accuracy: 100
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
@@ -12473,7 +12471,7 @@ moves {
   split: PHYSICAL
   type: TYPE_ICE
   target: BOTH
-  power: 120
+  power: 130
   accuracy: 100
   pp: 5
   mirror_move_affected: true
@@ -12487,7 +12485,7 @@ moves {
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
-  power: 110
+  power: 130
   accuracy: 100
   pp: 5
   mirror_move_affected: true
@@ -12554,8 +12552,8 @@ moves {
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 120
-  accuracy: 80
+  power: 100
+  accuracy: 85
   pp: 5
   effect_chance: 20
   contact: true
@@ -15206,7 +15204,7 @@ moves {
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
-  power: 120
+  power: 40
   accuracy: 100
   pp: 10
   effect_chance: 100
