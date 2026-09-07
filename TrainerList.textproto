@@ -114064,7 +114064,7 @@ trainer {
     }
     mon {
       species: SPECIES_ESPEON
-      item: ITEM_GALACTIC_ORB
+      item: ITEM_ESPEONITE
       nature: NATURE_TIMID
       ability: ABILITY_SOUL_HEART
       hp_ev: 4

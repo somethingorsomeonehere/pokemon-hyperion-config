@@ -9252,18 +9252,18 @@ species {
     pokemon_offset: 14
   }
   type: TYPE_FIRE
-  hp: 55
-  atk: 70
-  def: 50
-  spatk: 70
+  hp: 100
+  atk: 50
+  def: 45
+  spatk: 50
   spdef: 45
-  spe: 60
+  spe: 160
   ability: ABILITY_INTIMIDATE
-  ability: ABILITY_STRONG_JAW
-  ability: ABILITY_IMMOLATE
-  innate: ABILITY_GUARD_DOG
-  innate: ABILITY_JUSTIFIED
-  innate: ABILITY_FLUFFY
+  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_FLAME_COAT
+  innate: ABILITY_TEMPLE_DOG
+  innate: ABILITY_DUBIOUS_CREATURE
+  innate: ABILITY_GODSPEED
   percent_female: 25
   tier: 4
   evo {
@@ -9296,42 +9296,57 @@ species {
     }
     level {
       level: 37
-      move: MOVE_CRUNCH
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_FIRE_PLEDGE
       move: MOVE_MORNING_SUN
       move: MOVE_NOBLE_ROAR
       move: MOVE_SNARL
     }
     level {
       level: 46
+      move: MOVE_BURN_UP
       move: MOVE_EMBER
       move: MOVE_FLARE_BLITZ
+      move: MOVE_OVERHEAT
       move: MOVE_RAGING_FURY
       move: MOVE_REVERSAL
+      move: MOVE_RAGE
     }
     level {
       level: 51
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_MYSTIC_DANCE
       move: MOVE_THRASH
     }
-    tutor: MOVE_AGILITY
+    level {
+      level: 56
+      move: MOVE_SACRED_FIRE
+    }
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_COVET
-    tutor: MOVE_DIG
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DRAINING_KISS
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_PURSUIT
-    tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -9404,18 +9419,18 @@ species {
     trainer_offset: 4
   }
   type: TYPE_FIRE
-  hp: 90
-  atk: 125
+  hp: 120
+  atk: 80
   def: 80
-  spatk: 115
+  spatk: 80
   spdef: 80
-  spe: 110
+  spe: 160
   ability: ABILITY_INTIMIDATE
-  ability: ABILITY_DISCIPLINE
-  ability: ABILITY_IMMOLATE
-  innate: ABILITY_GUARD_DOG
-  innate: ABILITY_JUSTIFIED
-  innate: ABILITY_FUR_COAT
+  ability: ABILITY_SUN_BASKING
+  ability: ABILITY_FLAME_COAT
+  innate: ABILITY_TEMPLE_DOG
+  innate: ABILITY_MYSTIC_POWER
+  innate: ABILITY_GODSPEED
   percent_female: 25
   learnset {
     level {
@@ -9443,8 +9458,8 @@ species {
     }
     level {
       level: 37
-      move: MOVE_CRUNCH
       move: MOVE_EXTREME_SPEED
+      move: MOVE_FIRE_PLEDGE
       move: MOVE_MORNING_SUN
       move: MOVE_NOBLE_ROAR
       move: MOVE_SNARL
@@ -9462,39 +9477,38 @@ species {
     level {
       level: 51
       move: MOVE_CLOSE_COMBAT
+      move: MOVE_DRAIN_PUNCH
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_OUTRAGE
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_MYSTIC_DANCE
       move: MOVE_THRASH
     }
     level {
       level: 56
-      move: MOVE_INFERNO
+      move: MOVE_SACRED_FIRE
     }
-    tutor: MOVE_AGILITY
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_COVET
-    tutor: MOVE_DIG
-    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DRAINING_KISS
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_IRON_HEAD
     tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_PLAY_ROUGH
-    tutor: MOVE_PURSUIT
-    tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
   }
   visuals {
     icon {
@@ -21292,7 +21306,7 @@ species {
     pokemon_offset: 8
   }
   type: TYPE_WATER
-  hp: 130
+  hp: 135
   atk: 65
   def: 60
   spatk: 110
@@ -21423,7 +21437,7 @@ species {
   def: 60
   spatk: 110
   spdef: 95
-  spe: 130
+  spe: 135
   ability: ABILITY_SPEED_BOOST
   ability: ABILITY_ELECTRIC_BURST
   ability: ABILITY_ELECTRIC_SURGE
@@ -21550,7 +21564,7 @@ species {
   }
   type: TYPE_FIRE
   hp: 95
-  atk: 130
+  atk: 135
   def: 60
   spatk: 65
   spdef: 65
@@ -25521,7 +25535,7 @@ species {
   ability: ABILITY_MOMENTUM
   ability: ABILITY_ULTRA_INSTINCT
   ability: ABILITY_PRIM_AND_PROPER
-  innate: ABILITY_DUBIOUS_LITTLE_CREATURE
+  innate: ABILITY_DUBIOUS_CREATURE
   innate: ABILITY_MEASURED_STEPS
   innate: ABILITY_ELEGANT_MOVEMENTS
   percent_female: 50
@@ -25552,6 +25566,7 @@ species {
       move: MOVE_FLING
       move: MOVE_FRUSTRATION
       move: MOVE_ME_FIRST
+      move: MOVE_PUNISHMENT
       move: MOVE_QUICK_ATTACK
       move: MOVE_SLAM
     }
@@ -25593,6 +25608,7 @@ species {
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_PURSUIT
     tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_THIEF
     tutor: MOVE_U_TURN
@@ -25672,7 +25688,7 @@ species {
   ability: ABILITY_MOMENTUM
   ability: ABILITY_ULTRA_INSTINCT
   ability: ABILITY_NO_TURNING_BACK
-  innate: ABILITY_DUBIOUS_LITTLE_CREATURE
+  innate: ABILITY_DUBIOUS_CREATURE
   innate: ABILITY_MEASURED_STEPS
   innate: ABILITY_ELEGANT_MOVEMENTS
   percent_female: 50
@@ -25698,6 +25714,7 @@ species {
       move: MOVE_FLING
       move: MOVE_FRUSTRATION
       move: MOVE_ME_FIRST
+      move: MOVE_PUNISHMENT
       move: MOVE_QUICK_ATTACK
       move: MOVE_SLAM
     }
@@ -25739,6 +25756,7 @@ species {
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_PURSUIT
     tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_THIEF
     tutor: MOVE_U_TURN
@@ -31107,17 +31125,17 @@ species {
   }
   type: TYPE_PSYCHIC
   hp: 65
-  atk: 65
-  def: 60
-  spatk: 130
+  atk: 60
+  def: 65
+  spatk: 110
   spdef: 95
-  spe: 110
-  ability: ABILITY_SOUL_HEART
-  ability: ABILITY_SAGE_POWER
-  ability: ABILITY_PSYCHIC_SURGE
-  innate: ABILITY_MAGIC_BOUNCE
-  innate: ABILITY_AVENGER
-  innate: ABILITY_PSYCHIC_MIND
+  spe: 135
+  ability: ABILITY_MYSTIC_POWER
+  ability: ABILITY_MAGIC_BOUNCE
+  ability: ABILITY_FORTIFICATIONS
+  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_PURE_POWER
+  innate: ABILITY_TELEPATHY
   percent_female: 12.5
   learnset {
     level {
@@ -31136,7 +31154,7 @@ species {
     level {
       level: 24
       move: MOVE_CONFUSION
-      move: MOVE_DRAIN_BRAIN
+      move: MOVE_GLITZY_GLOW
       move: MOVE_TICKLE
     }
     level {
@@ -31251,7 +31269,7 @@ species {
   atk: 65
   def: 110
   spatk: 60
-  spdef: 130
+  spdef: 135
   spe: 65
   ability: ABILITY_POISON_TOUCH
   ability: ABILITY_PREDATOR
@@ -52486,11 +52504,11 @@ species {
   }
   type: TYPE_DRAGON
   type2: TYPE_FLYING
-  hp: 75
-  atk: 90
-  def: 90
-  spatk: 70
-  spdef: 105
+  hp: 90
+  atk: 100
+  def: 100
+  spatk: 30
+  spdef: 100
   spe: 80
   ability: ABILITY_COTTON_DOWN
   ability: ABILITY_SERENE_GRACE
@@ -73816,7 +73834,7 @@ species {
   type: TYPE_GRASS
   hp: 65
   atk: 110
-  def: 130
+  def: 135
   spatk: 60
   spdef: 65
   spe: 95
@@ -73949,7 +73967,7 @@ species {
   hp: 65
   atk: 60
   def: 110
-  spatk: 130
+  spatk: 135
   spdef: 95
   spe: 65
   ability: ABILITY_ICE_SCALES
@@ -108522,7 +108540,7 @@ species {
   atk: 65
   def: 65
   spatk: 110
-  spdef: 130
+  spdef: 135
   spe: 60
   ability: ABILITY_FAIRY_AURA
   ability: ABILITY_SERENE_GRACE
@@ -154642,7 +154660,7 @@ species {
   ability: ABILITY_UNAWARE
   innate: ABILITY_SUPER_LUCK
   innate: ABILITY_WORLD_SERPENT
-  innate: ABILITY_HEAVENS_GRACE
+  innate: ABILITY_HEAVENLY_GRACE
   percent_female: 50
   mega {
     from: SPECIES_DUDUDUNSPARCE
@@ -161097,12 +161115,12 @@ species {
   form_of: SPECIES_ALTARIA
   type: TYPE_DRAGON
   type2: TYPE_FAIRY
-  hp: 75
-  atk: 110
-  def: 110
-  spatk: 110
-  spdef: 105
-  spe: 100
+  hp: 90
+  atk: 125
+  def: 125
+  spatk: 30
+  spdef: 125
+  spe: 105
   ability: ABILITY_PIXILATE
   ability: ABILITY_CLOUD_NINE
   ability: ABILITY_PEACEFUL_SLUMBER
@@ -188612,18 +188630,18 @@ species {
   id: SPECIES_ARCANINE_MEGA
   form_of: SPECIES_ARCANINE
   type: TYPE_FIRE
-  hp: 90
-  atk: 145
+  hp: 120
+  atk: 100
   def: 100
-  spatk: 135
+  spatk: 100
   spdef: 100
-  spe: 130
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_GUARD_DOG
-  innate: ABILITY_FLAME_COAT
-  innate: ABILITY_IMMOLATE
+  spe: 180
+  ability: ABILITY_FIRES_WRATH
+  ability: ABILITY_FIRES_WRATH
+  ability: ABILITY_FIRES_WRATH
+  innate: ABILITY_TEMPLE_DOG
+  innate: ABILITY_MYSTIC_POWER
+  innate: ABILITY_GODSPEED
   percent_female: 25
   mega {
     from: SPECIES_ARCANINE
@@ -195433,11 +195451,11 @@ species {
   spdef: 75
   spe: 54
   ability: ABILITY_AIR_BLOWER
-  ability: ABILITY_HEAVENS_GRACE
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_HEAVENLY_GRACE
+  ability: ABILITY_SOLAR_POWER
   innate: ABILITY_RAINBOW_SCALES
-  innate: ABILITY_AERIALIST
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_FUR_COAT
   percent_female: 50
   tier: 3
   evo {
@@ -195485,6 +195503,7 @@ species {
       move: MOVE_SUPERHOT_FLAME
       move: MOVE_RAIN_FLUSH
       move: MOVE_SEARING_SHOT
+      move: MOVE_TRI_ATTACK
     }
     level {
       level: 51
@@ -195493,45 +195512,45 @@ species {
     }
     level {
       level: 56
-      move: MOVE_CHILLING_WATER
       move: MOVE_SPLISHY_SPLASH
     }
     level {
       level: 71
       move: MOVE_FIERY_DANCE
     }
-    tutor: MOVE_DAZZLING_GLEAM
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_AQUA_RING
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
     tutor: MOVE_FACADE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLY
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_SKY_DROP
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REFRESH
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_SOAK
+    tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
-    tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_SPOTLIGHT
-    tutor: MOVE_SAFEGUARD
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_PLUCK
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_SOAK
-    tutor: MOVE_REFRESH
   }
   visuals {
     icon {
@@ -195572,18 +195591,18 @@ species {
   form_of: SPECIES_ALTARIA
   type: TYPE_FIRE
   type2: TYPE_WATER
-  hp: 72
-  atk: 68
-  def: 82
-  spatk: 95
-  spdef: 115
-  spe: 78
+  hp: 90
+  atk: 30
+  def: 100
+  spatk: 100
+  spdef: 100
+  spe: 80
   ability: ABILITY_AIR_BLOWER
-  ability: ABILITY_HEAVENS_GRACE
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_HEAVENLY_GRACE
+  ability: ABILITY_SOLAR_POWER
   innate: ABILITY_RAINBOW_SCALES
-  innate: ABILITY_AERIALIST
-  innate: ABILITY_FLUFFY
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_FUR_COAT
   percent_female: 50
   tier: 3
   learnset {
@@ -195636,48 +195655,45 @@ species {
     }
     level {
       level: 56
-      move: MOVE_CHILLING_WATER
       move: MOVE_SPLISHY_SPLASH
     }
     level {
       level: 71
       move: MOVE_FIERY_DANCE
     }
-    tutor: MOVE_DAZZLING_GLEAM
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_ACROBATICS
     tutor: MOVE_AQUA_RING
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
     tutor: MOVE_FACADE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_AIR_SLASH
-    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLY
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_SKY_DROP
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REFRESH
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_SOAK
+    tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
-    tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_SPOTLIGHT
-    tutor: MOVE_SAFEGUARD
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_PLUCK
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_SOAK
-    tutor: MOVE_MOONBLAST
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_REFRESH
   }
   visuals {
     icon {
@@ -195707,18 +195723,18 @@ species {
   form_of: SPECIES_ALTARIA
   type: TYPE_FIRE
   type2: TYPE_WATER
-  hp: 72
-  atk: 84
-  def: 102
-  spatk: 109
-  spdef: 155
-  spe: 88
+  hp: 90
+  atk: 30
+  def: 125
+  spatk: 125
+  spdef: 125
+  spe: 105
   ability: ABILITY_AIR_BLOWER
-  ability: ABILITY_HEAVENS_GRACE
-  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_HEAVENLY_GRACE
+  ability: ABILITY_SOLAR_POWER
   innate: ABILITY_RAINBOW_SCALES
   innate: ABILITY_AERIALIST
-  innate: ABILITY_FLUFFIEST
+  innate: ABILITY_FUR_COAT
   percent_female: 50
   mega {
     from: SPECIES_ALTARIA_REDUX
@@ -196174,12 +196190,12 @@ species {
   form_of: SPECIES_DEWGONG
   type: TYPE_ICE
   type2: TYPE_NORMAL
-  hp: 90
-  atk: 90
-  def: 70
-  spatk: 95
-  spdef: 120
-  spe: 95
+  hp: 125
+  atk: 125
+  def: 175
+  spatk: 125
+  spdef: 175
+  spe: 25
   ability: ABILITY_PRISMATIC_FUR
   ability: ABILITY_PRISMATIC_FUR
   ability: ABILITY_PRISMATIC_FUR
@@ -204553,26 +204569,25 @@ species {
   }
 }
 species {
-  id: SPECIES_ESPEON_GALAXY
-  randomizer_banned: MONOTYPE
+  id: SPECIES_ESPEON_MEGA
   form_of: SPECIES_ESPEON
   type: TYPE_PSYCHIC
   hp: 65
-  atk: 90
+  atk: 5
   def: 100
-  spatk: 100
-  spdef: 135
-  spe: 135
-  ability: ABILITY_PURE_POWER
-  ability: ABILITY_PURE_POWER
-  ability: ABILITY_PURE_POWER
-  innate: ABILITY_FOREWARN
-  innate: ABILITY_TINTED_LENS
-  innate: ABILITY_MAGIC_BOUNCE
+  spatk: 160
+  spdef: 140
+  spe: 160
+  ability: ABILITY_MYSTIC_POWER
+  ability: ABILITY_MAGIC_BOUNCE
+  ability: ABILITY_FORTIFICATIONS
+  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_PURE_POWER
+  innate: ABILITY_TELEPATHY
   percent_female: 12.5
-  primal {
+  mega {
     from: SPECIES_ESPEON
-    item: ITEM_GALACTIC_ORB
+    item: ITEM_ESPEONITE
   }
   visuals {
     icon {

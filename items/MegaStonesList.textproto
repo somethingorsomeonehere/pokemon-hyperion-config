@@ -1864,14 +1864,14 @@ item {
   unique_mega_location: "Defeat the Dark Monotype Champion."
 }
 item {
-  id: ITEM_GALACTIC_ORB
-  name: "Galactic Orb"
-  description: "Enables Espeon to Primal Revert."
+  id: ITEM_ESPEONITE
+  name: "Espeonite"
+  description: "Enables Espeon to Mega Evolve."
   grouping: POCKET_MEGA_STONES
-  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "purple_orb"
   palette: "purple_orb"
-  unique_mega_location: "Defeat the Psychic Monotype Champion."
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHIEN_PAOITE
