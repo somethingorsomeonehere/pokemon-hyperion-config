@@ -74012,6 +74012,10 @@ species {
       move: MOVE_LAST_RESORT
       move: MOVE_TRUMP_CARD
     }
+    level {
+      level: 56
+      move: MOVE_DIAMOND_DUST
+    }
     tutor: MOVE_AGILITY
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BABY_DOLL_EYES
@@ -135973,7 +135977,7 @@ species {
   ability: ABILITY_AVENGER
   ability: ABILITY_JUSTIFIED
   ability: ABILITY_OPPORTUNIST
-  innate: ABILITY_SHOWDOWN_MODE
+  innate: ABILITY_READIED_ACTION
   innate: ABILITY_SWARM
   innate: ABILITY_STRIKER
   percent_female: 50
@@ -140198,18 +140202,18 @@ species {
   }
   type: TYPE_FAIRY
   type2: TYPE_STEEL
-  hp: 50
-  atk: 55
-  def: 45
+  hp: 55
+  atk: 60
+  def: 60
   spatk: 35
-  spdef: 64
-  spe: 62
-  ability: ABILITY_STEELWORKER
+  spdef: 70
+  spe: 65
+  ability: ABILITY_MOLD_BREAKER
   ability: ABILITY_READIED_ACTION
-  ability: ABILITY_OPPORTUNIST
+  ability: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_ARMOR_BREAKER
   innate: ABILITY_SUPER_SLAMMER
-  innate: ABILITY_RATTLED
-  innate: ABILITY_MOLD_BREAKER
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   tier: 3
   evo {
@@ -140227,6 +140231,7 @@ species {
     level {
       level: 17
       move: MOVE_BARRAGE
+      move: MOVE_EARTHSPLITTER
       move: MOVE_FAKE_OUT
       move: MOVE_LUNGE
       move: MOVE_ME_FIRST
@@ -140234,29 +140239,52 @@ species {
     }
     level {
       level: 24
+      move: MOVE_BRUTAL_SWING
       move: MOVE_FLING
       move: MOVE_SNATCH
     }
     level {
+      level: 37
+      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SWAGGER
+      move: MOVE_WILD_SWING
+    }
+    level {
       level: 46
       move: MOVE_ENCORE
+      move: MOVE_MAT_BLOCK
+    }
+    level {
+      level: 51
+      move: MOVE_BONK
+      move: MOVE_PARTING_SHOT
+      move: MOVE_STAR_CRASH
     }
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_METAL_SOUND
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWEET_KISS
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
     tutor: MOVE_TEARFUL_LOOK
-    tutor: MOVE_U_TURN
     tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_DRAINING_KISS
   }
   visuals {
     icon {
@@ -140305,18 +140333,18 @@ species {
   }
   type: TYPE_FAIRY
   type2: TYPE_STEEL
-  hp: 65
-  atk: 65
-  def: 55
+  hp: 70
+  atk: 75
+  def: 70
   spatk: 45
-  spdef: 82
-  spe: 82
-  ability: ABILITY_STEELWORKER
+  spdef: 85
+  spe: 85
+  ability: ABILITY_MOLD_BREAKER
   ability: ABILITY_READIED_ACTION
-  ability: ABILITY_OPPORTUNIST
+  ability: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_ARMOR_BREAKER
   innate: ABILITY_SUPER_SLAMMER
-  innate: ABILITY_LONG_REACH
-  innate: ABILITY_MOLD_BREAKER
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   evo {
     to: SPECIES_TINKATON
@@ -140346,8 +140374,21 @@ species {
       move: MOVE_SNATCH
     }
     level {
+      level: 37
+      move: MOVE_GIGATON_HAMMER
+      move: MOVE_SWAGGER
+      move: MOVE_WILD_SWING
+    }
+    level {
       level: 46
       move: MOVE_ENCORE
+      move: MOVE_MAT_BLOCK
+    }
+    level {
+      level: 51
+      move: MOVE_BONK
+      move: MOVE_PARTING_SHOT
+      move: MOVE_STAR_CRASH
     }
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BULLDOZE
@@ -140355,19 +140396,23 @@ species {
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_METAL_SOUND
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWEET_KISS
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_TEARFUL_LOOK
-    tutor: MOVE_U_TURN
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_DRAINING_KISS
   }
@@ -140409,17 +140454,17 @@ species {
   type: TYPE_FAIRY
   type2: TYPE_STEEL
   hp: 85
-  atk: 75
-  def: 77
-  spatk: 70
-  spdef: 105
-  spe: 94
-  ability: ABILITY_STEELY_SPIRIT
+  atk: 85
+  def: 100
+  spatk: 45
+  spdef: 125
+  spe: 100
+  ability: ABILITY_MOLD_BREAKER
   ability: ABILITY_READIED_ACTION
-  ability: ABILITY_OPPORTUNIST
+  ability: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_ARMOR_BREAKER
   innate: ABILITY_SUPER_SLAMMER
-  innate: ABILITY_LONG_REACH
-  innate: ABILITY_MOLD_BREAKER
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   learnset {
     level {
@@ -140466,7 +140511,6 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
-    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HARD_PRESS
@@ -140485,7 +140529,6 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_TEARFUL_LOOK
-    tutor: MOVE_U_TURN
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_DRAINING_KISS
   }
@@ -155268,7 +155311,7 @@ species {
   spatk: 130
   spdef: 85
   spe: 85
-  ability: ABILITY_SHOWDOWN_MODE
+  ability: ABILITY_READIED_ACTION
   ability: ABILITY_PRANKSTER
   ability: ABILITY_SOUL_TAP
   innate: ABILITY_OMINOUS_SHROUD
@@ -205467,17 +205510,17 @@ species {
   type: TYPE_FAIRY
   type2: TYPE_STEEL
   hp: 85
-  atk: 110
-  def: 107
-  spatk: 105
-  spdef: 105
-  spe: 94
+  atk: 115
+  def: 115
+  spatk: 55
+  spdef: 140
+  spe: 130
   ability: ABILITY_DEMOLITIONIST
   ability: ABILITY_DEMOLITIONIST
   ability: ABILITY_DEMOLITIONIST
+  innate: ABILITY_ARMOR_BREAKER
   innate: ABILITY_SUPER_SLAMMER
-  innate: ABILITY_LONG_REACH
-  innate: ABILITY_MOLD_BREAKER
+  innate: ABILITY_BATTLE_ARMOR
   percent_female: 100
   mega {
     from: SPECIES_TINKATON
@@ -209953,12 +209996,12 @@ species {
   form_of: SPECIES_TINKATINK
   type: TYPE_WATER
   type2: TYPE_POISON
-  hp: 51
-  atk: 70
-  def: 52
-  spatk: 33
-  spdef: 33
-  spe: 72
+  hp: 55
+  atk: 60
+  def: 60
+  spatk: 35
+  spdef: 70
+  spe: 65
   ability: ABILITY_TOXIC_DEBRIS
   ability: ABILITY_AQUATIC_DWELLER
   ability: ABILITY_SHELL_ARMOR
@@ -210070,12 +210113,12 @@ species {
   form_of: SPECIES_TINKATUFF
   type: TYPE_WATER
   type2: TYPE_POISON
-  hp: 61
-  atk: 85
-  def: 62
-  spatk: 47
-  spdef: 47
-  spe: 92
+  hp: 70
+  atk: 75
+  def: 70
+  spatk: 45
+  spdef: 85
+  spe: 85
   ability: ABILITY_TOXIC_DEBRIS
   ability: ABILITY_AQUATIC_DWELLER
   ability: ABILITY_INTIMIDATE
@@ -210188,11 +210231,11 @@ species {
   type: TYPE_WATER
   type2: TYPE_POISON
   hp: 85
-  atk: 105
-  def: 82
-  spatk: 65
-  spdef: 65
-  spe: 104
+  atk: 85
+  def: 100
+  spatk: 45
+  spdef: 125
+  spe: 100
   ability: ABILITY_HYDRATION
   ability: ABILITY_AQUATIC_DWELLER
   ability: ABILITY_INTIMIDATE
@@ -210306,11 +210349,11 @@ species {
   type: TYPE_WATER
   type2: TYPE_POISON
   hp: 85
-  atk: 140
-  def: 107
-  spatk: 85
-  spdef: 70
-  spe: 119
+  atk: 115
+  def: 115
+  spatk: 55
+  spdef: 140
+  spe: 130
   ability: ABILITY_ATLANTIC_RULER
   ability: ABILITY_ATLANTIC_RULER
   ability: ABILITY_ATLANTIC_RULER

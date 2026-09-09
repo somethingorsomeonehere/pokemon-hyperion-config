@@ -2300,3 +2300,7 @@ config {
     }
   }
 }
+config {
+  id: EFFECT_DIAMOND_DUST
+  legacy_config: "BattleScript_EffectDiamondDust"
+}

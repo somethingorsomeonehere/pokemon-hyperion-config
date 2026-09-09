@@ -14400,17 +14400,12 @@ moves {
   id: MOVE_GIGATON_HAMMER
   name: "Gigaton Hammer"
   short_name: "GigatonHammr"
-  description: "Super effective vs Steel. Can\'t be used twice in a row. Hammer-based."
-  short_description: "Super effective vs Steel. Can\'t be used twice in a row."
-  custom_behavior {
-    attack {
-      super_effective_vs: TYPE_STEEL
-    }
-  }
+  description: "Massive hammer slam. Can\'t be used twice in a row. Hammer-based."
+  short_description: "Massive hammer slam. Can\'t be used twice in a row."
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 140
+  power: 160
   accuracy: 100
   pp: 5
   every_other_turn: true
@@ -15970,16 +15965,14 @@ moves {
   id: MOVE_EARTHSPLITTER
   name: "Earthsplitter"
   short_name: "Earthspltter"
-  description: "Can lower the defense of targets. Hammer-based."
-  short_description: "A might slam that can lower defense."
-  effect: EFFECT_DEFENSE_DOWN_HIT
+  description: "Earth-shattering hammer smash. Hammer-based."
+  short_description: "A mighty hammer strike."
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
-  power: 75
+  power: 100
   accuracy: 100
   pp: 10
-  effect_chance: 50
   contact: true
   mirror_move_affected: true
   hammer: true
@@ -17097,17 +17090,12 @@ moves {
   id: MOVE_TSUNAMI_HAMMER
   name: "Tsunami Hammer"
   short_name: "WaveHammer"
-  description: "Super effective vs Poison. Can\'t be used twice in a row. Hammer-based."
-  short_description: "Super effective vs Water. Can\'t be used twice in a row."
-  custom_behavior {
-    attack {
-      super_effective_vs: TYPE_POISON
-    }
-  }
+  description: "Massive water impact. Can\'t be used twice in a row. Hammer-based."
+  short_description: "Massive water impact. Can\'t be used twice in a row."
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
-  power: 125
+  power: 160
   accuracy: 100
   pp: 5
   contact: true
@@ -17622,4 +17610,20 @@ moves {
   mirror_move_affected: true
   striker: true
   uses_animation: MOVE_MEGA_KICK
+}
+moves {
+  id: MOVE_DIAMOND_DUST
+  name: "Diamond Dust"
+  short_name: "DiamondDust"
+  description: "Ice crystal burst, 1.25/1.0 user\'s level in Singles/Doubles. Fails on Ice."
+  short_description: "1.25/1.0 user\'s level in Singles/Doubles. Fails on Ice."
+  effect: EFFECT_DIAMOND_DUST
+  split: SPECIAL
+  type: TYPE_ICE
+  target: BOTH
+  power: 1
+  accuracy: 100
+  pp: 15
+  mirror_move_affected: true
+  uses_animation: MOVE_POWDER_SNOW
 }

@@ -3334,8 +3334,8 @@ ability {
 ability {
   id: ABILITY_READIED_ACTION
   name: "Readied Action"
-  description: "Doubles attack on first turn."
-  expanded_description: "Increases the user's Attack stat by 2x for one turn. Multiplicative with other damage boosts. Reapplies after switching in."
+  description: "Ambush + Violent Rush."
+  expanded_description: "On first turn, guarantees a critical hit while also boosting the user's Attack by 20% and their Speed by 50%. Applies each time user switches in."
 }
 ability {
   id: ABILITY_DARK_GALE_WINGS
@@ -3686,8 +3686,8 @@ ability {
 ability {
   id: ABILITY_DEMOLITIONIST
   name: "Demolitionist"
-  description: "Readied Action + Ignores Protect + screens break on readied turn"
-  expanded_description: "Increases the user's Attack stat by 2x, breaks screens, and ignores Protection effects for one turn. Multiplicative with other damage boosts. Reapplies after switching in."
+  description: "Readied Action + 1st turn, ignore Protect, break screens."
+  expanded_description: "On first turn, guarantees a critical hit while also boosting the user's Attack by 20% and their Speed by 50%, breaking screens, and ignoring Protection effects. Applies each time user switches in."
 }
 ability {
   id: ABILITY_ROCKHARD_WILL
@@ -6153,4 +6153,10 @@ ability {
   name: "Fortifications"
   description: "On entry, set protective screen for weaker defense."
   expanded_description: "Sets up Reflect or Light Screen, based on user's weaker defense, upon entering battle, halving physical or special damage for your team. Lasts 5 turns, or 8 turns with Light Clay. Doesn't trigger again if the screen is already active."
+}
+ability {
+  id: ABILITY_ARMOR_BREAKER
+  name: "Armor Breaker"
+  description: "Makes Steel super effective against Steel."
+  expanded_description: "Makes user's Steel-type moves super effective against Steel-types instead of resisted."
 }
